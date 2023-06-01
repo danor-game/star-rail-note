@@ -1,0 +1,10 @@
+/node_modules
+
+/config
+
+/test/local
+/test/*.local.js
+
+/dist
+
+/data

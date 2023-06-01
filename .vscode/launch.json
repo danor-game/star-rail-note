@@ -1,0 +1,34 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"type": "node",
+			"request": "launch",
+			"name": "Launch Main",
+			"console": "integratedTerminal",
+			"skipFiles": [
+				"<node_internals>/**"
+			],
+			"cwd": "${fileDirname}",
+			"runtimeExecutable": "node.exe",
+			"program": "${workspaceFolder}/index.js",
+			"args": [
+				"fetch",
+				"101691019",
+			]
+		},
+		{
+			"type": "node",
+			"request": "launch",
+			"name": "Launch Current File",
+			"console": "integratedTerminal",
+			"skipFiles": [
+				"<node_internals>/**"
+			],
+			"cwd": "${fileDirname}",
+			"runtimeExecutable": "node.exe",
+			"program": "${fileBasename}",
+			"args": []
+		}
+	]
+}
