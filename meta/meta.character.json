@@ -1,0 +1,205 @@
+{
+	"1001": {
+		"id": "1001",
+		"element": "Ice",
+		"path": "Knight",
+		"rarity": 4,
+		"versionAdded": "1.0"
+	},
+	"1002": {
+		"id": "1002",
+		"element": "Wind",
+		"path": "Rogue",
+		"rarity": 4,
+		"versionAdded": "1.0"
+	},
+	"1003": {
+		"id": "1003",
+		"element": "Fire",
+		"path": "Mage",
+		"rarity": 5,
+		"versionAdded": "1.0"
+	},
+	"1004": {
+		"id": "1004",
+		"element": "Imaginary",
+		"path": "Warlock",
+		"rarity": 5,
+		"versionAdded": "1.0"
+	},
+	"1005": {
+		"id": "1005",
+		"element": "Thunder",
+		"path": "Warlock",
+		"rarity": 5,
+		"versionAdded": "1.0"
+	},
+	"1006": {
+		"id": "1006",
+		"element": "Quantum",
+		"path": "Warlock",
+		"rarity": 5,
+		"versionAdded": "1.0"
+	},
+	"1008": {
+		"id": "1008",
+		"element": "Thunder",
+		"path": "Warrior",
+		"rarity": 4,
+		"versionAdded": "1.0"
+	},
+	"1009": {
+		"id": "1009",
+		"element": "Fire",
+		"path": "Shaman",
+		"rarity": 4,
+		"versionAdded": "1.0"
+	},
+	"1013": {
+		"id": "1013",
+		"element": "Ice",
+		"path": "Mage",
+		"rarity": 4,
+		"versionAdded": "1.0"
+	},
+	"1101": {
+		"id": "1101",
+		"element": "Wind",
+		"path": "Shaman",
+		"rarity": 5,
+		"versionAdded": "1.0"
+	},
+	"1102": {
+		"id": "1102",
+		"element": "Quantum",
+		"path": "Rogue",
+		"rarity": 5,
+		"versionAdded": "1.0"
+	},
+	"1103": {
+		"id": "1103",
+		"element": "Thunder",
+		"path": "Mage",
+		"rarity": 4,
+		"versionAdded": "1.0"
+	},
+	"1104": {
+		"id": "1104",
+		"element": "Ice",
+		"path": "Knight",
+		"rarity": 5,
+		"versionAdded": "1.0"
+	},
+	"1105": {
+		"id": "1105",
+		"element": "Physical",
+		"path": "Priest",
+		"rarity": 4,
+		"versionAdded": "1.0"
+	},
+	"1106": {
+		"id": "1106",
+		"element": "Ice",
+		"path": "Warlock",
+		"rarity": 4,
+		"versionAdded": "1.0"
+	},
+	"1107": {
+		"id": "1107",
+		"element": "Physical",
+		"path": "Warrior",
+		"rarity": 5,
+		"versionAdded": "1.0"
+	},
+	"1108": {
+		"id": "1108",
+		"element": "Wind",
+		"path": "Warlock",
+		"rarity": 4,
+		"versionAdded": "1.0"
+	},
+	"1109": {
+		"id": "1109",
+		"element": "Fire",
+		"path": "Warrior",
+		"rarity": 4,
+		"versionAdded": "1.0"
+	},
+	"1201": {
+		"id": "1201",
+		"element": "Quantum",
+		"path": "Mage",
+		"rarity": 4,
+		"versionAdded": "1.0"
+	},
+	"1202": {
+		"id": "1202",
+		"element": "Thunder",
+		"path": "Shaman",
+		"rarity": 4,
+		"versionAdded": "1.0"
+	},
+	"1203": {
+		"id": "1203",
+		"element": "Imaginary",
+		"path": "Priest",
+		"rarity": 5,
+		"versionAdded": "1.0"
+	},
+	"1204": {
+		"id": "1204",
+		"element": "Thunder",
+		"path": "Mage",
+		"rarity": 5,
+		"versionAdded": "1.0"
+	},
+	"1206": {
+		"id": "1206",
+		"element": "Physical",
+		"path": "Rogue",
+		"rarity": 4,
+		"versionAdded": "1.0"
+	},
+	"1209": {
+		"id": "1209",
+		"element": "Ice",
+		"path": "Rogue",
+		"rarity": 5,
+		"versionAdded": "1.0"
+	},
+	"1211": {
+		"id": "1211",
+		"element": "Thunder",
+		"path": "Priest",
+		"rarity": 5,
+		"versionAdded": "1.0"
+	},
+	"8001": {
+		"id": "8001",
+		"element": "Physical",
+		"path": "Warrior",
+		"rarity": 5,
+		"versionAdded": "1.0"
+	},
+	"8002": {
+		"id": "8002",
+		"element": "Physical",
+		"path": "Warrior",
+		"rarity": 5,
+		"versionAdded": "1.0"
+	},
+	"8003": {
+		"id": "8003",
+		"element": "Fire",
+		"path": "Knight",
+		"rarity": 5,
+		"versionAdded": "1.0"
+	},
+	"8004": {
+		"id": "8004",
+		"element": "Fire",
+		"path": "Knight",
+		"rarity": 5,
+		"versionAdded": "1.0"
+	}
+}

@@ -1,6 +1,6 @@
 <template>
 	<!-- 侧边栏 -->
-	<Sidebar hidden />
+	<Sidebar />
 
 
 	<!-- 主模块 -->
@@ -13,7 +13,7 @@
 
 <script setup>
 	import { onMounted } from 'vue';
-	import { faCog } from '@fortawesome/free-solid-svg-icons';
+	import { faStarOfDavid } from '@fortawesome/free-solid-svg-icons';
 
 	import CV from '@nuogz/css-var';
 	import { Sidebar, moduleNow, tabs } from '@nuogz/vue-sidebar';
@@ -27,7 +27,7 @@
 	CV.widthScroll = '0.5rem';
 
 
-	onMounted(() => tabs.add('gachi-analysis', 'icon|title', { title: '跃迁分析', icon: faCog }));
+	onMounted(() => tabs.add('gacha-analysis', 'icon|title', { title: '跃迁分析', icon: faStarOfDavid }));
 </script>
 
 <style lang="sass" scoped>

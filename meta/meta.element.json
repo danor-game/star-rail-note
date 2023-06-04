@@ -1,0 +1,37 @@
+{
+	"Physical": {
+		"id": "Physical",
+		"color": "#FFFFFF",
+		"versionAdded": "1.0"
+	},
+	"Fire": {
+		"id": "Fire",
+		"color": "#F84F36",
+		"versionAdded": "1.0"
+	},
+	"Ice": {
+		"id": "Ice",
+		"color": "#47C7FD",
+		"versionAdded": "1.0"
+	},
+	"Thunder": {
+		"id": "Thunder",
+		"color": "#8872F1",
+		"versionAdded": "1.0"
+	},
+	"Wind": {
+		"id": "Wind",
+		"color": "#00FF9C",
+		"versionAdded": "1.0"
+	},
+	"Quantum": {
+		"id": "Quantum",
+		"color": "#1C29BA",
+		"versionAdded": "1.0"
+	},
+	"Imaginary": {
+		"id": "Imaginary",
+		"color": "#F4D258",
+		"versionAdded": "1.0"
+	}
+}

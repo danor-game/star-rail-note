@@ -1,4 +1,9 @@
 {
 	"eslint.experimental.useFlatConfig": true,
-	"files.trimTrailingWhitespace": true
+	"files.trimTrailingWhitespace": true,
+	"volar.format.initialIndent": {
+		"javascript": true,
+		"html": true
+	},
+	"vue.inlayHints.inlineHandlerLeading": false
 }

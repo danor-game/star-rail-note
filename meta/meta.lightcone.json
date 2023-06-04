@@ -1,0 +1,410 @@
+{
+	"20000": {
+		"id": "20000",
+		"path": "Rogue",
+		"rarity": 3,
+		"versionAdded": "1.0"
+	},
+	"20001": {
+		"id": "20001",
+		"path": "Priest",
+		"rarity": 3,
+		"versionAdded": "1.0"
+	},
+	"20002": {
+		"id": "20002",
+		"path": "Warrior",
+		"rarity": 3,
+		"versionAdded": "1.0"
+	},
+	"20003": {
+		"id": "20003",
+		"path": "Knight",
+		"rarity": 3,
+		"versionAdded": "1.0"
+	},
+	"20004": {
+		"id": "20004",
+		"path": "Warlock",
+		"rarity": 3,
+		"versionAdded": "1.0"
+	},
+	"20005": {
+		"id": "20005",
+		"path": "Shaman",
+		"rarity": 3,
+		"versionAdded": "1.0"
+	},
+	"20006": {
+		"id": "20006",
+		"path": "Mage",
+		"rarity": 3,
+		"versionAdded": "1.0"
+	},
+	"20007": {
+		"id": "20007",
+		"path": "Rogue",
+		"rarity": 3,
+		"versionAdded": "1.0"
+	},
+	"20008": {
+		"id": "20008",
+		"path": "Priest",
+		"rarity": 3,
+		"versionAdded": "1.0"
+	},
+	"20009": {
+		"id": "20009",
+		"path": "Warrior",
+		"rarity": 3,
+		"versionAdded": "1.0"
+	},
+	"20010": {
+		"id": "20010",
+		"path": "Knight",
+		"rarity": 3,
+		"versionAdded": "1.0"
+	},
+	"20011": {
+		"id": "20011",
+		"path": "Warlock",
+		"rarity": 3,
+		"versionAdded": "1.0"
+	},
+	"20012": {
+		"id": "20012",
+		"path": "Shaman",
+		"rarity": 3,
+		"versionAdded": "1.0"
+	},
+	"20013": {
+		"id": "20013",
+		"path": "Mage",
+		"rarity": 3,
+		"versionAdded": "1.0"
+	},
+	"20014": {
+		"id": "20014",
+		"path": "Rogue",
+		"rarity": 3,
+		"versionAdded": "1.0"
+	},
+	"20015": {
+		"id": "20015",
+		"path": "Priest",
+		"rarity": 3,
+		"versionAdded": "1.0"
+	},
+	"20016": {
+		"id": "20016",
+		"path": "Warrior",
+		"rarity": 3,
+		"versionAdded": "1.0"
+	},
+	"20017": {
+		"id": "20017",
+		"path": "Knight",
+		"rarity": 3,
+		"versionAdded": "1.0"
+	},
+	"20018": {
+		"id": "20018",
+		"path": "Warlock",
+		"rarity": 3,
+		"versionAdded": "1.0"
+	},
+	"20019": {
+		"id": "20019",
+		"path": "Shaman",
+		"rarity": 3,
+		"versionAdded": "1.0"
+	},
+	"20020": {
+		"id": "20020",
+		"path": "Mage",
+		"rarity": 3,
+		"versionAdded": "1.0"
+	},
+	"21000": {
+		"id": "21000",
+		"path": "Priest",
+		"rarity": 4,
+		"versionAdded": "1.0"
+	},
+	"21001": {
+		"id": "21001",
+		"path": "Warlock",
+		"rarity": 4,
+		"versionAdded": "1.0"
+	},
+	"21002": {
+		"id": "21002",
+		"path": "Knight",
+		"rarity": 4,
+		"versionAdded": "1.0"
+	},
+	"21003": {
+		"id": "21003",
+		"path": "Rogue",
+		"rarity": 4,
+		"versionAdded": "1.0"
+	},
+	"21004": {
+		"id": "21004",
+		"path": "Shaman",
+		"rarity": 4,
+		"versionAdded": "1.0"
+	},
+	"21005": {
+		"id": "21005",
+		"path": "Warrior",
+		"rarity": 4,
+		"versionAdded": "1.0"
+	},
+	"21006": {
+		"id": "21006",
+		"path": "Mage",
+		"rarity": 4,
+		"versionAdded": "1.0"
+	},
+	"21007": {
+		"id": "21007",
+		"path": "Priest",
+		"rarity": 4,
+		"versionAdded": "1.0"
+	},
+	"21008": {
+		"id": "21008",
+		"path": "Warlock",
+		"rarity": 4,
+		"versionAdded": "1.0"
+	},
+	"21009": {
+		"id": "21009",
+		"path": "Knight",
+		"rarity": 4,
+		"versionAdded": "1.0"
+	},
+	"21010": {
+		"id": "21010",
+		"path": "Rogue",
+		"rarity": 4,
+		"versionAdded": "1.0"
+	},
+	"21011": {
+		"id": "21011",
+		"path": "Shaman",
+		"rarity": 4,
+		"versionAdded": "1.0"
+	},
+	"21012": {
+		"id": "21012",
+		"path": "Warrior",
+		"rarity": 4,
+		"versionAdded": "1.0"
+	},
+	"21013": {
+		"id": "21013",
+		"path": "Mage",
+		"rarity": 4,
+		"versionAdded": "1.0"
+	},
+	"21014": {
+		"id": "21014",
+		"path": "Priest",
+		"rarity": 4,
+		"versionAdded": "1.0"
+	},
+	"21015": {
+		"id": "21015",
+		"path": "Warlock",
+		"rarity": 4,
+		"versionAdded": "1.0"
+	},
+	"21016": {
+		"id": "21016",
+		"path": "Knight",
+		"rarity": 4,
+		"versionAdded": "1.0"
+	},
+	"21017": {
+		"id": "21017",
+		"path": "Rogue",
+		"rarity": 4,
+		"versionAdded": "1.0"
+	},
+	"21018": {
+		"id": "21018",
+		"path": "Shaman",
+		"rarity": 4,
+		"versionAdded": "1.0"
+	},
+	"21019": {
+		"id": "21019",
+		"path": "Warrior",
+		"rarity": 4,
+		"versionAdded": "1.0"
+	},
+	"21020": {
+		"id": "21020",
+		"path": "Mage",
+		"rarity": 4,
+		"versionAdded": "1.0"
+	},
+	"21021": {
+		"id": "21021",
+		"path": "Priest",
+		"rarity": 4,
+		"versionAdded": "1.0"
+	},
+	"21022": {
+		"id": "21022",
+		"path": "Warlock",
+		"rarity": 4,
+		"versionAdded": "1.0"
+	},
+	"21023": {
+		"id": "21023",
+		"path": "Knight",
+		"rarity": 4,
+		"versionAdded": "1.0"
+	},
+	"21024": {
+		"id": "21024",
+		"path": "Rogue",
+		"rarity": 4,
+		"versionAdded": "1.0"
+	},
+	"21025": {
+		"id": "21025",
+		"path": "Shaman",
+		"rarity": 4,
+		"versionAdded": "1.0"
+	},
+	"21026": {
+		"id": "21026",
+		"path": "Warrior",
+		"rarity": 4,
+		"versionAdded": "1.0"
+	},
+	"21027": {
+		"id": "21027",
+		"path": "Mage",
+		"rarity": 4,
+		"versionAdded": "1.0"
+	},
+	"21028": {
+		"id": "21028",
+		"path": "Priest",
+		"rarity": 4,
+		"versionAdded": "1.0"
+	},
+	"21029": {
+		"id": "21029",
+		"path": "Warlock",
+		"rarity": 4,
+		"versionAdded": "1.0"
+	},
+	"21030": {
+		"id": "21030",
+		"path": "Knight",
+		"rarity": 4,
+		"versionAdded": "1.0"
+	},
+	"21031": {
+		"id": "21031",
+		"path": "Rogue",
+		"rarity": 4,
+		"versionAdded": "1.0"
+	},
+	"21032": {
+		"id": "21032",
+		"path": "Shaman",
+		"rarity": 4,
+		"versionAdded": "1.0"
+	},
+	"21033": {
+		"id": "21033",
+		"path": "Warrior",
+		"rarity": 4,
+		"versionAdded": "1.0"
+	},
+	"21034": {
+		"id": "21034",
+		"path": "Mage",
+		"rarity": 4,
+		"versionAdded": "1.0"
+	},
+	"23000": {
+		"id": "23000",
+		"path": "Mage",
+		"rarity": 5,
+		"versionAdded": "1.0"
+	},
+	"23001": {
+		"id": "23001",
+		"path": "Rogue",
+		"rarity": 5,
+		"versionAdded": "1.0"
+	},
+	"23002": {
+		"id": "23002",
+		"path": "Warrior",
+		"rarity": 5,
+		"versionAdded": "1.0"
+	},
+	"23003": {
+		"id": "23003",
+		"path": "Shaman",
+		"rarity": 5,
+		"versionAdded": "1.0"
+	},
+	"23004": {
+		"id": "23004",
+		"path": "Warlock",
+		"rarity": 5,
+		"versionAdded": "1.0"
+	},
+	"23005": {
+		"id": "23005",
+		"path": "Knight",
+		"rarity": 5,
+		"versionAdded": "1.0"
+	},
+	"23010": {
+		"id": "23010",
+		"path": "Mage",
+		"rarity": 5,
+		"versionAdded": "1.0"
+	},
+	"23012": {
+		"id": "23012",
+		"path": "Rogue",
+		"rarity": 5,
+		"versionAdded": "1.0"
+	},
+	"23013": {
+		"id": "23013",
+		"path": "Priest",
+		"rarity": 5,
+		"versionAdded": "1.0"
+	},
+	"24000": {
+		"id": "24000",
+		"path": "Warrior",
+		"rarity": 5,
+		"versionAdded": "1.0"
+	},
+	"24001": {
+		"id": "24001",
+		"path": "Rogue",
+		"rarity": 5,
+		"versionAdded": "1.0"
+	},
+	"24002": {
+		"id": "24002",
+		"path": "Knight",
+		"rarity": 5,
+		"versionAdded": "1.0"
+	}
+}

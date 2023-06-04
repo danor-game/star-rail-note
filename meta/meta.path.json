@@ -1,0 +1,30 @@
+{
+	"Warrior": {
+		"id": "Warrior",
+		"versionAdded": "1.0"
+	},
+	"Rogue": {
+		"id": "Rogue",
+		"versionAdded": "1.0"
+	},
+	"Mage": {
+		"id": "Mage",
+		"versionAdded": "1.0"
+	},
+	"Shaman": {
+		"id": "Shaman",
+		"versionAdded": "1.0"
+	},
+	"Warlock": {
+		"id": "Warlock",
+		"versionAdded": "1.0"
+	},
+	"Knight": {
+		"id": "Knight",
+		"versionAdded": "1.0"
+	},
+	"Priest": {
+		"id": "Priest",
+		"versionAdded": "1.0"
+	}
+}
