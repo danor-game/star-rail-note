@@ -41,6 +41,18 @@ p-main
 		@apply block relative
 </style>
 
+<style lang="sass" scoped>
+comp-sidebar :deep(p-tab)
+	@apply ring-[#E9B577] #{!important}
+
+:deep(comp-click)
+	@apply text-[var(--colorText)]
+</style>
+<style lang="sass">
+.tippy-box
+	@apply shadow-mdd px-2 bg-[var(--colorMain)] #{!important}
+</style>
+
 
 <style lang="postcss">
 @tailwind base;
@@ -51,12 +63,12 @@ p-main
 
 <style lang="sass">
 html
-	--colorMain: theme("colors.blue.500")
+	--colorMain: #D99A4C
 	--colorMainDark: theme("colors.blue.700")
 	--colorMainLight: theme("colors.blue.400")
-	--colorBackground: theme("colors.gray.100")
-	--colorText: theme("colors.gray.900")
-	--colorTextMain: theme("colors.gray.100")
+	--colorBackground: theme("colors.gray.700")
+	--colorText: theme("colors.gray.100")
+	--colorTextMain: theme("colors.gray.700")
 	--colorDisable: theme("colors.gray.500")
 	--colorOkay: theme("colors.green.500")
 	--colorFail: theme("colors.red.500")
@@ -67,6 +79,8 @@ html
 html
 	@apply h-full overflow-x-hidden overflow-y-auto
 	color: var(--colorText)
+	background: var(--colorBackground)
+	font-family: 'Source Code Pro'
 
 
 // body

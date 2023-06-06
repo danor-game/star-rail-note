@@ -5,6 +5,7 @@ const plugin = require('tailwindcss/plugin');
 // const space = time => `${time * spacing}${unit}`;
 
 
+/** @type {import('tailwindcss').Config} */
 module.exports = {
 	content: ['./src/index.html', './src/**/*.{vue,js,ts,jsx,tsx}'],
 	theme: {
