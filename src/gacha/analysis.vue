@@ -50,7 +50,7 @@
 				</p-line>
 				<p-line v-if="analysis.pool.itemsBoost5" class="text-sm">○ {{ analysis.pool.itemsBoost5.map(idItem => M.items$id[idItem]?.name).join(' / ') }}</p-line>
 				<p-line v-if="analysis.pool.itemsBoost4" class="text-sm">○ {{ analysis.pool.itemsBoost4.map(idItem => M.items$id[idItem]?.name).join(' / ') }}</p-line>
-				<p-line class="text-sm">○ {{ analysis.pool.timeBegin ? Day.unix(analysis.pool.timeBegin).format('MM月DD日 HH时mm分') : '开服' }} ~ {{ Day.unix(analysis.pool.timeEnd).format('MM月DD日 HH时mm分') }}</p-line>
+				<p-line class="text-sm">○ {{ Day.unix(analysis.pool.timeEnd).format('MM月DD日 HH时mm分') }} 结束</p-line>
 				<p-line class="mb-0 mt-2 text-right"><span value-highlight>{{ analysis.logs.length }}</span> 次抽卡 <span value-highlight>{{ String(analysis.logs5.length).padStart(2, '&nbsp;') }}</span> 五星对象 <span value-highlight>{{ String(analysis.logs4.length).padStart(2, '&nbsp;') }}</span> 四星对象</p-line>
 			</p-gather>
 		</p-box>

@@ -160,6 +160,13 @@
 		"rarity": 4,
 		"versionAdded": "1.0"
 	},
+	"1207": {
+		"id": "1206",
+		"element": "Imaginary",
+		"path": "Shaman",
+		"rarity": 4,
+		"versionAdded": "1.1"
+	},
 	"1209": {
 		"id": "1209",
 		"element": "Ice",

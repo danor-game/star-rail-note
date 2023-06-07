@@ -335,6 +335,12 @@
 		"rarity": 4,
 		"versionAdded": "1.0"
 	},
+	"22000": {
+		"id": "22000",
+		"path": "Warlock",
+		"rarity": 4,
+		"versionAdded": "1.1"
+	},
 	"23000": {
 		"id": "23000",
 		"path": "Mage",
@@ -371,6 +377,18 @@
 		"path": "Knight",
 		"rarity": 5,
 		"versionAdded": "1.0"
+	},
+	"23007": {
+		"id": "23007",
+		"path": "Warlock",
+		"rarity": 5,
+		"versionAdded": "1.1"
+	},
+	"23008": {
+		"id": "23008",
+		"path": "Priest",
+		"rarity": 5,
+		"versionAdded": "1.1"
 	},
 	"23010": {
 		"id": "23010",
