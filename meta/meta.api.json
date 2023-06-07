@@ -1,0 +1,5 @@
+{
+	"urlGachaLog": "https://api-takumi.mihoyo.com/common/gacha_record/api/getGachaLog",
+	"lang": "zh-cn",
+	"bizGame": "hkrpg_cn"
+}
