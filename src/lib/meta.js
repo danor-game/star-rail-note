@@ -23,10 +23,10 @@ import poolsGachaMeta from '../../meta/meta.poolGacha.json';
 
 const loadLocale = async (type, lang = window.NENV_I18N_LOCALE) => {
 	try {
-		return (await import(`../../meta/${lang}/${type}.json`)).default;
+		return (await import(`../../meta/locale/${lang}/locale.${type}.json`)).default;
 	}
 	catch(error) {
-		return (await import(`../../meta/${lang.split('-')[0]}/${type}.json`)).default;
+		return (await import(`../../meta/locale/${lang.split('-')[0]}/locale.${type}.json`)).default;
 	}
 };
 
@@ -54,9 +54,9 @@ const order$typeItemPool = {
 
 const characters$id = mixiObjects(charactersMeta, await loadLocale('character'));
 const lightcones$id = mixiObjects(lightconesMeta, await loadLocale('lightcone'));
-const typesGacha$id = mixiObjects(typesGachaMeta, await loadLocale('type-gacha'));
+const typesGacha$id = mixiObjects(typesGachaMeta, await loadLocale('typeGacha'));
 /** @type {Object<string, GachaPool>} */
-const poolsGacha$id = mixiObjects(poolsGachaMeta, await loadLocale('pool-gacha'));
+const poolsGacha$id = mixiObjects(poolsGachaMeta, await loadLocale('poolGacha'));
 
 const M = {
 	characters$id,

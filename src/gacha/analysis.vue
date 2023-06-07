@@ -19,8 +19,8 @@
 			<p-gather v-for="[id, analysis] of Object.entries(A.typesGacha).sort(sortEntriesByValueOrder)" :key="`gather-type-${id}`">
 				<p-line class="text-lg font-bold mb-2">{{ analysis.name }}</p-line>
 				<p-line class="mb-0 mt-2 text-right"><span value-highlight>{{ analysis.logs.length }}</span> 次抽卡</p-line>
-				<p-line class="mb-0 mt-2 text-right"><span value-highlight>{{ analysis.logs5.length }}</span> 五星对象</p-line>
-				<p-line class="mb-0 mt-2 text-right"><span value-highlight>{{ analysis.logs4.length }}</span> 四星对象</p-line>
+				<p-line class="mb-0 mt-2 text-right"><span value-highlight>{{ String(analysis.logs5.length).padStart(2, '&nbsp;') }}</span> 五星对象</p-line>
+				<p-line class="mb-0 mt-2 text-right"><span value-highlight>{{ String(analysis.logs4.length).padStart(2, '&nbsp;') }}</span> 四星对象</p-line>
 			</p-gather>
 		</p-box>
 
@@ -33,8 +33,8 @@
 					<span class="text-xs">{{ name$typeItemPool[analysis.pool.typeItem] }}</span>
 				</p-line>
 				<p-line class="mb-0 mt-2 text-right"><span value-highlight>{{ analysis.logs.length }}</span> 次抽卡</p-line>
-				<p-line class="mb-0 mt-2 text-right"><span value-highlight>{{ analysis.logs5.length }}</span> 五星对象</p-line>
-				<p-line class="mb-0 mt-2 text-right"><span value-highlight>{{ analysis.logs4.length }}</span> 四星对象</p-line>
+				<p-line class="mb-0 mt-2 text-right"><span value-highlight>{{ String(analysis.logs5.length).padStart(2, '&nbsp;') }}</span> 五星对象</p-line>
+				<p-line class="mb-0 mt-2 text-right"><span value-highlight>{{ String(analysis.logs4.length).padStart(2, '&nbsp;') }}</span> 四星对象</p-line>
 			</p-gather>
 		</p-box> -->
 
@@ -51,7 +51,7 @@
 				<p-line v-if="analysis.pool.itemsBoost5" class="text-sm">○ {{ analysis.pool.itemsBoost5.map(idItem => M.items$id[idItem]?.name).join(' / ') }}</p-line>
 				<p-line v-if="analysis.pool.itemsBoost4" class="text-sm">○ {{ analysis.pool.itemsBoost4.map(idItem => M.items$id[idItem]?.name).join(' / ') }}</p-line>
 				<p-line class="text-sm">○ {{ analysis.pool.timeBegin ? Day.unix(analysis.pool.timeBegin).format('MM月DD日 HH时mm分') : '开服' }} ~ {{ Day.unix(analysis.pool.timeEnd).format('MM月DD日 HH时mm分') }}</p-line>
-				<p-line class="mb-0 mt-2 text-right"><span value-highlight>{{ analysis.logs.length }}</span> 次抽卡 <span value-highlight>{{ analysis.logs5.length }}</span> 五星对象 <span value-highlight>{{ analysis.logs4.length }}</span> 四星对象</p-line>
+				<p-line class="mb-0 mt-2 text-right"><span value-highlight>{{ analysis.logs.length }}</span> 次抽卡 <span value-highlight>{{ String(analysis.logs5.length).padStart(2, '&nbsp;') }}</span> 五星对象 <span value-highlight>{{ String(analysis.logs4.length).padStart(2, '&nbsp;') }}</span> 四星对象</p-line>
 			</p-gather>
 		</p-box>
 		<p-box>
@@ -66,7 +66,7 @@
 				</p-line>
 				<p-line v-if="analysis.pool.itemsBoost5" class="text-sm">○ {{ analysis.pool.itemsBoost5.map(idItem => M.items$id[idItem]?.name).join(' / ') }}</p-line>
 				<p-line v-if="analysis.pool.itemsBoost4" class="text-sm">○ {{ analysis.pool.itemsBoost4.map(idItem => M.items$id[idItem]?.name).join(' / ') }}</p-line>
-				<p-line class="mb-0 mt-2 text-right"><span value-highlight>{{ analysis.logs.length }}</span> 次抽卡 <span value-highlight>{{ analysis.logs5.length }}</span> 五星对象 <span value-highlight>{{ analysis.logs4.length }}</span> 四星对象</p-line>
+				<p-line class="mb-0 mt-2 text-right"><span value-highlight>{{ analysis.logs.length }}</span> 次抽卡 <span value-highlight>{{ String(analysis.logs5.length).padStart(2, '&nbsp;') }}</span> 五星对象 <span value-highlight>{{ String(analysis.logs4.length).padStart(2, '&nbsp;') }}</span> 四星对象</p-line>
 				<p-line>
 					<p-item v-if="analysis.countInvestNext"> 当前已垫 <span style="color: var(--colorMain)">{{ analysis.countInvestNext }}</span> 抽</p-item>
 					<p-item v-for="log of analysis.logsRare " :key="`gather-pool-detail-${id}-${log.id}`"
