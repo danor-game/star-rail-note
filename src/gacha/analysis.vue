@@ -114,7 +114,7 @@
 		lightcone: 2,
 	};
 
-	const $uid = ref('101691019');
+	const $uid = ref(window.DEFAULT_UID);
 	/** @type {import('vue').Ref<import('../../lib/fetch-log.js').ParsedLog[]>} */
 	const $logs = ref([]);
 
@@ -222,10 +222,10 @@ p-gacha-box
 
 
 			&[_rarity-4]
-				@apply inblock w-fit
+				@apply inblock
 
 				>p-name
-					@apply text-purple-400
+					@apply w-fit text-purple-400
 
 
 			progress

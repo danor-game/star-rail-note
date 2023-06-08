@@ -5,6 +5,12 @@ import { defineConfig } from 'vite';
 import pluginVue from '@vitejs/plugin-vue';
 
 
+process.env.NENV_PKG_PATH = import.meta.url;
+process.env.NENV_PANGU = 'config;day';
+
+const { C, Day } = await import('@nuogz/pangu');
+
+
 
 const dirPackage = dirname(fileURLToPath(import.meta.url));
 
@@ -32,6 +38,10 @@ export default defineConfig(({ mode }) => {
 			esbuildOptions: {
 				target: 'esnext'
 			}
+		},
+		define: {
+			'DEFAULT_UID': `'${C.default.uid}'`,
+			'BUILD_TIME': Day().unix()
 		},
 		publicDir: resolve(dirPackage, 'src', 'public'),
 		clearScreen: false,

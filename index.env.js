@@ -13,4 +13,10 @@ process.preloadCommand = (CMD, resultCommand) => {
 		.argument('<key>', '关键词')
 		.argument('[key-type]', '关键词类型', 'uid')
 		.action((key, typeKey) => resultCommand.$fetch = { key, typeKey });
+
+	CMD.command('show-url')
+		.description('显示日志URL，用于其他应用提取')
+		.argument('<key>', '关键词')
+		.argument('[key-type]', '关键词类型', 'uid')
+		.action((key, typeKey) => resultCommand.$showURL = { key, typeKey });
 };

@@ -12,10 +12,7 @@
 			"cwd": "${fileDirname}",
 			"runtimeExecutable": "node.exe",
 			"program": "${workspaceFolder}/index.js",
-			"args": [
-				"fetch",
-				"101691019",
-			]
+			"args": []
 		},
 		{
 			"type": "node",
