@@ -59,20 +59,28 @@
 			<p-gather v-for="[id, analysis] of Object.entries(A.pools).sort(sortEntriesByValueOrder2) " :id="`pool-detail-${analysis.pool.id}`" :key="`gather-pool-detail-${id}`"
 				_width-4 class="block"
 			>
-				<p-line class="mb-2">
+				<p-line class="mb-6">
 					<span class="text-lg font-bold text-[var(--colorMain)]">{{ analysis.name }}</span>
 					<span v-if="analysis.pool.typeItem == 'character'" class="text-xs">&nbsp;{{ M.characters$id[analysis.pool.itemsBoost5[0]]?.name }}</span>
 					<span v-if="analysis.pool.typeItem == 'lightcone'" class="text-xs">&nbsp;{{ M.characters$id[M.lightcones$id[analysis.pool.itemsBoost5[0]]?.characterBest]?.name }}光锥</span>
+					<span class="float-right text-right"><span value-highlight>{{ analysis.logs.length }}</span> 次抽卡 <span value-highlight>{{ String(analysis.logs5.length).padStart(2, '&nbsp;') }}</span> 五星对象 <span value-highlight>{{ String(analysis.logs4.length).padStart(2, '&nbsp;') }}</span> 四星对象</span>
+					<template v-if="analysis.pool.itemsBoost5">
+						<br />
+						<span class="text-sm leading-10 text-yellow-400">{{ analysis.pool.itemsBoost5.map(idItem => M.items$id[idItem]?.name).join(' / ') }}</span>
+						/
+						<span class="text-sm leading-10 text-purple-400">{{ analysis.pool.itemsBoost4.map(idItem => M.items$id[idItem]?.name).join(' / ') }}</span>
+					</template>
 				</p-line>
-				<p-line v-if="analysis.pool.itemsBoost5" class="text-sm">○ {{ analysis.pool.itemsBoost5.map(idItem => M.items$id[idItem]?.name).join(' / ') }}</p-line>
-				<p-line v-if="analysis.pool.itemsBoost4" class="text-sm">○ {{ analysis.pool.itemsBoost4.map(idItem => M.items$id[idItem]?.name).join(' / ') }}</p-line>
-				<p-line class="mb-0 mt-2 text-right"><span value-highlight>{{ analysis.logs.length }}</span> 次抽卡 <span value-highlight>{{ String(analysis.logs5.length).padStart(2, '&nbsp;') }}</span> 五星对象 <span value-highlight>{{ String(analysis.logs4.length).padStart(2, '&nbsp;') }}</span> 四星对象</p-line>
 				<p-line>
-					<p-item v-if="analysis.countInvestNext"> 当前已垫 <span style="color: var(--colorMain)">{{ analysis.countInvestNext }}</span> 抽</p-item>
+					<p-item v-if="analysis.countInvestNext">
+						<p-image _unknown>?</p-image>
+						<p-name class="w-fit">当前已垫 <span style="color: var(--colorMain)">{{ String(analysis.countInvestNext).padStart(2, '&nbsp;') }}</span> 抽</p-name>
+					</p-item>
 					<p-item v-for="log of analysis.logsRare " :key="`gather-pool-detail-${id}-${log.id}`"
 						:_rarity-5="brop(M.items$id[log.item]?.rarity == 5)"
 						:_rarity-4="brop(M.items$id[log.item]?.rarity == 4)"
 					>
+						<p-image><img :src="`../resource/item/${log.item}.png`" /></p-image>
 						<p-name v-tip.duration-1="M.items$id[log.item]?.name ?? ''">{{ M.items$id[log.item]?.name }}</p-name>
 						<progress v-if="M.items$id[log.item]?.rarity == 5" style="width: calc(0.1rem * 140);"
 							:_worse="brop(!log.missed && log.countInvest >= 45)"
@@ -84,9 +92,12 @@
 							（本期 <span style="color:var(--colorMain)">{{ log.countInvest - log.countInvestPrev }}</span> + 上期 <span style="color:var(--colorMain)">{{ log.countInvestPrev }}</span>）
 						</p-progress-text>
 						<p-progress-text v-else-if="log.countInvest"><span style="color:var(--colorMain)">{{ String(log.countInvest).padStart(2, '&nbsp;') }}</span> 抽</p-progress-text>
-						<p-miss v-if="log.missed" class="ml-2 text-red-400">歪😭</p-miss>
+						<p-miss v-if="log.missed">歪😭</p-miss>
 					</p-item>
-					<p-item v-if="analysis.countInvestPrev"> 上期已垫 <span style="color:var(--colorMain)">{{ analysis.countInvestPrev }}</span> 抽</p-item>
+					<p-item v-if="analysis.countInvestPrev">
+						<p-image _unknown>?</p-image>
+						<p-name class="w-fit">上期已垫 <span style="color:var(--colorMain)">{{ String(analysis.countInvestPrev).padStart(2, '&nbsp;') }}</span> 抽</p-name>
+					</p-item>
 				</p-line>
 			</p-gather>
 		</p-box>
@@ -210,11 +221,20 @@ p-gacha-box
 		p-item
 			@apply block relative rounded-md w-fit px-4 m-1
 
+			p-image
+				@apply inblock w-10 h-10 leading-10 mr-2 text-2xl text-center
+
+				&[_unknown]
+					@apply rounded-full border-2 leading-9
+
 			p-name
-				@apply inblock w-24 elli
+				@apply inblock w-24 h-10 leading-10 elli
 
 			p-progress-text
-				@apply inblock ml-2
+				@apply inblock ml-2 h-10 leading-10
+
+			p-miss
+				@apply inblock ml-2 h-10 leading-10 text-red-400
 
 			&[_rarity-5]
 				>p-name
@@ -229,7 +249,7 @@ p-gacha-box
 
 
 			progress
-				@apply inblock h-6 rounded-md relative top-1 leading-6 ml-2
+				@apply inblock h-8 rounded-md relative top-1 ml-2
 				color: var(--colorTextMain)
 
 
