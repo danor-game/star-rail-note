@@ -27,7 +27,8 @@
 	],
 	"scripts": {
 		"develop": "vite --force --host",
-		"build": "vite build --force"
+		"build": "vite build --force",
+		"preview": "http-server dist -a 127.0.0.1 -p 14713"
 	},
 	"devDependencies": {
 		"@fortawesome/fontawesome-svg-core": "^6.4.0",

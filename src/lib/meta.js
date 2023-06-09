@@ -2,6 +2,8 @@ import charactersMeta from '../../meta/meta.character.json';
 import lightconesMeta from '../../meta/meta.lightcone.json';
 import typesGachaMeta from '../../meta/meta.typeGacha.json';
 import poolsGachaMeta from '../../meta/meta.poolGacha.json';
+import elementsMeta from '../../meta/meta.element.json';
+import pathsMeta from '../../meta/meta.path.json';
 
 
 
@@ -57,6 +59,8 @@ const lightcones$id = mixiObjects(lightconesMeta, await loadLocale('lightcone'))
 const typesGacha$id = mixiObjects(typesGachaMeta, await loadLocale('typeGacha'));
 /** @type {Object<string, GachaPool>} */
 const poolsGacha$id = mixiObjects(poolsGachaMeta, await loadLocale('poolGacha'));
+const elements$id = mixiObjects(elementsMeta, await loadLocale('element'));
+const paths$id = mixiObjects(pathsMeta, await loadLocale('path'));
 
 const M = {
 	characters$id,
@@ -74,6 +78,12 @@ const M = {
 
 	poolsGacha$id,
 	poolsGacha: Object.values(poolsGacha$id).sort((a, b) => (b.timeEnd ?? 0) - (a.timeEnd ?? 0) || (order$typeItemPool[a.typeItem] - order$typeItemPool[b.typeItem])),
+
+	elements$id,
+	elements: Object.values(elements$id),
+
+	paths$id,
+	paths: Object.values(paths$id),
 };
 
 M.poolsGacha.splice(0, 0, ...M.poolsGacha.splice(M.poolsGacha.indexOf(p => p.type == 1) - 1, 1));

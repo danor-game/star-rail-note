@@ -49,7 +49,7 @@ comp-sidebar :deep(p-tab)
 	@apply text-[var(--colorText)]
 </style>
 <style lang="sass">
-.tippy-box
+.tippy-box[data-theme~='light-border']
 	@apply shadow-mdd px-2 bg-[var(--colorMain)] #{!important}
 </style>
 
@@ -64,8 +64,8 @@ comp-sidebar :deep(p-tab)
 <style lang="sass">
 html
 	--colorMain: #D99A4C
-	--colorMainDark: theme("colors.blue.700")
-	--colorMainLight: theme("colors.blue.400")
+	--colorMainDark: #C8812A
+	--colorMainLight: #E2B276
 	--colorBackground: theme("colors.gray.700")
 	--colorText: theme("colors.gray.100")
 	--colorTextMain: theme("colors.gray.700")

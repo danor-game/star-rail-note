@@ -82,13 +82,20 @@
 						:_rarity-5="brop(M.items$id[log.item]?.rarity == 5)"
 						:_rarity-4="brop(M.items$id[log.item]?.rarity == 4)"
 					>
-						<p-image><img :src="`../resource/item/${log.item}.png`" /></p-image>
-						<p-name v-tip.duration-1="M.items$id[log.item]?.name ?? ''">{{ M.items$id[log.item]?.name }}</p-name>
-						<progress v-if="M.items$id[log.item]?.rarity == 5"
-							:_worse="brop(!log.missed && log.countInvest >= 45)"
-							:_missed="brop(log.missed)"
-							:max="M.typesGacha$id[log.type]?.minimum5 ?? 90" :value="log.countInvest ?? 0"
-						/>
+						<p-image @mouseenter="showItemTips(log.item, $event)"><img :src="`./image/item/${log.item}.png`" /></p-image>
+						<p-name @mouseenter="showItemTips(log.item, $event)">{{ M.items$id[log.item]?.name }}</p-name>
+						<p-progress :missed="brop(log.missed)">
+							<p-value
+								:style="{
+									width: `${100 * (log.countInvest ?? 0) / (M.typesGacha$id[log.type]?.minimum5 ?? 90)}%`,
+									backgroundColor: log.missed ? null : pickGradientColor(
+										[250, 204, 21],
+										[52, 211, 153],
+										(log.countInvest ?? 0) / (M.typesGacha$id[log.type]?.minimum5 ?? 90)
+									)
+								}"
+							/>
+						</p-progress>
 						<p-progress-text v-if="log.countInvest && log.countInvestPrev">
 							<span count>{{ String(log.countInvest).padStart(2, '&nbsp;') }}</span> 抽
 							（本期 <span count>{{ log.countInvest - log.countInvestPrev }}</span> + 上期 <span count>{{ log.countInvestPrev }}</span>）
@@ -123,34 +130,50 @@
 						:_rarity-5="brop(M.items$id[log.item]?.rarity == 5)"
 						:_rarity-4="brop(M.items$id[log.item]?.rarity == 4)"
 					>
-						<p-image><img :src="`../resource/item/${log.item}.png`" /></p-image>
-						<p-name v-tip.duration-1="M.items$id[log.item]?.name ?? ''">{{ M.items$id[log.item]?.name }}</p-name>
-						<progress v-if="M.items$id[log.item]?.rarity == 5"
-							:_worse="brop(!log.missed && log.countInvest >= 45)"
-							:_missed="brop(log.missed)"
-							:max="M.typesGacha$id[log.type]?.minimum5 ?? 90" :value="log.countInvest ?? 0"
-						/>
+						<p-image @mouseenter="showItemTips(log.item, $event)"><img :src="`./image/item/${log.item}.png`" /></p-image>
+						<p-name @mouseenter="showItemTips(log.item, $event)">{{ M.items$id[log.item]?.name }}</p-name>
+						<p-progress :missed="brop(log.missed)">
+							<p-value
+								:style="{
+									width: `${100 * (log.countInvest ?? 0) / (M.typesGacha$id[log.type]?.minimum5 ?? 90)}%`,
+									backgroundColor: log.missed ? null : pickGradientColor(
+										[250, 204, 21],
+										[52, 211, 153],
+										(log.countInvest ?? 0) / (M.typesGacha$id[log.type]?.minimum5 ?? 90)
+									)
+								}"
+							/>
+						</p-progress>
 						<p-progress-text v-if="log.countInvest && log.countInvestPrev">
-							<span style="color:var(--colorMain)">{{ String(log.countInvest).padStart(2, '&nbsp;') }}</span> 抽
-							（本期 <span style="color:var(--colorMain)">{{ log.countInvest - log.countInvestPrev }}</span> + 上期 <span style="color:var(--colorMain)">{{ log.countInvestPrev }}</span>）
+							<span count>{{ String(log.countInvest).padStart(2, '&nbsp;') }}</span> 抽
+							（本期 <span count>{{ log.countInvest - log.countInvestPrev }}</span> + 上期 <span count>{{ log.countInvestPrev }}</span>）
 						</p-progress-text>
 						<p-progress-text v-else-if="log.countInvest">
-							<span style="color:var(--colorMain)">{{ String(log.countInvest).padStart(2, '&nbsp;') }}</span>
+							<span count>{{ String(log.countInvest).padStart(2, '&nbsp;') }}</span>
 							<span :missed="brop(log.missed)">{{ log.missed ? ' 歪' : ' 抽' }}</span>
 						</p-progress-text>
 					</p-item>
 					<p-item v-if="analysis.countInvestPrev" class="mt-4">
 						<p-image _unknown>?</p-image>
-						<p-name class="w-fit">上期已垫 <span style="color:var(--colorMain)">{{ String(analysis.countInvestPrev).padStart(2, '&nbsp;') }}</span> 抽</p-name>
+						<p-name class="w-fit">上期已垫 <span count>{{ String(analysis.countInvestPrev).padStart(2, '&nbsp;') }}</span> 抽</p-name>
 					</p-item>
 				</p-line>
 			</p-gather>
 		</p-box>
 	</p-gacha-box>
+
+	<p-tips-item ref="domTipsItem">
+		<img :src="`./image/item/${itemTips?.id}.png`" />
+		<p-info>▶ {{ itemTips?.name }} {{ M.paths$id[itemTips?.path]?.name }} {{ M.elements$id[itemTips?.element]?.name }}</p-info>
+	</p-tips-item>
 </template>
 
 <script setup>
 	import { computed, onMounted, ref } from 'vue';
+
+	import Tippy from 'tippy.js';
+	import '@nuogz/vue-tip/src/index.css';
+
 	import { Click, Combo, Texter } from '@nuogz/vue-components';
 	import { $fail } from '@nuogz/vue-alert';
 
@@ -159,6 +182,9 @@
 	import analyseGacha from './analyseGacha.js';
 	import Day from '../lib/day.pure.js';
 
+
+
+	/* global DEFAULT_UID */
 
 
 	const listShownHidden = [
@@ -175,13 +201,13 @@
 		lightcone: 2,
 	};
 
-	const $uid = ref(window.DEFAULT_UID);
+	const $uid = ref(DEFAULT_UID);
 	/** @type {import('vue').Ref<import('../../lib/fetch-log.js').ParsedLog[]>} */
 	const $logs = ref([]);
 
 
-	const $showCharacter4 = ref(true);
-	const $showLightcone4 = ref(true);
+	const $showCharacter4 = ref(false);
+	const $showLightcone4 = ref(false);
 
 
 	const $countLightcone5 = computed(() => $logs.value.filter(log => M.lightcones$id[log.item]?.rarity == 5).length);
@@ -206,6 +232,7 @@
 	const A = computed(() => analyseGacha($logs.value, $showCharacter4.value, $showLightcone4.value));
 
 
+
 	onMounted(query);
 
 
@@ -214,6 +241,39 @@
 
 
 	const scrollPoolDetailIntoView = id => document.querySelector(`#pool-detail-${id}`).scrollIntoView({ block: 'center', behavior: 'smooth' });
+
+
+	const domTipsItem = ref(null);
+	const itemTips = ref(null);
+	const showItemTips = (idItem, $event) => {
+		itemTips.value = M.items$id[idItem];
+
+		Tippy($event.target, {
+			theme: 'nob',
+			placement: 'top-start',
+			content: domTipsItem.value,
+			allowHTML: true,
+			interactive: true,
+			animation: '',
+			duration: [0, 0],
+			offset: [1, 8],
+			onHidden: tippy => tippy.destroy(),
+		}).show();
+	};
+
+
+	const pickGradientColor = (color1, color2, ratio) => {
+		const ratio1 = ratio;
+		const ratio2 = 1 - ratio1;
+
+		const rgb = [
+			Math.round(color1[0] * ratio1 + color2[0] * ratio2),
+			Math.round(color1[1] * ratio1 + color2[1] * ratio2),
+			Math.round(color1[2] * ratio1 + color2[2] * ratio2)
+		];
+
+		return `RGB(${rgb.join(',')})`;
+	};
 </script>
 
 
@@ -303,22 +363,21 @@ p-gacha-box
 					@apply w-fit text-purple-400
 
 
-			progress
-				@apply inblock w-64 h-8 rounded-md relative top-1 ml-2
-				color: var(--colorTextMain)
+			p-progress
+				@apply relative top-1 inblock w-64 h-8 ml-2 rounded-md overflow-hidden bg-gray-400
 
+				p-value
+					@apply block h-full
 
-				&::-webkit-progress-bar
-					@apply rounded-md relative h-full overflow-hidden bg-gray-400
-
-
-				&::-webkit-progress-value
-					@apply rounded-md bg-emerald-400
-
-
-				&[_missed]::-webkit-progress-value
+				&[missed]>p-value
 					@apply bg-red-400
 
-				&[_worse]::-webkit-progress-value
-					@apply bg-yellow-400
+p-tips-item
+	@apply block rounded-md shadow-mdd px-4 py-2 bg-[var(--colorMain)] border-4 border-[var(--colorMainDark)]
+
+	img
+		@apply block w-[128px]
+
+	p-info
+		@apply block whitespace-nowrap
 </style>
