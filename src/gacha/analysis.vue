@@ -84,7 +84,7 @@
 					>
 						<p-image @mouseenter="showItemTips(log.item, $event)"><img :src="`./image/item/${log.item}.png`" /></p-image>
 						<p-name @mouseenter="showItemTips(log.item, $event)">{{ M.items$id[log.item]?.name }}</p-name>
-						<p-progress :missed="brop(log.missed)">
+						<p-progress v-if="M.items$id[log.item]?.rarity == 5" :missed="brop(log.missed)">
 							<p-value
 								:style="{
 									width: `${100 * (log.countInvest ?? 0) / (M.typesGacha$id[log.type]?.minimum5 ?? 90)}%`,
@@ -132,7 +132,7 @@
 					>
 						<p-image @mouseenter="showItemTips(log.item, $event)"><img :src="`./image/item/${log.item}.png`" /></p-image>
 						<p-name @mouseenter="showItemTips(log.item, $event)">{{ M.items$id[log.item]?.name }}</p-name>
-						<p-progress :missed="brop(log.missed)">
+						<p-progress v-if="M.items$id[log.item]?.rarity == 5" :missed="brop(log.missed)">
 							<p-value
 								:style="{
 									width: `${100 * (log.countInvest ?? 0) / (M.typesGacha$id[log.type]?.minimum5 ?? 90)}%`,
