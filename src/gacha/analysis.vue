@@ -260,6 +260,7 @@
 			onHidden: tippy => tippy.destroy(),
 		}).show();
 	};
+	onMounted(() => Tippy(document.body, { content: domTipsItem.value }).destroy());
 
 
 	const pickGradientColor = (color1, color2, ratio) => {

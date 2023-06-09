@@ -13,7 +13,6 @@
 	"2003": {
 		"id": "2003",
 		"type": "11",
-		"timeBegin": 1682469000,
 		"timeEnd": 1684317599,
 		"typeItem": "character",
 		"itemsBoost5": [
@@ -45,7 +44,6 @@
 	"2005": {
 		"id": "2005",
 		"type": "11",
-		"timeBegin": 1686034800,
 		"timeEnd": 1687924799,
 		"typeItem": "character",
 		"itemsBoost5": [
@@ -61,7 +59,6 @@
 	"3003": {
 		"id": "3003",
 		"type": "12",
-		"timeBegin": 1682469000,
 		"timeEnd": 1684317599,
 		"typeItem": "lightcone",
 		"itemsBoost5": [
@@ -93,7 +90,6 @@
 	"3005": {
 		"id": "3005",
 		"type": "12",
-		"timeBegin": 1686034800,
 		"timeEnd": 1687924799,
 		"typeItem": "lightcone",
 		"itemsBoost5": [

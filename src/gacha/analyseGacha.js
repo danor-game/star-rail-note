@@ -91,11 +91,16 @@ const analyseGacha = (logs, showCharacter4, showLightcone4) => {
 	A.pools = {};
 	const countsInvest$typeGacha = M.typesGacha.reduce((acc, cur) => (acc[cur.id] = 0, acc), {});
 
+	let poolLast;
 	for(const idPool in M.poolsGacha$id) {
 		const pool = M.poolsGacha$id[idPool];
 		const typeGacha = M.typesGacha$id[pool.type];
 
-		const logsPool = logs.filter(log => log.type == typeGacha.id && Day.unix(log.time).isBetween(Day.unix(pool.timeBegin ?? 0), Day.unix(pool.timeEnd), null, '[]')).sort((a, b) => b.time - a.time);
+		const logsPool = logs
+			.filter(log =>
+				log.type == typeGacha.id &&
+				Day.unix(log.time).isBetween(Day.unix(poolLast?.timeEnd ?? 0), Day.unix(pool.timeEnd), null, '[]'))
+			.sort((a, b) => b.time - a.time);
 
 
 		const countInvestPrev = countsInvest$typeGacha[pool.type];
@@ -133,6 +138,8 @@ const analyseGacha = (logs, showCharacter4, showLightcone4) => {
 			countInvestPrev: countInvestPrev,
 			countInvestNext: countsInvest$typeGacha[pool.type],
 		};
+
+		poolLast = pool;
 	}
 
 
