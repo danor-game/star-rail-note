@@ -38,8 +38,12 @@ import M from '../lib/meta.js';
  */
 
 
-/** @param {import('../../lib/fetch-log.js').ParsedLog[]} logs */
-const analyseGacha = (logs) => {
+/**
+ * @param {import('../../lib/fetch-log.js').ParsedLog[]} logs
+ * @param {boolean} showCharacter4
+ * @param {boolean} showLightcone4
+ */
+const analyseGacha = (logs, showCharacter4, showLightcone4) => {
 	/** @type {Analysis} */
 	const A = {};
 
@@ -74,7 +78,10 @@ const analyseGacha = (logs) => {
 			logs: logsTypeGacha,
 			logs5: logsTypeGacha.filter(log => M.items$id[log.item]?.rarity == 5),
 			logs4: logsTypeGacha.filter(log => M.items$id[log.item]?.rarity == 4),
-			logsRare: logsTypeGacha.filter(log => M.items$id[log.item]?.rarity >= 4),
+			logsRare: logsTypeGacha.filter(log =>
+				M.characters$id[log.item]?.rarity >= (showCharacter4 ? 4 : 5) ||
+				M.lightcones$id[log.item]?.rarity >= (showLightcone4 ? 4 : 5)
+			),
 			countInvestPrev: countInvestPrev,
 			countInvestNext: countsInvest$typeGacha2[idTypeGacha],
 		};
@@ -120,8 +127,8 @@ const analyseGacha = (logs) => {
 			logs5: logsPool.filter(log => M.items$id[log.item]?.rarity == 5),
 			logs4: logsPool.filter(log => M.items$id[log.item]?.rarity == 4),
 			logsRare: logsPool.filter(log =>
-				M.characters$id[log.item]?.rarity >= 4 ||
-				M.lightcones$id[log.item]?.rarity == 5
+				M.characters$id[log.item]?.rarity >= (showCharacter4 ? 4 : 5) ||
+				M.lightcones$id[log.item]?.rarity >= (showLightcone4 ? 4 : 5)
 			),
 			countInvestPrev: countInvestPrev,
 			countInvestNext: countsInvest$typeGacha[pool.type],

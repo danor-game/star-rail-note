@@ -1,7 +1,9 @@
 <template>
 	<p-panel>
-		<Texter v-model="$uid" item uid label="UID" type="number" align="center" />
-		<Click item query text="查询" @click="query" />
+		<Texter v-model="$uid" item class="!w-48" label="UID" type="number" align="center" />
+		<Click item class="!w-16" text="查询" @click="query" />
+		<Combo v-model="$showCharacter4" item class="!w-40" lightcone4 label="四星角色" align="center" :list="listShownHidden" />
+		<Combo v-model="$showLightcone4" item class="!w-40" lightcone4 label="四星光锥" align="center" :list="listShownHidden" />
 	</p-panel>
 	<p-gacha-box>
 		<p-line>
@@ -72,7 +74,7 @@
 					</template>
 				</p-line>
 				<p-line>
-					<p-item v-if="analysis.countInvestNext">
+					<p-item v-if="analysis.countInvestNext" class="mb-4">
 						<p-image _unknown>?</p-image>
 						<p-name class="w-fit">当前已垫 <span style="color: var(--colorMain)">{{ String(analysis.countInvestNext).padStart(2, '&nbsp;') }}</span> 抽</p-name>
 					</p-item>
@@ -82,19 +84,62 @@
 					>
 						<p-image><img :src="`../resource/item/${log.item}.png`" /></p-image>
 						<p-name v-tip.duration-1="M.items$id[log.item]?.name ?? ''">{{ M.items$id[log.item]?.name }}</p-name>
-						<progress v-if="M.items$id[log.item]?.rarity == 5" style="width: calc(0.1rem * 140);"
+						<progress v-if="M.items$id[log.item]?.rarity == 5"
 							:_worse="brop(!log.missed && log.countInvest >= 45)"
 							:_missed="brop(log.missed)"
-							max="90" :value="log.countInvest ?? 0"
+							:max="M.typesGacha$id[log.type]?.minimum5 ?? 90" :value="log.countInvest ?? 0"
+						/>
+						<p-progress-text v-if="log.countInvest && log.countInvestPrev">
+							<span count>{{ String(log.countInvest).padStart(2, '&nbsp;') }}</span> 抽
+							（本期 <span count>{{ log.countInvest - log.countInvestPrev }}</span> + 上期 <span count>{{ log.countInvestPrev }}</span>）
+						</p-progress-text>
+						<p-progress-text v-else-if="log.countInvest">
+							<span count>{{ String(log.countInvest).padStart(2, '&nbsp;') }}</span>
+							<span :missed="brop(log.missed)">{{ log.missed ? ' 歪' : ' 抽' }}</span>
+						</p-progress-text>
+					</p-item>
+					<p-item v-if="analysis.countInvestPrev" class="mt-4">
+						<p-image _unknown>?</p-image>
+						<p-name class="w-fit">上期已垫 <span count>{{ String(analysis.countInvestPrev).padStart(2, '&nbsp;') }}</span> 抽</p-name>
+					</p-item>
+				</p-line>
+			</p-gather>
+		</p-box>
+		<p-box>
+			<p-line>● 按<span value-highlight-xl>跃迁类型</span>详细</p-line>
+			<p-gather v-for="[id, analysis] of Object.entries(A.typesGacha).sort(sortEntriesByValueOrder) " :id="`typeGacha-detail-${analysis.id}`" :key="`gather-typeGacha-detail-${id}`"
+				_width-4 class="block"
+			>
+				<p-line class="mb-6">
+					<span class="text-lg font-bold text-[var(--colorMain)]">{{ analysis.name }}</span>
+					<span class="float-right text-right"><span value-highlight>{{ analysis.logs.length }}</span> 次抽卡 <span value-highlight>{{ String(analysis.logs5.length).padStart(2, '&nbsp;') }}</span> 五星对象 <span value-highlight>{{ String(analysis.logs4.length).padStart(2, '&nbsp;') }}</span> 四星对象</span>
+				</p-line>
+				<p-line>
+					<p-item v-if="analysis.countInvestNext" class="mb-4">
+						<p-image _unknown>?</p-image>
+						<p-name class="w-fit">当前已垫 <span style="color: var(--colorMain)">{{ String(analysis.countInvestNext).padStart(2, '&nbsp;') }}</span> 抽</p-name>
+					</p-item>
+					<p-item v-for="log of analysis.logsRare " :key="`gather-typeGacha-detail-${id}-${log.id}`"
+						:_rarity-5="brop(M.items$id[log.item]?.rarity == 5)"
+						:_rarity-4="brop(M.items$id[log.item]?.rarity == 4)"
+					>
+						<p-image><img :src="`../resource/item/${log.item}.png`" /></p-image>
+						<p-name v-tip.duration-1="M.items$id[log.item]?.name ?? ''">{{ M.items$id[log.item]?.name }}</p-name>
+						<progress v-if="M.items$id[log.item]?.rarity == 5"
+							:_worse="brop(!log.missed && log.countInvest >= 45)"
+							:_missed="brop(log.missed)"
+							:max="M.typesGacha$id[log.type]?.minimum5 ?? 90" :value="log.countInvest ?? 0"
 						/>
 						<p-progress-text v-if="log.countInvest && log.countInvestPrev">
 							<span style="color:var(--colorMain)">{{ String(log.countInvest).padStart(2, '&nbsp;') }}</span> 抽
 							（本期 <span style="color:var(--colorMain)">{{ log.countInvest - log.countInvestPrev }}</span> + 上期 <span style="color:var(--colorMain)">{{ log.countInvestPrev }}</span>）
 						</p-progress-text>
-						<p-progress-text v-else-if="log.countInvest"><span style="color:var(--colorMain)">{{ String(log.countInvest).padStart(2, '&nbsp;') }}</span> 抽</p-progress-text>
-						<p-miss v-if="log.missed">歪😭</p-miss>
+						<p-progress-text v-else-if="log.countInvest">
+							<span style="color:var(--colorMain)">{{ String(log.countInvest).padStart(2, '&nbsp;') }}</span>
+							<span :missed="brop(log.missed)">{{ log.missed ? ' 歪' : ' 抽' }}</span>
+						</p-progress-text>
 					</p-item>
-					<p-item v-if="analysis.countInvestPrev">
+					<p-item v-if="analysis.countInvestPrev" class="mt-4">
 						<p-image _unknown>?</p-image>
 						<p-name class="w-fit">上期已垫 <span style="color:var(--colorMain)">{{ String(analysis.countInvestPrev).padStart(2, '&nbsp;') }}</span> 抽</p-name>
 					</p-item>
@@ -106,7 +151,7 @@
 
 <script setup>
 	import { computed, onMounted, ref } from 'vue';
-	import { Click, Texter } from '@nuogz/vue-components';
+	import { Click, Combo, Texter } from '@nuogz/vue-components';
 	import { $fail } from '@nuogz/vue-alert';
 
 	import M from '../lib/meta.js';
@@ -115,6 +160,11 @@
 	import Day from '../lib/day.pure.js';
 
 
+
+	const listShownHidden = [
+		{ value: true, text: '显示' },
+		{ value: false, text: '隐藏' },
+	];
 
 	const name$typeItemPool = {
 		character: '角色',
@@ -128,6 +178,10 @@
 	const $uid = ref(window.DEFAULT_UID);
 	/** @type {import('vue').Ref<import('../../lib/fetch-log.js').ParsedLog[]>} */
 	const $logs = ref([]);
+
+
+	const $showCharacter4 = ref(true);
+	const $showLightcone4 = ref(true);
 
 
 	const $countLightcone5 = computed(() => $logs.value.filter(log => M.lightcones$id[log.item]?.rarity == 5).length);
@@ -149,7 +203,7 @@
 	};
 
 
-	const A = computed(() => analyseGacha($logs.value));
+	const A = computed(() => analyseGacha($logs.value, $showCharacter4.value, $showLightcone4.value));
 
 
 	onMounted(query);
@@ -169,12 +223,8 @@ p-panel
 	background-color: var(--colorBackground)
 
 	>[item]
-		@apply inblock mr-4 h-8 leading-8 mb-2
+		@apply inblock w-auto mr-4 h-8 leading-8 mb-2
 
-	>[uid]
-		@apply w-48
-	>[query]
-		@apply w-16
 
 p-gacha-box
 	--widthBox: calc(theme("spacing.1") * 40)
@@ -190,10 +240,10 @@ p-gacha-box
 		@apply block w-full mb-2
 
 		[scrollable]
-			@apply mb-2 cursor-pointer select-none trans
+			@apply mb-2 cursor-pointer select-none trans text-[var(--colorMain)]
 
 			&:hover
-				@apply text-[var(--colorMain)]
+				@apply text-[var(--colorText)]
 
 	[value-highlight]
 		@apply font-bold text-2xl text-[var(--colorMain)]
@@ -202,7 +252,7 @@ p-gacha-box
 
 
 	p-box
-		@apply block w-full my-2
+		@apply block w-full my-6
 
 		&[_limit-2]
 			width: calc(theme("spacing.1") * ((40 * 2 + 4 * 2) * 2 + 4 * 4))
@@ -232,9 +282,14 @@ p-gacha-box
 
 			p-progress-text
 				@apply inblock ml-2 h-10 leading-10
+				@apply relative text-black
+				left: calc( theme("spacing.1") * -64 )
 
-			p-miss
-				@apply inblock ml-2 h-10 leading-10 text-red-400
+			[count]
+				@apply text-[snow] text-xl
+
+			[missed]
+				@apply text-red-700
 
 			&[_rarity-5]
 				>p-name
@@ -249,14 +304,13 @@ p-gacha-box
 
 
 			progress
-				@apply inblock h-8 rounded-md relative top-1 ml-2
+				@apply inblock w-64 h-8 rounded-md relative top-1 ml-2
 				color: var(--colorTextMain)
 
 
 				&::-webkit-progress-bar
-					@apply rounded-md relative h-full
+					@apply rounded-md relative h-full overflow-hidden bg-gray-400
 
-					background-color: lightgray
 
 				&::-webkit-progress-value
 					@apply rounded-md bg-emerald-400
