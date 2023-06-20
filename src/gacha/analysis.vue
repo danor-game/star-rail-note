@@ -1,11 +1,11 @@
 <template>
-	<p-panel>
+	<p-fixed-topbar>
 		<Texter v-model="$uid" item class="!w-48" label="UID" type="number" align="center" />
-		<Click item class="!w-16" text="查询" @click="query" />
+		<Click item class="!w-16" text="分析" @click="query" />
 		<Combo v-model="$showCharacter4" item class="!w-40" lightcone4 label="四星角色" align="center" :list="listShownHidden" />
 		<Combo v-model="$showLightcone4" item class="!w-40" lightcone4 label="四星光锥" align="center" :list="listShownHidden" />
-	</p-panel>
-	<p-gacha-box>
+	</p-fixed-topbar>
+	<p-main-box>
 		<p-line>
 			● <span value-highlight>{{ $logs.length }}</span> 次抽卡，
 			平均 <span value-highlight>{{
@@ -62,7 +62,8 @@
 				_width-4 class="block"
 			>
 				<p-line class="mb-6">
-					<span class="text-lg font-bold text-[var(--colorMain)]">{{ analysis.name }}</span>
+					<p-image v-if="analysis.pool.itemsBoost5?.[0]"><img :src="`./image/item/${analysis.pool.itemsBoost5[0]}.png`" /></p-image>
+					<span class="text-lg font-bold text-[var(--colorMain)] h-10 leading-10">{{ analysis.name }}</span>
 					<span v-if="analysis.pool.typeItem == 'character'" class="text-xs">&nbsp;{{ M.characters$id[analysis.pool.itemsBoost5[0]]?.name }}</span>
 					<span v-if="analysis.pool.typeItem == 'lightcone'" class="text-xs">&nbsp;{{ M.characters$id[M.lightcones$id[analysis.pool.itemsBoost5[0]]?.characterBest]?.name }}光锥</span>
 					<span class="float-right text-right"><span value-highlight>{{ analysis.logs.length }}</span> 次抽卡 <span value-highlight>{{ String(analysis.logs5.length).padStart(2, '&nbsp;') }}</span> 五星对象 <span value-highlight>{{ String(analysis.logs4.length).padStart(2, '&nbsp;') }}</span> 四星对象</span>
@@ -76,7 +77,7 @@
 				<p-line>
 					<p-item v-if="analysis.countInvestNext" class="mb-4">
 						<p-image _unknown>?</p-image>
-						<p-name class="w-fit">当前已垫 <span style="color: var(--colorMain)">{{ String(analysis.countInvestNext).padStart(2, '&nbsp;') }}</span> 抽</p-name>
+						<p-name class="w-fit">当前已垫 <span count style="color: var(--colorMain)">{{ String(analysis.countInvestNext).padStart(2, '&nbsp;') }}</span> 抽</p-name>
 					</p-item>
 					<p-item v-for="log of analysis.logsRare " :key="`gather-pool-detail-${id}-${log.id}`"
 						:_rarity-5="brop(M.items$id[log.item]?.rarity == 5)"
@@ -107,7 +108,7 @@
 					</p-item>
 					<p-item v-if="analysis.countInvestPrev" class="mt-4">
 						<p-image _unknown>?</p-image>
-						<p-name class="w-fit">上期已垫 <span count>{{ String(analysis.countInvestPrev).padStart(2, '&nbsp;') }}</span> 抽</p-name>
+						<p-name class="w-fit">上期已垫 <span count style="color: var(--colorMain)">{{ String(analysis.countInvestPrev).padStart(2, '&nbsp;') }}</span> 抽</p-name>
 					</p-item>
 				</p-line>
 			</p-gather>
@@ -124,7 +125,7 @@
 				<p-line>
 					<p-item v-if="analysis.countInvestNext" class="mb-4">
 						<p-image _unknown>?</p-image>
-						<p-name class="w-fit">当前已垫 <span style="color: var(--colorMain)">{{ String(analysis.countInvestNext).padStart(2, '&nbsp;') }}</span> 抽</p-name>
+						<p-name class="w-fit">当前已垫 <span count style="color: var(--colorMain)">{{ String(analysis.countInvestNext).padStart(2, '&nbsp;') }}</span> 抽</p-name>
 					</p-item>
 					<p-item v-for="log of analysis.logsRare " :key="`gather-typeGacha-detail-${id}-${log.id}`"
 						:_rarity-5="brop(M.items$id[log.item]?.rarity == 5)"
@@ -155,12 +156,12 @@
 					</p-item>
 					<p-item v-if="analysis.countInvestPrev" class="mt-4">
 						<p-image _unknown>?</p-image>
-						<p-name class="w-fit">上期已垫 <span count>{{ String(analysis.countInvestPrev).padStart(2, '&nbsp;') }}</span> 抽</p-name>
+						<p-name class="w-fit">上期已垫 <span count style="color: var(--colorMain)">{{ String(analysis.countInvestPrev).padStart(2, '&nbsp;') }}</span> 抽</p-name>
 					</p-item>
 				</p-line>
 			</p-gather>
 		</p-box>
-	</p-gacha-box>
+	</p-main-box>
 
 	<p-tips-item ref="domTipsItem">
 		<img :src="`./image/item/${itemTips?.id}.png`" />
@@ -181,10 +182,8 @@
 
 	import analyseGacha from './analyseGacha.js';
 	import Day from '../lib/day.pure.js';
+	import loadProfiles from '../profile/load-profiles.js';
 
-
-
-	/* global DEFAULT_UID */
 
 
 	const listShownHidden = [
@@ -201,7 +200,7 @@
 		lightcone: 2,
 	};
 
-	const $uid = ref(DEFAULT_UID);
+	const $uid = ref(localStorage.getItem('last-analysis-uid') ?? '');
 	/** @type {import('vue').Ref<import('../../lib/fetch-log.js').ParsedLog[]>} */
 	const $logs = ref([]);
 
@@ -219,12 +218,22 @@
 	const query = async () => {
 		const uid = $uid.value;
 
+
 		try {
-			$logs.value = (await import(`../../data/${uid}-parsed.json`)).default;
+			const profiles = loadProfiles();
+
+
+			const logs = profiles.find(profile => profile.uid == uid)?.logsParsed;
+
+			if(!logs) { throw Error('找不到对应档案'); }
+
+			$logs.value = logs;
+
+
+			localStorage.setItem('last-analysis-uid', uid);
 		}
 		catch(error) {
-			if(String(error).includes('Unknown variable dynamic import')) { $fail('获取抽卡记录', '找不到数据'); }
-			else { $fail('获取抽卡记录', error); }
+			$fail('获取抽卡记录', error);
 		}
 	};
 
@@ -279,7 +288,7 @@
 
 
 <style lang="sass">
-p-panel
+p-fixed-topbar
 	@apply block p-4 leading-8 fixed w-full h-16 z-50 shadow-mdd
 	background-color: var(--colorBackground)
 
@@ -287,7 +296,7 @@ p-panel
 		@apply inblock w-auto mr-4 h-8 leading-8 mb-2
 
 
-p-gacha-box
+p-main-box
 	--widthBox: calc(theme("spacing.1") * 40)
 	--widthSide: calc(theme("spacing.1") * 4)
 
@@ -328,15 +337,20 @@ p-gacha-box
 		&[_width-4]
 			width: calc(var(--widthBox) * 4 + var(--widthSide) * 2 * (4 - 1))
 
+		p-image
+			@apply inblock w-10 h-10 leading-10 mr-2 text-2xl text-center
+
+			&[_unknown]
+				@apply rounded-full border-2 leading-9
+
+			img
+				@apply max-h-full m-auto
+
+
 
 		p-item
 			@apply block relative rounded-md w-fit px-4 m-1
 
-			p-image
-				@apply inblock w-10 h-10 leading-10 mr-2 text-2xl text-center
-
-				&[_unknown]
-					@apply rounded-full border-2 leading-9
 
 			p-name
 				@apply inblock w-24 h-10 leading-10 elli

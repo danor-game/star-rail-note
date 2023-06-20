@@ -382,6 +382,7 @@
 		"id": "23007",
 		"path": "Warlock",
 		"rarity": 5,
+		"characterBest": "1006",
 		"versionAdded": "1.1"
 	},
 	"23008": {

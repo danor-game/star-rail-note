@@ -6,9 +6,9 @@ import pluginVue from '@vitejs/plugin-vue';
 
 
 process.env.NENV_PKG_PATH = import.meta.url;
-process.env.NENV_PANGU = 'config;day';
+process.env.NENV_PANGU = 'day';
 
-const { C, Day } = await import('@nuogz/pangu');
+const { Day } = await import('@nuogz/pangu');
 
 
 
@@ -40,7 +40,6 @@ export default defineConfig(({ mode }) => {
 			}
 		},
 		define: {
-			'DEFAULT_UID': `'${C.default.uid}'`,
 			'BUILD_TIME': Day().unix()
 		},
 		publicDir: resolve(dirPackage, 'src', 'public'),

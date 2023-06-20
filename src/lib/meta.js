@@ -1,3 +1,5 @@
+import api from '../../meta/meta.api.json';
+
 import charactersMeta from '../../meta/meta.character.json';
 import lightconesMeta from '../../meta/meta.lightcone.json';
 import typesGachaMeta from '../../meta/meta.typeGacha.json';
@@ -84,6 +86,8 @@ const M = {
 
 	paths$id,
 	paths: Object.values(paths$id),
+
+	api,
 };
 
 M.poolsGacha.splice(0, 0, ...M.poolsGacha.splice(M.poolsGacha.indexOf(p => p.type == 1) - 1, 1));

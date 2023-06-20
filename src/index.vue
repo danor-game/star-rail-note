@@ -27,7 +27,8 @@
 	CV.widthScroll = '0.5rem';
 
 
-	onMounted(() => tabs.add('gacha-analysis', 'icon|title', { title: '跃迁分析', icon: faStarOfDavid }));
+	onMounted(() => tabs.add('profile-manager', 'icon|title', { title: '档案管理', icon: faStarOfDavid }));
+	onMounted(() => tabs.add('gacha-analysis', 'icon|title', { title: '跃迁分析', icon: faStarOfDavid }, 'delay'));
 </script>
 
 <style lang="sass" scoped>
@@ -67,6 +68,7 @@ html
 	--colorMainDark: #C8812A
 	--colorMainLight: #E2B276
 	--colorBackground: theme("colors.gray.700")
+	--colorBackgroundLight: theme("colors.gray.600")
 	--colorText: theme("colors.gray.100")
 	--colorTextMain: theme("colors.gray.700")
 	--colorDisable: theme("colors.gray.500")
@@ -131,4 +133,7 @@ input
 		transition-duration: 0.7s
 	&._d2
 		transition-duration: 2s
+
+comp-alert p-body-content
+	@apply whitespace-pre
 </style>

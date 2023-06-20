@@ -45,6 +45,7 @@
 		"@nuogz/wock-client": "^3.1.2",
 		"@types/fs-extra": "^11.0.1",
 		"@types/node": "^20.2.5",
+		"@types/tampermonkey": "^4.0.10",
 		"@vitejs/plugin-vue": "^4.2.3",
 		"autoprefixer": "^10.4.14",
 		"dayjs": "^1.11.8",
