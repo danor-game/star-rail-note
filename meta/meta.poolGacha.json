@@ -56,6 +56,22 @@
 		],
 		"versionAdded": "1.1"
 	},
+	"2006": {
+		"id": "2006",
+		"type": "11",
+		"timeStart": 1687924800,
+		"timeEnd": 1689663599,
+		"typeItem": "character",
+		"itemsBoost5": [
+			"1203"
+		],
+		"itemsBoost4": [
+			"1207",
+			"1106",
+			"1201"
+		],
+		"versionAdded": "1.1"
+	},
 	"3003": {
 		"id": "3003",
 		"type": "12",
@@ -99,6 +115,22 @@
 			"21017",
 			"21004",
 			"21013"
+		],
+		"versionAdded": "1.1"
+	},
+	"3006": {
+		"id": "3006",
+		"type": "12",
+		"timeStart": 1687924800,
+		"timeEnd": 1689663599,
+		"typeItem": "lightcone",
+		"itemsBoost5": [
+			"23008"
+		],
+		"itemsBoost4": [
+			"21001",
+			"21020",
+			"21018"
 		],
 		"versionAdded": "1.1"
 	}

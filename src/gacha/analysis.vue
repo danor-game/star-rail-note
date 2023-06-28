@@ -77,7 +77,7 @@
 				<p-line>
 					<p-item v-if="analysis.countInvestNext" class="mb-4">
 						<p-image _unknown>?</p-image>
-						<p-name class="w-fit">当前已垫 <span count style="color: var(--colorMain)">{{ String(analysis.countInvestNext).padStart(2, '&nbsp;') }}</span> 抽</p-name>
+						<p-name fit>当前已垫 <span count style="color: var(--colorMain)">{{ String(analysis.countInvestNext).padStart(2, '&nbsp;') }}</span> 抽</p-name>
 					</p-item>
 					<p-item v-for="log of analysis.logsRare " :key="`gather-pool-detail-${id}-${log.id}`"
 						:_rarity-5="brop(M.items$id[log.item]?.rarity == 5)"
@@ -98,8 +98,9 @@
 							/>
 						</p-progress>
 						<p-progress-text v-if="log.countInvest && log.countInvestPrev">
-							<span count>{{ String(log.countInvest).padStart(2, '&nbsp;') }}</span> 抽
-							（本期 <span count>{{ log.countInvest - log.countInvestPrev }}</span> + 上期 <span count>{{ log.countInvestPrev }}</span>）
+							<span count>{{ String(log.countInvest).padStart(2, '&nbsp;') }}</span>
+							<span :missed="brop(log.missed)">{{ log.missed ? ' 歪' : ' 抽' }}</span>
+							(本期 <span count>{{ log.countInvest - log.countInvestPrev }}</span> + 上期 <span count>{{ log.countInvestPrev }}</span>)
 						</p-progress-text>
 						<p-progress-text v-else-if="log.countInvest">
 							<span count>{{ String(log.countInvest).padStart(2, '&nbsp;') }}</span>
@@ -108,7 +109,7 @@
 					</p-item>
 					<p-item v-if="analysis.countInvestPrev" class="mt-4">
 						<p-image _unknown>?</p-image>
-						<p-name class="w-fit">上期已垫 <span count style="color: var(--colorMain)">{{ String(analysis.countInvestPrev).padStart(2, '&nbsp;') }}</span> 抽</p-name>
+						<p-name fit>上期已垫 <span count style="color: var(--colorMain)">{{ String(analysis.countInvestPrev).padStart(2, '&nbsp;') }}</span> 抽</p-name>
 					</p-item>
 				</p-line>
 			</p-gather>
@@ -125,7 +126,7 @@
 				<p-line>
 					<p-item v-if="analysis.countInvestNext" class="mb-4">
 						<p-image _unknown>?</p-image>
-						<p-name class="w-fit">当前已垫 <span count style="color: var(--colorMain)">{{ String(analysis.countInvestNext).padStart(2, '&nbsp;') }}</span> 抽</p-name>
+						<p-name fit>当前已垫 <span count style="color: var(--colorMain)">{{ String(analysis.countInvestNext).padStart(2, '&nbsp;') }}</span> 抽</p-name>
 					</p-item>
 					<p-item v-for="log of analysis.logsRare " :key="`gather-typeGacha-detail-${id}-${log.id}`"
 						:_rarity-5="brop(M.items$id[log.item]?.rarity == 5)"
@@ -146,8 +147,9 @@
 							/>
 						</p-progress>
 						<p-progress-text v-if="log.countInvest && log.countInvestPrev">
-							<span count>{{ String(log.countInvest).padStart(2, '&nbsp;') }}</span> 抽
-							（本期 <span count>{{ log.countInvest - log.countInvestPrev }}</span> + 上期 <span count>{{ log.countInvestPrev }}</span>）
+							<span count>{{ String(log.countInvest).padStart(2, '&nbsp;') }}</span>
+							<span :missed="brop(log.missed)">{{ log.missed ? ' 歪' : ' 抽' }}</span>
+							(本期 <span count>{{ log.countInvest - log.countInvestPrev }}</span> + 上期 <span count>{{ log.countInvestPrev }}</span>)
 						</p-progress-text>
 						<p-progress-text v-else-if="log.countInvest">
 							<span count>{{ String(log.countInvest).padStart(2, '&nbsp;') }}</span>
@@ -156,7 +158,7 @@
 					</p-item>
 					<p-item v-if="analysis.countInvestPrev" class="mt-4">
 						<p-image _unknown>?</p-image>
-						<p-name class="w-fit">上期已垫 <span count style="color: var(--colorMain)">{{ String(analysis.countInvestPrev).padStart(2, '&nbsp;') }}</span> 抽</p-name>
+						<p-name fit>上期已垫 <span count style="color: var(--colorMain)">{{ String(analysis.countInvestPrev).padStart(2, '&nbsp;') }}</span> 抽</p-name>
 					</p-item>
 				</p-line>
 			</p-gather>
@@ -287,7 +289,7 @@
 </script>
 
 
-<style lang="sass">
+<style lang="sass" scoped>
 p-fixed-topbar
 	@apply block p-4 leading-8 fixed w-full h-16 z-50 shadow-mdd
 	background-color: var(--colorBackground)
@@ -354,6 +356,9 @@ p-main-box
 
 			p-name
 				@apply inblock w-24 h-10 leading-10 elli
+
+				&[fit]
+					@apply w-fit
 
 			p-progress-text
 				@apply inblock ml-2 h-10 leading-10
