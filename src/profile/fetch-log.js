@@ -31,7 +31,7 @@ import parseRawLog, { hourToTimezone } from './parse-raw-log.js';
  */
 
 
-const fetchLog = async (profile, willFetchFull = false) => {
+const fetchLog = async (profile, willFetchFull = false, textProgressRef) => {
 	const urlBase = new URL(M.api.urlGachaLog);
 
 	urlBase.searchParams.set('authkey_ver', profile.versionKeyAuth);
@@ -71,7 +71,7 @@ const fetchLog = async (profile, willFetchFull = false) => {
 			const timezone = data?.data?.region_time_zone;
 
 
-			globalThis.console.log(`抓取${nameTypeGacha}`, `第${page + 1}页`, `${logsPage?.length ?? 0}条记录`);
+			textProgressRef.value = `正在获取${nameTypeGacha}记录：第${page + 1}页，发现${logsPage?.length ?? 0}条记录`;
 
 
 			if(!logsPage?.length) { break; }

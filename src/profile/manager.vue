@@ -2,30 +2,73 @@
 	<module>
 		<p-fixed-topbar>
 			<Click item class="!w-32" text="创建档案" @click="creatingProfile" />
+			<Click item class="!w-32" text="导入档案" @click="importingProfile" />
 		</p-fixed-topbar>
 		<p-main-box>
 			<p-gm-xhr-result class="block mb-4">● GreaseMonkey XMLHttpRequest：{{ hasXHRGM ? '✔ 存在' : '✖ 不存在' }}</p-gm-xhr-result>
 
 			<p-profile v-for="(profile, indexProfile) of $profiles" :key="`profile-${profile.uid || indexProfile}`">
-				<p-info>{{ profile.name }}（{{ profile.uid }}）</p-info>
-				<p-info>○ {{ profile.level }}级（均衡{{ profile.levelWorld }}）</p-info>
-				<p-info>○ 共解锁{{ profile.sizeCharacter }}位角色，{{ profile.countAchievement }}个成就</p-info>
+				<p-info>档案{{ indexProfile + 1 }} &lt;{{ profile.nick }}&gt;</p-info>
+				<p-info>&nbsp;&nbsp;&nbsp;&nbsp;- {{ profile.name }}（{{ profile.uid }}）</p-info>
+				<p-info>&nbsp;&nbsp;&nbsp;&nbsp;- {{ profile.level }}级，均衡{{ profile.levelWorld }}</p-info>
+				<p-info>&nbsp;&nbsp;&nbsp;&nbsp;- 共解锁{{ profile.sizeCharacter }}位角色，{{ profile.countAchievement }}个成就</p-info>
 				<p-info>总抽卡次数：{{ profile.logsParsed.length }}</p-info>
 				<p-info>初次获取时间：{{ profile.timeFetchFirst }}</p-info>
 				<p-info>最后获取时间：{{ profile.timeFetchLast }}</p-info>
 
-				<Click item class="float-right mt-4 ml-4 h-8" text="获取档案" @click="fetchLogs(profile)" />
+				<Click item class="float-right mt-4 ml-4 h-8" text="获取记录" @click.exact="fetchProfileLogs(profile, false)" @clik.alt="fetchProfileLogs(profile, true)" />
+				<span item class="float-right mt-4 ml-4 h-8">|</span>
+				<Click item class="float-right mt-4 ml-4 h-8" text="更新档案" @click="modifingProfile(profile)" />
+				<Click item class="float-right mt-4 ml-4 h-8" text="导出档案" @click="exportProfile(profile)" />
+				<span item class="float-right mt-4 ml-4 h-8">|</span>
+				<Click v-if="profile.uid" item class="float-right mt-4 ml-4 h-8" text="管理原始数据" white @click="showRawLogs(profile)" />
 				<Click item class="float-right mt-4 ml-4 h-8" text="删除档案" white @click="deletingProfile(profile)" />
 				<div class="clear-both" />
 			</p-profile>
 		</p-main-box>
 
-		<dialog ref="dialogProfileCreate" create-profile>
-			<Texter v-model="$profileCreating.nick" item class="!block !w-[50vw]" label-width="6rem" label="档案名" place="可留空，显示最新角色名称" />
-			<Textbox v-model="$profileCreating.urlLog" item class="!block !w-[50vw] !h-24" label-width="6rem" label="日志URL" />
+		<dialog ref="dialogEditorProfile">
+			<Texter v-model="$profileEditing.nick" item class="!block !w-[50vw]" label-width="6rem" label="档案名" place="可留空，显示最新角色名称" :readonly="brop(modeProfileEditor == 'modify')" />
+			<Textbox v-model="$profileEditing.urlLog" item class="!block !w-[50vw] !h-24" label-width="6rem" label="日志URL" />
 
-			<Click item class="float-right mt-4" text="创建档案并获取数据" @click="createProfile($profileCreating, true)" />
-			<Click item class="float-right mt-4" text="仅创建档案" @click="createProfile($profileCreating, false)" />
+			<p-split class="block mt-4" />
+			<Click v-if="modeProfileEditor == 'create'" item _right text="创建并获取" @click="createProfile($profileEditing, true)" />
+			<Click v-if="modeProfileEditor == 'create'" item _right text="仅创建" @click="createProfile($profileEditing, false)" />
+
+			<Click v-if="modeProfileEditor == 'modify'" item _right text="更新并获取" @click="modifyProfile($profileEditing, true)" />
+			<Click v-if="modeProfileEditor == 'modify'" item _right text="仅更新" @click="modifyProfile($profileEditing, false)" />
+		</dialog>
+		<dialog ref="dialogEditorProfileImport" @paste="readProfileFilePaste">
+			<Textbox v-model="$profileImporting.json" item class="!block !w-[50vw] !h-24" label-width="6rem" label="档案JSON" />
+			<FileDragger v-model="$profileImporting.files" item class="!block !w-[50vw] !h-24"
+				label-width="6rem" label="档案文件" accept=".json" drag-label="拖入 <档案JSON文件> 到此" dragging-label="松开即读入 <档案JSON>"
+				@update:model-value="readProfileFile"
+			/>
+
+			<p-split class="block mt-4" />
+			<Click item class="float-right mt-4" text="导入创建" @click="importProfile($profileImporting.json)" />
+		</dialog>
+
+		<dialog ref="dialogLogsRaw">
+			<div class="text-lg">{{ uidLogsRaw }}的原始记录</div>
+			<div class="text-xs mb-1">- 从官方接口获取到原始数据，仅以UID和获取时间分类，不以档案分类</div>
+			<div class="text-xs mb-4">- 理论上其他分析应用可以通过导入原始数据直接进行分析（如果它们提供导入的话）</div>
+
+			<p-raw-logs-option
+				v-for="key of keysLogsRaw" :key="`key-logs-raw-${key}`"
+				:selected="brop(key.selected)"
+				@click="key.selected = !key.selected"
+			>
+				<span>{{ key.selected ? '✔' : '○' }}</span> {{ key.key }}
+			</p-raw-logs-option>
+
+			<Click item class="float-right mt-4" text="导出" @click="createProfile($profileEditing, true)" />
+			<Click item class="float-right mt-4" text="合并去重" @click="createProfile($profileEditing, true)" />
+			<Click item class="float-right mt-4" text="删除" white @click="createProfile($profileEditing, true)" />
+		</dialog>
+
+		<dialog ref="dialogProgress">
+			{{ textProgress }}
 		</dialog>
 	</module>
 </template>
@@ -33,7 +76,8 @@
 <script setup>
 	import { ref } from 'vue';
 
-	import { Click, Texter, Textbox } from '@nuogz/vue-components';
+	import { Click, Texter, Textbox, FileDragger } from '@nuogz/vue-components';
+
 	import { $fail, $quest } from '@nuogz/vue-alert';
 
 	import Day from '../lib/day.pure.js';
@@ -41,7 +85,6 @@
 	import fetchLog from './fetch-log.js';
 	import loadProfiles from './load-profiles.js';
 	import saveProfiles from './save-profiles.js';
-
 
 
 	/** @type {typeof GM_xmlhttpRequest} */
@@ -60,7 +103,7 @@
 		})));
 
 
-
+	/** @type {import('vue').Ref<any[]>} */
 	const $profiles = ref(loadProfiles());
 
 
@@ -68,23 +111,73 @@
 
 
 	/** @type {import('vue').Ref<HTMLDialogElement>} */
-	const dialogProfileCreate = ref(null);
-	const $profileCreating = ref({});
+	const dialogLogsRaw = ref(null);
+	const uidLogsRaw = ref('');
+	const keysLogsRaw = ref([]);
+	const showRawLogs = profile => {
+		uidLogsRaw.value = profile.uid;
+
+		keysLogsRaw.value = Object.keys(localStorage).filter(key => key.startsWith(`logsRaw-${profile.uid}`)).map(key => ({
+			key,
+			selected: false
+		}));
+
+
+		dialogLogsRaw.value.showModal();
+	};
+
+
+
+	/** @type {import('vue').Ref<HTMLDialogElement>} */
+	const dialogProgress = ref(null);
+	const textProgress = ref('');
+
+
+
+	/** @type {import('vue').Ref<HTMLDialogElement>} */
+	const dialogEditorProfile = ref(null);
+	const $profileEditing = ref({});
+	const modeProfileEditor = ref('');
+
 	const creatingProfile = () => {
-		$profileCreating.value = {
+		$profileEditing.value = {
 			nick: '',
 			urlLog: '',
 		};
 
-		dialogProfileCreate.value.showModal();
+		modeProfileEditor.value = 'create';
+
+		dialogEditorProfile.value.showModal();
 	};
-	const createProfile = async (profileCreating, willFetch) => {
+	const modifingProfile = profile => {
+		$profileEditing.value = {
+			nick: profile.nick,
+			urlLog: '',
+			profile,
+		};
+
+		modeProfileEditor.value = 'modify';
+
+		dialogEditorProfile.value.showModal();
+	};
+	const deletingProfile = async profile => {
+		if(!await $quest(`确定要删除档案【${profile.name}】（${profile.uid}）\n这是不可恢复不可撤回的操作！`, '删除档案', { text: '删除档案！', value: true }, { text: '不了不了', value: false, reverse: true })) { return; }
+
+		const index = $profiles.value.indexOf(profile);
+
+		if(~index) {
+			$profiles.value.splice(index, 1);
+			saveProfiles($profiles.value);
+		}
+	};
+
+	const createProfile = async (profileRaw, willFetchLog) => {
 		try {
-			const urlLog = new URL(profileCreating.urlLog);
+			const urlLog = new URL(profileRaw.urlLog);
 
 
 			const profile = {
-				nick: profileCreating.nick,
+				nick: profileRaw.nick,
 				name: '',
 				uid: null,
 				keyAuth: urlLog.searchParams.get('authkey'),
@@ -98,45 +191,137 @@
 			saveProfiles($profiles.value);
 
 
-			if(willFetch) { await fetchLogs(profile); }
+			if(willFetchLog) { await fetchProfileLogs(profile, true); }
 
-			dialogProfileCreate.value.close();
+
+			dialogEditorProfile.value.close();
 		}
 		catch(error) {
 			$fail('创建档案', error);
 		}
 	};
-	const deletingProfile = async profile => {
-		if(!await $quest(`确定要删除档案【${profile.name}】（${profile.uid}）\n这是不可恢复不可撤回的操作！`, '删除档案', { text: '删除档案！', value: true }, { text: '不了不了', value: false, reverse: true })) { return; }
+	const modifyProfile = async (profileRaw, willFetchLog) => {
+		try {
+			const urlLog = new URL(profileRaw.urlLog);
 
-		const index = $profiles.value.indexOf(profile);
 
-		if(~index) {
-			$profiles.value.splice(index, 1);
+			profileRaw.profile.keyAuth = urlLog.searchParams.get('authkey');
+			profileRaw.profile.versionKeyAuth = urlLog.searchParams.get('authkey_ver');
+
+
 			saveProfiles($profiles.value);
+
+
+			if(willFetchLog) { await fetchProfileLogs(profileRaw.profile, false); }
+
+
+			dialogEditorProfile.value.close();
+		}
+		catch(error) {
+			$fail('创建档案', error);
 		}
 	};
 
 
-	const fetchLogs = async profile => {
-		const { logsRaw } = await fetchLog(profile);
+	/** @type {import('vue').Ref<HTMLDialogElement>} */
+	const dialogEditorProfileImport = ref(null);
+	const $profileImporting = ref({ json: '', files: [] });
+
+	const importingProfile = () => {
+		$profileImporting.value.json = '';
 
 
-		if(logsRaw[0]) {
-			const uid = profile.uid = logsRaw[0].uid;
+		dialogEditorProfileImport.value.showModal();
+	};
 
-			const info = JSON.parse(await fetchText(`https://api.mihomo.me/sr_info_parsed/${uid}`));
+	const importProfile = textJSON => {
+		try {
+			const profile = JSON.parse(textJSON);
 
-			profile.name = info?.player?.nickname;
-			profile.level = info?.player?.level;
-			profile.levelWorld = info?.player?.world_level;
-			profile.sizeCharacter = info?.player?.space_info?.avatar_count ?? 0;
-			profile.countAchievement = info?.player?.space_info?.achievement_count ?? 0;
+			if(profile && typeof profile == 'object') {
+				$profiles.value.push(profile);
+
+				saveProfiles($profiles.value);
+			}
+			else {
+				throw Error('导入的JSON数据类型不是Object');
+			}
+		}
+		catch(error) {
+			$fail('导入档案', error);
 		}
 
-		localStorage.setItem(`logsRaw-${Day().format('YYMMDDHHmmss')}`, JSON.stringify(logsRaw));
 
-		saveProfiles($profiles.value);
+		dialogEditorProfileImport.value.close();
+	};
+
+	const readProfileFile = () => {
+		/** @type {File} */
+		const file = $profileImporting.value.files[0];
+
+
+		const reader = new FileReader();
+		reader.addEventListener('load', event => $profileImporting.value.json = event.target.result);
+		reader.readAsText(file);
+	};
+
+	const readProfileFilePaste = $event => {
+		/** @type {File} */
+		const file = $event?.clipboardData?.files?.[0];
+
+		if(!file) { return; }
+
+
+		const reader = new FileReader();
+		reader.addEventListener('load', event => $profileImporting.value.json = event.target.result);
+		reader.readAsText(file);
+	};
+
+
+
+	const fetchProfileLogs = async (profile, willFetchFull = false) => {
+		textProgress.value = '开始更新...';
+
+		dialogProgress.value.showModal();
+
+
+		try {
+			const { logsRaw } = await fetchLog(profile, willFetchFull, textProgress);
+
+
+			if(logsRaw[0]) {
+				const uid = profile.uid = logsRaw[0].uid;
+
+				const info = JSON.parse(await fetchText(`https://api.mihomo.me/sr_info_parsed/${uid}`));
+
+				profile.nick = profile.nick || info?.player?.nickname;
+				profile.name = info?.player?.nickname;
+				profile.level = info?.player?.level;
+				profile.levelWorld = info?.player?.world_level;
+				profile.sizeCharacter = info?.player?.space_info?.avatar_count ?? 0;
+				profile.countAchievement = info?.player?.space_info?.achievement_count ?? 0;
+			}
+
+			localStorage.setItem(`logsRaw-${profile.uid}-${Day().format('YYMMDDHHmmss')}`, JSON.stringify(logsRaw));
+
+			saveProfiles($profiles.value);
+
+
+			dialogProgress.value.close();
+		}
+		catch(error) {
+			textProgress.value = error?.message ?? error;
+		}
+	};
+
+
+
+	const exportProfile = profile => {
+		const a = document.createElement('a');
+		a.download = `profile-${profile.uid}-${profile.nick != profile.name ? `${profile.name} (${profile.nick})` : profile.name}-${Day().format('YYMMDD HHmmss')}.json`;
+		a.href = URL.createObjectURL(new Blob([JSON.stringify(profile)]));
+
+		a.click();
 	};
 </script>
 
@@ -153,22 +338,33 @@ p-fixed-topbar
 	background-color: var(--colorBackground)
 
 	>[item]
-		@apply inblock w-auto mr-4 h-8 leading-8 mb-2
+		@apply inblock w-auto mr-4 mb-2 h-8 leading-8
 
 
 p-main-box
 	@apply relative block p-4 leading-8 top-[var(--heightTopbar)]
 
 
-dialog[create-profile]
-	@apply bg-[var(--colorBackgroundLight)] text-[var(--colorText)] shadow-mdd rounded-md
+dialog
+	@apply bg-[var(--colorBackgroundLight)] text-[var(--colorText)] shadow-mdd rounded-md outline-none
 
 	>[item]
-		@apply inblock w-auto mr-4 h-8 leading-8 mb-2
+		@apply inblock w-auto mx-2 mb-2 h-8 leading-8
+
+		&[_right]
+			@apply float-right
 
 p-profile
 	@apply block border rounded-md mb-4 p-4
 
 	p-info
 		@apply block whitespace-nowrap elli
+
+
+p-raw-logs-option
+	@apply block p-2 my-2 cursor-pointer select-none rounded-md w-fit
+
+
+	&[selected]
+		@apply bg-[var(--colorBackground)] text-[var(--colorMain)]
 </style>

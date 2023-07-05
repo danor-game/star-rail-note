@@ -22,9 +22,8 @@ const app = createApp(App);
 app.provide('app', app);
 
 
-window.addEventListener('load', async () => {
+const init = async () => {
 	app.mixin({ data() { return { brop }; } });
-
 	await installAlert(app);
 	aegis.alert = $alert;
 
@@ -38,4 +37,7 @@ window.addEventListener('load', async () => {
 
 
 	app.mount('#app');
-});
+};
+
+if(document.readyState == 'complete') { await init(); }
+else { window.addEventListener('load', init); }
