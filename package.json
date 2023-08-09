@@ -6,7 +6,7 @@
 	"license": "LGPL-3.0-or-later",
 	"repository": {
 		"type": "git",
-		"url": "github:nuogz/star-rail-gacha-note"
+		"url": "github:danor-game/star-rail-gacha-note"
 	},
 	"private": true,
 	"type": "module",

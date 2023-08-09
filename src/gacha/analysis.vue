@@ -1,9 +1,9 @@
 <template>
 	<p-fixed-topbar>
-		<Texter v-model="$uid" item class="!w-48" label="UID" type="number" align="center" />
+		<Texter v-model="$uid" item class="!w-48" label="UID" type="number" align="center" label-split="&nbsp;" />
 		<Click item class="!w-16" text="分析" @click="query" />
-		<Combo v-model="$showCharacter4" item class="!w-40" lightcone4 label="四星角色" align="center" :list="listShownHidden" />
-		<Combo v-model="$showLightcone4" item class="!w-40" lightcone4 label="四星光锥" align="center" :list="listShownHidden" />
+		<Combo v-model="$showCharacter4" item class="!w-40" lightcone4 label="四星角色" align="center" label-split="&nbsp;" :options="listShownHidden" />
+		<Combo v-model="$showLightcone4" item class="!w-40" lightcone4 label="四星光锥" align="center" label-split="&nbsp;" :options="listShownHidden" />
 	</p-fixed-topbar>
 	<p-main-box>
 		<p-line>
@@ -64,7 +64,7 @@
 					<p-image v-if="analysis.pool.itemsBoost5?.[0]"><img :src="`./image/item/${analysis.pool.itemsBoost5[0]}.png`" /></p-image>
 					<span class="text-lg font-bold text-[var(--colorMain)] h-10 leading-10">{{ analysis.name }}</span>
 					<span v-if="analysis.pool.typeItem == 'character'" class="text-xs">&nbsp;{{ M.characters$id[analysis.pool.itemsBoost5[0]]?.name }}</span>
-					<span v-if="analysis.pool.typeItem == 'lightcone'" class="text-xs">&nbsp;{{ M.characters$id[M.lightcones$id[analysis.pool.itemsBoost5[0]]?.characterBest]?.name }}光锥</span>
+					<span v-if="analysis.pool.typeItem == 'lightcone'" class="text-xs">&nbsp;{{ M.characters$id[M.lightcones$id[analysis.pool.itemsBoost5[0]]?.characterBest]?.name }}</span>
 					<span class="float-right text-right"><span value-highlight>{{ analysis.logs.length }}</span> 次抽卡 <span value-highlight>{{ String(analysis.logs5.length).padStart(2, '&nbsp;') }}</span> 五星对象 <span value-highlight>{{ String(analysis.logs4.length).padStart(2, '&nbsp;') }}</span> 四星对象</span>
 					<template v-if="analysis.pool.itemsBoost5">
 						<br />

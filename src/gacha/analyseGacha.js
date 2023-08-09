@@ -82,8 +82,8 @@ const analyseGacha = (logs, showCharacter4, showLightcone4) => {
 				M.characters$id[log.item]?.rarity >= (showCharacter4 ? 4 : 5) ||
 				M.lightcones$id[log.item]?.rarity >= (showLightcone4 ? 4 : 5)
 			),
-			countInvestPrev: countInvestPrev,
 			countInvestNext: countsInvest$typeGacha2[idTypeGacha],
+			countInvestPrev: countInvestPrev,
 		};
 	}
 
@@ -106,7 +106,6 @@ const analyseGacha = (logs, showCharacter4, showLightcone4) => {
 				)
 			)
 			.sort((a, b) => b.time - a.time);
-
 
 		const countInvestPrev = countsInvest$typeGacha[pool.type];
 		let countInvestPrevNow = countsInvest$typeGacha[pool.type];
@@ -139,8 +138,8 @@ const analyseGacha = (logs, showCharacter4, showLightcone4) => {
 				M.characters$id[log.item]?.rarity >= (showCharacter4 ? 4 : 5) ||
 				M.lightcones$id[log.item]?.rarity >= (showLightcone4 ? 4 : 5)
 			),
-			countInvestPrev: countInvestPrev,
 			countInvestNext: countsInvest$typeGacha[pool.type],
+			countInvestPrev: countInvestPrev,
 		};
 	}
 

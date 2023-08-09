@@ -396,6 +396,7 @@
 		"id": "23008",
 		"path": "Priest",
 		"rarity": 5,
+		"characterBest": "1203",
 		"versionAdded": "1.1"
 	},
 	"23009": {
