@@ -95,11 +95,12 @@ const analyseGacha = (logs, showCharacter4, showLightcone4) => {
 		const pool = M.poolsGacha$id[idPool];
 		const poolLast = M.poolsGacha.filter(p => p.type == pool.type && p.timeEnd < pool.timeEnd).sort((a, b) => b.timeEnd - a.timeEnd)[0];
 
-		const typeGacha = M.typesGacha$id[pool.type];
+		const typeGachaPool = M.typesGacha$id[pool.type];
 
 		const logsPool = logs
 			.filter(log =>
-				log.type == typeGacha.id &&
+				log.type == typeGachaPool.id &&
+				log.pool == idPool &&
 				(!pool.timeEnd ? true :
 					Day.unix(log.time).isBetween(Day.unix(poolLast?.timeEnd ?? 0), Day.unix(pool.timeEnd), null, '[]')
 				)

@@ -40,7 +40,6 @@
 			</p-gather>
 		</p-box> -->
 
-
 		<p-box _limit-2>
 			<p-line>● 按<span value-highlight-xl>跃迁活动</span>概览</p-line>
 			<p-gather v-for="[id, analysis] of Object.entries(A.pools).filter(([, a]) => a.pool.type > 10).sort(sortEntriesByValueOrder)" :key="`gather-pool-${id}`"

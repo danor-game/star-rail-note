@@ -143,6 +143,14 @@
 		"versionAdded": "1.0",
 		"versionAvailable": "1.0"
 	},
+	"1111": {
+		"id": "1111",
+		"element": "Physical",
+		"path": "Warlock",
+		"rarity": 4,
+		"versionAdded": "1.2",
+		"versionAvailable": "1.2"
+	},
 	"1201": {
 		"id": "1201",
 		"element": "Quantum",
@@ -228,7 +236,7 @@
 		"element": "Imaginary",
 		"path": "Warrior",
 		"rarity": 5,
-		"versionAdded": "1.3",
+		"versionAdded": "1.2",
 		"versionAvailable": "1.3"
 	},
 	"8001": {

@@ -72,6 +72,37 @@
 		],
 		"versionAdded": "1.1"
 	},
+	"2007": {
+		"id": "2007",
+		"type": "11",
+		"timeEnd": 1691553599,
+		"typeItem": "character",
+		"itemsBoost5": [
+			"1205"
+		],
+		"itemsBoost4": [
+			"1008",
+			"1105",
+			"1206"
+		],
+		"versionAdded": "1.2"
+	},
+	"2008": {
+		"id": "2008",
+		"type": "11",
+		"timeStart": 1691553600,
+		"timeEnd": 1693292399,
+		"typeItem": "character",
+		"itemsBoost5": [
+			"1005"
+		],
+		"itemsBoost4": [
+			"1111",
+			"1108",
+			"1103"
+		],
+		"versionAdded": "1.2"
+	},
 	"3003": {
 		"id": "3003",
 		"type": "12",
@@ -133,5 +164,36 @@
 			"21018"
 		],
 		"versionAdded": "1.1"
+	},
+	"3007": {
+		"id": "3007",
+		"type": "12",
+		"timeEnd": 1691553599,
+		"typeItem": "lightcone",
+		"itemsBoost5": [
+			"23009"
+		],
+		"itemsBoost4": [
+			"21012",
+			"21007",
+			"21010"
+		],
+		"versionAdded": "1.2"
+	},
+	"3008": {
+		"id": "3008",
+		"type": "12",
+		"timeStart": 1691553600,
+		"timeEnd": 1693292399,
+		"typeItem": "lightcone",
+		"itemsBoost5": [
+			"23006"
+		],
+		"itemsBoost4": [
+			"21015",
+			"21008",
+			"21006"
+		],
+		"versionAdded": "1.2"
 	}
 }

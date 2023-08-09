@@ -60,7 +60,7 @@ const fetchLog = async (profile, willFetchFull = false, textProgressRef) => {
 			url.searchParams.set('gacha_type', typeGacha);
 			url.searchParams.set('end_id', idEnd);
 
-
+			await new Promise(resolver => setTimeout(resolver, 1000 * 2));
 			const data = JSON.parse(await fetchText(url));
 
 			if(data.retcode == -101) { throw Error('链接已过期'); }
