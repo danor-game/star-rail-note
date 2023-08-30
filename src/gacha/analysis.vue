@@ -356,7 +356,7 @@ p-main-box
 
 
 		p-item
-			@apply block relative rounded-sm w-fit px-4 m-1
+			@apply block relative rounded-sm w-fit px-4 m-1 whitespace-nowrap
 
 
 			p-name

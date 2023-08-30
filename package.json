@@ -12,7 +12,8 @@
 	"type": "module",
 	"typesSource": [
 		"browser",
-		"vue"
+		"vue",
+		"vite"
 	],
 	"engines": {
 		"node": ">=14.18.1"
