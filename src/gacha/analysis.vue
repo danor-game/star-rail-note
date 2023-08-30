@@ -20,25 +20,12 @@
 			<p-line>● 按<span value-highlight-xl>跃迁类型</span>概览</p-line>
 			<p-gather v-for="[id, analysis] of Object.entries(A.typesGacha).sort(sortEntriesByValueOrder)" :key="`gather-type-${id}`">
 				<p-line class="text-lg font-bold mb-2">{{ analysis.name }}</p-line>
-				<p-line class="mb-0 mt-2 text-right"><span value-highlight>{{ analysis.logs.length }}</span> 次抽卡</p-line>
-				<p-line class="mb-0 mt-2 text-right"><span value-highlight>{{ String(analysis.logs5.length).padStart(2, '&nbsp;') }}</span> 五星对象</p-line>
-				<p-line class="mb-0 mt-2 text-right"><span value-highlight>{{ String(analysis.logs4.length).padStart(2, '&nbsp;') }}</span> 四星对象</p-line>
+				<p-line class="mb-0 mt-2 text-right"><span value-highlight>{{ analysis.logs.length }}</span> 抽卡</p-line>
+				<p-line class="mb-0 mt-2 text-right"><span value-highlight>{{ String(analysis.logs5.length).padStart(2, '&nbsp;') }}</span> 五星</p-line>
+				<p-line class="mb-0 mt-2 text-right"><span value-highlight>{{ String(analysis.logs4.length).padStart(2, '&nbsp;') }}</span> 四星</p-line>
 			</p-gather>
 		</p-box>
 
-
-		<!-- <p-box>
-			<p-line>● 常规跃迁</p-line>
-			<p-gather v-for="[id, analysis] of Object.entries(A.pools).filter(([, a]) => a.pool.type < 10).sort(sortEntriesByValueOrder)" :key="`type-gather-${id}`">
-				<p-line class="mb-2">
-					<span class="text-lg font-bold">{{ analysis.name }}</span>
-					<span class="text-xs">{{ name$typeItemPool[analysis.pool.typeItem] }}</span>
-				</p-line>
-				<p-line class="mb-0 mt-2 text-right"><span value-highlight>{{ analysis.logs.length }}</span> 次抽卡</p-line>
-				<p-line class="mb-0 mt-2 text-right"><span value-highlight>{{ String(analysis.logs5.length).padStart(2, '&nbsp;') }}</span> 五星对象</p-line>
-				<p-line class="mb-0 mt-2 text-right"><span value-highlight>{{ String(analysis.logs4.length).padStart(2, '&nbsp;') }}</span> 四星对象</p-line>
-			</p-gather>
-		</p-box> -->
 
 		<p-box _limit-2>
 			<p-line>● 按<span value-highlight-xl>跃迁活动</span>概览</p-line>
@@ -49,10 +36,20 @@
 					<span v-tip="'跳转到详细'" class="text-lg font-bold" scrollable @click="scrollPoolDetailIntoView(analysis.pool.id)">{{ analysis.name }}</span>
 					<span class="text-xs">&nbsp;{{ name$typeItemPool[analysis.pool.typeItem] }}池</span>
 				</p-line>
-				<p-line v-if="analysis.pool.itemsBoost5" class="text-sm">○ {{ analysis.pool.itemsBoost5.map(idItem => M.items$id[idItem]?.name).join(' / ') }}</p-line>
-				<p-line v-if="analysis.pool.itemsBoost4" class="text-sm">○ {{ analysis.pool.itemsBoost4.map(idItem => M.items$id[idItem]?.name).join(' / ') }}</p-line>
-				<p-line class="text-sm">○ {{ Day.unix(analysis.pool.timeEnd).format('MM月DD日 HH时mm分') }} 结束</p-line>
-				<p-line class="mb-0 mt-2 text-right"><span value-highlight>{{ analysis.logs.length }}</span> 次抽卡 <span value-highlight>{{ String(analysis.logs5.length).padStart(2, '&nbsp;') }}</span> 五星对象 <span value-highlight>{{ String(analysis.logs4.length).padStart(2, '&nbsp;') }}</span> 四星对象</p-line>
+				<p-line v-if="analysis.pool.itemsBoost5" class="text-sm">
+					&gt;
+					<span style="color: var(--cRarity5)">{{ analysis.pool.itemsBoost5.map(idItem => M.items$id[idItem]?.name).join(' / ') }}</span>
+				</p-line>
+				<p-line v-if="analysis.pool.itemsBoost4" class="text-sm">
+					&gt;
+					<span style="color: var(--cRarity4)">{{ analysis.pool.itemsBoost4.map(idItem => M.items$id[idItem]?.name).join(' / ') }}</span>
+				</p-line>
+				<p-line class="text-sm">{{ Day.unix(analysis.pool.timeEnd).format('MM月DD日 HH时mm分') }} 结束</p-line>
+				<p-line class="mb-0 mt-2 text-right">
+					<span value-highlight>{{ analysis.logs.length }}</span> 抽卡
+					<span value-highlight>{{ String(analysis.logs5.length).padStart(2, '&nbsp;') }}</span><sup class="text-[var(--cMain)] align-super">歪{{ String(analysis.logs5.filter(l=>l.missed).length) }}</sup> 五星
+					<span value-highlight>{{ String(analysis.logs4.length).padStart(2, '&nbsp;') }}</span> 四星
+				</p-line>
 			</p-gather>
 		</p-box>
 		<p-box>
@@ -65,7 +62,11 @@
 					<span class="text-lg font-bold text-[var(--cMain)] h-10 leading-10">{{ analysis.name }}</span>
 					<span v-if="analysis.pool.typeItem == 'character'" class="text-xs">&nbsp;{{ M.characters$id[analysis.pool.itemsBoost5[0]]?.name }}</span>
 					<span v-if="analysis.pool.typeItem == 'lightcone'" class="text-xs">&nbsp;{{ M.characters$id[M.lightcones$id[analysis.pool.itemsBoost5[0]]?.characterBest]?.name }}</span>
-					<span class="float-right text-right"><span value-highlight>{{ analysis.logs.length }}</span> 次抽卡 <span value-highlight>{{ String(analysis.logs5.length).padStart(2, '&nbsp;') }}</span> 五星对象 <span value-highlight>{{ String(analysis.logs4.length).padStart(2, '&nbsp;') }}</span> 四星对象</span>
+					<span class="float-right text-right">
+						<span value-highlight>{{ analysis.logs.length }}</span> 抽卡
+						<span value-highlight>{{ String(analysis.logs5.length).padStart(2, '&nbsp;') }}</span><sup class="text-[var(--cMain)] align-super">歪{{ String(analysis.logs5.filter(l=>l.missed).length) }}</sup> 五星
+						<span value-highlight>{{ String(analysis.logs4.length).padStart(2, '&nbsp;') }}</span> 四星
+					</span>
 					<template v-if="analysis.pool.itemsBoost5">
 						<br />
 						<span class="text-sm leading-10 text-[var(--cRarity5)]">{{ analysis.pool.itemsBoost5.map(idItem => M.items$id[idItem]?.name).join(' / ') }}</span>
@@ -120,7 +121,11 @@
 			>
 				<p-line class="mb-6">
 					<span class="text-lg font-bold text-[var(--cMain)]">{{ analysis.name }}</span>
-					<span class="float-right text-right"><span value-highlight>{{ analysis.logs.length }}</span> 次抽卡 <span value-highlight>{{ String(analysis.logs5.length).padStart(2, '&nbsp;') }}</span> 五星对象 <span value-highlight>{{ String(analysis.logs4.length).padStart(2, '&nbsp;') }}</span> 四星对象</span>
+					<span class="float-right text-right">
+						<span value-highlight>{{ analysis.logs.length }}</span> 抽卡
+						<span value-highlight>{{ String(analysis.logs5.length).padStart(2, '&nbsp;') }}</span> 五星
+						<span value-highlight>{{ String(analysis.logs4.length).padStart(2, '&nbsp;') }}</span> 四星
+					</span>
 				</p-line>
 				<p-line>
 					<p-item v-if="analysis.countInvestNext" class="mb-4">
@@ -318,7 +323,7 @@ p-main-box
 				@apply text-[var(--cTextBack)]
 
 	[value-highlight]
-		@apply font-bold text-2xl text-[var(--cMain)]
+		@apply font-bold text-2xl text-[var(--cMain)] align-super
 	[value-highlight-xl]
 		@apply font-bold text-xl text-[var(--cMain)]
 
