@@ -400,5 +400,5 @@ p-tips-item
 		@apply block w-[128px]
 
 	p-info
-		@apply block whitespace-nowrap
+		@apply block whitespace-nowrap text-[var(--cTextMain)]
 </style>
