@@ -1,33 +1,48 @@
 :root
+	--spc: theme("spacing.1")
+
 	--cBase: #FFD480
 	--cBaseComple: #80ABFF
+
 	@media (prefers-color-scheme: light)
 		color-scheme: light
 		--cMain: color-mix(in srgb, var(--cBase) 90%, black)
 		--cTextMain: theme("colors.gray.700")
 		--cTextMainDisabled: theme("colors.gray.400")
-		--cBack: theme("colors.gray.100")
+		--cBack: theme("colors.gray.50")
 		--cTextBack: theme("colors.gray.700")
 		--cTextBackDisabled: theme("colors.gray.400")
 		--cBorderBack: theme("colors.gray.700")
+
+		--cRarity5: theme("colors.yellow.500")
+		--cRarity4: theme("colors.purple.500")
+		--cProgressBack: theme('colors.gray.300')
 	@media (prefers-color-scheme: dark)
 		color-scheme: dark
 		--cMain: var(--cBase)
 		--cTextMain: theme("colors.gray.700")
 		--cTextMainDisabled: theme("colors.gray.400")
 		--cBack: theme("colors.gray.700")
-		--cTextBack: theme("colors.gray.100")
+		--cTextBack: theme("colors.gray.50")
 		--cTextBackDisabled: theme("colors.gray.400")
-		--cBorderBack: theme("colors.gray.100")
+		--cBorderBack: theme("colors.gray.50")
+
+		--cRarity5: theme("colors.yellow.400")
+		--cRarity4: theme("colors.purple.400")
+		--cProgressBack: theme('colors.gray.400')
 	&.color-scheme-dark
 		color-scheme: dark
 		--cMain: var(--cBase)
 		--cTextMain: theme("colors.gray.700")
 		--cTextMainDisabled: theme("colors.gray.400")
 		--cBack: theme("colors.gray.700")
-		--cTextBack: theme("colors.gray.100")
+		--cTextBack: theme("colors.gray.50")
 		--cTextBackDisabled: theme("colors.gray.400")
-		--cBorderBack: theme("colors.gray.100")
+		--cBorderBack: theme("colors.gray.50")
+
+		--cRarity5: theme("colors.yellow.400")
+		--cRarity4: theme("colors.purple.400")
+		--cProgressBack: theme('colors.gray.400')
 
 
 	--cOkay: theme("colors.green.600")
@@ -35,6 +50,8 @@
 
 	--cSidebarRingFocus: var(--cBaseComple)
 	--cSidebarRingNow: var(--cTextBack)
+
+
 
 
 html

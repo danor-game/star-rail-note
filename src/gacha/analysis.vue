@@ -68,9 +68,9 @@
 					<span class="float-right text-right"><span value-highlight>{{ analysis.logs.length }}</span> 次抽卡 <span value-highlight>{{ String(analysis.logs5.length).padStart(2, '&nbsp;') }}</span> 五星对象 <span value-highlight>{{ String(analysis.logs4.length).padStart(2, '&nbsp;') }}</span> 四星对象</span>
 					<template v-if="analysis.pool.itemsBoost5">
 						<br />
-						<span class="text-sm leading-10 text-yellow-400">{{ analysis.pool.itemsBoost5.map(idItem => M.items$id[idItem]?.name).join(' / ') }}</span>
+						<span class="text-sm leading-10 text-[var(--cRarity5)]">{{ analysis.pool.itemsBoost5.map(idItem => M.items$id[idItem]?.name).join(' / ') }}</span>
 						/
-						<span class="text-sm leading-10 text-purple-400">{{ analysis.pool.itemsBoost4.map(idItem => M.items$id[idItem]?.name).join(' / ') }}</span>
+						<span class="text-sm leading-10 text-[var(--cRarity4)]">{{ analysis.pool.itemsBoost4.map(idItem => M.items$id[idItem]?.name).join(' / ') }}</span>
 					</template>
 				</p-line>
 				<p-line>
@@ -298,8 +298,8 @@ p-fixed-topbar
 
 
 p-main-box
-	--widthBox: calc(theme("spacing.1") * 40)
-	--widthSide: calc(theme("spacing.1") * 4)
+	--widthBox: calc(var(--spc) * 40)
+	--widthSide: calc(var(--spc) * 4)
 
 	@apply block relative p-4 leading-8 w-auto rounded-sm top-16
 	background-color: color-mix(in srgb, var(--cBack) 95%, black)
@@ -327,7 +327,7 @@ p-main-box
 		@apply block w-full my-6
 
 		&[_limit-2]
-			width: calc(theme("spacing.1") * ((40 * 2 + 4 * 2) * 2 + 4 * 4))
+			width: calc(var(--spc) * ((40 * 2 + 4 * 2) * 2 + 4 * 4))
 
 	p-gather
 		@apply inblock border border-[var(--cBorderBack)] rounded-sm
@@ -343,7 +343,7 @@ p-main-box
 			@apply inblock w-10 h-10 leading-10 mr-2 text-2xl text-center
 
 			&[_unknown]
-				@apply rounded-full border-2 leading-9
+				@apply rounded-full border-2 leading-9 border-[var(--TextBack)]
 
 			img
 				@apply max-h-full m-auto
@@ -363,28 +363,28 @@ p-main-box
 			p-progress-text
 				@apply inblock ml-2 h-10 leading-10
 				@apply relative text-black
-				left: calc( theme("spacing.1") * -64 )
+				left: calc(var(--spc) * -64)
 
 			[count]
-				@apply text-[snow] text-xl
+				@apply text-white text-xl
 
 			[missed]
 				@apply text-red-700
 
 			&[_rarity-5]
 				>p-name
-					@apply text-yellow-400
+					@apply text-[var(--cRarity5)]
 
 
 			&[_rarity-4]
 				@apply inblock
 
 				>p-name
-					@apply w-fit text-purple-400
+					@apply w-fit text-[var(--cRarity4)]
 
 
 			p-progress
-				@apply relative top-1 inblock w-64 h-8 ml-2 rounded-sm overflow-hidden bg-gray-400
+				@apply relative top-1 inblock w-64 h-8 ml-2 rounded-sm overflow-hidden bg-[var(--cProgressBack)]
 
 				p-value
 					@apply block h-full
