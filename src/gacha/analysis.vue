@@ -62,7 +62,7 @@
 			>
 				<p-line class="mb-6">
 					<p-image v-if="analysis.pool.itemsBoost5?.[0]"><img :src="`./image/item/${analysis.pool.itemsBoost5[0]}.png`" /></p-image>
-					<span class="text-lg font-bold text-[var(--colorMain)] h-10 leading-10">{{ analysis.name }}</span>
+					<span class="text-lg font-bold text-[var(--cMain)] h-10 leading-10">{{ analysis.name }}</span>
 					<span v-if="analysis.pool.typeItem == 'character'" class="text-xs">&nbsp;{{ M.characters$id[analysis.pool.itemsBoost5[0]]?.name }}</span>
 					<span v-if="analysis.pool.typeItem == 'lightcone'" class="text-xs">&nbsp;{{ M.characters$id[M.lightcones$id[analysis.pool.itemsBoost5[0]]?.characterBest]?.name }}</span>
 					<span class="float-right text-right"><span value-highlight>{{ analysis.logs.length }}</span> 次抽卡 <span value-highlight>{{ String(analysis.logs5.length).padStart(2, '&nbsp;') }}</span> 五星对象 <span value-highlight>{{ String(analysis.logs4.length).padStart(2, '&nbsp;') }}</span> 四星对象</span>
@@ -76,7 +76,7 @@
 				<p-line>
 					<p-item v-if="analysis.countInvestNext" class="mb-4">
 						<p-image _unknown>?</p-image>
-						<p-name fit>当前已垫 <span count style="color: var(--colorMain)">{{ String(analysis.countInvestNext).padStart(2, '&nbsp;') }}</span> 抽</p-name>
+						<p-name fit>当前已垫 <span count style="color: var(--cMain)">{{ String(analysis.countInvestNext).padStart(2, '&nbsp;') }}</span> 抽</p-name>
 					</p-item>
 					<p-item v-for="log of analysis.logsRare " :key="`gather-pool-detail-${id}-${log.id}`"
 						:_rarity-5="brop(M.items$id[log.item]?.rarity == 5)"
@@ -108,7 +108,7 @@
 					</p-item>
 					<p-item v-if="analysis.countInvestPrev" class="mt-4">
 						<p-image _unknown>?</p-image>
-						<p-name fit>上期已垫 <span count style="color: var(--colorMain)">{{ String(analysis.countInvestPrev).padStart(2, '&nbsp;') }}</span> 抽</p-name>
+						<p-name fit>上期已垫 <span count style="color: var(--cMain)">{{ String(analysis.countInvestPrev).padStart(2, '&nbsp;') }}</span> 抽</p-name>
 					</p-item>
 				</p-line>
 			</p-gather>
@@ -119,13 +119,13 @@
 				_width-4 class="block"
 			>
 				<p-line class="mb-6">
-					<span class="text-lg font-bold text-[var(--colorMain)]">{{ analysis.name }}</span>
+					<span class="text-lg font-bold text-[var(--cMain)]">{{ analysis.name }}</span>
 					<span class="float-right text-right"><span value-highlight>{{ analysis.logs.length }}</span> 次抽卡 <span value-highlight>{{ String(analysis.logs5.length).padStart(2, '&nbsp;') }}</span> 五星对象 <span value-highlight>{{ String(analysis.logs4.length).padStart(2, '&nbsp;') }}</span> 四星对象</span>
 				</p-line>
 				<p-line>
 					<p-item v-if="analysis.countInvestNext" class="mb-4">
 						<p-image _unknown>?</p-image>
-						<p-name fit>当前已垫 <span count style="color: var(--colorMain)">{{ String(analysis.countInvestNext).padStart(2, '&nbsp;') }}</span> 抽</p-name>
+						<p-name fit>当前已垫 <span count style="color: var(--cMain)">{{ String(analysis.countInvestNext).padStart(2, '&nbsp;') }}</span> 抽</p-name>
 					</p-item>
 					<p-item v-for="log of analysis.logsRare " :key="`gather-typeGacha-detail-${id}-${log.id}`"
 						:_rarity-5="brop(M.items$id[log.item]?.rarity == 5)"
@@ -157,7 +157,7 @@
 					</p-item>
 					<p-item v-if="analysis.countInvestPrev" class="mt-4">
 						<p-image _unknown>?</p-image>
-						<p-name fit>上期已垫 <span count style="color: var(--colorMain)">{{ String(analysis.countInvestPrev).padStart(2, '&nbsp;') }}</span> 抽</p-name>
+						<p-name fit>上期已垫 <span count style="color: var(--cMain)">{{ String(analysis.countInvestPrev).padStart(2, '&nbsp;') }}</span> 抽</p-name>
 					</p-item>
 				</p-line>
 			</p-gather>
@@ -291,7 +291,7 @@
 <style lang="sass" scoped>
 p-fixed-topbar
 	@apply block p-4 leading-8 fixed w-full h-16 z-50 shadow-mdd
-	background-color: var(--colorBackground)
+	background-color: var(--cBack)
 
 	>[item]
 		@apply inblock w-auto mr-4 h-8 leading-8 mb-2
@@ -301,7 +301,8 @@ p-main-box
 	--widthBox: calc(theme("spacing.1") * 40)
 	--widthSide: calc(theme("spacing.1") * 4)
 
-	@apply block relative p-4 leading-8 w-auto bg-gray-800 rounded-md top-16
+	@apply block relative p-4 leading-8 w-auto rounded-sm top-16
+	background-color: color-mix(in srgb, var(--cBack) 95%, black)
 
 	width: calc(var(--widthBox) * 4 + var(--widthSide) * 2 * (4 + 1))
 	left: calc(50% - (var(--widthBox) * 4 + var(--widthSide) * 2 * (4 + 1)) / 2)
@@ -311,15 +312,15 @@ p-main-box
 		@apply block w-full mb-2
 
 		[scrollable]
-			@apply mb-2 cursor-pointer select-none trans text-[var(--colorMain)]
+			@apply mb-2 cursor-pointer select-none trans text-[var(--cMain)]
 
 			&:hover
-				@apply text-[var(--colorText)]
+				@apply text-[var(--cTextBack)]
 
 	[value-highlight]
-		@apply font-bold text-2xl text-[var(--colorMain)]
+		@apply font-bold text-2xl text-[var(--cMain)]
 	[value-highlight-xl]
-		@apply font-bold text-xl text-[var(--colorMain)]
+		@apply font-bold text-xl text-[var(--cMain)]
 
 
 	p-box
@@ -329,7 +330,7 @@ p-main-box
 			width: calc(theme("spacing.1") * ((40 * 2 + 4 * 2) * 2 + 4 * 4))
 
 	p-gather
-		@apply inblock border rounded-md
+		@apply inblock border border-[var(--cBorderBack)] rounded-sm
 		@apply w-[var(--widthBox)] mx-[var(--widthSide)] mb-[var(--widthSide)] p-2
 
 		&[_width-2]
@@ -350,7 +351,7 @@ p-main-box
 
 
 		p-item
-			@apply block relative rounded-md w-fit px-4 m-1
+			@apply block relative rounded-sm w-fit px-4 m-1
 
 
 			p-name
@@ -383,7 +384,7 @@ p-main-box
 
 
 			p-progress
-				@apply relative top-1 inblock w-64 h-8 ml-2 rounded-md overflow-hidden bg-gray-400
+				@apply relative top-1 inblock w-64 h-8 ml-2 rounded-sm overflow-hidden bg-gray-400
 
 				p-value
 					@apply block h-full
@@ -392,7 +393,8 @@ p-main-box
 					@apply bg-red-400
 
 p-tips-item
-	@apply block rounded-md shadow-mdd px-4 py-2 bg-[var(--colorMain)] border-4 border-[var(--colorMainDark)]
+	@apply block rounded-sm shadow-mdd px-4 py-2 bg-[var(--cMain)] border-4
+	border-color: color-mix(in srgb, var(--cMain) 90%, black)
 
 	img
 		@apply block w-[128px]

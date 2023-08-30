@@ -46,15 +46,7 @@ p-main
 		@apply block relative
 </style>
 
-<style lang="sass" scoped>
-comp-sidebar :deep(p-tab)
-	@apply ring-[var(--colorMainLight)] #{!important}
-
-:deep(comp-click)
-	@apply text-[var(--colorText)]
-</style>
-
 <style lang="sass">
 .tippy-box[data-theme~='light-border']
-	@apply shadow-mdd px-2 bg-[var(--colorMain)] #{!important}
+	@apply shadow-mdd px-2 text-[var(--cTextMain)] bg-[var(--cMain)] #{!important}
 </style>

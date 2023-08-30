@@ -1,76 +1,77 @@
 :root
-	--colorMain: #FFD480
-	--colorMainDark: #EE970C
-	--colorMainLight: #e2b276
-	--colorBackground: theme("colors.gray.700")
-	--colorBackgroundLight: theme("colors.gray.600")
-	--colorText: theme("colors.gray.100")
-	--colorTextMain: theme("colors.gray.700")
-	--colorDisable: theme("colors.gray.500")
-	--colorOkay: theme("colors.green.500")
-	--colorFail: theme("colors.red.500")
-	--cAccentSelected: theme("colors.blue.200")
-	--cAccentHover: theme("colors.green.200")
-	--cLightD: theme("colors.gray.200")
+	--cBase: #FFD480
+	--cBaseComple: #80ABFF
+	@media (prefers-color-scheme: light)
+		color-scheme: light
+		--cMain: color-mix(in srgb, var(--cBase) 90%, black)
+		--cTextMain: theme("colors.gray.700")
+		--cTextMainDisabled: theme("colors.gray.400")
+		--cBack: theme("colors.gray.100")
+		--cTextBack: theme("colors.gray.700")
+		--cTextBackDisabled: theme("colors.gray.400")
+		--cBorderBack: theme("colors.gray.700")
+	@media (prefers-color-scheme: dark)
+		color-scheme: dark
+		--cMain: var(--cBase)
+		--cTextMain: theme("colors.gray.700")
+		--cTextMainDisabled: theme("colors.gray.400")
+		--cBack: theme("colors.gray.700")
+		--cTextBack: theme("colors.gray.100")
+		--cTextBackDisabled: theme("colors.gray.400")
+		--cBorderBack: theme("colors.gray.100")
+	&.color-scheme-dark
+		color-scheme: dark
+		--cMain: var(--cBase)
+		--cTextMain: theme("colors.gray.700")
+		--cTextMainDisabled: theme("colors.gray.400")
+		--cBack: theme("colors.gray.700")
+		--cTextBack: theme("colors.gray.100")
+		--cTextBackDisabled: theme("colors.gray.400")
+		--cBorderBack: theme("colors.gray.100")
 
 
+	--cOkay: theme("colors.green.600")
+	--cFail: theme("colors.red.600")
 
+	--cSidebarRingFocus: var(--cBaseComple)
+	--cSidebarRingNow: var(--cTextBack)
 
 
 html
 	@apply h-full overflow-x-hidden overflow-y-auto
-	color: var(--colorText)
-	background: var(--colorBackground)
-	font-family: 'Source Code Pro'
+	color: var(--cTextBack)
+	background: var(--cBack)
+	font-family: 'Source Code Pro', 'Microsoft YaHei'
 
 input
-	color: var(--colorText)
+	color: var(--cTextBack)
 
 
 
-/** Scrollbar Style **/
+/** Global Scrollbar Style **/
 *
 	scrollbar-width: thin
-	scrollbar-color: rgba(119, 119, 119, 0.3) rgba(119, 119, 119, 0.1)
+	scrollbar-color: color-mix(in srgb, var(--cMain) 50%, var(--cBack) 20%) color-mix(in srgb, var(--cMain) 20%, var(--cBack) 20%)
 
 ::-webkit-scrollbar
 	width: var(--widthScroll)
 	height: var(--widthScroll)
 
 ::-webkit-scrollbar-track:hover
-	background-color: rgba(119, 119, 119, 0.1)
+	background-color: color-mix(in srgb, var(--cMain) 20%, var(--cBack) 20%)
 
 ::-webkit-scrollbar-thumb
 	border-radius: var(--widthScroll)
-	background: rgba(119, 119, 119, 0.3)
+	background: color-mix(in srgb, var(--cMain) 50%, var(--cBack) 20%)
 
 ::-webkit-scrollbar-thumb:hover
-	background: rgba(119, 119, 119, 0.4)
+	background: color-mix(in srgb, var(--cMain) 80%, var(--cBack) 20%)
 
 ::-webkit-scrollbar-thumb:active
-	background: rgba(119, 119, 119, 1)
+	background: var(--cMain) 100%
 
 ::-webkit-scrollbar-corner
 	background-color: transparent
-
-/** Transition All **/
-.transAll, .transAll *, .trans
-	transition-property: all
-	transition-duration: 0.4s
-
-	-webkit-transform: translateZ(0)
-	-moz-transform: translateZ(0)
-	-ms-transform: translateZ(0)
-	-o-transform: translateZ(0)
-	transform: translateZ(0)
-
-	&._d02
-		transition-duration: 0.2s
-	&._d07
-		transition-duration: 0.7s
-	&._d2
-		transition-duration: 2s
-
 
 
 comp-alert p-body-content

@@ -3,6 +3,7 @@
 		<p-fixed-topbar>
 			<Click item class="!w-32" text="创建档案" @click="creatingProfile" />
 			<Click item class="!w-32" text="导入档案" @click="importingProfile" />
+			<Click item class="!w-32" text="切换主题" white @click="toggleTheme" />
 		</p-fixed-topbar>
 		<p-main-box>
 			<p-gm-xhr-result class="block mb-4">● GreaseMonkey XMLHttpRequest：{{ hasXHRGM ? '✔ 存在' : '✖ 不存在' }}</p-gm-xhr-result>
@@ -21,8 +22,8 @@
 				<Click item class="float-right mt-4 ml-4 h-8" text="更新档案" @click="modifingProfile(profile)" />
 				<Click item class="float-right mt-4 ml-4 h-8" text="导出档案" @click="exportProfile(profile)" />
 				<span item class="float-right mt-4 ml-4 h-8">|</span>
-				<Click v-if="profile.uid" item class="float-right mt-4 ml-4 h-8" text="管理原始数据" white @click="showRawLogs(profile)" />
-				<Click item class="float-right mt-4 ml-4 h-8" text="删除档案" white @click="deletingProfile(profile)" />
+				<Click v-if="profile.uid" item class="float-right mt-4 ml-4 h-8 lead-b2-8" text="管理原始数据" white @click="showRawLogs(profile)" />
+				<Click item class="float-right mt-4 ml-4 h-8 lead-b2-8" text="删除档案" white @click="deletingProfile(profile)" />
 				<div class="clear-both" />
 			</p-profile>
 		</p-main-box>
@@ -323,6 +324,10 @@
 
 		a.click();
 	};
+
+
+	const toggleTheme = () => document.querySelector(':root').classList.toggle('color-scheme-dark');
+
 </script>
 
 
@@ -335,10 +340,13 @@ module
 
 p-fixed-topbar
 	@apply fixed block w-full h-[var(--heightTopbar)] p-4 leading-8 z-50 shadow-mdd
-	background-color: var(--colorBackground)
+	background-color: var(--cBack)
 
 	>[item]
-		@apply inblock w-auto mr-4 mb-2 h-8 leading-8
+		@apply inblock w-auto mr-4 mb-2 h-8 leading-8 trans
+
+		&[white]
+			@apply lead-b2-8
 
 
 p-main-box
@@ -346,25 +354,29 @@ p-main-box
 
 
 dialog
-	@apply bg-[var(--colorBackgroundLight)] text-[var(--colorText)] shadow-mdd rounded-md outline-none
+	@apply p-2 text-[var(--cTextBack)] shadow-mdd rounded-sm outline-none
+	background-color: color-mix(in srgb, var(--cBack) 90%, white)
 
 	>[item]
-		@apply inblock w-auto mx-2 mb-2 h-8 leading-8
+		@apply inblock w-auto mx-2 my-2 h-8 leading-8
 
 		&[_right]
 			@apply float-right
 
+		&[white]
+			@apply lead-b2-8
+
 p-profile
-	@apply block border rounded-md mb-4 p-4
+	@apply block border border-[var(--cBorderBack)] rounded-sm mb-4 p-4
 
 	p-info
 		@apply block whitespace-nowrap elli
 
 
 p-raw-logs-option
-	@apply block p-2 my-2 cursor-pointer select-none rounded-md w-fit
+	@apply block p-2 my-2 cursor-pointer select-none rounded-sm w-fit
 
 
 	&[selected]
-		@apply bg-[var(--colorBackground)] text-[var(--colorMain)]
+		@apply bg-[var(--cBack)] text-[var(--cTextBack)]
 </style>

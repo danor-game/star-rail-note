@@ -24,6 +24,7 @@ app.provide('app', app);
 
 const init = async () => {
 	app.mixin({ data() { return { brop }; } });
+
 	await installAlert(app);
 	aegis.alert = $alert;
 
