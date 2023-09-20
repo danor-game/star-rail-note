@@ -2,22 +2,42 @@
 	"11": {
 		"id": "11",
 		"minimum5": 90,
-		"order": 1
+		"order": 1,
+		"data$locale": {
+			"zh-cn": {
+				"name": "角色活动跃迁"
+			}
+		}
 	},
 	"12": {
 		"id": "12",
 		"minimum5": 90,
-		"order": 2
+		"order": 2,
+		"data$locale": {
+			"zh-cn": {
+				"name": "光锥活动跃迁"
+			}
+		}
 	},
 	"1": {
 		"id": "1",
 		"minimum5": 90,
-		"order": 3
+		"order": 3,
+		"data$locale": {
+			"zh-cn": {
+				"name": "群星跃迁"
+			}
+		}
 	},
 	"2": {
 		"id": "2",
 		"order": 4,
 		"minimum5": 50,
-		"newbie": true
+		"newbie": true,
+		"data$locale": {
+			"zh-cn": {
+				"name": "新手跃迁"
+			}
+		}
 	}
 }

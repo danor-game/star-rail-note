@@ -33,8 +33,8 @@ import M from '../lib/meta.js';
 
 /**
  * @typedef {Object} Analysis
- * @property {Object<string,AnalysisByGachaType>} typesGacha
- * @property {Object<string,AnalysisByGachaPool>} pools
+ * @property {Object<string, AnalysisByGachaType>} typesGacha
+ * @property {Object<string, AnalysisByGachaPool>} pools
  */
 
 

@@ -16,7 +16,7 @@
 	import { faStarOfDavid } from '@fortawesome/free-solid-svg-icons';
 
 	import CV from '@nuogz/css-var';
-	import { Sidebar, moduleNow, tabs } from '@nuogz/vue-sidebar';
+	import { Sidebar, moduleNow, tabAdmin } from '@nuogz/vue-sidebar';
 
 
 	import './index.pcss';
@@ -26,13 +26,13 @@
 	document.title = 'DR跃迁笔记';
 
 
-	CV.widthSidebar = '7rem';
+	CV.widthSidebar = '8rem';
 	CV.heightTopbar = '0rem';
 	CV.widthScroll = '0.5rem';
 
 
-	onMounted(() => tabs.add('profile-manager', 'icon|title', { title: '档案管理', icon: faStarOfDavid }));
-	onMounted(() => tabs.add('gacha-analysis', 'icon|title', { title: '跃迁分析', icon: faStarOfDavid }, 'delay'));
+	onMounted(() => tabAdmin.add('profile-manager', { type: 'icon|title', title: '档案管理', icon: faStarOfDavid }));
+	onMounted(() => tabAdmin.add('gacha-analysis', { type: 'icon|title', title: '跃迁分析', icon: faStarOfDavid, delay: true }));
 </script>
 
 <style lang="sass" scoped>

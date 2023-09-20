@@ -5,7 +5,12 @@
 		"path": "Knight",
 		"rarity": 4,
 		"versionAdded": "1.0",
-		"versionAvailable": "1.0"
+		"versionAvailable": "1.0",
+		"data$locale": {
+			"zh-cn": {
+				"name": "三月七"
+			}
+		}
 	},
 	"1002": {
 		"id": "1002",
@@ -13,7 +18,12 @@
 		"path": "Rogue",
 		"rarity": 4,
 		"versionAdded": "1.0",
-		"versionAvailable": "1.0"
+		"versionAvailable": "1.0",
+		"data$locale": {
+			"zh-cn": {
+				"name": "丹恒"
+			}
+		}
 	},
 	"1003": {
 		"id": "1003",
@@ -21,7 +31,12 @@
 		"path": "Mage",
 		"rarity": 5,
 		"versionAdded": "1.0",
-		"versionAvailable": "1.0"
+		"versionAvailable": "1.0",
+		"data$locale": {
+			"zh-cn": {
+				"name": "姬子"
+			}
+		}
 	},
 	"1004": {
 		"id": "1004",
@@ -29,7 +44,12 @@
 		"path": "Warlock",
 		"rarity": 5,
 		"versionAdded": "1.0",
-		"versionAvailable": "1.0"
+		"versionAvailable": "1.0",
+		"data$locale": {
+			"zh-cn": {
+				"name": "瓦尔特"
+			}
+		}
 	},
 	"1005": {
 		"id": "1005",
@@ -37,7 +57,12 @@
 		"path": "Warlock",
 		"rarity": 5,
 		"versionAdded": "1.0",
-		"versionAvailable": "1.2"
+		"versionAvailable": "1.2",
+		"data$locale": {
+			"zh-cn": {
+				"name": "卡芙卡"
+			}
+		}
 	},
 	"1006": {
 		"id": "1006",
@@ -45,7 +70,12 @@
 		"path": "Warlock",
 		"rarity": 5,
 		"versionAdded": "1.0",
-		"versionAvailable": "1.1"
+		"versionAvailable": "1.1",
+		"data$locale": {
+			"zh-cn": {
+				"name": "银狼"
+			}
+		}
 	},
 	"1008": {
 		"id": "1008",
@@ -53,7 +83,12 @@
 		"path": "Warrior",
 		"rarity": 4,
 		"versionAdded": "1.0",
-		"versionAvailable": "1.0"
+		"versionAvailable": "1.0",
+		"data$locale": {
+			"zh-cn": {
+				"name": "阿兰"
+			}
+		}
 	},
 	"1009": {
 		"id": "1009",
@@ -61,7 +96,12 @@
 		"path": "Shaman",
 		"rarity": 4,
 		"versionAdded": "1.0",
-		"versionAvailable": "1.0"
+		"versionAvailable": "1.0",
+		"data$locale": {
+			"zh-cn": {
+				"name": "艾丝妲"
+			}
+		}
 	},
 	"1013": {
 		"id": "1013",
@@ -69,7 +109,12 @@
 		"path": "Mage",
 		"rarity": 4,
 		"versionAdded": "1.0",
-		"versionAvailable": "1.0"
+		"versionAvailable": "1.0",
+		"data$locale": {
+			"zh-cn": {
+				"name": "黑塔"
+			}
+		}
 	},
 	"1101": {
 		"id": "1101",
@@ -77,7 +122,12 @@
 		"path": "Shaman",
 		"rarity": 5,
 		"versionAdded": "1.0",
-		"versionAvailable": "1.0"
+		"versionAvailable": "1.0",
+		"data$locale": {
+			"zh-cn": {
+				"name": "布洛妮娅"
+			}
+		}
 	},
 	"1102": {
 		"id": "1102",
@@ -85,7 +135,12 @@
 		"path": "Rogue",
 		"rarity": 5,
 		"versionAdded": "1.0",
-		"versionAvailable": "1.0"
+		"versionAvailable": "1.0",
+		"data$locale": {
+			"zh-cn": {
+				"name": "希儿"
+			}
+		}
 	},
 	"1103": {
 		"id": "1103",
@@ -93,7 +148,12 @@
 		"path": "Mage",
 		"rarity": 4,
 		"versionAdded": "1.0",
-		"versionAvailable": "1.0"
+		"versionAvailable": "1.0",
+		"data$locale": {
+			"zh-cn": {
+				"name": "希露瓦"
+			}
+		}
 	},
 	"1104": {
 		"id": "1104",
@@ -101,7 +161,12 @@
 		"path": "Knight",
 		"rarity": 5,
 		"versionAdded": "1.0",
-		"versionAvailable": "1.0"
+		"versionAvailable": "1.0",
+		"data$locale": {
+			"zh-cn": {
+				"name": "杰帕德"
+			}
+		}
 	},
 	"1105": {
 		"id": "1105",
@@ -109,7 +174,12 @@
 		"path": "Priest",
 		"rarity": 4,
 		"versionAdded": "1.0",
-		"versionAvailable": "1.0"
+		"versionAvailable": "1.0",
+		"data$locale": {
+			"zh-cn": {
+				"name": "娜塔莎"
+			}
+		}
 	},
 	"1106": {
 		"id": "1106",
@@ -117,7 +187,12 @@
 		"path": "Warlock",
 		"rarity": 4,
 		"versionAdded": "1.0",
-		"versionAvailable": "1.0"
+		"versionAvailable": "1.0",
+		"data$locale": {
+			"zh-cn": {
+				"name": "佩拉"
+			}
+		}
 	},
 	"1107": {
 		"id": "1107",
@@ -125,7 +200,12 @@
 		"path": "Warrior",
 		"rarity": 5,
 		"versionAdded": "1.0",
-		"versionAvailable": "1.0"
+		"versionAvailable": "1.0",
+		"data$locale": {
+			"zh-cn": {
+				"name": "克拉拉"
+			}
+		}
 	},
 	"1108": {
 		"id": "1108",
@@ -133,7 +213,12 @@
 		"path": "Warlock",
 		"rarity": 4,
 		"versionAdded": "1.0",
-		"versionAvailable": "1.0"
+		"versionAvailable": "1.0",
+		"data$locale": {
+			"zh-cn": {
+				"name": "桑博"
+			}
+		}
 	},
 	"1109": {
 		"id": "1109",
@@ -141,7 +226,12 @@
 		"path": "Warrior",
 		"rarity": 4,
 		"versionAdded": "1.0",
-		"versionAvailable": "1.0"
+		"versionAvailable": "1.0",
+		"data$locale": {
+			"zh-cn": {
+				"name": "虎克"
+			}
+		}
 	},
 	"1110": {
 		"id": "1110",
@@ -149,7 +239,12 @@
 		"path": "Priest",
 		"rarity": 4,
 		"versionAdded": "1.3",
-		"versionAvailable": "1.3"
+		"versionAvailable": "1.3",
+		"data$locale": {
+			"zh-cn": {
+				"name": "玲可"
+			}
+		}
 	},
 	"1111": {
 		"id": "1111",
@@ -157,7 +252,12 @@
 		"path": "Warlock",
 		"rarity": 4,
 		"versionAdded": "1.2",
-		"versionAvailable": "1.2"
+		"versionAvailable": "1.2",
+		"data$locale": {
+			"zh-cn": {
+				"name": "卢卡"
+			}
+		}
 	},
 	"1201": {
 		"id": "1201",
@@ -165,7 +265,12 @@
 		"path": "Mage",
 		"rarity": 4,
 		"versionAdded": "1.0",
-		"versionAvailable": "1.0"
+		"versionAvailable": "1.0",
+		"data$locale": {
+			"zh-cn": {
+				"name": "青雀"
+			}
+		}
 	},
 	"1202": {
 		"id": "1202",
@@ -173,7 +278,12 @@
 		"path": "Shaman",
 		"rarity": 4,
 		"versionAdded": "1.0",
-		"versionAvailable": "1.0"
+		"versionAvailable": "1.0",
+		"data$locale": {
+			"zh-cn": {
+				"name": "停云"
+			}
+		}
 	},
 	"1203": {
 		"id": "1203",
@@ -181,7 +291,12 @@
 		"path": "Priest",
 		"rarity": 5,
 		"versionAdded": "1.0",
-		"versionAvailable": "1.1"
+		"versionAvailable": "1.1",
+		"data$locale": {
+			"zh-cn": {
+				"name": "罗刹"
+			}
+		}
 	},
 	"1204": {
 		"id": "1204",
@@ -189,7 +304,12 @@
 		"path": "Mage",
 		"rarity": 5,
 		"versionAdded": "1.0",
-		"versionAvailable": "1.0"
+		"versionAvailable": "1.0",
+		"data$locale": {
+			"zh-cn": {
+				"name": "景元"
+			}
+		}
 	},
 	"1205": {
 		"id": "1205",
@@ -197,7 +317,12 @@
 		"path": "Warrior",
 		"rarity": 5,
 		"versionAdded": "1.2",
-		"versionAvailable": "1.2"
+		"versionAvailable": "1.2",
+		"data$locale": {
+			"zh-cn": {
+				"name": "刃"
+			}
+		}
 	},
 	"1206": {
 		"id": "1206",
@@ -205,7 +330,12 @@
 		"path": "Rogue",
 		"rarity": 4,
 		"versionAdded": "1.0",
-		"versionAvailable": "1.0"
+		"versionAvailable": "1.0",
+		"data$locale": {
+			"zh-cn": {
+				"name": "素裳"
+			}
+		}
 	},
 	"1207": {
 		"id": "1207",
@@ -213,7 +343,12 @@
 		"path": "Shaman",
 		"rarity": 4,
 		"versionAdded": "1.1",
-		"versionAvailable": "1.1"
+		"versionAvailable": "1.1",
+		"data$locale": {
+			"zh-cn": {
+				"name": "驭空"
+			}
+		}
 	},
 	"1208": {
 		"id": "1208",
@@ -221,7 +356,12 @@
 		"path": "Knight",
 		"rarity": 5,
 		"versionAdded": "1.3",
-		"versionAvailable": "1.3"
+		"versionAvailable": "1.3",
+		"data$locale": {
+			"zh-cn": {
+				"name": "符玄"
+			}
+		}
 	},
 	"1209": {
 		"id": "1209",
@@ -229,7 +369,12 @@
 		"path": "Rogue",
 		"rarity": 5,
 		"versionAdded": "1.0",
-		"versionAvailable": "1.0"
+		"versionAvailable": "1.0",
+		"data$locale": {
+			"zh-cn": {
+				"name": "彦卿"
+			}
+		}
 	},
 	"1211": {
 		"id": "1211",
@@ -237,7 +382,12 @@
 		"path": "Priest",
 		"rarity": 5,
 		"versionAdded": "1.0",
-		"versionAvailable": "1.0"
+		"versionAvailable": "1.0",
+		"data$locale": {
+			"zh-cn": {
+				"name": "白露"
+			}
+		}
 	},
 	"1212": {
 		"id": "1212",
@@ -245,7 +395,12 @@
 		"path": "Warrior",
 		"rarity": 5,
 		"versionAdded": "1.4",
-		"versionAvailable": "1.4"
+		"versionAvailable": "1.4",
+		"data$locale": {
+			"zh-cn": {
+				"name": "镜流"
+			}
+		}
 	},
 	"1213": {
 		"id": "1213",
@@ -253,7 +408,12 @@
 		"path": "Warrior",
 		"rarity": 5,
 		"versionAdded": "1.2",
-		"versionAvailable": "1.3"
+		"versionAvailable": "1.3",
+		"data$locale": {
+			"zh-cn": {
+				"name": "丹恒•饮月"
+			}
+		}
 	},
 	"8001": {
 		"id": "8001",
@@ -261,7 +421,12 @@
 		"path": "Warrior",
 		"rarity": 5,
 		"versionAdded": "1.0",
-		"versionAvailable": "1.0"
+		"versionAvailable": "1.0",
+		"data$locale": {
+			"zh-cn": {
+				"name": "开拓者 (物理)"
+			}
+		}
 	},
 	"8002": {
 		"id": "8002",
@@ -269,7 +434,12 @@
 		"path": "Warrior",
 		"rarity": 5,
 		"versionAdded": "1.0",
-		"versionAvailable": "1.0"
+		"versionAvailable": "1.0",
+		"data$locale": {
+			"zh-cn": {
+				"name": "开拓者 (物理)"
+			}
+		}
 	},
 	"8003": {
 		"id": "8003",
@@ -277,7 +447,12 @@
 		"path": "Knight",
 		"rarity": 5,
 		"versionAdded": "1.0",
-		"versionAvailable": "1.0"
+		"versionAvailable": "1.0",
+		"data$locale": {
+			"zh-cn": {
+				"name": "开拓者 (火)"
+			}
+		}
 	},
 	"8004": {
 		"id": "8004",
@@ -285,6 +460,11 @@
 		"path": "Knight",
 		"rarity": 5,
 		"versionAdded": "1.0",
-		"versionAvailable": "1.0"
+		"versionAvailable": "1.0",
+		"data$locale": {
+			"zh-cn": {
+				"name": "开拓者 (火)"
+			}
+		}
 	}
 }

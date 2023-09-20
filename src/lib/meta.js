@@ -2,10 +2,10 @@ import api from '../../meta/meta.api.json';
 
 import charactersMeta from '../../meta/meta.character.json';
 import lightconesMeta from '../../meta/meta.lightcone.json';
-import typesGachaMeta from '../../meta/meta.typeGacha.json';
-import poolsGachaMeta from '../../meta/meta.poolGacha.json';
+import metasTypeGacha$id from '../../meta/meta.typeGacha.json';
+import metasPoolGacha$id from '../../meta/meta.poolGacha.json';
 import elementsMeta from '../../meta/meta.element.json';
-import pathsMeta from '../../meta/meta.path.json';
+import metasPath$id from '../../meta/meta.path.json';
 
 
 
@@ -25,28 +25,30 @@ import pathsMeta from '../../meta/meta.path.json';
  */
 
 
-const loadLocale = async (type, lang = window.NENV_I18N_LOCALE) => {
-	try {
-		return (await import(`../../meta/locale/${lang}/locale.${type}.json`)).default;
-	}
-	catch(error) {
-		return (await import(`../../meta/locale/${lang.split('-')[0]}/locale.${type}.json`)).default;
-	}
-};
+
+const locales = navigator.languages.map(language => language.toLowerCase());
+const parseMetaLang = object => {
+	if(typeof object != 'object' || object instanceof Array) { return object; }
 
 
-const mixiObjects = (targets, sources) => {
-	for(const keyTarget in targets) {
-		const target = targets[keyTarget];
+	if('data$locale' in object) {
+		const { data$locale } = object;
 
+		Object.assign(object,
+			locales.map(locale => data$locale[locale]).filter(d => d)[0],
+			Object.values(data$locale)[0]
+		);
 
-		const source = sources[keyTarget];
-		for(const keySource in source) {
-			target[keySource] = source[keySource];
-		}
+		delete object.data$locale;
 	}
 
-	return targets;
+
+	for(const key of Object.keys(object).filter(key => key != 'data$locale')) {
+		parseMetaLang(object[key]);
+	}
+
+
+	return object;
 };
 
 
@@ -56,36 +58,30 @@ const order$typeItemPool = {
 };
 
 
-const characters$id = mixiObjects(charactersMeta, await loadLocale('character'));
-const lightcones$id = mixiObjects(lightconesMeta, await loadLocale('lightcone'));
-const typesGacha$id = mixiObjects(typesGachaMeta, await loadLocale('typeGacha'));
-/** @type {Object<string, GachaPool>} */
-const poolsGacha$id = mixiObjects(poolsGachaMeta, await loadLocale('poolGacha'));
-const elements$id = mixiObjects(elementsMeta, await loadLocale('element'));
-const paths$id = mixiObjects(pathsMeta, await loadLocale('path'));
-
 const M = {
-	characters$id,
-	characters: Object.values(characters$id),
+	characters$id: parseMetaLang(charactersMeta),
+	characters: Object.values(charactersMeta),
 
-	lightcones$id,
-	lightcones: Object.values(lightcones$id),
+	lightcones$id:parseMetaLang(lightconesMeta),
+	lightcones: Object.values(lightconesMeta),
 
-	items$id: { ...characters$id, ...lightcones$id },
-	items: [...Object.values(characters$id), ...Object.values(lightcones$id)],
+	items$id: { ...charactersMeta, ...lightconesMeta },
+	items: [...Object.values(charactersMeta), ...Object.values(lightconesMeta)],
 
 
-	typesGacha$id,
-	typesGacha: Object.values(typesGacha$id),
+	typesGacha$id: parseMetaLang(metasTypeGacha$id),
+	typesGacha: Object.values(metasTypeGacha$id),
 
-	poolsGacha$id,
-	poolsGacha: Object.values(poolsGacha$id).sort((a, b) => (b.timeEnd ?? 0) - (a.timeEnd ?? 0) || (order$typeItemPool[a.typeItem] - order$typeItemPool[b.typeItem])),
+	/** @type {Object<string, GachaPool>} */
+	poolsGacha$id: parseMetaLang(metasPoolGacha$id),
+	/** @type {GachaPool[]} */
+	poolsGacha: Object.values(metasPoolGacha$id).sort((a, b) => (b.timeEnd ?? 0) - (a.timeEnd ?? 0) || (order$typeItemPool[a.typeItem] - order$typeItemPool[b.typeItem])),
 
-	elements$id,
-	elements: Object.values(elements$id),
+	elements$id:parseMetaLang(elementsMeta),
+	elements: Object.values(elementsMeta),
 
-	paths$id,
-	paths: Object.values(paths$id),
+	paths$id: parseMetaLang(metasPath$id),
+	paths: Object.values(metasPath$id),
 
 	api,
 };
