@@ -876,7 +876,7 @@
 		"path": "Warrior",
 		"rarity": 5,
 		"characterBest": "1213",
-		"versionAdded": "1.0",
+		"versionAdded": "1.3",
 		"data$locale": {
 			"zh-cn": {
 				"name": "比阳光更明亮的",
