@@ -6,11 +6,6 @@ import pluginVue from '@vitejs/plugin-vue';
 
 
 
-process.env.NENV_PKG_PATH = import.meta.url;
-process.env.NENV_PANGU = 'day';
-
-
-
 const dirPackage = dirname(fileURLToPath(import.meta.url));
 
 export default defineConfig(({ mode }) => {
@@ -22,7 +17,7 @@ export default defineConfig(({ mode }) => {
 						isCustomElement: tag => /^((module-|comp-|p-).+?|module)$/.test(tag)
 					}
 				}
-			}),
+			})
 		],
 		root: resolve(dirPackage, 'src'),
 		base: './',
@@ -31,7 +26,7 @@ export default defineConfig(({ mode }) => {
 			outDir: resolve(dirPackage, 'dist'),
 			emptyOutDir: true,
 			chunkSizeWarningLimit: 1024,
-			minify: true
+			minify: true,
 		},
 		optimizeDeps: {
 			esbuildOptions: {

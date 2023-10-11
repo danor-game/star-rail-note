@@ -18,7 +18,6 @@
 	import CV from '@nuogz/css-var';
 	import { Sidebar, moduleNow, tabAdmin } from '@nuogz/vue-sidebar';
 
-
 	import './index.pcss';
 	import './index.sass';
 
