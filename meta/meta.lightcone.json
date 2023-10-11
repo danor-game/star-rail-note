@@ -858,6 +858,19 @@
 			}
 		}
 	},
+	"23014": {
+		"id": "23014",
+		"path": "Warrior",
+		"rarity": 5,
+		"characterBest": "1212",
+		"versionAdded": "1.4",
+		"data$locale": {
+			"zh-cn": {
+				"name": "此身为剑",
+				"nameEffect": "执此宵玉"
+			}
+		}
+	},
 	"23015": {
 		"id": "23015",
 		"path": "Warrior",
@@ -868,6 +881,19 @@
 			"zh-cn": {
 				"name": "比阳光更明亮的",
 				"nameEffect": "抵死"
+			}
+		}
+	},
+	"23016": {
+		"id": "23016",
+		"path": "Rogue",
+		"rarity": 5,
+		"characterBest": "1112",
+		"versionAdded": "1.4",
+		"data$locale": {
+			"zh-cn": {
+				"name": "烦恼着，幸福着",
+				"nameEffect": "一个一个来"
 			}
 		}
 	},

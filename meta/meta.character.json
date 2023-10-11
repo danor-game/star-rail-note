@@ -259,6 +259,19 @@
 			}
 		}
 	},
+	"1112": {
+		"id": "1112",
+		"element": "Fire",
+		"path": "Rogue",
+		"rarity": 5,
+		"versionAdded": "1.4",
+		"versionAvailable": "1.4",
+		"data$locale": {
+			"zh-cn": {
+				"name": "托帕&账账"
+			}
+		}
+	},
 	"1201": {
 		"id": "1201",
 		"element": "Quantum",
@@ -373,6 +386,19 @@
 		"data$locale": {
 			"zh-cn": {
 				"name": "彦卿"
+			}
+		}
+	},
+	"1210": {
+		"id": "1210",
+		"element": "Fire",
+		"path": "Warlock",
+		"rarity": 4,
+		"versionAdded": "1.4",
+		"versionAvailable": "1.4",
+		"data$locale": {
+			"zh-cn": {
+				"name": "桂乃芬"
 			}
 		}
 	},
