@@ -181,6 +181,7 @@
 	import Tippy from 'tippy.js';
 	import '@nuogz/vue-tip/src/index.css';
 
+	import { tabAdmin } from '@nuogz/vue-sidebar';
 	import { Click, Combo, Texter } from '@nuogz/vue-components';
 	import { $fail } from '@nuogz/vue-alert';
 
@@ -189,6 +190,18 @@
 	import analyseGacha from './analyseGacha.js';
 	import Day from '../lib/day.pure.js';
 	import loadProfiles from '../profile/load-profiles.js';
+
+
+
+	const now = ref(null);
+	onMounted(() => tabAdmin.emitChanged('mounted'));
+	tabAdmin.addTabHandle('gacha-analysis', now, tab => {
+		const [uid] = tab.params;
+		if(!uid) { return; }
+
+		$uid.value = uid;
+		query();
+	});
 
 
 

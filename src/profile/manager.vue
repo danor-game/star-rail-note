@@ -14,9 +14,12 @@
 				<p-info>&nbsp;&nbsp;&nbsp;&nbsp;- {{ profile.level }}级，均衡{{ profile.levelWorld }}</p-info>
 				<p-info>&nbsp;&nbsp;&nbsp;&nbsp;- 共解锁{{ profile.sizeCharacter }}位角色，{{ profile.countAchievement }}个成就</p-info>
 				<p-info>总抽卡次数：{{ profile.logsParsed.length }}</p-info>
-				<p-info>初次获取时间：{{ profile.timeFetchFirst }}</p-info>
-				<p-info>最后获取时间：{{ profile.timeFetchLast }}</p-info>
+				<p-info>初次获取时间：{{ profile.timeFetchFirst }} ({{ Day(profile.timeFetchFirst).fromNow() }})</p-info>
+				<p-info>最后获取时间：{{ profile.timeFetchLast }} ({{ Day(profile.timeFetchLast).fromNow() }})</p-info>
+				<p-info>最后抽卡时间：{{ Day(profile.logsParsed[0]?.time, 'X').format() }} ({{ Day(profile.logsParsed[0]?.time, 'X').fromNow() }})</p-info>
 
+				<Click item class="float-right mt-4 ml-4 h-8" text="跃迁分析" @click.exact="analyseProfile(profile)" />
+				<span item class="float-right mt-4 ml-4 h-8">|</span>
 				<Click item class="float-right mt-4 ml-4 h-8" text="获取记录" @click.exact="fetchProfileLogs(profile, false)" @clik.alt="fetchProfileLogs(profile, true)" />
 				<span item class="float-right mt-4 ml-4 h-8">|</span>
 				<Click item class="float-right mt-4 ml-4 h-8" text="更新档案" @click="modifingProfile(profile)" />
@@ -76,9 +79,10 @@
 
 <script setup>
 	import { ref } from 'vue';
+	import { faStarOfDavid } from '@fortawesome/free-solid-svg-icons';
 
+	import { tabAdmin } from '@nuogz/vue-sidebar';
 	import { Click, Texter, Textbox, FileDragger } from '@nuogz/vue-components';
-
 	import { $fail, $quest } from '@nuogz/vue-alert';
 
 	import Day from '../lib/day.pure.js';
@@ -86,6 +90,7 @@
 	import fetchLog from './fetch-log.js';
 	import loadProfiles from './load-profiles.js';
 	import saveProfiles from './save-profiles.js';
+
 
 
 	/** @type {typeof GM_xmlhttpRequest} */
@@ -326,8 +331,12 @@
 	};
 
 
-	const toggleTheme = () => document.querySelector(':root').classList.toggle('color-scheme-dark');
+	const analyseProfile = profile => {
+		tabAdmin.add('gacha-analysis', { type: 'icon|title', title: '跃迁分析', icon: faStarOfDavid }, profile.uid);
+	};
 
+
+	const toggleTheme = () => document.querySelector(':root').classList.toggle('color-scheme-dark');
 </script>
 
 
