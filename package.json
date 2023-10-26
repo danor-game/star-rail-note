@@ -33,7 +33,7 @@
 		"@fortawesome/fontawesome-svg-core": "^6.4.2",
 		"@fortawesome/free-solid-svg-icons": "^6.4.2",
 		"@fortawesome/vue-fontawesome": "^3.0.3",
-		"@howdyjs/mouse-menu": "^2.0.9",
+		"@howdyjs/mouse-menu": "^2.1.0",
 		"@nuogz/aegis": "^1.4.2",
 		"@nuogz/css-var": "^3.0.0",
 		"@nuogz/pangu": "^4.1.0",
@@ -43,17 +43,21 @@
 		"@nuogz/vue-sidebar": "^2.3.3",
 		"@nuogz/vue-tip": "^1.1.2",
 		"@nuogz/wock-client": "^3.1.2",
-		"@types/tampermonkey": "^4.20.3",
+		"@types/tampermonkey": "^4.20.4",
 		"@vitejs/plugin-vue": "^4.4.0",
 		"autoprefixer": "^10.4.16",
 		"dayjs": "^1.11.10",
-		"eslint": "^8.51.0",
-		"eslint-plugin-vue": "^9.17.0",
+		"eslint": "^8.52.0",
+		"eslint-plugin-vue": "^9.18.0",
 		"postcss": "^8.4.31",
-		"sass": "^1.69.2",
-		"tailwindcss": "^3.3.3",
+		"sass": "^1.69.5",
+		"tailwindcss": "^3.3.5",
 		"tippy.js": "^6.3.7",
-		"vite": "^4.4.11",
-		"vue": "^3.3.4"
+		"vite": "^4.5.0",
+		"vue": "^3.3.7"
+	},
+	"dependencies": {
+		"exceljs": "^4.4.0",
+		"fs-extra": "^11.1.1"
 	}
 }

@@ -46,5 +46,5 @@ p-main
 
 <style lang="sass">
 .tippy-box[data-theme~='light-border']
-	@apply shadow-mdd px-2 text-[var(--cTextMain)] bg-[var(--cMain)] #{!important}
+	@apply shadow-mdd px-2 whitespace-pre text-left text-[var(--cTextMain)] bg-[var(--cMain)] #{!important}
 </style>

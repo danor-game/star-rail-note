@@ -387,5 +387,47 @@
 				"name": "此身为剑"
 			}
 		}
+	},
+	"2012": {
+		"id": "2012",
+		"type": "11",
+		"timeStart": 1698379200,
+		"timeEnd": 1698379200,
+		"typeItem": "character",
+		"itemsBoost5": [
+			"1112"
+		],
+		"itemsBoost4": [
+			"1210",
+			"1111",
+			"1206"
+		],
+		"versionAdded": "1.4",
+		"data$locale": {
+			"zh-cn": {
+				"name": "落日条款"
+			}
+		}
+	},
+	"3012": {
+		"id": "3012",
+		"type": "12",
+		"timeStart": 1698379200,
+		"timeEnd": 1698379200,
+		"typeItem": "lightcone",
+		"itemsBoost5": [
+			"23016"
+		],
+		"itemsBoost4": [
+			"21005",
+			"21015",
+			"21003"
+		],
+		"versionAdded": "1.4",
+		"data$locale": {
+			"zh-cn": {
+				"name": "烦恼着，幸福着"
+			}
+		}
 	}
 }

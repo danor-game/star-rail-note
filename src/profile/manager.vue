@@ -20,9 +20,15 @@
 
 				<Click item class="float-right mt-4 ml-4 h-8" text="跃迁分析" @click.exact="analyseProfile(profile)" />
 				<span item class="float-right mt-4 ml-4 h-8">|</span>
-				<Click item class="float-right mt-4 ml-4 h-8" text="获取记录" @click.exact="fetchProfileLogs(profile, false)" @clik.alt="fetchProfileLogs(profile, true)" />
+				<Click
+					v-tip="'默认-增量获取\nalt-完整获取\nctrl-只获取基础信息'"
+					item class="float-right mt-4 ml-4 h-8" text="获取记录"
+					@click.exact="fetchProfileLogs(profile, false)"
+					@click.alt="fetchProfileLogs(profile, true)"
+					@click.ctrl="fetchProfileBase(profile, true)"
+				/>
 				<span item class="float-right mt-4 ml-4 h-8">|</span>
-				<Click item class="float-right mt-4 ml-4 h-8" text="更新档案" @click="modifingProfile(profile)" />
+				<Click item class="float-right mt-4 ml-4 h-8" text="更新档案" @click.exact="modifingProfile(profile)" />
 				<Click item class="float-right mt-4 ml-4 h-8" text="导出档案" @click="exportProfile(profile)" />
 				<span item class="float-right mt-4 ml-4 h-8">|</span>
 				<Click v-if="profile.uid" item class="float-right mt-4 ml-4 h-8 lead-b2-8" text="管理原始数据" white @click="showRawLogs(profile)" />
@@ -285,6 +291,35 @@
 
 
 
+	const fetchProfileBase = async (profile, willFetchSolo = false) => {
+		textProgress.value = '正在获取基础信息...';
+
+		if(willFetchSolo) { dialogProgress.value.showModal(); }
+
+
+		try {
+			const { uid } = profile;
+
+			const info = JSON.parse(await fetchText(`https://api.mihomo.me/sr_info_parsed/${uid}`));
+
+			profile.nick = profile.nick || info?.player?.nickname;
+			profile.name = info?.player?.nickname;
+			profile.level = info?.player?.level;
+			profile.levelWorld = info?.player?.world_level;
+			profile.sizeCharacter = info?.player?.space_info?.avatar_count ?? 0;
+			profile.countAchievement = info?.player?.space_info?.achievement_count ?? 0;
+
+
+			if(willFetchSolo) {
+				saveProfiles($profiles.value);
+
+				dialogProgress.value.close();
+			}
+		}
+		catch(error) {
+			textProgress.value = error?.message ?? error;
+		}
+	};
 	const fetchProfileLogs = async (profile, willFetchFull = false) => {
 		textProgress.value = '开始更新...';
 
@@ -296,16 +331,9 @@
 
 
 			if(logsRaw[0]) {
-				const uid = profile.uid = logsRaw[0].uid;
+				profile.uid = logsRaw[0].uid;
 
-				const info = JSON.parse(await fetchText(`https://api.mihomo.me/sr_info_parsed/${uid}`));
-
-				profile.nick = profile.nick || info?.player?.nickname;
-				profile.name = info?.player?.nickname;
-				profile.level = info?.player?.level;
-				profile.levelWorld = info?.player?.world_level;
-				profile.sizeCharacter = info?.player?.space_info?.avatar_count ?? 0;
-				profile.countAchievement = info?.player?.space_info?.achievement_count ?? 0;
+				fetchProfileBase(profile);
 			}
 
 			localStorage.setItem(`logsRaw-${profile.uid}-${Day().format('YYMMDDHHmmss')}`, JSON.stringify(logsRaw));
