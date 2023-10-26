@@ -392,7 +392,7 @@
 		"id": "2012",
 		"type": "11",
 		"timeStart": 1698379200,
-		"timeEnd": 1698379200,
+		"timeEnd": 1699945199,
 		"typeItem": "character",
 		"itemsBoost5": [
 			"1112"
@@ -413,7 +413,7 @@
 		"id": "3012",
 		"type": "12",
 		"timeStart": 1698379200,
-		"timeEnd": 1698379200,
+		"timeEnd": 1699945199,
 		"typeItem": "lightcone",
 		"itemsBoost5": [
 			"23016"

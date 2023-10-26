@@ -44,7 +44,7 @@
 					&gt;
 					<span style="color: var(--cRarity4)">{{ analysis.pool.itemsBoost4.map(idItem => M.items$id[idItem]?.name).join(' / ') }}</span>
 				</p-line>
-				<p-line class="text-sm">{{ Day.unix(analysis.pool.timeEnd).format('MM月DD日 HH时mm分') }} 结束</p-line>
+				<p-line class="text-sm">{{ Day.unix(analysis.pool.timeEnd).add(1, 'seconds').format('MM月DD日 HH时mm分') }} 结束</p-line>
 				<p-line class="mb-0 mt-2 text-right">
 					<span value-highlight>{{ analysis.logs.length }}</span> 抽卡
 					<span value-highlight>{{ String(analysis.logs5.length).padStart(2, '&nbsp;') }}</span><sup class="text-[var(--cMain)] align-super">歪{{ String(analysis.logs5.filter(l => l.missed).length) }}</sup> 五星
