@@ -96,11 +96,14 @@
 									)
 								}"
 							/>
+							<p-value v-if="log.countInvestPrev" prev
+								:style="{ width: `${100 * (log.countInvestPrev ?? 0) / (M.typesGacha$id[log.type]?.minimum5 ?? 90)}%` }"
+							/>
 						</p-progress>
 						<p-progress-text v-if="log.countInvest && log.countInvestPrev">
 							<span count>{{ String(log.countInvest).padStart(2, '&nbsp;') }}</span>
 							<span :missed="brop(log.missed)">{{ log.missed ? ' 歪' : ' 抽' }}</span>
-							(本期 <span count>{{ log.countInvest - log.countInvestPrev }}</span> + 上期 <span count>{{ log.countInvestPrev }}</span>)
+							<span count-sm>&nbsp;{{ log.countInvestPrev }}</span>+<span count-sm>{{ log.countInvest - log.countInvestPrev }}</span>
 						</p-progress-text>
 						<p-progress-text v-else-if="log.countInvest">
 							<span count>{{ String(log.countInvest).padStart(2, '&nbsp;') }}</span>
@@ -149,11 +152,14 @@
 									)
 								}"
 							/>
+							<p-value v-if="log.countInvestPrev" prev
+								:style="{ width: `${100 * (log.countInvestPrev ?? 0) / (M.typesGacha$id[log.type]?.minimum5 ?? 90)}%` }"
+							/>
 						</p-progress>
 						<p-progress-text v-if="log.countInvest && log.countInvestPrev">
 							<span count>{{ String(log.countInvest).padStart(2, '&nbsp;') }}</span>
 							<span :missed="brop(log.missed)">{{ log.missed ? ' 歪' : ' 抽' }}</span>
-							(本期 <span count>{{ log.countInvest - log.countInvestPrev }}</span> + 上期 <span count>{{ log.countInvestPrev }}</span>)
+							<span count-sm>&nbsp;{{ log.countInvestPrev }}</span>+<span count-sm>{{ log.countInvest - log.countInvestPrev }}</span>
 						</p-progress-text>
 						<p-progress-text v-else-if="log.countInvest">
 							<span count>{{ String(log.countInvest).padStart(2, '&nbsp;') }}</span>
@@ -385,6 +391,8 @@ p-main-box
 
 			[count]
 				@apply text-white text-xl
+			[count-sm]
+				@apply text-white text-sm
 
 			[missed]
 				@apply text-red-700
@@ -405,10 +413,14 @@ p-main-box
 				@apply relative top-1 inblock w-64 h-8 ml-2 rounded-sm overflow-hidden bg-[var(--cProgressBack)]
 
 				p-value
-					@apply block h-full
+					@apply relative block h-full
 
-				&[missed]>p-value
+					&[prev]
+						@apply bg-blue-400 -top-1
+
+				&[missed]>p-value:not([prev])
 					@apply bg-red-400
+
 
 p-tips-item
 	@apply block rounded-sm shadow-mdd px-4 py-2 bg-[var(--cMain)] border-4
