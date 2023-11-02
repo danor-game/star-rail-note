@@ -29,7 +29,7 @@
 
 		<p-box _limit-2>
 			<p-line>● 按<span value-highlight-xl>跃迁活动</span>概览</p-line>
-			<p-gather v-for="[id, analysis] of Object.entries(A.pools).filter(([, a]) => a.pool.type > 10).sort(sortEntriesByValueOrder)" :key="`gather-pool-${id}`"
+			<p-gather v-for="[id, analysis] of Object.entries(A.pools).filter(([, a]) => a.pool.type > 10).sort(sortEntriesByValuePoolID)" :key="`gather-pool-${id}`"
 				_width-2
 			>
 				<p-line>
@@ -270,6 +270,7 @@
 	onMounted(query);
 
 
+	const sortEntriesByValuePoolID = ([, a], [, b]) => String(b.id).slice(2, 4) - String(a.id).slice(2, 4);
 	const sortEntriesByValueOrder = ([, a], [, b]) => a.order - b.order;
 	const sortEntriesByValueOrder2 = ([, a], [, b]) => order$typeItemPool[a.pool.typeItem] - order$typeItemPool[b.pool.typeItem] || a.order - b.order;
 

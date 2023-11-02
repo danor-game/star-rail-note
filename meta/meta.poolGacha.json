@@ -429,5 +429,47 @@
 				"name": "烦恼着，幸福着"
 			}
 		}
+	},
+	"2013": {
+		"id": "2013",
+		"type": "11",
+		"timeStart": 1698379200,
+		"timeEnd": 1699945199,
+		"typeItem": "character",
+		"itemsBoost5": [
+			"1102"
+		],
+		"itemsBoost4": [
+			"1210",
+			"1111",
+			"1206"
+		],
+		"versionAdded": "1.4",
+		"data$locale": {
+			"zh-cn": {
+				"name": "蝶立锋锷-复刻1"
+			}
+		}
+	},
+	"3013": {
+		"id": "3013",
+		"type": "12",
+		"timeStart": 1698379200,
+		"timeEnd": 1699945199,
+		"typeItem": "lightcone",
+		"itemsBoost5": [
+			"23001"
+		],
+		"itemsBoost4": [
+			"21005",
+			"21015",
+			"21003"
+		],
+		"versionAdded": "1.4",
+		"data$locale": {
+			"zh-cn": {
+				"name": "于夜色中-复刻1"
+			}
+		}
 	}
 }
