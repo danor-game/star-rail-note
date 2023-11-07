@@ -31,6 +31,7 @@
 
 
 	onMounted(() => tabAdmin.add('profile-manager', { type: 'icon|title', title: '档案管理', icon: faStarOfDavid }));
+	onMounted(() => tabAdmin.add('gacha-analysis', { type: 'icon|title', title: '1', icon: faStarOfDavid },101691019));
 </script>
 
 <style lang="sass" scoped>

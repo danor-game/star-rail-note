@@ -2,7 +2,7 @@ import api from '../../meta/meta.api.json';
 
 import charactersMeta from '../../meta/meta.character.json';
 import lightconesMeta from '../../meta/meta.lightcone.json';
-import metasTypeGacha$id from '../../meta/meta.typeGacha.json';
+import metasTypeGacha from '../../meta/meta.typeGacha.json';
 import metasPoolGacha$id from '../../meta/meta.poolGacha.json';
 import elementsMeta from '../../meta/meta.element.json';
 import metasPath$id from '../../meta/meta.path.json';
@@ -11,8 +11,8 @@ import metasPath$id from '../../meta/meta.path.json';
 
 /**
  * @typedef {Object} GachaPool
- * @property {string} id
- * @property {string} type
+ * @property {string} id 2001
+ * @property {string} type 11
  * @property {'character'|'lightcone'} [typeItem]
  * @property {string[]} [itemsBoost5]
  * @property {string[]} [itemsBoost4]
@@ -20,6 +20,8 @@ import metasPath$id from '../../meta/meta.path.json';
  * @property {number} [timeEnd] 1686034799
  * @property {number} [max] 50
  * @property {string} versionAdded 1.0
+ * @property {number} rerun 1
+ * @property {string} idLeader 2001
  *
  * @property {string} name (locale variant)
  */
@@ -28,7 +30,14 @@ import metasPath$id from '../../meta/meta.path.json';
 
 const locales = navigator.languages.map(language => language.toLowerCase());
 const parseMetaLang = object => {
-	if(typeof object != 'object' || object instanceof Array) { return object; }
+	if(typeof object != 'object') { return object; }
+
+
+	if(object instanceof Array) {
+		for(const item of object) {
+			parseMetaLang(item);
+		}
+	}
 
 
 	if('data$locale' in object) {
@@ -50,11 +59,14 @@ const parseMetaLang = object => {
 
 	return object;
 };
+const toIDMapObject = array => {
+	const result = {};
 
+	for(const item of array) {
+		result[item.id] = item;
+	}
 
-const order$typeItemPool = {
-	character: 1,
-	lightcone: 2,
+	return result;
 };
 
 
@@ -62,22 +74,26 @@ const M = {
 	characters$id: parseMetaLang(charactersMeta),
 	characters: Object.values(charactersMeta),
 
-	lightcones$id:parseMetaLang(lightconesMeta),
+	lightcones$id: parseMetaLang(lightconesMeta),
 	lightcones: Object.values(lightconesMeta),
 
 	items$id: { ...charactersMeta, ...lightconesMeta },
 	items: [...Object.values(charactersMeta), ...Object.values(lightconesMeta)],
 
 
-	typesGacha$id: parseMetaLang(metasTypeGacha$id),
-	typesGacha: Object.values(metasTypeGacha$id),
+	typesGacha: parseMetaLang(metasTypeGacha),
+	typesGacha$id: toIDMapObject(metasTypeGacha),
 
 	/** @type {Object<string, GachaPool>} */
 	poolsGacha$id: parseMetaLang(metasPoolGacha$id),
 	/** @type {GachaPool[]} */
-	poolsGacha: Object.values(metasPoolGacha$id).sort((a, b) => (b.timeEnd ?? 0) - (a.timeEnd ?? 0) || (order$typeItemPool[a.typeItem] - order$typeItemPool[b.typeItem])),
+	poolsGacha: Object.values(metasPoolGacha$id).sort((a, b) => {
+		if(a.type < 10 || b.type < 10) { return a.type - b.type; }
 
-	elements$id:parseMetaLang(elementsMeta),
+		return Number(String(b.id).slice(1, 4)) - Number(String(a.id).slice(1, 4));
+	}),
+
+	elements$id: parseMetaLang(elementsMeta),
 	elements: Object.values(elementsMeta),
 
 	paths$id: parseMetaLang(metasPath$id),
@@ -85,8 +101,6 @@ const M = {
 
 	api,
 };
-
-M.poolsGacha.splice(0, 0, ...M.poolsGacha.splice(M.poolsGacha.indexOf(p => p.type == 1) - 1, 1));
 
 
 

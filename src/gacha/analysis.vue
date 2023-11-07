@@ -2,124 +2,118 @@
 	<p-fixed-topbar>
 		<Texter v-model="$uid" item class="!w-48" label="UID" type="number" align="center" label-split="&nbsp;" />
 		<Click item class="!w-16" text="分析" @click="query" />
-		<Combo v-model="$showCharacter4" item class="!w-40" lightcone4 label="四星角色" align="center" label-split="&nbsp;" :options="listShownHidden" />
-		<Combo v-model="$showLightcone4" item class="!w-40" lightcone4 label="四星光锥" align="center" label-split="&nbsp;" :options="listShownHidden" />
+		<Combo v-model="$optionShowRarity4" item class="!w-40" lightcone4 label="四星" align="center" label-split="&nbsp;" :options="optionsShowRarity4" />
 	</p-fixed-topbar>
 	<p-main-box>
-		<p-line>
+		<p-gather-info>
 			● <span value-highlight>{{ $logs.length }}</span> 次抽卡，
 			平均 <span value-highlight>{{
 				(($logs.length - Object.values(A.typesGacha).map(p => p.countInvestNext).reduce((acc, cur) => acc + cur, 0)) / ($countCharacter5 + $countLightcone5)).toFixed(2)
 			}}</span> 抽出金
-		</p-line>
-		<p-line>● <span value-highlight>{{ $countCharacter5 }}</span> 位五星角色，<span value-highlight>{{ $countCharacter4 }}</span> 位四星角色</p-line>
-		<p-line>● <span value-highlight>{{ $countLightcone5 }}</span> 张五星光锥，<span value-highlight>{{ $countLightcone4 }}</span> 张四星光锥</p-line>
+		</p-gather-info>
+		<p-gather-info>
+			● <span value-highlight>{{ $countCharacter5 }}</span> 五星角色，
+			<span value-highlight>{{ $countCharacter4 }}</span> 四星角色
+		</p-gather-info>
+		<p-gather-info>
+			● <span value-highlight>{{ $countLightcone5 }}</span> 五星光锥，
+			<span value-highlight>{{ $countLightcone4 }}</span> 四星光锥
+		</p-gather-info>
 
 
-		<p-box>
-			<p-line>● 按<span value-highlight-xl>跃迁类型</span>概览</p-line>
-			<p-gather v-for="[id, analysis] of Object.entries(A.typesGacha).sort(sortEntriesByValueOrder)" :key="`gather-type-${id}`">
-				<p-line class="text-lg font-bold mb-2">{{ analysis.name }}</p-line>
-				<p-line class="mb-0 mt-2 text-right"><span value-highlight>{{ analysis.logs.length }}</span> 抽卡</p-line>
-				<p-line class="mb-0 mt-2 text-right"><span value-highlight>{{ String(analysis.logs5.length).padStart(2, '&nbsp;') }}</span> 五星</p-line>
-				<p-line class="mb-0 mt-2 text-right"><span value-highlight>{{ String(analysis.logs4.length).padStart(2, '&nbsp;') }}</span> 四星</p-line>
-			</p-gather>
+		<p-box gacha-type>
+			<p-title>● 按<span value-highlight-xl>跃迁类型</span>概览</p-title>
+			<p-gathers>
+				<p-gather v-for="analysis of A.typesGacha" :key="`gather-type-${analysis.id}`">
+					<p-title>{{ analysis.name }}</p-title>
+					<p-info><span value-highlight>{{ analysis.logs.length }}</span> 跃迁</p-info>
+					<p-info><span value-highlight>{{ String(analysis.logs5.length).padStart(2, '&nbsp;') }}</span> 五星</p-info>
+					<p-info><span value-highlight>{{ String(analysis.logs4.length).padStart(2, '&nbsp;') }}</span> 四星</p-info>
+				</p-gather>
+			</p-gathers>
 		</p-box>
+		<div />
 
 
-		<p-box _limit-2>
-			<p-line>● 按<span value-highlight-xl>跃迁活动</span>概览</p-line>
-			<p-gather v-for="[id, analysis] of Object.entries(A.pools).filter(([, a]) => a.pool.type > 10).sort(sortEntriesByValuePoolID)" :key="`gather-pool-${id}`"
-				_width-2
-			>
-				<p-line>
-					<span v-tip="'跳转到详细'" class="text-lg font-bold" scrollable @click="scrollPoolDetailIntoView(analysis.pool.id)">{{ analysis.name }}</span>
-					<span class="text-xs">&nbsp;{{ name$typeItemPool[analysis.pool.typeItem] }}池</span>
-				</p-line>
-				<p-line v-if="analysis.pool.itemsBoost5" class="text-sm">
-					&gt;
-					<span style="color: var(--cRarity5)">{{ analysis.pool.itemsBoost5.map(idItem => M.items$id[idItem]?.name).join(' / ') }}</span>
-				</p-line>
-				<p-line v-if="analysis.pool.itemsBoost4" class="text-sm">
-					&gt;
-					<span style="color: var(--cRarity4)">{{ analysis.pool.itemsBoost4.map(idItem => M.items$id[idItem]?.name).join(' / ') }}</span>
-				</p-line>
-				<p-line class="text-sm">{{ Day.unix(analysis.pool.timeEnd).add(1, 'seconds').format('MM月DD日 HH时mm分') }} 结束</p-line>
-				<p-line class="mb-0 mt-2 text-right">
-					<span value-highlight>{{ analysis.logs.length }}</span> 抽卡
-					<span value-highlight>{{ String(analysis.logs5.length).padStart(2, '&nbsp;') }}</span><sup class="text-[var(--cMain)] align-super">歪{{ String(analysis.logs5.filter(l => l.missed).length) }}</sup> 五星
-					<span value-highlight>{{ String(analysis.logs4.length).padStart(2, '&nbsp;') }}</span> 四星
-				</p-line>
-			</p-gather>
-		</p-box>
-		<p-box>
-			<p-line>● 按<span value-highlight-xl>跃迁活动</span>详细</p-line>
-			<p-gather v-for="[id, analysis] of Object.entries(A.pools).sort(sortEntriesByValueOrder2) " :id="`pool-detail-${analysis.pool.id}`" :key="`gather-pool-detail-${id}`"
-				_width-4 class="block"
-			>
-				<p-line class="mb-6">
-					<p-image v-if="analysis.pool.itemsBoost5?.[0]"><img :src="`./image/item/${analysis.pool.itemsBoost5[0]}.png`" /></p-image>
-					<span class="text-lg font-bold text-[var(--cMain)] h-10 leading-10">{{ analysis.name }}</span>
-					<span v-if="analysis.pool.typeItem == 'character'" class="text-xs">&nbsp;{{ M.characters$id[analysis.pool.itemsBoost5[0]]?.name }}</span>
-					<span v-if="analysis.pool.typeItem == 'lightcone'" class="text-xs">&nbsp;{{ M.characters$id[M.lightcones$id[analysis.pool.itemsBoost5[0]]?.characterBest]?.name }}</span>
-					<span class="float-right text-right">
-						<span value-highlight>{{ analysis.logs.length }}</span> 抽卡
-						<span value-highlight>{{ String(analysis.logs5.length).padStart(2, '&nbsp;') }}</span><sup class="text-[var(--cMain)] align-super">歪{{ String(analysis.logs5.filter(l => l.missed).length) }}</sup> 五星
-						<span value-highlight>{{ String(analysis.logs4.length).padStart(2, '&nbsp;') }}</span> 四星
-					</span>
-					<template v-if="analysis.pool.itemsBoost5">
-						<br />
-						<span class="text-sm leading-10 text-[var(--cRarity5)]">{{ analysis.pool.itemsBoost5.map(idItem => M.items$id[idItem]?.name).join(' / ') }}</span>
-						/
-						<span class="text-sm leading-10 text-[var(--cRarity4)]">{{ analysis.pool.itemsBoost4.map(idItem => M.items$id[idItem]?.name).join(' / ') }}</span>
+		<p-box gacha-pool-detail>
+			<p-title>● 按<span value-highlight-xl>跃迁活动</span>详细</p-title>
+			<p-gathers>
+				<p-gather v-for="analysis of A.pools " :id="`pool-detail-${analysis.pool.id}`" :key="`gather-pool-detail-${analysis.id}`">
+					<p-title>
+						<p-header v-if="analysis.pool.itemsBoost5?.[0]"><img :src="`./image/item/${analysis.pool.itemsBoost5[0]}.png`" /></p-header>
+						<p-name-box>
+							<p-name>
+								<span>{{ analysis.name }}</span>
+								<p-boost v-if="analysis.pool.typeItem == 'character'" _rarity-5>
+									&nbsp;{{ M.characters$id[analysis.pool.itemsBoost5[0]]?.name }}
+								</p-boost>
+								<p-boost v-if="analysis.pool.typeItem == 'lightcone'" _rarity-5>
+									&nbsp;{{ M.characters$id[M.lightcones$id[analysis.pool.itemsBoost5[0]]?.characterBest]?.name }}
+								</p-boost>
+								<p-boost v-if="analysis.pool.typeItem == 'character' && $shownCharacterRarity4" _rarity-4>
+									&nbsp;{{ analysis.pool.itemsBoost4.map(idItem => M.items$id[idItem]?.name).join(' ') }}
+								</p-boost>
+								<p-boost v-if="analysis.pool.typeItem == 'lightcone' && $shownLightconeRarity4" _rarity-4>
+									&nbsp;{{ analysis.pool.itemsBoost4.map(idItem => M.items$id[idItem]?.name).join(' ') }}
+								</p-boost>
+							</p-name>
+							<p-count>
+								<span _total>{{ analysis.logs.length }}</span>
+								<span class="text-sm"> 抽 </span>
+								<span _rarity-5>{{ analysis.logs5.length }}</span>
+								<sup _missed class="align-super">{{ analysis.logs5.filter(l => l.missed).length }}</sup>
+								<span class="text-sm"> 五星 </span>
+								<span v-if="$optionShowRarity4 != 'none'" _rarity-4>{{ analysis.logs4.length }}</span>
+								<span v-if="$optionShowRarity4 != 'none'" class="text-sm"> 四星</span>
+							</p-count>
+						</p-name-box>
+					</p-title>
+
+					<template v-if="analysis.poolsSub.length>1">
+						<p-title v-for="analysisSub of analysis.poolsSub" :key="`gather-pool-sub-detail-${analysis.id}-${analysisSub.id}`" class="ml-8">
+							<p-header v-if="analysisSub.pool.itemsBoost5?.[0]"><img :src="`./image/item/${analysisSub.pool.itemsBoost5[0]}.png`" /></p-header>
+							<p-name-box>
+								<p-name _sub>
+									<span>{{ analysisSub.name }}</span>
+									<p-boost v-if="analysisSub.pool.typeItem == 'character'" _rarity-5>
+										&nbsp;{{ M.characters$id[analysisSub.pool.itemsBoost5[0]]?.name }}
+									</p-boost>
+									<p-boost v-if="analysisSub.pool.typeItem == 'lightcone'" _rarity-5>
+										&nbsp;{{ M.characters$id[M.lightcones$id[analysisSub.pool.itemsBoost5[0]]?.characterBest]?.name }}
+									</p-boost>
+									<p-boost v-if="analysisSub.pool.typeItem == 'character' && $shownCharacterRarity4" _rarity-4>
+										&nbsp;{{ analysisSub.pool.itemsBoost4.map(idItem => M.items$id[idItem]?.name).join(' ') }}
+									</p-boost>
+									<p-boost v-if="analysisSub.pool.typeItem == 'lightcone' && $shownLightconeRarity4" _rarity-4>
+										&nbsp;{{ analysisSub.pool.itemsBoost4.map(idItem => M.items$id[idItem]?.name).join(' ') }}
+									</p-boost>
+								</p-name>
+								<p-count>
+									<span _total>{{ String(analysisSub.logs.length).padStart('3', '&nbsp;') }}</span>
+									<span _split> 抽 </span>
+									<span _rarity-5>{{ String(analysisSub.logs5.length).padStart('2', '&nbsp;') }}</span>
+									<sup _missed>{{ analysisSub.logs5.filter(l => l.missed).length }}</sup>
+									<span _split> 五星 </span>
+									<span v-if="$optionShowRarity4 != 'none'" _rarity-4>{{ String(analysisSub.logs4.length).padStart('2', '&nbsp;') }}</span>
+									<span v-if="$optionShowRarity4 != 'none'" _split> 四星</span>
+								</p-count>
+							</p-name-box>
+						</p-title>
 					</template>
-				</p-line>
-				<p-line>
-					<p-item v-if="analysis.countInvestNext" class="mb-4">
-						<p-image _unknown>?</p-image>
-						<p-name fit>当前已垫 <span count style="color: var(--cMain)">{{ String(analysis.countInvestNext).padStart(2, '&nbsp;') }}</span> 抽</p-name>
-					</p-item>
-					<p-item v-for="log of analysis.logsRare " :key="`gather-pool-detail-${id}-${log.id}`"
-						:_rarity-5="brop(M.items$id[log.item]?.rarity == 5)"
-						:_rarity-4="brop(M.items$id[log.item]?.rarity == 4)"
-					>
-						<p-image @mouseenter="showItemTips(log.item, $event)"><img :src="`./image/item/${log.item}.png`" /></p-image>
-						<p-name @mouseenter="showItemTips(log.item, $event)">{{ M.items$id[log.item]?.name }}</p-name>
-						<p-progress v-if="M.items$id[log.item]?.rarity == 5" :missed="brop(log.missed)">
-							<p-value
-								:style="{
-									width: `${100 * (log.countInvest ?? 0) / (M.typesGacha$id[log.type]?.minimum5 ?? 90)}%`,
-									backgroundColor: log.missed ? null : pickGradientColor(
-										[250, 204, 21],
-										[52, 211, 153],
-										(log.countInvest ?? 0) / (M.typesGacha$id[log.type]?.minimum5 ?? 90)
-									)
-								}"
-							/>
-							<p-value v-if="log.countInvestPrev" prev
-								:style="{ width: `${100 * (log.countInvestPrev ?? 0) / (M.typesGacha$id[log.type]?.minimum5 ?? 90)}%` }"
-							/>
-						</p-progress>
-						<p-progress-text v-if="log.countInvest && log.countInvestPrev">
-							<span count>{{ String(log.countInvest).padStart(2, '&nbsp;') }}</span>
-							<span :missed="brop(log.missed)">{{ log.missed ? ' 歪' : ' 抽' }}</span>
-							<span count-sm>&nbsp;{{ log.countInvestPrev }}</span>+<span count-sm>{{ log.countInvest - log.countInvestPrev }}</span>
-						</p-progress-text>
-						<p-progress-text v-else-if="log.countInvest">
-							<span count>{{ String(log.countInvest).padStart(2, '&nbsp;') }}</span>
-							<span :missed="brop(log.missed)">{{ log.missed ? ' 歪' : ' 抽' }}</span>
-						</p-progress-text>
-					</p-item>
-					<p-item v-if="analysis.countInvestPrev" class="mt-4">
-						<p-image _unknown>?</p-image>
-						<p-name fit>上期已垫 <span count style="color: var(--cMain)">{{ String(analysis.countInvestPrev).padStart(2, '&nbsp;') }}</span> 抽</p-name>
-					</p-item>
-				</p-line>
-			</p-gather>
+
+					<p-gachas>
+						<GachaItem v-if="analysis.countInvestNext" type="count-invest-next" :type-gacha="analysis.pool.type" :count-invest="analysis.countInvestNext" />
+						<GachaItem v-for="log of analysis.logsRare" :key="`gather-pool-detail-${analysis.id}-${log.id}`" :log="log" />
+						<GachaItem v-if="analysis.countInvestPrev" type="count-invest-prev" :type-gacha="analysis.pool.type" :count-invest="analysis.countInvestPrev" />
+					</p-gachas>
+				</p-gather>
+			</p-gathers>
 		</p-box>
-		<p-box>
+
+
+		<!-- <p-box gacha-pool-detail>
 			<p-line>● 按<span value-highlight-xl>跃迁类型</span>详细</p-line>
-			<p-gather v-for="[id, analysis] of Object.entries(A.typesGacha).sort(sortEntriesByValueOrder) " :id="`typeGacha-detail-${analysis.id}`" :key="`gather-typeGacha-detail-${id}`"
+			<p-gather v-for="analysis of A.typesGacha" :id="`typeGacha-detail-${analysis.id}`" :key="`gather-typeGacha-detail-${analysis.id}`"
 				_width-4 class="block"
 			>
 				<p-line class="mb-6">
@@ -132,14 +126,14 @@
 				</p-line>
 				<p-line>
 					<p-item v-if="analysis.countInvestNext" class="mb-4">
-						<p-image _unknown>?</p-image>
+						<p-header _unknown>?</p-header>
 						<p-name fit>当前已垫 <span count style="color: var(--cMain)">{{ String(analysis.countInvestNext).padStart(2, '&nbsp;') }}</span> 抽</p-name>
 					</p-item>
-					<p-item v-for="log of analysis.logsRare " :key="`gather-typeGacha-detail-${id}-${log.id}`"
+					<p-item v-for="log of analysis.logsRare " :key="`gather-typeGacha-detail-${analysis.id}-${log.id}`"
 						:_rarity-5="brop(M.items$id[log.item]?.rarity == 5)"
 						:_rarity-4="brop(M.items$id[log.item]?.rarity == 4)"
 					>
-						<p-image @mouseenter="showItemTips(log.item, $event)"><img :src="`./image/item/${log.item}.png`" /></p-image>
+						<p-header @mouseenter="showItemTips(log.item, $event)"><img :src="`./image/item/${log.item}.png`" /></p-header>
 						<p-name @mouseenter="showItemTips(log.item, $event)">{{ M.items$id[log.item]?.name }}</p-name>
 						<p-progress v-if="M.items$id[log.item]?.rarity == 5" :missed="brop(log.missed)">
 							<p-value
@@ -167,18 +161,13 @@
 						</p-progress-text>
 					</p-item>
 					<p-item v-if="analysis.countInvestPrev" class="mt-4">
-						<p-image _unknown>?</p-image>
+						<p-header _unknown>?</p-header>
 						<p-name fit>上期已垫 <span count style="color: var(--cMain)">{{ String(analysis.countInvestPrev).padStart(2, '&nbsp;') }}</span> 抽</p-name>
 					</p-item>
 				</p-line>
 			</p-gather>
-		</p-box>
+		</p-box> -->
 	</p-main-box>
-
-	<p-tips-item ref="domTipsItem">
-		<img :src="`./image/item/${itemTips?.id}.png`" />
-		<p-info>▶ {{ itemTips?.name }} {{ M.paths$id[itemTips?.path]?.name }} {{ M.elements$id[itemTips?.element]?.name }}</p-info>
-	</p-tips-item>
 </template>
 
 <script setup>
@@ -194,8 +183,9 @@
 	import M from '../lib/meta.js';
 
 	import analyseGacha from './analyseGacha.js';
-	import Day from '../lib/day.pure.js';
 	import loadProfiles from '../profile/load-profiles.js';
+
+	import GachaItem from './comp/gacha-item.vue';
 
 
 
@@ -211,28 +201,21 @@
 
 
 
-	const listShownHidden = [
-		{ value: true, text: '显示' },
-		{ value: false, text: '隐藏' },
+	const optionsShowRarity4 = [
+		{ value: 'all', text: '全部' },
+		{ value: 'character', text: '角色' },
+		{ value: 'lightcone', text: '光锥' },
+		{ value: 'none', text: '隐藏' },
 	];
+	const $optionShowRarity4 = ref('none');
+	const $shownCharacterRarity4 = computed(() => $optionShowRarity4.value == 'all' || $optionShowRarity4.value == 'character');
+	const $shownLightconeRarity4 = computed(() => $optionShowRarity4.value == 'all' || $optionShowRarity4.value == 'lightcone');
 
-	const name$typeItemPool = {
-		character: '角色',
-		lightcone: '光锥',
-	};
-	const order$typeItemPool = {
-		character: 1,
-		lightcone: 2,
-	};
+
 
 	const $uid = ref(localStorage.getItem('last-analysis-uid') ?? '');
 	/** @type {import('vue').Ref<import('../../lib/fetch-log.js').ParsedLog[]>} */
 	const $logs = ref([]);
-
-
-	const $showCharacter4 = ref(false);
-	const $showLightcone4 = ref(false);
-
 
 	const $countLightcone5 = computed(() => $logs.value.filter(log => M.lightcones$id[log.item]?.rarity == 5).length);
 	const $countCharacter5 = computed(() => $logs.value.filter(log => M.characters$id[log.item]?.rarity == 5).length);
@@ -240,9 +223,9 @@
 	const $countCharacter4 = computed(() => $logs.value.filter(log => M.characters$id[log.item]?.rarity == 4).length);
 
 
+
 	const query = async () => {
 		const uid = $uid.value;
-
 
 		try {
 			const profiles = loadProfiles();
@@ -261,55 +244,11 @@
 			$fail('获取抽卡记录', error);
 		}
 	};
-
-
-	const A = computed(() => analyseGacha($logs.value, $showCharacter4.value, $showLightcone4.value));
-
-
-
 	onMounted(query);
 
 
-	const sortEntriesByValuePoolID = ([, a], [, b]) => String(b.id).slice(2, 4) - String(a.id).slice(2, 4);
-	const sortEntriesByValueOrder = ([, a], [, b]) => a.order - b.order;
-	const sortEntriesByValueOrder2 = ([, a], [, b]) => order$typeItemPool[a.pool.typeItem] - order$typeItemPool[b.pool.typeItem] || a.order - b.order;
 
-
-	const scrollPoolDetailIntoView = id => document.querySelector(`#pool-detail-${id}`).scrollIntoView({ block: 'center', behavior: 'smooth' });
-
-
-	const domTipsItem = ref(null);
-	const itemTips = ref(null);
-	const showItemTips = (idItem, $event) => {
-		itemTips.value = M.items$id[idItem];
-
-		Tippy($event.target, {
-			theme: 'nob',
-			placement: 'top-start',
-			content: domTipsItem.value,
-			allowHTML: true,
-			interactive: true,
-			animation: '',
-			duration: [0, 0],
-			offset: [1, 8],
-			onHidden: tippy => tippy.destroy(),
-		}).show();
-	};
-	onMounted(() => Tippy(document.body, { content: domTipsItem.value }).destroy());
-
-
-	const pickGradientColor = (color1, color2, ratio) => {
-		const ratio1 = ratio;
-		const ratio2 = 1 - ratio1;
-
-		const rgb = [
-			Math.round(color1[0] * ratio1 + color2[0] * ratio2),
-			Math.round(color1[1] * ratio1 + color2[1] * ratio2),
-			Math.round(color1[2] * ratio1 + color2[2] * ratio2)
-		];
-
-		return `RGB(${rgb.join(',')})`;
-	};
+	const A = computed(() => analyseGacha($logs.value, $shownCharacterRarity4.value, $shownLightconeRarity4.value));
 </script>
 
 
@@ -323,24 +262,11 @@ p-fixed-topbar
 
 
 p-main-box
-	--widthBox: calc(var(--spc) * 40)
-	--widthSide: calc(var(--spc) * 4)
+	// @apply border-2 border-red-600
+	@apply grid grid-cols-2 gap-2
+	@apply relative mx-auto p-4 w-full leading-8 top-16
+	background-color: color-mix(in srgb, var(--cBack) 75%, black)
 
-	@apply block relative p-4 leading-8 w-auto rounded-sm top-16
-	background-color: color-mix(in srgb, var(--cBack) 95%, black)
-
-	width: calc(var(--widthBox) * 4 + var(--widthSide) * 2 * (4 + 1))
-	left: calc(50% - (var(--widthBox) * 4 + var(--widthSide) * 2 * (4 + 1)) / 2)
-
-
-	p-line
-		@apply block w-full mb-2
-
-		[scrollable]
-			@apply mb-2 cursor-pointer select-none trans text-[var(--cMain)]
-
-			&:hover
-				@apply text-[var(--cTextBack)]
 
 	[value-highlight]
 		@apply font-bold text-2xl text-[var(--cMain)] align-super
@@ -348,88 +274,106 @@ p-main-box
 		@apply font-bold text-xl text-[var(--cMain)]
 
 
-	p-box
-		@apply block w-full my-6
+	p-gather-info
+		@apply col-span-full
 
-		&[_limit-2]
-			width: calc(var(--spc) * ((40 * 2 + 4 * 2) * 2 + 4 * 4))
+	p-box[gacha-type]
+		@apply mb-2
 
-	p-gather
-		@apply inblock border border-[var(--cBorderBack)] rounded-sm
-		@apply w-[var(--widthBox)] mx-[var(--widthSide)] mb-[var(--widthSide)] p-2
+		p-title
+			@apply block mb-2
 
-		&[_width-2]
-			width: calc(var(--widthBox) * 2 + var(--widthSide) * 2 * (2 - 1))
+		p-gathers
+			@apply grid grid-cols-4 gap-2
 
-		&[_width-4]
-			width: calc(var(--widthBox) * 4 + var(--widthSide) * 2 * (4 - 1))
+		p-gather
+			@apply inblock border border-[var(--cBorderBack)] rounded-sm
+			@apply p-4
 
-		p-image
-			@apply inblock w-10 h-10 leading-10 mr-2 text-2xl text-center
+			p-title
+				@apply text-lg font-bold mb-2
 
-			&[_unknown]
-				@apply rounded-full border-2 leading-9 border-[var(--TextBack)]
+			p-info
+				@apply block mb-0 mt-2 text-right
 
-			img
-				@apply max-h-full m-auto
+	p-box[gacha-pool]
+		p-title
+			@apply block mb-2
 
+		p-gathers
+			@apply grid grid-cols-2 gap-2
 
+		p-gather
+			@apply border border-[var(--cBorderBack)] rounded-sm
+			@apply p-4
 
-		p-item
-			@apply block relative rounded-sm w-fit px-4 m-1 whitespace-nowrap
+			p-title
+				@apply text-lg font-bold mb-2
 
+				[jumpable]
+					@apply text-[var(--cMain)] cursor-pointer select-none
 
-			p-name
-				@apply inblock w-24 h-10 leading-10 elli
+				p-sub
+					@apply text-xs font-normal
 
-				&[fit]
-					@apply w-fit
+			p-sub-info
+				@apply block elli w-full text-sm
 
-			p-progress-text
-				@apply inblock ml-2 h-10 leading-10
-				@apply relative text-black
-				left: calc(var(--spc) * -64)
+			p-info
+				@apply block elli w-full
 
-			[count]
-				@apply text-white text-xl
-			[count-sm]
-				@apply text-white text-sm
+	p-box[gacha-pool-detail]
+		@apply col-span-2
+		@apply grid grid-cols-1 gap-2
 
-			[missed]
-				@apply text-red-700
+		p-gathers
+			@apply grid grid-cols-2 gap-2
 
-			&[_rarity-5]
-				>p-name
-					@apply text-[var(--cRarity5)]
+		p-gather
+			@apply border border-[var(--cBorderBack)] rounded-sm
 
+			p-title
+				@apply block box-content p-4 mb-2 h-12 text-lg
+				background-color: color-mix(in srgb, var(--cBack) 90%, black)
 
-			&[_rarity-4]
-				@apply inblock
+				p-header
+					@apply inblock w-12 h-12
 
-				>p-name
-					@apply w-fit text-[var(--cRarity4)]
+					img
+						@apply w-auto h-12 m-auto
 
+				p-name-box
+					@apply inblock h-12 ml-2
 
-			p-progress
-				@apply relative top-1 inblock w-64 h-8 ml-2 rounded-sm overflow-hidden bg-[var(--cProgressBack)]
+					p-name
+						@apply inblock h-8 text-[var(--cMain)] text-lg leading-8 font-bold elli
 
-				p-value
-					@apply relative block h-full
+						&[_sub]
+							@apply text-base leading-8 font-normal
 
-					&[prev]
-						@apply bg-blue-400 -top-1
+						p-boost
+							@apply text-xs leading-8 font-normal
+							&[_rarity-4]
+								@apply text-[var(--cRarity4)]
+							&[_rarity-5]
+								@apply text-[var(--cRarity5)]
+				p-count
+					@apply block h-4 text-sm leading-4 font-bold
 
-				&[missed]>p-value:not([prev])
-					@apply bg-red-400
+					[_split]
+						@apply text-[var(--cTextBack)] font-normal
+					[_total]
+						@apply text-[var(--cMain)]
+					[_rarity-4]
+						@apply text-[var(--cRarity4)]
+					[_rarity-5]
+						@apply text-[var(--cRarity5)]
+					[_missed]
+						@apply text-red-700 align-super
 
+			p-gachas
+				@apply block col-span-2 p-4
 
-p-tips-item
-	@apply block rounded-sm shadow-mdd px-4 py-2 bg-[var(--cMain)] border-4
-	border-color: color-mix(in srgb, var(--cMain) 90%, black)
-
-	img
-		@apply block w-[128px]
-
-	p-info
-		@apply block whitespace-nowrap text-[var(--cTextMain)]
+				:deep(p-gacha-item)
+					@apply mb-1
 </style>

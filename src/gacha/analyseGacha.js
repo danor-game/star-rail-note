@@ -1,5 +1,3 @@
-import Day from '../lib/day.pure.js';
-
 import M from '../lib/meta.js';
 
 
@@ -9,10 +7,10 @@ import M from '../lib/meta.js';
  * @property {string} id
  * @property {number} order
  * @property {string} name
- * @property {import('../../lib/fetch-log.js').ParsedLog[]} logs
- * @property {import('../../lib/fetch-log.js').ParsedLog[]} logs5
- * @property {import('../../lib/fetch-log.js').ParsedLog[]} logs4
- * @property {import('../../lib/fetch-log.js').ParsedLog[]} logsRare
+ * @property {import('../profile/fetch-log.js').ParsedLog[]} logs
+ * @property {import('../profile/fetch-log.js').ParsedLog[]} logs5
+ * @property {import('../profile/fetch-log.js').ParsedLog[]} logs4
+ * @property {import('../profile/fetch-log.js').ParsedLog[]} logsRare
  * @property {number} countInvestNext
  * @property {number} countInvestPrev
  */
@@ -23,23 +21,23 @@ import M from '../lib/meta.js';
  * @property {number} order
  * @property {string} name
  * @property {import('../lib/meta.js').GachaPool} pool
- * @property {import('../../lib/fetch-log.js').ParsedLog[]} logs
- * @property {import('../../lib/fetch-log.js').ParsedLog[]} logs5
- * @property {import('../../lib/fetch-log.js').ParsedLog[]} logs4
- * @property {import('../../lib/fetch-log.js').ParsedLog[]} logsRare
+ * @property {import('../profile/fetch-log.js').ParsedLog[]} logs
+ * @property {import('../profile/fetch-log.js').ParsedLog[]} logs5
+ * @property {import('../profile/fetch-log.js').ParsedLog[]} logs4
+ * @property {import('../profile/fetch-log.js').ParsedLog[]} logsRare
  * @property {number} countInvestNext
  * @property {number} countInvestPrev
  */
 
 /**
  * @typedef {Object} Analysis
- * @property {Object<string, AnalysisByGachaType>} typesGacha
- * @property {Object<string, AnalysisByGachaPool>} pools
+ * @property {AnalysisByGachaType[]} typesGacha
+ * @property {AnalysisByGachaPool[]} pools
  */
 
 
 /**
- * @param {import('../../lib/fetch-log.js').ParsedLog[]} logs
+ * @param {import('../profile/fetch-log.js').ParsedLog[]} logs
  * @param {boolean} showCharacter4
  * @param {boolean} showLightcone4
  */
@@ -48,31 +46,29 @@ const analyseGacha = (logs, showCharacter4, showLightcone4) => {
 	const A = {};
 
 
-	A.typesGacha = {};
+	A.typesGacha = [];
 	const countsInvest$typeGacha2 = M.typesGacha.reduce((acc, cur) => (acc[cur.id] = 0, acc), {});
 
-	for(const idTypeGacha in M.typesGacha$id) {
-		const typeGacha = M.typesGacha$id[idTypeGacha];
+	for(const typeGacha of M.typesGacha) {
+		const logsTypeGacha = logs.filter(log => log.type == typeGacha.id).sort((a, b) => b.time - a.time);
 
-		const logsTypeGacha = logs.filter(log => log.type == idTypeGacha).sort((a, b) => b.time - a.time);
-
-		const countInvestPrev = countsInvest$typeGacha2[idTypeGacha];
-		let countInvestPrevNow = countsInvest$typeGacha2[idTypeGacha];
+		const countInvestPrev = countsInvest$typeGacha2[typeGacha.id];
+		let countInvestPrevNow = countsInvest$typeGacha2[typeGacha.id];
 
 		for(const log of [...logsTypeGacha].reverse()) {
-			countsInvest$typeGacha2[idTypeGacha]++;
+			countsInvest$typeGacha2[typeGacha.id]++;
 
 			if(M.items$id[log.item]?.rarity == 5) {
-				log.countInvest = countsInvest$typeGacha2[idTypeGacha];
-				countsInvest$typeGacha2[idTypeGacha] = 0;
+				log.countInvest = countsInvest$typeGacha2[typeGacha.id];
+				countsInvest$typeGacha2[typeGacha.id] = 0;
 
 
 				if(countInvestPrev) { log.countInvestPrev = countInvestPrevNow; countInvestPrevNow = 0; }
 			}
 		}
 
-		A.typesGacha[idTypeGacha] = {
-			id: idTypeGacha,
+		A.typesGacha.push({
+			id: typeGacha.id,
 			order: typeGacha.order,
 			name: typeGacha.name,
 			logs: logsTypeGacha,
@@ -82,35 +78,31 @@ const analyseGacha = (logs, showCharacter4, showLightcone4) => {
 				M.characters$id[log.item]?.rarity >= (showCharacter4 ? 4 : 5) ||
 				M.lightcones$id[log.item]?.rarity >= (showLightcone4 ? 4 : 5)
 			),
-			countInvestNext: countsInvest$typeGacha2[idTypeGacha],
+			countInvestNext: countsInvest$typeGacha2[typeGacha.id],
 			countInvestPrev: countInvestPrev,
-		};
+		});
 	}
 
 
-	A.pools = {};
+	A.pools = [];
 	const countsInvest$typeGacha = M.typesGacha.reduce((acc, cur) => (acc[cur.id] = 0, acc), {});
 
-	for(const idPool in M.poolsGacha$id) {
-		const pool = M.poolsGacha$id[idPool];
-		const poolLast = M.poolsGacha.filter(p => p.type == pool.type && p.timeEnd < pool.timeEnd).sort((a, b) => b.timeEnd - a.timeEnd)[0];
+	for(const pool of M.poolsGacha.filter(pool => !pool.idLeader).toReversed()) {
+		const poolsMate = M.poolsGacha.filter(p => p.idLeader == pool.id);
 
-		const typeGachaPool = M.typesGacha$id[pool.type];
+		const poolsAll = [pool, ...poolsMate];
+		const idsPoolAll = poolsAll.map(pool => pool.id);
+		const itemsBoost5 = poolsAll.map(pool => pool.itemsBoost5 ?? []).flat();
 
-		const logsPool = logs
-			.filter(log =>
-				log.type == typeGachaPool.id &&
-				log.pool == idPool &&
-				(!pool.timeEnd ? true :
-					Day.unix(log.time).isBetween(Day.unix(poolLast?.timeEnd ?? 0), Day.unix(pool.timeEnd), null, '[]')
-				)
-			)
+
+		const logsPoolAll = logs
+			.filter(log => idsPoolAll.includes(log.pool))
 			.sort((a, b) => b.time - a.time);
 
 		const countInvestPrev = countsInvest$typeGacha[pool.type];
 		let countInvestPrevNow = countsInvest$typeGacha[pool.type];
 
-		for(const log of [...logsPool].reverse()) {
+		for(const log of logsPoolAll.toReversed()) {
 			countsInvest$typeGacha[pool.type]++;
 
 			if(M.items$id[log.item]?.rarity == 5) {
@@ -120,30 +112,50 @@ const analyseGacha = (logs, showCharacter4, showLightcone4) => {
 
 				if(countInvestPrev) { log.countInvestPrev = countInvestPrevNow; countInvestPrevNow = 0; }
 
-				if(pool.itemsBoost5 && !pool.itemsBoost5.includes(log.item)) {
+				if(itemsBoost5.length && !itemsBoost5.includes(log.item)) {
 					log.missed = true;
 				}
 			}
 		}
 
-		A.pools[idPool] = {
-			id: idPool,
-			order: M.poolsGacha.findIndex(pool => pool.id == idPool),
+		A.pools.unshift({
+			id: pool.id,
 			name: pool.name,
+			order: M.poolsGacha.findIndex(pool => pool.id == pool.id),
 			pool,
-			logs: logsPool,
-			logs5: logsPool.filter(log => M.items$id[log.item]?.rarity == 5),
-			logs4: logsPool.filter(log => M.items$id[log.item]?.rarity == 4),
-			logsRare: logsPool.filter(log =>
+
+			logs: logsPoolAll,
+			logs5: logsPoolAll.filter(log => M.items$id[log.item]?.rarity == 5),
+			logs4: logsPoolAll.filter(log => M.items$id[log.item]?.rarity == 4),
+			logsRare: logsPoolAll.filter(log =>
 				M.characters$id[log.item]?.rarity >= (showCharacter4 ? 4 : 5) ||
 				M.lightcones$id[log.item]?.rarity >= (showLightcone4 ? 4 : 5)
 			),
+
 			countInvestNext: countsInvest$typeGacha[pool.type],
 			countInvestPrev: countInvestPrev,
-		};
+
+			poolsSub: poolsAll.map((poolMate, order) => {
+				const logsPool = logs
+					.filter(log => log.pool == poolMate.id)
+					.sort((a, b) => b.time - a.time);
+
+				return {
+					id: poolMate.id,
+					name: poolMate.name,
+					order,
+					pool: poolMate,
+					logs: logsPool,
+					logs5: logsPool.filter(log => M.items$id[log.item]?.rarity == 5),
+					logs4: logsPool.filter(log => M.items$id[log.item]?.rarity == 4),
+					logsRare: logsPool.filter(log =>
+						M.characters$id[log.item]?.rarity >= (showCharacter4 ? 4 : 5) ||
+						M.lightcones$id[log.item]?.rarity >= (showLightcone4 ? 4 : 5)
+					),
+				};
+			}),
+		});
 	}
-
-
 
 	return A;
 };

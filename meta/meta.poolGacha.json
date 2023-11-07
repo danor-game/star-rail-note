@@ -445,9 +445,11 @@
 			"1206"
 		],
 		"versionAdded": "1.4",
+		"rerun": 1,
+		"idLeader": "2012",
 		"data$locale": {
 			"zh-cn": {
-				"name": "蝶立锋锷-复刻1"
+				"name": "蝶立锋锷"
 			}
 		}
 	},
@@ -466,9 +468,11 @@
 			"21003"
 		],
 		"versionAdded": "1.4",
+		"rerun": 1,
+		"idLeader": "3012",
 		"data$locale": {
 			"zh-cn": {
-				"name": "于夜色中-复刻1"
+				"name": "于夜色中"
 			}
 		}
 	}
