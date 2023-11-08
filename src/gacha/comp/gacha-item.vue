@@ -21,9 +21,7 @@
 		<p-progress v-if="rarityNow == 5">
 			<p-progress-text v-if="props.log.countInvest && props.log.countInvestPrev">
 				<span count>{{ String(props.log.countInvest).padStart(2, '&nbsp;') }}</span>
-				<span count-sm>&nbsp;{{ props.log.countInvestPrev }}</span>
-				<span>+</span>
-				<span count-sm>{{ props.log.countInvest - props.log.countInvestPrev }}</span>
+				<span count-sm class="ml-1">{{ props.log.countInvestPrev }}+{{ props.log.countInvest - props.log.countInvestPrev }}</span>
 			</p-progress-text>
 			<p-progress-text v-else-if="props.log.countInvest">
 				<span count>{{ String(props.log.countInvest).padStart(2, '&nbsp;') }}</span>
