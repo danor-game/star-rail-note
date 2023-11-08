@@ -84,7 +84,7 @@
 </template>
 
 <script setup>
-	import { computed, onMounted, ref } from 'vue';
+	import { computed, onMounted, ref, watch } from 'vue';
 
 	import { tabAdmin } from '@nuogz/vue-sidebar';
 	import { Click, Combo, Texter } from '@nuogz/vue-components';
@@ -107,7 +107,7 @@
 		if(!uid) { return; }
 
 		query($uid.value = uid);
-	});
+	}, tabAdmin.sUseHandleInit);
 
 
 
@@ -145,6 +145,8 @@
 	const query = async () => {
 		const uid = $uid.value;
 
+		if(now.value) { now.value.tipsTitle = `${now.value.title} ${uid}`; }
+
 		try {
 			const logs = loadProfiles().find(profile => profile.uid == uid)?.logsParsed;
 
@@ -158,7 +160,6 @@
 			$fail('获取抽卡记录', error);
 		}
 	};
-	onMounted(query);
 
 	const A = computed(() => analyseGacha($logs.value, $shownCharacterRarity4.value, $shownLightconeRarity4.value));
 </script>

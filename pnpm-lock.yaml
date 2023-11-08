@@ -44,8 +44,8 @@ devDependencies:
     specifier: ^1.11.4
     version: 1.11.4(@fortawesome/free-solid-svg-icons@6.4.2)(@fortawesome/vue-fontawesome@3.0.5)(@nuogz/utility@1.7.1)(dayjs@1.11.10)(tippy.js@6.3.7)(vue@3.3.8)
   '@nuogz/vue-sidebar':
-    specifier: ^2.3.3
-    version: 2.3.3(@fortawesome/vue-fontawesome@3.0.5)(@nuogz/utility@1.7.1)(vue@3.3.8)
+    specifier: ^2.4.0
+    version: 2.4.0(@fortawesome/vue-fontawesome@3.0.5)(@nuogz/utility@1.7.1)(vue@3.3.8)
   '@nuogz/vue-tip':
     specifier: ^1.1.2
     version: 1.1.2(tippy.js@6.3.7)(vue@3.3.8)
@@ -624,8 +624,8 @@ packages:
       vue: 3.3.8
     dev: true
 
-  /@nuogz/vue-sidebar@2.3.3(@fortawesome/vue-fontawesome@3.0.5)(@nuogz/utility@1.7.1)(vue@3.3.8):
-    resolution: {integrity: sha512-lBk1eS+3nv002/2ztDWGvBwXcd8r/TIVejDpKflPaPsCOT4mlh0r0b2A9TLQtNG8VDqD5zEipDE7o5xhUFnrig==}
+  /@nuogz/vue-sidebar@2.4.0(@fortawesome/vue-fontawesome@3.0.5)(@nuogz/utility@1.7.1)(vue@3.3.8):
+    resolution: {integrity: sha512-JayTdzYV7Kl73Cu7YdAmScNi1Ho+8dZU3DIzZE+h2mHqbGr5UIviJylaxZLoQY4YnQejVzR6m6cfYAOWZIu7dQ==}
     engines: {node: '>=14.18.1'}
     peerDependencies:
       '@fortawesome/vue-fontawesome': ^3
