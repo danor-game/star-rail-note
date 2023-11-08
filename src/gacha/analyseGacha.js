@@ -31,7 +31,7 @@ import M from '../lib/meta.js';
 
 /**
  * @typedef {Object} Analysis
- * @property {AnalysisByGachaType[]} typesGacha
+ * @property {AnalysisByGachaType[]} typesPoolGacha
  * @property {AnalysisByGachaPool[]} pools
  */
 
@@ -46,10 +46,10 @@ const analyseGacha = (logs, showCharacter4, showLightcone4) => {
 	const A = {};
 
 
-	A.typesGacha = [];
-	const countsInvestTypeGacha$typeGacha = M.typesGacha.reduce((acc, cur) => (acc[cur.id] = 0, acc), {});
+	A.typesPoolGacha = [];
+	const countsInvestTypeGacha$typeGacha = M.typesPoolGacha.reduce((acc, cur) => (acc[cur.id] = 0, acc), {});
 
-	for(const typeGacha of M.typesGacha.toReversed()) {
+	for(const typeGacha of M.typesPoolGacha.toReversed()) {
 		const logsTypeGacha = logs.filter(log => log.type == typeGacha.id).sort((a, b) => b.time - a.time);
 
 		const countInvestPrev = countsInvestTypeGacha$typeGacha[typeGacha.id];
@@ -67,7 +67,7 @@ const analyseGacha = (logs, showCharacter4, showLightcone4) => {
 			}
 		}
 
-		A.typesGacha.unshift({
+		A.typesPoolGacha.unshift({
 			id: typeGacha.id,
 			name: typeGacha.name,
 			order: typeGacha.order,
@@ -88,7 +88,7 @@ const analyseGacha = (logs, showCharacter4, showLightcone4) => {
 
 
 	A.pools = [];
-	const countsInvestPool$typeGacha = M.typesGacha.reduce((acc, cur) => (acc[cur.id] = 0, acc), {});
+	const countsInvestPool$typeGacha = M.typesPoolGacha.reduce((acc, cur) => (acc[cur.id] = 0, acc), {});
 
 	for(const pool of M.poolsGacha.filter(pool => !pool.idLeader).toReversed()) {
 		const poolsMate = M.poolsGacha.filter(p => p.idLeader == pool.id);

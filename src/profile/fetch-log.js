@@ -49,8 +49,8 @@ const fetchLog = async (profile, willFetchFull = false, textProgressRef) => {
 	/** @type {RawLog[]} */
 	const logsRaw = [];
 
-	for(const typeGacha in M.typesGacha$id) {
-		const { name: nameTypeGacha } = M.typesGacha$id[typeGacha];
+	for(const typeGacha in M.typesPoolGacha$id) {
+		const { name: nameTypeGacha } = M.typesPoolGacha$id[typeGacha];
 
 
 		let idEnd = '0';

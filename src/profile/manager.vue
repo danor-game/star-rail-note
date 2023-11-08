@@ -376,12 +376,12 @@ module
 
 
 p-fixed-topbar
-	@apply fixed block w-full h-[var(--heightTopbar)] p-4 leading-8 z-50 shadow-mdd
-	background-color: var(--cBack)
+	@apply block p-4 leading-8 fixed h-16 z-50 shadow-mdd bg-[var(--cBack)] overflow-hidden
+	width: calc( 100% - var(--widthSidebar))
+	&:hover
+		@apply h-auto
 	>[item]
-		@apply inblock w-auto mr-4 mb-2 h-8 leading-8 trans
-		&[white]
-			@apply lead-b2-8
+		@apply inblock w-auto mr-4 h-8 leading-8 mb-2
 
 
 p-main-box

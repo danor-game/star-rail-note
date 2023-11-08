@@ -1,948 +1,948 @@
-{
-	"20000": {
+[
+	{
 		"id": "20000",
 		"path": "Rogue",
 		"rarity": 3,
 		"versionAdded": "1.0",
-		"data$locale": {
+		"$data$locale": {
 			"zh-cn": {
 				"name": "锋镝",
 				"nameEffect": "危机"
 			}
 		}
 	},
-	"20001": {
+	{
 		"id": "20001",
 		"path": "Priest",
 		"rarity": 3,
 		"versionAdded": "1.0",
-		"data$locale": {
+		"$data$locale": {
 			"zh-cn": {
 				"name": "物穰",
 				"nameEffect": "繁盛"
 			}
 		}
 	},
-	"20002": {
+	{
 		"id": "20002",
 		"path": "Warrior",
 		"rarity": 3,
 		"versionAdded": "1.0",
-		"data$locale": {
+		"$data$locale": {
 			"zh-cn": {
 				"name": "天倾",
 				"nameEffect": "破灭"
 			}
 		}
 	},
-	"20003": {
+	{
 		"id": "20003",
 		"path": "Knight",
 		"rarity": 3,
 		"versionAdded": "1.0",
-		"data$locale": {
+		"$data$locale": {
 			"zh-cn": {
 				"name": "琥珀",
 				"nameEffect": "静滞"
 			}
 		}
 	},
-	"20004": {
+	{
 		"id": "20004",
 		"path": "Warlock",
 		"rarity": 3,
 		"versionAdded": "1.0",
-		"data$locale": {
+		"$data$locale": {
 			"zh-cn": {
 				"name": "幽邃",
 				"nameEffect": "沉沦"
 			}
 		}
 	},
-	"20005": {
+	{
 		"id": "20005",
 		"path": "Shaman",
 		"rarity": 3,
 		"versionAdded": "1.0",
-		"data$locale": {
+		"$data$locale": {
 			"zh-cn": {
 				"name": "齐颂",
 				"nameEffect": "协力"
 			}
 		}
 	},
-	"20006": {
+	{
 		"id": "20006",
 		"path": "Mage",
 		"rarity": 3,
 		"versionAdded": "1.0",
-		"data$locale": {
+		"$data$locale": {
 			"zh-cn": {
 				"name": "智库",
 				"nameEffect": "博识"
 			}
 		}
 	},
-	"20007": {
+	{
 		"id": "20007",
 		"path": "Rogue",
 		"rarity": 3,
 		"versionAdded": "1.0",
-		"data$locale": {
+		"$data$locale": {
 			"zh-cn": {
 				"name": "离弦",
 				"nameEffect": "鸣角"
 			}
 		}
 	},
-	"20008": {
+	{
 		"id": "20008",
 		"path": "Priest",
 		"rarity": 3,
 		"versionAdded": "1.0",
-		"data$locale": {
+		"$data$locale": {
 			"zh-cn": {
 				"name": "嘉果",
 				"nameEffect": "甘美"
 			}
 		}
 	},
-	"20009": {
+	{
 		"id": "20009",
 		"path": "Warrior",
 		"rarity": 3,
 		"versionAdded": "1.0",
-		"data$locale": {
+		"$data$locale": {
 			"zh-cn": {
 				"name": "乐圮",
 				"nameEffect": "诛讨"
 			}
 		}
 	},
-	"20010": {
+	{
 		"id": "20010",
 		"path": "Knight",
 		"rarity": 3,
 		"versionAdded": "1.0",
-		"data$locale": {
+		"$data$locale": {
 			"zh-cn": {
 				"name": "戍御",
 				"nameEffect": "兴复"
 			}
 		}
 	},
-	"20011": {
+	{
 		"id": "20011",
 		"path": "Warlock",
 		"rarity": 3,
 		"versionAdded": "1.0",
-		"data$locale": {
+		"$data$locale": {
 			"zh-cn": {
 				"name": "渊环",
 				"nameEffect": "追逼"
 			}
 		}
 	},
-	"20012": {
+	{
 		"id": "20012",
 		"path": "Shaman",
 		"rarity": 3,
 		"versionAdded": "1.0",
-		"data$locale": {
+		"$data$locale": {
 			"zh-cn": {
 				"name": "轮契",
 				"nameEffect": "速决"
 			}
 		}
 	},
-	"20013": {
+	{
 		"id": "20013",
 		"path": "Mage",
 		"rarity": 3,
 		"versionAdded": "1.0",
-		"data$locale": {
+		"$data$locale": {
 			"zh-cn": {
 				"name": "灵钥",
 				"nameEffect": "顿悟"
 			}
 		}
 	},
-	"20014": {
+	{
 		"id": "20014",
 		"path": "Rogue",
 		"rarity": 3,
 		"versionAdded": "1.0",
-		"data$locale": {
+		"$data$locale": {
 			"zh-cn": {
 				"name": "相抗",
 				"nameEffect": "联盟"
 			}
 		}
 	},
-	"20015": {
+	{
 		"id": "20015",
 		"path": "Priest",
 		"rarity": 3,
 		"versionAdded": "1.0",
-		"data$locale": {
+		"$data$locale": {
 			"zh-cn": {
 				"name": "蕃息",
 				"nameEffect": "丰饶民"
 			}
 		}
 	},
-	"20016": {
+	{
 		"id": "20016",
 		"path": "Warrior",
 		"rarity": 3,
 		"versionAdded": "1.0",
-		"data$locale": {
+		"$data$locale": {
 			"zh-cn": {
 				"name": "俱殁",
 				"nameEffect": "军团"
 			}
 		}
 	},
-	"20017": {
+	{
 		"id": "20017",
 		"path": "Knight",
 		"rarity": 3,
 		"versionAdded": "1.0",
-		"data$locale": {
+		"$data$locale": {
 			"zh-cn": {
 				"name": "开疆",
 				"nameEffect": "公司"
 			}
 		}
 	},
-	"20018": {
+	{
 		"id": "20018",
 		"path": "Warlock",
 		"rarity": 3,
 		"versionAdded": "1.0",
-		"data$locale": {
+		"$data$locale": {
 			"zh-cn": {
 				"name": "匿影",
 				"nameEffect": "机关"
 			}
 		}
 	},
-	"20019": {
+	{
 		"id": "20019",
 		"path": "Shaman",
 		"rarity": 3,
 		"versionAdded": "1.0",
-		"data$locale": {
+		"$data$locale": {
 			"zh-cn": {
 				"name": "调和",
 				"nameEffect": "家族"
 			}
 		}
 	},
-	"20020": {
+	{
 		"id": "20020",
 		"path": "Mage",
 		"rarity": 3,
 		"versionAdded": "1.0",
-		"data$locale": {
+		"$data$locale": {
 			"zh-cn": {
 				"name": "睿见",
 				"nameEffect": "天才"
 			}
 		}
 	},
-	"21000": {
+	{
 		"id": "21000",
 		"path": "Priest",
 		"rarity": 4,
 		"versionAdded": "1.0",
-		"data$locale": {
+		"$data$locale": {
 			"zh-cn": {
 				"name": "一场术后对话",
 				"nameEffect": "互相治愈"
 			}
 		}
 	},
-	"21001": {
+	{
 		"id": "21001",
 		"path": "Warlock",
 		"rarity": 4,
 		"versionAdded": "1.0",
-		"data$locale": {
+		"$data$locale": {
 			"zh-cn": {
 				"name": "晚安与睡颜",
 				"nameEffect": "劳碌者"
 			}
 		}
 	},
-	"21002": {
+	{
 		"id": "21002",
 		"path": "Knight",
 		"rarity": 4,
 		"versionAdded": "1.0",
-		"data$locale": {
+		"$data$locale": {
 			"zh-cn": {
 				"name": "余生的第一天",
 				"nameEffect": "此刻定格"
 			}
 		}
 	},
-	"21003": {
+	{
 		"id": "21003",
 		"path": "Rogue",
 		"rarity": 4,
 		"versionAdded": "1.0",
-		"data$locale": {
+		"$data$locale": {
 			"zh-cn": {
 				"name": "唯有沉默",
 				"nameEffect": "记录"
 			}
 		}
 	},
-	"21004": {
+	{
 		"id": "21004",
 		"path": "Shaman",
 		"rarity": 4,
 		"versionAdded": "1.0",
-		"data$locale": {
+		"$data$locale": {
 			"zh-cn": {
 				"name": "记忆中的模样",
 				"nameEffect": "老相片"
 			}
 		}
 	},
-	"21005": {
+	{
 		"id": "21005",
 		"path": "Warrior",
 		"rarity": 4,
 		"versionAdded": "1.0",
-		"data$locale": {
+		"$data$locale": {
 			"zh-cn": {
 				"name": "鼹鼠党欢迎你",
 				"nameEffect": "奇妙冒险"
 			}
 		}
 	},
-	"21006": {
+	{
 		"id": "21006",
 		"path": "Mage",
 		"rarity": 4,
 		"versionAdded": "1.0",
-		"data$locale": {
+		"$data$locale": {
 			"zh-cn": {
 				"name": "「我」的诞生",
 				"nameEffect": "画像少女"
 			}
 		}
 	},
-	"21007": {
+	{
 		"id": "21007",
 		"path": "Priest",
 		"rarity": 4,
 		"versionAdded": "1.0",
-		"data$locale": {
+		"$data$locale": {
 			"zh-cn": {
 				"name": "同一种心情",
 				"nameEffect": "救治与维修"
 			}
 		}
 	},
-	"21008": {
+	{
 		"id": "21008",
 		"path": "Warlock",
 		"rarity": 4,
 		"versionAdded": "1.0",
-		"data$locale": {
+		"$data$locale": {
 			"zh-cn": {
 				"name": "猎物的视线",
 				"nameEffect": "自信"
 			}
 		}
 	},
-	"21009": {
+	{
 		"id": "21009",
 		"path": "Knight",
 		"rarity": 4,
 		"versionAdded": "1.0",
-		"data$locale": {
+		"$data$locale": {
 			"zh-cn": {
 				"name": "朗道的选择",
 				"nameEffect": "时光如梭"
 			}
 		}
 	},
-	"21010": {
+	{
 		"id": "21010",
 		"path": "Rogue",
 		"rarity": 4,
 		"versionAdded": "1.0",
-		"data$locale": {
+		"$data$locale": {
 			"zh-cn": {
 				"name": "论剑",
 				"nameEffect": "各自的答案"
 			}
 		}
 	},
-	"21011": {
+	{
 		"id": "21011",
 		"path": "Shaman",
 		"rarity": 4,
 		"versionAdded": "1.0",
-		"data$locale": {
+		"$data$locale": {
 			"zh-cn": {
 				"name": "与行星相会",
 				"nameEffect": "启程"
 			}
 		}
 	},
-	"21012": {
+	{
 		"id": "21012",
 		"path": "Warrior",
 		"rarity": 4,
 		"versionAdded": "1.0",
-		"data$locale": {
+		"$data$locale": {
 			"zh-cn": {
 				"name": "秘密誓心",
 				"nameEffect": "竭力而为"
 			}
 		}
 	},
-	"21013": {
+	{
 		"id": "21013",
 		"path": "Mage",
 		"rarity": 4,
 		"versionAdded": "1.0",
-		"data$locale": {
+		"$data$locale": {
 			"zh-cn": {
 				"name": "别让世界静下来",
 				"nameEffect": "声音的力量"
 			}
 		}
 	},
-	"21014": {
+	{
 		"id": "21014",
 		"path": "Priest",
 		"rarity": 4,
 		"versionAdded": "1.0",
-		"data$locale": {
+		"$data$locale": {
 			"zh-cn": {
 				"name": "此时恰好",
 				"nameEffect": "折射的视线"
 			}
 		}
 	},
-	"21015": {
+	{
 		"id": "21015",
 		"path": "Warlock",
 		"rarity": 4,
 		"versionAdded": "1.0",
-		"data$locale": {
+		"$data$locale": {
 			"zh-cn": {
 				"name": "决心如汗珠般闪耀",
 				"nameEffect": "回眸"
 			}
 		}
 	},
-	"21016": {
+	{
 		"id": "21016",
 		"path": "Knight",
 		"rarity": 4,
 		"versionAdded": "1.0",
-		"data$locale": {
+		"$data$locale": {
 			"zh-cn": {
 				"name": "宇宙市场趋势",
 				"nameEffect": "新一轮洗牌"
 			}
 		}
 	},
-	"21017": {
+	{
 		"id": "21017",
 		"path": "Rogue",
 		"rarity": 4,
 		"versionAdded": "1.0",
-		"data$locale": {
+		"$data$locale": {
 			"zh-cn": {
 				"name": "点个关注吧！",
 				"nameEffect": "不赞不许走！"
 			}
 		}
 	},
-	"21018": {
+	{
 		"id": "21018",
 		"path": "Shaman",
 		"rarity": 4,
 		"versionAdded": "1.0",
-		"data$locale": {
+		"$data$locale": {
 			"zh-cn": {
 				"name": "舞！舞！舞！",
 				"nameEffect": "停不下来啦！"
 			}
 		}
 	},
-	"21019": {
+	{
 		"id": "21019",
 		"path": "Warrior",
 		"rarity": 4,
 		"versionAdded": "1.0",
-		"data$locale": {
+		"$data$locale": {
 			"zh-cn": {
 				"name": "在蓝天下",
 				"nameEffect": "暖阳麦浪"
 			}
 		}
 	},
-	"21020": {
+	{
 		"id": "21020",
 		"path": "Mage",
 		"rarity": 4,
 		"versionAdded": "1.0",
-		"data$locale": {
+		"$data$locale": {
 			"zh-cn": {
 				"name": "天才们的休憩",
 				"nameEffect": "各得其所"
 			}
 		}
 	},
-	"21021": {
+	{
 		"id": "21021",
 		"path": "Priest",
 		"rarity": 4,
 		"versionAdded": "1.0",
-		"data$locale": {
+		"$data$locale": {
 			"zh-cn": {
 				"name": "等价交换",
 				"nameEffect": "酣适"
 			}
 		}
 	},
-	"21022": {
+	{
 		"id": "21022",
 		"path": "Warlock",
 		"rarity": 4,
 		"versionAdded": "1.0",
-		"data$locale": {
+		"$data$locale": {
 			"zh-cn": {
 				"name": "延长记号",
 				"nameEffect": "休止符"
 			}
 		}
 	},
-	"21023": {
+	{
 		"id": "21023",
 		"path": "Knight",
 		"rarity": 4,
 		"versionAdded": "1.0",
-		"data$locale": {
+		"$data$locale": {
 			"zh-cn": {
 				"name": "我们是地火",
 				"nameEffect": "泪中人"
 			}
 		}
 	},
-	"21024": {
+	{
 		"id": "21024",
 		"path": "Rogue",
 		"rarity": 4,
 		"versionAdded": "1.0",
-		"data$locale": {
+		"$data$locale": {
 			"zh-cn": {
 				"name": "春水初生",
 				"nameEffect": "驱散余寒"
 			}
 		}
 	},
-	"21025": {
+	{
 		"id": "21025",
 		"path": "Shaman",
 		"rarity": 4,
 		"versionAdded": "1.0",
-		"data$locale": {
+		"$data$locale": {
 			"zh-cn": {
 				"name": "过往未来",
 				"nameEffect": "旧日纸鸢"
 			}
 		}
 	},
-	"21026": {
+	{
 		"id": "21026",
 		"path": "Warrior",
 		"rarity": 4,
 		"versionAdded": "1.0",
-		"data$locale": {
+		"$data$locale": {
 			"zh-cn": {
 				"name": "汪！散步时间！",
 				"nameEffect": "快溜"
 			}
 		}
 	},
-	"21027": {
+	{
 		"id": "21027",
 		"path": "Mage",
 		"rarity": 4,
 		"versionAdded": "1.0",
-		"data$locale": {
+		"$data$locale": {
 			"zh-cn": {
 				"name": "早餐的仪式感",
 				"nameEffect": "各就其位"
 			}
 		}
 	},
-	"21028": {
+	{
 		"id": "21028",
 		"path": "Priest",
 		"rarity": 4,
 		"versionAdded": "1.0",
-		"data$locale": {
+		"$data$locale": {
 			"zh-cn": {
 				"name": "暖夜不会漫长",
 				"nameEffect": "小小灯火"
 			}
 		}
 	},
-	"21029": {
+	{
 		"id": "21029",
 		"path": "Warlock",
 		"rarity": 4,
 		"versionAdded": "1.0",
-		"data$locale": {
+		"$data$locale": {
 			"zh-cn": {
 				"name": "后会有期",
 				"nameEffect": "交手如交谈"
 			}
 		}
 	},
-	"21030": {
+	{
 		"id": "21030",
 		"path": "Knight",
 		"rarity": 4,
 		"versionAdded": "1.0",
-		"data$locale": {
+		"$data$locale": {
 			"zh-cn": {
 				"name": "这就是我啦！",
 				"nameEffect": "新篇章"
 			}
 		}
 	},
-	"21031": {
+	{
 		"id": "21031",
 		"path": "Rogue",
 		"rarity": 4,
 		"versionAdded": "1.0",
-		"data$locale": {
+		"$data$locale": {
 			"zh-cn": {
 				"name": "重返幽冥",
 				"nameEffect": "汹涌"
 			}
 		}
 	},
-	"21032": {
+	{
 		"id": "21032",
 		"path": "Shaman",
 		"rarity": 4,
 		"versionAdded": "1.0",
-		"data$locale": {
+		"$data$locale": {
 			"zh-cn": {
 				"name": "镂月裁云之意",
 				"nameEffect": "秘密"
 			}
 		}
 	},
-	"21033": {
+	{
 		"id": "21033",
 		"path": "Warrior",
 		"rarity": 4,
 		"versionAdded": "1.0",
-		"data$locale": {
+		"$data$locale": {
 			"zh-cn": {
 				"name": "无处可逃",
 				"nameEffect": "绝境"
 			}
 		}
 	},
-	"21034": {
+	{
 		"id": "21034",
 		"path": "Mage",
 		"rarity": 4,
 		"versionAdded": "1.0",
-		"data$locale": {
+		"$data$locale": {
 			"zh-cn": {
 				"name": "今日亦是和平的一日",
 				"nameEffect": "风雨将至"
 			}
 		}
 	},
-	"22000": {
+	{
 		"id": "22000",
 		"path": "Warlock",
 		"rarity": 4,
 		"versionAdded": "1.1",
-		"data$locale": {
+		"$data$locale": {
 			"zh-cn": {
 				"name": "新手任务开始前",
 				"nameEffect": "眼疾手快"
 			}
 		}
 	},
-	"23000": {
+	{
 		"id": "23000",
 		"path": "Mage",
 		"rarity": 5,
 		"versionAdded": "1.0",
-		"data$locale": {
+		"$data$locale": {
 			"zh-cn": {
 				"name": "银河铁道之夜",
 				"nameEffect": "流星群"
 			}
 		}
 	},
-	"23001": {
+	{
 		"id": "23001",
 		"path": "Rogue",
 		"rarity": 5,
 		"characterBest": "1102",
 		"versionAdded": "1.0",
-		"data$locale": {
+		"$data$locale": {
 			"zh-cn": {
 				"name": "于夜色中",
 				"nameEffect": "花与蝶"
 			}
 		}
 	},
-	"23002": {
+	{
 		"id": "23002",
 		"path": "Warrior",
 		"rarity": 5,
 		"versionAdded": "1.0",
-		"data$locale": {
+		"$data$locale": {
 			"zh-cn": {
 				"name": "无可取代的东西",
 				"nameEffect": "家人"
 			}
 		}
 	},
-	"23003": {
+	{
 		"id": "23003",
 		"path": "Shaman",
 		"rarity": 5,
 		"versionAdded": "1.0",
-		"data$locale": {
+		"$data$locale": {
 			"zh-cn": {
 				"name": "但战斗还未结束",
 				"nameEffect": "继承人"
 			}
 		}
 	},
-	"23004": {
+	{
 		"id": "23004",
 		"path": "Warlock",
 		"rarity": 5,
 		"versionAdded": "1.0",
-		"data$locale": {
+		"$data$locale": {
 			"zh-cn": {
 				"name": "以世界之名",
 				"nameEffect": "传承者"
 			}
 		}
 	},
-	"23005": {
+	{
 		"id": "23005",
 		"path": "Knight",
 		"rarity": 5,
 		"versionAdded": "1.0",
-		"data$locale": {
+		"$data$locale": {
 			"zh-cn": {
 				"name": "制胜的瞬间",
 				"nameEffect": "决断"
 			}
 		}
 	},
-	"23006": {
+	{
 		"id": "23006",
 		"path": "Warlock",
 		"rarity": 5,
 		"characterBest": "1005",
 		"versionAdded": "1.2",
-		"data$locale": {
+		"$data$locale": {
 			"zh-cn": {
 				"name": "只需等待",
 				"nameEffect": "蜘蛛的网"
 			}
 		}
 	},
-	"23007": {
+	{
 		"id": "23007",
 		"path": "Warlock",
 		"rarity": 5,
 		"characterBest": "1006",
 		"versionAdded": "1.1",
-		"data$locale": {
+		"$data$locale": {
 			"zh-cn": {
 				"name": "雨一直下",
 				"nameEffect": "幻影现实"
 			}
 		}
 	},
-	"23008": {
+	{
 		"id": "23008",
 		"path": "Priest",
 		"rarity": 5,
 		"characterBest": "1203",
 		"versionAdded": "1.1",
-		"data$locale": {
+		"$data$locale": {
 			"zh-cn": {
 				"name": "棺的回响",
 				"nameEffect": "荆棘"
 			}
 		}
 	},
-	"23009": {
+	{
 		"id": "23009",
 		"path": "Warrior",
 		"rarity": 5,
 		"characterBest": "1205",
 		"versionAdded": "1.2",
-		"data$locale": {
+		"$data$locale": {
 			"zh-cn": {
 				"name": "到不了的彼岸",
 				"nameEffect": "不得"
 			}
 		}
 	},
-	"23010": {
+	{
 		"id": "23010",
 		"path": "Mage",
 		"rarity": 5,
 		"characterBest": "1204",
 		"versionAdded": "1.0",
-		"data$locale": {
+		"$data$locale": {
 			"zh-cn": {
 				"name": "拂晓之前",
 				"nameEffect": "长夜"
 			}
 		}
 	},
-	"23011": {
+	{
 		"id": "23011",
 		"path": "Knight",
 		"rarity": 5,
 		"characterBest": "1208",
 		"versionAdded": "1.3",
-		"data$locale": {
+		"$data$locale": {
 			"zh-cn": {
 				"name": "她已闭上双眼",
 				"nameEffect": "视界"
 			}
 		}
 	},
-	"23012": {
+	{
 		"id": "23012",
 		"path": "Rogue",
 		"rarity": 5,
 		"versionAdded": "1.0",
-		"data$locale": {
+		"$data$locale": {
 			"zh-cn": {
 				"name": "如泥酣眠",
 				"nameEffect": "美梦"
 			}
 		}
 	},
-	"23013": {
+	{
 		"id": "23013",
 		"path": "Priest",
 		"rarity": 5,
 		"versionAdded": "1.0",
-		"data$locale": {
+		"$data$locale": {
 			"zh-cn": {
 				"name": "时节不居",
 				"nameEffect": "日有四时"
 			}
 		}
 	},
-	"23014": {
+	{
 		"id": "23014",
 		"path": "Warrior",
 		"rarity": 5,
 		"characterBest": "1212",
 		"versionAdded": "1.4",
-		"data$locale": {
+		"$data$locale": {
 			"zh-cn": {
 				"name": "此身为剑",
 				"nameEffect": "执此宵玉"
 			}
 		}
 	},
-	"23015": {
+	{
 		"id": "23015",
 		"path": "Warrior",
 		"rarity": 5,
 		"characterBest": "1213",
 		"versionAdded": "1.3",
-		"data$locale": {
+		"$data$locale": {
 			"zh-cn": {
 				"name": "比阳光更明亮的",
 				"nameEffect": "抵死"
 			}
 		}
 	},
-	"23016": {
+	{
 		"id": "23016",
 		"path": "Rogue",
 		"rarity": 5,
 		"characterBest": "1112",
 		"versionAdded": "1.4",
-		"data$locale": {
+		"$data$locale": {
 			"zh-cn": {
 				"name": "烦恼着，幸福着",
 				"nameEffect": "一个一个来"
 			}
 		}
 	},
-	"24000": {
+	{
 		"id": "24000",
 		"path": "Warrior",
 		"rarity": 5,
 		"versionAdded": "1.0",
-		"data$locale": {
+		"$data$locale": {
 			"zh-cn": {
 				"name": "记一位星神的陨落",
 				"nameEffect": "扑火"
 			}
 		}
 	},
-	"24001": {
+	{
 		"id": "24001",
 		"path": "Rogue",
 		"rarity": 5,
 		"versionAdded": "1.0",
-		"data$locale": {
+		"$data$locale": {
 			"zh-cn": {
 				"name": "星海巡航",
 				"nameEffect": "猎逐"
 			}
 		}
 	},
-	"24002": {
+	{
 		"id": "24002",
 		"path": "Knight",
 		"rarity": 5,
 		"versionAdded": "1.0",
-		"data$locale": {
+		"$data$locale": {
 			"zh-cn": {
 				"name": "记忆的质料",
 				"nameEffect": "珍存"
 			}
 		}
 	},
-	"24003": {
+	{
 		"id": "24003",
 		"path": "Warlock",
 		"rarity": 5,
 		"versionAdded": "1.3",
-		"data$locale": {
+		"$data$locale": {
 			"zh-cn": {
 				"name": "孤独的疗愈",
 				"nameEffect": "混沌灵药"
 			}
 		}
 	}
-}
+]

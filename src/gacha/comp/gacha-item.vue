@@ -10,7 +10,7 @@
 			</p-progress-text>
 
 			<p-value-bar v-if="countInvest" invest
-				:style="{ width: `${100 * (countInvest ?? 0) / (M.typesGacha$id[typeGacha]?.minimum5 ?? 90)}%` }"
+				:style="{ width: `${100 * (countInvest ?? 0) / (M.typesPoolGacha$id[typeGacha]?.minimum5 ?? 90)}%` }"
 			/>
 		</p-progress>
 	</p-gacha-item>
@@ -31,16 +31,16 @@
 			<p-value-bar
 				:missed="brop(props.log.missed)"
 				:style="{
-					width: `${100 * (props.log.countInvest ?? 0) / (M.typesGacha$id[props.log.type]?.minimum5 ?? 90)}%`,
+					width: `${100 * (props.log.countInvest ?? 0) / (M.typesPoolGacha$id[props.log.type]?.minimum5 ?? 90)}%`,
 					backgroundColor: props.log.missed ? null : pickGradientColor(
 						[250, 204, 21],
 						[52, 211, 153],
-						(props.log.countInvest ?? 0) / (M.typesGacha$id[props.log.type]?.minimum5 ?? 90)
+						(props.log.countInvest ?? 0) / (M.typesPoolGacha$id[props.log.type]?.minimum5 ?? 90)
 					)
 				}"
 			/>
 			<p-value-bar v-if="props.log.countInvestPrev" prev
-				:style="{ width: `${100 * (props.log.countInvestPrev ?? 0) / (M.typesGacha$id[props.log.type]?.minimum5 ?? 90)}%` }"
+				:style="{ width: `${100 * (props.log.countInvestPrev ?? 0) / (M.typesPoolGacha$id[props.log.type]?.minimum5 ?? 90)}%` }"
 			/>
 		</p-progress>
 

@@ -1,26 +1,26 @@
-{
-	"4001": {
+[
+	{
 		"id": "4001",
 		"type": "2",
 		"max": 50,
 		"versionAdded": "1.0",
-		"data$locale": {
+		"$data$locale": {
 			"zh-cn": {
 				"name": "新手跃迁"
 			}
 		}
 	},
-	"1001": {
+	{
 		"id": "1001",
 		"type": "1",
 		"versionAdded": "1.0",
-		"data$locale": {
+		"$data$locale": {
 			"zh-cn": {
 				"name": "群星跃迁"
 			}
 		}
 	},
-	"2003": {
+	{
 		"id": "2003",
 		"type": "11",
 		"timeEnd": 1684317599,
@@ -34,13 +34,13 @@
 			"1109"
 		],
 		"versionAdded": "1.0",
-		"data$locale": {
+		"$data$locale": {
 			"zh-cn": {
 				"name": "蝶立锋锷"
 			}
 		}
 	},
-	"3003": {
+	{
 		"id": "3003",
 		"type": "12",
 		"timeEnd": 1684317599,
@@ -54,16 +54,16 @@
 			"21005"
 		],
 		"versionAdded": "1.0",
-		"data$locale": {
+		"$data$locale": {
 			"zh-cn": {
 				"name": "于夜色中"
 			}
 		}
 	},
-	"2004": {
+	{
 		"id": "2004",
 		"type": "11",
-		"timeBegin": 1684317600,
+		"timeStart": 1684317600,
 		"timeEnd": 1686034799,
 		"typeItem": "character",
 		"itemsBoost5": [
@@ -75,16 +75,16 @@
 			"1206"
 		],
 		"versionAdded": "1.0",
-		"data$locale": {
+		"$data$locale": {
 			"zh-cn": {
 				"name": "天戈麾斥"
 			}
 		}
 	},
-	"3004": {
+	{
 		"id": "3004",
 		"type": "12",
-		"timeBegin": 1684317600,
+		"timeStart": 1684317600,
 		"timeEnd": 1686034799,
 		"typeItem": "lightcone",
 		"itemsBoost5": [
@@ -96,13 +96,13 @@
 			"21011"
 		],
 		"versionAdded": "1.0",
-		"data$locale": {
+		"$data$locale": {
 			"zh-cn": {
 				"name": "拂晓之前"
 			}
 		}
 	},
-	"2005": {
+	{
 		"id": "2005",
 		"type": "11",
 		"timeEnd": 1687924799,
@@ -116,13 +116,13 @@
 			"1103"
 		],
 		"versionAdded": "1.1",
-		"data$locale": {
+		"$data$locale": {
 			"zh-cn": {
 				"name": "零号协议"
 			}
 		}
 	},
-	"3005": {
+	{
 		"id": "3005",
 		"type": "12",
 		"timeEnd": 1687924799,
@@ -136,13 +136,13 @@
 			"21013"
 		],
 		"versionAdded": "1.1",
-		"data$locale": {
+		"$data$locale": {
 			"zh-cn": {
 				"name": "雨一直下"
 			}
 		}
 	},
-	"2006": {
+	{
 		"id": "2006",
 		"type": "11",
 		"timeStart": 1687924800,
@@ -157,13 +157,13 @@
 			"1201"
 		],
 		"versionAdded": "1.1",
-		"data$locale": {
+		"$data$locale": {
 			"zh-cn": {
 				"name": "寻索世间"
 			}
 		}
 	},
-	"3006": {
+	{
 		"id": "3006",
 		"type": "12",
 		"timeStart": 1687924800,
@@ -178,13 +178,13 @@
 			"21018"
 		],
 		"versionAdded": "1.1",
-		"data$locale": {
+		"$data$locale": {
 			"zh-cn": {
 				"name": "棺的回响"
 			}
 		}
 	},
-	"2007": {
+	{
 		"id": "2007",
 		"type": "11",
 		"timeEnd": 1691553599,
@@ -198,13 +198,13 @@
 			"1206"
 		],
 		"versionAdded": "1.2",
-		"data$locale": {
+		"$data$locale": {
 			"zh-cn": {
 				"name": "业途游魂"
 			}
 		}
 	},
-	"3007": {
+	{
 		"id": "3007",
 		"type": "12",
 		"timeEnd": 1691553599,
@@ -218,13 +218,13 @@
 			"21010"
 		],
 		"versionAdded": "1.2",
-		"data$locale": {
+		"$data$locale": {
 			"zh-cn": {
 				"name": "到不了的彼岸"
 			}
 		}
 	},
-	"2008": {
+	{
 		"id": "2008",
 		"type": "11",
 		"timeStart": 1691553600,
@@ -239,13 +239,13 @@
 			"1103"
 		],
 		"versionAdded": "1.2",
-		"data$locale": {
+		"$data$locale": {
 			"zh-cn": {
 				"name": "夜将不眠"
 			}
 		}
 	},
-	"3008": {
+	{
 		"id": "3008",
 		"type": "12",
 		"timeStart": 1691553600,
@@ -260,13 +260,13 @@
 			"21006"
 		],
 		"versionAdded": "1.2",
-		"data$locale": {
+		"$data$locale": {
 			"zh-cn": {
 				"name": "只需等待"
 			}
 		}
 	},
-	"2009": {
+	{
 		"id": "2009",
 		"type": "11",
 		"timeEnd": 1695182399,
@@ -280,13 +280,13 @@
 			"1001"
 		],
 		"versionAdded": "1.3",
-		"data$locale": {
+		"$data$locale": {
 			"zh-cn": {
 				"name": "濯世垂虹"
 			}
 		}
 	},
-	"3009": {
+	{
 		"id": "3009",
 		"type": "12",
 		"timeEnd": 1695182399,
@@ -300,13 +300,13 @@
 			"21009"
 		],
 		"versionAdded": "1.3",
-		"data$locale": {
+		"$data$locale": {
 			"zh-cn": {
 				"name": "比阳光更明亮的"
 			}
 		}
 	},
-	"2010": {
+	{
 		"id": "2010",
 		"type": "11",
 		"timeStart": 1695182400,
@@ -321,13 +321,13 @@
 			"1106"
 		],
 		"versionAdded": "1.3",
-		"data$locale": {
+		"$data$locale": {
 			"zh-cn": {
 				"name": "穷观妙算"
 			}
 		}
 	},
-	"3010": {
+	{
 		"id": "3010",
 		"type": "12",
 		"timeStart": 1695182400,
@@ -342,13 +342,13 @@
 			"21016"
 		],
 		"versionAdded": "1.3",
-		"data$locale": {
+		"$data$locale": {
 			"zh-cn": {
 				"name": "她已闭上双眼"
 			}
 		}
 	},
-	"2011": {
+	{
 		"id": "2011",
 		"type": "11",
 		"timeEnd": 1698379199,
@@ -362,13 +362,13 @@
 			"1108"
 		],
 		"versionAdded": "1.4",
-		"data$locale": {
+		"$data$locale": {
 			"zh-cn": {
 				"name": "月有薄蚀"
 			}
 		}
 	},
-	"3011": {
+	{
 		"id": "3011",
 		"type": "12",
 		"timeEnd": 1698379199,
@@ -382,13 +382,13 @@
 			"21008"
 		],
 		"versionAdded": "1.4",
-		"data$locale": {
+		"$data$locale": {
 			"zh-cn": {
 				"name": "此身为剑"
 			}
 		}
 	},
-	"2012": {
+	{
 		"id": "2012",
 		"type": "11",
 		"timeStart": 1698379200,
@@ -403,13 +403,13 @@
 			"1206"
 		],
 		"versionAdded": "1.4",
-		"data$locale": {
+		"$data$locale": {
 			"zh-cn": {
 				"name": "落日条款"
 			}
 		}
 	},
-	"3012": {
+	{
 		"id": "3012",
 		"type": "12",
 		"timeStart": 1698379200,
@@ -424,13 +424,13 @@
 			"21003"
 		],
 		"versionAdded": "1.4",
-		"data$locale": {
+		"$data$locale": {
 			"zh-cn": {
 				"name": "烦恼着，幸福着"
 			}
 		}
 	},
-	"2013": {
+	{
 		"id": "2013",
 		"type": "11",
 		"timeStart": 1698379200,
@@ -447,13 +447,13 @@
 		"versionAdded": "1.4",
 		"rerun": 1,
 		"idLeader": "2012",
-		"data$locale": {
+		"$data$locale": {
 			"zh-cn": {
 				"name": "蝶立锋锷"
 			}
 		}
 	},
-	"3013": {
+	{
 		"id": "3013",
 		"type": "12",
 		"timeStart": 1698379200,
@@ -470,10 +470,10 @@
 		"versionAdded": "1.4",
 		"rerun": 1,
 		"idLeader": "3012",
-		"data$locale": {
+		"$data$locale": {
 			"zh-cn": {
 				"name": "于夜色中"
 			}
 		}
 	}
-}
+]

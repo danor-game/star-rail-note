@@ -7,6 +7,7 @@
 		<p-name-box>
 			<p-name>
 				<span>{{ props.analysis.name }}</span>
+				<sup v-if="props.analysis.pool?.rerun">{{ props.analysis.pool?.rerun + 1 }}</sup>
 				<template v-if="props.analysis.pool">
 					<p-boost v-if="props.analysis.pool.typeItem == 'character'" _rarity-5>
 						&nbsp;{{ M.characters$id[props.analysis.pool.itemsBoost5[0]]?.name }}

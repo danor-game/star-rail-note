@@ -13,7 +13,7 @@
 			<p-gather-info>
 				● <span value-highlight>{{ $logs.length }}</span> 次抽卡，
 				平均 <span value-highlight>{{
-					(($logs.length - Object.values(A.typesGacha).map(p => p.countInvestNext).reduce((acc, cur) => acc + cur, 0)) / ($countCharacter5 + $countLightcone5)).toFixed(2)
+					(($logs.length - Object.values(A.typesPoolGacha).map(p => p.countInvestNext).reduce((acc, cur) => acc + cur, 0)) / ($countCharacter5 + $countLightcone5)).toFixed(2)
 				}}</span> 抽出金
 			</p-gather-info>
 			<p-gather-info>
@@ -29,7 +29,7 @@
 		<p-box gacha-type>
 			<p-title>● 按<span value-highlight-xl>跃迁类型</span>概览</p-title>
 			<p-gathers>
-				<p-gather v-for="analysis of A.typesGacha.filter(a => $optionShowNewbiePool ? true : a.id != 2)" :key="`gather-type-${analysis.id}`">
+				<p-gather v-for="analysis of A.typesPoolGacha.filter(a => $optionShowNewbiePool ? true : a.id != 2)" :key="`gather-type-${analysis.id}`">
 					<p-title>{{ analysis.name }}</p-title>
 					<p-info><span value-highlight>{{ analysis.logs.length }}</span> 跃迁</p-info>
 					<p-info><span value-highlight>{{ String(analysis.logs5.length).padStart(2, '&nbsp;') }}</span> 五星</p-info>
@@ -41,7 +41,7 @@
 		<p-box gacha-type-detail>
 			<p-title>● 按<span value-highlight-xl>跃迁类型</span></p-title>
 			<p-gathers>
-				<p-gather v-for="analysis of A.typesGacha.filter(a => $optionShowNewbiePool ? true : a.id != 2)" :id="`pool-detail-${analysis.id}`" :key="`gather-pool-detail-${analysis.id}`"
+				<p-gather v-for="analysis of A.typesPoolGacha.filter(a => $optionShowNewbiePool ? true : a.id != 2)" :id="`pool-detail-${analysis.id}`" :key="`gather-pool-detail-${analysis.id}`"
 					:main="brop($optionShowNewbiePool && analysis.id > 10)"
 				>
 					<PoolTitle :analysis="analysis" :shown-character-rarity4="$shownCharacterRarity4" :shown-lightcone-rarity4="$shownLightconeRarity4" />
@@ -166,7 +166,10 @@
 
 <style lang="sass" scoped>
 p-fixed-topbar
-	@apply block p-4 leading-8 fixed w-full h-16 z-50 shadow-mdd bg-[var(--cBack)]
+	@apply block p-4 leading-8 fixed h-16 z-50 shadow-mdd bg-[var(--cBack)] overflow-hidden
+	width: calc( 100% - var(--widthSidebar))
+	&:hover
+		@apply h-auto
 	>[item]
 		@apply inblock w-auto mr-4 h-8 leading-8 mb-2
 
@@ -193,7 +196,7 @@ p-main-box
 			grid-template-columns: repeat(4, min-content)
 
 			p-gather
-				@apply inblock p-4 min-w-[10rem] border border-[var(--cBorderBack)] rounded-sm
+				@apply inblock p-4 min-w-[10rem] border border-[var(--cBorderBack)] rounded-sm overflow-hidden
 				p-title
 					@apply text-lg font-bold mb-2
 				p-info
@@ -205,7 +208,7 @@ p-main-box
 			@apply grid grid-cols-3 gap-2
 			grid-template-rows: 1fr auto
 			p-gather
-				@apply border border-[var(--cBorderBack)] rounded-sm
+				@apply border border-[var(--cBorderBack)] rounded-sm overflow-hidden
 				&[main]
 					@apply row-span-2
 				p-pool-title
@@ -216,11 +219,11 @@ p-main-box
 						@apply mb-1
 
 	p-box[gacha-pool-detail]
-		@apply grid grid-cols-1 gap-2 col-span-2 overflow-hidden
+		@apply grid grid-cols-1 gap-2 col-span-2
 		p-gathers
 			@apply grid grid-cols-2 gap-2
 			p-gather
-				@apply border border-[var(--cBorderBack)] rounded-sm
+				@apply border border-[var(--cBorderBack)] rounded-sm overflow-hidden
 				&:not([main])
 					@apply col-span-2
 				p-pool-title
