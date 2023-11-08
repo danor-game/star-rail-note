@@ -31,7 +31,13 @@
 
 
 	onMounted(() => tabAdmin.add('profile-manager', { type: 'icon|title', title: '档案管理', icon: faStarOfDavid }));
-	onMounted(() => tabAdmin.add('gacha-analysis', { type: 'icon|title', title: '1', icon: faStarOfDavid },101691019));
+	onMounted(() => {
+		const uidAnalysisLast = localStorage.getItem('last-analysis-uid') ?? '';
+
+		if(uidAnalysisLast) {
+			tabAdmin.add('gacha-analysis', { type: 'icon|title', title: '跃迁分析', icon: faStarOfDavid }, uidAnalysisLast);
+		}
+	});
 </script>
 
 <style lang="sass" scoped>

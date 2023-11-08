@@ -80,7 +80,6 @@ const M = {
 	items$id: { ...charactersMeta, ...lightconesMeta },
 	items: [...Object.values(charactersMeta), ...Object.values(lightconesMeta)],
 
-
 	typesGacha: parseMetaLang(metasTypeGacha),
 	typesGacha$id: toIDMapObject(metasTypeGacha),
 
