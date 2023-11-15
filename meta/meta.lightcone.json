@@ -684,6 +684,18 @@
 		}
 	},
 	{
+		"id": "22001",
+		"path": "Priest",
+		"rarity": 4,
+		"versionAdded": "1.5",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "嘿，我在这儿",
+				"nameEffect": "不怕不怕啦"
+			}
+		}
+	},
+	{
 		"id": "23000",
 		"path": "Mage",
 		"rarity": 5,
@@ -894,6 +906,32 @@
 			"zh-cn": {
 				"name": "烦恼着，幸福着",
 				"nameEffect": "一个一个来"
+			}
+		}
+	},
+	{
+		"id": "23017",
+		"path": "Priest",
+		"rarity": 5,
+		"characterBest": "1217",
+		"versionAdded": "1.5",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "惊魂夜",
+				"nameEffect": "深度深呼吸"
+			}
+		}
+	},
+	{
+		"id": "23018",
+		"path": "Mage",
+		"rarity": 5,
+		"characterBest": "1302",
+		"versionAdded": "1.5",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "片刻，留在眼底",
+				"nameEffect": "骑士巡礼"
 			}
 		}
 	},

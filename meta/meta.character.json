@@ -442,6 +442,45 @@
 		}
 	},
 	{
+		"id": "1215",
+		"element": "Physical",
+		"path": "Shaman",
+		"rarity": 4,
+		"versionAdded": "1.5",
+		"versionAvailable": "1.5",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "寒鸦"
+			}
+		}
+	},
+	{
+		"id": "1217",
+		"element": "Wind",
+		"path": "Priest",
+		"rarity": 5,
+		"versionAdded": "1.5",
+		"versionAvailable": "1.5",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "藿藿"
+			}
+		}
+	},
+	{
+		"id": "1302",
+		"element": "Physical",
+		"path": "Mage",
+		"rarity": 5,
+		"versionAdded": "1.5",
+		"versionAvailable": "1.5",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "银枝"
+			}
+		}
+	},
+	{
 		"id": "8001",
 		"element": "Physical",
 		"path": "Warrior",

@@ -84,7 +84,7 @@
 </template>
 
 <script setup>
-	import { computed, onMounted, ref, watch } from 'vue';
+	import { computed, onMounted, ref } from 'vue';
 
 	import { tabAdmin } from '@nuogz/vue-sidebar';
 	import { Click, Combo, Texter } from '@nuogz/vue-components';
@@ -184,12 +184,12 @@ p-main-box
 		@apply font-bold text-xl text-[var(--cMain)]
 
 	p-box[gacha-summary]
-		@apply col-span-full
+		@apply p-1 col-span-full
 		p-gather-info
 			@apply block
 
 	p-box[gacha-type]
-		@apply col-span-2
+		@apply p-1 col-span-2
 		p-title
 			@apply block mb-2
 		p-gathers
@@ -204,7 +204,7 @@ p-main-box
 					@apply block mb-0 mt-2 text-right
 
 	p-box[gacha-type-detail]
-		@apply grid grid-cols-1 gap-2 col-span-2
+		@apply p-1 grid grid-cols-1 gap-2 col-span-2
 		p-gathers
 			@apply grid grid-cols-3 gap-2
 			grid-template-rows: 1fr auto
@@ -220,7 +220,7 @@ p-main-box
 						@apply mb-1
 
 	p-box[gacha-pool-detail]
-		@apply grid grid-cols-1 gap-2 col-span-2
+		@apply p-1 grid grid-cols-1 gap-2 col-span-2
 		p-gathers
 			@apply grid grid-cols-2 gap-2
 			p-gather

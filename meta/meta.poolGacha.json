@@ -475,5 +475,45 @@
 				"name": "于夜色中"
 			}
 		}
+	},
+	{
+		"id": "2014",
+		"type": "11",
+		"timeEnd": 1701835199,
+		"typeItem": "character",
+		"itemsBoost5": [
+			"1217"
+		],
+		"itemsBoost4": [
+			"1002",
+			"1008",
+			"1103"
+		],
+		"versionAdded": "1.5",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "令奉贞凶"
+			}
+		}
+	},
+	{
+		"id": "3013",
+		"type": "12",
+		"timeEnd": 1701835199,
+		"typeItem": "lightcone",
+		"itemsBoost5": [
+			"23017"
+		],
+		"itemsBoost4": [
+			"21007",
+			"21017",
+			"21016"
+		],
+		"versionAdded": "1.5",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "惊魂夜"
+			}
+		}
 	}
 ]
