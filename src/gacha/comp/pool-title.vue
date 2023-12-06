@@ -1,31 +1,31 @@
 <template>
 	<p-pool-title :sub="brop(props.display == 'sub')">
 		<p-header v-if="props.analysis?.pool?.itemsBoost5?.[0]">
-			<img :src="`./image/item/${props.analysis.pool.itemsBoost5[0]}.png`" />
+			<img :src="`./image/item/${props.analysis.pool.itemsBoost5?.[0]}.png`" />
 		</p-header>
 
 		<p-name-box>
 			<p-name>
 				<span>{{ props.analysis.name }}</span>
-				<sup v-if="props.analysis.pool?.rerun">{{ props.analysis.pool?.rerun + 1 }}</sup>
+				<sup>{{ props.analysis.pool?.rerun ? props.analysis.pool?.rerun + 1 : '&nbsp;' }}</sup>
 				<template v-if="props.analysis.pool">
 					<p-boost v-if="props.analysis.pool.typeItem == 'character'" _rarity-5>
-						&nbsp;{{ M.characters$id[props.analysis.pool.itemsBoost5[0]]?.name }}
+						&nbsp;{{ M.characters$id[props.analysis.pool.itemsBoost5?.[0]]?.name }}
 					</p-boost>
 					<p-boost v-if="props.analysis.pool.typeItem == 'lightcone'" _rarity-5>
-						&nbsp;{{ M.characters$id[M.lightcones$id[props.analysis.pool.itemsBoost5[0]]?.characterBest]?.name }}
+						&nbsp;{{ M.characters$id[M.lightcones$id[props.analysis.pool.itemsBoost5?.[0]]?.characterBest]?.name }}
 					</p-boost>
 					<p-boost v-if="props.analysis.pool.typeItem == 'character' && shownCharacterRarity4"
-						v-tip="props.analysis.pool.itemsBoost4.map(idItem => M.items$id[idItem]?.name).join(' ')"
+						v-tip="props.analysis.pool.itemsBoost4?.map(idItem => M.items$id[idItem]?.name).join(' ')"
 						_rarity-4
 					>
-						&nbsp;{{ props.analysis.pool.itemsBoost4.map(idItem => M.items$id[idItem]?.name).join(' ') }}
+						&nbsp;{{ props.analysis.pool.itemsBoost4?.map(idItem => M.items$id[idItem]?.name).join(' ') }}
 					</p-boost>
 					<p-boost v-if="props.analysis.pool.typeItem == 'lightcone' && shownLightconeRarity4"
-						v-tip="props.analysis.pool.itemsBoost4.map(idItem => M.items$id[idItem]?.name).join(' ')"
+						v-tip="props.analysis.pool.itemsBoost4?.map(idItem => M.items$id[idItem]?.name).join(' ')"
 						_rarity-4
 					>
-						&nbsp;{{ props.analysis.pool.itemsBoost4.map(idItem => M.items$id[idItem]?.name).join(' ') }}
+						&nbsp;{{ props.analysis.pool.itemsBoost4?.map(idItem => M.items$id[idItem]?.name).join(' ') }}
 					</p-boost>
 				</template>
 			</p-name>

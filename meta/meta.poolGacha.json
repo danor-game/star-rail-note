@@ -497,7 +497,7 @@
 		}
 	},
 	{
-		"id": "3013",
+		"id": "3014",
 		"type": "12",
 		"timeEnd": 1701835199,
 		"typeItem": "lightcone",
@@ -513,6 +513,116 @@
 		"$data$locale": {
 			"zh-cn": {
 				"name": "惊魂夜"
+			}
+		}
+	},
+	{
+		"id": "2015",
+		"type": "11",
+		"timeStart": 1701835200,
+		"timeEnd": 1703573999,
+		"typeItem": "character",
+		"itemsBoost5": [
+			"1302"
+		],
+		"itemsBoost4": [
+			"1215",
+			"1110",
+			"1009"
+		],
+		"versionAdded": "1.5",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "荆冠芳勋"
+			}
+		}
+	},
+	{
+		"id": "3015",
+		"type": "12",
+		"timeStart": 1701835200,
+		"timeEnd": 1703573999,
+		"typeItem": "lightcone",
+		"itemsBoost5": [
+			"23018"
+		],
+		"itemsBoost4": [
+			"21019",
+			"21000",
+			"21006"
+		],
+		"versionAdded": "1.5",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "片刻，留在眼底"
+			}
+		}
+	},
+	{
+		"id": "2016",
+		"type": "11",
+		"timeStart": 1701835200,
+		"timeEnd": 1703573999,
+		"typeItem": "character",
+		"itemsBoost5": [
+			"1006"
+		],
+		"itemsBoost4": [
+			"1215",
+			"1110",
+			"1009"
+		],
+		"versionAdded": "1.5",
+		"rerun": 1,
+		"idLeader": "2015",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "零号协议"
+			}
+		}
+	},
+	{
+		"id": "3016",
+		"type": "12",
+		"timeStart": 1701835200,
+		"timeEnd": 1703573999,
+		"typeItem": "lightcone",
+		"itemsBoost5": [
+			"23007"
+		],
+		"itemsBoost4": [
+			"21019",
+			"21000",
+			"21006"
+		],
+		"versionAdded": "1.5",
+		"rerun": 1,
+		"idLeader": "3015",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "雨一直下"
+			}
+		}
+	},
+	{
+		"id": "2999",
+		"type": "11",
+		"typeItem": "character",
+		"unknown": true,
+		"$data$locale": {
+			"zh-cn": {
+				"name": "下期角色"
+			}
+		}
+	},
+	{
+		"id": "3999",
+		"type": "12",
+		"typeItem": "lightcone",
+		"unknown": true,
+		"$data$locale": {
+			"zh-cn": {
+				"name": "下期光锥"
 			}
 		}
 	}

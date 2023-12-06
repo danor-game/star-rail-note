@@ -41,14 +41,14 @@
 		<p-box gacha-type-detail>
 			<p-title>● 按<span value-highlight-xl>跃迁类型</span></p-title>
 			<p-gathers>
-				<p-gather v-for="analysis of A.typesPoolGacha.filter(a => $optionShowNewbiePool ? true : a.id != 2)" :id="`pool-detail-${analysis.id}`" :key="`gather-pool-detail-${analysis.id}`"
+				<p-gather v-for="analysis of A.typesPoolGacha.filter(a => $optionShowNewbiePool ? true : a.id != 2)" :id="`type-detail-${analysis.id}`" :key="`gather-type-detail-${analysis.id}`"
 					:main="brop($optionShowNewbiePool && analysis.id > 10)"
 				>
 					<PoolTitle :analysis="analysis" :shown-character-rarity4="$shownCharacterRarity4" :shown-lightcone-rarity4="$shownLightconeRarity4" />
 
 					<p-gachas v-if="$optionShowDetail">
 						<GachaItem v-if="analysis.countInvestNext" type="count-invest-next" :type-gacha="analysis.id" :count-invest="analysis.countInvestNext" />
-						<GachaItem v-for="log of analysis.logsRare" :key="`gather-pool-detail-${analysis.id}-${log.id}`" :log="log" />
+						<GachaItem v-for="log of analysis.logsRare" :key="`gather-type-detail-${analysis.id}-${log.id}`" :log="log" />
 						<GachaItem v-if="analysis.countInvestPrev" type="count-invest-prev" :type-gacha="analysis.id" :count-invest="analysis.countInvestPrev" />
 					</p-gachas>
 				</p-gather>
@@ -167,10 +167,8 @@
 
 <style lang="sass" scoped>
 p-fixed-topbar
-	@apply block p-4 leading-8 fixed h-16 z-50 shadow-mdd bg-[var(--cBack)] overflow-hidden
+	@apply block p-4 leading-8 fixed h-16 z-50 shadow-mdd bg-[var(--cBack)] whitespace-nowrap
 	width: calc( 100% - var(--widthSidebar))
-	&:hover
-		@apply h-auto
 	>[item]
 		@apply inblock w-auto mr-4 h-8 leading-8 mb-2
 

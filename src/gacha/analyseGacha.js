@@ -94,13 +94,19 @@ const analyseGacha = (logs, showCharacter4, showLightcone4) => {
 		const poolsMate = M.poolsGacha.filter(p => p.idLeader == pool.id);
 
 		const poolsAll = [pool, ...poolsMate];
-		const idsPoolAll = poolsAll.map(pool => pool.id);
+		const idsPoolAll = !pool.unknown ? poolsAll.map(pool => pool.id) : M.poolsGacha.map(pool => pool.id);
 		const itemsBoost5 = poolsAll.map(pool => pool.itemsBoost5 ?? []).flat();
 
 
-		const logsPoolAll = logs
-			.filter(log => idsPoolAll.includes(log.pool))
-			.sort((a, b) => b.time - a.time);
+		const logsPoolAll = !pool.unknown
+			? logs
+				.filter(log => idsPoolAll.includes(log.pool))
+				.sort((a, b) => b.time - a.time)
+
+			: logs
+				.filter(log => !idsPoolAll.includes(log.pool) && log.pool.startsWith(pool.typeItem == 'character' ? '2' : '3'))
+				.sort((a, b) => b.time - a.time);
+
 
 		const countInvestPrev = countsInvestPool$typeGacha[pool.type];
 		let countInvestPrevNow = countsInvestPool$typeGacha[pool.type];

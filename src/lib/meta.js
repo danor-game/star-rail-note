@@ -33,6 +33,7 @@ import meatasLightcone from '../../meta/meta.lightcone.json';
  * @property {string} versionAdded 1.0
  * @property {number} rerun 1
  * @property {string} idLeader 2001
+ * @property {boolean} [unknown] false
  *
  * @property {string} name (locale variant)
  */
