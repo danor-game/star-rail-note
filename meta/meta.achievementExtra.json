@@ -454,6 +454,15 @@
 		"difficulty": {},
 		"mark": ""
 	},
+	"4032901": {
+		"id": 4032901,
+		"tags": [
+			"版本:1.6",
+			"隐藏描述"
+		],
+		"difficulty": {},
+		"mark": ""
+	},
 	"4040101": {
 		"id": 4040101,
 		"tags": [
@@ -2338,6 +2347,198 @@
 		"difficulty": {},
 		"mark": ""
 	},
+	"4052901": {
+		"id": 4052901,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.6",
+			"隐藏成就"
+		],
+		"difficulty": {},
+		"mark": ""
+	},
+	"4052902": {
+		"id": 4052902,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.6",
+			"隐藏成就"
+		],
+		"difficulty": {},
+		"mark": ""
+	},
+	"4052903": {
+		"id": 4052903,
+		"idsAchievementExclusive": [
+			4052904
+		],
+		"tags": [
+			"版本:1.6",
+			"隐藏成就",
+			"互斥成就"
+		],
+		"difficulty": {},
+		"mark": ""
+	},
+	"4052904": {
+		"id": 4052904,
+		"idsAchievementExclusive": [
+			4052903
+		],
+		"tags": [
+			"版本:1.6",
+			"隐藏成就",
+			"互斥成就"
+		],
+		"difficulty": {},
+		"mark": ""
+	},
+	"4052905": {
+		"id": 4052905,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.6"
+		],
+		"difficulty": {},
+		"mark": ""
+	},
+	"4052906": {
+		"id": 4052906,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.6"
+		],
+		"difficulty": {},
+		"mark": ""
+	},
+	"4052907": {
+		"id": 4052907,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.6",
+			"隐藏成就"
+		],
+		"difficulty": {},
+		"mark": ""
+	},
+	"4052908": {
+		"id": 4052908,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.6",
+			"隐藏成就"
+		],
+		"difficulty": {},
+		"mark": ""
+	},
+	"4052909": {
+		"id": 4052909,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.6",
+			"隐藏成就"
+		],
+		"difficulty": {},
+		"mark": ""
+	},
+	"4052910": {
+		"id": 4052910,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.6",
+			"隐藏成就"
+		],
+		"difficulty": {},
+		"mark": ""
+	},
+	"4052911": {
+		"id": 4052911,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.6",
+			"隐藏成就"
+		],
+		"difficulty": {},
+		"mark": ""
+	},
+	"4052912": {
+		"id": 4052912,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.6",
+			"隐藏成就"
+		],
+		"difficulty": {},
+		"mark": ""
+	},
+	"4052913": {
+		"id": 4052913,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.6",
+			"隐藏成就"
+		],
+		"difficulty": {},
+		"mark": ""
+	},
+	"4052914": {
+		"id": 4052914,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.6",
+			"隐藏成就"
+		],
+		"difficulty": {},
+		"mark": ""
+	},
+	"4052915": {
+		"id": 4052915,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.6",
+			"隐藏成就"
+		],
+		"difficulty": {},
+		"mark": ""
+	},
+	"4052916": {
+		"id": 4052916,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.6"
+		],
+		"difficulty": {},
+		"mark": ""
+	},
+	"4052917": {
+		"id": 4052917,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.6"
+		],
+		"difficulty": {},
+		"mark": ""
+	},
+	"4052918": {
+		"id": 4052918,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.6",
+			"隐藏成就"
+		],
+		"difficulty": {},
+		"mark": ""
+	},
+	"4052919": {
+		"id": 4052919,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.6",
+			"隐藏成就"
+		],
+		"difficulty": {},
+		"mark": ""
+	},
 	"4060101": {
 		"id": 4060101,
 		"tags": [
@@ -3645,6 +3846,74 @@
 		"tags": [
 			"版本:1.5",
 			"隐藏成就"
+		],
+		"difficulty": {},
+		"mark": ""
+	},
+	"4072901": {
+		"id": 4072901,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.6",
+			"隐藏成就"
+		],
+		"difficulty": {},
+		"mark": ""
+	},
+	"4072902": {
+		"id": 4072902,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.6",
+			"隐藏成就"
+		],
+		"difficulty": {},
+		"mark": ""
+	},
+	"4072903": {
+		"id": 4072903,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.6",
+			"隐藏成就"
+		],
+		"difficulty": {},
+		"mark": ""
+	},
+	"4072904": {
+		"id": 4072904,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.6"
+		],
+		"difficulty": {},
+		"mark": ""
+	},
+	"4072905": {
+		"id": 4072905,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.6",
+			"隐藏描述"
+		],
+		"difficulty": {},
+		"mark": ""
+	},
+	"4072906": {
+		"id": 4072906,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.6",
+			"隐藏成就"
+		],
+		"difficulty": {},
+		"mark": ""
+	},
+	"4072907": {
+		"id": 4072907,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.6"
 		],
 		"difficulty": {},
 		"mark": ""
@@ -5031,6 +5300,420 @@
 		"tags": [
 			"版本:1.5",
 			"隐藏成就"
+		],
+		"difficulty": {},
+		"mark": ""
+	},
+	"4092902": {
+		"id": 4092902,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.6",
+			"活动:「模拟宇宙」"
+		],
+		"difficulty": {},
+		"mark": ""
+	},
+	"4092903": {
+		"id": 4092903,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.6",
+			"活动:「模拟宇宙」"
+		],
+		"difficulty": {},
+		"mark": ""
+	},
+	"4092904": {
+		"id": 4092904,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.6",
+			"活动:「模拟宇宙：黄金与机械」"
+		],
+		"difficulty": {},
+		"mark": ""
+	},
+	"4092905": {
+		"id": 4092905,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.6",
+			"隐藏成就",
+			"活动:「模拟宇宙：黄金与机械」"
+		],
+		"difficulty": {},
+		"mark": ""
+	},
+	"4092906": {
+		"id": 4092906,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.6",
+			"隐藏成就",
+			"活动:「模拟宇宙：黄金与机械」"
+		],
+		"difficulty": {},
+		"mark": ""
+	},
+	"4092907": {
+		"id": 4092907,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.6",
+			"隐藏成就",
+			"活动:「模拟宇宙：黄金与机械」"
+		],
+		"difficulty": {},
+		"mark": ""
+	},
+	"4092909": {
+		"id": 4092909,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.6",
+			"隐藏成就",
+			"活动:「模拟宇宙：黄金与机械」"
+		],
+		"difficulty": {},
+		"mark": ""
+	},
+	"4092910": {
+		"id": 4092910,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.6",
+			"隐藏成就",
+			"活动:「模拟宇宙：黄金与机械」"
+		],
+		"difficulty": {},
+		"mark": ""
+	},
+	"4092911": {
+		"id": 4092911,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.6",
+			"隐藏成就",
+			"活动:「模拟宇宙：黄金与机械」"
+		],
+		"difficulty": {},
+		"mark": ""
+	},
+	"4092912": {
+		"id": 4092912,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.6",
+			"隐藏成就",
+			"活动:「模拟宇宙：黄金与机械」"
+		],
+		"difficulty": {},
+		"mark": ""
+	},
+	"4092913": {
+		"id": 4092913,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.6",
+			"活动:「模拟宇宙：黄金与机械」"
+		],
+		"difficulty": {},
+		"mark": ""
+	},
+	"4092914": {
+		"id": 4092914,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.6",
+			"活动:「模拟宇宙：黄金与机械」"
+		],
+		"difficulty": {},
+		"mark": ""
+	},
+	"4092915": {
+		"id": 4092915,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.6",
+			"活动:「模拟宇宙：黄金与机械」"
+		],
+		"difficulty": {},
+		"mark": ""
+	},
+	"4092916": {
+		"id": 4092916,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.6",
+			"活动:「模拟宇宙：黄金与机械」"
+		],
+		"difficulty": {},
+		"mark": ""
+	},
+	"4092917": {
+		"id": 4092917,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.6",
+			"活动:「模拟宇宙：黄金与机械」"
+		],
+		"difficulty": {},
+		"mark": ""
+	},
+	"4092918": {
+		"id": 4092918,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.6",
+			"活动:「模拟宇宙：黄金与机械」"
+		],
+		"difficulty": {},
+		"mark": ""
+	},
+	"4092919": {
+		"id": 4092919,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.6",
+			"活动:「模拟宇宙：黄金与机械」"
+		],
+		"difficulty": {},
+		"mark": ""
+	},
+	"4092920": {
+		"id": 4092920,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.6",
+			"活动:「模拟宇宙：黄金与机械」"
+		],
+		"difficulty": {},
+		"mark": ""
+	},
+	"4092921": {
+		"id": 4092921,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.6",
+			"活动:「模拟宇宙：黄金与机械」"
+		],
+		"difficulty": {},
+		"mark": ""
+	},
+	"4092922": {
+		"id": 4092922,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.6",
+			"活动:「模拟宇宙：黄金与机械」"
+		],
+		"difficulty": {},
+		"mark": ""
+	},
+	"4092923": {
+		"id": 4092923,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.6",
+			"活动:「模拟宇宙：黄金与机械」"
+		],
+		"difficulty": {},
+		"mark": ""
+	},
+	"4092924": {
+		"id": 4092924,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.6",
+			"活动:「模拟宇宙：黄金与机械」"
+		],
+		"difficulty": {},
+		"mark": ""
+	},
+	"4092925": {
+		"id": 4092925,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.6",
+			"隐藏成就",
+			"活动:「模拟宇宙：黄金与机械」"
+		],
+		"difficulty": {},
+		"mark": ""
+	},
+	"4092926": {
+		"id": 4092926,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.6",
+			"隐藏成就",
+			"活动:「模拟宇宙：黄金与机械」"
+		],
+		"difficulty": {},
+		"mark": ""
+	},
+	"4092927": {
+		"id": 4092927,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.6",
+			"隐藏成就",
+			"活动:「模拟宇宙：黄金与机械」"
+		],
+		"difficulty": {},
+		"mark": ""
+	},
+	"4092928": {
+		"id": 4092928,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.6",
+			"隐藏成就",
+			"活动:「模拟宇宙：黄金与机械」"
+		],
+		"difficulty": {},
+		"mark": ""
+	},
+	"4092929": {
+		"id": 4092929,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.6",
+			"隐藏成就",
+			"活动:「模拟宇宙：黄金与机械」"
+		],
+		"difficulty": {},
+		"mark": ""
+	},
+	"4092930": {
+		"id": 4092930,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.6",
+			"隐藏成就",
+			"活动:「模拟宇宙：黄金与机械」"
+		],
+		"difficulty": {},
+		"mark": ""
+	},
+	"4092931": {
+		"id": 4092931,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.6",
+			"隐藏成就",
+			"活动:「模拟宇宙：黄金与机械」"
+		],
+		"difficulty": {},
+		"mark": ""
+	},
+	"4092932": {
+		"id": 4092932,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.6",
+			"隐藏成就",
+			"活动:「模拟宇宙：黄金与机械」"
+		],
+		"difficulty": {},
+		"mark": ""
+	},
+	"4092933": {
+		"id": 4092933,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.6",
+			"隐藏成就",
+			"活动:「模拟宇宙：黄金与机械」"
+		],
+		"difficulty": {},
+		"mark": ""
+	},
+	"4092934": {
+		"id": 4092934,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.6",
+			"隐藏成就",
+			"活动:「模拟宇宙：黄金与机械」"
+		],
+		"difficulty": {},
+		"mark": ""
+	},
+	"4092935": {
+		"id": 4092935,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.6",
+			"隐藏成就",
+			"活动:「模拟宇宙：黄金与机械」"
+		],
+		"difficulty": {},
+		"mark": ""
+	},
+	"4092936": {
+		"id": 4092936,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.6",
+			"隐藏成就",
+			"活动:「模拟宇宙：黄金与机械」"
+		],
+		"difficulty": {},
+		"mark": ""
+	},
+	"4092937": {
+		"id": 4092937,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.6",
+			"隐藏成就",
+			"活动:「模拟宇宙：黄金与机械」"
+		],
+		"difficulty": {},
+		"mark": ""
+	},
+	"4092938": {
+		"id": 4092938,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.6",
+			"隐藏成就",
+			"活动:「模拟宇宙：黄金与机械」"
+		],
+		"difficulty": {},
+		"mark": ""
+	},
+	"4092939": {
+		"id": 4092939,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.6",
+			"隐藏成就",
+			"活动:「模拟宇宙：黄金与机械」"
+		],
+		"difficulty": {},
+		"mark": ""
+	},
+	"4092940": {
+		"id": 4092940,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.6",
+			"隐藏成就",
+			"活动:「模拟宇宙：黄金与机械」"
+		],
+		"difficulty": {},
+		"mark": ""
+	},
+	"4092941": {
+		"id": 4092941,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.6",
+			"隐藏成就",
+			"活动:「模拟宇宙：黄金与机械」"
 		],
 		"difficulty": {},
 		"mark": ""

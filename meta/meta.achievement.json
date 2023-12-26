@@ -526,6 +526,15 @@
 		"priority": 984
 	},
 	{
+		"id": 4032901,
+		"title": "天才在左，庸人在右",
+		"desc": "平息黑塔空间站新的风波\\n<color=#8790abff>※完成开拓续闻「庸与神的冠冕」</color>",
+		"rarity": "Mid",
+		"series": 3,
+		"descHide": "平息黑塔空间站新的风波",
+		"priority": 983
+	},
+	{
 		"id": 4040101,
 		"title": "角色扮演游戏里合法",
 		"desc": "开启<unbreak>#1[i]</unbreak>次空间站「黑塔」战利品",
@@ -2160,7 +2169,7 @@
 	{
 		"id": 4052811,
 		"title": "密码在手中",
-		"desc": "在「罗浮杂俎」网站上累计回复超过<unbreak>#1[i]</unbreak>次",
+		"desc": "在「罗浮杂俎」网站上累计回复数超过<unbreak>#1[i]</unbreak>个",
 		"rarity": "Low",
 		"series": 5,
 		"paramsText": [
@@ -2277,6 +2286,164 @@
 		"rarity": "Low",
 		"series": 5,
 		"priority": 877
+	},
+	{
+		"id": 4052901,
+		"title": "永不更新",
+		"desc": "在看到黑塔的手稿广告后向黑塔催更",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 839
+	},
+	{
+		"id": 4052902,
+		"title": "逃离贮囊",
+		"desc": "被黑塔从禁闭舱段的实验舱中救出来",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 838
+	},
+	{
+		"id": 4052903,
+		"title": "铁王座之主",
+		"desc": "在禁闭舱段选择亲自登上「王座」",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 837
+	},
+	{
+		"id": 4052904,
+		"title": "国王之手",
+		"desc": "在禁闭舱段扶洞悉者登上「王座」",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 836
+	},
+	{
+		"id": 4052905,
+		"title": "合格的饲养员",
+		"desc": "完成冒险任务「异宠拾遗」",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 835
+	},
+	{
+		"id": 4052906,
+		"title": "塔麻可吉又饿了",
+		"desc": "在「异宠拾遗」中收集所有稀有造物",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 834
+	},
+	{
+		"id": 4052907,
+		"title": "狗仗人势",
+		"desc": "协助佩佩辩倒安保机器人",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 833
+	},
+	{
+		"id": 4052908,
+		"title": "反欺骗的艺术",
+		"desc": "在与「管家」的激辩中获胜",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 832
+	},
+	{
+		"id": 4052909,
+		"title": "绿手指",
+		"desc": "在禁闭舱段的植物间累计三天拔掉杂草",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 831
+	},
+	{
+		"id": 4052910,
+		"title": "戴帽子的猫",
+		"desc": "救出陷于「围城」与被怪物吞下的造物",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 830
+	},
+	{
+		"id": 4052911,
+		"title": "成岭成峰",
+		"desc": "使用不同体型的角色观察禁闭舱段的大屏幕",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 829
+	},
+	{
+		"id": 4052912,
+		"title": "不在服务区",
+		"desc": "在使用终端与阮•梅远程联络时，通讯无人接听",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 828
+	},
+	{
+		"id": 4052913,
+		"title": "三缺一",
+		"desc": "将<unbreak>#1[i]</unbreak>个「幸运点心」摆放在同一区域",
+		"rarity": "Low",
+		"series": 5,
+		"paramsText": [
+			3
+		],
+		"priority": 827
+	},
+	{
+		"id": 4052914,
+		"title": "午夜的孩子",
+		"desc": "将<unbreak>#1[i]</unbreak>个「垃圾糕」摆放在同一区域",
+		"rarity": "Low",
+		"series": 5,
+		"paramsText": [
+			3
+		],
+		"priority": 826
+	},
+	{
+		"id": 4052915,
+		"title": "物肖主人形",
+		"desc": "将「拉姆之友」的照片分享给阮•梅",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 825
+	},
+	{
+		"id": 4052916,
+		"title": "海盗的好朋友",
+		"desc": "完成冒险任务「游辞巧饰」",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 824
+	},
+	{
+		"id": 4052917,
+		"title": "微物之神",
+		"desc": "在「异宠拾遗」活动中收集所有的造物特征",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 823
+	},
+	{
+		"id": 4052918,
+		"title": "彼此的命运",
+		"desc": "获得稀有造物「墨镜猫咪」",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 822
+	},
+	{
+		"id": 4052919,
+		"title": "顽疾诊断书",
+		"desc": "在禁闭舱段收集齐写有真理医生留言的阅读物",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 821
 	},
 	{
 		"id": 4060101,
@@ -3891,6 +4058,72 @@
 		"priority": 884
 	},
 	{
+		"id": 4072901,
+		"title": "在黑暗深渊之中",
+		"desc": "当碎星王虫首次施放「孕灾虫甲」后，使其进入弱点击破状态",
+		"rarity": "Low",
+		"series": 7,
+		"priority": 883
+	},
+	{
+		"id": 4072902,
+		"title": "我心我行澄如明镜",
+		"desc": "在与银枝对战时，分别消灭处于「灵魂释放」状态的「枪尖」、「盾」、「授勋」。",
+		"rarity": "Low",
+		"series": 7,
+		"priority": 882
+	},
+	{
+		"id": 4072903,
+		"title": "所作所为皆为美丽",
+		"desc": "在与银枝对战时，「枪尖」、「盾」、「授勋」都没有进入过「灵魂释放」状态",
+		"rarity": "Low",
+		"series": 7,
+		"priority": 881
+	},
+	{
+		"id": 4072904,
+		"title": "冥狱无常",
+		"desc": "使用同时包含寒鸦、雪衣的队伍获得<unbreak>#1[i]</unbreak>场战斗的胜利",
+		"rarity": "Low",
+		"series": 7,
+		"paramsText": [
+			1
+		],
+		"priority": 880
+	},
+	{
+		"id": 4072905,
+		"title": "聆听是最好的陪伴",
+		"desc": "停下来听完寒鸦的碎碎念\\n<color=#8790abff>※完整聆听寒鸦的待机动作语音及回合待机语音</color>",
+		"rarity": "Low",
+		"series": 7,
+		"descHide": "停下来听完寒鸦的碎碎念",
+		"priority": 879
+	},
+	{
+		"id": 4072906,
+		"title": "舌战群儒",
+		"desc": "使用真理医生的秘技「偶像塑造」一次性嘲讽<unbreak>#1[i]</unbreak>个以上的敌方目标",
+		"rarity": "Low",
+		"series": 7,
+		"paramsText": [
+			6
+		],
+		"priority": 878
+	},
+	{
+		"id": 4072907,
+		"title": "毁人不倦",
+		"desc": "单场战斗中，使用真理医生连续<unbreak>#1[i]</unbreak>个回合触发天赋「我思故我在」的追加攻击效果",
+		"rarity": "Low",
+		"series": 7,
+		"paramsText": [
+			4
+		],
+		"priority": 877
+	},
+	{
 		"id": 4080101,
 		"title": "地球周",
 		"desc": "连续登录<unbreak>#1[i]</unbreak>天",
@@ -5441,5 +5674,416 @@
 		"rarity": "Low",
 		"series": 9,
 		"priority": 939
+	},
+	{
+		"id": 4092902,
+		"title": "拜谒神机",
+		"desc": "「模拟宇宙」内，累计解锁<unbreak>#1[i]</unbreak>个「智识」命途的祝福",
+		"rarity": "Low",
+		"series": 9,
+		"paramsText": [
+			1
+		],
+		"priority": 938
+	},
+	{
+		"id": 4092903,
+		"title": "欧姆弥赛亚",
+		"desc": "通关「模拟宇宙」时，携带「智识」命途的祝福数量大于等于<unbreak>#1[i]</unbreak>",
+		"rarity": "Low",
+		"series": 9,
+		"paramsText": [
+			10
+		],
+		"priority": 937
+	},
+	{
+		"id": 4092904,
+		"title": "四色问题",
+		"desc": "在「模拟宇宙：黄金与机械」中，累计为<unbreak>#1[i]</unbreak>个区域附加【知识】效果",
+		"rarity": "Low",
+		"series": 9,
+		"paramsText": [
+			200
+		],
+		"priority": 936
+	},
+	{
+		"id": 4092905,
+		"title": "世界旦夕之间",
+		"desc": "在「模拟宇宙：黄金与机械」中, 累计观看<unbreak>#1[i]</unbreak>次推荐剧情",
+		"rarity": "Low",
+		"series": 9,
+		"paramsText": [
+			10
+		],
+		"priority": 935
+	},
+	{
+		"id": 4092906,
+		"title": "逐渐理解一切",
+		"desc": "在「模拟宇宙：黄金与机械」中，自我认知达到<unbreak>#1[i]</unbreak>",
+		"rarity": "Low",
+		"series": 9,
+		"paramsText": [
+			40
+		],
+		"priority": 934
+	},
+	{
+		"id": 4092907,
+		"title": "精神灰域",
+		"desc": "在「模拟宇宙：黄金与机械」中，自我认知达到-<unbreak>#1[i]</unbreak>",
+		"rarity": "Low",
+		"series": 9,
+		"paramsText": [
+			40
+		],
+		"priority": 933
+	},
+	{
+		"id": 4092909,
+		"title": "集群意识",
+		"desc": "在「模拟宇宙：黄金与机械」中，累计完成<unbreak>#1[i]</unbreak>次自我认知的改变",
+		"rarity": "Low",
+		"series": 9,
+		"paramsText": [
+			50
+		],
+		"priority": 932
+	},
+	{
+		"id": 4092910,
+		"title": "华尔街之狼",
+		"desc": "在「模拟宇宙：黄金与机械」中，在「星际和平投资机器」事件中，投资大成功",
+		"rarity": "Low",
+		"series": 9,
+		"priority": 931
+	},
+	{
+		"id": 4092911,
+		"title": "太平州还是那个太平州",
+		"desc": "在「模拟宇宙：黄金与机械」中，在「作弊代码（其二）」事件触发的战斗中失败",
+		"rarity": "Low",
+		"series": 9,
+		"priority": 930
+	},
+	{
+		"id": 4092912,
+		"title": "D级人员",
+		"desc": "在「模拟宇宙：黄金与机械」中，在「星际和平机械分部商城（其二）」事件中升级<unbreak>#1[i]</unbreak>次奇物",
+		"rarity": "Low",
+		"series": 9,
+		"paramsText": [
+			1
+		],
+		"priority": 929
+	},
+	{
+		"id": 4092913,
+		"title": "莱博维茨的丧钟",
+		"desc": "通关「模拟宇宙：黄金与机械」时，使用自定义骰「战斗推演」，获得<unbreak>#1[i]</unbreak>次及以上战斗胜利",
+		"rarity": "Low",
+		"series": 9,
+		"paramsText": [
+			25
+		],
+		"priority": 928
+	},
+	{
+		"id": 4092914,
+		"title": "宇宙过河卒",
+		"desc": "通关「模拟宇宙：黄金与机械」时，使用自定义骰「事件推演」，完成<unbreak>#1[i]</unbreak>次及以上事件交互",
+		"rarity": "Low",
+		"series": 9,
+		"paramsText": [
+			20
+		],
+		"priority": 927
+	},
+	{
+		"id": 4092915,
+		"title": "变化的位面",
+		"desc": "在「模拟宇宙：黄金与机械」中，使用自定义骰「追猎」，连续进入<unbreak>#1[i]</unbreak>个及以上不相邻的区域",
+		"rarity": "Low",
+		"series": 9,
+		"paramsText": [
+			5
+		],
+		"priority": 926
+	},
+	{
+		"id": 4092916,
+		"title": "杀猪盘",
+		"desc": "通关「模拟宇宙：黄金与机械」时，使用自定义骰「扑满推演」，消灭<unbreak>#1[i]</unbreak>个及以上扑满",
+		"rarity": "Low",
+		"series": 9,
+		"paramsText": [
+			15
+		],
+		"priority": 925
+	},
+	{
+		"id": 4092917,
+		"title": "星港管制员",
+		"desc": "通关「模拟宇宙：黄金与机械」时，使用自定义骰「行者共生」，进入<unbreak>#1[i]</unbreak>个及以上带有信标的区域",
+		"rarity": "Low",
+		"series": 9,
+		"paramsText": [
+			15
+		],
+		"priority": 924
+	},
+	{
+		"id": 4092918,
+		"title": "前往端点星",
+		"desc": "通关「模拟宇宙：黄金与机械」时，使用自定义骰「超距信标」，进入过的区域中带有所有不同种类的信标",
+		"rarity": "Low",
+		"series": 9,
+		"priority": 923
+	},
+	{
+		"id": 4092919,
+		"title": "出卖月亮的人",
+		"desc": "通关「模拟宇宙：黄金与机械」时，使用自定义骰「投资出售」，拥有的宇宙碎片大于等于<unbreak>#1[i]</unbreak>",
+		"rarity": "Low",
+		"series": 9,
+		"paramsText": [
+			2048
+		],
+		"priority": 922
+	},
+	{
+		"id": 4092920,
+		"title": "翠鸟董事会专员",
+		"desc": "通关「模拟宇宙：黄金与机械」时，使用自定义骰「琥珀障壁」，为<unbreak>#1[i]</unbreak>个及以上的区域附加【知识】效果",
+		"rarity": "Low",
+		"series": 9,
+		"paramsText": [
+			30
+		],
+		"priority": 921
+	},
+	{
+		"id": 4092921,
+		"title": "时间足够你玩",
+		"desc": "通关「模拟宇宙：黄金与机械」时，使用自定义骰「倒计时」，倒计时大于等于<unbreak>#1[i]</unbreak>点",
+		"rarity": "Low",
+		"series": 9,
+		"paramsText": [
+			30
+		],
+		"priority": 920
+	},
+	{
+		"id": 4092922,
+		"title": "月亮头的奇迹商店",
+		"desc": "通关「模拟宇宙：黄金与机械」时，使用自定义骰「公司时刻」，在【祝福商店】、【奇物商店】或【强化商店】购买过<unbreak>#1[i]</unbreak>件及以上商品",
+		"rarity": "Low",
+		"series": 9,
+		"paramsText": [
+			20
+		],
+		"priority": 919
+	},
+	{
+		"id": 4092923,
+		"title": "商人与炼金术士之门",
+		"desc": "通关「模拟宇宙：黄金与机械」时，使用自定义骰「数据膨胀」，使用<unbreak>#1[i]</unbreak>次及以上重投或作弊",
+		"rarity": "Low",
+		"series": 9,
+		"paramsText": [
+			25
+		],
+		"priority": 918
+	},
+	{
+		"id": 4092924,
+		"title": "黑塔的宝藏",
+		"desc": "通关「模拟宇宙：黄金与机械」时，使用自定义骰「奇物推演」，拥有<unbreak>#1[i]</unbreak>个及以上的奇物",
+		"rarity": "Low",
+		"series": 9,
+		"paramsText": [
+			30
+		],
+		"priority": 917
+	},
+	{
+		"id": 4092925,
+		"title": "我是阿尔法",
+		"desc": "收集「黄金与机械」的星神秘闻「开端」",
+		"rarity": "Low",
+		"series": 9,
+		"priority": 916
+	},
+	{
+		"id": 4092926,
+		"title": "我是欧米伽",
+		"desc": "收集「黄金与机械」的星神秘闻「终局」",
+		"rarity": "Mid",
+		"series": 9,
+		"priority": 915
+	},
+	{
+		"id": 4092927,
+		"title": "六十面骰",
+		"desc": "在「模拟宇宙：黄金与机械」中，解锁<unbreak>#1[i]</unbreak>个骰面",
+		"rarity": "Low",
+		"series": 9,
+		"paramsText": [
+			60
+		],
+		"priority": 914
+	},
+	{
+		"id": 4092928,
+		"title": "转动命运",
+		"desc": "在「模拟宇宙：黄金与机械」中，解锁全部<unbreak>#1[i]</unbreak>个自定义骰",
+		"rarity": "Low",
+		"series": 9,
+		"paramsText": [
+			12
+		],
+		"priority": 913
+	},
+	{
+		"id": 4092929,
+		"title": "XK级世界末日",
+		"desc": "完成「模拟宇宙：黄金与机械」第五难度",
+		"rarity": "Low",
+		"series": 9,
+		"priority": 912
+	},
+	{
+		"id": 4092930,
+		"title": "机械飞升",
+		"desc": "在「模拟宇宙：黄金与机械」的神经网络中激活第<unbreak>#1[i]</unbreak>个神经",
+		"rarity": "Low",
+		"series": 9,
+		"paramsText": [
+			1
+		],
+		"priority": 911
+	},
+	{
+		"id": 4092931,
+		"title": "巨人：福宾计划",
+		"desc": "在折磨难度，属性难题等级大于等于<unbreak>#1[i]</unbreak>时，通关「模拟宇宙：黄金与机械」",
+		"rarity": "Low",
+		"series": 9,
+		"paramsText": [
+			6
+		],
+		"priority": 910
+	},
+	{
+		"id": 4092932,
+		"title": "泡泡糖危机",
+		"desc": "在折磨难度，追加难题等级大于等于<unbreak>#1[i]</unbreak>时，通关「模拟宇宙：黄金与机械」",
+		"rarity": "Low",
+		"series": 9,
+		"paramsText": [
+			6
+		],
+		"priority": 909
+	},
+	{
+		"id": 4092933,
+		"title": "铁锈之海",
+		"desc": "在折磨难度，难题等级大于等于<unbreak>#1[i]</unbreak>时，通关「模拟宇宙：黄金与机械」",
+		"rarity": "Mid",
+		"series": 9,
+		"paramsText": [
+			12
+		],
+		"priority": 908
+	},
+	{
+		"id": 4092934,
+		"title": "古旧空间的钥匙",
+		"desc": "在「模拟宇宙：黄金与机械」通关时，使【位面紊乱！】的【扰动等级】大于等于<unbreak>#1[i]</unbreak>级",
+		"rarity": "Low",
+		"series": 9,
+		"paramsText": [
+			20
+		],
+		"priority": 907
+	},
+	{
+		"id": 4092935,
+		"title": "诅咒之王",
+		"desc": "通关「模拟宇宙：黄金与机械」时，拥有<unbreak>#1[i]</unbreak>个及以上的负面奇物",
+		"rarity": "Low",
+		"series": 9,
+		"paramsText": [
+			10
+		],
+		"priority": 906
+	},
+	{
+		"id": 4092936,
+		"title": "正态分布",
+		"desc": "在「模拟宇宙：黄金与机械」中，在同一觐见装置上，连续投出<unbreak>#1[i]</unbreak>个不同的骰面",
+		"rarity": "Low",
+		"series": 9,
+		"paramsText": [
+			6
+		],
+		"priority": 905
+	},
+	{
+		"id": 4092937,
+		"title": "忧郁蓝调",
+		"desc": "通关「模拟宇宙：黄金与机械」时，装备<unbreak>#1[i]</unbreak>个蓝色品质的骰面（难度三及以上）",
+		"rarity": "Low",
+		"series": 9,
+		"paramsText": [
+			6
+		],
+		"priority": 904
+	},
+	{
+		"id": 4092938,
+		"title": "所有一切都被仁慈的机器守护",
+		"desc": "在「模拟宇宙：黄金与机械」中，一场战斗中遭遇<unbreak>#1[i]</unbreak>次及以上【回响推演】",
+		"rarity": "Low",
+		"series": 9,
+		"paramsText": [
+			10
+		],
+		"priority": 903
+	},
+	{
+		"id": 4092939,
+		"title": "命运轮盘",
+		"desc": "在「模拟宇宙：黄金与机械」中，在「幸运罗盘挑战」中达成<unbreak>#1[i]</unbreak>次头等奖",
+		"rarity": "Low",
+		"series": 9,
+		"paramsText": [
+			1
+		],
+		"priority": 902
+	},
+	{
+		"id": 4092940,
+		"title": "反射闪避",
+		"desc": "在「模拟宇宙：黄金与机械」中，在「躲避射线挑战」中连续成功躲避<unbreak>#1[i]</unbreak>轮",
+		"rarity": "Low",
+		"series": 9,
+		"paramsText": [
+			6
+		],
+		"priority": 901
+	},
+	{
+		"id": 4092941,
+		"title": "灭绝令",
+		"desc": "在「模拟宇宙：黄金与机械」中，连续施放<unbreak>#1[i]</unbreak>次终结技",
+		"rarity": "Low",
+		"series": 9,
+		"paramsText": [
+			10
+		],
+		"priority": 900
 	}
 ]
