@@ -9,6 +9,11 @@ import metasElement from '../../meta/meta.element.json';
 import metasCharacter from '../../meta/meta.character.json';
 import meatasLightcone from '../../meta/meta.lightcone.json';
 
+import metasAchievement from '../../meta/meta.achievement.json';
+import extrasAchievement$id from '../../meta/meta.achievementExtra.json';
+import metasSeriesAchievement from '../../meta/meta.seriesAchievement.json';
+
+import metasVersion from '../../meta/meta.version.json';
 
 
 /**
@@ -166,6 +171,13 @@ const M = {
 	items: [...metasCharacter, ...meatasLightcone],
 	/** @type {Object<string, Item>} */
 	items$id: { ...toIDMapObject(metasCharacter), ...toIDMapObject(meatasLightcone) },
+
+
+	achievements: metasAchievement.map(achievement => Object.assign({}, achievement, extrasAchievement$id[achievement.id])),
+	seriesAchievement: parseMetaLang(metasSeriesAchievement).sort((a, b) => b.sort - a.sort),
+
+
+	versions: metasVersion,
 
 
 	api,

@@ -20,6 +20,7 @@
 				<p-info>最后抽卡时间：{{ Day(profile.logsParsed[0]?.time, 'X').format() }} ({{ Day(profile.logsParsed[0]?.time, 'X').fromNow() }})</p-info>
 
 				<Click item class="float-right mt-4 ml-4 h-8" text="跃迁分析" @click.exact="analyseProfile(profile)" />
+				<Click item class="float-right mt-4 ml-4 h-8" text="成就管理" @click.exact="manageAchievement(profile)" />
 				<span item class="float-right mt-4 ml-4 h-8">|</span>
 				<Click
 					v-tip="'默认-增量获取\nalt-完整获取\nctrl-只获取基础信息'"
@@ -86,7 +87,7 @@
 
 <script setup>
 	import { ref } from 'vue';
-	import { faStarOfDavid } from '@fortawesome/free-solid-svg-icons';
+	import { faStarOfDavid, faTrophy } from '@fortawesome/free-solid-svg-icons';
 
 	import { tabAdmin } from '@nuogz/vue-sidebar';
 	import { Click, Texter, Textbox, FileDragger } from '@nuogz/vue-components';
@@ -360,9 +361,8 @@
 	};
 
 
-	const analyseProfile = profile => {
-		tabAdmin.add('gacha-analysis', { type: 'icon|title', title: '跃迁分析', icon: faStarOfDavid }, profile.uid);
-	};
+	const analyseProfile = profile => tabAdmin.add('gacha-analysis', { type: 'icon|title', title: '跃迁分析', icon: faStarOfDavid }, profile.uid);
+	const manageAchievement = profile => tabAdmin.add('achievement-manager', { type: 'icon|title', title: '成就管理', icon: faTrophy }, profile.uid);
 
 
 	const toggleTheme = () => document.querySelector(':root').classList.toggle('color-scheme-dark');

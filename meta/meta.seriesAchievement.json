@@ -1,0 +1,83 @@
+[
+	{
+		"id": 1,
+		"sort": 9,
+		"$data$locale": {
+			"zh-cn": {
+				"name": "我，开拓者"
+			}
+		}
+	},
+	{
+		"id": 2,
+		"sort": 6,
+		"$data$locale": {
+			"zh-cn": {
+				"name": "流光遗痕"
+			}
+		}
+	},
+	{
+		"id": 3,
+		"sort": 8,
+		"$data$locale": {
+			"zh-cn": {
+				"name": "通往群星的轨道"
+			}
+		}
+	},
+	{
+		"id": 4,
+		"sort": 1,
+		"$data$locale": {
+			"zh-cn": {
+				"name": "众秘探奇"
+			}
+		}
+	},
+	{
+		"id": 5,
+		"sort": 2,
+		"$data$locale": {
+			"zh-cn": {
+				"name": "与你同行的回忆"
+			}
+		}
+	},
+	{
+		"id": 6,
+		"sort": 4,
+		"$data$locale": {
+			"zh-cn": {
+				"name": "不屈者的荣光"
+			}
+		}
+	},
+	{
+		"id": 7,
+		"sort": 7,
+		"$data$locale": {
+			"zh-cn": {
+				"name": "战意奔涌"
+			}
+		}
+	},
+	{
+		"id": 8,
+		"sort": 4,
+		"$data$locale": {
+			"zh-cn": {
+				"name": "瞬息欢愉"
+			}
+		}
+	},
+	{
+		"id": 9,
+		"sort": 5,
+		"$data$locale": {
+			"zh-cn": {
+				"name": "果壳中的宇宙"
+			}
+		}
+	}
+]

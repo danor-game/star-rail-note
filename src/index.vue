@@ -13,7 +13,7 @@
 
 <script setup>
 	import { onMounted } from 'vue';
-	import { faStarOfDavid } from '@fortawesome/free-solid-svg-icons';
+	import { faBook, faStarOfDavid, faTrophy } from '@fortawesome/free-solid-svg-icons';
 
 	import CV from '@nuogz/css-var';
 	import { Sidebar, moduleNow, tabAdmin } from '@nuogz/vue-sidebar';
@@ -30,11 +30,12 @@
 	CV.widthScroll = '0.5rem';
 
 
-	onMounted(() => tabAdmin.add('profile-manager', { type: 'icon|title', title: '档案管理', icon: faStarOfDavid }));
+	onMounted(() => tabAdmin.add('profile-manager', { type: 'icon|title', title: '档案管理', icon: faBook }));
 	onMounted(() => {
 		const uidAnalysisLast = localStorage.getItem('last-analysis-uid') ?? '';
 
 		if(uidAnalysisLast) {
+			tabAdmin.add('achievement-manager', { type: 'icon|title', title: '成就管理', icon: faTrophy }, uidAnalysisLast);
 			tabAdmin.add('gacha-analysis', { type: 'icon|title', title: '跃迁分析', icon: faStarOfDavid }, uidAnalysisLast);
 		}
 	});
