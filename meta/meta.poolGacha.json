@@ -605,6 +605,90 @@
 		}
 	},
 	{
+		"id": "2017",
+		"type": "11",
+		"timeEnd": 1705463999,
+		"typeItem": "character",
+		"itemsBoost5": [
+			"1303"
+		],
+		"itemsBoost4": [
+			"1214",
+			"1001",
+			"1202"
+		],
+		"versionAdded": "1.6",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "疏影三迭"
+			}
+		}
+	},
+	{
+		"id": "3017",
+		"type": "12",
+		"timeEnd": 1705463999,
+		"typeItem": "lightcone",
+		"itemsBoost5": [
+			"23019"
+		],
+		"itemsBoost4": [
+			"21011",
+			"21002",
+			"21012"
+		],
+		"versionAdded": "1.6",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "镜中故我"
+			}
+		}
+	},
+	{
+		"id": "2018",
+		"type": "11",
+		"timeEnd": 1705463999,
+		"typeItem": "character",
+		"itemsBoost5": [
+			"1205"
+		],
+		"itemsBoost4": [
+			"1214",
+			"1001",
+			"1202"
+		],
+		"versionAdded": "1.6",
+		"rerun": 1,
+		"idLeader": "2017",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "业途游魂"
+			}
+		}
+	},
+	{
+		"id": "3018",
+		"type": "12",
+		"timeEnd": 1705463999,
+		"typeItem": "lightcone",
+		"itemsBoost5": [
+			"23009"
+		],
+		"itemsBoost4": [
+			"21011",
+			"21002",
+			"21012"
+		],
+		"versionAdded": "1.6",
+		"rerun": 1,
+		"idLeader": "3017",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "到不了的彼岸"
+			}
+		}
+	},
+	{
 		"id": "2999",
 		"type": "11",
 		"typeItem": "character",

@@ -936,6 +936,32 @@
 		}
 	},
 	{
+		"id": "23019",
+		"path": "Shaman",
+		"rarity": 5,
+		"characterBest": "1303",
+		"versionAdded": "1.6",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "镜中故我",
+				"nameEffect": "彻骨梅香"
+			}
+		}
+	},
+	{
+		"id": "23020",
+		"path": "Rogue",
+		"rarity": 5,
+		"characterBest": "1305",
+		"versionAdded": "1.6",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "纯粹思维的洗礼",
+				"nameEffect": "思想训练"
+			}
+		}
+	},
+	{
 		"id": "24000",
 		"path": "Warrior",
 		"rarity": 5,

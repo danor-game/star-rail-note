@@ -442,6 +442,19 @@
 		}
 	},
 	{
+		"id": "1214",
+		"element": "Quantum",
+		"path": "Warrior",
+		"rarity": 5,
+		"versionAdded": "1.6",
+		"versionAvailable": "1.6",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "雪衣"
+			}
+		}
+	},
+	{
 		"id": "1215",
 		"element": "Physical",
 		"path": "Shaman",
@@ -477,6 +490,32 @@
 		"$data$locale": {
 			"zh-cn": {
 				"name": "银枝"
+			}
+		}
+	},
+	{
+		"id": "1303",
+		"element": "Ice",
+		"path": "Shaman",
+		"rarity": 5,
+		"versionAdded": "1.6",
+		"versionAvailable": "1.6",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "阮•梅"
+			}
+		}
+	},
+	{
+		"id": "1305",
+		"element": "Imaginary",
+		"path": "Rogue",
+		"rarity": 5,
+		"versionAdded": "1.6",
+		"versionAvailable": "1.6",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "真理医生"
 			}
 		}
 	},
