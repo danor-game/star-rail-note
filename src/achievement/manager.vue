@@ -237,6 +237,7 @@
 
 
 		profile.infosPlayerAchievement$id[id] = Object.assign(
+			{},
 			profile.infosPlayerAchievement$id[id],
 			{ id, status: toStatus, timeModify: Day().unix() },
 		);
