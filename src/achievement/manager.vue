@@ -247,6 +247,7 @@
 
 		for(const idAchievementExclusive of achievement?.idsAchievementExclusive || []) {
 			profile.infosPlayerAchievement$id[idAchievementExclusive] = Object.assign(
+				{},
 				profile.infosPlayerAchievement$id[idAchievementExclusive],
 				{
 					id: idAchievementExclusive,
