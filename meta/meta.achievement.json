@@ -5,7 +5,13 @@
 		"desc": "开拓者踏上「存护」命途",
 		"rarity": "High",
 		"series": 1,
-		"priority": 1000
+		"priority": 1000,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4010102,
@@ -13,7 +19,12 @@
 		"desc": "4名角色等级达到<unbreak>80</unbreak>级",
 		"rarity": "High",
 		"series": 1,
-		"priority": 996
+		"priority": 996,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4010103,
@@ -21,7 +32,12 @@
 		"desc": "拥有4枚等级达到<unbreak>80</unbreak>级的光锥",
 		"rarity": "High",
 		"series": 1,
-		"priority": 992
+		"priority": 992,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4010104,
@@ -29,7 +45,12 @@
 		"desc": "将1件4星遗器强化至最高等级",
 		"rarity": "Low",
 		"series": 1,
-		"priority": 983
+		"priority": 983,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4010105,
@@ -37,7 +58,12 @@
 		"desc": "将1件5星遗器强化至最高等级",
 		"rarity": "Mid",
 		"series": 1,
-		"priority": 982
+		"priority": 982,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4010201,
@@ -48,7 +74,12 @@
 		"paramsText": [
 			40
 		],
-		"priority": 995
+		"priority": 995,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4010202,
@@ -59,7 +90,12 @@
 		"paramsText": [
 			60
 		],
-		"priority": 994
+		"priority": 994,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4010203,
@@ -70,7 +106,12 @@
 		"paramsText": [
 			80
 		],
-		"priority": 993
+		"priority": 993,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4010301,
@@ -81,7 +122,12 @@
 		"paramsText": [
 			40
 		],
-		"priority": 999
+		"priority": 999,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4010302,
@@ -92,7 +138,12 @@
 		"paramsText": [
 			60
 		],
-		"priority": 998
+		"priority": 998,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4010303,
@@ -103,7 +154,12 @@
 		"paramsText": [
 			80
 		],
-		"priority": 997
+		"priority": 997,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4010401,
@@ -114,7 +170,12 @@
 		"paramsText": [
 			15
 		],
-		"priority": 981
+		"priority": 981,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4010501,
@@ -125,7 +186,12 @@
 		"paramsText": [
 			3
 		],
-		"priority": 988
+		"priority": 988,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4010502,
@@ -136,7 +202,12 @@
 		"paramsText": [
 			20
 		],
-		"priority": 987
+		"priority": 987,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4010503,
@@ -147,7 +218,12 @@
 		"paramsText": [
 			50
 		],
-		"priority": 986
+		"priority": 986,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4010504,
@@ -158,7 +234,12 @@
 		"paramsText": [
 			100
 		],
-		"priority": 985
+		"priority": 985,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4012301,
@@ -166,7 +247,13 @@
 		"desc": "任意角色所有部件均装备<unbreak>15</unbreak>级5星遗器",
 		"rarity": "High",
 		"series": 1,
-		"priority": 980
+		"priority": 980,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4012302,
@@ -174,7 +261,13 @@
 		"desc": "将任意角色全部行迹提升至最高等级",
 		"rarity": "High",
 		"series": 1,
-		"priority": 984
+		"priority": 984,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4012801,
@@ -182,7 +275,12 @@
 		"desc": "首次浏览访客登记簿",
 		"rarity": "Low",
 		"series": 1,
-		"priority": 979
+		"priority": 979,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.5"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4020201,
@@ -193,7 +291,12 @@
 		"paramsText": [
 			10
 		],
-		"priority": 1000
+		"priority": 1000,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4020202,
@@ -204,7 +307,12 @@
 		"paramsText": [
 			20
 		],
-		"priority": 999
+		"priority": 999,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4020203,
@@ -215,7 +323,13 @@
 		"paramsText": [
 			50
 		],
-		"priority": 998
+		"priority": 998,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4020401,
@@ -226,7 +340,12 @@
 		"paramsText": [
 			10
 		],
-		"priority": 997
+		"priority": 997,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4020402,
@@ -237,7 +356,12 @@
 		"paramsText": [
 			20
 		],
-		"priority": 996
+		"priority": 996,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4020403,
@@ -248,7 +372,13 @@
 		"paramsText": [
 			40
 		],
-		"priority": 995
+		"priority": 995,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4020502,
@@ -256,7 +386,12 @@
 		"desc": "获得1件5星遗器",
 		"rarity": "Mid",
 		"series": 2,
-		"priority": 994
+		"priority": 994,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4020503,
@@ -267,7 +402,12 @@
 		"paramsText": [
 			5
 		],
-		"priority": 993
+		"priority": 993,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4020701,
@@ -278,7 +418,13 @@
 		"paramsText": [
 			1000000
 		],
-		"priority": 992
+		"priority": 992,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4020702,
@@ -289,7 +435,13 @@
 		"paramsText": [
 			10000000
 		],
-		"priority": 991
+		"priority": 991,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4022302,
@@ -300,7 +452,13 @@
 		"paramsText": [
 			100000000
 		],
-		"priority": 990
+		"priority": 990,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4022401,
@@ -311,7 +469,12 @@
 		"paramsText": [
 			10
 		],
-		"priority": 989
+		"priority": 989,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.1"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4022402,
@@ -322,7 +485,12 @@
 		"paramsText": [
 			60
 		],
-		"priority": 988
+		"priority": 988,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.1"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4022403,
@@ -333,7 +501,12 @@
 		"paramsText": [
 			30
 		],
-		"priority": 982
+		"priority": 982,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4022404,
@@ -344,7 +517,12 @@
 		"paramsText": [
 			80
 		],
-		"priority": 981
+		"priority": 981,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4030101,
@@ -353,7 +531,13 @@
 		"rarity": "High",
 		"series": 3,
 		"descHide": "开启浩瀚银河之旅",
-		"priority": 1000
+		"priority": 1000,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0",
+			"隐藏描述"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4030102,
@@ -362,7 +546,13 @@
 		"rarity": "Mid",
 		"series": 3,
 		"descHide": "在漫天雪幕之后…",
-		"priority": 999
+		"priority": 999,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0",
+			"隐藏描述"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4030103,
@@ -371,7 +561,13 @@
 		"rarity": "Mid",
 		"series": 3,
 		"descHide": "发现雅利洛-Ⅵ地下的秘密",
-		"priority": 998
+		"priority": 998,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0",
+			"隐藏描述"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4030104,
@@ -380,7 +576,13 @@
 		"rarity": "Mid",
 		"series": 3,
 		"descHide": "击败铁皮人和小女孩",
-		"priority": 997
+		"priority": 997,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0",
+			"隐藏描述"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4030105,
@@ -389,7 +591,13 @@
 		"rarity": "High",
 		"series": 3,
 		"descHide": "从我做起，改变贝洛伯格",
-		"priority": 996
+		"priority": 996,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0",
+			"隐藏描述"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4030201,
@@ -398,7 +606,13 @@
 		"rarity": "Mid",
 		"series": 3,
 		"descHide": "所谓的外交，就是彼此交换意见…",
-		"priority": 995
+		"priority": 995,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0",
+			"隐藏描述"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4030202,
@@ -407,7 +621,13 @@
 		"rarity": "Mid",
 		"series": 3,
 		"descHide": "天道好轮回，违法者必被捉",
-		"priority": 994
+		"priority": 994,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0",
+			"隐藏描述"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4032305,
@@ -416,7 +636,13 @@
 		"rarity": "Mid",
 		"series": 3,
 		"descHide": "看风的人在桌旁看你…",
-		"priority": 993
+		"priority": 993,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0",
+			"隐藏描述"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4032306,
@@ -425,7 +651,13 @@
 		"rarity": "Mid",
 		"series": 3,
 		"descHide": "尝试行走「巡猎」的命途…",
-		"priority": 990
+		"priority": 990,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4032307,
@@ -434,7 +666,13 @@
 		"rarity": "Mid",
 		"series": 3,
 		"descHide": "见证太卜司的阵法之秘",
-		"priority": 992
+		"priority": 992,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.4",
+			"隐藏描述"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4032308,
@@ -443,7 +681,13 @@
 		"rarity": "Mid",
 		"series": 3,
 		"descHide": "洪炉不灭，鹿鸣止息",
-		"priority": 991
+		"priority": 991,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0",
+			"隐藏描述"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4032309,
@@ -451,7 +695,16 @@
 		"desc": "见证丹枢的故事",
 		"rarity": "Mid",
 		"series": 5,
-		"priority": 916
+		"priority": 916,
+		"idsAchievementExclusive": [
+			4052510
+		],
+		"tags": [
+			"版本:1.0",
+			"隐藏成就",
+			"互斥成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4032501,
@@ -463,7 +716,13 @@
 		"paramsText": [
 			1
 		],
-		"priority": 989
+		"priority": 989,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.2",
+			"隐藏描述"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4032502,
@@ -475,7 +734,13 @@
 		"paramsText": [
 			1
 		],
-		"priority": 988
+		"priority": 988,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.2",
+			"隐藏描述"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4032503,
@@ -487,7 +752,13 @@
 		"paramsText": [
 			1
 		],
-		"priority": 987
+		"priority": 987,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.2",
+			"隐藏描述"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4032601,
@@ -496,7 +767,13 @@
 		"rarity": "Mid",
 		"series": 3,
 		"descHide": "告别仙舟「罗浮」",
-		"priority": 986
+		"priority": 986,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.3",
+			"隐藏描述"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4032701,
@@ -505,7 +782,13 @@
 		"rarity": "Mid",
 		"series": 3,
 		"descHide": "（再次）帮助雅利洛-Ⅵ和贝洛伯格解决巨大的危机",
-		"priority": 985
+		"priority": 985,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0",
+			"隐藏描述"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4032801,
@@ -514,7 +797,13 @@
 		"rarity": "Mid",
 		"series": 3,
 		"descHide": "与捉鬼小队一起收集怪谈异闻",
-		"priority": 983
+		"priority": 983,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.5",
+			"隐藏描述"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4032802,
@@ -523,7 +812,13 @@
 		"rarity": "Mid",
 		"series": 3,
 		"descHide": "与桂乃芬一起绥园探灵",
-		"priority": 984
+		"priority": 984,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.5",
+			"隐藏描述"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4032901,
@@ -532,7 +827,13 @@
 		"rarity": "Mid",
 		"series": 3,
 		"descHide": "平息黑塔空间站新的风波",
-		"priority": 983
+		"priority": 983,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.6",
+			"隐藏描述"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4040101,
@@ -543,7 +844,12 @@
 		"paramsText": [
 			30
 		],
-		"priority": 996
+		"priority": 996,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4040102,
@@ -554,7 +860,12 @@
 		"paramsText": [
 			110
 		],
-		"priority": 995
+		"priority": 995,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4040201,
@@ -565,7 +876,12 @@
 		"paramsText": [
 			5
 		],
-		"priority": 1000
+		"priority": 1000,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4040202,
@@ -576,7 +892,12 @@
 		"paramsText": [
 			14
 		],
-		"priority": 999
+		"priority": 999,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4040301,
@@ -587,7 +908,12 @@
 		"paramsText": [
 			100
 		],
-		"priority": 992
+		"priority": 992,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4040302,
@@ -598,7 +924,12 @@
 		"paramsText": [
 			1000
 		],
-		"priority": 991
+		"priority": 991,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4040402,
@@ -609,7 +940,12 @@
 		"paramsText": [
 			9
 		],
-		"priority": 970
+		"priority": 970,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4040403,
@@ -620,7 +956,12 @@
 		"paramsText": [
 			7
 		],
-		"priority": 973
+		"priority": 973,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4040404,
@@ -631,7 +972,12 @@
 		"paramsText": [
 			2
 		],
-		"priority": 972
+		"priority": 972,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4040406,
@@ -642,7 +988,12 @@
 		"paramsText": [
 			4
 		],
-		"priority": 969
+		"priority": 969,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4040407,
@@ -653,7 +1004,12 @@
 		"paramsText": [
 			5
 		],
-		"priority": 980
+		"priority": 980,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4040408,
@@ -664,7 +1020,12 @@
 		"paramsText": [
 			15
 		],
-		"priority": 979
+		"priority": 979,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4040409,
@@ -675,7 +1036,12 @@
 		"paramsText": [
 			5
 		],
-		"priority": 971
+		"priority": 971,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4040410,
@@ -686,7 +1052,12 @@
 		"paramsText": [
 			10
 		],
-		"priority": 968
+		"priority": 968,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4040411,
@@ -697,7 +1068,12 @@
 		"paramsText": [
 			30
 		],
-		"priority": 965
+		"priority": 965,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4040412,
@@ -708,7 +1084,12 @@
 		"paramsText": [
 			20
 		],
-		"priority": 964
+		"priority": 964,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4040503,
@@ -719,7 +1100,12 @@
 		"paramsText": [
 			1
 		],
-		"priority": 978
+		"priority": 978,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4040504,
@@ -730,7 +1116,12 @@
 		"paramsText": [
 			9
 		],
-		"priority": 977
+		"priority": 977,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4040601,
@@ -741,7 +1132,12 @@
 		"paramsText": [
 			100
 		],
-		"priority": 990
+		"priority": 990,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4040602,
@@ -749,7 +1145,13 @@
 		"desc": "在探索中遇袭",
 		"rarity": "Low",
 		"series": 4,
-		"priority": 989
+		"priority": 989,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4040603,
@@ -760,7 +1162,12 @@
 		"paramsText": [
 			50
 		],
-		"priority": 988
+		"priority": 988,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4040604,
@@ -771,7 +1178,12 @@
 		"paramsText": [
 			300
 		],
-		"priority": 987
+		"priority": 987,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4040701,
@@ -782,7 +1194,12 @@
 		"paramsText": [
 			1
 		],
-		"priority": 976
+		"priority": 976,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4040702,
@@ -793,7 +1210,12 @@
 		"paramsText": [
 			10
 		],
-		"priority": 975
+		"priority": 975,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4042301,
@@ -801,7 +1223,13 @@
 		"desc": "集齐散落在空间站「黑塔」中的全部忆泡",
 		"rarity": "Low",
 		"series": 4,
-		"priority": 974
+		"priority": 974,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4042307,
@@ -812,7 +1240,12 @@
 		"paramsText": [
 			10
 		],
-		"priority": 998
+		"priority": 998,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4042308,
@@ -823,7 +1256,12 @@
 		"paramsText": [
 			100
 		],
-		"priority": 994
+		"priority": 994,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4042401,
@@ -834,7 +1272,13 @@
 		"paramsText": [
 			1
 		],
-		"priority": 956
+		"priority": 956,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.1",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4042501,
@@ -845,7 +1289,13 @@
 		"paramsText": [
 			1
 		],
-		"priority": 963
+		"priority": 963,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.2",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4042502,
@@ -856,7 +1306,13 @@
 		"paramsText": [
 			1
 		],
-		"priority": 962
+		"priority": 962,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.2",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4042503,
@@ -867,7 +1323,13 @@
 		"paramsText": [
 			1
 		],
-		"priority": 961
+		"priority": 961,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.2",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4042504,
@@ -878,7 +1340,13 @@
 		"paramsText": [
 			1
 		],
-		"priority": 960
+		"priority": 960,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.2",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4042505,
@@ -889,7 +1357,12 @@
 		"paramsText": [
 			1
 		],
-		"priority": 959
+		"priority": 959,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.2"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4042506,
@@ -900,7 +1373,13 @@
 		"paramsText": [
 			20
 		],
-		"priority": 997
+		"priority": 997,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.2",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4042507,
@@ -911,7 +1390,12 @@
 		"paramsText": [
 			170
 		],
-		"priority": 993
+		"priority": 993,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.2"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4042801,
@@ -919,7 +1403,12 @@
 		"desc": "穿过铜镜，打开藏在浮空岛上的战利品",
 		"rarity": "Low",
 		"series": 4,
-		"priority": 957
+		"priority": 957,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.5"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4042802,
@@ -930,7 +1419,12 @@
 		"paramsText": [
 			9
 		],
-		"priority": 958
+		"priority": 958,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.5"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4051001,
@@ -938,7 +1432,13 @@
 		"desc": "完成同行任务「知名不具」",
 		"rarity": "Low",
 		"series": 5,
-		"priority": 1000
+		"priority": 1000,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0",
+			"活动:同行任务"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4051002,
@@ -946,7 +1446,13 @@
 		"desc": "完成同行任务「阴差阳错」",
 		"rarity": "Low",
 		"series": 5,
-		"priority": 999
+		"priority": 999,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0",
+			"活动:同行任务"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4051003,
@@ -954,7 +1460,13 @@
 		"desc": "完成同行任务「虎克的礼物」",
 		"rarity": "Low",
 		"series": 5,
-		"priority": 998
+		"priority": 998,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0",
+			"活动:同行任务"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4051004,
@@ -962,7 +1474,13 @@
 		"desc": "完成同行任务「风雪免疫」",
 		"rarity": "Low",
 		"series": 5,
-		"priority": 997
+		"priority": 997,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0",
+			"活动:同行任务"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4051005,
@@ -970,7 +1488,13 @@
 		"desc": "完成同行任务「难得有情」",
 		"rarity": "Low",
 		"series": 5,
-		"priority": 996
+		"priority": 996,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0",
+			"活动:同行任务"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4051006,
@@ -978,7 +1502,13 @@
 		"desc": "完成同行任务「只是孩子」",
 		"rarity": "Low",
 		"series": 5,
-		"priority": 995
+		"priority": 995,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0",
+			"活动:同行任务"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4051101,
@@ -986,7 +1516,12 @@
 		"desc": "从垃圾桶中获得「吉姆•罗杰面包味汽水」",
 		"rarity": "Low",
 		"series": 4,
-		"priority": 967
+		"priority": 967,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4051103,
@@ -994,7 +1529,13 @@
 		"desc": "在任务「宓堂空境」中集齐关于艾丝妲的阅读物",
 		"rarity": "Low",
 		"series": 5,
-		"priority": 977
+		"priority": 977,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4051104,
@@ -1002,7 +1543,13 @@
 		"desc": "在任务「致：黯淡星」中选择将转译录交给伯纳德",
 		"rarity": "Low",
 		"series": 5,
-		"priority": 976
+		"priority": 976,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4051105,
@@ -1010,7 +1557,13 @@
 		"desc": "在任务「触不可及」中收集三封「猎彗人来信」",
 		"rarity": "Low",
 		"series": 5,
-		"priority": 975
+		"priority": 975,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4051106,
@@ -1018,7 +1571,13 @@
 		"desc": "完成任务「向导佯谬」，见证仿生人的结局",
 		"rarity": "Low",
 		"series": 5,
-		"priority": 974
+		"priority": 974,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4051107,
@@ -1026,7 +1585,13 @@
 		"desc": "在任务「安魂弥撒」中获得与呜呜伯对话的能力",
 		"rarity": "Low",
 		"series": 5,
-		"priority": 973
+		"priority": 973,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4051108,
@@ -1034,7 +1599,13 @@
 		"desc": "在任务「生存智慧」中拿到真正的宝藏",
 		"rarity": "Low",
 		"series": 5,
-		"priority": 965
+		"priority": 965,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4051109,
@@ -1042,7 +1613,13 @@
 		"desc": "在任务「小虎克的宝贝」中找到所有尤利安的物品",
 		"rarity": "Low",
 		"series": 5,
-		"priority": 981
+		"priority": 981,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4051110,
@@ -1050,7 +1627,16 @@
 		"desc": "在任务「难得有情•其二」中选择不格式化小机器人",
 		"rarity": "Low",
 		"series": 5,
-		"priority": 980
+		"priority": 980,
+		"idsAchievementExclusive": [
+			4051111
+		],
+		"tags": [
+			"版本:1.0",
+			"隐藏成就",
+			"互斥成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4051111,
@@ -1058,7 +1644,16 @@
 		"desc": "在任务「难得有情•其二」中选择格式化小机器人",
 		"rarity": "Low",
 		"series": 5,
-		"priority": 979
+		"priority": 979,
+		"idsAchievementExclusive": [
+			4051110
+		],
+		"tags": [
+			"版本:1.0",
+			"隐藏成就",
+			"互斥成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4052302,
@@ -1066,7 +1661,13 @@
 		"desc": "在空间站里找到所有的黑塔并和她对话",
 		"rarity": "Low",
 		"series": 5,
-		"priority": 972
+		"priority": 972,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4052304,
@@ -1074,7 +1675,13 @@
 		"desc": "寻访科员荣仓终的纪念碑",
 		"rarity": "Low",
 		"series": 5,
-		"priority": 971
+		"priority": 971,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4052305,
@@ -1085,7 +1692,13 @@
 		"paramsText": [
 			6
 		],
-		"priority": 970
+		"priority": 970,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4052306,
@@ -1093,7 +1706,13 @@
 		"desc": "使用奇物「新世界的大门」",
 		"rarity": "Low",
 		"series": 5,
-		"priority": 969
+		"priority": 969,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4052307,
@@ -1101,7 +1720,13 @@
 		"desc": "使用奇物「定分枪」",
 		"rarity": "Low",
 		"series": 5,
-		"priority": 968
+		"priority": 968,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4052308,
@@ -1109,7 +1734,13 @@
 		"desc": "使用奇物「不可承受之重」，并破解神秘声音的内容",
 		"rarity": "Low",
 		"series": 5,
-		"priority": 967
+		"priority": 967,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4052309,
@@ -1117,7 +1748,13 @@
 		"desc": "与奇怪的植物对话，并在第二天继续拜访它",
 		"rarity": "Low",
 		"series": 5,
-		"priority": 966
+		"priority": 966,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4052310,
@@ -1128,7 +1765,13 @@
 		"paramsText": [
 			3
 		],
-		"priority": 961
+		"priority": 961,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4052311,
@@ -1136,7 +1779,13 @@
 		"desc": "解决贝洛伯格缆车站危机的同时规避道德风险",
 		"rarity": "Low",
 		"series": 5,
-		"priority": 959
+		"priority": 959,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4052312,
@@ -1144,7 +1793,13 @@
 		"desc": "找到逻辑语言中枢，并将其交给业余机械师菲多拉",
 		"rarity": "Low",
 		"series": 5,
-		"priority": 957
+		"priority": 957,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4052313,
@@ -1152,7 +1807,13 @@
 		"desc": "与贝洛伯格的「后巷」接触",
 		"rarity": "Low",
 		"series": 5,
-		"priority": 955
+		"priority": 955,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4052314,
@@ -1160,7 +1821,13 @@
 		"desc": "在与歌德大饭店的掌柜歌蒂的对话中取得炒饭的食谱",
 		"rarity": "Low",
 		"series": 5,
-		"priority": 954
+		"priority": 954,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4052315,
@@ -1168,7 +1835,13 @@
 		"desc": "在与黄金歌剧院的女演员塔米拉的对话中取得留声机的乐谱",
 		"rarity": "Low",
 		"series": 5,
-		"priority": 953
+		"priority": 953,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4052316,
@@ -1176,7 +1849,13 @@
 		"desc": "完整听完一次流浪者的说唱",
 		"rarity": "Low",
 		"series": 5,
-		"priority": 952
+		"priority": 952,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4052317,
@@ -1184,7 +1863,13 @@
 		"desc": "参加「黑暗拳斗大赛」并取得最终胜利",
 		"rarity": "Low",
 		"series": 5,
-		"priority": 951
+		"priority": 951,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4052318,
@@ -1192,7 +1877,13 @@
 		"desc": "发掘埋藏在贝洛伯格行政区喷泉中的宝藏",
 		"rarity": "Low",
 		"series": 5,
-		"priority": 949
+		"priority": 949,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4052319,
@@ -1200,7 +1891,13 @@
 		"desc": "在「庸人的容器」任务中完成所有愚者之箱谜题",
 		"rarity": "Low",
 		"series": 5,
-		"priority": 948
+		"priority": 948,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4052320,
@@ -1208,7 +1905,13 @@
 		"desc": "在任务「冒险鼹鼠队」中，找到所有的隐藏宝箱",
 		"rarity": "Low",
 		"series": 5,
-		"priority": 947
+		"priority": 947,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4052321,
@@ -1216,7 +1919,13 @@
 		"desc": "在贝洛伯格的书商处买到《冒险鼹鼠队：隐形的宝藏》",
 		"rarity": "Low",
 		"series": 5,
-		"priority": 946
+		"priority": 946,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4052323,
@@ -1224,7 +1933,13 @@
 		"desc": "在任务「解雇」完成后，收到芦慧的近况汇报短信",
 		"rarity": "Low",
 		"series": 5,
-		"priority": 914
+		"priority": 914,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4052324,
@@ -1232,7 +1947,13 @@
 		"desc": "在任务「亦师亦友」完成后，收到所有铖杰热情衰退的短信",
 		"rarity": "Low",
 		"series": 5,
-		"priority": 913
+		"priority": 913,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4052325,
@@ -1240,7 +1961,17 @@
 		"desc": "在任务「仙舟追爱记」中，选择让狐仙投案自首",
 		"rarity": "Low",
 		"series": 5,
-		"priority": 912
+		"priority": 912,
+		"idsAchievementExclusive": [
+			"4052326",
+			"4052327"
+		],
+		"tags": [
+			"版本:1.0",
+			"隐藏成就",
+			"互斥成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4052326,
@@ -1248,7 +1979,17 @@
 		"desc": "在任务「仙舟追爱记」中，选择让狐仙公开真实身份",
 		"rarity": "Low",
 		"series": 5,
-		"priority": 911
+		"priority": 911,
+		"idsAchievementExclusive": [
+			"4052325",
+			"4052327"
+		],
+		"tags": [
+			"版本:1.0",
+			"隐藏成就",
+			"互斥成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4052327,
@@ -1256,7 +1997,17 @@
 		"desc": "在任务「仙舟追爱记」中，选择让狐仙继续神秘",
 		"rarity": "Low",
 		"series": 5,
-		"priority": 910
+		"priority": 910,
+		"idsAchievementExclusive": [
+			"4052325",
+			"4052326"
+		],
+		"tags": [
+			"版本:1.0",
+			"隐藏成就",
+			"互斥成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4052328,
@@ -1264,7 +2015,13 @@
 		"desc": "说服忧伤的机巧鸟回到它的本职工作",
 		"rarity": "Low",
 		"series": 5,
-		"priority": 907
+		"priority": 907,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4052329,
@@ -1272,7 +2029,13 @@
 		"desc": "帮鹤运物流找回所有走失的机巧鸟",
 		"rarity": "Low",
 		"series": 5,
-		"priority": 906
+		"priority": 906,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4052330,
@@ -1280,7 +2043,17 @@
 		"desc": "堂堂正正地赢得仙舟罗浮大胃王比赛",
 		"rarity": "Low",
 		"series": 5,
-		"priority": 905
+		"priority": 905,
+		"idsAchievementExclusive": [
+			"4052331",
+			"4052332"
+		],
+		"tags": [
+			"版本:1.0",
+			"隐藏成就",
+			"互斥成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4052331,
@@ -1288,7 +2061,17 @@
 		"desc": "以不太光彩的形式赢得仙舟罗浮大胃王比赛",
 		"rarity": "Low",
 		"series": 5,
-		"priority": 904
+		"priority": 904,
+		"idsAchievementExclusive": [
+			"4052330",
+			"4052332"
+		],
+		"tags": [
+			"版本:1.0",
+			"隐藏成就",
+			"互斥成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4052332,
@@ -1296,7 +2079,17 @@
 		"desc": "在仙舟罗浮大胃王比赛中落败",
 		"rarity": "Low",
 		"series": 5,
-		"priority": 903
+		"priority": 903,
+		"idsAchievementExclusive": [
+			"4052330",
+			"4052331"
+		],
+		"tags": [
+			"版本:1.0",
+			"隐藏成就",
+			"互斥成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4052333,
@@ -1304,7 +2097,16 @@
 		"desc": "与罐中仙对话，并从罐中取得「谢礼」",
 		"rarity": "Low",
 		"series": 5,
-		"priority": 902
+		"priority": 902,
+		"idsAchievementExclusive": [
+			4052334
+		],
+		"tags": [
+			"版本:1.0",
+			"隐藏成就",
+			"互斥成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4052334,
@@ -1312,7 +2114,16 @@
 		"desc": "与罐中仙对话，并拒绝了仙人的「谢礼」",
 		"rarity": "Low",
 		"series": 5,
-		"priority": 901
+		"priority": 901,
+		"idsAchievementExclusive": [
+			4052333
+		],
+		"tags": [
+			"版本:1.0",
+			"隐藏成就",
+			"互斥成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4052335,
@@ -1323,7 +2134,13 @@
 		"paramsText": [
 			15
 		],
-		"priority": 900
+		"priority": 900,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4052336,
@@ -1334,7 +2151,13 @@
 		"paramsText": [
 			15
 		],
-		"priority": 899
+		"priority": 899,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4052337,
@@ -1345,7 +2168,13 @@
 		"paramsText": [
 			3
 		],
-		"priority": 898
+		"priority": 898,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4052338,
@@ -1353,7 +2182,16 @@
 		"desc": "阻止了奇怪的游客向星槎引擎扔硬币",
 		"rarity": "Low",
 		"series": 5,
-		"priority": 897
+		"priority": 897,
+		"idsAchievementExclusive": [
+			4052339
+		],
+		"tags": [
+			"版本:1.0",
+			"隐藏成就",
+			"互斥成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4052339,
@@ -1361,7 +2199,16 @@
 		"desc": "帮助了奇怪的游客向星槎引擎扔硬币",
 		"rarity": "Low",
 		"series": 5,
-		"priority": 896
+		"priority": 896,
+		"idsAchievementExclusive": [
+			4052338
+		],
+		"tags": [
+			"版本:1.0",
+			"隐藏成就",
+			"互斥成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4052340,
@@ -1369,7 +2216,17 @@
 		"desc": "从碰瓷者那里收回被敲诈的信用点",
 		"rarity": "Low",
 		"series": 5,
-		"priority": 895
+		"priority": 895,
+		"idsAchievementExclusive": [
+			"4052341",
+			"4052342"
+		],
+		"tags": [
+			"版本:1.0",
+			"隐藏成就",
+			"互斥成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4052341,
@@ -1377,7 +2234,17 @@
 		"desc": "没有从碰瓷者那里收回被敲诈的信用点",
 		"rarity": "Low",
 		"series": 5,
-		"priority": 894
+		"priority": 894,
+		"idsAchievementExclusive": [
+			"4052340",
+			"4052342"
+		],
+		"tags": [
+			"版本:1.0",
+			"隐藏成就",
+			"互斥成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4052342,
@@ -1385,7 +2252,17 @@
 		"desc": "从碰瓷者那里索要过量被敲诈的信用点",
 		"rarity": "Low",
 		"series": 5,
-		"priority": 893
+		"priority": 893,
+		"idsAchievementExclusive": [
+			"4052340",
+			"4052341"
+		],
+		"tags": [
+			"版本:1.0",
+			"隐藏成就",
+			"互斥成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4052343,
@@ -1393,7 +2270,13 @@
 		"desc": "跟随绅士机巧鸟找到被海关扣留的画册",
 		"rarity": "Low",
 		"series": 5,
-		"priority": 892
+		"priority": 892,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4052344,
@@ -1401,7 +2284,13 @@
 		"desc": "与不满的机巧鸟完成一次打赌",
 		"rarity": "Low",
 		"series": 5,
-		"priority": 891
+		"priority": 891,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4052345,
@@ -1409,7 +2298,13 @@
 		"desc": "探索由「恶龙」守护的「快递山」",
 		"rarity": "Low",
 		"series": 5,
-		"priority": 890
+		"priority": 890,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4052346,
@@ -1417,7 +2312,13 @@
 		"desc": "完成充满怨气的机巧鸟挑战",
 		"rarity": "Low",
 		"series": 5,
-		"priority": 889
+		"priority": 889,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4052347,
@@ -1425,7 +2326,13 @@
 		"desc": "与勇敢的机巧鸟一起战胜拦路恶徒",
 		"rarity": "Low",
 		"series": 5,
-		"priority": 888
+		"priority": 888,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4052348,
@@ -1433,7 +2340,13 @@
 		"desc": "完成「罗浮四大恶人」（自称）的挑战",
 		"rarity": "Low",
 		"series": 5,
-		"priority": 887
+		"priority": 887,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4052349,
@@ -1441,7 +2354,13 @@
 		"desc": "制霸磐岩镇超级联赛五大赛事",
 		"rarity": "Mid",
 		"series": 5,
-		"priority": 950
+		"priority": 950,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4052401,
@@ -1452,7 +2371,16 @@
 		"paramsText": [
 			1
 		],
-		"priority": 909
+		"priority": 909,
+		"idsAchievementExclusive": [
+			4052402
+		],
+		"tags": [
+			"版本:1.1",
+			"隐藏成就",
+			"互斥成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4052402,
@@ -1463,7 +2391,16 @@
 		"paramsText": [
 			1
 		],
-		"priority": 908
+		"priority": 908,
+		"idsAchievementExclusive": [
+			4052401
+		],
+		"tags": [
+			"版本:1.1",
+			"隐藏成就",
+			"互斥成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4052403,
@@ -1475,7 +2412,13 @@
 		"paramsText": [
 			1
 		],
-		"priority": 991
+		"priority": 991,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.1",
+			"隐藏描述"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4052404,
@@ -1486,7 +2429,14 @@
 		"paramsText": [
 			1
 		],
-		"priority": 932
+		"priority": 932,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.1",
+			"活动:「冬城博物珍奇簿」",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4052405,
@@ -1497,7 +2447,14 @@
 		"paramsText": [
 			1
 		],
-		"priority": 931
+		"priority": 931,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.1",
+			"活动:「冬城博物珍奇簿」",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4052406,
@@ -1508,7 +2465,14 @@
 		"paramsText": [
 			1
 		],
-		"priority": 930
+		"priority": 930,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.1",
+			"活动:「冬城博物珍奇簿」",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4052407,
@@ -1519,7 +2483,14 @@
 		"paramsText": [
 			1
 		],
-		"priority": 994
+		"priority": 994,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.1",
+			"活动:同行任务",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4052408,
@@ -1530,7 +2501,14 @@
 		"paramsText": [
 			1
 		],
-		"priority": 993
+		"priority": 993,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.1",
+			"活动:同行任务",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4052409,
@@ -1541,7 +2519,14 @@
 		"paramsText": [
 			1
 		],
-		"priority": 992
+		"priority": 992,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.1",
+			"活动:同行任务",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4052501,
@@ -1552,7 +2537,13 @@
 		"paramsText": [
 			1
 		],
-		"priority": 886
+		"priority": 886,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.2",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4052502,
@@ -1563,7 +2554,13 @@
 		"paramsText": [
 			1
 		],
-		"priority": 885
+		"priority": 885,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.2",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4052503,
@@ -1574,7 +2571,13 @@
 		"paramsText": [
 			1
 		],
-		"priority": 884
+		"priority": 884,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.2",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4052504,
@@ -1585,7 +2588,16 @@
 		"paramsText": [
 			1
 		],
-		"priority": 883
+		"priority": 883,
+		"idsAchievementExclusive": [
+			4052505
+		],
+		"tags": [
+			"版本:1.2",
+			"隐藏成就",
+			"互斥成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4052505,
@@ -1596,7 +2608,16 @@
 		"paramsText": [
 			1
 		],
-		"priority": 882
+		"priority": 882,
+		"idsAchievementExclusive": [
+			4052504
+		],
+		"tags": [
+			"版本:1.2",
+			"隐藏成就",
+			"互斥成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4052506,
@@ -1607,7 +2628,14 @@
 		"paramsText": [
 			1
 		],
-		"priority": 990
+		"priority": 990,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.2",
+			"活动:同行任务",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4052507,
@@ -1619,7 +2647,17 @@
 		"paramsText": [
 			1
 		],
-		"priority": 989
+		"priority": 989,
+		"idsAchievementExclusive": [
+			4052511
+		],
+		"tags": [
+			"版本:1.2",
+			"活动:同行任务",
+			"隐藏成就",
+			"互斥成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4052508,
@@ -1630,7 +2668,13 @@
 		"paramsText": [
 			1
 		],
-		"priority": 881
+		"priority": 881,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.2",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4052509,
@@ -1641,7 +2685,13 @@
 		"paramsText": [
 			1
 		],
-		"priority": 880
+		"priority": 880,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.2",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4052510,
@@ -1652,7 +2702,16 @@
 		"paramsText": [
 			1
 		],
-		"priority": 915
+		"priority": 915,
+		"idsAchievementExclusive": [
+			4032309
+		],
+		"tags": [
+			"版本:1.2",
+			"隐藏成就",
+			"互斥成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4052511,
@@ -1664,7 +2723,17 @@
 		"paramsText": [
 			1
 		],
-		"priority": 988
+		"priority": 988,
+		"idsAchievementExclusive": [
+			4052507
+		],
+		"tags": [
+			"版本:1.2",
+			"活动:同行任务",
+			"隐藏成就",
+			"互斥成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4052601,
@@ -1672,7 +2741,13 @@
 		"desc": "完成任务「金戺重喧•其四」，赢下金人巷商业区竞标",
 		"rarity": "Mid",
 		"series": 5,
-		"priority": 865
+		"priority": 865,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.3",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4052603,
@@ -1683,7 +2758,12 @@
 		"paramsText": [
 			1
 		],
-		"priority": 978
+		"priority": 978,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.3"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4052604,
@@ -1694,7 +2774,14 @@
 		"paramsText": [
 			6
 		],
-		"priority": 863
+		"priority": 863,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.3",
+			"活动:「金人旧巷市廛喧」",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4052605,
@@ -1705,7 +2792,14 @@
 		"paramsText": [
 			24
 		],
-		"priority": 862
+		"priority": 862,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.3",
+			"活动:「金人旧巷市廛喧」",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4052606,
@@ -1716,7 +2810,13 @@
 		"paramsText": [
 			1000000
 		],
-		"priority": 861
+		"priority": 861,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.3",
+			"活动:「金人旧巷市廛喧」"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4052607,
@@ -1724,7 +2824,13 @@
 		"desc": "「金人旧巷市廛喧」中，与霍三哥建立起商业合作",
 		"rarity": "Low",
 		"series": 5,
-		"priority": 860
+		"priority": 860,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.3",
+			"活动:「金人旧巷市廛喧」"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4052608,
@@ -1732,7 +2838,13 @@
 		"desc": "「金人旧巷市廛喧」中，完成「鹤运物流」的客制运单",
 		"rarity": "Low",
 		"series": 5,
-		"priority": 859
+		"priority": 859,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.3",
+			"活动:「金人旧巷市廛喧」"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4052609,
@@ -1740,7 +2852,13 @@
 		"desc": "「金人旧巷市廛喧」中，完成街巷事件「谛听寻人」",
 		"rarity": "Low",
 		"series": 5,
-		"priority": 858
+		"priority": 858,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.3",
+			"活动:「金人旧巷市廛喧」"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4052610,
@@ -1751,7 +2869,14 @@
 		"paramsText": [
 			1280000
 		],
-		"priority": 857
+		"priority": 857,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.3",
+			"活动:「金人旧巷市廛喧」",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4052611,
@@ -1762,7 +2887,14 @@
 		"paramsText": [
 			81
 		],
-		"priority": 856
+		"priority": 856,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.3",
+			"活动:「金人旧巷市廛喧」",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4052612,
@@ -1773,7 +2905,14 @@
 		"paramsText": [
 			81
 		],
-		"priority": 855
+		"priority": 855,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.3",
+			"活动:「金人旧巷市廛喧」",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4052613,
@@ -1781,7 +2920,16 @@
 		"desc": "向克利欧讲述陶德一事的真相",
 		"rarity": "Low",
 		"series": 5,
-		"priority": 879
+		"priority": 879,
+		"idsAchievementExclusive": [
+			4052614
+		],
+		"tags": [
+			"版本:1.3",
+			"隐藏成就",
+			"互斥成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4052614,
@@ -1789,7 +2937,16 @@
 		"desc": "向克利欧隐瞒陶德一事的真相",
 		"rarity": "Low",
 		"series": 5,
-		"priority": 878
+		"priority": 878,
+		"idsAchievementExclusive": [
+			4052613
+		],
+		"tags": [
+			"版本:1.3",
+			"隐藏成就",
+			"互斥成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4052615,
@@ -1797,7 +2954,13 @@
 		"desc": "完成同行任务「全面回忆」",
 		"rarity": "Low",
 		"series": 5,
-		"priority": 987
+		"priority": 987,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.3",
+			"活动:同行任务"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4052616,
@@ -1805,7 +2968,13 @@
 		"desc": "完成同行任务「比雪原更遥远」",
 		"rarity": "Low",
 		"series": 5,
-		"priority": 986
+		"priority": 986,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.3",
+			"活动:同行任务"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4052617,
@@ -1813,7 +2982,13 @@
 		"desc": "完成同行任务「龙返其乡」",
 		"rarity": "Low",
 		"series": 5,
-		"priority": 985
+		"priority": 985,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.3",
+			"活动:同行任务"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4052618,
@@ -1821,7 +2996,13 @@
 		"desc": "完成同行任务「我的挚爱，我的血肉」",
 		"rarity": "Low",
 		"series": 5,
-		"priority": 984
+		"priority": 984,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.3",
+			"活动:同行任务"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4052619,
@@ -1829,7 +3010,13 @@
 		"desc": "调查所有金人巷的特殊快递箱",
 		"rarity": "Low",
 		"series": 5,
-		"priority": 854
+		"priority": 854,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.3",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4052620,
@@ -1837,7 +3024,13 @@
 		"desc": "见证永仁隐藏身份的故事",
 		"rarity": "Low",
 		"series": 5,
-		"priority": 853
+		"priority": 853,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.3",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4052701,
@@ -1845,7 +3038,13 @@
 		"desc": "在「以太战线•星际决胜庆典」中获得「冠军首席」称号",
 		"rarity": "Mid",
 		"series": 5,
-		"priority": 929
+		"priority": 929,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.4",
+			"活动:「以太战线」"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4052702,
@@ -1853,7 +3052,13 @@
 		"desc": "在「以太战线」中，于永冬岭结束宿命的对决",
 		"rarity": "Low",
 		"series": 5,
-		"priority": 928
+		"priority": 928,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.4",
+			"活动:「以太战线」"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4052703,
@@ -1861,7 +3066,13 @@
 		"desc": "完成同行任务「云无留迹」",
 		"rarity": "Low",
 		"series": 5,
-		"priority": 983
+		"priority": 983,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.4",
+			"活动:同行任务"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4052704,
@@ -1869,7 +3080,13 @@
 		"desc": "在「以太战线」中，获得所有以太灵",
 		"rarity": "Low",
 		"series": 5,
-		"priority": 927
+		"priority": 927,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.4",
+			"活动:「以太战线」"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4052705,
@@ -1877,7 +3094,13 @@
 		"desc": "在「以太战线」中，「决胜者评级」达到最高级",
 		"rarity": "Low",
 		"series": 5,
-		"priority": 926
+		"priority": 926,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.4",
+			"活动:「以太战线」"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4052706,
@@ -1885,7 +3108,13 @@
 		"desc": "在「以太战线•超链接对决」中击败所有对手",
 		"rarity": "Low",
 		"series": 5,
-		"priority": 925
+		"priority": 925,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.4",
+			"活动:「以太战线」"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4052707,
@@ -1893,7 +3122,13 @@
 		"desc": "在「以太战线」中，完成残响回廊的决胜乐园的所有考验",
 		"rarity": "Low",
 		"series": 5,
-		"priority": 924
+		"priority": 924,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.4",
+			"活动:「以太战线」"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4052708,
@@ -1901,7 +3136,13 @@
 		"desc": "在「以太战线」中，完成流云渡的决胜乐园的所有考验",
 		"rarity": "Low",
 		"series": 5,
-		"priority": 923
+		"priority": 923,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.4",
+			"活动:「以太战线」"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4052709,
@@ -1909,7 +3150,13 @@
 		"desc": "在「以太战线」中，完成空间站「黑塔」的决胜乐园的所有考验",
 		"rarity": "Low",
 		"series": 5,
-		"priority": 922
+		"priority": 922,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.4",
+			"活动:「以太战线」"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4052710,
@@ -1917,7 +3164,13 @@
 		"desc": "在「以太战线」中，完成大矿区的决胜乐园的所有考验",
 		"rarity": "Low",
 		"series": 5,
-		"priority": 921
+		"priority": 921,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.4",
+			"活动:「以太战线」"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4052711,
@@ -1925,7 +3178,13 @@
 		"desc": "在「以太战线」中，获得一场「表演赛」的胜利",
 		"rarity": "Low",
 		"series": 5,
-		"priority": 920
+		"priority": 920,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.4",
+			"活动:「以太战线」"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4052712,
@@ -1933,7 +3192,12 @@
 		"desc": "聆听小小西衍的节目",
 		"rarity": "Low",
 		"series": 5,
-		"priority": 852
+		"priority": 852,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.4"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4052713,
@@ -1941,7 +3205,12 @@
 		"desc": "聆听小往小来的节目",
 		"rarity": "Low",
 		"series": 5,
-		"priority": 851
+		"priority": 851,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.4"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4052714,
@@ -1949,7 +3218,16 @@
 		"desc": "为造物引擎制定一份离谱的策划案",
 		"rarity": "Low",
 		"series": 5,
-		"priority": 945
+		"priority": 945,
+		"idsAchievementExclusive": [
+			4052715
+		],
+		"tags": [
+			"版本:1.4",
+			"隐藏成就",
+			"互斥成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4052715,
@@ -1957,7 +3235,16 @@
 		"desc": "为造物引擎制定一份靠谱的策划案",
 		"rarity": "Low",
 		"series": 5,
-		"priority": 944
+		"priority": 944,
+		"idsAchievementExclusive": [
+			4052714
+		],
+		"tags": [
+			"版本:1.4",
+			"隐藏成就",
+			"互斥成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4052716,
@@ -1965,7 +3252,13 @@
 		"desc": "获得所有「以太拓展芯片」",
 		"rarity": "Low",
 		"series": 5,
-		"priority": 917
+		"priority": 917,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.4",
+			"活动:「以太战线」"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4052717,
@@ -1973,7 +3266,12 @@
 		"desc": "在「冬兵进行曲」难度Ⅲ击败门后的杰帕德",
 		"rarity": "Low",
 		"series": 4,
-		"priority": 966
+		"priority": 966,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.4"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4052718,
@@ -1981,7 +3279,17 @@
 		"desc": "在尘埃落定后归还{TEXTJOIN#54}",
 		"rarity": "Low",
 		"series": 5,
-		"priority": 919
+		"priority": 919,
+		"idsAchievementExclusive": [
+			4052719
+		],
+		"tags": [
+			"版本:1.4",
+			"活动:「以太战线」",
+			"隐藏成就",
+			"互斥成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4052719,
@@ -1989,7 +3297,17 @@
 		"desc": "在尘埃落定后留下{TEXTJOIN#54}",
 		"rarity": "Low",
 		"series": 5,
-		"priority": 918
+		"priority": 918,
+		"idsAchievementExclusive": [
+			4052718
+		],
+		"tags": [
+			"版本:1.4",
+			"活动:「以太战线」",
+			"隐藏成就",
+			"互斥成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4052720,
@@ -1998,7 +3316,13 @@
 		"rarity": "Low",
 		"series": 5,
 		"descHide": "关心贝洛伯格的发展动态",
-		"priority": 943
+		"priority": 943,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.4",
+			"隐藏描述"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4052721,
@@ -2006,7 +3330,13 @@
 		"desc": "获得阅读物《螺丝咕姆的留言》",
 		"rarity": "Low",
 		"series": 5,
-		"priority": 942
+		"priority": 942,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.4",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4052722,
@@ -2014,7 +3344,13 @@
 		"desc": "与冰原熊幼崽亲切互动",
 		"rarity": "Low",
 		"series": 5,
-		"priority": 941
+		"priority": 941,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.4",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4052723,
@@ -2022,7 +3358,14 @@
 		"desc": "帮助凡迪雅小姐完成赌注",
 		"rarity": "Low",
 		"series": 5,
-		"priority": 940
+		"priority": 940,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.4",
+			"活动:「以太战线」",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4052724,
@@ -2030,7 +3373,16 @@
 		"desc": "把造物工程的废料交给本杰明",
 		"rarity": "Low",
 		"series": 5,
-		"priority": 939
+		"priority": 939,
+		"idsAchievementExclusive": [
+			4052725
+		],
+		"tags": [
+			"版本:1.4",
+			"隐藏成就",
+			"互斥成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4052725,
@@ -2038,7 +3390,16 @@
 		"desc": "把造物工程的废料交给佩拉",
 		"rarity": "Low",
 		"series": 5,
-		"priority": 938
+		"priority": 938,
+		"idsAchievementExclusive": [
+			4052724
+		],
+		"tags": [
+			"版本:1.4",
+			"隐藏成就",
+			"互斥成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4052726,
@@ -2046,7 +3407,13 @@
 		"desc": "从冻结的栏杆上保住舌头",
 		"rarity": "Low",
 		"series": 5,
-		"priority": 937
+		"priority": 937,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.4",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4052727,
@@ -2054,7 +3421,14 @@
 		"desc": "再次因打破容器受到教训",
 		"rarity": "Low",
 		"series": 5,
-		"priority": 936
+		"priority": 936,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.4",
+			"活动:「以太战线」",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4052728,
@@ -2062,7 +3436,14 @@
 		"desc": "拥有一个狂热粉丝",
 		"rarity": "Low",
 		"series": 5,
-		"priority": 935
+		"priority": 935,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.4",
+			"活动:「以太战线」",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4052729,
@@ -2070,7 +3451,14 @@
 		"desc": "查看来历不明的忆泡",
 		"rarity": "Low",
 		"series": 5,
-		"priority": 934
+		"priority": 934,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.4",
+			"活动:「以太战线」",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4052730,
@@ -2078,7 +3466,13 @@
 		"desc": "从冰封垃圾桶中获得垃圾",
 		"rarity": "Low",
 		"series": 5,
-		"priority": 933
+		"priority": 933,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.4",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4052801,
@@ -2086,7 +3480,12 @@
 		"desc": "完成同行任务「宇宙幻觉之夜」",
 		"rarity": "Low",
 		"series": 5,
-		"priority": 982
+		"priority": 982,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.5"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4052802,
@@ -2094,7 +3493,12 @@
 		"desc": "在「罗浮杂俎」网站上发布一条帖子",
 		"rarity": "Low",
 		"series": 5,
-		"priority": 850
+		"priority": 850,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.5"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4052803,
@@ -2105,7 +3509,12 @@
 		"paramsText": [
 			1000000
 		],
-		"priority": 849
+		"priority": 849,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.5"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4052804,
@@ -2113,7 +3522,12 @@
 		"desc": "掌握所有驱邪之术",
 		"rarity": "Low",
 		"series": 5,
-		"priority": 848
+		"priority": 848,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.5"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4052805,
@@ -2121,7 +3535,12 @@
 		"desc": "完成降妖辑录所有的挑战",
 		"rarity": "Mid",
 		"series": 5,
-		"priority": 847
+		"priority": 847,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.5"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4052806,
@@ -2129,7 +3548,18 @@
 		"desc": "在「罗浮杂俎」网站上发布了更多「震惊头条」的帖子",
 		"rarity": "Low",
 		"series": 5,
-		"priority": 846
+		"priority": 846,
+		"idsAchievementExclusive": [
+			4052807,
+			4052808,
+			4052809
+		],
+		"tags": [
+			"版本:1.5",
+			"隐藏成就",
+			"互斥成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4052807,
@@ -2137,7 +3567,18 @@
 		"desc": "在「罗浮杂俎」网站上发布了更多「怪谈科普」的帖子",
 		"rarity": "Low",
 		"series": 5,
-		"priority": 845
+		"priority": 845,
+		"idsAchievementExclusive": [
+			4052806,
+			4052808,
+			4052809
+		],
+		"tags": [
+			"版本:1.5",
+			"隐藏成就",
+			"互斥成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4052808,
@@ -2145,7 +3586,18 @@
 		"desc": "在「罗浮杂俎」网站上发布了更多「娱乐八卦」的帖子",
 		"rarity": "Low",
 		"series": 5,
-		"priority": 844
+		"priority": 844,
+		"idsAchievementExclusive": [
+			4052806,
+			4052807,
+			4052809
+		],
+		"tags": [
+			"版本:1.5",
+			"隐藏成就",
+			"互斥成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4052809,
@@ -2153,7 +3605,18 @@
 		"desc": "在「罗浮杂俎」网站上发布了同样多不同倾向的帖子",
 		"rarity": "Low",
 		"series": 5,
-		"priority": 843
+		"priority": 843,
+		"idsAchievementExclusive": [
+			4052806,
+			4052807,
+			4052808
+		],
+		"tags": [
+			"版本:1.5",
+			"隐藏成就",
+			"互斥成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4052810,
@@ -2164,7 +3627,12 @@
 		"paramsText": [
 			15
 		],
-		"priority": 842
+		"priority": 842,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.5"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4052811,
@@ -2175,7 +3643,12 @@
 		"paramsText": [
 			10
 		],
-		"priority": 841
+		"priority": 841,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.5"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4052812,
@@ -2186,7 +3659,13 @@
 		"paramsText": [
 			24
 		],
-		"priority": 840
+		"priority": 840,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.5",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4052813,
@@ -2197,7 +3676,13 @@
 		"paramsText": [
 			900
 		],
-		"priority": 876
+		"priority": 876,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.5",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4052814,
@@ -2205,7 +3690,13 @@
 		"desc": "帮助古琴上的岁阳完成琴曲",
 		"rarity": "Low",
 		"series": 5,
-		"priority": 875
+		"priority": 875,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.5",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4052815,
@@ -2213,7 +3704,16 @@
 		"desc": "与鬼伶合唱一曲《合巹记》，完美演出",
 		"rarity": "Low",
 		"series": 5,
-		"priority": 874
+		"priority": 874,
+		"idsAchievementExclusive": [
+			4052816
+		],
+		"tags": [
+			"版本:1.5",
+			"隐藏成就",
+			"互斥成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4052816,
@@ -2221,7 +3721,16 @@
 		"desc": "与鬼伶合唱一曲《合巹记》，记错唱词",
 		"rarity": "Low",
 		"series": 5,
-		"priority": 873
+		"priority": 873,
+		"idsAchievementExclusive": [
+			4052815
+		],
+		"tags": [
+			"版本:1.5",
+			"隐藏成就",
+			"互斥成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4052817,
@@ -2229,7 +3738,13 @@
 		"desc": "在狐眠冢，破解墓碑上的神秘传承",
 		"rarity": "Low",
 		"series": 5,
-		"priority": 872
+		"priority": 872,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.5",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4052818,
@@ -2237,7 +3752,13 @@
 		"desc": "在狐眠冢，遭遇墓碑主人",
 		"rarity": "Low",
 		"series": 5,
-		"priority": 871
+		"priority": 871,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.5",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4052819,
@@ -2245,7 +3766,13 @@
 		"desc": "在帝垣琼玉新玩法中开出金色奖励！",
 		"rarity": "Low",
 		"series": 5,
-		"priority": 870
+		"priority": 870,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.5",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4052820,
@@ -2253,7 +3780,16 @@
 		"desc": "在文远和若昔的苦苦哀求中，坚持带走岁阳",
 		"rarity": "Low",
 		"series": 5,
-		"priority": 869
+		"priority": 869,
+		"idsAchievementExclusive": [
+			4052821
+		],
+		"tags": [
+			"版本:1.5",
+			"隐藏成就",
+			"互斥成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4052821,
@@ -2261,7 +3797,16 @@
 		"desc": "在文远和若昔的苦苦哀求中，选择放过岁阳",
 		"rarity": "Low",
 		"series": 5,
-		"priority": 868
+		"priority": 868,
+		"idsAchievementExclusive": [
+			4052820
+		],
+		"tags": [
+			"版本:1.5",
+			"隐藏成就",
+			"互斥成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4052822,
@@ -2269,7 +3814,16 @@
 		"desc": "与宝烛畅游罗浮之后，将它放归宇宙",
 		"rarity": "Low",
 		"series": 5,
-		"priority": 867
+		"priority": 867,
+		"idsAchievementExclusive": [
+			4052823
+		],
+		"tags": [
+			"版本:1.5",
+			"隐藏成就",
+			"互斥成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4052823,
@@ -2277,7 +3831,16 @@
 		"desc": "与宝烛畅游罗浮之后，将它封入镇妖塔",
 		"rarity": "Low",
 		"series": 5,
-		"priority": 866
+		"priority": 866,
+		"idsAchievementExclusive": [
+			4052822
+		],
+		"tags": [
+			"版本:1.5",
+			"隐藏成就",
+			"互斥成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4052824,
@@ -2285,7 +3848,13 @@
 		"desc": "在绥园收到假冒龙尊的诈骗短信",
 		"rarity": "Low",
 		"series": 5,
-		"priority": 877
+		"priority": 877,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.5",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4052901,
@@ -2293,7 +3862,13 @@
 		"desc": "在看到黑塔的手稿广告后向黑塔催更",
 		"rarity": "Low",
 		"series": 5,
-		"priority": 839
+		"priority": 839,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.6",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4052902,
@@ -2301,7 +3876,13 @@
 		"desc": "被黑塔从禁闭舱段的实验舱中救出来",
 		"rarity": "Low",
 		"series": 5,
-		"priority": 838
+		"priority": 838,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.6",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4052903,
@@ -2309,7 +3890,16 @@
 		"desc": "在禁闭舱段选择亲自登上「王座」",
 		"rarity": "Low",
 		"series": 5,
-		"priority": 837
+		"priority": 837,
+		"idsAchievementExclusive": [
+			4052904
+		],
+		"tags": [
+			"版本:1.6",
+			"隐藏成就",
+			"互斥成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4052904,
@@ -2317,7 +3907,16 @@
 		"desc": "在禁闭舱段扶洞悉者登上「王座」",
 		"rarity": "Low",
 		"series": 5,
-		"priority": 836
+		"priority": 836,
+		"idsAchievementExclusive": [
+			4052903
+		],
+		"tags": [
+			"版本:1.6",
+			"隐藏成就",
+			"互斥成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4052905,
@@ -2325,7 +3924,12 @@
 		"desc": "完成冒险任务「异宠拾遗」",
 		"rarity": "Low",
 		"series": 5,
-		"priority": 835
+		"priority": 835,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.6"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4052906,
@@ -2333,7 +3937,12 @@
 		"desc": "在「异宠拾遗」中收集所有稀有造物",
 		"rarity": "Low",
 		"series": 5,
-		"priority": 834
+		"priority": 834,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.6"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4052907,
@@ -2341,7 +3950,13 @@
 		"desc": "协助佩佩辩倒安保机器人",
 		"rarity": "Low",
 		"series": 5,
-		"priority": 833
+		"priority": 833,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.6",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4052908,
@@ -2349,7 +3964,13 @@
 		"desc": "在与「管家」的激辩中获胜",
 		"rarity": "Low",
 		"series": 5,
-		"priority": 832
+		"priority": 832,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.6",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4052909,
@@ -2357,7 +3978,13 @@
 		"desc": "在禁闭舱段的植物间累计三天拔掉杂草",
 		"rarity": "Low",
 		"series": 5,
-		"priority": 831
+		"priority": 831,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.6",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4052910,
@@ -2365,7 +3992,13 @@
 		"desc": "救出陷于「围城」与被怪物吞下的造物",
 		"rarity": "Low",
 		"series": 5,
-		"priority": 830
+		"priority": 830,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.6",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4052911,
@@ -2373,7 +4006,13 @@
 		"desc": "使用不同体型的角色观察禁闭舱段的大屏幕",
 		"rarity": "Low",
 		"series": 5,
-		"priority": 829
+		"priority": 829,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.6",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4052912,
@@ -2381,7 +4020,13 @@
 		"desc": "在使用终端与阮•梅远程联络时，通讯无人接听",
 		"rarity": "Low",
 		"series": 5,
-		"priority": 828
+		"priority": 828,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.6",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4052913,
@@ -2392,7 +4037,13 @@
 		"paramsText": [
 			3
 		],
-		"priority": 827
+		"priority": 827,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.6",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4052914,
@@ -2403,7 +4054,13 @@
 		"paramsText": [
 			3
 		],
-		"priority": 826
+		"priority": 826,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.6",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4052915,
@@ -2411,7 +4068,13 @@
 		"desc": "将「拉姆之友」的照片分享给阮•梅",
 		"rarity": "Low",
 		"series": 5,
-		"priority": 825
+		"priority": 825,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.6",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4052916,
@@ -2419,7 +4082,12 @@
 		"desc": "完成冒险任务「游辞巧饰」",
 		"rarity": "Low",
 		"series": 5,
-		"priority": 824
+		"priority": 824,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.6"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4052917,
@@ -2427,7 +4095,12 @@
 		"desc": "在「异宠拾遗」活动中收集所有的造物特征",
 		"rarity": "Low",
 		"series": 5,
-		"priority": 823
+		"priority": 823,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.6"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4052918,
@@ -2435,7 +4108,13 @@
 		"desc": "获得稀有造物「墨镜猫咪」",
 		"rarity": "Low",
 		"series": 5,
-		"priority": 822
+		"priority": 822,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.6",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4052919,
@@ -2443,7 +4122,13 @@
 		"desc": "在禁闭舱段收集齐写有真理医生留言的阅读物",
 		"rarity": "Low",
 		"series": 5,
-		"priority": 821
+		"priority": 821,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.6",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4060101,
@@ -2454,7 +4139,12 @@
 		"paramsText": [
 			100
 		],
-		"priority": 1000
+		"priority": 1000,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4060102,
@@ -2465,7 +4155,12 @@
 		"paramsText": [
 			400
 		],
-		"priority": 999
+		"priority": 999,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4060103,
@@ -2476,7 +4171,12 @@
 		"paramsText": [
 			800
 		],
-		"priority": 998
+		"priority": 998,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4060201,
@@ -2487,7 +4187,12 @@
 		"paramsText": [
 			100
 		],
-		"priority": 997
+		"priority": 997,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4060202,
@@ -2498,7 +4203,12 @@
 		"paramsText": [
 			500
 		],
-		"priority": 996
+		"priority": 996,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4060203,
@@ -2509,7 +4219,12 @@
 		"paramsText": [
 			1000
 		],
-		"priority": 995
+		"priority": 995,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4060301,
@@ -2520,7 +4235,12 @@
 		"paramsText": [
 			100
 		],
-		"priority": 994
+		"priority": 994,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4060302,
@@ -2531,7 +4251,12 @@
 		"paramsText": [
 			400
 		],
-		"priority": 993
+		"priority": 993,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4060303,
@@ -2542,7 +4267,12 @@
 		"paramsText": [
 			800
 		],
-		"priority": 992
+		"priority": 992,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4060401,
@@ -2553,7 +4283,12 @@
 		"paramsText": [
 			1
 		],
-		"priority": 991
+		"priority": 991,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4060402,
@@ -2564,7 +4299,12 @@
 		"paramsText": [
 			10
 		],
-		"priority": 990
+		"priority": 990,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4062501,
@@ -2575,7 +4315,12 @@
 		"paramsText": [
 			1
 		],
-		"priority": 989
+		"priority": 989,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.2"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4070101,
@@ -2586,7 +4331,12 @@
 		"paramsText": [
 			4
 		],
-		"priority": 1000
+		"priority": 1000,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4070201,
@@ -2598,7 +4348,12 @@
 			1,
 			4
 		],
-		"priority": 999
+		"priority": 999,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4070301,
@@ -2609,7 +4364,12 @@
 		"paramsText": [
 			1000
 		],
-		"priority": 998
+		"priority": 998,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4070302,
@@ -2620,7 +4380,12 @@
 		"paramsText": [
 			20000
 		],
-		"priority": 997
+		"priority": 997,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4070303,
@@ -2631,7 +4396,12 @@
 		"paramsText": [
 			150000
 		],
-		"priority": 996
+		"priority": 996,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4070401,
@@ -2642,7 +4412,12 @@
 		"paramsText": [
 			2000
 		],
-		"priority": 995
+		"priority": 995,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4070402,
@@ -2653,7 +4428,12 @@
 		"paramsText": [
 			40000
 		],
-		"priority": 994
+		"priority": 994,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4070403,
@@ -2664,7 +4444,12 @@
 		"paramsText": [
 			300000
 		],
-		"priority": 993
+		"priority": 993,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4070421,
@@ -2675,7 +4460,12 @@
 		"paramsText": [
 			8000
 		],
-		"priority": 992
+		"priority": 992,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4070441,
@@ -2686,7 +4476,12 @@
 		"paramsText": [
 			5000
 		],
-		"priority": 991
+		"priority": 991,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4070501,
@@ -2697,7 +4492,12 @@
 		"paramsText": [
 			1
 		],
-		"priority": 990
+		"priority": 990,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4070502,
@@ -2709,7 +4509,12 @@
 			1,
 			4
 		],
-		"priority": 989
+		"priority": 989,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4070601,
@@ -2720,7 +4525,12 @@
 		"paramsText": [
 			3
 		],
-		"priority": 988
+		"priority": 988,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4070602,
@@ -2731,7 +4541,12 @@
 		"paramsText": [
 			3
 		],
-		"priority": 987
+		"priority": 987,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4070603,
@@ -2742,7 +4557,12 @@
 		"paramsText": [
 			3
 		],
-		"priority": 986
+		"priority": 986,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4070604,
@@ -2753,7 +4573,12 @@
 		"paramsText": [
 			3
 		],
-		"priority": 985
+		"priority": 985,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4070605,
@@ -2764,7 +4589,12 @@
 		"paramsText": [
 			20
 		],
-		"priority": 984
+		"priority": 984,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4070606,
@@ -2775,7 +4605,12 @@
 		"paramsText": [
 			60
 		],
-		"priority": 983
+		"priority": 983,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4070607,
@@ -2786,7 +4621,12 @@
 		"paramsText": [
 			20
 		],
-		"priority": 982
+		"priority": 982,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4070608,
@@ -2797,7 +4637,12 @@
 		"paramsText": [
 			60
 		],
-		"priority": 981
+		"priority": 981,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4070609,
@@ -2808,7 +4653,12 @@
 		"paramsText": [
 			20
 		],
-		"priority": 980
+		"priority": 980,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4070610,
@@ -2819,7 +4669,12 @@
 		"paramsText": [
 			60
 		],
-		"priority": 979
+		"priority": 979,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4070611,
@@ -2830,7 +4685,12 @@
 		"paramsText": [
 			20
 		],
-		"priority": 978
+		"priority": 978,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4070612,
@@ -2841,7 +4701,12 @@
 		"paramsText": [
 			60
 		],
-		"priority": 977
+		"priority": 977,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4070701,
@@ -2852,7 +4717,12 @@
 		"paramsText": [
 			5
 		],
-		"priority": 976
+		"priority": 976,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4070702,
@@ -2863,7 +4733,12 @@
 		"paramsText": [
 			5
 		],
-		"priority": 975
+		"priority": 975,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4070703,
@@ -2874,7 +4749,12 @@
 		"paramsText": [
 			5
 		],
-		"priority": 974
+		"priority": 974,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4070704,
@@ -2885,7 +4765,12 @@
 		"paramsText": [
 			100
 		],
-		"priority": 973
+		"priority": 973,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4070705,
@@ -2896,7 +4781,12 @@
 		"paramsText": [
 			300
 		],
-		"priority": 972
+		"priority": 972,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4070706,
@@ -2907,7 +4797,12 @@
 		"paramsText": [
 			100
 		],
-		"priority": 971
+		"priority": 971,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4070707,
@@ -2918,7 +4813,12 @@
 		"paramsText": [
 			300
 		],
-		"priority": 970
+		"priority": 970,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4070708,
@@ -2929,7 +4829,12 @@
 		"paramsText": [
 			100
 		],
-		"priority": 969
+		"priority": 969,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4070709,
@@ -2940,7 +4845,12 @@
 		"paramsText": [
 			300
 		],
-		"priority": 968
+		"priority": 968,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4070801,
@@ -2951,7 +4861,12 @@
 		"paramsText": [
 			1
 		],
-		"priority": 967
+		"priority": 967,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4070802,
@@ -2962,7 +4877,12 @@
 		"paramsText": [
 			10
 		],
-		"priority": 966
+		"priority": 966,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4070803,
@@ -2973,7 +4893,12 @@
 		"paramsText": [
 			3
 		],
-		"priority": 965
+		"priority": 965,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4070804,
@@ -2984,7 +4909,12 @@
 		"paramsText": [
 			80
 		],
-		"priority": 964
+		"priority": 964,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4070805,
@@ -2995,7 +4925,12 @@
 		"paramsText": [
 			240
 		],
-		"priority": 963
+		"priority": 963,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4070806,
@@ -3006,7 +4941,12 @@
 		"paramsText": [
 			3
 		],
-		"priority": 962
+		"priority": 962,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4070807,
@@ -3017,7 +4957,12 @@
 		"paramsText": [
 			80
 		],
-		"priority": 961
+		"priority": 961,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4070808,
@@ -3028,7 +4973,12 @@
 		"paramsText": [
 			240
 		],
-		"priority": 960
+		"priority": 960,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4070810,
@@ -3039,7 +4989,12 @@
 		"paramsText": [
 			5
 		],
-		"priority": 959
+		"priority": 959,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4070812,
@@ -3050,7 +5005,12 @@
 		"paramsText": [
 			5
 		],
-		"priority": 958
+		"priority": 958,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4070901,
@@ -3061,7 +5021,12 @@
 		"paramsText": [
 			3
 		],
-		"priority": 992
+		"priority": 992,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4070902,
@@ -3072,7 +5037,12 @@
 		"paramsText": [
 			3
 		],
-		"priority": 990
+		"priority": 990,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4070903,
@@ -3083,7 +5053,13 @@
 		"paramsText": [
 			10
 		],
-		"priority": 981
+		"priority": 981,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4070904,
@@ -3095,7 +5071,13 @@
 			4,
 			10
 		],
-		"priority": 980
+		"priority": 980,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4070905,
@@ -3107,7 +5089,13 @@
 			4,
 			10
 		],
-		"priority": 979
+		"priority": 979,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4070906,
@@ -3119,7 +5107,13 @@
 			4,
 			10
 		],
-		"priority": 978
+		"priority": 978,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4070907,
@@ -3131,7 +5125,13 @@
 			4,
 			10
 		],
-		"priority": 977
+		"priority": 977,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4070908,
@@ -3143,7 +5143,13 @@
 			4,
 			10
 		],
-		"priority": 976
+		"priority": 976,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4070909,
@@ -3155,7 +5161,13 @@
 			4,
 			10
 		],
-		"priority": 975
+		"priority": 975,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4070910,
@@ -3167,7 +5179,13 @@
 			4,
 			10
 		],
-		"priority": 974
+		"priority": 974,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4070911,
@@ -3179,7 +5197,13 @@
 			4,
 			10
 		],
-		"priority": 973
+		"priority": 973,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4070912,
@@ -3191,7 +5215,13 @@
 			4,
 			10
 		],
-		"priority": 972
+		"priority": 972,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4070913,
@@ -3203,7 +5233,13 @@
 			4,
 			10
 		],
-		"priority": 971
+		"priority": 971,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4070914,
@@ -3215,7 +5251,13 @@
 			4,
 			10
 		],
-		"priority": 970
+		"priority": 970,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4070915,
@@ -3227,7 +5269,13 @@
 			4,
 			10
 		],
-		"priority": 969
+		"priority": 969,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4070916,
@@ -3239,7 +5287,13 @@
 			4,
 			10
 		],
-		"priority": 968
+		"priority": 968,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4070917,
@@ -3251,7 +5305,13 @@
 			4,
 			10
 		],
-		"priority": 967
+		"priority": 967,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4071001,
@@ -3263,7 +5323,12 @@
 			1,
 			3
 		],
-		"priority": 957
+		"priority": 957,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4071002,
@@ -3271,7 +5336,12 @@
 		"desc": "任意角色在生命值小于1%的情况下消灭敌方单位",
 		"rarity": "Low",
 		"series": 7,
-		"priority": 956
+		"priority": 956,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4071003,
@@ -3283,7 +5353,12 @@
 			4,
 			1
 		],
-		"priority": 955
+		"priority": 955,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4071004,
@@ -3291,7 +5366,12 @@
 		"desc": "在生命值为<unbreak>100%</unbreak>的情况下受到敌人的致命攻击",
 		"rarity": "Low",
 		"series": 7,
-		"priority": 954
+		"priority": 954,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4071005,
@@ -3302,7 +5382,12 @@
 		"paramsText": [
 			4
 		],
-		"priority": 953
+		"priority": 953,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4071006,
@@ -3313,7 +5398,12 @@
 		"paramsText": [
 			2
 		],
-		"priority": 952
+		"priority": 952,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4071007,
@@ -3324,7 +5414,12 @@
 		"paramsText": [
 			20000
 		],
-		"priority": 951
+		"priority": 951,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4071008,
@@ -3335,7 +5430,12 @@
 		"paramsText": [
 			10000
 		],
-		"priority": 950
+		"priority": 950,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4071009,
@@ -3346,7 +5446,12 @@
 		"paramsText": [
 			4
 		],
-		"priority": 949
+		"priority": 949,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4071012,
@@ -3354,7 +5459,12 @@
 		"desc": "使用秘技在进入战斗后消灭所有敌人",
 		"rarity": "Low",
 		"series": 7,
-		"priority": 948
+		"priority": 948,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4071013,
@@ -3365,7 +5475,12 @@
 		"paramsText": [
 			5
 		],
-		"priority": 947
+		"priority": 947,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4071014,
@@ -3376,7 +5491,12 @@
 		"paramsText": [
 			100
 		],
-		"priority": 946
+		"priority": 946,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4071015,
@@ -3387,7 +5507,12 @@
 		"paramsText": [
 			0.05000000004656613
 		],
-		"priority": 945
+		"priority": 945,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4071016,
@@ -3398,7 +5523,12 @@
 		"paramsText": [
 			10
 		],
-		"priority": 944
+		"priority": 944,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4071017,
@@ -3406,7 +5536,13 @@
 		"desc": "战斗中与敌方目标同归于尽",
 		"rarity": "Low",
 		"series": 7,
-		"priority": 943
+		"priority": 943,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4071018,
@@ -3418,7 +5554,13 @@
 			0.010000000009313226,
 			20000
 		],
-		"priority": 942
+		"priority": 942,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4071401,
@@ -3429,7 +5571,13 @@
 		"paramsText": [
 			3
 		],
-		"priority": 941
+		"priority": 941,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4071501,
@@ -3440,7 +5588,13 @@
 		"paramsText": [
 			5
 		],
-		"priority": 940
+		"priority": 940,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4071502,
@@ -3451,7 +5605,13 @@
 		"paramsText": [
 			3
 		],
-		"priority": 939
+		"priority": 939,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4071503,
@@ -3462,7 +5622,13 @@
 		"paramsText": [
 			5
 		],
-		"priority": 938
+		"priority": 938,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4071504,
@@ -3470,7 +5636,13 @@
 		"desc": "在单场战斗中，使史瓦罗为克拉拉抵挡攻击<unbreak>13</unbreak>次",
 		"rarity": "Mid",
 		"series": 7,
-		"priority": 937
+		"priority": 937,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4071505,
@@ -3479,7 +5651,13 @@
 		"rarity": "Mid",
 		"series": 7,
 		"descHide": "早、午、晚各一杯咖啡，提神醒脑",
-		"priority": 936
+		"priority": 936,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0",
+			"隐藏描述"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4071506,
@@ -3490,7 +5668,13 @@
 		"paramsText": [
 			1
 		],
-		"priority": 935
+		"priority": 935,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4071601,
@@ -3501,7 +5685,13 @@
 		"paramsText": [
 			1
 		],
-		"priority": 989
+		"priority": 989,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4071602,
@@ -3512,7 +5702,13 @@
 		"paramsText": [
 			1
 		],
-		"priority": 987
+		"priority": 987,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4071603,
@@ -3523,7 +5719,13 @@
 		"paramsText": [
 			1
 		],
-		"priority": 934
+		"priority": 934,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4071607,
@@ -3531,7 +5733,13 @@
 		"desc": "使用我方角色希露瓦在对战杰帕德时完成最后的制胜一击",
 		"rarity": "Mid",
 		"series": 7,
-		"priority": 933
+		"priority": 933,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4071608,
@@ -3539,7 +5747,13 @@
 		"desc": "使用我方角色希露瓦在对战可可利亚时完成最后的制胜一击",
 		"rarity": "Mid",
 		"series": 7,
-		"priority": 932
+		"priority": 932,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4071609,
@@ -3547,7 +5761,13 @@
 		"desc": "使用我方角色布洛妮娅在对战可可利亚时完成最后的制胜一击",
 		"rarity": "Mid",
 		"series": 7,
-		"priority": 931
+		"priority": 931,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4071610,
@@ -3555,7 +5775,13 @@
 		"desc": "使用开拓者对战卡芙卡，并陷入「支配」状态",
 		"rarity": "Low",
 		"series": 7,
-		"priority": 930
+		"priority": 930,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4072001,
@@ -3566,7 +5792,13 @@
 		"paramsText": [
 			4
 		],
-		"priority": 929
+		"priority": 929,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4072002,
@@ -3574,7 +5806,12 @@
 		"desc": "不激怒守护者之影的情况下将其消灭",
 		"rarity": "Low",
 		"series": 7,
-		"priority": 928
+		"priority": 928,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4072003,
@@ -3585,7 +5822,12 @@
 		"paramsText": [
 			4
 		],
-		"priority": 927
+		"priority": 927,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4072004,
@@ -3593,7 +5835,12 @@
 		"desc": "不消灭银鬃铁卫的情况下击败银鬃尉官",
 		"rarity": "Mid",
 		"series": 7,
-		"priority": 926
+		"priority": 926,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4072008,
@@ -3601,7 +5848,12 @@
 		"desc": "不触发「砍伐指令」的情况下击败自动机兵「齿狼」",
 		"rarity": "Low",
 		"series": 7,
-		"priority": 925
+		"priority": 925,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4072012,
@@ -3609,7 +5861,12 @@
 		"desc": "使深寒徘徊者「吞噬衍生物」时失败",
 		"rarity": "Mid",
 		"series": 7,
-		"priority": 924
+		"priority": 924,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4072013,
@@ -3617,7 +5874,12 @@
 		"desc": "「历战余响」中，在不消灭末日兽双手的情况下击败反物质引擎",
 		"rarity": "Low",
 		"series": 7,
-		"priority": 923
+		"priority": 923,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4072014,
@@ -3625,7 +5887,12 @@
 		"desc": "「历战余响」中，阻止末日兽施放「末日临空」",
 		"rarity": "Low",
 		"series": 7,
-		"priority": 922
+		"priority": 922,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4072016,
@@ -3633,7 +5900,12 @@
 		"desc": "不消灭银鬃铁卫的情况下击败布洛妮娅",
 		"rarity": "Low",
 		"series": 7,
-		"priority": 921
+		"priority": 921,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4072017,
@@ -3641,7 +5913,12 @@
 		"desc": "在虚卒·践踏者瞄准我方角色时将其消灭",
 		"rarity": "Mid",
 		"series": 7,
-		"priority": 920
+		"priority": 920,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4072018,
@@ -3649,7 +5926,12 @@
 		"desc": "使兴风者的「风落暴矢」技能因场上没有处于风化状态的我方目标而施放失败",
 		"rarity": "Low",
 		"series": 7,
-		"priority": 919
+		"priority": 919,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4072019,
@@ -3657,7 +5939,12 @@
 		"desc": "不消灭召唤出的「银鬃铁卫」的情况下消灭杰帕德",
 		"rarity": "Mid",
 		"series": 7,
-		"priority": 918
+		"priority": 918,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4072020,
@@ -3665,7 +5952,12 @@
 		"desc": "受到辅助机械臂单元「控场起爆」技能攻击后仍然存活",
 		"rarity": "High",
 		"series": 7,
-		"priority": 917
+		"priority": 917,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4072022,
@@ -3676,7 +5968,12 @@
 		"paramsText": [
 			4
 		],
-		"priority": 916
+		"priority": 916,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4072023,
@@ -3687,7 +5984,12 @@
 		"paramsText": [
 			4
 		],
-		"priority": 915
+		"priority": 915,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4072024,
@@ -3695,7 +5997,12 @@
 		"desc": "在可可利亚蓄力状态下打断「雪国圣徒的烈怒」技能的施放",
 		"rarity": "Mid",
 		"series": 7,
-		"priority": 914
+		"priority": 914,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4072026,
@@ -3703,7 +6010,12 @@
 		"desc": "不击败布洛妮娅的情况下，击败可可利亚",
 		"rarity": "High",
 		"series": 7,
-		"priority": 913
+		"priority": 913,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4072027,
@@ -3711,7 +6023,12 @@
 		"desc": "「历战余响」中，全程我方无人被冻结情况下击败可可利亚，虚妄之母",
 		"rarity": "High",
 		"series": 7,
-		"priority": 912
+		"priority": 912,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4072101,
@@ -3719,7 +6036,12 @@
 		"desc": "清空蚕食者之影的「追忆刻度」使其施放「黄金年代的解放」失败",
 		"rarity": "Mid",
 		"series": 7,
-		"priority": 911
+		"priority": 911,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4072103,
@@ -3727,7 +6049,12 @@
 		"desc": "利用入魔机巧 • 灯昼龙鱼施放的「烛花」消灭金人司阍",
 		"rarity": "Mid",
 		"series": 7,
-		"priority": 910
+		"priority": 910,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4072104,
@@ -3735,7 +6062,12 @@
 		"desc": "单场战斗中累计让金人司阍进入3次暴怒状态",
 		"rarity": "Mid",
 		"series": 7,
-		"priority": 909
+		"priority": 909,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4072105,
@@ -3743,7 +6075,13 @@
 		"desc": "单场战斗中累计解除3次卡芙卡施加的「支配」状态",
 		"rarity": "Low",
 		"series": 7,
-		"priority": 908
+		"priority": 908,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4072305,
@@ -3754,7 +6092,13 @@
 		"paramsText": [
 			20
 		],
-		"priority": 991
+		"priority": 991,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4072401,
@@ -3765,7 +6109,13 @@
 		"paramsText": [
 			3
 		],
-		"priority": 907
+		"priority": 907,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.1",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4072402,
@@ -3776,7 +6126,13 @@
 		"paramsText": [
 			2
 		],
-		"priority": 906
+		"priority": 906,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.1",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4072501,
@@ -3787,7 +6143,12 @@
 		"paramsText": [
 			5
 		],
-		"priority": 905
+		"priority": 905,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.2"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4072502,
@@ -3798,7 +6159,13 @@
 		"paramsText": [
 			1
 		],
-		"priority": 904
+		"priority": 904,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.2",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4072503,
@@ -3809,7 +6176,13 @@
 		"paramsText": [
 			1
 		],
-		"priority": 903
+		"priority": 903,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.2",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4072504,
@@ -3822,7 +6195,13 @@
 			0.05000000004656613,
 			2
 		],
-		"priority": 902
+		"priority": 902,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.2",
+			"隐藏描述"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4072505,
@@ -3833,7 +6212,13 @@
 		"paramsText": [
 			1
 		],
-		"priority": 901
+		"priority": 901,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.2",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4072506,
@@ -3844,7 +6229,13 @@
 		"paramsText": [
 			4
 		],
-		"priority": 900
+		"priority": 900,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.2",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4072507,
@@ -3855,7 +6246,13 @@
 		"paramsText": [
 			1
 		],
-		"priority": 899
+		"priority": 899,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.2",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4072601,
@@ -3863,7 +6260,13 @@
 		"desc": "使用玲可击败被冻住的敌人",
 		"rarity": "Low",
 		"series": 7,
-		"priority": 898
+		"priority": 898,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.3",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4072602,
@@ -3871,7 +6274,13 @@
 		"desc": "使用同时包含希露瓦、杰帕德、玲可的队伍获得1场战斗的胜利",
 		"rarity": "Low",
 		"series": 8,
-		"priority": 955
+		"priority": 955,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.3",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4072603,
@@ -3879,7 +6288,13 @@
 		"desc": "使用我方角色素裳对战彦卿时完成制胜一击",
 		"rarity": "Low",
 		"series": 7,
-		"priority": 897
+		"priority": 897,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.3",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4072604,
@@ -3887,7 +6302,13 @@
 		"desc": "使用我方角色罗刹对战彦卿时完成制胜一击",
 		"rarity": "Low",
 		"series": 7,
-		"priority": 896
+		"priority": 896,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.3",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4072605,
@@ -3895,7 +6316,14 @@
 		"desc": "利用次蛰虫或幼蛰虫施放的「蛰亡语」消灭虫群•真蛰虫",
 		"rarity": "Low",
 		"series": 7,
-		"priority": 892
+		"priority": 892,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.3",
+			"活动:「模拟宇宙：寰宇蝗灾」",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4072606,
@@ -3903,7 +6331,14 @@
 		"desc": "当虫群•真蛰虫施放「虫群突袭」时，场上不存在幼蛰虫或次蛰虫",
 		"rarity": "Low",
 		"series": 7,
-		"priority": 891
+		"priority": 891,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.3",
+			"活动:「模拟宇宙：寰宇蝗灾」",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4072607,
@@ -3914,7 +6349,14 @@
 		"paramsText": [
 			2
 		],
-		"priority": 890
+		"priority": 890,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.3",
+			"活动:「模拟宇宙：寰宇蝗灾」",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4072608,
@@ -3922,7 +6364,13 @@
 		"desc": "使用我方角色景元对战彦卿时完成制胜一击",
 		"rarity": "Low",
 		"series": 7,
-		"priority": 889
+		"priority": 889,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.3",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4072609,
@@ -3930,7 +6378,13 @@
 		"desc": "探索中使用娜塔莎攻击超远距离敌人并进入战斗",
 		"rarity": "Low",
 		"series": 8,
-		"priority": 954
+		"priority": 954,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.3",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4072610,
@@ -3941,7 +6395,12 @@
 		"paramsText": [
 			3
 		],
-		"priority": 888
+		"priority": 888,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.3"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4072611,
@@ -3952,7 +6411,12 @@
 		"paramsText": [
 			3
 		],
-		"priority": 887
+		"priority": 887,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.3"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4072612,
@@ -3963,7 +6427,13 @@
 		"paramsText": [
 			4
 		],
-		"priority": 886
+		"priority": 886,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.3",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4072701,
@@ -3971,7 +6441,13 @@
 		"desc": "使用我方角色丹恒对战彦卿时完成制胜一击",
 		"rarity": "Low",
 		"series": 7,
-		"priority": 895
+		"priority": 895,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.4",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4072702,
@@ -3979,7 +6455,13 @@
 		"desc": "使用我方角色彦卿对战彦卿时完成制胜一击",
 		"rarity": "Low",
 		"series": 7,
-		"priority": 894
+		"priority": 894,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.4",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4072703,
@@ -3987,7 +6469,13 @@
 		"desc": "使用我方角色镜流对战彦卿时完成制胜一击",
 		"rarity": "Low",
 		"series": 7,
-		"priority": 893
+		"priority": 893,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.4",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4072704,
@@ -3995,7 +6483,12 @@
 		"desc": "在单场战斗中使用我方角色镜流把任意队友生命值消耗至1",
 		"rarity": "Low",
 		"series": 7,
-		"priority": 885
+		"priority": 885,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.4"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4072801,
@@ -4006,7 +6499,12 @@
 		"paramsText": [
 			6
 		],
-		"priority": 879
+		"priority": 879,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.5"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4072802,
@@ -4017,7 +6515,13 @@
 		"paramsText": [
 			4
 		],
-		"priority": 880
+		"priority": 880,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.5",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4072803,
@@ -4028,7 +6532,13 @@
 		"paramsText": [
 			3
 		],
-		"priority": 881
+		"priority": 881,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.5",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4072804,
@@ -4036,7 +6546,13 @@
 		"desc": "使用驱邪术将扑满变成扑满",
 		"rarity": "Low",
 		"series": 7,
-		"priority": 882
+		"priority": 882,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.5",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4072805,
@@ -4044,7 +6560,13 @@
 		"desc": "未受到伤害完成「降妖辑录」任意关卡",
 		"rarity": "Low",
 		"series": 7,
-		"priority": 883
+		"priority": 883,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.5",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4072806,
@@ -4055,7 +6577,13 @@
 		"paramsText": [
 			5
 		],
-		"priority": 884
+		"priority": 884,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.5",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4072901,
@@ -4063,7 +6591,13 @@
 		"desc": "当碎星王虫首次施放「孕灾虫甲」后，使其进入弱点击破状态",
 		"rarity": "Low",
 		"series": 7,
-		"priority": 883
+		"priority": 883,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.6",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4072902,
@@ -4071,7 +6605,13 @@
 		"desc": "在与银枝对战时，分别消灭处于「灵魂释放」状态的「枪尖」、「盾」、「授勋」。",
 		"rarity": "Low",
 		"series": 7,
-		"priority": 882
+		"priority": 882,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.6",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4072903,
@@ -4079,7 +6619,13 @@
 		"desc": "在与银枝对战时，「枪尖」、「盾」、「授勋」都没有进入过「灵魂释放」状态",
 		"rarity": "Low",
 		"series": 7,
-		"priority": 881
+		"priority": 881,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.6",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4072904,
@@ -4090,7 +6636,12 @@
 		"paramsText": [
 			1
 		],
-		"priority": 880
+		"priority": 880,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.6"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4072905,
@@ -4099,7 +6650,13 @@
 		"rarity": "Low",
 		"series": 7,
 		"descHide": "停下来听完寒鸦的碎碎念",
-		"priority": 879
+		"priority": 879,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.6",
+			"隐藏描述"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4072906,
@@ -4110,7 +6667,13 @@
 		"paramsText": [
 			6
 		],
-		"priority": 878
+		"priority": 878,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.6",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4072907,
@@ -4121,7 +6684,12 @@
 		"paramsText": [
 			4
 		],
-		"priority": 877
+		"priority": 877,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.6"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4080101,
@@ -4132,7 +6700,12 @@
 		"paramsText": [
 			7
 		],
-		"priority": 1000
+		"priority": 1000,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4080201,
@@ -4143,7 +6716,12 @@
 		"paramsText": [
 			1
 		],
-		"priority": 991
+		"priority": 991,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4080202,
@@ -4154,7 +6732,12 @@
 		"paramsText": [
 			3
 		],
-		"priority": 990
+		"priority": 990,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4080203,
@@ -4165,7 +6748,12 @@
 		"paramsText": [
 			6
 		],
-		"priority": 989
+		"priority": 989,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4080301,
@@ -4174,7 +6762,13 @@
 		"rarity": "Low",
 		"series": 8,
 		"descHide": "探索贝洛伯格的名片吧！",
-		"priority": 997
+		"priority": 997,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0",
+			"隐藏描述"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4080302,
@@ -4186,7 +6780,13 @@
 		"paramsText": [
 			1
 		],
-		"priority": 996
+		"priority": 996,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0",
+			"隐藏描述"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4080303,
@@ -4195,7 +6795,13 @@
 		"rarity": "Low",
 		"series": 8,
 		"descHide": "就连一块垃圾，也有它的作用",
-		"priority": 995
+		"priority": 995,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0",
+			"隐藏描述"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4080304,
@@ -4204,7 +6810,13 @@
 		"rarity": "Low",
 		"series": 8,
 		"descHide": "让居住在我们心中的崇高存在对你摇头叹息",
-		"priority": 994
+		"priority": 994,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0",
+			"隐藏描述"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4080305,
@@ -4216,7 +6828,13 @@
 		"paramsText": [
 			20
 		],
-		"priority": 993
+		"priority": 993,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0",
+			"隐藏描述"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4080401,
@@ -4227,7 +6845,12 @@
 		"paramsText": [
 			10
 		],
-		"priority": 986
+		"priority": 986,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4080402,
@@ -4238,7 +6861,12 @@
 		"paramsText": [
 			50
 		],
-		"priority": 985
+		"priority": 985,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4080403,
@@ -4249,7 +6877,12 @@
 		"paramsText": [
 			20
 		],
-		"priority": 984
+		"priority": 984,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4080404,
@@ -4260,7 +6893,12 @@
 		"paramsText": [
 			80
 		],
-		"priority": 983
+		"priority": 983,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4080501,
@@ -4271,7 +6909,13 @@
 		"paramsText": [
 			5
 		],
-		"priority": 988
+		"priority": 988,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4080502,
@@ -4282,7 +6926,13 @@
 		"paramsText": [
 			5
 		],
-		"priority": 986
+		"priority": 986,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4080503,
@@ -4293,7 +6943,13 @@
 		"paramsText": [
 			5
 		],
-		"priority": 985
+		"priority": 985,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4080504,
@@ -4304,7 +6960,13 @@
 		"paramsText": [
 			5
 		],
-		"priority": 984
+		"priority": 984,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4080505,
@@ -4315,7 +6977,13 @@
 		"paramsText": [
 			3
 		],
-		"priority": 983
+		"priority": 983,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4080506,
@@ -4326,7 +6994,13 @@
 		"paramsText": [
 			3
 		],
-		"priority": 982
+		"priority": 982,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4080601,
@@ -4334,7 +7008,13 @@
 		"desc": "与公物保卫者对峙，让他知道阻止你的代价（或者卑微地认错）。",
 		"rarity": "Low",
 		"series": 5,
-		"priority": 964
+		"priority": 964,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4080602,
@@ -4342,7 +7022,13 @@
 		"desc": "将在铆钉镇找到的八音盒交还给它心碎的主人。",
 		"rarity": "Low",
 		"series": 5,
-		"priority": 963
+		"priority": 963,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4080603,
@@ -4350,7 +7036,13 @@
 		"desc": "集齐被张贴在贝洛伯格各个角落的列车组成员通缉令。",
 		"rarity": "Low",
 		"series": 5,
-		"priority": 962
+		"priority": 962,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4080604,
@@ -4358,7 +7050,13 @@
 		"desc": "在雅利洛-Ⅵ的星球仪上找到…呃…帕姆？",
 		"rarity": "Low",
 		"series": 5,
-		"priority": 960
+		"priority": 960,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4080605,
@@ -4366,7 +7064,13 @@
 		"desc": "回到曾存放星核的房间，唤醒一段模糊的记忆。",
 		"rarity": "Low",
 		"series": 5,
-		"priority": 958
+		"priority": 958,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4080606,
@@ -4374,7 +7078,13 @@
 		"desc": "通过神秘的科员设下的道德考验。",
 		"rarity": "Low",
 		"series": 5,
-		"priority": 956
+		"priority": 956,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4082301,
@@ -4385,7 +7095,13 @@
 		"paramsText": [
 			365
 		],
-		"priority": 998
+		"priority": 998,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4082303,
@@ -4396,7 +7112,12 @@
 		"paramsText": [
 			30
 		],
-		"priority": 999
+		"priority": 999,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4082401,
@@ -4407,7 +7128,13 @@
 		"paramsText": [
 			10
 		],
-		"priority": 966
+		"priority": 966,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.1",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4082402,
@@ -4418,7 +7145,13 @@
 		"paramsText": [
 			1
 		],
-		"priority": 965
+		"priority": 965,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.1",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4082501,
@@ -4429,7 +7162,13 @@
 		"paramsText": [
 			1
 		],
-		"priority": 964
+		"priority": 964,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.2",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4082601,
@@ -4440,7 +7179,13 @@
 		"paramsText": [
 			15
 		],
-		"priority": 963
+		"priority": 963,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.3",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4082602,
@@ -4451,7 +7196,13 @@
 		"paramsText": [
 			3
 		],
-		"priority": 962
+		"priority": 962,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.3",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4082603,
@@ -4462,7 +7213,13 @@
 		"paramsText": [
 			3
 		],
-		"priority": 961
+		"priority": 961,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.3",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4082604,
@@ -4470,7 +7227,13 @@
 		"desc": "首次更换手机壁纸",
 		"rarity": "Low",
 		"series": 8,
-		"priority": 960
+		"priority": 960,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.3",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4082605,
@@ -4478,7 +7241,13 @@
 		"desc": "首次更换短信和聊天对话框",
 		"rarity": "Low",
 		"series": 8,
-		"priority": 959
+		"priority": 959,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.3",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4082606,
@@ -4489,7 +7258,13 @@
 		"paramsText": [
 			5
 		],
-		"priority": 958
+		"priority": 958,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.3",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4082607,
@@ -4500,7 +7275,13 @@
 		"paramsText": [
 			20
 		],
-		"priority": 957
+		"priority": 957,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.3",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4082608,
@@ -4508,7 +7289,13 @@
 		"desc": "收到另一个性别的开拓者表情图片",
 		"rarity": "Low",
 		"series": 8,
-		"priority": 956
+		"priority": 956,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.3",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4082701,
@@ -4517,7 +7304,14 @@
 		"rarity": "Low",
 		"series": 8,
 		"descHide": "大量投喂扑满",
-		"priority": 953
+		"priority": 953,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.4",
+			"活动:「以太战线」",
+			"隐藏描述"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4082702,
@@ -4525,7 +7319,12 @@
 		"desc": "使用我方账账击败一只扑满",
 		"rarity": "Low",
 		"series": 8,
-		"priority": 952
+		"priority": 952,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.4"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4082703,
@@ -4533,7 +7332,13 @@
 		"desc": "使用镜流与定分枪互动",
 		"rarity": "Low",
 		"series": 8,
-		"priority": 951
+		"priority": 951,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.4",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4082704,
@@ -4544,7 +7349,13 @@
 		"paramsText": [
 			1
 		],
-		"priority": 950
+		"priority": 950,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.4",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4082705,
@@ -4552,7 +7363,12 @@
 		"desc": "在占卜店首次抽到吉签",
 		"rarity": "Low",
 		"series": 8,
-		"priority": 949
+		"priority": 949,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.4"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4082706,
@@ -4560,7 +7376,12 @@
 		"desc": "在占卜店首次抽到凶签",
 		"rarity": "Low",
 		"series": 8,
-		"priority": 948
+		"priority": 948,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.4"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4082707,
@@ -4568,7 +7389,13 @@
 		"desc": "在占卜店首次抽到摸鱼签",
 		"rarity": "Low",
 		"series": 8,
-		"priority": 947
+		"priority": 947,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.4",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4082708,
@@ -4576,7 +7403,13 @@
 		"desc": "在占卜店首次抽到闭目签",
 		"rarity": "Low",
 		"series": 8,
-		"priority": 946
+		"priority": 946,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.4",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4082709,
@@ -4587,7 +7420,13 @@
 		"paramsText": [
 			3
 		],
-		"priority": 945
+		"priority": 945,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.4",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4082801,
@@ -4598,7 +7437,13 @@
 		"paramsText": [
 			10
 		],
-		"priority": 939
+		"priority": 939,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.5",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4082802,
@@ -4609,7 +7454,13 @@
 		"paramsText": [
 			1
 		],
-		"priority": 940
+		"priority": 940,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.5",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4082803,
@@ -4617,7 +7468,13 @@
 		"desc": "使用我方角色藿藿在队友全部陷入无法战斗状态时撤退",
 		"rarity": "Low",
 		"series": 8,
-		"priority": 941
+		"priority": 941,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.5",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4082804,
@@ -4628,7 +7485,13 @@
 		"paramsText": [
 			1
 		],
-		"priority": 942
+		"priority": 942,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.5",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4082805,
@@ -4636,7 +7499,13 @@
 		"desc": "使用安眠锤后进入战斗，并有任意角色陷入强烈震荡状态",
 		"rarity": "Low",
 		"series": 8,
-		"priority": 943
+		"priority": 943,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.5",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4082806,
@@ -4644,7 +7513,13 @@
 		"desc": "使用藿藿普攻「令旗•征风召雨」，击败幻胧",
 		"rarity": "Low",
 		"series": 8,
-		"priority": 944
+		"priority": 944,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.5",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4090201,
@@ -4656,7 +7531,13 @@
 			4,
 			0.010000000009313226
 		],
-		"priority": 1000
+		"priority": 1000,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0",
+			"活动:「模拟宇宙」"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4090202,
@@ -4667,7 +7548,13 @@
 		"paramsText": [
 			50
 		],
-		"priority": 999
+		"priority": 999,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0",
+			"活动:「模拟宇宙」"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4090203,
@@ -4678,7 +7565,13 @@
 		"paramsText": [
 			10
 		],
-		"priority": 998
+		"priority": 998,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0",
+			"活动:「模拟宇宙」"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4090204,
@@ -4689,7 +7582,13 @@
 		"paramsText": [
 			5
 		],
-		"priority": 997
+		"priority": 997,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0",
+			"活动:「模拟宇宙」"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4090205,
@@ -4700,7 +7599,13 @@
 		"paramsText": [
 			20
 		],
-		"priority": 996
+		"priority": 996,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0",
+			"活动:「模拟宇宙」"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4090206,
@@ -4711,7 +7616,13 @@
 		"paramsText": [
 			0.05000000004656613
 		],
-		"priority": 995
+		"priority": 995,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0",
+			"活动:「模拟宇宙」"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4090207,
@@ -4722,7 +7633,13 @@
 		"paramsText": [
 			3
 		],
-		"priority": 994
+		"priority": 994,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0",
+			"活动:「模拟宇宙」"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4090301,
@@ -4733,7 +7650,13 @@
 		"paramsText": [
 			15
 		],
-		"priority": 993
+		"priority": 993,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0",
+			"活动:「模拟宇宙」"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4090303,
@@ -4744,7 +7667,13 @@
 		"paramsText": [
 			1000
 		],
-		"priority": 992
+		"priority": 992,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0",
+			"活动:「模拟宇宙」"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4090501,
@@ -4755,7 +7684,12 @@
 		"paramsText": [
 			500
 		],
-		"priority": 991
+		"priority": 991,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4090503,
@@ -4766,7 +7700,12 @@
 		"paramsText": [
 			20000
 		],
-		"priority": 990
+		"priority": 990,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4091001,
@@ -4777,7 +7716,13 @@
 		"paramsText": [
 			10
 		],
-		"priority": 989
+		"priority": 989,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0",
+			"活动:「模拟宇宙」"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4091003,
@@ -4788,7 +7733,13 @@
 		"paramsText": [
 			100
 		],
-		"priority": 988
+		"priority": 988,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0",
+			"活动:「模拟宇宙」"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4092301,
@@ -4796,7 +7747,13 @@
 		"desc": "完成「模拟宇宙·第一世界」的探索",
 		"rarity": "Low",
 		"series": 9,
-		"priority": 987
+		"priority": 987,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0",
+			"活动:「模拟宇宙」"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4092302,
@@ -4804,7 +7761,13 @@
 		"desc": "完成难度2或以上「模拟宇宙」的探索",
 		"rarity": "Low",
 		"series": 9,
-		"priority": 986
+		"priority": 986,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0",
+			"活动:「模拟宇宙」"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4092303,
@@ -4812,7 +7775,13 @@
 		"desc": "完成难度4或以上「模拟宇宙」的探索",
 		"rarity": "Low",
 		"series": 9,
-		"priority": 985
+		"priority": 985,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0",
+			"活动:「模拟宇宙」"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4092312,
@@ -4823,7 +7792,13 @@
 		"paramsText": [
 			20
 		],
-		"priority": 984
+		"priority": 984,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0",
+			"活动:「模拟宇宙」"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4092313,
@@ -4834,7 +7809,13 @@
 		"paramsText": [
 			400
 		],
-		"priority": 983
+		"priority": 983,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0",
+			"活动:「模拟宇宙」"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4092314,
@@ -4845,7 +7826,13 @@
 		"paramsText": [
 			10
 		],
-		"priority": 982
+		"priority": 982,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0",
+			"活动:「模拟宇宙」"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4092315,
@@ -4856,7 +7843,13 @@
 		"paramsText": [
 			200
 		],
-		"priority": 981
+		"priority": 981,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0",
+			"活动:「模拟宇宙」"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4092316,
@@ -4867,7 +7860,13 @@
 		"paramsText": [
 			2
 		],
-		"priority": 980
+		"priority": 980,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0",
+			"活动:「模拟宇宙」"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4092317,
@@ -4878,7 +7877,13 @@
 		"paramsText": [
 			26
 		],
-		"priority": 979
+		"priority": 979,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0",
+			"活动:「模拟宇宙」"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4092318,
@@ -4889,7 +7894,13 @@
 		"paramsText": [
 			3
 		],
-		"priority": 978
+		"priority": 978,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0",
+			"活动:「模拟宇宙」"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4092319,
@@ -4900,7 +7911,13 @@
 		"paramsText": [
 			40
 		],
-		"priority": 977
+		"priority": 977,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0",
+			"活动:「模拟宇宙」"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4092320,
@@ -4911,7 +7928,13 @@
 		"paramsText": [
 			1
 		],
-		"priority": 976
+		"priority": 976,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0",
+			"活动:「模拟宇宙」"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4092321,
@@ -4922,7 +7945,13 @@
 		"paramsText": [
 			66
 		],
-		"priority": 975
+		"priority": 975,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0",
+			"活动:「模拟宇宙」"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4092322,
@@ -4933,7 +7962,14 @@
 		"paramsText": [
 			1
 		],
-		"priority": 974
+		"priority": 974,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0",
+			"活动:「模拟宇宙」",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4092323,
@@ -4944,7 +7980,13 @@
 		"paramsText": [
 			12
 		],
-		"priority": 973
+		"priority": 973,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0",
+			"活动:「模拟宇宙」"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4092324,
@@ -4955,7 +7997,13 @@
 		"paramsText": [
 			12
 		],
-		"priority": 972
+		"priority": 972,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0",
+			"活动:「模拟宇宙」"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4092325,
@@ -4966,7 +8014,13 @@
 		"paramsText": [
 			12
 		],
-		"priority": 971
+		"priority": 971,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0",
+			"活动:「模拟宇宙」"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4092326,
@@ -4977,7 +8031,13 @@
 		"paramsText": [
 			12
 		],
-		"priority": 970
+		"priority": 970,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0",
+			"活动:「模拟宇宙」"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4092327,
@@ -4988,7 +8048,13 @@
 		"paramsText": [
 			12
 		],
-		"priority": 969
+		"priority": 969,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0",
+			"活动:「模拟宇宙」"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4092328,
@@ -4999,7 +8065,13 @@
 		"paramsText": [
 			12
 		],
-		"priority": 968
+		"priority": 968,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0",
+			"活动:「模拟宇宙」"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4092329,
@@ -5010,7 +8082,13 @@
 		"paramsText": [
 			12
 		],
-		"priority": 967
+		"priority": 967,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0",
+			"活动:「模拟宇宙」"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4092330,
@@ -5021,7 +8099,13 @@
 		"paramsText": [
 			10
 		],
-		"priority": 966
+		"priority": 966,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0",
+			"活动:「模拟宇宙」"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4092331,
@@ -5032,7 +8116,13 @@
 		"paramsText": [
 			10
 		],
-		"priority": 965
+		"priority": 965,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0",
+			"活动:「模拟宇宙」"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4092332,
@@ -5043,7 +8133,13 @@
 		"paramsText": [
 			10
 		],
-		"priority": 964
+		"priority": 964,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0",
+			"活动:「模拟宇宙」"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4092333,
@@ -5054,7 +8150,13 @@
 		"paramsText": [
 			10
 		],
-		"priority": 963
+		"priority": 963,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0",
+			"活动:「模拟宇宙」"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4092334,
@@ -5065,7 +8167,13 @@
 		"paramsText": [
 			10
 		],
-		"priority": 962
+		"priority": 962,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0",
+			"活动:「模拟宇宙」"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4092335,
@@ -5076,7 +8184,13 @@
 		"paramsText": [
 			10
 		],
-		"priority": 961
+		"priority": 961,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0",
+			"活动:「模拟宇宙」"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4092336,
@@ -5087,7 +8201,13 @@
 		"paramsText": [
 			10
 		],
-		"priority": 960
+		"priority": 960,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0",
+			"活动:「模拟宇宙」"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4092337,
@@ -5098,7 +8218,13 @@
 		"paramsText": [
 			6
 		],
-		"priority": 959
+		"priority": 959,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0",
+			"活动:「模拟宇宙」"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4092338,
@@ -5109,7 +8235,13 @@
 		"paramsText": [
 			6
 		],
-		"priority": 958
+		"priority": 958,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0",
+			"活动:「模拟宇宙」"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4092339,
@@ -5120,7 +8252,13 @@
 		"paramsText": [
 			22
 		],
-		"priority": 957
+		"priority": 957,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0",
+			"活动:「模拟宇宙」"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4092340,
@@ -5131,7 +8269,13 @@
 		"paramsText": [
 			3
 		],
-		"priority": 956
+		"priority": 956,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0",
+			"活动:「模拟宇宙」"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4092341,
@@ -5142,7 +8286,13 @@
 		"paramsText": [
 			8
 		],
-		"priority": 955
+		"priority": 955,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0",
+			"活动:「模拟宇宙」"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4092342,
@@ -5153,7 +8303,13 @@
 		"paramsText": [
 			0
 		],
-		"priority": 954
+		"priority": 954,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0",
+			"活动:「模拟宇宙」"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4092343,
@@ -5164,7 +8320,13 @@
 		"paramsText": [
 			1024
 		],
-		"priority": 953
+		"priority": 953,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0",
+			"活动:「模拟宇宙」"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4092344,
@@ -5172,7 +8334,14 @@
 		"desc": "在与「模拟宇宙」精英敌人的战斗中落败",
 		"rarity": "Low",
 		"series": 9,
-		"priority": 952
+		"priority": 952,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0",
+			"活动:「模拟宇宙」",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4092345,
@@ -5180,7 +8349,14 @@
 		"desc": "在与「模拟宇宙」首领敌人的战斗中落败",
 		"rarity": "Low",
 		"series": 9,
-		"priority": 951
+		"priority": 951,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0",
+			"活动:「模拟宇宙」",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4092346,
@@ -5188,7 +8364,14 @@
 		"desc": "在「模拟宇宙」尼尔迪斯牌事件的战斗中落败",
 		"rarity": "Low",
 		"series": 9,
-		"priority": 950
+		"priority": 950,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0",
+			"活动:「模拟宇宙」",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4092347,
@@ -5196,7 +8379,14 @@
 		"desc": "在「模拟宇宙」酒馆事件的战斗中落败",
 		"rarity": "Low",
 		"series": 9,
-		"priority": 949
+		"priority": 949,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0",
+			"活动:「模拟宇宙」",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4092349,
@@ -5204,7 +8394,14 @@
 		"desc": "在不使用下载装置的情况下通关「模拟宇宙」（难度2及以上）",
 		"rarity": "Low",
 		"series": 9,
-		"priority": 948
+		"priority": 948,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0",
+			"活动:「模拟宇宙」",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4092350,
@@ -5212,7 +8409,14 @@
 		"desc": "在不打碎任何可破坏物的情况下通关「模拟宇宙」（难度2及以上）",
 		"rarity": "Low",
 		"series": 9,
-		"priority": 947
+		"priority": 947,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0",
+			"活动:「模拟宇宙」",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4092351,
@@ -5223,7 +8427,13 @@
 		"paramsText": [
 			25
 		],
-		"priority": 946
+		"priority": 946,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0",
+			"活动:「模拟宇宙」"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4092352,
@@ -5231,7 +8441,14 @@
 		"desc": "通关「模拟宇宙」时（难度2及以上），出场队伍仅为1名角色",
 		"rarity": "Low",
 		"series": 9,
-		"priority": 945
+		"priority": 945,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0",
+			"活动:「模拟宇宙」",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4092353,
@@ -5242,7 +8459,13 @@
 		"paramsText": [
 			4
 		],
-		"priority": 944
+		"priority": 944,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0",
+			"活动:「模拟宇宙」"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4092361,
@@ -5250,7 +8473,13 @@
 		"desc": "通关「模拟宇宙」时（难度2及以上），每场战斗胜利我方所有角色的当前生命值均等于各自的生命上限",
 		"rarity": "Mid",
 		"series": 9,
-		"priority": 943
+		"priority": 943,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.0",
+			"活动:「模拟宇宙」"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4092601,
@@ -5261,7 +8490,14 @@
 		"paramsText": [
 			12
 		],
-		"priority": 938
+		"priority": 938,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.3",
+			"活动:「模拟宇宙：寰宇蝗灾」",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4092602,
@@ -5272,7 +8508,14 @@
 		"paramsText": [
 			8
 		],
-		"priority": 937
+		"priority": 937,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.3",
+			"活动:「模拟宇宙：寰宇蝗灾」",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4092603,
@@ -5283,7 +8526,14 @@
 		"paramsText": [
 			6
 		],
-		"priority": 936
+		"priority": 936,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.3",
+			"活动:「模拟宇宙：寰宇蝗灾」",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4092604,
@@ -5294,7 +8544,14 @@
 		"paramsText": [
 			40
 		],
-		"priority": 935
+		"priority": 935,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.3",
+			"活动:「模拟宇宙：寰宇蝗灾」",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4092605,
@@ -5305,7 +8562,14 @@
 		"paramsText": [
 			15
 		],
-		"priority": 934
+		"priority": 934,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.3",
+			"活动:「模拟宇宙：寰宇蝗灾」",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4092606,
@@ -5316,7 +8580,14 @@
 		"paramsText": [
 			8
 		],
-		"priority": 933
+		"priority": 933,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.3",
+			"活动:「模拟宇宙：寰宇蝗灾」",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4092607,
@@ -5327,7 +8598,14 @@
 		"paramsText": [
 			80
 		],
-		"priority": 932
+		"priority": 932,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.3",
+			"活动:「模拟宇宙：寰宇蝗灾」",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4092608,
@@ -5338,7 +8616,14 @@
 		"paramsText": [
 			15
 		],
-		"priority": 931
+		"priority": 931,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.3",
+			"活动:「模拟宇宙：寰宇蝗灾」",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4092609,
@@ -5349,7 +8634,13 @@
 		"paramsText": [
 			100
 		],
-		"priority": 930
+		"priority": 930,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.3",
+			"活动:「模拟宇宙：寰宇蝗灾」"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4092610,
@@ -5360,7 +8651,13 @@
 		"paramsText": [
 			100
 		],
-		"priority": 929
+		"priority": 929,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.3",
+			"活动:「模拟宇宙：寰宇蝗灾」"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4092611,
@@ -5371,7 +8668,13 @@
 		"paramsText": [
 			100
 		],
-		"priority": 928
+		"priority": 928,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.3",
+			"活动:「模拟宇宙：寰宇蝗灾」"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4092612,
@@ -5382,7 +8685,13 @@
 		"paramsText": [
 			100
 		],
-		"priority": 927
+		"priority": 927,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.3",
+			"活动:「模拟宇宙：寰宇蝗灾」"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4092613,
@@ -5393,7 +8702,13 @@
 		"paramsText": [
 			100
 		],
-		"priority": 926
+		"priority": 926,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.3",
+			"活动:「模拟宇宙：寰宇蝗灾」"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4092614,
@@ -5404,7 +8719,13 @@
 		"paramsText": [
 			100
 		],
-		"priority": 925
+		"priority": 925,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.3",
+			"活动:「模拟宇宙：寰宇蝗灾」"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4092615,
@@ -5415,7 +8736,13 @@
 		"paramsText": [
 			100
 		],
-		"priority": 924
+		"priority": 924,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.3",
+			"活动:「模拟宇宙：寰宇蝗灾」"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4092616,
@@ -5426,7 +8753,13 @@
 		"paramsText": [
 			100
 		],
-		"priority": 923
+		"priority": 923,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.3",
+			"活动:「模拟宇宙：寰宇蝗灾」"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4092617,
@@ -5437,7 +8770,14 @@
 		"paramsText": [
 			9999
 		],
-		"priority": 922
+		"priority": 922,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.3",
+			"活动:「模拟宇宙：寰宇蝗灾」",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4092618,
@@ -5445,7 +8785,14 @@
 		"desc": "在「模拟宇宙：寰宇蝗灾」的事件星际和平公司「升职记」中<u>掌握了无尽权力</u>",
 		"rarity": "Low",
 		"series": 9,
-		"priority": 921
+		"priority": 921,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.3",
+			"活动:「模拟宇宙：寰宇蝗灾」",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4092619,
@@ -5453,7 +8800,14 @@
 		"desc": "在「模拟宇宙：寰宇蝗灾」中，在同一个【交易】区域内购买所有祝福商店与奇物商店的商品",
 		"rarity": "Low",
 		"series": 9,
-		"priority": 920
+		"priority": 920,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.3",
+			"活动:「模拟宇宙：寰宇蝗灾」",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4092620,
@@ -5461,7 +8815,14 @@
 		"desc": "在「模拟宇宙：寰宇蝗灾」中，在事件天才俱乐部#55余清涂触发的战斗中失败",
 		"rarity": "Low",
 		"series": 9,
-		"priority": 919
+		"priority": 919,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.3",
+			"活动:「模拟宇宙：寰宇蝗灾」",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4092621,
@@ -5472,7 +8833,14 @@
 		"paramsText": [
 			100
 		],
-		"priority": 918
+		"priority": 918,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.3",
+			"活动:「模拟宇宙：寰宇蝗灾」",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4092622,
@@ -5483,7 +8851,14 @@
 		"paramsText": [
 			16
 		],
-		"priority": 917
+		"priority": 917,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.3",
+			"活动:「模拟宇宙：寰宇蝗灾」",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4092623,
@@ -5494,7 +8869,13 @@
 		"paramsText": [
 			1
 		],
-		"priority": 916
+		"priority": 916,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.3",
+			"活动:「模拟宇宙：寰宇蝗灾」"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4092624,
@@ -5505,7 +8886,13 @@
 		"paramsText": [
 			2
 		],
-		"priority": 915
+		"priority": 915,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.3",
+			"活动:「模拟宇宙：寰宇蝗灾」"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4092625,
@@ -5516,7 +8903,13 @@
 		"paramsText": [
 			1
 		],
-		"priority": 914
+		"priority": 914,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.3",
+			"活动:「模拟宇宙：寰宇蝗灾」"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4092626,
@@ -5524,7 +8917,13 @@
 		"desc": "在「模拟宇宙：寰宇蝗灾」的【事件】区域中，完成所有命途的抉择",
 		"rarity": "Low",
 		"series": 9,
-		"priority": 913
+		"priority": 913,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.3",
+			"活动:「模拟宇宙：寰宇蝗灾」"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4092627,
@@ -5535,7 +8934,13 @@
 		"paramsText": [
 			10
 		],
-		"priority": 912
+		"priority": 912,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.3",
+			"活动:「模拟宇宙：寰宇蝗灾」"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4092628,
@@ -5546,7 +8951,13 @@
 		"paramsText": [
 			50
 		],
-		"priority": 911
+		"priority": 911,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.3",
+			"活动:「模拟宇宙：寰宇蝗灾」"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4092629,
@@ -5554,7 +8965,13 @@
 		"desc": "在「模拟宇宙：寰宇蝗灾」中，使用「虚无」以外的命途进入【空白】区域",
 		"rarity": "Low",
 		"series": 9,
-		"priority": 910
+		"priority": 910,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.3",
+			"活动:「模拟宇宙：寰宇蝗灾」"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4092630,
@@ -5562,7 +8979,13 @@
 		"desc": "在「模拟宇宙：寰宇蝗灾」中，在任意【冒险】区域达成所有目标",
 		"rarity": "Low",
 		"series": 9,
-		"priority": 909
+		"priority": 909,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.3",
+			"活动:「模拟宇宙：寰宇蝗灾」"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4092631,
@@ -5573,7 +8996,13 @@
 		"paramsText": [
 			15
 		],
-		"priority": 908
+		"priority": 908,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.3",
+			"活动:「模拟宇宙：寰宇蝗灾」"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4092632,
@@ -5584,7 +9013,13 @@
 		"paramsText": [
 			20
 		],
-		"priority": 907
+		"priority": 907,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.3",
+			"活动:「模拟宇宙：寰宇蝗灾」"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4092633,
@@ -5595,7 +9030,13 @@
 		"paramsText": [
 			1
 		],
-		"priority": 942
+		"priority": 942,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.3",
+			"活动:「模拟宇宙」"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4092634,
@@ -5606,7 +9047,13 @@
 		"paramsText": [
 			10
 		],
-		"priority": 940
+		"priority": 940,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.3",
+			"活动:「模拟宇宙」"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4092635,
@@ -5617,7 +9064,13 @@
 		"paramsText": [
 			40
 		],
-		"priority": 941
+		"priority": 941,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.3",
+			"活动:「模拟宇宙」"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4092636,
@@ -5625,7 +9078,13 @@
 		"desc": "通关「模拟宇宙：寰宇蝗灾」全部寰宇蝗灾剧情",
 		"rarity": "Mid",
 		"series": 9,
-		"priority": 906
+		"priority": 906,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.3",
+			"活动:「模拟宇宙：寰宇蝗灾」"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4092637,
@@ -5633,7 +9092,13 @@
 		"desc": "收集「模拟宇宙：寰宇蝗灾」全部开拓秘闻剧情",
 		"rarity": "Mid",
 		"series": 9,
-		"priority": 905
+		"priority": 905,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.3",
+			"活动:「模拟宇宙：寰宇蝗灾」"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4092638,
@@ -5641,7 +9106,13 @@
 		"desc": "完成「模拟宇宙：寰宇蝗灾」第五难度",
 		"rarity": "Low",
 		"series": 9,
-		"priority": 904
+		"priority": 904,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.3",
+			"活动:「模拟宇宙：寰宇蝗灾」"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4092639,
@@ -5649,7 +9120,13 @@
 		"desc": "收集「寰宇蝗灾」的章节「巡猎Ⅰ」",
 		"rarity": "Low",
 		"series": 9,
-		"priority": 903
+		"priority": 903,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.3",
+			"活动:「模拟宇宙：寰宇蝗灾」"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4092640,
@@ -5657,7 +9134,13 @@
 		"desc": "收集「寰宇蝗灾」的章节「存护Ⅱ」",
 		"rarity": "Low",
 		"series": 9,
-		"priority": 902
+		"priority": 902,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.3",
+			"活动:「模拟宇宙：寰宇蝗灾」"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4092641,
@@ -5665,7 +9148,13 @@
 		"desc": "收集「寰宇蝗灾」的章节「虚无Ⅰ」",
 		"rarity": "Low",
 		"series": 9,
-		"priority": 901
+		"priority": 901,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.3",
+			"活动:「模拟宇宙：寰宇蝗灾」"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4092801,
@@ -5673,7 +9162,13 @@
 		"desc": "在「模拟宇宙」中，使用包含银枝的队伍接受纯美骑士的帮助",
 		"rarity": "Low",
 		"series": 9,
-		"priority": 939
+		"priority": 939,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.5",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4092902,
@@ -5684,7 +9179,13 @@
 		"paramsText": [
 			1
 		],
-		"priority": 938
+		"priority": 938,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.6",
+			"活动:「模拟宇宙」"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4092903,
@@ -5695,7 +9196,13 @@
 		"paramsText": [
 			10
 		],
-		"priority": 937
+		"priority": 937,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.6",
+			"活动:「模拟宇宙」"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4092904,
@@ -5706,7 +9213,13 @@
 		"paramsText": [
 			200
 		],
-		"priority": 936
+		"priority": 936,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.6",
+			"活动:「模拟宇宙：黄金与机械」"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4092905,
@@ -5717,7 +9230,14 @@
 		"paramsText": [
 			10
 		],
-		"priority": 935
+		"priority": 935,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.6",
+			"隐藏成就",
+			"活动:「模拟宇宙：黄金与机械」"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4092906,
@@ -5728,7 +9248,14 @@
 		"paramsText": [
 			40
 		],
-		"priority": 934
+		"priority": 934,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.6",
+			"隐藏成就",
+			"活动:「模拟宇宙：黄金与机械」"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4092907,
@@ -5739,7 +9266,14 @@
 		"paramsText": [
 			40
 		],
-		"priority": 933
+		"priority": 933,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.6",
+			"隐藏成就",
+			"活动:「模拟宇宙：黄金与机械」"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4092909,
@@ -5750,7 +9284,14 @@
 		"paramsText": [
 			50
 		],
-		"priority": 932
+		"priority": 932,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.6",
+			"隐藏成就",
+			"活动:「模拟宇宙：黄金与机械」"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4092910,
@@ -5758,7 +9299,14 @@
 		"desc": "在「模拟宇宙：黄金与机械」中，在「星际和平投资机器」事件中，投资大成功",
 		"rarity": "Low",
 		"series": 9,
-		"priority": 931
+		"priority": 931,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.6",
+			"隐藏成就",
+			"活动:「模拟宇宙：黄金与机械」"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4092911,
@@ -5766,7 +9314,14 @@
 		"desc": "在「模拟宇宙：黄金与机械」中，在「作弊代码（其二）」事件触发的战斗中失败",
 		"rarity": "Low",
 		"series": 9,
-		"priority": 930
+		"priority": 930,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.6",
+			"隐藏成就",
+			"活动:「模拟宇宙：黄金与机械」"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4092912,
@@ -5777,7 +9332,14 @@
 		"paramsText": [
 			1
 		],
-		"priority": 929
+		"priority": 929,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.6",
+			"隐藏成就",
+			"活动:「模拟宇宙：黄金与机械」"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4092913,
@@ -5788,7 +9350,13 @@
 		"paramsText": [
 			25
 		],
-		"priority": 928
+		"priority": 928,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.6",
+			"活动:「模拟宇宙：黄金与机械」"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4092914,
@@ -5799,7 +9367,13 @@
 		"paramsText": [
 			20
 		],
-		"priority": 927
+		"priority": 927,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.6",
+			"活动:「模拟宇宙：黄金与机械」"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4092915,
@@ -5810,7 +9384,13 @@
 		"paramsText": [
 			5
 		],
-		"priority": 926
+		"priority": 926,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.6",
+			"活动:「模拟宇宙：黄金与机械」"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4092916,
@@ -5821,7 +9401,13 @@
 		"paramsText": [
 			15
 		],
-		"priority": 925
+		"priority": 925,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.6",
+			"活动:「模拟宇宙：黄金与机械」"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4092917,
@@ -5832,7 +9418,13 @@
 		"paramsText": [
 			15
 		],
-		"priority": 924
+		"priority": 924,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.6",
+			"活动:「模拟宇宙：黄金与机械」"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4092918,
@@ -5840,7 +9432,13 @@
 		"desc": "通关「模拟宇宙：黄金与机械」时，使用自定义骰「超距信标」，进入过的区域中带有所有不同种类的信标",
 		"rarity": "Low",
 		"series": 9,
-		"priority": 923
+		"priority": 923,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.6",
+			"活动:「模拟宇宙：黄金与机械」"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4092919,
@@ -5851,7 +9449,13 @@
 		"paramsText": [
 			2048
 		],
-		"priority": 922
+		"priority": 922,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.6",
+			"活动:「模拟宇宙：黄金与机械」"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4092920,
@@ -5862,7 +9466,13 @@
 		"paramsText": [
 			30
 		],
-		"priority": 921
+		"priority": 921,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.6",
+			"活动:「模拟宇宙：黄金与机械」"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4092921,
@@ -5873,7 +9483,13 @@
 		"paramsText": [
 			30
 		],
-		"priority": 920
+		"priority": 920,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.6",
+			"活动:「模拟宇宙：黄金与机械」"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4092922,
@@ -5884,7 +9500,13 @@
 		"paramsText": [
 			20
 		],
-		"priority": 919
+		"priority": 919,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.6",
+			"活动:「模拟宇宙：黄金与机械」"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4092923,
@@ -5895,7 +9517,13 @@
 		"paramsText": [
 			25
 		],
-		"priority": 918
+		"priority": 918,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.6",
+			"活动:「模拟宇宙：黄金与机械」"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4092924,
@@ -5906,7 +9534,13 @@
 		"paramsText": [
 			30
 		],
-		"priority": 917
+		"priority": 917,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.6",
+			"活动:「模拟宇宙：黄金与机械」"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4092925,
@@ -5914,7 +9548,14 @@
 		"desc": "收集「黄金与机械」的星神秘闻「开端」",
 		"rarity": "Low",
 		"series": 9,
-		"priority": 916
+		"priority": 916,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.6",
+			"隐藏成就",
+			"活动:「模拟宇宙：黄金与机械」"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4092926,
@@ -5922,7 +9563,14 @@
 		"desc": "收集「黄金与机械」的星神秘闻「终局」",
 		"rarity": "Mid",
 		"series": 9,
-		"priority": 915
+		"priority": 915,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.6",
+			"隐藏成就",
+			"活动:「模拟宇宙：黄金与机械」"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4092927,
@@ -5933,7 +9581,14 @@
 		"paramsText": [
 			60
 		],
-		"priority": 914
+		"priority": 914,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.6",
+			"隐藏成就",
+			"活动:「模拟宇宙：黄金与机械」"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4092928,
@@ -5944,7 +9599,14 @@
 		"paramsText": [
 			12
 		],
-		"priority": 913
+		"priority": 913,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.6",
+			"隐藏成就",
+			"活动:「模拟宇宙：黄金与机械」"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4092929,
@@ -5952,7 +9614,14 @@
 		"desc": "完成「模拟宇宙：黄金与机械」第五难度",
 		"rarity": "Low",
 		"series": 9,
-		"priority": 912
+		"priority": 912,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.6",
+			"隐藏成就",
+			"活动:「模拟宇宙：黄金与机械」"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4092930,
@@ -5963,7 +9632,14 @@
 		"paramsText": [
 			1
 		],
-		"priority": 911
+		"priority": 911,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.6",
+			"隐藏成就",
+			"活动:「模拟宇宙：黄金与机械」"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4092931,
@@ -5974,7 +9650,14 @@
 		"paramsText": [
 			6
 		],
-		"priority": 910
+		"priority": 910,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.6",
+			"隐藏成就",
+			"活动:「模拟宇宙：黄金与机械」"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4092932,
@@ -5985,7 +9668,14 @@
 		"paramsText": [
 			6
 		],
-		"priority": 909
+		"priority": 909,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.6",
+			"隐藏成就",
+			"活动:「模拟宇宙：黄金与机械」"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4092933,
@@ -5996,7 +9686,14 @@
 		"paramsText": [
 			12
 		],
-		"priority": 908
+		"priority": 908,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.6",
+			"隐藏成就",
+			"活动:「模拟宇宙：黄金与机械」"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4092934,
@@ -6007,7 +9704,14 @@
 		"paramsText": [
 			20
 		],
-		"priority": 907
+		"priority": 907,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.6",
+			"隐藏成就",
+			"活动:「模拟宇宙：黄金与机械」"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4092935,
@@ -6018,7 +9722,14 @@
 		"paramsText": [
 			10
 		],
-		"priority": 906
+		"priority": 906,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.6",
+			"隐藏成就",
+			"活动:「模拟宇宙：黄金与机械」"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4092936,
@@ -6029,7 +9740,14 @@
 		"paramsText": [
 			6
 		],
-		"priority": 905
+		"priority": 905,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.6",
+			"隐藏成就",
+			"活动:「模拟宇宙：黄金与机械」"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4092937,
@@ -6040,7 +9758,14 @@
 		"paramsText": [
 			6
 		],
-		"priority": 904
+		"priority": 904,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.6",
+			"隐藏成就",
+			"活动:「模拟宇宙：黄金与机械」"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4092938,
@@ -6051,7 +9776,14 @@
 		"paramsText": [
 			10
 		],
-		"priority": 903
+		"priority": 903,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.6",
+			"隐藏成就",
+			"活动:「模拟宇宙：黄金与机械」"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4092939,
@@ -6062,7 +9794,14 @@
 		"paramsText": [
 			1
 		],
-		"priority": 902
+		"priority": 902,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.6",
+			"隐藏成就",
+			"活动:「模拟宇宙：黄金与机械」"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4092940,
@@ -6073,7 +9812,14 @@
 		"paramsText": [
 			6
 		],
-		"priority": 901
+		"priority": 901,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.6",
+			"隐藏成就",
+			"活动:「模拟宇宙：黄金与机械」"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4092941,
@@ -6084,6 +9830,13 @@
 		"paramsText": [
 			10
 		],
-		"priority": 900
+		"priority": 900,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:1.6",
+			"隐藏成就",
+			"活动:「模拟宇宙：黄金与机械」"
+		],
+		"difficulty": {}
 	}
 ]
