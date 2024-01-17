@@ -28,8 +28,8 @@ import metasVersion from '../../meta/meta.version.json';
  * @typedef {Object} GachaPool
  * @property {string} id 2001
  * @property {string} type 11
- * @property {number} [timeStart] 1684317600
- * @property {number} [timeEnd] 1686034799
+ * @property {number} [timeBorn] 1684317600
+ * @property {number} [timeDead] 1686034799
  * @property {'character'|'lightcone'} [typeItem]
  * @property {string[]} [itemsBoost5]
  * @property {string[]} [itemsBoost4]

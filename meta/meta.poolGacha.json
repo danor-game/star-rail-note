@@ -23,7 +23,7 @@
 	{
 		"id": "2003",
 		"type": "11",
-		"timeEnd": 1684317599,
+		"timeDead": 1684317599,
 		"typeItem": "character",
 		"itemsBoost5": [
 			"1102"
@@ -43,7 +43,7 @@
 	{
 		"id": "3003",
 		"type": "12",
-		"timeEnd": 1684317599,
+		"timeDead": 1684317599,
 		"typeItem": "lightcone",
 		"itemsBoost5": [
 			"23001"
@@ -63,8 +63,8 @@
 	{
 		"id": "2004",
 		"type": "11",
-		"timeStart": 1684317600,
-		"timeEnd": 1686034799,
+		"timeBorn": 1684317600,
+		"timeDead": 1686034799,
 		"typeItem": "character",
 		"itemsBoost5": [
 			"1204"
@@ -84,8 +84,8 @@
 	{
 		"id": "3004",
 		"type": "12",
-		"timeStart": 1684317600,
-		"timeEnd": 1686034799,
+		"timeBorn": 1684317600,
+		"timeDead": 1686034799,
 		"typeItem": "lightcone",
 		"itemsBoost5": [
 			"23010"
@@ -105,7 +105,7 @@
 	{
 		"id": "2005",
 		"type": "11",
-		"timeEnd": 1687924799,
+		"timeDead": 1687924799,
 		"typeItem": "character",
 		"itemsBoost5": [
 			"1006"
@@ -125,7 +125,7 @@
 	{
 		"id": "3005",
 		"type": "12",
-		"timeEnd": 1687924799,
+		"timeDead": 1687924799,
 		"typeItem": "lightcone",
 		"itemsBoost5": [
 			"23007"
@@ -145,8 +145,8 @@
 	{
 		"id": "2006",
 		"type": "11",
-		"timeStart": 1687924800,
-		"timeEnd": 1689663599,
+		"timeBorn": 1687924800,
+		"timeDead": 1689663599,
 		"typeItem": "character",
 		"itemsBoost5": [
 			"1203"
@@ -166,8 +166,8 @@
 	{
 		"id": "3006",
 		"type": "12",
-		"timeStart": 1687924800,
-		"timeEnd": 1689663599,
+		"timeBorn": 1687924800,
+		"timeDead": 1689663599,
 		"typeItem": "lightcone",
 		"itemsBoost5": [
 			"23008"
@@ -187,7 +187,7 @@
 	{
 		"id": "2007",
 		"type": "11",
-		"timeEnd": 1691553599,
+		"timeDead": 1691553599,
 		"typeItem": "character",
 		"itemsBoost5": [
 			"1205"
@@ -207,7 +207,7 @@
 	{
 		"id": "3007",
 		"type": "12",
-		"timeEnd": 1691553599,
+		"timeDead": 1691553599,
 		"typeItem": "lightcone",
 		"itemsBoost5": [
 			"23009"
@@ -227,8 +227,8 @@
 	{
 		"id": "2008",
 		"type": "11",
-		"timeStart": 1691553600,
-		"timeEnd": 1693292399,
+		"timeBorn": 1691553600,
+		"timeDead": 1693292399,
 		"typeItem": "character",
 		"itemsBoost5": [
 			"1005"
@@ -248,8 +248,8 @@
 	{
 		"id": "3008",
 		"type": "12",
-		"timeStart": 1691553600,
-		"timeEnd": 1693292399,
+		"timeBorn": 1691553600,
+		"timeDead": 1693292399,
 		"typeItem": "lightcone",
 		"itemsBoost5": [
 			"23006"
@@ -269,7 +269,7 @@
 	{
 		"id": "2009",
 		"type": "11",
-		"timeEnd": 1695182399,
+		"timeDead": 1695182399,
 		"typeItem": "character",
 		"itemsBoost5": [
 			"1213"
@@ -289,7 +289,7 @@
 	{
 		"id": "3009",
 		"type": "12",
-		"timeEnd": 1695182399,
+		"timeDead": 1695182399,
 		"typeItem": "lightcone",
 		"itemsBoost5": [
 			"23015"
@@ -309,8 +309,8 @@
 	{
 		"id": "2010",
 		"type": "11",
-		"timeStart": 1695182400,
-		"timeEnd": 1696921199,
+		"timeBorn": 1695182400,
+		"timeDead": 1696921199,
 		"typeItem": "character",
 		"itemsBoost5": [
 			"1208"
@@ -330,8 +330,8 @@
 	{
 		"id": "3010",
 		"type": "12",
-		"timeStart": 1695182400,
-		"timeEnd": 1696921199,
+		"timeBorn": 1695182400,
+		"timeDead": 1696921199,
 		"typeItem": "lightcone",
 		"itemsBoost5": [
 			"23011"
@@ -351,7 +351,7 @@
 	{
 		"id": "2011",
 		"type": "11",
-		"timeEnd": 1698379199,
+		"timeDead": 1698379199,
 		"typeItem": "character",
 		"itemsBoost5": [
 			"1212"
@@ -371,7 +371,7 @@
 	{
 		"id": "3011",
 		"type": "12",
-		"timeEnd": 1698379199,
+		"timeDead": 1698379199,
 		"typeItem": "lightcone",
 		"itemsBoost5": [
 			"23014"
@@ -391,8 +391,8 @@
 	{
 		"id": "2012",
 		"type": "11",
-		"timeStart": 1698379200,
-		"timeEnd": 1699945199,
+		"timeBorn": 1698379200,
+		"timeDead": 1699945199,
 		"typeItem": "character",
 		"itemsBoost5": [
 			"1112"
@@ -412,8 +412,8 @@
 	{
 		"id": "3012",
 		"type": "12",
-		"timeStart": 1698379200,
-		"timeEnd": 1699945199,
+		"timeBorn": 1698379200,
+		"timeDead": 1699945199,
 		"typeItem": "lightcone",
 		"itemsBoost5": [
 			"23016"
@@ -433,8 +433,8 @@
 	{
 		"id": "2013",
 		"type": "11",
-		"timeStart": 1698379200,
-		"timeEnd": 1699945199,
+		"timeBorn": 1698379200,
+		"timeDead": 1699945199,
 		"typeItem": "character",
 		"itemsBoost5": [
 			"1102"
@@ -456,8 +456,8 @@
 	{
 		"id": "3013",
 		"type": "12",
-		"timeStart": 1698379200,
-		"timeEnd": 1699945199,
+		"timeBorn": 1698379200,
+		"timeDead": 1699945199,
 		"typeItem": "lightcone",
 		"itemsBoost5": [
 			"23001"
@@ -479,7 +479,7 @@
 	{
 		"id": "2014",
 		"type": "11",
-		"timeEnd": 1701835199,
+		"timeDead": 1701835199,
 		"typeItem": "character",
 		"itemsBoost5": [
 			"1217"
@@ -499,7 +499,7 @@
 	{
 		"id": "3014",
 		"type": "12",
-		"timeEnd": 1701835199,
+		"timeDead": 1701835199,
 		"typeItem": "lightcone",
 		"itemsBoost5": [
 			"23017"
@@ -519,8 +519,8 @@
 	{
 		"id": "2015",
 		"type": "11",
-		"timeStart": 1701835200,
-		"timeEnd": 1703573999,
+		"timeBorn": 1701835200,
+		"timeDead": 1703573999,
 		"typeItem": "character",
 		"itemsBoost5": [
 			"1302"
@@ -540,8 +540,8 @@
 	{
 		"id": "3015",
 		"type": "12",
-		"timeStart": 1701835200,
-		"timeEnd": 1703573999,
+		"timeBorn": 1701835200,
+		"timeDead": 1703573999,
 		"typeItem": "lightcone",
 		"itemsBoost5": [
 			"23018"
@@ -561,8 +561,8 @@
 	{
 		"id": "2016",
 		"type": "11",
-		"timeStart": 1701835200,
-		"timeEnd": 1703573999,
+		"timeBorn": 1701835200,
+		"timeDead": 1703573999,
 		"typeItem": "character",
 		"itemsBoost5": [
 			"1006"
@@ -584,8 +584,8 @@
 	{
 		"id": "3016",
 		"type": "12",
-		"timeStart": 1701835200,
-		"timeEnd": 1703573999,
+		"timeBorn": 1701835200,
+		"timeDead": 1703573999,
 		"typeItem": "lightcone",
 		"itemsBoost5": [
 			"23007"
@@ -607,7 +607,7 @@
 	{
 		"id": "2017",
 		"type": "11",
-		"timeEnd": 1705463999,
+		"timeDead": 1705463999,
 		"typeItem": "character",
 		"itemsBoost5": [
 			"1303"
@@ -627,7 +627,7 @@
 	{
 		"id": "3017",
 		"type": "12",
-		"timeEnd": 1705463999,
+		"timeDead": 1705463999,
 		"typeItem": "lightcone",
 		"itemsBoost5": [
 			"23019"
@@ -647,7 +647,7 @@
 	{
 		"id": "2018",
 		"type": "11",
-		"timeEnd": 1705463999,
+		"timeDead": 1705463999,
 		"typeItem": "character",
 		"itemsBoost5": [
 			"1205"
@@ -669,7 +669,7 @@
 	{
 		"id": "3018",
 		"type": "12",
-		"timeEnd": 1705463999,
+		"timeDead": 1705463999,
 		"typeItem": "lightcone",
 		"itemsBoost5": [
 			"23009"
@@ -691,8 +691,8 @@
 	{
 		"id": "2019",
 		"type": "11",
-		"timeStart": 1705464000,
-		"timeEnd": 1707116399,
+		"timeBorn": 1705464000,
+		"timeDead": 1707116399,
 		"typeItem": "character",
 		"itemsBoost5": [
 			"1305"
@@ -712,8 +712,8 @@
 	{
 		"id": "3019",
 		"type": "12",
-		"timeStart": 1705464000,
-		"timeEnd": 1707116399,
+		"timeBorn": 1705464000,
+		"timeDead": 1707116399,
 		"typeItem": "lightcone",
 		"itemsBoost5": [
 			"23020"
@@ -733,8 +733,8 @@
 	{
 		"id": "2020",
 		"type": "11",
-		"timeStart": 1705464000,
-		"timeEnd": 1707116399,
+		"timeBorn": 1705464000,
+		"timeDead": 1707116399,
 		"typeItem": "character",
 		"itemsBoost5": [
 			"1005"
@@ -756,8 +756,8 @@
 	{
 		"id": "3020",
 		"type": "12",
-		"timeStart": 1705464000,
-		"timeEnd": 1707116399,
+		"timeBorn": 1705464000,
+		"timeDead": 1707116399,
 		"typeItem": "lightcone",
 		"itemsBoost5": [
 			"23006"
