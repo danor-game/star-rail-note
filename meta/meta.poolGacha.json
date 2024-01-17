@@ -689,6 +689,94 @@
 		}
 	},
 	{
+		"id": "2019",
+		"type": "11",
+		"timeStart": 1705464000,
+		"timeEnd": 1707116399,
+		"typeItem": "character",
+		"itemsBoost5": [
+			"1305"
+		],
+		"itemsBoost4": [
+			"1206",
+			"1105",
+			"1109"
+		],
+		"versionAdded": "1.6",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "万物皆流"
+			}
+		}
+	},
+	{
+		"id": "3019",
+		"type": "12",
+		"timeStart": 1705464000,
+		"timeEnd": 1707116399,
+		"typeItem": "lightcone",
+		"itemsBoost5": [
+			"23020"
+		],
+		"itemsBoost4": [
+			"21014",
+			"21003",
+			"21009"
+		],
+		"versionAdded": "1.6",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "纯粹思维的洗礼"
+			}
+		}
+	},
+	{
+		"id": "2020",
+		"type": "11",
+		"timeStart": 1705464000,
+		"timeEnd": 1707116399,
+		"typeItem": "character",
+		"itemsBoost5": [
+			"1005"
+		],
+		"itemsBoost4": [
+			"1206",
+			"1105",
+			"1109"
+		],
+		"versionAdded": "1.6",
+		"rerun": 1,
+		"idLeader": "2019",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "夜将不眠"
+			}
+		}
+	},
+	{
+		"id": "3020",
+		"type": "12",
+		"timeStart": 1705464000,
+		"timeEnd": 1707116399,
+		"typeItem": "lightcone",
+		"itemsBoost5": [
+			"23006"
+		],
+		"itemsBoost4": [
+			"21014",
+			"21003",
+			"21009"
+		],
+		"versionAdded": "1.6",
+		"rerun": 1,
+		"idLeader": "3019",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "只需等待"
+			}
+		}
+	},
+	{
 		"id": "2999",
 		"type": "11",
 		"typeItem": "character",
