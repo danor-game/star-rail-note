@@ -777,6 +777,178 @@
 		}
 	},
 	{
+		"id": "2021",
+		"type": "11",
+		"timeDead": 1709179199,
+		"typeItem": "character",
+		"itemsBoost5": [
+			"1307"
+		],
+		"itemsBoost4": [
+			"1312",
+			"1202",
+			"1210"
+		],
+		"versionAdded": "2.0",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "镜映婆娑"
+			}
+		}
+	},
+	{
+		"id": "3021",
+		"type": "12",
+		"timeDead": 1709179199,
+		"typeItem": "lightcone",
+		"itemsBoost5": [
+			"23022"
+		],
+		"itemsBoost4": [
+			"21042",
+			"21015",
+			"21018"
+		],
+		"versionAdded": "2.0",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "重塑时光之忆"
+			}
+		}
+	},
+	{
+		"id": "2022",
+		"type": "11",
+		"timeDead": 1709179199,
+		"typeItem": "character",
+		"itemsBoost5": [
+			"1213"
+		],
+		"itemsBoost4": [
+			"1312",
+			"1202",
+			"1210"
+		],
+		"versionAdded": "2.0",
+		"rerun": 1,
+		"idLeader": "2021",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "濯世垂虹"
+			}
+		}
+	},
+	{
+		"id": "3022",
+		"type": "12",
+		"timeDead": 1709179199,
+		"typeItem": "lightcone",
+		"itemsBoost5": [
+			"23015"
+		],
+		"itemsBoost4": [
+			"21042",
+			"21015",
+			"21018"
+		],
+		"versionAdded": "2.0",
+		"rerun": 1,
+		"idLeader": "3021",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "比阳光更明亮的"
+			}
+		}
+	},
+	{
+		"id": "2023",
+		"type": "11",
+		"timeBorn": 1709179200,
+		"timeDead": 1711436399,
+		"typeItem": "character",
+		"itemsBoost5": [
+			"1306"
+		],
+		"itemsBoost4": [
+			"1108",
+			"1201",
+			"1215"
+		],
+		"versionAdded": "2.0",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "焰锦游鱼"
+			}
+		}
+	},
+	{
+		"id": "3023",
+		"type": "12",
+		"timeBorn": 1709179200,
+		"timeDead": 1711436399,
+		"typeItem": "lightcone",
+		"itemsBoost5": [
+			"23021"
+		],
+		"itemsBoost4": [
+			"21011",
+			"21019",
+			"21020"
+		],
+		"versionAdded": "2.0",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "游戏尘寰"
+			}
+		}
+	},
+	{
+		"id": "2024",
+		"type": "11",
+		"timeBorn": 1709179200,
+		"timeDead": 1711436399,
+		"typeItem": "character",
+		"itemsBoost5": [
+			"1204"
+		],
+		"itemsBoost4": [
+			"1108",
+			"1201",
+			"1215"
+		],
+		"versionAdded": "2.0",
+		"rerun": 1,
+		"idLeader": "2023",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "天戈麾斥"
+			}
+		}
+	},
+	{
+		"id": "3024",
+		"type": "12",
+		"timeBorn": 1709179200,
+		"timeDead": 1711436399,
+		"typeItem": "lightcone",
+		"itemsBoost5": [
+			"23010"
+		],
+		"itemsBoost4": [
+			"21011",
+			"21019",
+			"21020"
+		],
+		"versionAdded": "2.0",
+		"rerun": 1,
+		"idLeader": "3023",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "拂晓之前"
+			}
+		}
+	},
+	{
 		"id": "2999",
 		"type": "11",
 		"typeItem": "character",

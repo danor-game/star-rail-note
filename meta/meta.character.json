@@ -520,6 +520,45 @@
 		}
 	},
 	{
+		"id": "1306",
+		"element": "Quantum",
+		"path": "Shaman",
+		"rarity": 5,
+		"versionAdded": "2.0",
+		"versionAvailable": "2.0",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "花火"
+			}
+		}
+	},
+	{
+		"id": "1307",
+		"element": "Wind",
+		"path": "Warlock",
+		"rarity": 5,
+		"versionAdded": "2.0",
+		"versionAvailable": "2.0",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "黑天鹅"
+			}
+		}
+	},
+	{
+		"id": "1312",
+		"element": "Ice",
+		"path": "Warrior",
+		"rarity": 4,
+		"versionAdded": "2.0",
+		"versionAvailable": "2.0",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "米沙"
+			}
+		}
+	},
+	{
 		"id": "8001",
 		"element": "Physical",
 		"path": "Warrior",

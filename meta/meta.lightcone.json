@@ -672,6 +672,102 @@
 		}
 	},
 	{
+		"id": "21035",
+		"path": "Priest",
+		"rarity": 4,
+		"versionAdded": "2.0",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "何物为真",
+				"nameEffect": "假设"
+			}
+		}
+	},
+	{
+		"id": "21036",
+		"path": "Shaman",
+		"rarity": 4,
+		"versionAdded": "2.0",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "美梦小镇大冒险",
+				"nameEffect": "团结"
+			}
+		}
+	},
+	{
+		"id": "21037",
+		"path": "Rogue",
+		"rarity": 4,
+		"versionAdded": "2.0",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "最后的赢家",
+				"nameEffect": "下注"
+			}
+		}
+	},
+	{
+		"id": "21038",
+		"path": "Warrior",
+		"rarity": 4,
+		"versionAdded": "2.0",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "在火的远处",
+				"nameEffect": "爆燃"
+			}
+		}
+	},
+	{
+		"id": "21039",
+		"path": "Knight",
+		"rarity": 4,
+		"versionAdded": "2.0",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "织造命运之线",
+				"nameEffect": "洞见"
+			}
+		}
+	},
+	{
+		"id": "21040",
+		"path": "Mage",
+		"rarity": 4,
+		"versionAdded": "2.0",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "银河沦陷日",
+				"nameEffect": "攻略"
+			}
+		}
+	},
+	{
+		"id": "21041",
+		"path": "Warlock",
+		"rarity": 4,
+		"versionAdded": "2.0",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "好戏开演",
+				"nameEffect": "自娱自乐"
+			}
+		}
+	},
+	{
+		"id": "21042",
+		"path": "Warrior",
+		"rarity": 4,
+		"versionAdded": "2.0",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "铭记于心的约定",
+				"nameEffect": "传承"
+			}
+		}
+	},
+	{
 		"id": "22000",
 		"path": "Warlock",
 		"rarity": 4,
@@ -958,6 +1054,32 @@
 			"zh-cn": {
 				"name": "纯粹思维的洗礼",
 				"nameEffect": "思想训练"
+			}
+		}
+	},
+	{
+		"id": "23021",
+		"path": "Shaman",
+		"rarity": 5,
+		"characterBest": "1306",
+		"versionAdded": "2.0",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "游戏尘寰",
+				"nameEffect": "善变"
+			}
+		}
+	},
+	{
+		"id": "23022",
+		"path": "Warlock",
+		"rarity": 5,
+		"characterBest": "1307",
+		"versionAdded": "2.0",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "重塑时光之忆",
+				"nameEffect": "结晶"
 			}
 		}
 	},

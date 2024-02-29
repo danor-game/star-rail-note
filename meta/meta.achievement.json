@@ -783,6 +783,90 @@
 		"difficulty": ""
 	},
 	{
+		"id": 4033001,
+		"title": "你还记得我吗？",
+		"desc": "在旅程之初遇见了意外的人…\\n<color=#8790abff>※在陌生的梦境与黄泉邂逅</color>",
+		"rarity": "Mid",
+		"series": 3,
+		"descHide": "在旅程之初遇见了意外的人…",
+		"priority": 982,
+		"tags": [
+			"版本:2.0",
+			"隐藏描述"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4033002,
+		"title": "梦之国的开拓者",
+		"desc": "来到不可思议的梦想之地！\\n<color=#8790abff>※抵达「黄金的时刻」</color>",
+		"rarity": "Mid",
+		"series": 3,
+		"descHide": "来到不可思议的梦想之地！",
+		"priority": 981,
+		"tags": [
+			"版本:2.0",
+			"隐藏描述"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4033003,
+		"title": "夜色名为温柔",
+		"desc": "目睹流星划过梦中的天空\\n<color=#8790abff>※在筑梦边境得知流萤的秘密</color>",
+		"rarity": "Mid",
+		"series": 3,
+		"descHide": "目睹流星划过梦中的天空",
+		"priority": 980,
+		"tags": [
+			"版本:2.0",
+			"隐藏描述"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4033004,
+		"title": "当甜蜜来敲门",
+		"desc": "发现梦境世界的意外之喜\\n<color=#8790abff>※逃离「死亡」的阴影</color>",
+		"rarity": "Mid",
+		"series": 3,
+		"descHide": "发现梦境世界的意外之喜",
+		"priority": 979,
+		"tags": [
+			"版本:2.0",
+			"隐藏描述"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4033005,
+		"title": "老朋友，新朋友",
+		"desc": "在记忆的深海中感受温暖…\\n<color=#8790abff>※与星核猎手萨姆交战</color>",
+		"rarity": "Mid",
+		"series": 3,
+		"descHide": "在记忆的深海中感受温暖…",
+		"priority": 978,
+		"tags": [
+			"版本:2.0",
+			"隐藏描述"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4033006,
+		"title": "使一颗心免于哀伤",
+		"desc": "整个匹诺康尼都将为之疯狂…\\n<color=#8790abff>※见证第二起命案</color>",
+		"rarity": "Mid",
+		"series": 3,
+		"descHide": "整个匹诺康尼都将为之疯狂…",
+		"priority": 977,
+		"tags": [
+			"版本:2.0",
+			"隐藏描述"
+		],
+		"difficulty": {}
+	},
+	{
 		"id": 4040101,
 		"title": "角色扮演游戏里合法",
 		"desc": "开启<unbreak>#1[i]</unbreak>次空间站「黑塔」战利品",
@@ -1335,6 +1419,293 @@
 			"版本:1.5"
 		],
 		"difficulty": ""
+	},
+	{
+		"id": 4043001,
+		"title": "天堂的这一边",
+		"desc": "在匹诺康尼激活<unbreak>#1[i]</unbreak>次界域定锚",
+		"rarity": "Low",
+		"series": 4,
+		"paramsText": [
+			15
+		],
+		"priority": 955,
+		"tags": [
+			"版本:2.0"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4043002,
+		"title": "匹诺康尼梦",
+		"desc": "开启<unbreak>#1[i]</unbreak>次匹诺康尼战利品",
+		"rarity": "Mid",
+		"series": 4,
+		"paramsText": [
+			120
+		],
+		"priority": 954,
+		"tags": [
+			"版本:2.0"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4043003,
+		"title": "太空漫步",
+		"desc": "完成「屠场」任务，查清梦境酒店背后的真相",
+		"rarity": "Low",
+		"series": 4,
+		"priority": 953,
+		"tags": [
+			"版本:2.0",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4043004,
+		"title": "啾？",
+		"desc": "帮助<unbreak>#1[i]</unbreak>只折纸小鸟回到「大树」",
+		"rarity": "Low",
+		"series": 4,
+		"paramsText": [
+			1
+		],
+		"priority": 952,
+		"tags": [
+			"版本:2.0"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4043005,
+		"title": "啾啾啾！",
+		"desc": "帮助<unbreak>#1[i]</unbreak>只折纸小鸟回到「大树」",
+		"rarity": "Low",
+		"series": 4,
+		"paramsText": [
+			60
+		],
+		"priority": 951,
+		"tags": [
+			"版本:2.0"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4043006,
+		"title": "永远与时间同步",
+		"desc": "修复<unbreak>#1[i]</unbreak>个梦境迷钟",
+		"rarity": "Low",
+		"series": 4,
+		"paramsText": [
+			15
+		],
+		"priority": 950,
+		"tags": [
+			"版本:2.0"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4043007,
+		"title": "谁人的梦？",
+		"desc": "首次见证稚子梦中的神秘奇观",
+		"rarity": "Low",
+		"series": 4,
+		"priority": 949,
+		"tags": [
+			"版本:2.0",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4043008,
+		"title": "集异璧",
+		"desc": "首次通过筑梦遥眼拼凑出不可能的道路，并通过它",
+		"rarity": "Low",
+		"series": 4,
+		"priority": 948,
+		"tags": [
+			"版本:2.0"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4043009,
+		"title": "画中世界",
+		"desc": "通过筑梦拼图获得<unbreak>#1[i]</unbreak>次奖励",
+		"rarity": "Low",
+		"series": 4,
+		"paramsText": [
+			10
+		],
+		"priority": 947,
+		"tags": [
+			"版本:2.0"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4043010,
+		"title": "Fly me 2 the balloon",
+		"desc": "打破黄金的时刻中的特殊石头先生气球",
+		"rarity": "Low",
+		"series": 4,
+		"priority": 946,
+		"tags": [
+			"版本:2.0",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4043011,
+		"title": "气球学园2",
+		"desc": "打破筑梦边境中的特殊石头先生气球",
+		"rarity": "Low",
+		"series": 4,
+		"priority": 945,
+		"tags": [
+			"版本:2.0",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4043012,
+		"title": "气球3",
+		"desc": "打破稚子的梦中的特殊石头先生气球",
+		"rarity": "Low",
+		"series": 4,
+		"priority": 944,
+		"tags": [
+			"版本:2.0",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4043013,
+		"title": "气球：匹诺康尼",
+		"desc": "打破「白日梦」酒店-梦境中的特殊石头先生气球",
+		"rarity": "Low",
+		"series": 4,
+		"priority": 943,
+		"tags": [
+			"版本:2.0",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4043014,
+		"title": "年满十八",
+		"desc": "首次来到「惊梦酒吧」",
+		"rarity": "Low",
+		"series": 4,
+		"priority": 942,
+		"tags": [
+			"版本:2.0",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4043015,
+		"title": "所有悲伤的年轻人",
+		"desc": "首次进入某个「白日梦」酒店-现实中的「特殊客房」",
+		"rarity": "Low",
+		"series": 4,
+		"priority": 941,
+		"tags": [
+			"版本:2.0",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4043016,
+		"title": "面面俱到",
+		"desc": "通过梦客漫步能力首次走上梦泡桥梁",
+		"rarity": "Low",
+		"series": 4,
+		"priority": 940,
+		"tags": [
+			"版本:2.0"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4043017,
+		"title": "与狼同行",
+		"desc": "收集《小小哈努行动•上篇》全集",
+		"rarity": "Low",
+		"series": 4,
+		"priority": 939,
+		"tags": [
+			"版本:2.0"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4043018,
+		"title": "让敌人高估你的缺点",
+		"desc": "在「小小哈努行动」中推下的重物没有砸到怪物",
+		"rarity": "Low",
+		"series": 4,
+		"priority": 938,
+		"tags": [
+			"版本:2.0",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4043019,
+		"title": "抵达逃逸速度",
+		"desc": "在「小小哈努行动」中的火箭传送时间超过#1秒",
+		"rarity": "Low",
+		"series": 4,
+		"paramsText": [
+			4
+		],
+		"priority": 937,
+		"tags": [
+			"版本:2.0",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4043020,
+		"title": "警戒度<unbreak>100%</unbreak>",
+		"desc": "在「小小哈努行动」中死里逃生",
+		"rarity": "Low",
+		"series": 4,
+		"priority": 936,
+		"tags": [
+			"版本:2.0",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4043021,
+		"title": "睡眠学习法",
+		"desc": "收集<unbreak>#1[i]</unbreak>件来自匹诺康尼的阅读物",
+		"rarity": "Low",
+		"series": 4,
+		"paramsText": [
+			15
+		],
+		"priority": 935,
+		"tags": [
+			"版本:2.0"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4051001,
@@ -3909,6 +4280,742 @@
 		"difficulty": ""
 	},
 	{
+		"id": 4053001,
+		"title": "请勿摇晃汽水",
+		"desc": "首次使用气泡弹珠",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 820,
+		"tags": [
+			"版本:2.0"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053002,
+		"title": "向着明亮的那方",
+		"desc": "哪怕生活充满痛苦，也绝不放手",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 819,
+		"idsAchievementExclusive": [
+			4053003
+		],
+		"tags": [
+			"版本:2.0",
+			"隐藏成就",
+			"互斥成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053003,
+		"title": "他也在这阳光下长大",
+		"desc": "或许…放手也是正确的选择",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 818,
+		"idsAchievementExclusive": [
+			4053002
+		],
+		"tags": [
+			"版本:2.0",
+			"隐藏成就",
+			"互斥成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053004,
+		"title": "伊甸园之东",
+		"desc": "见证一位转瞬即逝的银河巨星的故事",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 817,
+		"tags": [
+			"版本:2.0"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053005,
+		"title": "罪与罚",
+		"desc": "见证一位「好人」的故事",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 816,
+		"tags": [
+			"版本:2.0"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053006,
+		"title": "舞会进行时",
+		"desc": "完成同行任务「假面双人舞」",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 815,
+		"tags": [
+			"版本:2.0"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053007,
+		"title": "保护人者是前世所修善行",
+		"desc": "见证一位科学家挣扎曲折的一生",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 814,
+		"tags": [
+			"版本:2.0"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053008,
+		"title": "虚构动物学家",
+		"desc": "驱散#1座猎犬雕像",
+		"rarity": "Low",
+		"series": 5,
+		"paramsText": [
+			5
+		],
+		"priority": 813,
+		"tags": [
+			"版本:2.0",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053009,
+		"title": "千爵时代的故事",
+		"desc": "通过作弊的方式赢得「幸运转盘」的特殊奖励",
+		"rarity": "Low",
+		"series": 8,
+		"priority": 934,
+		"tags": [
+			"版本:2.0",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053010,
+		"title": "如脆筒般脆弱",
+		"desc": "使用消耗品「美梦脆筒」后，对错误的敌方目标施放技能",
+		"rarity": "Low",
+		"series": 8,
+		"priority": 933,
+		"tags": [
+			"版本:2.0",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053011,
+		"title": "精神分析学入门",
+		"desc": "合成「选择背叛的刹那」、「一瞬间的幸福」、「弥留之际」、「热烈的气氛」、「疑虑的阴云」、「片刻自由」中的任意一个消耗品",
+		"rarity": "Low",
+		"series": 8,
+		"priority": 932,
+		"tags": [
+			"版本:2.0",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053012,
+		"title": "品味感觉",
+		"desc": "「钟表把戏」能带来什么？\\n<color=#8790abff>※在梦中引导#1个人的情绪</color>",
+		"rarity": "Low",
+		"series": 5,
+		"descHide": "「钟表把戏」能带来什么？",
+		"paramsText": [
+			1
+		],
+		"priority": 809,
+		"tags": [
+			"版本:2.0",
+			"隐藏描述"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053014,
+		"title": "感到一阵温暖",
+		"desc": "「钟表把戏」能帮人找回真正的自我\\n<color=#8790abff>※解决#1次钟表把戏的突发事件</color>",
+		"rarity": "Low",
+		"series": 5,
+		"descHide": "「钟表把戏」能帮人找回真正的自我",
+		"paramsText": [
+			1
+		],
+		"priority": 807,
+		"tags": [
+			"版本:2.0",
+			"隐藏描述"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053015,
+		"title": "心脏怦怦直跳",
+		"desc": "在梦里，就连情绪都有实体\\n<color=#8790abff>※收集#1个情绪齿轮</color>",
+		"rarity": "Low",
+		"series": 5,
+		"descHide": "在梦里，就连情绪都有实体",
+		"paramsText": [
+			1
+		],
+		"priority": 806,
+		"tags": [
+			"版本:2.0",
+			"隐藏描述"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053016,
+		"title": "我懂你的心",
+		"desc": "你能抵御心理辅导的诱惑吗？\\n<color=#8790abff>※在梦中引导至少#1个人的情绪</color>",
+		"rarity": "Low",
+		"series": 5,
+		"descHide": "你能抵御心理辅导的诱惑吗？",
+		"paramsText": [
+			5
+		],
+		"priority": 805,
+		"tags": [
+			"版本:2.0",
+			"隐藏描述"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053017,
+		"title": "我的爱车",
+		"desc": "在「白日梦酒店」的专属车位停放车辆",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 804,
+		"tags": [
+			"版本:2.0",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053018,
+		"title": "回本的路",
+		"desc": "委托出租车赚得足够的收入",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 803,
+		"tags": [
+			"版本:2.0",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053019,
+		"title": "您拨打的号码暂时无法接通",
+		"desc": "总有些地方不对外开放\\n<color=#8790abff>※打给一个不能被接通的号码</color>",
+		"rarity": "Low",
+		"series": 5,
+		"descHide": "总有些地方不对外开放",
+		"priority": 802,
+		"tags": [
+			"版本:2.0",
+			"隐藏描述"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053020,
+		"title": "城里的酒杯",
+		"desc": "撮合水晶杯与廉价葡萄酒",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 801,
+		"idsAchievementExclusive": [
+			4053021,
+			4053022
+		],
+		"tags": [
+			"版本:2.0",
+			"隐藏成就",
+			"互斥成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053021,
+		"title": "磐石的心意",
+		"desc": "撮合水晶杯与朗姆酒",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 800,
+		"idsAchievementExclusive": [
+			4053020,
+			4053022
+		],
+		"tags": [
+			"版本:2.0",
+			"隐藏成就",
+			"互斥成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053022,
+		"title": "了不起的香槟瓶",
+		"desc": "撮合水晶杯与金色香槟酒",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 799,
+		"idsAchievementExclusive": [
+			4053020,
+			4053021
+		],
+		"tags": [
+			"版本:2.0",
+			"隐藏成就",
+			"互斥成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053023,
+		"title": "勿要拾起不祥之物",
+		"desc": "并非所有都市传说都只是传说\\n<color=#8790abff>※捡到了一盘诡异的磁带</color>",
+		"rarity": "Low",
+		"series": 5,
+		"descHide": "并非所有都市传说都只是传说",
+		"priority": 798,
+		"tags": [
+			"版本:2.0",
+			"隐藏描述"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053024,
+		"title": "格拉克斯之狼",
+		"desc": "找出喷钞取款机卡顿的原因",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 797,
+		"tags": [
+			"版本:2.0",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053025,
+		"title": "每个赌徒都有借口",
+		"desc": "见证传奇赌神的结局",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 796,
+		"tags": [
+			"版本:2.0",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053026,
+		"title": "堕落天使",
+		"desc": "知晓浔桑的真实来历",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 795,
+		"tags": [
+			"版本:2.0",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053027,
+		"title": "罗生门",
+		"desc": "所以…是谁撞了谁？\\n<color=#8790abff>※目睹格拉克斯大道车祸的来龙去脉</color>",
+		"rarity": "Low",
+		"series": 5,
+		"descHide": "所以…是谁撞了谁？",
+		"priority": 794,
+		"tags": [
+			"版本:2.0",
+			"隐藏描述"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053028,
+		"title": "魔形皮皮西",
+		"desc": "皮皮西？变形怪？\\n<color=#8790abff>※在酒店大堂识破「皮皮西」的真身</color>",
+		"rarity": "Low",
+		"series": 5,
+		"descHide": "皮皮西？变形怪？",
+		"priority": 793,
+		"tags": [
+			"版本:2.0",
+			"隐藏描述"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053029,
+		"title": "盛会之星与六苜蓿币",
+		"desc": "爱和梦想究竟哪个更重要？\\n<color=#8790abff>※了解一个被梦想撕碎的家庭的故事</color>",
+		"rarity": "Low",
+		"series": 5,
+		"descHide": "爱和梦想究竟哪个更重要？",
+		"priority": 792,
+		"tags": [
+			"版本:2.0",
+			"隐藏描述"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053030,
+		"title": "精神卫生",
+		"desc": "保护环境，从我做起\\n<color=#8790abff>※帮助格-蕾回收梦境中的垃圾</color>",
+		"rarity": "Low",
+		"series": 5,
+		"descHide": "保护环境，从我做起",
+		"priority": 791,
+		"tags": [
+			"版本:2.0",
+			"隐藏描述"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053031,
+		"title": "梦的解析",
+		"desc": "通过窥梦电话探视<unbreak>#1[i]</unbreak>个人的梦境",
+		"rarity": "Low",
+		"series": 5,
+		"paramsText": [
+			7
+		],
+		"priority": 790,
+		"tags": [
+			"版本:2.0",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053032,
+		"title": "四海牌友",
+		"desc": "认识所有种类的贱贱广告牌",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 789,
+		"tags": [
+			"版本:2.0",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053033,
+		"title": "无人交响乐",
+		"desc": "当欢乐的演奏家变得更欢乐会发生什么？\\n<color=#8790abff>※麦克斯的音乐变得更加欢乐</color>",
+		"rarity": "Low",
+		"series": 5,
+		"descHide": "当欢乐的演奏家变得更欢乐会发生什么？",
+		"priority": 788,
+		"tags": [
+			"版本:2.0",
+			"隐藏描述"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053034,
+		"title": "踏上「贪饕」命途…",
+		"desc": "吃掉维塔利的「脆筒舞者」",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 787,
+		"tags": [
+			"版本:2.0",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053035,
+		"title": "跳进兔子洞",
+		"desc": "在梦境中聆听多样物品的神秘低语",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 786,
+		"tags": [
+			"版本:2.0",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053036,
+		"title": "天空与你之间",
+		"desc": "独自重游故地\\n<color=#8790abff>※在一切结束后，回到流萤的秘密基地</color>",
+		"rarity": "Low",
+		"series": 5,
+		"descHide": "独自重游故地",
+		"priority": 785,
+		"tags": [
+			"版本:2.0",
+			"隐藏描述"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053037,
+		"title": "看见那梯子了吗？",
+		"desc": "试图爬上筑梦边境的梯子\\n<color=#8790abff>※但是爬不上去</color>",
+		"rarity": "Low",
+		"series": 5,
+		"descHide": "试图爬上筑梦边境的梯子",
+		"priority": 784,
+		"tags": [
+			"版本:2.0",
+			"隐藏描述"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053038,
+		"title": "重力泉",
+		"desc": "在稚子之梦中观赏奇异的瀑布",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 783,
+		"tags": [
+			"版本:2.0",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053039,
+		"title": "幸运条纹人",
+		"desc": "累积获得超过#1个艾迪恩代币",
+		"rarity": "Low",
+		"series": 5,
+		"paramsText": [
+			77
+		],
+		"priority": 782,
+		"tags": [
+			"版本:2.0",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053040,
+		"title": "我爱这游戏",
+		"desc": "发现藏在「美梦排排乐」游戏中的终极奖励",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 781,
+		"tags": [
+			"版本:2.0",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053041,
+		"title": "就没有皮皮西人吗？",
+		"desc": "使用比切诺更矮的我方角色与她对话",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 780,
+		"tags": [
+			"版本:2.0",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053042,
+		"title": "既视感",
+		"desc": "在梦境中邂逅熟悉的风景\\n<color=#8790abff>※没错，是垃圾桶！</color>",
+		"rarity": "Low",
+		"series": 5,
+		"descHide": "在梦境中邂逅熟悉的风景",
+		"priority": 779,
+		"tags": [
+			"版本:2.0",
+			"隐藏描述"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053043,
+		"title": "垃美西斯二世",
+		"desc": "挑战「白日梦」酒店、黄金的时刻、稚子的梦、筑梦边境中全部的王下一桶",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 778,
+		"tags": [
+			"版本:2.0",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053044,
+		"title": "后窗",
+		"desc": "调查酒店中所有紧锁的房间",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 777,
+		"tags": [
+			"版本:2.0",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053045,
+		"title": "全民公敌",
+		"desc": "精准而迅速地冒犯遇见的每位皮皮西\\n<color=#8790abff>※尝试触摸「黄金的时刻」中所有皮皮西的绒球</color>",
+		"rarity": "Low",
+		"series": 5,
+		"descHide": "精准而迅速地冒犯遇见的每位皮皮西",
+		"priority": 776,
+		"tags": [
+			"版本:2.0",
+			"隐藏描述"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053046,
+		"title": "最「糟糕」的无名客",
+		"desc": "给帕姆看看某个特定的梦泡",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 775,
+		"tags": [
+			"版本:2.0",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053047,
+		"title": "遥星之门",
+		"desc": "冒险家还是海盗？\\n<color=#8790abff>※倾听科琳关于宇宙的故事</color>",
+		"rarity": "Low",
+		"series": 5,
+		"descHide": "冒险家还是海盗？",
+		"priority": 774,
+		"tags": [
+			"版本:2.0",
+			"隐藏描述"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053048,
+		"title": "就是这么牛",
+		"desc": "见证一个「伟大的愿景」\\n<color=#8790abff>※收集家族成员对于筑梦边境项目的评价</color>",
+		"rarity": "Low",
+		"series": 5,
+		"descHide": "见证一个「伟大的愿景」",
+		"priority": 773,
+		"tags": [
+			"版本:2.0",
+			"隐藏描述"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053049,
+		"title": "托拉斯之梦",
+		"desc": "你看见的都是我的专利！\\n<color=#8790abff>※帮助艾默里奇完成他的计划</color>",
+		"rarity": "Low",
+		"series": 5,
+		"descHide": "你看见的都是我的专利！",
+		"priority": 772,
+		"tags": [
+			"版本:2.0",
+			"隐藏描述"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053050,
+		"title": "现实太重，梦想太轻",
+		"desc": "人类终归无法相互理解\\n<color=#8790abff>※旁听拉洛丝与芙尔拉的对话</color>",
+		"rarity": "Low",
+		"series": 5,
+		"descHide": "人类终归无法相互理解",
+		"priority": 771,
+		"tags": [
+			"版本:2.0",
+			"隐藏描述"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053051,
+		"title": "漫长的告别",
+		"desc": "愿她早日告别旧时阴霾\\n<color=#8790abff>※见证卢•阿彻的故事</color>",
+		"rarity": "Low",
+		"series": 5,
+		"descHide": "愿她早日告别旧时阴霾",
+		"priority": 770,
+		"tags": [
+			"版本:2.0",
+			"隐藏描述"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053052,
+		"title": "食不过三",
+		"desc": "在「黄金的时刻」一次性吃掉太多脆筒……",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 769,
+		"tags": [
+			"版本:2.0",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053053,
+		"title": "奥帝经济学",
+		"desc": "人人都发钱，等于没发钱\\n<color=#8790abff>※反复触发街头的喷钞机</color>",
+		"rarity": "Low",
+		"series": 5,
+		"descHide": "人人都发钱，等于没发钱",
+		"priority": 768,
+		"tags": [
+			"版本:2.0",
+			"隐藏描述"
+		],
+		"difficulty": {}
+	},
+	{
 		"id": 4060101,
 		"title": "影逝百度（一）",
 		"desc": "击败<unbreak>#1[i]</unbreak>次凝滞虚影",
@@ -5199,7 +6306,7 @@
 		"rarity": "Mid",
 		"series": 7,
 		"paramsText": [
-			0.05000000004656613
+			0.05
 		],
 		"priority": 945,
 		"tags": [
@@ -5242,7 +6349,7 @@
 		"rarity": "Low",
 		"series": 7,
 		"paramsText": [
-			0.010000000009313226,
+			0.01,
 			20000
 		],
 		"priority": 942,
@@ -5840,7 +6947,7 @@
 		"series": 7,
 		"descHide": "多事",
 		"paramsText": [
-			0.05000000004656613,
+			0.05,
 			2
 		],
 		"priority": 902,
@@ -6210,7 +7317,7 @@
 	{
 		"id": 4072901,
 		"title": "在黑暗深渊之中",
-		"desc": "当碎星王虫首次施放「孕灾虫甲」后，使其进入弱点击破状态",
+		"desc": "当碎星王虫施放「孕灾虫甲」后，使其进入弱点击破状态",
 		"rarity": "Low",
 		"series": 7,
 		"priority": 883,
@@ -6305,6 +7412,151 @@
 			"版本:1.6"
 		],
 		"difficulty": ""
+	},
+	{
+		"id": 4073001,
+		"title": "晚安厨房",
+		"desc": "单次战斗中，利用惊梦剧团的十七分熟施放的「厨房事故」消灭至少两个敌人",
+		"rarity": "Low",
+		"series": 7,
+		"priority": 876,
+		"tags": [
+			"版本:2.0"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4073002,
+		"title": "全民欢乐秀",
+		"desc": "单次战斗中，使<unbreak>#1[i]</unbreak>个连续的惊梦剧团的圆幕先生都进入「惊喜频道」状态",
+		"rarity": "Low",
+		"series": 7,
+		"paramsText": [
+			3
+		],
+		"priority": 875,
+		"tags": [
+			"版本:2.0"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4073003,
+		"title": "有害垃圾",
+		"desc": "战斗中#1名我方角色被王下一桶击败",
+		"rarity": "Low",
+		"series": 7,
+		"paramsText": [
+			1
+		],
+		"priority": 874,
+		"tags": [
+			"版本:2.0"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4073004,
+		"title": "万般皆注定",
+		"desc": "黑天鹅施放秘技「取此真相，弃舍表征」进入战斗时，累计使敌方目标陷入大于等于#1层「奥迹」",
+		"rarity": "Low",
+		"series": 7,
+		"paramsText": [
+			20
+		],
+		"priority": 873,
+		"tags": [
+			"版本:2.0",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4073005,
+		"title": "对、对、对、对不起",
+		"desc": "米沙施放终结技「要…要迟到了！」时，单次攻击同时使至少#1个不同的敌人陷入冻结状态",
+		"rarity": "Low",
+		"series": 7,
+		"paramsText": [
+			4
+		],
+		"priority": 872,
+		"tags": [
+			"版本:2.0",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4073006,
+		"title": "打上花火",
+		"desc": "单场战斗中，使用花火的终结技「一人千役」共计获得#1个战技点",
+		"rarity": "Low",
+		"series": 7,
+		"paramsText": [
+			20
+		],
+		"priority": 871,
+		"tags": [
+			"版本:2.0",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4073007,
+		"title": "持续断糖",
+		"desc": "单次战斗中，使用护盾反弹同一惊梦剧团的甜猿泰山扔出的#1个汽水瓶",
+		"rarity": "Low",
+		"series": 7,
+		"paramsText": [
+			10
+		],
+		"priority": 870,
+		"tags": [
+			"版本:2.0"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4073008,
+		"title": "存在朝向死亡",
+		"desc": "在只有一人可以行动的情况下击败忆域迷因「何物朝向死亡」",
+		"rarity": "Low",
+		"series": 7,
+		"priority": 869,
+		"tags": [
+			"版本:2.0"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4073009,
+		"title": "安静燃烧",
+		"desc": "在与「星核猎手」萨姆的战斗中，敌方萨姆进入「次级燃烧」后没有使用「DHGDR-超新星过载」就解除该状态",
+		"rarity": "Low",
+		"series": 7,
+		"priority": 868,
+		"tags": [
+			"版本:2.0"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4073010,
+		"title": "燃我心火，焚尽其身",
+		"desc": "在和「星核猎手」萨姆的战斗中，使用燃烧的战技点使我方#1名角色的生命值低于#2%",
+		"rarity": "Low",
+		"series": 7,
+		"paramsText": [
+			1,
+			5
+		],
+		"priority": 867,
+		"tags": [
+			"版本:2.0"
+		],
+		"difficulty": {}
 	},
 	{
 		"id": 4080101,
@@ -7084,6 +8336,111 @@
 		"difficulty": ""
 	},
 	{
+		"id": 4083001,
+		"title": "摩擦，摩擦",
+		"desc": "通过梦客漫步能力在同一条梦泡桥梁上来回通过多次",
+		"rarity": "Low",
+		"series": 8,
+		"paramsText": [
+			5
+		],
+		"priority": 938,
+		"tags": [
+			"版本:2.0",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4083002,
+		"title": "视差怪",
+		"desc": "在#1分钟内与筑梦遥眼装置交互#2次以上",
+		"rarity": "Low",
+		"series": 8,
+		"paramsText": [
+			2,
+			5
+		],
+		"priority": 937,
+		"tags": [
+			"版本:2.0",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4083003,
+		"title": "鸟为什么会飞？",
+		"desc": "在#1分钟内与控制筑梦模块的鸟型装置交互#2次以上",
+		"rarity": "Low",
+		"series": 8,
+		"paramsText": [
+			1,
+			5
+		],
+		"priority": 936,
+		"tags": [
+			"版本:2.0",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4083004,
+		"title": "彭罗斯三角",
+		"desc": "通过调整视角拼凑出筑梦边境的「彭罗斯三角」",
+		"rarity": "Low",
+		"series": 8,
+		"priority": 935,
+		"tags": [
+			"版本:2.0",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4083006,
+		"title": "常在路边走…",
+		"desc": "违反交通规则，被匹诺康尼的交通工具撞飞",
+		"rarity": "Low",
+		"series": 8,
+		"priority": 931,
+		"tags": [
+			"版本:2.0",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4083007,
+		"title": "广——告——牌——",
+		"desc": "想办法让匹诺康尼的广告牌被交通工具撞飞",
+		"rarity": "Low",
+		"series": 8,
+		"priority": 930,
+		"tags": [
+			"版本:2.0",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4083008,
+		"title": "一切真理须如货币般流通",
+		"desc": "在支援助战中使用真理医生参与#1场战斗",
+		"rarity": "Low",
+		"series": 8,
+		"paramsText": [
+			1
+		],
+		"priority": 929,
+		"tags": [
+			"版本:2.0",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
 		"id": 4090201,
 		"title": "最初和最终的自由",
 		"desc": "「模拟宇宙」内，进入战斗时我方<unbreak>#1[i]</unbreak>名角色当前生命值百分比均小于等于<unbreak>#2[i]%</unbreak>",
@@ -7091,7 +8448,7 @@
 		"series": 9,
 		"paramsText": [
 			4,
-			0.010000000009313226
+			0.01
 		],
 		"priority": 1000,
 		"tags": [
@@ -7171,7 +8528,7 @@
 		"rarity": "Low",
 		"series": 9,
 		"paramsText": [
-			0.05000000004656613
+			0.05
 		],
 		"priority": 995,
 		"tags": [
@@ -8844,7 +10201,7 @@
 	{
 		"id": 4092916,
 		"title": "杀猪盘",
-		"desc": "通关「模拟宇宙：黄金与机械」时，使用自定义骰「扑满推演」，消灭<unbreak>#1[i]</unbreak>个及以上扑满",
+		"desc": "通关「模拟宇宙：黄金与机械」时，使用自定义骰「扑满推演」，在战斗中击败<unbreak>#1[i]</unbreak>个及以上扑满",
 		"rarity": "Low",
 		"series": 9,
 		"paramsText": [

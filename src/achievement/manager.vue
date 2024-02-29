@@ -175,7 +175,7 @@
 			.replace(/\\n/g, '<br>')
 			.replace('{TEXTJOIN#54}', `<span style="color:var(--cMain);">${$namePlayer.value}的扑满以太灵</span>`)
 			.replace('{NICKNAME}', `<span style="color:var(--cMain);">${$namePlayer.value}</span>`)
-			.replace(/#(\d+)\[([im])\](%?)/g, (match, index, format, percent) => {
+			.replace(/(?<!=)#(\d+)(?:\[([im])\](%?))?/g, (match, index, format, percent) => {
 				/** @type {number} */
 				let textNumber = params[index - 1];
 
@@ -191,12 +191,12 @@
 				else if(format == 'm') {
 					textNumber = `${(textNumber / 10000).toFixed(1)}万`;
 				}
-				else {
+				else if(format) {
 					throw `unknown format[${format}]`;
 				}
 
 
-				return `<color=#F79646FF> ${textNumber} </color>`;
+				return `<color=#F79646FF>${textNumber}</color>`;
 			});
 
 		const blocks = text
