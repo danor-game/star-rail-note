@@ -6,7 +6,7 @@
 
 		<p-name-box>
 			<p-name>
-				<span>{{ props.analysis.name }}</span>
+				<span v-tip="textRangeTimePool">{{ props.analysis.name }}</span>
 				<sup>{{ props.analysis.pool?.rerun ? props.analysis.pool?.rerun + 1 : '&nbsp;' }}</sup>
 				<template v-if="props.analysis.pool">
 					<p-boost v-if="props.analysis.pool.typeItem == 'character'" _rarity-5>
@@ -44,6 +44,9 @@
 </template>
 
 <script setup>
+	import { computed } from 'vue';
+
+	import Day from '../../lib/day.pure.js';
 	import M from '../../lib/meta.js';
 
 
@@ -61,6 +64,15 @@
 		/** 显示四星光锥 */
 		shownLightconeRarity4: { type: Boolean, default: false },
 	});
+
+
+	const textRangeTimePool = computed(() =>
+		props.display == 'main' && props.analysis?.pool && props.analysis?.pool?.timeDead
+			? props.analysis.pool.timeBorn
+				? `${Day(props.analysis.pool.timeBorn, 'X').format('MM月DD月 HH时mm分')} ~ ${Day(props.analysis.pool.timeDead, 'X').format('MM月DD日 HH时mm分')}`
+				: `维护后 ~ ${Day(props.analysis.pool.timeDead, 'X').format('MM月DD月 HH时mm分')}`
+			: false
+	);
 </script>
 
 

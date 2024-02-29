@@ -182,32 +182,30 @@ p-main-box
 		@apply font-bold text-xl text-[var(--cMain)]
 
 	p-box[gacha-summary]
-		@apply p-1 col-span-full
+		@apply col-span-full
 		p-gather-info
 			@apply block
 
 	p-box[gacha-type]
-		@apply p-1 col-span-2
+		@apply col-span-2
 		p-title
 			@apply block mb-2
 		p-gathers
-			@apply grid gap-2
-			grid-template-columns: repeat(4, min-content)
-
+			@apply grid grid-cols-4 gap-[2px] border-2 border-[var(--cMain)] bg-[var(--cMain)] w-[1080px]
 			p-gather
-				@apply inblock p-4 min-w-[10rem] border border-[var(--cBorderBack)] rounded-sm overflow-hidden
+				@apply inblock p-4 min-w-[10rem] bg-[var(--cBack)] overflow-hidden
 				p-title
 					@apply text-lg font-bold mb-2
 				p-info
 					@apply block mb-0 mt-2 text-right
 
 	p-box[gacha-type-detail]
-		@apply p-1 grid grid-cols-1 gap-2 col-span-2
+		@apply grid grid-cols-1 gap-2 col-span-2
 		p-gathers
-			@apply grid grid-cols-3 gap-2
+			@apply grid grid-cols-3 gap-[2px] border-2 border-[var(--cMain)] bg-[var(--cMain)] w-[1080px]
 			grid-template-rows: 1fr auto
 			p-gather
-				@apply border border-[var(--cBorderBack)] rounded-sm overflow-hidden
+				@apply bg-[var(--cBack)] overflow-hidden
 				&[main]
 					@apply row-span-2
 				p-pool-title
@@ -218,11 +216,11 @@ p-main-box
 						@apply mb-1
 
 	p-box[gacha-pool-detail]
-		@apply p-1 grid grid-cols-1 gap-2 col-span-2
+		@apply grid grid-cols-1 gap-[2px] col-span-2 w-[1080px]
 		p-gathers
-			@apply grid grid-cols-2 gap-2
+			@apply grid grid-cols-2 gap-[2px] border-2 border-[var(--cMain)] bg-[var(--cMain)]
 			p-gather
-				@apply border border-[var(--cBorderBack)] rounded-sm overflow-hidden
+				@apply bg-[var(--cBack)] overflow-hidden
 				&:not([main])
 					@apply col-span-2
 				p-pool-title

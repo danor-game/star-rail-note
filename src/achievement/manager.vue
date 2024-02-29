@@ -174,8 +174,10 @@
 			.replace(/<\/?u>/g, '')
 			.replace(/\\n/g, '<br>')
 			.replace('{TEXTJOIN#54}', `<span style="color:var(--cMain);">${$namePlayer.value}的扑满以太灵</span>`)
-			.replace('{NICKNAME}', `<span style="color:var(--cMain);">${$namePlayer.value}</span>`)
-			.replace(/(?<!=)#(\d+)(?:\[([im])\](%?))?/g, (match, index, format, percent) => {
+			.replace('{NICKNAME}', `<span style="color:var(--cMain);">${$namePlayer.value}</span>`);
+
+		if(params.length) {
+			text = text.replace(/(?<!=)#(\d+)(?:\[([im])\](%?))?/g, (match, index, format, percent) => {
 				/** @type {number} */
 				let textNumber = params[index - 1];
 
@@ -198,6 +200,7 @@
 
 				return `<color=#F79646FF>${textNumber}</color>`;
 			});
+		}
 
 		const blocks = text
 			.split(/(?=<color=#[0-9a-fA-F]{8}>|<\/color>)|(?<=<color=#[0-9a-fA-F]{8}>|<\/color>)/);
