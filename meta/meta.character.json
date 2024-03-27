@@ -481,6 +481,19 @@
 		}
 	},
 	{
+		"id": "1301",
+		"element": "Fire",
+		"path": "Priest",
+		"rarity": 4,
+		"versionAdded": "2.1",
+		"versionAvailable": "2.1",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "加拉赫"
+			}
+		}
+	},
+	{
 		"id": "1302",
 		"element": "Physical",
 		"path": "Mage",
@@ -503,6 +516,19 @@
 		"$data$locale": {
 			"zh-cn": {
 				"name": "阮•梅"
+			}
+		}
+	},
+	{
+		"id": "1304",
+		"element": "Imaginary",
+		"path": "Knight",
+		"rarity": 5,
+		"versionAdded": "2.1",
+		"versionAvailable": "2.1",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "砂金"
 			}
 		}
 	},
@@ -542,6 +568,32 @@
 		"$data$locale": {
 			"zh-cn": {
 				"name": "黑天鹅"
+			}
+		}
+	},
+	{
+		"id": "1308",
+		"element": "Thunder",
+		"path": "Warlock",
+		"rarity": 5,
+		"versionAdded": "2.1",
+		"versionAvailable": "2.1",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "黄泉"
+			}
+		}
+	},
+	{
+		"id": "1309",
+		"element": "Physical",
+		"path": "Shaman",
+		"rarity": 5,
+		"versionAdded": "2.2",
+		"versionAvailable": "2.2",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "知更鸟"
 			}
 		}
 	},

@@ -960,6 +960,90 @@
 		}
 	},
 	{
+		"id": "2025",
+		"type": "11",
+		"timeDead": 1713326399,
+		"typeItem": "character",
+		"itemsBoost5": [
+			"1308"
+		],
+		"itemsBoost4": [
+			"1301",
+			"1106",
+			"1002"
+		],
+		"versionAdded": "2.1",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "远辞畴昔"
+			}
+		}
+	},
+	{
+		"id": "3025",
+		"type": "12",
+		"timeDead": 1713326399,
+		"typeItem": "lightcone",
+		"itemsBoost5": [
+			"23024"
+		],
+		"itemsBoost4": [
+			"21001",
+			"21000",
+			"21017"
+		],
+		"versionAdded": "2.1",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "行于流逝的岸"
+			}
+		}
+	},
+	{
+		"id": "2026",
+		"type": "11",
+		"timeDead": 1713326399,
+		"typeItem": "character",
+		"itemsBoost5": [
+			"1203"
+		],
+		"itemsBoost4": [
+			"1301",
+			"1106",
+			"1002"
+		],
+		"versionAdded": "2.1",
+		"rerun": 1,
+		"idLeader": "2025",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "寻索世间"
+			}
+		}
+	},
+	{
+		"id": "3026",
+		"type": "12",
+		"timeDead": 1713326399,
+		"typeItem": "lightcone",
+		"itemsBoost5": [
+			"23008"
+		],
+		"itemsBoost4": [
+			"21001",
+			"21000",
+			"21017"
+		],
+		"versionAdded": "2.1",
+		"rerun": 1,
+		"idLeader": "3025",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "棺的回响"
+			}
+		}
+	},
+	{
 		"id": "3999",
 		"type": "12",
 		"typeItem": "lightcone",

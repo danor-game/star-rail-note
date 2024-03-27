@@ -4,7 +4,7 @@
 			<Click item class="!w-32" text="创建档案" @click="creatingProfile" />
 			<Click item class="!w-32" text="导入档案" @click="importingProfile" />
 			<Click item class="!w-32" text="切换主题" white @click="toggleTheme" />
-			<p-version>v1.2.3.0229</p-version>
+			<p-version>v1.2.4.0327</p-version>
 		</p-fixed-topbar>
 		<p-main-box>
 			<p-gm-xhr-result class="block mb-4">● GreaseMonkey XMLHttpRequest：{{ hasXHRGM ? '✔ 存在' : '✖ 不存在' }}</p-gm-xhr-result>

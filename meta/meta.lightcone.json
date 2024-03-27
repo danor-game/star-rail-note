@@ -768,6 +768,18 @@
 		}
 	},
 	{
+		"id": "21043",
+		"path": "Knight",
+		"rarity": 4,
+		"versionAdded": "2.1",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "两个人的演唱会",
+				"nameEffect": "鼓舞"
+			}
+		}
+	},
+	{
 		"id": "22000",
 		"path": "Warlock",
 		"rarity": 4,
@@ -1080,6 +1092,32 @@
 			"zh-cn": {
 				"name": "重塑时光之忆",
 				"nameEffect": "结晶"
+			}
+		}
+	},
+	{
+		"id": "23023",
+		"path": "Knight",
+		"rarity": 5,
+		"characterBest": "1304",
+		"versionAdded": "2.1",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "命运从未公平",
+				"nameEffect": "全下"
+			}
+		}
+	},
+	{
+		"id": "23024",
+		"path": "Warlock",
+		"rarity": 5,
+		"characterBest": "1308",
+		"versionAdded": "2.1",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "行于流逝的岸",
+				"nameEffect": "司渡"
 			}
 		}
 	},
