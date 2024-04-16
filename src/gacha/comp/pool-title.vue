@@ -69,8 +69,8 @@
 	const textRangeTimePool = computed(() =>
 		props.display == 'main' && props.analysis?.pool && props.analysis?.pool?.timeDead
 			? props.analysis.pool.timeBorn
-				? `${Day(props.analysis.pool.timeBorn, 'X').format('MM月DD月 HH时mm分')} ~ ${Day(props.analysis.pool.timeDead, 'X').format('MM月DD日 HH时mm分')}`
-				: `维护后 ~ ${Day(props.analysis.pool.timeDead, 'X').format('MM月DD月 HH时mm分')}`
+				? `${Day(props.analysis.pool.timeBorn, 'X').format('MM月DD HH时mm分')} ~ ${Day(props.analysis.pool.timeDead, 'X').format('MM月DD HH时mm分')}`
+				: `维护后 ~ ${Day(props.analysis.pool.timeDead, 'X').format('MM月DD HH时mm分')}`
 			: false
 	);
 </script>
