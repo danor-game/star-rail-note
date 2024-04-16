@@ -6,9 +6,9 @@
 		<Texter v-model="$uid" item class="!w-48" label="UID" type="number" align="center" label-split="&nbsp;" @keyup.enter.exact="query" />
 		<Texter v-model="$word" item class="!w-48" label="搜索" align="center" label-split="&nbsp;" />
 		<Combo v-model="$optionVersion" item class="!w-36" lightcone4 label="版本" align="center" align-options="left" label-split="&nbsp;" :options="optionsVersion" />
-		<Combo v-model="$optionVersion" item class="!w-36" lightcone4 label="活动" align="center" align-options="left" label-split="&nbsp;" :options="optionsVersion" />
-		<Combo v-model="$optionVersion" item class="!w-36" lightcone4 label="稀有" align="center" align-options="left" label-split="&nbsp;" :options="optionsVersion" />
-		<Combo v-model="$optionVersion" item class="!w-36" lightcone4 label="难度" align="center" align-options="left" label-split="&nbsp;" :options="optionsVersion" />
+		<!-- <Combo v-model="$optionVersion" item class="!w-36" lightcone4 label="活动" align="center" align-options="left" label-split="&nbsp;" :options="optionsVersion" /> -->
+		<!-- <Combo v-model="$optionVersion" item class="!w-36" lightcone4 label="稀有" align="center" align-options="left" label-split="&nbsp;" :options="optionsVersion" /> -->
+		<!-- <Combo v-model="$optionVersion" item class="!w-36" lightcone4 label="难度" align="center" align-options="left" label-split="&nbsp;" :options="optionsVersion" /> -->
 		<Click item class="!w-16" :text="$doubledColumnMain ? '双列' : '单列'" @click="$doubledColumnMain = !$doubledColumnMain" />
 
 		<br />
@@ -33,11 +33,11 @@
 	</p-fixed-topbar>
 
 	<p-main-box :doubled="brop($doubledColumnMain)">
-		<template v-for="[typeFinish, achievements, toStatus] of infosAchievement" :key="`achievement-finishType-${typeFinish}`">
+		<template v-for="[typeFinish, achievementsFiltered, achievementsAll, toStatus] of infosAchievement" :key="`achievement-finishType-${typeFinish}`">
 			<p-box>
-				<p-title>{{ typeFinish }} {{ achievements.length }}</p-title>
+				<p-title>{{ typeFinish }} {{ achievementsFiltered.length }}/{{ achievementsAll.length }}</p-title>
 				<p-achievements>
-					<p-achievement v-for="achievement of achievements" :key="`achievement-${achievement.id}`">
+					<p-achievement v-for="achievement of achievementsFiltered" :key="`achievement-${achievement.id}`">
 						<Click oper-button :text="toStatus ? '完成' : '撤回'" :icon="toStatus ? faCheck : faRotateLeft" @click="modifyInfoPlayerAchievement(achievement.id, toStatus)" />
 						<p-title>● {{ renderText(achievement.title, achievement.paramsText) }}</p-title>
 						<p-desc v-html="renderText(achievement.desc, achievement.paramsText)" />
@@ -118,28 +118,30 @@
 	const $word = ref('');
 	const sorts$seriesAchievement = M.seriesAchievement.reduce((acc, series, index) => (acc[series.id] = M.seriesAchievement.length - index, acc), {});
 
-	const achievementsDone = computed(() => M.achievements.filter(achievement => {
-		return true
-			&& $infosPlayerAchievement$id.value[achievement.id]?.status == 1
-			&& (achievement.title.includes($word.value) || achievement.desc.includes($word.value))
-			&& $setOptionSeries.value.has(achievement.series)
-			&& $tagsFilter.value.filter(tagFilter => achievement.tags.includes(tagFilter)).length == $tagsFilter.value.length
-			&& ($optionVersion.value == 'all' || achievement.tags.includes(`版本:${$optionVersion.value}`));
+	const achievementsDone = computed(() => M.achievements.filter(achievement => true
+		&& $infosPlayerAchievement$id.value[achievement.id]?.status == 1
+	));
+	const achievementsFilteredDone = computed(() => achievementsDone.value.filter(achievement => true
+		&& (achievement.title.includes($word.value) || achievement.desc.includes($word.value))
+		&& $setOptionSeries.value.has(achievement.series)
+		&& $tagsFilter.value.filter(tagFilter => achievement.tags.includes(tagFilter)).length == $tagsFilter.value.length
+		&& ($optionVersion.value == 'all' || achievement.tags.includes(`版本:${$optionVersion.value}`))
+	).sort((a, b) => sorts$seriesAchievement[b.series] - sorts$seriesAchievement[a.series] || b.priority - a.priority));
 
-	}).sort((a, b) => sorts$seriesAchievement[b.series] - sorts$seriesAchievement[a.series] || b.priority - a.priority));
-	const achievementsOngoing = computed(() => M.achievements.filter(achievement => {
-		return true
-			&& ($infosPlayerAchievement$id.value[achievement.id]?.status != 1 && $infosPlayerAchievement$id.value[achievement.id]?.status != 2)
-			&& (achievement.title.includes($word.value) || achievement.desc.includes($word.value))
-			&& $setOptionSeries.value.has(achievement.series)
-			&& $tagsFilter.value.filter(tagFilter => achievement.tags.includes(tagFilter)).length == $tagsFilter.value.length
-			&& ($optionVersion.value == 'all' || achievement.tags.includes(`版本:${$optionVersion.value}`));
-	}).sort((a, b) => sorts$seriesAchievement[b.series] - sorts$seriesAchievement[a.series] || b.priority - a.priority));
+	const achievementsOngoing = computed(() => M.achievements.filter(achievement => true
+		&& $infosPlayerAchievement$id.value[achievement.id]?.status != 1 && $infosPlayerAchievement$id.value[achievement.id]?.status != 2
+	));
+	const achievementsFilteredOngoing = computed(() => achievementsOngoing.value.filter(achievement => true
+		&& (achievement.title.includes($word.value) || achievement.desc.includes($word.value))
+		&& $setOptionSeries.value.has(achievement.series)
+		&& $tagsFilter.value.filter(tagFilter => achievement.tags.includes(tagFilter)).length == $tagsFilter.value.length
+		&& ($optionVersion.value == 'all' || achievement.tags.includes(`版本:${$optionVersion.value}`))
+	).sort((a, b) => sorts$seriesAchievement[b.series] - sorts$seriesAchievement[a.series] || b.priority - a.priority));
 
 
 	const infosAchievement = computed(() => [
-		['未完成', achievementsOngoing.value, 1],
-		['已完成', achievementsDone.value, 0],
+		['未完成', achievementsFilteredOngoing.value, achievementsOngoing.value, 1],
+		['已完成', achievementsFilteredDone.value, achievementsDone.value, 0],
 	]);
 
 

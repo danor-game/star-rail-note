@@ -1,3 +1,4 @@
+import { readFileSync } from 'fs';
 import { dirname, resolve } from 'path';
 import { fileURLToPath } from 'url';
 
@@ -7,6 +8,7 @@ import pluginVue from '@vitejs/plugin-vue';
 
 
 const dirPackage = dirname(fileURLToPath(import.meta.url));
+const PKG = JSON.parse(readFileSync(resolve(dirPackage, 'package.json'), 'utf-8'));
 
 export default defineConfig(({ mode }) => {
 	return {
@@ -19,6 +21,7 @@ export default defineConfig(({ mode }) => {
 				}
 			})
 		],
+		define: { PACKAGE_VERSION: JSON.stringify(PKG.version) },
 		root: resolve(dirPackage, 'src'),
 		base: './',
 		build: {

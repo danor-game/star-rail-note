@@ -949,17 +949,6 @@
 		}
 	},
 	{
-		"id": "2999",
-		"type": "11",
-		"typeItem": "character",
-		"unknown": true,
-		"$data$locale": {
-			"zh-cn": {
-				"name": "下期角色"
-			}
-		}
-	},
-	{
 		"id": "2025",
 		"type": "11",
 		"timeDead": 1713326399,
@@ -1040,6 +1029,105 @@
 		"$data$locale": {
 			"zh-cn": {
 				"name": "棺的回响"
+			}
+		}
+	},
+	{
+		"id": "2027",
+		"type": "11",
+		"timeBorn": 1713326400,
+		"timeDead": 1715065199,
+		"typeItem": "character",
+		"itemsBoost5": [
+			"1304"
+		],
+		"itemsBoost4": [
+			"1110",
+			"1111",
+			"1103"
+		],
+		"versionAdded": "2.1",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "囚石铸金"
+			}
+		}
+	},
+	{
+		"id": "3027",
+		"type": "12",
+		"timeBorn": 1713326400,
+		"timeDead": 1715065199,
+		"typeItem": "lightcone",
+		"itemsBoost5": [
+			"23023"
+		],
+		"itemsBoost4": [
+			"21043",
+			"21007",
+			"21013"
+		],
+		"versionAdded": "2.1",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "命运从未公平"
+			}
+		}
+	},
+	{
+		"id": "2028",
+		"type": "11",
+		"timeBorn": 1713326400,
+		"timeDead": 1715065199,
+		"typeItem": "character",
+		"itemsBoost5": [
+			"1212"
+		],
+		"itemsBoost4": [
+			"1110",
+			"1111",
+			"1103"
+		],
+		"versionAdded": "2.1",
+		"rerun": 1,
+		"idLeader": "2027",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "月有薄蚀"
+			}
+		}
+	},
+	{
+		"id": "3028",
+		"type": "12",
+		"timeBorn": 1713326400,
+		"timeDead": 1715065199,
+		"typeItem": "lightcone",
+		"itemsBoost5": [
+			"23014"
+		],
+		"itemsBoost4": [
+			"21043",
+			"21007",
+			"21013"
+		],
+		"versionAdded": "2.1",
+		"rerun": 1,
+		"idLeader": "3027",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "此身为剑"
+			}
+		}
+	},
+	{
+		"id": "2999",
+		"type": "11",
+		"typeItem": "character",
+		"unknown": true,
+		"$data$locale": {
+			"zh-cn": {
+				"name": "下期角色"
 			}
 		}
 	},
