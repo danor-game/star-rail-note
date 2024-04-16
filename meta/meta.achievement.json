@@ -867,6 +867,62 @@
 		"difficulty": {}
 	},
 	{
+		"id": 4033007,
+		"title": "西比尔，你要什么？",
+		"desc": "好运会引领赌徒走向何方？\\n<color=#8790abff>※见证「卡卡瓦夏」的人生</color>",
+		"rarity": "Mid",
+		"series": 3,
+		"descHide": "好运会引领赌徒走向何方？",
+		"priority": 976,
+		"tags": [
+			"版本:2.1",
+			"隐藏描述"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4033009,
+		"title": "烈酒一滴",
+		"desc": "向美梦与做梦的人致意！\\n<color=#8790abff>※获得加拉赫的专属特调</color>",
+		"rarity": "Mid",
+		"series": 3,
+		"descHide": "向美梦与做梦的人致意！",
+		"priority": 974,
+		"tags": [
+			"版本:2.1",
+			"隐藏描述"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4033010,
+		"title": "她回答说，我要死亡",
+		"desc": "在最佳位置，观赏演出盛大的落幕\\n<color=#8790abff>※击败「石心十人」砂金</color>",
+		"rarity": "Mid",
+		"series": 3,
+		"descHide": "在最佳位置，观赏演出盛大的落幕",
+		"priority": 973,
+		"tags": [
+			"版本:2.1",
+			"隐藏描述"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4033011,
+		"title": "致伊卡洛斯",
+		"desc": "在他乡异地重闻旧事\\n<color=#8790abff>※聆听黄泉与瓦尔特的对话</color>",
+		"rarity": "Mid",
+		"series": 3,
+		"descHide": "在他乡异地重闻旧事",
+		"priority": 972,
+		"tags": [
+			"版本:2.1",
+			"隐藏描述"
+		],
+		"difficulty": {}
+	},
+	{
 		"id": 4040101,
 		"title": "角色扮演游戏里合法",
 		"desc": "开启<unbreak>#1[i]</unbreak>次空间站「黑塔」战利品",
@@ -1551,7 +1607,7 @@
 	{
 		"id": 4043010,
 		"title": "Fly me 2 the balloon",
-		"desc": "打破黄金的时刻中的特殊石头先生气球",
+		"desc": "打破黄金的时刻中的特殊石头老板气球",
 		"rarity": "Low",
 		"series": 4,
 		"priority": 946,
@@ -1564,7 +1620,7 @@
 	{
 		"id": 4043011,
 		"title": "气球学园2",
-		"desc": "打破筑梦边境中的特殊石头先生气球",
+		"desc": "打破筑梦边境中的特殊石头老板气球",
 		"rarity": "Low",
 		"series": 4,
 		"priority": 945,
@@ -1577,7 +1633,7 @@
 	{
 		"id": 4043012,
 		"title": "气球3",
-		"desc": "打破稚子的梦中的特殊石头先生气球",
+		"desc": "打破稚子的梦中的特殊石头老板气球",
 		"rarity": "Low",
 		"series": 4,
 		"priority": 944,
@@ -1590,7 +1646,7 @@
 	{
 		"id": 4043013,
 		"title": "气球：匹诺康尼",
-		"desc": "打破「白日梦」酒店-梦境中的特殊石头先生气球",
+		"desc": "打破「白日梦」酒店-梦境中的特殊石头老板气球",
 		"rarity": "Low",
 		"series": 4,
 		"priority": 943,
@@ -1704,6 +1760,197 @@
 		"priority": 935,
 		"tags": [
 			"版本:2.0"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4043022,
+		"title": "小鬼当家",
+		"desc": "在一次小小哈努行动中一次性击败3个石头老板的爪牙",
+		"rarity": "Low",
+		"series": 4,
+		"priority": 934,
+		"tags": [
+			"版本:2.1"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4043023,
+		"title": "逆球",
+		"desc": "打破克劳克影视乐园中的特殊石头老板气球",
+		"rarity": "Low",
+		"series": 4,
+		"priority": 933,
+		"tags": [
+			"版本:2.1",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4043024,
+		"title": "梦都风云录",
+		"desc": "打破朝露公馆中的特殊石头老板气球",
+		"rarity": "Low",
+		"series": 4,
+		"priority": 932,
+		"tags": [
+			"版本:2.1",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4043025,
+		"title": "安全车",
+		"desc": "在《钟表小子》外传的任意模式中，无伤完成拍摄",
+		"rarity": "Low",
+		"series": 4,
+		"priority": 931,
+		"tags": [
+			"版本:2.1"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4043026,
+		"title": "非标准赛车线",
+		"desc": "在《钟表小子》外传的任意模式中，持续停留在轨道中间#1秒",
+		"rarity": "Low",
+		"series": 4,
+		"paramsText": [
+			10
+		],
+		"priority": 930,
+		"tags": [
+			"版本:2.1",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4043027,
+		"title": "Pole To Win",
+		"desc": "在《钟表小子》外传的任意模式中，「坚果冲刺」或「哈努时间」持续期间再次积满能量",
+		"rarity": "Low",
+		"series": 4,
+		"priority": 929,
+		"tags": [
+			"版本:2.1"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4043028,
+		"title": "DRS最大受益者",
+		"desc": "在《钟表小子》外传的《速度与坚果》中，连续完成<unbreak>#1[i]</unbreak>次「极限超车」，中间没有失误中断",
+		"rarity": "Low",
+		"series": 4,
+		"paramsText": [
+			10
+		],
+		"priority": 928,
+		"tags": [
+			"版本:2.1"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4043029,
+		"title": "地狱低速公路",
+		"desc": "在《钟表小子》外传的《狼之道》中，消灭所有出现的敌人",
+		"rarity": "Low",
+		"series": 4,
+		"priority": 927,
+		"tags": [
+			"版本:2.1"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4043030,
+		"title": "梦幻的小镇，橡木乐园！",
+		"desc": "首次闯入朝露公馆的微缩沙盘",
+		"rarity": "Low",
+		"series": 4,
+		"priority": 926,
+		"tags": [
+			"版本:2.1"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4043031,
+		"title": "筑梦工业化",
+		"desc": "完成朝露公馆的梦客漫步挑战，赚取外快",
+		"rarity": "Low",
+		"series": 4,
+		"priority": 925,
+		"tags": [
+			"版本:2.1"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4043032,
+		"title": "石中榨血",
+		"desc": "变成哈努兄弟后首次使用「哈努飞弹」击败石头老板的爪牙",
+		"rarity": "Low",
+		"series": 4,
+		"priority": 924,
+		"tags": [
+			"版本:2.1"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4043033,
+		"title": "狼伴归途",
+		"desc": "收集《小小哈努行动•中篇》全集",
+		"rarity": "Low",
+		"series": 4,
+		"priority": 923,
+		"tags": [
+			"版本:2.1"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4043034,
+		"title": "火力全开",
+		"desc": "在小小哈努行动中「哈努飞弹」弹药达到上限",
+		"rarity": "Low",
+		"series": 4,
+		"priority": 922,
+		"tags": [
+			"版本:2.1"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4043035,
+		"title": "秘密派对",
+		"desc": "通过气泡弹珠发现克劳克影视乐园的隐藏区域",
+		"rarity": "Low",
+		"series": 4,
+		"priority": 921,
+		"tags": [
+			"版本:2.1",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4043036,
+		"title": "《吃豆人》",
+		"desc": "击碎克劳克影视乐园迷宫花园中的所有可破坏物",
+		"rarity": "Low",
+		"series": 4,
+		"priority": 920,
+		"tags": [
+			"版本:2.1",
+			"隐藏成就"
 		],
 		"difficulty": {}
 	},
@@ -5016,6 +5263,250 @@
 		"difficulty": {}
 	},
 	{
+		"id": 4053054,
+		"title": "上座率，零",
+		"desc": "令光明飞车失去它的粉丝",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 767,
+		"tags": [
+			"版本:2.1",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053055,
+		"title": "鸟，艺术，人生",
+		"desc": "在朝露公馆成为观鸟大师",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 766,
+		"tags": [
+			"版本:2.1",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053056,
+		"title": "谷多益善",
+		"desc": "获得全部#1款钟表小子周边",
+		"rarity": "Low",
+		"series": 5,
+		"paramsText": [
+			4
+		],
+		"priority": 765,
+		"tags": [
+			"版本:2.1",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053057,
+		"title": "林中小屋",
+		"desc": "在克劳克影视乐园的某处见证五人组的的离奇经历",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 764,
+		"tags": [
+			"版本:2.1",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053058,
+		"title": "证明与反驳",
+		"desc": "在交谈中以高价购买某位餐车老板的商品",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 763,
+		"tags": [
+			"版本:2.1",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053059,
+		"title": "以「我」为名的变奏曲",
+		"desc": "在克劳克影视乐园与一位身形奇特的「侦探」相识",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 762,
+		"tags": [
+			"版本:2.1",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053060,
+		"title": "金衣女子",
+		"desc": "调查朝露公馆中某位知名艺人的画像",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 761,
+		"tags": [
+			"版本:2.1",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053061,
+		"title": "战争之王",
+		"desc": "将奥科萨娜绳之以法",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 760,
+		"idsAchievementExclusive": [
+			4053062,
+			4053063
+		],
+		"tags": [
+			"版本:2.1",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053062,
+		"title": "良心发现，十年不晚",
+		"desc": "向猎犬揭发奥科萨娜",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 759,
+		"idsAchievementExclusive": [
+			4053061,
+			4053063
+		],
+		"tags": [
+			"版本:2.1",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053063,
+		"title": "耻辱之证",
+		"desc": "放任奥科萨娜离开",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 758,
+		"idsAchievementExclusive": [
+			4053061,
+			4053062
+		],
+		"tags": [
+			"版本:2.1",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053064,
+		"title": "大人物！",
+		"desc": "在「惊梦酒吧」留下属于你的特调",
+		"rarity": "Mid",
+		"series": 5,
+		"priority": 757,
+		"tags": [
+			"版本:2.1"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053065,
+		"title": "快乐美梦速速达",
+		"desc": "帮助「惊梦酒吧」里的所有怪物解决情绪困扰",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 756,
+		"tags": [
+			"版本:2.1"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053066,
+		"title": "各饮所需",
+		"desc": "为顾客提供正确饮品的次数达到#1次",
+		"rarity": "Low",
+		"series": 5,
+		"paramsText": [
+			10
+		],
+		"priority": 755,
+		"tags": [
+			"版本:2.1",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053067,
+		"title": "Omakase",
+		"desc": "为顾客提供错误饮品的次数达到#1次",
+		"rarity": "Low",
+		"series": 5,
+		"paramsText": [
+			5
+		],
+		"priority": 754,
+		"tags": [
+			"版本:2.1"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053068,
+		"title": "梦核朋克酒保行动",
+		"desc": "完成「惊梦酒吧」全部配方推导",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 753,
+		"tags": [
+			"版本:2.1"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053070,
+		"title": "全家福",
+		"desc": "在克劳克影视乐园的拍照板处拍摄一张列车组全家福",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 751,
+		"idsAchievementExclusive": [
+			4053071
+		],
+		"tags": [
+			"版本:2.1",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053071,
+		"title": "乐园打卡",
+		"desc": "在克劳克影视乐园的拍照板处拍摄一张合照",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 750,
+		"idsAchievementExclusive": [
+			4053070
+		],
+		"tags": [
+			"版本:2.1",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
 		"id": 4060101,
 		"title": "影逝百度（一）",
 		"desc": "击败<unbreak>#1[i]</unbreak>次凝滞虚影",
@@ -7559,6 +8050,104 @@
 		"difficulty": {}
 	},
 	{
+		"id": 4073011,
+		"title": "双六",
+		"desc": "在和「石心十人」诡弈砂金的战斗中，单次攻击使至少#1个「所有或一无所有」同时掷出#2点",
+		"rarity": "Low",
+		"series": 7,
+		"paramsText": [
+			2,
+			6
+		],
+		"priority": 866,
+		"tags": [
+			"版本:2.1"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4073012,
+		"title": "All my people, all my people…",
+		"desc": "在和「石心十人」诡弈砂金的战斗中，队伍中#1名角色在同一次赌局中全部获胜",
+		"rarity": "Low",
+		"series": 7,
+		"paramsText": [
+			4
+		],
+		"priority": 865,
+		"tags": [
+			"版本:2.1"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4073013,
+		"title": "修罗雪姬",
+		"desc": "在单场战斗中，使用黄泉的终结技「残梦尽染，一刀缭断」消灭所有敌人并获得战斗胜利",
+		"rarity": "Low",
+		"series": 7,
+		"priority": 864,
+		"tags": [
+			"版本:2.1",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4073014,
+		"title": "偷盲注",
+		"desc": "单场战斗中，「盲注」为#1时，使用砂金的终结技「轮盘勋爵」获得#2点「盲注」",
+		"rarity": "Low",
+		"series": 7,
+		"paramsText": [
+			0,
+			7
+		],
+		"priority": 863,
+		"tags": [
+			"版本:2.1",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4073015,
+		"title": "泻泻火",
+		"desc": "在一次弱点击破中清除忆域迷因「狂怒褪去之壳」满层的「无明火」",
+		"rarity": "Low",
+		"series": 7,
+		"priority": 862,
+		"tags": [
+			"版本:2.1"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4073016,
+		"title": "硬碰硬",
+		"desc": "单场战斗中，不造成弱点击破的情况下击败忆域迷因「狂怒褪去之壳」",
+		"rarity": "Low",
+		"series": 7,
+		"priority": 861,
+		"tags": [
+			"版本:2.1"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4073017,
+		"title": "绩效面谈",
+		"desc": "使用我方角色砂金对战资深员工•组长时完成制胜一击",
+		"rarity": "Low",
+		"series": 7,
+		"priority": 860,
+		"tags": [
+			"版本:2.1",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
 		"id": 4080101,
 		"title": "地球周",
 		"desc": "连续登录<unbreak>#1[i]</unbreak>天",
@@ -8437,6 +9026,34 @@
 		"tags": [
 			"版本:2.0",
 			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4083009,
+		"title": "天斩无斩",
+		"desc": "在探索中，使用黄泉秘技「四相断我」连续消灭#1个敌人",
+		"rarity": "Low",
+		"series": 7,
+		"paramsText": [
+			5
+		],
+		"priority": 859,
+		"tags": [
+			"版本:2.1",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4083010,
+		"title": "折纸鸟为什么那么大？",
+		"desc": "在「朝露公馆」拔出折纸大鸟",
+		"rarity": "Low",
+		"series": 8,
+		"priority": 927,
+		"tags": [
+			"版本:2.1"
 		],
 		"difficulty": {}
 	},
@@ -9362,7 +9979,7 @@
 	{
 		"id": 4092602,
 		"title": "秋狝冬狩",
-		"desc": "「模拟宇宙：寰宇蝗灾」内，使用使用「巡猎」命途在单一位面通过战斗捕捉<unbreak>#1[i]</unbreak>只以上扑满",
+		"desc": "「模拟宇宙：寰宇蝗灾」内，使用「巡猎」命途在单一位面通过战斗捕捉<unbreak>#1[i]</unbreak>只以上扑满",
 		"rarity": "Low",
 		"series": 9,
 		"paramsText": [
@@ -9998,7 +10615,7 @@
 		"paramsText": [
 			1
 		],
-		"priority": 938,
+		"priority": 900,
 		"tags": [
 			"版本:1.6",
 			"活动:「模拟宇宙」"
@@ -10014,7 +10631,7 @@
 		"paramsText": [
 			10
 		],
-		"priority": 937,
+		"priority": 899,
 		"tags": [
 			"版本:1.6",
 			"活动:「模拟宇宙」"
@@ -10030,7 +10647,7 @@
 		"paramsText": [
 			200
 		],
-		"priority": 936,
+		"priority": 898,
 		"tags": [
 			"版本:1.6",
 			"活动:「模拟宇宙：黄金与机械」"
@@ -10046,7 +10663,7 @@
 		"paramsText": [
 			10
 		],
-		"priority": 935,
+		"priority": 897,
 		"tags": [
 			"版本:1.6",
 			"隐藏成就",
@@ -10063,7 +10680,7 @@
 		"paramsText": [
 			40
 		],
-		"priority": 934,
+		"priority": 896,
 		"tags": [
 			"版本:1.6",
 			"隐藏成就",
@@ -10080,7 +10697,7 @@
 		"paramsText": [
 			40
 		],
-		"priority": 933,
+		"priority": 895,
 		"tags": [
 			"版本:1.6",
 			"隐藏成就",
@@ -10097,7 +10714,7 @@
 		"paramsText": [
 			50
 		],
-		"priority": 932,
+		"priority": 894,
 		"tags": [
 			"版本:1.6",
 			"隐藏成就",
@@ -10111,7 +10728,7 @@
 		"desc": "在「模拟宇宙：黄金与机械」中，在「星际和平投资机器」事件中，投资大成功",
 		"rarity": "Low",
 		"series": 9,
-		"priority": 931,
+		"priority": 893,
 		"tags": [
 			"版本:1.6",
 			"隐藏成就",
@@ -10125,7 +10742,7 @@
 		"desc": "在「模拟宇宙：黄金与机械」中，在「作弊代码（其二）」事件触发的战斗中失败",
 		"rarity": "Low",
 		"series": 9,
-		"priority": 930,
+		"priority": 892,
 		"tags": [
 			"版本:1.6",
 			"隐藏成就",
@@ -10142,7 +10759,7 @@
 		"paramsText": [
 			1
 		],
-		"priority": 929,
+		"priority": 891,
 		"tags": [
 			"版本:1.6",
 			"隐藏成就",
@@ -10159,7 +10776,7 @@
 		"paramsText": [
 			25
 		],
-		"priority": 928,
+		"priority": 890,
 		"tags": [
 			"版本:1.6",
 			"活动:「模拟宇宙：黄金与机械」"
@@ -10175,7 +10792,7 @@
 		"paramsText": [
 			20
 		],
-		"priority": 927,
+		"priority": 889,
 		"tags": [
 			"版本:1.6",
 			"活动:「模拟宇宙：黄金与机械」"
@@ -10191,7 +10808,7 @@
 		"paramsText": [
 			5
 		],
-		"priority": 926,
+		"priority": 888,
 		"tags": [
 			"版本:1.6",
 			"活动:「模拟宇宙：黄金与机械」"
@@ -10207,7 +10824,7 @@
 		"paramsText": [
 			15
 		],
-		"priority": 925,
+		"priority": 887,
 		"tags": [
 			"版本:1.6",
 			"活动:「模拟宇宙：黄金与机械」"
@@ -10223,7 +10840,7 @@
 		"paramsText": [
 			15
 		],
-		"priority": 924,
+		"priority": 886,
 		"tags": [
 			"版本:1.6",
 			"活动:「模拟宇宙：黄金与机械」"
@@ -10236,7 +10853,7 @@
 		"desc": "通关「模拟宇宙：黄金与机械」时，使用自定义骰「超距信标」，进入过的区域中带有所有不同种类的信标",
 		"rarity": "Low",
 		"series": 9,
-		"priority": 923,
+		"priority": 885,
 		"tags": [
 			"版本:1.6",
 			"活动:「模拟宇宙：黄金与机械」"
@@ -10252,7 +10869,7 @@
 		"paramsText": [
 			2048
 		],
-		"priority": 922,
+		"priority": 884,
 		"tags": [
 			"版本:1.6",
 			"活动:「模拟宇宙：黄金与机械」"
@@ -10268,7 +10885,7 @@
 		"paramsText": [
 			30
 		],
-		"priority": 921,
+		"priority": 883,
 		"tags": [
 			"版本:1.6",
 			"活动:「模拟宇宙：黄金与机械」"
@@ -10284,7 +10901,7 @@
 		"paramsText": [
 			30
 		],
-		"priority": 920,
+		"priority": 882,
 		"tags": [
 			"版本:1.6",
 			"活动:「模拟宇宙：黄金与机械」"
@@ -10300,7 +10917,7 @@
 		"paramsText": [
 			20
 		],
-		"priority": 919,
+		"priority": 881,
 		"tags": [
 			"版本:1.6",
 			"活动:「模拟宇宙：黄金与机械」"
@@ -10316,7 +10933,7 @@
 		"paramsText": [
 			25
 		],
-		"priority": 918,
+		"priority": 880,
 		"tags": [
 			"版本:1.6",
 			"活动:「模拟宇宙：黄金与机械」"
@@ -10332,7 +10949,7 @@
 		"paramsText": [
 			30
 		],
-		"priority": 917,
+		"priority": 879,
 		"tags": [
 			"版本:1.6",
 			"活动:「模拟宇宙：黄金与机械」"
@@ -10345,7 +10962,7 @@
 		"desc": "收集「黄金与机械」的星神秘闻「开端」",
 		"rarity": "Low",
 		"series": 9,
-		"priority": 916,
+		"priority": 878,
 		"tags": [
 			"版本:1.6",
 			"隐藏成就",
@@ -10359,7 +10976,7 @@
 		"desc": "收集「黄金与机械」的星神秘闻「终局」",
 		"rarity": "Mid",
 		"series": 9,
-		"priority": 915,
+		"priority": 877,
 		"tags": [
 			"版本:1.6",
 			"隐藏成就",
@@ -10376,7 +10993,7 @@
 		"paramsText": [
 			60
 		],
-		"priority": 914,
+		"priority": 876,
 		"tags": [
 			"版本:1.6",
 			"隐藏成就",
@@ -10393,7 +11010,7 @@
 		"paramsText": [
 			12
 		],
-		"priority": 913,
+		"priority": 875,
 		"tags": [
 			"版本:1.6",
 			"隐藏成就",
@@ -10407,7 +11024,7 @@
 		"desc": "完成「模拟宇宙：黄金与机械」第五难度",
 		"rarity": "Low",
 		"series": 9,
-		"priority": 912,
+		"priority": 874,
 		"tags": [
 			"版本:1.6",
 			"隐藏成就",
@@ -10424,7 +11041,7 @@
 		"paramsText": [
 			1
 		],
-		"priority": 911,
+		"priority": 873,
 		"tags": [
 			"版本:1.6",
 			"隐藏成就",
@@ -10441,7 +11058,7 @@
 		"paramsText": [
 			6
 		],
-		"priority": 910,
+		"priority": 872,
 		"tags": [
 			"版本:1.6",
 			"隐藏成就",
@@ -10458,7 +11075,7 @@
 		"paramsText": [
 			6
 		],
-		"priority": 909,
+		"priority": 871,
 		"tags": [
 			"版本:1.6",
 			"隐藏成就",
@@ -10475,7 +11092,7 @@
 		"paramsText": [
 			12
 		],
-		"priority": 908,
+		"priority": 870,
 		"tags": [
 			"版本:1.6",
 			"隐藏成就",
@@ -10492,7 +11109,7 @@
 		"paramsText": [
 			20
 		],
-		"priority": 907,
+		"priority": 869,
 		"tags": [
 			"版本:1.6",
 			"隐藏成就",
@@ -10509,7 +11126,7 @@
 		"paramsText": [
 			10
 		],
-		"priority": 906,
+		"priority": 868,
 		"tags": [
 			"版本:1.6",
 			"隐藏成就",
@@ -10526,7 +11143,7 @@
 		"paramsText": [
 			6
 		],
-		"priority": 905,
+		"priority": 867,
 		"tags": [
 			"版本:1.6",
 			"隐藏成就",
@@ -10543,7 +11160,7 @@
 		"paramsText": [
 			6
 		],
-		"priority": 904,
+		"priority": 866,
 		"tags": [
 			"版本:1.6",
 			"隐藏成就",
@@ -10560,7 +11177,7 @@
 		"paramsText": [
 			10
 		],
-		"priority": 903,
+		"priority": 865,
 		"tags": [
 			"版本:1.6",
 			"隐藏成就",
@@ -10577,7 +11194,7 @@
 		"paramsText": [
 			1
 		],
-		"priority": 902,
+		"priority": 864,
 		"tags": [
 			"版本:1.6",
 			"隐藏成就",
@@ -10594,7 +11211,7 @@
 		"paramsText": [
 			6
 		],
-		"priority": 901,
+		"priority": 863,
 		"tags": [
 			"版本:1.6",
 			"隐藏成就",
@@ -10611,7 +11228,7 @@
 		"paramsText": [
 			10
 		],
-		"priority": 900,
+		"priority": 862,
 		"tags": [
 			"版本:1.6",
 			"隐藏成就",
