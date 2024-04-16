@@ -101,7 +101,8 @@
 
 
 
-	const version = window.PACKAGE_VERSION;
+	/* global PACKAGE_VERSION */
+	const version = PACKAGE_VERSION;
 
 	/** @type {typeof GM_xmlhttpRequest} */
 	const XMLHttpRequestGM = window['XMLHttpRequestGM'];
