@@ -29,19 +29,15 @@ export default defineConfig(({ mode }) => {
 			outDir: resolve(dirPackage, 'dist'),
 			emptyOutDir: true,
 			chunkSizeWarningLimit: 1024,
-			minify: true,
+			minify: true
 		},
 		optimizeDeps: {
-			esbuildOptions: {
-				target: 'esnext'
-			}
+			esbuildOptions: { target: 'esnext' }
 		},
 		publicDir: resolve(dirPackage, 'src', 'public'),
 		clearScreen: false,
 		server: {
-			hmr: {
-				port: 4513,
-			},
+			hmr: { port: 4513 },
 			port: 4713,
 			watch: {
 				ignored: [

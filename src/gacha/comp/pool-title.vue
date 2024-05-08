@@ -99,7 +99,7 @@ p-pool-title
 		p-count
 			@apply block h-5 text-base font-bold
 			[_split]
-				@apply text-[var(--cTextBack)] text-xs font-normal
+				@apply text-[var(--cText)] text-xs font-normal
 			[_total]
 				@apply text-[var(--cMain)]
 			[_rarity-4]

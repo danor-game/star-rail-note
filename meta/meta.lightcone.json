@@ -780,6 +780,18 @@
 		}
 	},
 	{
+		"id": "21044",
+		"path": "Warlock",
+		"rarity": 4,
+		"versionAdded": "2.2",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "无边曼舞",
+				"nameEffect": "试探"
+			}
+		}
+	},
+	{
 		"id": "22000",
 		"path": "Warlock",
 		"rarity": 4,
@@ -800,6 +812,18 @@
 			"zh-cn": {
 				"name": "嘿，我在这儿",
 				"nameEffect": "不怕不怕啦"
+			}
+		}
+	},
+	{
+		"id": "22002",
+		"path": "Shaman",
+		"rarity": 4,
+		"versionAdded": "2.2",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "为了明日的旅途",
+				"nameEffect": "联结"
 			}
 		}
 	},
@@ -1118,6 +1142,32 @@
 			"zh-cn": {
 				"name": "行于流逝的岸",
 				"nameEffect": "司渡"
+			}
+		}
+	},
+	{
+		"id": "23026",
+		"path": "Shaman",
+		"rarity": 5,
+		"characterBest": "1309",
+		"versionAdded": "2.2",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "夜色流光溢彩",
+				"nameEffect": "抚慰"
+			}
+		}
+	},
+	{
+		"id": "23027",
+		"path": "Rogue",
+		"rarity": 5,
+		"characterBest": "1315",
+		"versionAdded": "2.2",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "驶向第二次生命",
+				"nameEffect": "苦航"
 			}
 		}
 	},

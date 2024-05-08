@@ -1,67 +1,71 @@
 :root
 	--spc: theme("spacing.1")
 
+	--cWhite: #FAFAFA
+	--cBlack: #27272A
+
 	--cBase: #FFD480
-	--cBaseComple: #80ABFF
+	--cBaseComple: rgb(from var(--cBase) calc(255 - r) calc(255 - g) calc(255 - b))
+
+	--cBaseOnWhite: #E19500
+	--cTextBaseOnWhite: #FAFAFA
+	--cSplitOnWhite: #a5a5ab
+
+	--cBaseOnBlack: #FFD480
+	--cTextBaseOnBlack: #27272A
+	--cSplitOnBlack: #9c9c9c
+
 
 	@media (prefers-color-scheme: light)
 		color-scheme: light
-		--cMain: color-mix(in srgb, var(--cBase) 90%, black)
-		--cTextMain: theme("colors.gray.700")
-		--cTextMainDisabled: theme("colors.gray.400")
-		--cBack: theme("colors.gray.50")
-		--cTextBack: theme("colors.gray.700")
-		--cTextBackDisabled: theme("colors.gray.400")
-		--cBorderBack: theme("colors.gray.700")
+		--cBack: var(--cWhite)
+		--cText: var(--cBlack)
+		--cMain: var(--cBaseOnWhite)
+		--cTextMain: var(--cTextBaseOnWhite)
+		--cGary: var(--cSplitOnWhite)
 
-		--cRarity5: theme("colors.yellow.500")
-		--cRarity4: theme("colors.purple.500")
-		--cProgressBack: theme('colors.gray.300')
+		--cBackSideBar: oklch(from var(--cBack) calc(l * 0.9) c h)
+
 	@media (prefers-color-scheme: dark)
 		color-scheme: dark
-		--cMain: var(--cBase)
-		--cTextMain: theme("colors.gray.700")
-		--cTextMainDisabled: theme("colors.gray.400")
-		--cBack: theme("colors.gray.700")
-		--cTextBack: theme("colors.gray.50")
-		--cTextBackDisabled: theme("colors.gray.400")
-		--cBorderBack: theme("colors.gray.50")
+		--cBack: var(--cBlack)
+		--cText: var(--cWhite)
+		--cMain: var(--cBaseOnBlack)
+		--cTextMain: var(--cTextBaseOnBlack)
+		--cGary: var(--cSplitOnBlack)
 
-		--cRarity5: theme("colors.yellow.400")
-		--cRarity4: theme("colors.purple.400")
-		--cProgressBack: theme('colors.gray.400')
-	&.color-scheme-dark
+		--cBackSideBar: oklch(from var(--cBack) calc(l * 1.2) c h)
+
+	&[color-scheme="dark"]
 		color-scheme: dark
-		--cMain: var(--cBase)
-		--cTextMain: theme("colors.gray.700")
-		--cTextMainDisabled: theme("colors.gray.400")
-		--cBack: theme("colors.gray.700")
-		--cTextBack: theme("colors.gray.50")
-		--cTextBackDisabled: theme("colors.gray.400")
-		--cBorderBack: theme("colors.gray.50")
+		--cBack: var(--cBlack)
+		--cText: var(--cWhite)
+		--cMain: var(--cBaseOnBlack)
+		--cTextMain: var(--cTextBaseOnBlack)
+		--cGary: var(--cSplitOnBlack)
 
-		--cRarity5: theme("colors.yellow.400")
-		--cRarity4: theme("colors.purple.400")
-		--cProgressBack: theme('colors.gray.400')
+		--cBackSideBar: oklch(from var(--cBack) calc(l * 1.2) c h)
 
+	--cOkay: #16A34A
+	--cFail: #DC2626
 
-	--cOkay: theme("colors.green.600")
-	--cFail: theme("colors.red.600")
+	--cRingFocus: var(--cGary)
+	--cRingNow: var(--cMain)
 
-	--cSidebarRingFocus: var(--cBaseComple)
-	--cSidebarRingNow: var(--cTextBack)
-
+	--cRarity5: #FFCF70
+	--cRarity4: #C197FF
+	--cProgressBack: var(--cGary)
 
 
 
 html
 	@apply h-full overflow-x-hidden overflow-y-auto
-	color: var(--cTextBack)
+	color: var(--cText)
 	background: var(--cBack)
 	font-family: 'Cascadia Code', 'Microsoft YaHei'
 
 input
-	color: var(--cTextBack)
+	color: var(--cText)
 
 
 
@@ -87,7 +91,7 @@ input
 		border-radius: var(--widthScroll) 0 0 var(--widthScroll)
 	&:horizontal
 		border-radius: var(--widthScroll) var(--widthScroll) 0 0
-	&:hover
+	&:hoverc
 		background: color-mix(in srgb, var(--cMain) 80%, var(--cBack) 20%)
 	&:active
 		@apply bg-[var(--cMain)] border-0 border-solid border-[var(--cBack)]

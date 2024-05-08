@@ -23,7 +23,7 @@
 	{
 		"id": "2003",
 		"type": "11",
-		"timeDead": 1684317599,
+		"timeDead": 1684317540,
 		"typeItem": "character",
 		"itemsBoost5": [
 			"1102"
@@ -43,7 +43,7 @@
 	{
 		"id": "3003",
 		"type": "12",
-		"timeDead": 1684317599,
+		"timeDead": 1684317540,
 		"typeItem": "lightcone",
 		"itemsBoost5": [
 			"23001"
@@ -64,7 +64,7 @@
 		"id": "2004",
 		"type": "11",
 		"timeBorn": 1684317600,
-		"timeDead": 1686034799,
+		"timeDead": 1686034740,
 		"typeItem": "character",
 		"itemsBoost5": [
 			"1204"
@@ -85,7 +85,7 @@
 		"id": "3004",
 		"type": "12",
 		"timeBorn": 1684317600,
-		"timeDead": 1686034799,
+		"timeDead": 1686034740,
 		"typeItem": "lightcone",
 		"itemsBoost5": [
 			"23010"
@@ -105,7 +105,7 @@
 	{
 		"id": "2005",
 		"type": "11",
-		"timeDead": 1687924799,
+		"timeDead": 1687924740,
 		"typeItem": "character",
 		"itemsBoost5": [
 			"1006"
@@ -125,7 +125,7 @@
 	{
 		"id": "3005",
 		"type": "12",
-		"timeDead": 1687924799,
+		"timeDead": 1687924740,
 		"typeItem": "lightcone",
 		"itemsBoost5": [
 			"23007"
@@ -146,7 +146,7 @@
 		"id": "2006",
 		"type": "11",
 		"timeBorn": 1687924800,
-		"timeDead": 1689663599,
+		"timeDead": 1689663540,
 		"typeItem": "character",
 		"itemsBoost5": [
 			"1203"
@@ -167,7 +167,7 @@
 		"id": "3006",
 		"type": "12",
 		"timeBorn": 1687924800,
-		"timeDead": 1689663599,
+		"timeDead": 1689663540,
 		"typeItem": "lightcone",
 		"itemsBoost5": [
 			"23008"
@@ -187,7 +187,7 @@
 	{
 		"id": "2007",
 		"type": "11",
-		"timeDead": 1691553599,
+		"timeDead": 1691553540,
 		"typeItem": "character",
 		"itemsBoost5": [
 			"1205"
@@ -207,7 +207,7 @@
 	{
 		"id": "3007",
 		"type": "12",
-		"timeDead": 1691553599,
+		"timeDead": 1691553540,
 		"typeItem": "lightcone",
 		"itemsBoost5": [
 			"23009"
@@ -228,7 +228,7 @@
 		"id": "2008",
 		"type": "11",
 		"timeBorn": 1691553600,
-		"timeDead": 1693292399,
+		"timeDead": 1693292340,
 		"typeItem": "character",
 		"itemsBoost5": [
 			"1005"
@@ -249,7 +249,7 @@
 		"id": "3008",
 		"type": "12",
 		"timeBorn": 1691553600,
-		"timeDead": 1693292399,
+		"timeDead": 1693292340,
 		"typeItem": "lightcone",
 		"itemsBoost5": [
 			"23006"
@@ -269,7 +269,7 @@
 	{
 		"id": "2009",
 		"type": "11",
-		"timeDead": 1695182399,
+		"timeDead": 1695182340,
 		"typeItem": "character",
 		"itemsBoost5": [
 			"1213"
@@ -289,7 +289,7 @@
 	{
 		"id": "3009",
 		"type": "12",
-		"timeDead": 1695182399,
+		"timeDead": 1695182340,
 		"typeItem": "lightcone",
 		"itemsBoost5": [
 			"23015"
@@ -310,7 +310,7 @@
 		"id": "2010",
 		"type": "11",
 		"timeBorn": 1695182400,
-		"timeDead": 1696921199,
+		"timeDead": 1696921140,
 		"typeItem": "character",
 		"itemsBoost5": [
 			"1208"
@@ -331,7 +331,7 @@
 		"id": "3010",
 		"type": "12",
 		"timeBorn": 1695182400,
-		"timeDead": 1696921199,
+		"timeDead": 1696921140,
 		"typeItem": "lightcone",
 		"itemsBoost5": [
 			"23011"
@@ -351,7 +351,7 @@
 	{
 		"id": "2011",
 		"type": "11",
-		"timeDead": 1698379199,
+		"timeDead": 1698379140,
 		"typeItem": "character",
 		"itemsBoost5": [
 			"1212"
@@ -371,7 +371,7 @@
 	{
 		"id": "3011",
 		"type": "12",
-		"timeDead": 1698379199,
+		"timeDead": 1698379140,
 		"typeItem": "lightcone",
 		"itemsBoost5": [
 			"23014"
@@ -392,7 +392,7 @@
 		"id": "2012",
 		"type": "11",
 		"timeBorn": 1698379200,
-		"timeDead": 1699945199,
+		"timeDead": 1699945140,
 		"typeItem": "character",
 		"itemsBoost5": [
 			"1112"
@@ -413,7 +413,7 @@
 		"id": "3012",
 		"type": "12",
 		"timeBorn": 1698379200,
-		"timeDead": 1699945199,
+		"timeDead": 1699945140,
 		"typeItem": "lightcone",
 		"itemsBoost5": [
 			"23016"
@@ -434,7 +434,7 @@
 		"id": "2013",
 		"type": "11",
 		"timeBorn": 1698379200,
-		"timeDead": 1699945199,
+		"timeDead": 1699945140,
 		"typeItem": "character",
 		"itemsBoost5": [
 			"1102"
@@ -457,7 +457,7 @@
 		"id": "3013",
 		"type": "12",
 		"timeBorn": 1698379200,
-		"timeDead": 1699945199,
+		"timeDead": 1699945140,
 		"typeItem": "lightcone",
 		"itemsBoost5": [
 			"23001"
@@ -479,7 +479,7 @@
 	{
 		"id": "2014",
 		"type": "11",
-		"timeDead": 1701835199,
+		"timeDead": 1701835140,
 		"typeItem": "character",
 		"itemsBoost5": [
 			"1217"
@@ -499,7 +499,7 @@
 	{
 		"id": "3014",
 		"type": "12",
-		"timeDead": 1701835199,
+		"timeDead": 1701835140,
 		"typeItem": "lightcone",
 		"itemsBoost5": [
 			"23017"
@@ -520,7 +520,7 @@
 		"id": "2015",
 		"type": "11",
 		"timeBorn": 1701835200,
-		"timeDead": 1703573999,
+		"timeDead": 1703573940,
 		"typeItem": "character",
 		"itemsBoost5": [
 			"1302"
@@ -541,7 +541,7 @@
 		"id": "3015",
 		"type": "12",
 		"timeBorn": 1701835200,
-		"timeDead": 1703573999,
+		"timeDead": 1703573940,
 		"typeItem": "lightcone",
 		"itemsBoost5": [
 			"23018"
@@ -562,7 +562,7 @@
 		"id": "2016",
 		"type": "11",
 		"timeBorn": 1701835200,
-		"timeDead": 1703573999,
+		"timeDead": 1703573940,
 		"typeItem": "character",
 		"itemsBoost5": [
 			"1006"
@@ -585,7 +585,7 @@
 		"id": "3016",
 		"type": "12",
 		"timeBorn": 1701835200,
-		"timeDead": 1703573999,
+		"timeDead": 1703573940,
 		"typeItem": "lightcone",
 		"itemsBoost5": [
 			"23007"
@@ -607,7 +607,7 @@
 	{
 		"id": "2017",
 		"type": "11",
-		"timeDead": 1705463999,
+		"timeDead": 1705463940,
 		"typeItem": "character",
 		"itemsBoost5": [
 			"1303"
@@ -627,7 +627,7 @@
 	{
 		"id": "3017",
 		"type": "12",
-		"timeDead": 1705463999,
+		"timeDead": 1705463940,
 		"typeItem": "lightcone",
 		"itemsBoost5": [
 			"23019"
@@ -647,7 +647,7 @@
 	{
 		"id": "2018",
 		"type": "11",
-		"timeDead": 1705463999,
+		"timeDead": 1705463940,
 		"typeItem": "character",
 		"itemsBoost5": [
 			"1205"
@@ -669,7 +669,7 @@
 	{
 		"id": "3018",
 		"type": "12",
-		"timeDead": 1705463999,
+		"timeDead": 1705463940,
 		"typeItem": "lightcone",
 		"itemsBoost5": [
 			"23009"
@@ -692,7 +692,7 @@
 		"id": "2019",
 		"type": "11",
 		"timeBorn": 1705464000,
-		"timeDead": 1707116399,
+		"timeDead": 1707116340,
 		"typeItem": "character",
 		"itemsBoost5": [
 			"1305"
@@ -713,7 +713,7 @@
 		"id": "3019",
 		"type": "12",
 		"timeBorn": 1705464000,
-		"timeDead": 1707116399,
+		"timeDead": 1707116340,
 		"typeItem": "lightcone",
 		"itemsBoost5": [
 			"23020"
@@ -734,7 +734,7 @@
 		"id": "2020",
 		"type": "11",
 		"timeBorn": 1705464000,
-		"timeDead": 1707116399,
+		"timeDead": 1707116340,
 		"typeItem": "character",
 		"itemsBoost5": [
 			"1005"
@@ -757,7 +757,7 @@
 		"id": "3020",
 		"type": "12",
 		"timeBorn": 1705464000,
-		"timeDead": 1707116399,
+		"timeDead": 1707116340,
 		"typeItem": "lightcone",
 		"itemsBoost5": [
 			"23006"
@@ -779,7 +779,7 @@
 	{
 		"id": "2021",
 		"type": "11",
-		"timeDead": 1709179199,
+		"timeDead": 1709179140,
 		"typeItem": "character",
 		"itemsBoost5": [
 			"1307"
@@ -799,7 +799,7 @@
 	{
 		"id": "3021",
 		"type": "12",
-		"timeDead": 1709179199,
+		"timeDead": 1709179140,
 		"typeItem": "lightcone",
 		"itemsBoost5": [
 			"23022"
@@ -819,7 +819,7 @@
 	{
 		"id": "2022",
 		"type": "11",
-		"timeDead": 1709179199,
+		"timeDead": 1709179140,
 		"typeItem": "character",
 		"itemsBoost5": [
 			"1213"
@@ -841,7 +841,7 @@
 	{
 		"id": "3022",
 		"type": "12",
-		"timeDead": 1709179199,
+		"timeDead": 1709179140,
 		"typeItem": "lightcone",
 		"itemsBoost5": [
 			"23015"
@@ -864,7 +864,7 @@
 		"id": "2023",
 		"type": "11",
 		"timeBorn": 1709179200,
-		"timeDead": 1711436399,
+		"timeDead": 1711436340,
 		"typeItem": "character",
 		"itemsBoost5": [
 			"1306"
@@ -885,7 +885,7 @@
 		"id": "3023",
 		"type": "12",
 		"timeBorn": 1709179200,
-		"timeDead": 1711436399,
+		"timeDead": 1711436340,
 		"typeItem": "lightcone",
 		"itemsBoost5": [
 			"23021"
@@ -906,7 +906,7 @@
 		"id": "2024",
 		"type": "11",
 		"timeBorn": 1709179200,
-		"timeDead": 1711436399,
+		"timeDead": 1711436340,
 		"typeItem": "character",
 		"itemsBoost5": [
 			"1204"
@@ -929,7 +929,7 @@
 		"id": "3024",
 		"type": "12",
 		"timeBorn": 1709179200,
-		"timeDead": 1711436399,
+		"timeDead": 1711436340,
 		"typeItem": "lightcone",
 		"itemsBoost5": [
 			"23010"
@@ -951,7 +951,7 @@
 	{
 		"id": "2025",
 		"type": "11",
-		"timeDead": 1713326399,
+		"timeDead": 1713326340,
 		"typeItem": "character",
 		"itemsBoost5": [
 			"1308"
@@ -971,7 +971,7 @@
 	{
 		"id": "3025",
 		"type": "12",
-		"timeDead": 1713326399,
+		"timeDead": 1713326340,
 		"typeItem": "lightcone",
 		"itemsBoost5": [
 			"23024"
@@ -991,7 +991,7 @@
 	{
 		"id": "2026",
 		"type": "11",
-		"timeDead": 1713326399,
+		"timeDead": 1713326340,
 		"typeItem": "character",
 		"itemsBoost5": [
 			"1203"
@@ -1013,7 +1013,7 @@
 	{
 		"id": "3026",
 		"type": "12",
-		"timeDead": 1713326399,
+		"timeDead": 1713326340,
 		"typeItem": "lightcone",
 		"itemsBoost5": [
 			"23008"
@@ -1036,7 +1036,7 @@
 		"id": "2027",
 		"type": "11",
 		"timeBorn": 1713326400,
-		"timeDead": 1715065199,
+		"timeDead": 1715065140,
 		"typeItem": "character",
 		"itemsBoost5": [
 			"1304"
@@ -1057,7 +1057,7 @@
 		"id": "3027",
 		"type": "12",
 		"timeBorn": 1713326400,
-		"timeDead": 1715065199,
+		"timeDead": 1715065140,
 		"typeItem": "lightcone",
 		"itemsBoost5": [
 			"23023"
@@ -1078,7 +1078,7 @@
 		"id": "2028",
 		"type": "11",
 		"timeBorn": 1713326400,
-		"timeDead": 1715065199,
+		"timeDead": 1715065140,
 		"typeItem": "character",
 		"itemsBoost5": [
 			"1212"
@@ -1101,7 +1101,7 @@
 		"id": "3028",
 		"type": "12",
 		"timeBorn": 1713326400,
-		"timeDead": 1715065199,
+		"timeDead": 1715065140,
 		"typeItem": "lightcone",
 		"itemsBoost5": [
 			"23014"
@@ -1117,6 +1117,90 @@
 		"$data$locale": {
 			"zh-cn": {
 				"name": "此身为剑"
+			}
+		}
+	},
+	{
+		"id": "2029",
+		"type": "11",
+		"timeDead": 1716955140,
+		"typeItem": "character",
+		"itemsBoost5": [
+			"1309"
+		],
+		"itemsBoost4": [
+			"1001",
+			"1215",
+			"1214"
+		],
+		"versionAdded": "2.2",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "翼声纯律"
+			}
+		}
+	},
+	{
+		"id": "3029",
+		"type": "12",
+		"timeDead": 1716955140,
+		"typeItem": "lightcone",
+		"itemsBoost5": [
+			"23026"
+		],
+		"itemsBoost4": [
+			"21044",
+			"21010",
+			"21014"
+		],
+		"versionAdded": "2.2",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "夜色流光溢彩"
+			}
+		}
+	},
+	{
+		"id": "2030",
+		"type": "11",
+		"timeDead": 1716955140,
+		"typeItem": "character",
+		"itemsBoost5": [
+			"1112"
+		],
+		"itemsBoost4": [
+			"1001",
+			"1215",
+			"1214"
+		],
+		"versionAdded": "2.2",
+		"rerun": 1,
+		"idLeader": "2029",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "落日条款"
+			}
+		}
+	},
+	{
+		"id": "3030",
+		"type": "12",
+		"timeDead": 1716955140,
+		"typeItem": "lightcone",
+		"itemsBoost5": [
+			"23016"
+		],
+		"itemsBoost4": [
+			"21044",
+			"21010",
+			"21014"
+		],
+		"versionAdded": "2.2",
+		"rerun": 1,
+		"idLeader": "3029",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "烦恼着，幸福着"
 			}
 		}
 	},

@@ -16,8 +16,8 @@
 	</p-gacha-item>
 
 	<p-gacha-item v-if="props.type == 'log' && log">
-		<p-header @mouseenter="showItemTips(props.log.item, $event)"><img :src="`./image/item/${props.log.item}.png`" /></p-header>
-		<p-name :rarity="rarityNow" @mouseenter="showItemTips(props.log.item, $event)">{{ itemNow?.name }}</p-name>
+		<p-header ref="domGachaItemHeader"><img :src="`./image/item/${props.log.item}.png`" /></p-header>
+		<p-name :rarity="rarityNow">{{ itemNow?.name }}</p-name>
 		<p-progress v-if="rarityNow == 5">
 			<p-progress-text v-if="props.log.countInvest && props.log.countInvestPrev">
 				<span count>{{ String(props.log.countInvest).padStart(2, '&nbsp;') }}</span>
@@ -43,16 +43,16 @@
 				:style="{ width: `${100 * (props.log.countInvestPrev ?? 0) / (M.typesPoolGacha$id[props.log.type]?.minimum5 ?? 90)}%` }"
 			/>
 		</p-progress>
-
-		<p-tips-item ref="domTipsItem">
-			<img :src="`./image/item/${itemTips?.id}.png`" />
-			<p-info>{{ itemTips?.name }} {{ M.paths$id[itemTips?.path]?.name }} {{ M.elements$id[itemTips?.element]?.name }}</p-info>
-		</p-tips-item>
 	</p-gacha-item>
+
+	<p-tips-item v-if="props.type == 'log' && log" ref="domTipsItem">
+		<img :src="`./image/item/${itemNow.id}.png`" />
+		<p-info>{{ itemNow.name }} {{ M.paths$id[itemNow.path]?.name }} {{ M.elements$id[itemNow.element]?.name }}</p-info>
+	</p-tips-item>
 </template>
 
 <script setup>
-	import { computed, onMounted, ref } from 'vue';
+	import { computed, onMounted, onUnmounted, ref } from 'vue';
 
 	import Tippy from 'tippy.js';
 	import '@nuogz/vue-tip/src/index.css';
@@ -86,25 +86,26 @@
 	const rarityNow = computed(() => itemNow.value?.rarity);
 
 
+	const domGachaItemHeader = ref(null);
 	const domTipsItem = ref(null);
-	const itemTips = ref(null);
-	const showItemTips = (idItem, $event) => {
-		itemTips.value = M.items$id[idItem];
-
-		Tippy($event.target, {
-			theme: 'nob',
-			placement: 'top-start',
-			content: domTipsItem.value,
-			allowHTML: true,
-			interactive: true,
-			animation: '',
-			duration: [0, 0],
-			offset: [1, 8],
-			onHidden: tippy => tippy.destroy(),
-			appendTo: $event.target.parentNode,
-		}).show();
-	};
-	onMounted(() => Tippy(document.body, { content: domTipsItem.value }).destroy());
+	/** @type {import('vue').Ref<import('tippy.js').Instance} */
+	const tippyTipsItem = ref(null);
+	onMounted(() => {
+		if(domGachaItemHeader.value) {
+			tippyTipsItem.value = Tippy(domGachaItemHeader.value, {
+				theme: 'nob',
+				placement: 'bottom-start',
+				content: domTipsItem.value,
+				allowHTML: true,
+				interactive: true,
+				animation: '',
+				duration: [0, 0],
+				offset: [0, 0],
+				appendTo: document.body,
+			});
+		}
+	});
+	onUnmounted(() => tippyTipsItem.value?.destroy());
 
 
 	const pickGradientColor = (color1, color2, ratio) => {

@@ -4,7 +4,7 @@
 			<Click item class="!w-32" text="创建档案" @click="creatingProfile" />
 			<Click item class="!w-32" text="导入档案" @click="importingProfile" />
 			<Click item class="!w-32" text="切换主题" white @click="toggleTheme" />
-			<p-version>v{{version}}</p-version>
+			<p-version>v{{ version }}</p-version>
 		</p-fixed-topbar>
 		<p-main-box>
 			<p-gm-xhr-result class="block mb-4">● GreaseMonkey XMLHttpRequest：{{ hasXHRGM ? '✔ 存在' : '✖ 不存在' }}</p-gm-xhr-result>
@@ -368,7 +368,11 @@
 	const manageAchievement = profile => tabAdmin.add('achievement-manager', { type: 'icon|title', title: '成就管理', icon: faTrophy }, profile.uid);
 
 
-	const toggleTheme = () => document.querySelector(':root').classList.toggle('color-scheme-dark');
+	const toggleTheme = () => {
+		const root = document.querySelector(':root');
+
+		root.setAttribute('color-scheme', root.getAttribute('color-scheme') == 'dark' ? 'light' : 'dark');
+	};
 </script>
 
 
@@ -392,7 +396,7 @@ p-main-box
 
 
 dialog
-	@apply p-2 text-[var(--cTextBack)] shadow-mdd rounded-sm outline-none
+	@apply p-2 text-[var(--cText)] shadow-mdd rounded-sm outline-none
 	background-color: color-mix(in srgb, var(--cBack) 90%, white)
 	>[item]
 		@apply inblock w-auto mx-2 my-2 h-8 leading-8
@@ -410,5 +414,5 @@ p-profile
 p-raw-logs-option
 	@apply block p-2 my-2 cursor-pointer select-none rounded-sm w-fit
 	&[selected]
-		@apply bg-[var(--cBack)] text-[var(--cTextBack)]
+		@apply bg-[var(--cBack)] text-[var(--cText)]
 </style>

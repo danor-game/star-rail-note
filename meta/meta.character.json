@@ -611,15 +611,29 @@
 		}
 	},
 	{
+		"id": "1315",
+		"element": "Physical",
+		"path": "Rogue",
+		"rarity": 5,
+		"versionAdded": "2.2",
+		"versionAvailable": "2.2",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "波提欧"
+			}
+		}
+	},
+	{
 		"id": "8001",
 		"element": "Physical",
 		"path": "Warrior",
 		"rarity": 5,
+		"gender": "male",
 		"versionAdded": "1.0",
 		"versionAvailable": "1.0",
 		"$data$locale": {
 			"zh-cn": {
-				"name": "开拓者 (物理)"
+				"name": "开拓者"
 			}
 		}
 	},
@@ -628,11 +642,12 @@
 		"element": "Physical",
 		"path": "Warrior",
 		"rarity": 5,
+		"gender": "female",
 		"versionAdded": "1.0",
 		"versionAvailable": "1.0",
 		"$data$locale": {
 			"zh-cn": {
-				"name": "开拓者 (物理)"
+				"name": "开拓者"
 			}
 		}
 	},
@@ -641,11 +656,12 @@
 		"element": "Fire",
 		"path": "Knight",
 		"rarity": 5,
+		"gender": "male",
 		"versionAdded": "1.0",
 		"versionAvailable": "1.0",
 		"$data$locale": {
 			"zh-cn": {
-				"name": "开拓者 (火)"
+				"name": "开拓者"
 			}
 		}
 	},
@@ -654,11 +670,40 @@
 		"element": "Fire",
 		"path": "Knight",
 		"rarity": 5,
+		"gender": "female",
 		"versionAdded": "1.0",
 		"versionAvailable": "1.0",
 		"$data$locale": {
 			"zh-cn": {
-				"name": "开拓者 (火)"
+				"name": "开拓者"
+			}
+		}
+	},
+	{
+		"id": "8005",
+		"element": "Imaginary",
+		"path": "Shaman",
+		"rarity": 5,
+		"gender": "male",
+		"versionAdded": "2.2",
+		"versionAvailable": "2.2",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "开拓者"
+			}
+		}
+	},
+	{
+		"id": "8006",
+		"element": "Imaginary",
+		"path": "Shaman",
+		"rarity": 5,
+		"gender": "female",
+		"versionAdded": "2.2",
+		"versionAvailable": "2.2",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "开拓者"
 			}
 		}
 	}

@@ -264,6 +264,19 @@
 		"difficulty": ""
 	},
 	{
+		"id": 4013201,
+		"title": "今夜无人入眠",
+		"desc": "开拓者踏上「同谐」命途",
+		"rarity": "High",
+		"series": 1,
+		"priority": 978,
+		"tags": [
+			"版本:2.2",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
 		"id": 4020201,
 		"title": "银河系搭车客指南",
 		"desc": "获得<unbreak>#1[i]</unbreak>名角色",
@@ -919,6 +932,96 @@
 		"tags": [
 			"版本:2.1",
 			"隐藏描述"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4033201,
+		"title": "最后的大亨",
+		"desc": "觐见「钟表匠」\\n<color=#8790abff>※与匹诺康尼的第一位无名客相会</color>",
+		"rarity": "Mid",
+		"series": 3,
+		"descHide": "觐见「钟表匠」",
+		"priority": 971,
+		"tags": [
+			"版本:2.2",
+			"隐藏描述"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4033202,
+		"title": "自由，一如我们的父辈",
+		"desc": "继承「钟表匠」的遗产\\n<color=#8790abff>※继续匹诺康尼最后一位无名客未尽的旅途</color>",
+		"rarity": "Mid",
+		"series": 3,
+		"descHide": "继承「钟表匠」的遗产",
+		"priority": 970,
+		"tags": [
+			"版本:2.2",
+			"隐藏描述"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4033203,
+		"title": "我们若在光明中行",
+		"desc": "如愿踏上新的「开拓」之旅\\n<color=#8790abff>※击败「齐响诗班」多米尼克斯…</color>",
+		"rarity": "Mid",
+		"series": 3,
+		"descHide": "如愿踏上新的「开拓」之旅",
+		"priority": 969,
+		"tags": [
+			"版本:2.2",
+			"隐藏描述"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4033204,
+		"title": "最后，我们从梦中醒来",
+		"desc": "见证匹诺康尼的第一缕曙光\\n<color=#8790abff>※击败「哲学的胎儿」星期日</color>",
+		"rarity": "High",
+		"series": 3,
+		"descHide": "见证匹诺康尼的第一缕曙光",
+		"priority": 968,
+		"tags": [
+			"版本:2.2",
+			"隐藏描述"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4033205,
+		"title": "真诚是永远的终结技",
+		"desc": "与匹诺康尼公义的捍卫者和解\\n<color=#8790abff>※在「巨星巅峰战」中说服银枝</color>",
+		"rarity": "Mid",
+		"series": 3,
+		"descHide": "与匹诺康尼公义的捍卫者和解",
+		"priority": 967,
+		"idsAchievementExclusive": [
+			4033206
+		],
+		"tags": [
+			"版本:2.2",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4033206,
+		"title": "终结技是永远的真诚",
+		"desc": "击败匹诺康尼公义的捍卫者\\n<color=#8790abff>※在「巨星巅峰战」中击败银枝</color>",
+		"rarity": "Mid",
+		"series": 3,
+		"descHide": "击败匹诺康尼公义的捍卫者",
+		"priority": 966,
+		"idsAchievementExclusive": [
+			4033205
+		],
+		"tags": [
+			"版本:2.2",
+			"隐藏成就"
 		],
 		"difficulty": {}
 	},
@@ -1951,6 +2054,314 @@
 		"tags": [
 			"版本:2.1",
 			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4043201,
+		"title": "往日气球",
+		"desc": "打破流梦礁中的特殊石头老板气球",
+		"rarity": "Low",
+		"series": 4,
+		"priority": 919,
+		"tags": [
+			"版本:2.2",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4043202,
+		"title": "第二只气球",
+		"desc": "打破热砂海选会场中的特殊石头老板气球",
+		"rarity": "Low",
+		"series": 4,
+		"priority": 918,
+		"tags": [
+			"版本:2.2",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4043203,
+		"title": "后气球书",
+		"desc": "打破匹诺康尼大剧院中的特殊石头老板气球",
+		"rarity": "Low",
+		"series": 4,
+		"priority": 917,
+		"tags": [
+			"版本:2.2",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4043205,
+		"title": "新匹诺康尼梦",
+		"desc": "开启<unbreak>#1[i]</unbreak>次匹诺康尼战利品",
+		"rarity": "Mid",
+		"series": 4,
+		"paramsText": [
+			300
+		],
+		"priority": 915,
+		"tags": [
+			"版本:2.2"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4043206,
+		"title": "速度加快，血糖升高",
+		"desc": "在位于热砂海选会场的《速度与坚果》挑战中吃到所有的苏乐达道具",
+		"rarity": "Low",
+		"series": 4,
+		"priority": 914,
+		"tags": [
+			"版本:2.2"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4043207,
+		"title": "啾…不动了",
+		"desc": "帮助<unbreak>#1[i]</unbreak>只折纸小鸟回到「大树」",
+		"rarity": "Low",
+		"series": 4,
+		"paramsText": [
+			100
+		],
+		"priority": 913,
+		"tags": [
+			"版本:2.2",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4043208,
+		"title": "海选妙妙屋",
+		"desc": "在「海选特快」的界面中发现任意一个隐藏挑战",
+		"rarity": "Low",
+		"series": 4,
+		"priority": 912,
+		"tags": [
+			"版本:2.2"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4043209,
+		"title": "传奇海选王",
+		"desc": "成功触发共#1个「海选特快」的隐藏挑战",
+		"rarity": "Low",
+		"series": 4,
+		"paramsText": [
+			6
+		],
+		"priority": 911,
+		"tags": [
+			"版本:2.2",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4043210,
+		"title": "取消参赛资格！",
+		"desc": "打破海选广场处的所有石头老板气球",
+		"rarity": "Low",
+		"series": 4,
+		"priority": 910,
+		"tags": [
+			"版本:2.2",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4043211,
+		"title": "第一滴血",
+		"desc": "首次完成「哈努战线」的挑战",
+		"rarity": "Low",
+		"series": 4,
+		"priority": 909,
+		"tags": [
+			"版本:2.2"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4043212,
+		"title": "如狼",
+		"desc": "在任意《狼之道•终》关卡里，反弹了石头老板的每一枚硬币",
+		"rarity": "Low",
+		"series": 4,
+		"priority": 908,
+		"tags": [
+			"版本:2.2"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4043213,
+		"title": "暮狼归乡",
+		"desc": "完成所有《狼之道•终》关卡",
+		"rarity": "Low",
+		"series": 4,
+		"priority": 907,
+		"tags": [
+			"版本:2.2"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4043214,
+		"title": "如狼见参",
+		"desc": "在任意《狼之道•终》关卡里，没有反弹一次硬币攻击就打败了石头老板",
+		"rarity": "Low",
+		"series": 4,
+		"priority": 906,
+		"tags": [
+			"版本:2.2",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4043215,
+		"title": "第十五滴血",
+		"desc": "完成「哈努战线」的所有挑战",
+		"rarity": "Low",
+		"series": 4,
+		"priority": 905,
+		"tags": [
+			"版本:2.2",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4043216,
+		"title": "第几滴血？",
+		"desc": "完美通关「哈努战线」的所有挑战",
+		"rarity": "Low",
+		"series": 4,
+		"priority": 904,
+		"tags": [
+			"版本:2.2",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4043217,
+		"title": "穿甲弹",
+		"desc": "在「哈努战线」中一枪命中#1个靶子",
+		"rarity": "Low",
+		"series": 4,
+		"paramsText": [
+			7
+		],
+		"priority": 903,
+		"tags": [
+			"版本:2.2",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4043218,
+		"title": "鳄鱼公敌",
+		"desc": "在《小小哈努行动》的结局关卡中击败「钢铁鳄鱼」",
+		"rarity": "Low",
+		"series": 4,
+		"priority": 902,
+		"tags": [
+			"版本:2.2"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4043219,
+		"title": "再见，哈努努",
+		"desc": "收集所有《小小哈努行动》故事书",
+		"rarity": "Low",
+		"series": 4,
+		"priority": 901,
+		"tags": [
+			"版本:2.2",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4043220,
+		"title": "最后的血",
+		"desc": "在「哈努战线」中首次命中所有靶子",
+		"rarity": "Low",
+		"series": 4,
+		"priority": 900,
+		"tags": [
+			"版本:2.2",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4043221,
+		"title": "哈努的遗产",
+		"desc": "在盛会海选中找到「枪火的试炼」中的隐藏密宝",
+		"rarity": "Low",
+		"series": 4,
+		"priority": 899,
+		"tags": [
+			"版本:2.2",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4043222,
+		"title": "给我停止吧！",
+		"desc": "在「哈努战线」中通过「钟表时间」命中#1个靶子",
+		"rarity": "Low",
+		"series": 4,
+		"paramsText": [
+			20
+		],
+		"priority": 898,
+		"tags": [
+			"版本:2.2",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4043224,
+		"title": "饱和式轰炸",
+		"desc": "在一次《小小哈努行动》中一次性击败#1个石头老板的爪牙",
+		"rarity": "Low",
+		"series": 4,
+		"paramsText": [
+			5
+		],
+		"priority": 896,
+		"tags": [
+			"版本:2.2"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4043226,
+		"title": "家族的名义",
+		"desc": "帮助家族成员追回所有赃物",
+		"rarity": "Low",
+		"series": 4,
+		"priority": 894,
+		"tags": [
+			"版本:2.2"
 		],
 		"difficulty": {}
 	},
@@ -5507,6 +5918,420 @@
 		"difficulty": {}
 	},
 	{
+		"id": 4053201,
+		"title": "把历史装进瓶子",
+		"desc": "在热砂海选会场探秘汽水地窖的四大珍藏",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 749,
+		"tags": [
+			"版本:2.2",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053202,
+		"title": "糖浆药水的故事",
+		"desc": "在热砂海选会场找到汽水地窖最珍贵的窖藏",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 748,
+		"tags": [
+			"版本:2.2",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053203,
+		"title": "黄金与机械…表？",
+		"desc": "在热砂海选会场发现钟表小子化石为金的奥秘",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 747,
+		"tags": [
+			"版本:2.2",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053204,
+		"title": "只是一道行走的影子",
+		"desc": "聆听匹诺康尼大剧院舞台边八位人偶的故事",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 746,
+		"tags": [
+			"版本:2.2",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053206,
+		"title": "未完的筑梦诗",
+		"desc": "劝说奥尔拉从梦境中醒来",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 744,
+		"idsAchievementExclusive": [
+			4053207
+		],
+		"tags": [
+			"版本:2.2",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053207,
+		"title": "不如归去",
+		"desc": "放任奥尔拉随伙伴们离开",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 743,
+		"idsAchievementExclusive": [
+			4053206
+		],
+		"tags": [
+			"版本:2.2",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053208,
+		"title": "哈努工会的诞生",
+		"desc": "在《美梦往事》的广告片《哈努兄弟大劫案》中带领所有广告牌员工逃脱",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 742,
+		"tags": [
+			"版本:2.2",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053209,
+		"title": "苏乐达代言人",
+		"desc": "在《美梦往事》的广告片《爱汽水的钟表小子》中踏遍所有场景中的「苏乐达地板」",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 741,
+		"tags": [
+			"版本:2.2",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053210,
+		"title": "美梦小镇的魔术师",
+		"desc": "在《美梦往事》的广告片《美梦仙踪》中所有镜头都完美达到导演要求",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 740,
+		"tags": [
+			"版本:2.2",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053211,
+		"title": "钟表小子和他的伙伴们",
+		"desc": "帮助《美梦往事》的动画师制作所有动画外传",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 739,
+		"tags": [
+			"版本:2.2"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053212,
+		"title": "Railboard<unbreak>100</unbreak>",
+		"desc": "成功获得知更鸟的唱片",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 738,
+		"tags": [
+			"版本:2.2"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053213,
+		"title": "怒「海」求生",
+		"desc": "帮助想要成为巨星的苏乐达",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 737,
+		"tags": [
+			"版本:2.2",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053214,
+		"title": "流梦学习小组",
+		"desc": "为流浪者们创造一个新家",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 736,
+		"tags": [
+			"版本:2.2",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053215,
+		"title": "天使的呢喃",
+		"desc": "见证「桶的令使」的结局",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 735,
+		"tags": [
+			"版本:2.2",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053216,
+		"title": "他落下的羽毛",
+		"desc": "帮助知更鸟找到星期日的线索",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 734,
+		"tags": [
+			"版本:2.2",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053217,
+		"title": "永久性车票",
+		"desc": "乘坐球笼车抵达流梦礁的神秘车站",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 733,
+		"tags": [
+			"版本:2.2",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053218,
+		"title": "总而言之，很酷",
+		"desc": "在流梦礁找到七个特别的井盖",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 732,
+		"tags": [
+			"版本:2.2",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053219,
+		"title": "前有绝景，所以悲伤",
+		"desc": "在流梦礁的电梯井内找到钟表小子的痕迹",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 731,
+		"tags": [
+			"版本:2.2",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053220,
+		"title": "时间何其妙",
+		"desc": "完成冒险任务「曾经，在美梦小镇…」",
+		"rarity": "Mid",
+		"series": 5,
+		"priority": 730,
+		"tags": [
+			"版本:2.2"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053221,
+		"title": "所有的往事",
+		"desc": "在《美梦往事》中完成所有结局的剪辑",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 729,
+		"tags": [
+			"版本:2.2",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053222,
+		"title": "梦境TOP<unbreak>100</unbreak>",
+		"desc": "在《美梦往事》中总集篇中观众评分达到#1分",
+		"rarity": "Low",
+		"series": 5,
+		"paramsText": [
+			2000
+		],
+		"priority": 728,
+		"tags": [
+			"版本:2.2"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053223,
+		"title": "溢出镜头的情感",
+		"desc": "在《美梦往事》中三种观众情绪同时高于#1",
+		"rarity": "Low",
+		"series": 5,
+		"paramsText": [
+			50
+		],
+		"priority": 727,
+		"tags": [
+			"版本:2.2"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053224,
+		"title": "迷惘的一代",
+		"desc": "在《美梦往事》中进入一次特殊剧情分支",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 726,
+		"tags": [
+			"版本:2.2"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053225,
+		"title": "高成本影片",
+		"desc": "在《美梦往事》中同一回合至少获得#1个及以上的时间骰子#2",
+		"rarity": "Low",
+		"series": 5,
+		"paramsText": [
+			3,
+			6
+		],
+		"priority": 725,
+		"tags": [
+			"版本:2.2",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053226,
+		"title": "0点妖",
+		"desc": "在《美梦往事》中进行试映会评审时，所需情绪恰好等于评审要求",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 724,
+		"tags": [
+			"版本:2.2",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053227,
+		"title": "Rail Road, Take Me Home",
+		"desc": "在流梦礁中，通过「钟表匠」的梦泡进入稚子的梦",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 723,
+		"tags": [
+			"版本:2.2",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053228,
+		"title": "米哈伊尔，你要去哪儿？",
+		"desc": "应行的路，我已行尽\\n<color=#8790abff>※一切尘埃落定后，重回稚子的赏月地</color>",
+		"rarity": "Low",
+		"series": 5,
+		"descHide": "应行的路，我已行尽",
+		"priority": 722,
+		"tags": [
+			"版本:2.2",
+			"隐藏描述"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053229,
+		"title": "箱梯游戏",
+		"desc": "在流梦礁登上木箱堆叠的高山",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 721,
+		"tags": [
+			"版本:2.2",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053230,
+		"title": "等待戈多",
+		"desc": "耐心等待幽灵列车的到来",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 720,
+		"tags": [
+			"版本:2.2",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053231,
+		"title": "可以坐一下午",
+		"desc": "在流梦礁的沙发上享受片刻的歇息时间",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 719,
+		"tags": [
+			"版本:2.2",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053232,
+		"title": "爱遇之城",
+		"desc": "帮助广告牌「爱遇见」给它的爱人传话",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 718,
+		"tags": [
+			"版本:2.2",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
 		"id": 4060101,
 		"title": "影逝百度（一）",
 		"desc": "击败<unbreak>#1[i]</unbreak>次凝滞虚影",
@@ -7609,7 +8434,7 @@
 	{
 		"id": 4072609,
 		"title": "让炮弹飞",
-		"desc": "探索中使用娜塔莎攻击超远距离敌人并进入战斗",
+		"desc": "探索中使用娜塔莎攻击超远距离敌人并进入战斗或击碎超远距离可破坏物",
 		"rarity": "Low",
 		"series": 8,
 		"priority": 954,
@@ -8143,6 +8968,170 @@
 		"priority": 860,
 		"tags": [
 			"版本:2.1",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4073201,
+		"title": "JACKPOT！",
+		"desc": "使「惊梦剧团的幸运贩售」摇出一次「出货了！」",
+		"rarity": "Low",
+		"series": 7,
+		"priority": 858,
+		"tags": [
+			"版本:2.2"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4073202,
+		"title": "肥皂剧",
+		"desc": "在与「同音共律的来日」战斗时，#1名角色均进入过睡眠状态",
+		"rarity": "Low",
+		"series": 7,
+		"paramsText": [
+			4
+		],
+		"priority": 857,
+		"tags": [
+			"版本:2.2"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4073203,
+		"title": "受难剧",
+		"desc": "用一名角色承受「身陷樊笼的往昔」技能「笼中传福音」的全部伤害，且没有被击败",
+		"rarity": "Low",
+		"series": 7,
+		"priority": 856,
+		"tags": [
+			"版本:2.2"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4073204,
+		"title": "群像剧",
+		"desc": "在「昔在、今在、永在的剧目」第一阶段时，让#1名敌人轮流成为一次【司律】",
+		"rarity": "Low",
+		"series": 7,
+		"paramsText": [
+			3
+		],
+		"priority": 855,
+		"tags": [
+			"版本:2.2"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4073205,
+		"title": "独幕剧",
+		"desc": "在「昔在、今在、永在的剧目」第二阶段时，敌方至多施放一次「为同一律献舞」",
+		"rarity": "Low",
+		"series": 7,
+		"priority": 854,
+		"tags": [
+			"版本:2.2"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4073206,
+		"title": "断章",
+		"desc": "在「醉于盛会的此刻」进入蓄力状态后，打断其蓄力",
+		"rarity": "Low",
+		"series": 7,
+		"priority": 853,
+		"tags": [
+			"版本:2.2"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4073207,
+		"title": "一首歌的时间",
+		"desc": "聆听知更鸟的歌声\\n<color=#8790abff>※战斗中，施放知更鸟的终结技「千音迭奏，群星赋格」后，在查看模式观看知更鸟#1秒以上</color>",
+		"rarity": "Low",
+		"series": 7,
+		"descHide": "聆听知更鸟的歌声",
+		"paramsText": [
+			10
+		],
+		"priority": 852,
+		"tags": [
+			"版本:2.2",
+			"隐藏描述"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4073208,
+		"title": "哈梅尔的吹笛手",
+		"desc": "探索中使用知更鸟秘技「酣醉序曲」后，吸引#1个以上的敌方跟随",
+		"rarity": "Low",
+		"series": 7,
+		"paramsText": [
+			6
+		],
+		"priority": 851,
+		"tags": [
+			"版本:2.2",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4073209,
+		"title": "舞力全开！",
+		"desc": "战斗中，利用{NICKNAME}•同谐的终结技「喧嚣的舞灯巡游」的【伴舞】效果消灭一个精英敌人",
+		"rarity": "Low",
+		"series": 7,
+		"priority": 850,
+		"tags": [
+			"版本:2.2"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4073210,
+		"title": "赌命大赛",
+		"desc": "战斗中，我方角色波提欧在一回合内累计获得#1层【优势口袋】",
+		"rarity": "Low",
+		"series": 7,
+		"paramsText": [
+			3
+		],
+		"priority": 849,
+		"tags": [
+			"版本:2.2",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4073211,
+		"title": "神不在的工作日",
+		"desc": "在「齐响诗班」神主日施放「翩翩起舞的」或「狂风骤雨的」之前，击破所有旧梦的回声",
+		"rarity": "Low",
+		"series": 7,
+		"priority": 848,
+		"tags": [
+			"版本:2.2"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4073212,
+		"title": "然后，是星期一…",
+		"desc": "累积足够的护盾，完全抵挡「哲学的胎儿」星期日技能「太初有为」造成的伤害",
+		"rarity": "Low",
+		"series": 7,
+		"priority": 847,
+		"tags": [
+			"版本:2.2",
 			"隐藏成就"
 		],
 		"difficulty": {}
@@ -9054,6 +10043,32 @@
 		"priority": 927,
 		"tags": [
 			"版本:2.1"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4083202,
+		"title": "三思而后行",
+		"desc": "在筑梦模块上放置梦泡桥梁后，未通过梦泡桥梁就挪走筑梦模块",
+		"rarity": "Low",
+		"series": 8,
+		"priority": 925,
+		"tags": [
+			"版本:2.2",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4083203,
+		"title": "AA制",
+		"desc": "让波提欧和砂金抢着买单\\n<color=#8790abff>※在同一场战斗中触发砂金「战技•一」语音与波提欧「战斗开始•弱点击破」语音</color>",
+		"rarity": "Low",
+		"series": 8,
+		"priority": 924,
+		"tags": [
+			"版本:2.2",
+			"隐藏成就"
 		],
 		"difficulty": {}
 	},
