@@ -13,7 +13,10 @@
 				<p-info>档案{{ indexProfile + 1 }} &lt;{{ profile.nick }}&gt;</p-info>
 				<p-info>&nbsp;&nbsp;&nbsp;&nbsp;- {{ profile.name }}（{{ profile.uid }}）</p-info>
 				<p-info>&nbsp;&nbsp;&nbsp;&nbsp;- {{ profile.level }}级，均衡{{ profile.levelWorld }}</p-info>
-				<p-info>&nbsp;&nbsp;&nbsp;&nbsp;- 共解锁{{ profile.sizeCharacter }}位角色，{{ profile.countAchievement }}个成就</p-info>
+				<p-info>
+					&nbsp;&nbsp;&nbsp;&nbsp;- 共解锁{{ profile.sizeCharacter }}位角色，
+					{{ profile.countAchievement }}{{ renderLocalAchievementCount(profile) }}个成就
+				</p-info>
 				<p-info>总抽卡次数：{{ profile.logsParsed.length }}</p-info>
 				<p-info>初次获取时间：{{ profile.timeFetchFirst }} ({{ Day(profile.timeFetchFirst).fromNow() }})</p-info>
 				<p-info>最后获取时间：{{ profile.timeFetchLast }} ({{ Day(profile.timeFetchLast).fromNow() }})</p-info>
@@ -307,12 +310,15 @@
 
 			const info = JSON.parse(await fetchText(`https://api.mihomo.me/sr_info_parsed/${uid}`));
 
-			profile.nick = profile.nick || info?.player?.nickname;
-			profile.name = info?.player?.nickname;
-			profile.level = info?.player?.level;
-			profile.levelWorld = info?.player?.world_level;
-			profile.sizeCharacter = info?.player?.space_info?.avatar_count ?? 0;
-			profile.countAchievement = info?.player?.space_info?.achievement_count ?? 0;
+
+			if(info?.player && info?.player?.uid == uid) {
+				profile.nick = profile.nick || info?.player?.nickname;
+				profile.name = info?.player?.nickname ?? profile.name;
+				profile.level = info?.player?.level ?? profile.level;
+				profile.levelWorld = info?.player?.world_level ?? profile.levelWorld;
+				profile.sizeCharacter = info?.player?.space_info?.avatar_count ?? profile.sizeCharacter;
+				profile.countAchievement = info?.player?.space_info?.achievement_count ?? profile.countAchievement;
+			}
 
 
 			if(willFetchSolo) {
@@ -338,7 +344,7 @@
 			if(logsRaw[0]) {
 				profile.uid = logsRaw[0].uid;
 
-				fetchProfileBase(profile);
+				await fetchProfileBase(profile);
 			}
 
 			localStorage.setItem(`logsRaw-${profile.uid}-${Day().format('YYMMDDHHmmss')}`, JSON.stringify(logsRaw));
@@ -357,7 +363,7 @@
 
 	const exportProfile = profile => {
 		const a = document.createElement('a');
-		a.download = `profile-${profile.uid}-${profile.nick != profile.name ? `${profile.name} (${profile.nick})` : profile.name}-${Day().format('YYMMDD HHmmss')}.json`;
+		a.download = `sr-note@${profile.uid}@${profile.nick != profile.name && profile.nick ? `${profile.name} (${profile.nick})` : profile.name}-${Day().format('YYMMDD HHmmss')}.json`;
 		a.href = URL.createObjectURL(new Blob([JSON.stringify(profile)]));
 
 		a.click();
@@ -372,6 +378,14 @@
 		const root = document.querySelector(':root');
 
 		root.setAttribute('color-scheme', root.getAttribute('color-scheme') == 'dark' ? 'light' : 'dark');
+	};
+
+
+
+	const renderLocalAchievementCount = profile => {
+		const countAchievementFinishedLocal = Object.values(profile.infosPlayerAchievement$id).filter(a => a.status == 1).length;
+
+		return profile.countAchievement != countAchievementFinishedLocal && countAchievementFinishedLocal ? `(${countAchievementFinishedLocal}本地) ` : '';
 	};
 </script>
 

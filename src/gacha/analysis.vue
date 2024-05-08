@@ -1,12 +1,16 @@
 <template>
-	<p-fixed-topbar>
-		<Texter v-model="$uid" item class="!w-48" label="UID" type="number" align="center" label-split="&nbsp;" />
-		<Click item class="!w-16" text="分析" @click="query" />
-		<Combo v-model="$optionShowRarity4" item class="!w-32" lightcone4 label="四星" align="center" align-options="left" label-split="&nbsp;" :options="optionsShowRarity4" />
-		<Combo v-model="$optionShowDetail" item class="!w-32" lightcone4 label="详细" align="center" align-options="left" label-split="&nbsp;" :options="optionsShownHidden" />
-		<Combo v-model="$optionShowMatePool" item class="!w-36" lightcone4 label="子活动" align="center" align-options="left" label-split="&nbsp;" :options="optionsShownHidden" />
-		<Combo v-model="$optionShowNewbiePool" item class="!w-40" lightcone4 label="新手跃迁" align="center" align-options="left" label-split="&nbsp;" :options="optionsShownHidden" />
-	</p-fixed-topbar>
+	<p-fixed-sidebar>
+		<Combo v-model="$uid" item align="center" align-options="center" :options="optionsProfiles" @update:model-value="query" />
+		<Combo v-model="$optionShowRarity4" item label="四星" align="center" align-options="left" label-width="4.25rem" label-align="left" label-split="&nbsp;" :options="optionsShowRarity4" />
+		<Combo v-model="$optionShowDetail" item label="详细" align="center" align-options="left" label-width="4.25rem" label-align="left" label-split="&nbsp;" :options="optionsShownHidden" />
+		<Combo v-model="$optionShowMatePool" item label="子活动" align="center" align-options="left" label-width="4.25rem" label-align="left" label-split="&nbsp;" :options="optionsShownHidden" />
+		<Combo v-model="$optionShowNewbiePool" item label="新手跃迁" align="center" align-options="left" label-width="4.25rem" label-align="left" label-split="&nbsp;" :options="optionsShownHidden" />
+		<p-split>跳转</p-split>
+		<p-jump @click="scrollTo('gacha-summary')"><Icon :icon="faParagraph" /> 总览</p-jump>
+		<p-jump @click="scrollTo('gacha-type')"><Icon :icon="faParagraph" /> 按跃迁类型概览</p-jump>
+		<p-jump @click="scrollTo('gacha-type-detail')"><Icon :icon="faParagraph" /> 按跃迁类型</p-jump>
+		<p-jump @click="scrollTo('gacha-pool-detail')"><Icon :icon="faParagraph" /> 按跃迁活动</p-jump>
+	</p-fixed-sidebar>
 
 	<p-main-box>
 		<p-box gacha-summary>
@@ -86,8 +90,11 @@
 <script setup>
 	import { computed, onMounted, ref } from 'vue';
 
+	import { FontAwesomeIcon as Icon } from '@fortawesome/vue-fontawesome';
+	import { faParagraph } from '@fortawesome/free-solid-svg-icons';
+
 	import { tabAdmin } from '@nuogz/vue-sidebar';
-	import { Click, Combo, Texter } from '@nuogz/vue-components';
+	import { Combo } from '@nuogz/vue-components';
 	import { $fail } from '@nuogz/vue-alert';
 
 	import M from '../lib/meta.js';
@@ -111,6 +118,9 @@
 
 
 
+	const optionsProfiles = ref(loadProfiles().map(profile => ({
+		value: profile.uid, text: profile.nick
+	})));
 	const optionsShowRarity4 = [
 		{ value: 'all', text: '全部' },
 		{ value: 'character', text: '角色' },
@@ -162,19 +172,32 @@
 	};
 
 	const A = computed(() => analyseGacha($logs.value, $shownCharacterRarity4.value, $shownLightconeRarity4.value));
+
+
+	const scrollTo = type =>
+		document.querySelector(`p-box[${type}]`)
+			?.scrollIntoView({ behavior: 'auto', block: 'start' });
 </script>
 
 
 <style lang="sass" scoped>
-p-fixed-topbar
-	@apply block p-4 leading-8 fixed h-16 z-50 shadow-mdd bg-[var(--cBack)] whitespace-nowrap
-	width: calc( 100% - var(--widthSidebar))
+p-fixed-sidebar
+	@apply block p-4 leading-8 fixed right-0 w-56 h-full z-50 shadow-mdd bg-[var(--cBackSideBar)] whitespace-nowrap
+
 	>[item]
-		@apply inblock w-auto mr-4 h-8 leading-8 mb-2
+		@apply block w-full mr-4 h-8 leading-8 mb-2 text-sm
+
+	p-split
+		@apply block w-full my-2 text-base text-[var(--cMain)]
+		@apply relative left-[calc(var(--spc)*-2)]
+	p-jump
+		@apply block w-full my-2 text-sm cursor-pointer select-none
+		&:hover
+			@apply text-[var(--cMain)] text-base
 
 p-main-box
 	@apply grid grid-cols-2 gap-2
-	@apply relative mx-auto p-4 w-full leading-8 top-16
+	@apply relative mx-auto p-4 w-full leading-8 top-0
 
 	[value-highlight]
 		@apply font-bold text-2xl text-[var(--cMain)] align-super
