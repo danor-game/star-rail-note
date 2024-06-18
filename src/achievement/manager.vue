@@ -1,19 +1,16 @@
 <!-- eslint-disable vue/no-v-text-v-html-on-component -->
 
 <template>
-	<p-fixed-topbar>
-		<p-label item>● {{ $namePlayer }}</p-label>
-		<Texter v-model="$uid" item class="!w-48" label="UID" type="number" align="center" label-split="&nbsp;" @keyup.enter.exact="query" />
-		<Texter v-model="$word" item class="!w-48" label="搜索" align="center" label-split="&nbsp;" />
-		<Combo v-model="$optionVersion" item class="!w-36" lightcone4 label="版本" align="center" align-options="left" label-split="&nbsp;" :options="optionsVersion" />
-		<!-- <Combo v-model="$optionVersion" item class="!w-36" lightcone4 label="活动" align="center" align-options="left" label-split="&nbsp;" :options="optionsVersion" /> -->
-		<!-- <Combo v-model="$optionVersion" item class="!w-36" lightcone4 label="稀有" align="center" align-options="left" label-split="&nbsp;" :options="optionsVersion" /> -->
-		<!-- <Combo v-model="$optionVersion" item class="!w-36" lightcone4 label="难度" align="center" align-options="left" label-split="&nbsp;" :options="optionsVersion" /> -->
-		<Click item class="!w-16" :text="$doubledColumnMain ? '双列' : '单列'" @click="$doubledColumnMain = !$doubledColumnMain" />
+	<p-fixed-sidebar>
+		<Combo v-model="$idProfile" item align="center" align-options="center" :options="optionsProfiles" @update:model-value="query" />
+		<Texter v-model="$word" item align="center" align-options="left" label-width="4.25rem" label-align="right" label-split="&nbsp;" label="搜索" />
+		<Combo v-model="$optionVersion" item align="center" align-options="left" label-width="4.25rem" label-align="right" label-split="&nbsp;" label="版本" :options="optionsVersion" />
 
-		<br />
+		<!-- <Combo v-model="$optionVersion" item class="!w-36" lightcone4 label="活动" align="center" align-options="left" :options="optionsVersion" /> -->
+		<!-- <Combo v-model="$optionVersion" item class="!w-36" lightcone4 label="稀有" align="center" align-options="left" :options="optionsVersion" /> -->
+		<!-- <Combo v-model="$optionVersion" item class="!w-36" lightcone4 label="难度" align="center" align-options="left" :options="optionsVersion" /> -->
 
-		<p-series item>
+		<!-- <p-series item>
 			<p-label>系列&nbsp;</p-label>
 			<Click v-for="series of M.seriesAchievement" :key="`option-series-${series.id}`"
 				option-button :text="series.name"
@@ -22,31 +19,47 @@
 				@click.ctrl="switchSetOptionSingle($setOptionSeries, series.id, M.seriesAchievement.map(series => series.id))"
 				@click.shift="switchSetOptionAll($setOptionSeries, M.seriesAchievement.map(series => series.id))"
 			/>
-		</p-series>
-		<br />
-		<p-tag-filter item>
-			<Combo v-model="$tagsFilter" class="inblock" style="width: calc(100vw - 10rem);" label="标签" label-split="&nbsp;"
+		</p-series> -->
+		<!-- <p-tag-filter item>
+			<Combo v-model="$tagsFilter" class="inblock" style="width: calc(100vw - 10rem);" label="标签"
 				:options="[...setTagsAvailable].sort()" key-show="$$" key-value="$$"
 				multi-select="array" filter
 			/>
-		</p-tag-filter>
+		</p-tag-filter> -->
+	</p-fixed-sidebar>
+	<p-fixed-topbar>
+		<p-tab-button :now="brop($tabNow == 'main')">概览</p-tab-button>
+		<p-tab-button
+			v-for="{ achievementsTabbedFiltered, achievementsTabbed, tab, textTab } of infosAchievementTabbed"
+			:key="tab"
+			:now="brop($tabNow == tab)"
+			@click="$tabNow = tab, scrollTo(tab)"
+		>
+			{{ textTab }} {{ achievementsTabbedFiltered.length }}/{{ achievementsTabbed.length }}
+		</p-tab-button>
 	</p-fixed-topbar>
 
-	<p-main-box :doubled="brop($doubledColumnMain)">
-		<template v-for="[typeFinish, achievementsFiltered, achievementsAll, toStatus] of infosAchievement" :key="`achievement-finishType-${typeFinish}`">
-			<p-box>
-				<p-title>{{ typeFinish }} {{ achievementsFiltered.length }}/{{ achievementsAll.length }}</p-title>
+	<p-main-box>
+		<template v-for="{ achievementsTabbedFiltered, achievementsTabbed, toStatus, tab, textTab } of infosAchievementTabbed" :key="tab">
+			<p-box :anchor="tab">
+				<p-title>{{ textTab }} {{ achievementsTabbedFiltered.length }}/{{ achievementsTabbed.length }}</p-title>
 				<p-achievements>
-					<p-achievement v-for="achievement of achievementsFiltered" :key="`achievement-${achievement.id}`">
-						<Click oper-button :text="toStatus ? '完成' : '撤回'" :icon="toStatus ? faCheck : faRotateLeft" @click="modifyInfoPlayerAchievement(achievement.id, toStatus)" />
-						<p-title>● {{ renderText(achievement.title, achievement.paramsText) }}</p-title>
-						<p-desc v-html="renderText(achievement.desc, achievement.paramsText)" />
+					<p-achievement v-for="achievement of achievementsTabbedFiltered" :key="`achievement-${achievement.id}`">
+						<p-oper-box>
+							<Click v-if="!$profile?.infosAchievementPlayer$id[achievement.id]?.status" oper-button text="完成" :icon="toStatus ? faCheck : faRotateLeft" @dblclick="modifyPlayerAchievementStatus(achievement.id, toStatus)" />
+							<Click v-if="$profile?.infosAchievementPlayer$id[achievement.id]?.status >= 1" oper-button white text="撤回" :icon="toStatus ? faCheck : faRotateLeft" @dblclick="modifyPlayerAchievementStatus(achievement.id, toStatus)" />
+							<Click v-if="!$profile?.infosAchievementPlayer$id[achievement.id]?.status && !$profile?.infosAchievementPlayer$id[achievement.id]?.shelved" oper-button white text="搁置" :icon="faEyeSlash" @dblclick="modifyPlayerAchievementShelved(achievement.id, true)" />
+							<Click v-if="!$profile?.infosAchievementPlayer$id[achievement.id]?.status && $profile?.infosAchievementPlayer$id[achievement.id]?.shelved" oper-button white text="恢复" :icon="faEye" @dblclick="modifyPlayerAchievementShelved(achievement.id, false)" />
+						</p-oper-box>
+
+						<p-title :title="achievement.id">● {{ renderAchievementText(achievement.title, achievement.paramsText) }}</p-title>
+						<p-desc v-html="renderAchievementText(achievement.desc, achievement.paramsText)" />
 						<p-tags>
 							<p-tag v-for="tag of achievement.tags" :key="`achievement-${achievement.id}-tag-${tag}`">{{ tag }}</p-tag>
 						</p-tags>
 						<p-exclusives v-if="achievement.idsAchievementExclusive?.length">
 							<p-exclusive v-for="id of achievement.idsAchievementExclusive" :key="`achievement-${achievement.id}-exclusive-${id}`"
-								v-html="`【互斥成就】<span class='font-bold'>${M.achievements.find(achievement => achievement.id == id).title}</span> ${renderText(
+								v-html="`【互斥成就】<span class='font-bold'>${M.achievements.find(achievement => achievement.id == id).title}</span> ${renderAchievementText(
 									M.achievements.find(achievement => achievement.id == id).desc,
 									M.achievements.find(achievement => achievement.id == id).paramsText
 								).replaceAll('<br>', '')}`"
@@ -60,264 +73,352 @@
 </template>
 
 <script setup>
-	import { computed, onMounted, ref, watch } from 'vue';
-	import { faCheck, faRotateLeft } from '@fortawesome/free-solid-svg-icons';
+import { computed, onMounted, ref, watch } from 'vue';
+import { faCheck, faRotateLeft, faEye, faEyeSlash } from '@fortawesome/free-solid-svg-icons';
 
-	import { tabAdmin } from '@nuogz/vue-sidebar';
-	import { Click, Combo, Texter } from '@nuogz/vue-components';
-	import { $fail } from '@nuogz/vue-alert';
+import { tabAdmin } from '@nuogz/vue-sidebar';
+import { Click, Combo, Texter } from '@nuogz/vue-components';
+import { $fail } from '@nuogz/vue-alert';
 
-	import M from '../lib/meta.js';
+import Day from '../lib/day.pure.js';
 
-	import loadProfiles from '../profile/load-profiles.js';
-	import saveProfiles from '../profile/save-profiles.js';
-	import Day from '../lib/day.pure';
-
-
-
-	/**
-	 * @typedef {Object} AchievementPlayerInfo
-	 * @property {string} id 4010101
-	 * @property {number} [status=0] 0, 未完成; 1, 已完成; 2, 已错过
-	 * @property {number} timeModify 1703576093
-	 */
-
-
-	const $tab = ref(null);
-	tabAdmin.addTabHandle('achievement-manager', $tab);
-	onMounted(() => tabAdmin.emitChanged('mounted'));
+import { PA, PlayerAchievementInfo } from '../profile/admin.js';
+import M from '../lib/meta.js';
 
 
 
-	const $uid = ref('');
-	/** @type {import('vue').Ref<Object<string, AchievementPlayerInfo>>} */
-	const $infosPlayerAchievement$id = ref({});
-	const $namePlayer = ref('');
-
-	const query = async () => {
-		const uid = $uid.value;
-
-		if($tab.value) { $tab.value.tipsTitle = `${$tab.value.title} ${uid}`; }
-
-		try {
-			const profile = loadProfiles().find(profile => profile.uid == uid);
-
-			$infosPlayerAchievement$id.value = profile?.infosPlayerAchievement$id || {};
-			$namePlayer.value = profile?.name || '';
+const $tab = ref(null);
+onMounted(() => tabAdmin.emitChanged('mounted'));
+tabAdmin.addTabHandle('achievement-manager', $tab, tab => tab.params[0] ? query($idProfile.value = tab.params[0]) : void 0, tabAdmin.sUseHandleInit);
 
 
-			localStorage.setItem('last-analysis-uid', uid);
-		}
-		catch(error) {
-			$fail('获取成就记录', error);
-		}
-	};
-	watch($tab, tab => query($uid.value = tab.params?.[0] ?? $uid.value ?? ''));
+
+const $idProfile = ref('');
+/** @type {import('vue').Ref<import('../profile/admin.js').Profile>} */
+const $profile = ref(null);
+const optionsProfiles = computed(() => PA.$profiles.value.map(profile => ({ value: profile.id, text: profile.nick })));
 
 
-	const $word = ref('');
-	const sorts$seriesAchievement = M.seriesAchievement.reduce((acc, series, index) => (acc[series.id] = M.seriesAchievement.length - index, acc), {});
+const $word = ref('');
 
-	const achievementsDone = computed(() => M.achievements.filter(achievement => true
-		&& $infosPlayerAchievement$id.value[achievement.id]?.status == 1
-	));
-	const achievementsFilteredDone = computed(() => achievementsDone.value.filter(achievement => true
-		&& (achievement.title.includes($word.value) || achievement.desc.includes($word.value))
+const optionsVersion = [
+	{ value: 'all', text: '全部' },
+	...M.versions.map(version => ({ value: version, text: version }))
+];
+const $optionVersion = ref('all');
+
+
+// const switchSetOption = (set, value) => set.has(value) ? set.delete(value) : set.add(value);
+// const switchSetOptionSingle = (set, value, values) => set.has(value) ? (values.forEach(value => set.add(value)), set.delete(value)) : (set.clear(), set.add(value));
+// const switchSetOptionAll = (set, values) => set.size ? set.clear() : values.forEach(value => set.add(value));
+// const optionsActivity = [
+// 	{ value: 'all', text: '全部' },
+// 	...M.versions.map(version => ({ value: version, text: version }))
+// ];
+// const $optionActivity = ref('all');
+
+
+
+const query = async () => {
+	const idProfile = $idProfile.value;
+
+	if($tab.value) { $tab.value.tipsTitle = `${$tab.value.title} ${idProfile}`; }
+
+	try {
+		const profile = PA.$profiles.value.find(profile => profile.id == idProfile);
+		if(!profile) { throw Error('找不到对应档案'); }
+
+		$profile.value = profile;
+
+		if($tab.value) { $tab.value.tipsTitle = `${$tab.value.title} ${profile.uid}`; }
+
+		localStorage.setItem('last-profile-id', profile.id);
+	}
+	catch(error) {
+		$fail('获取成就记录', error);
+	}
+};
+watch($tab, tab => query($idProfile.value = tab.params?.[0] ?? $idProfile.value ?? ''));
+
+
+
+const $setOptionSeries = ref(new Set(M.seriesAchievement.map(series => series.id)));
+
+const sorts$seriesAchievement = M.seriesAchievement.reduce((acc, series, index) => (acc[series.id] = M.seriesAchievement.length - index, acc), {});
+
+
+const achievementsFinished = computed(() => M.achievements.filter(achievement => {
+	return !$profile.value?.infosAchievementPlayer$id[achievement.id]?.shelved
+		&& $profile.value?.infosAchievementPlayer$id[achievement.id]?.status == 1;
+}));
+const achievementsOngoing = computed(() => M.achievements.filter(achievement => {
+	return !$profile.value?.infosAchievementPlayer$id[achievement.id]?.shelved
+		&& $profile.value?.infosAchievementPlayer$id[achievement.id]?.status != 1
+		&& $profile.value?.infosAchievementPlayer$id[achievement.id]?.status != 2;
+}));
+const achievementsShelved = computed(() => M.achievements.filter(achievement => {
+	return $profile.value?.infosAchievementPlayer$id[achievement.id]?.shelved;
+}));
+
+
+/**
+ * @param {typeof M.achievements[0]} achievement
+ */
+const filterAchievement = achievement => {
+	return (achievement.title.includes($word.value) || achievement.desc.includes($word.value))
 		&& $setOptionSeries.value.has(achievement.series)
 		&& $tagsFilter.value.filter(tagFilter => achievement.tags.includes(tagFilter)).length == $tagsFilter.value.length
-		&& ($optionVersion.value == 'all' || achievement.tags.includes(`版本:${$optionVersion.value}`))
-	).sort((a, b) => sorts$seriesAchievement[b.series] - sorts$seriesAchievement[a.series] || b.priority - a.priority));
+		&& ($optionVersion.value == 'all' || achievement.tags.includes(`版本:${$optionVersion.value}`));
+};
 
-	const achievementsOngoing = computed(() => M.achievements.filter(achievement => true
-		&& $infosPlayerAchievement$id.value[achievement.id]?.status != 1 && $infosPlayerAchievement$id.value[achievement.id]?.status != 2
-	));
-	const achievementsFilteredOngoing = computed(() => achievementsOngoing.value.filter(achievement => true
-		&& (achievement.title.includes($word.value) || achievement.desc.includes($word.value))
-		&& $setOptionSeries.value.has(achievement.series)
-		&& $tagsFilter.value.filter(tagFilter => achievement.tags.includes(tagFilter)).length == $tagsFilter.value.length
-		&& ($optionVersion.value == 'all' || achievement.tags.includes(`版本:${$optionVersion.value}`))
-	).sort((a, b) => sorts$seriesAchievement[b.series] - sorts$seriesAchievement[a.series] || b.priority - a.priority));
-
-
-	const infosAchievement = computed(() => [
-		['未完成', achievementsFilteredOngoing.value, achievementsOngoing.value, 1],
-		['已完成', achievementsFilteredDone.value, achievementsDone.value, 0],
-	]);
-
-
-	const optionsVersion = [
-		{ value: 'all', text: '全部' },
-		...M.versions.map(version => ({ value: version, text: version }))
-	];
-	const $optionVersion = ref('all');
-
-	const $setOptionSeries = ref(new Set(M.seriesAchievement.map(series => series.id)));
-	const switchSetOption = (set, value) => set.has(value) ? set.delete(value) : set.add(value);
-	const switchSetOptionSingle = (set, value, values) => set.has(value) ? (values.forEach(value => set.add(value)), set.delete(value)) : (set.clear(), set.add(value));
-	const switchSetOptionAll = (set, values) => set.size ? set.clear() : values.forEach(value => set.add(value));
-	// const optionsActivity = [
-	// 	{ value: 'all', text: '全部' },
-	// 	...M.versions.map(version => ({ value: version, text: version }))
-	// ];
-	// const $optionActivity = ref('all');
+const achievementsFilteredFinished = computed(() => achievementsFinished.value.filter(filterAchievement)
+	.sort((a, b) => sorts$seriesAchievement[b.series] - sorts$seriesAchievement[a.series] || b.priority - a.priority));
+const achievementsFilteredOngoing = computed(() => achievementsOngoing.value.filter(filterAchievement)
+	.sort((a, b) => sorts$seriesAchievement[b.series] - sorts$seriesAchievement[a.series] || b.priority - a.priority));
+const achievementsFilteredShelved = computed(() => achievementsShelved.value.filter(filterAchievement)
+	.sort((a, b) => sorts$seriesAchievement[b.series] - sorts$seriesAchievement[a.series] || b.priority - a.priority));
 
 
 
+const $tabNow = ref('main');
+const infosAchievementTabbed = computed(() => [
+	{ tab: 'ongoing', textTab: '未完成', achievementsTabbedFiltered: achievementsFilteredOngoing.value, achievementsTabbed: achievementsOngoing.value, toStatus: 1 },
+	{ tab: 'finished', textTab: '已完成', achievementsTabbedFiltered: achievementsFilteredFinished.value, achievementsTabbed: achievementsFinished.value, toStatus: 0 },
+	{ tab: 'shelve', textTab: '已搁置', achievementsTabbedFiltered: achievementsFilteredShelved.value, achievementsTabbed: achievementsShelved.value, toStatus: 1 },
+]);
 
 
 
-	/**
-	 * @param {string} textRaw
-	 * @param {object} params
-	 */
-	const renderText = (textRaw, params = []) => {
-		let text = textRaw
-			.replace(/<\/?unbreak>/g, '')
-			.replace(/<\/?u>/g, '')
-			.replace(/\\n/g, '<br>')
-			.replace('{TEXTJOIN#54}', `<span style="color:var(--cMain);">${$namePlayer.value}的扑满以太灵</span>`)
-			.replace('{NICKNAME}', `<span style="color:var(--cMain);">${$namePlayer.value}</span>`);
+/**
+ * @param {string} textRaw
+ * @param {object} params
+ */
+const renderAchievementText = (textRaw, params = []) => {
+	let text = textRaw
+		.replace(/<\/?unbreak>/g, '')
+		.replace(/<\/?u>/g, '')
+		.replace(/\\n/g, '<br>')
+		.replace('{TEXTJOIN#54}', `<span style="color:var(--cMain);">${$profile.value?.name ?? '开拓者'}的扑满以太灵</span>`)
+		.replace('{NICKNAME}', `<span style="color:var(--cMain);">${$profile.value?.name ?? '开拓者'}</span>`);
 
-		if(params.length) {
-			text = text.replace(/(?<!=)#(\d+)(?:\[([im])\](%?))?/g, (match, index, format, percent) => {
-				/** @type {number} */
-				let textNumber = params[index - 1];
-
-
-				if(format == 'i') {
-					if(percent == '%') {
-						textNumber = `${(textNumber * 100).toFixed(0)}%`;
-					}
-					else {
-						textNumber = textNumber.toFixed(0);
-					}
-				}
-				else if(format == 'm') {
-					textNumber = `${(textNumber / 10000).toFixed(1)}万`;
-				}
-				else if(format) {
-					throw `unknown format[${format}]`;
-				}
+	if(params.length) {
+		text = text.replace(/(?<!=)#(\d+)(?:\[([im])\](%?))?/g, (match, index, format, percent) => {
+			/** @type {number} */
+			let textNumber = params[index - 1];
 
 
-				return `<color=#F79646FF>${textNumber}</color>`;
-			});
-		}
-
-		const blocks = text
-			.split(/(?=<color=#[0-9a-fA-F]{8}>|<\/color>)|(?<=<color=#[0-9a-fA-F]{8}>|<\/color>)/);
-		if(blocks.length > 1) {
-			const stackRGBA = [];
-			const textsRich = [];
-
-			for(const block of blocks) {
-				if(block == '</color>') { stackRGBA.shift(); continue; }
-
-
-				let [, rgba] = block.match(/<color=#([0-9a-fA-F]{8})>/) ?? [];
-				if(rgba) { stackRGBA.unshift(rgba); continue; }
-
-
-				if((rgba = stackRGBA[0])) {
-					textsRich.push(`<span style="color:#${rgba};">${block}</span>`);
+			if(format == 'i') {
+				if(percent == '%') {
+					textNumber = `${(textNumber * 100).toFixed(0)}%`;
 				}
 				else {
-					textsRich.push(block);
+					textNumber = textNumber.toFixed(0);
 				}
 			}
+			else if(format == 'm') {
+				textNumber = `${(textNumber / 10000).toFixed(1)}万`;
+			}
+			else if(format) {
+				throw `unknown format[${format}]`;
+			}
 
-			text = textsRich.join('');
+
+			return `<color=#F79646FF>${textNumber}</color>`;
+		});
+	}
+
+	const blocks = text
+		.split(/(?=<color=#[0-9a-fA-F]{8}>|<\/color>)|(?<=<color=#[0-9a-fA-F]{8}>|<\/color>)/);
+	if(blocks.length > 1) {
+		const stackRGBA = [];
+		const textsRich = [];
+
+		for(const block of blocks) {
+			if(block == '</color>') { stackRGBA.shift(); continue; }
+
+
+			let [, rgba] = block.match(/<color=#([0-9a-fA-F]{8})>/) ?? [];
+			if(rgba) { stackRGBA.unshift(rgba); continue; }
+
+
+			if((rgba = stackRGBA[0])) {
+				textsRich.push(`<span style="color:#${rgba};">${block}</span>`);
+			}
+			else {
+				textsRich.push(block);
+			}
 		}
 
-		return text;
-	};
+		text = textsRich.join('');
+	}
+
+	return text;
+};
 
 
-	const modifyInfoPlayerAchievement = (id, toStatus) => {
-		const profiles = loadProfiles();
-		const profile = profiles.find(profile => profile.uid == $uid.value);
+const modifyPlayerAchievementStatus = (idAchievement, toStatus) => {
+	const profile = $profile.value;
+	const achievement = M.achievements.find(achievement => achievement.id == idAchievement);
 
-		if(!profile) { return $fail('完成成就', `找不到档案[${$uid.value}]`); }
-		if(!profile.infosPlayerAchievement$id) { profile.infosPlayerAchievement$id = {}; }
-
-
-		profile.infosPlayerAchievement$id[id] = Object.assign(
-			{},
-			profile.infosPlayerAchievement$id[id],
-			{ id, status: toStatus, timeModify: Day().unix() },
-		);
+	const status = toStatus;
+	const timeFinished = toStatus ? Day().unix() : undefined;
 
 
-		const achievement = M.achievements.find(achievement => achievement.id == id);
+	let infoAchievementPlayer = profile.infosAchievementPlayer$id[idAchievement];
+	if(!infoAchievementPlayer) {
+		profile.infosAchievementPlayer$id[idAchievement] = new PlayerAchievementInfo();
+		infoAchievementPlayer = profile.infosAchievementPlayer$id[idAchievement];
 
-		for(const idAchievementExclusive of achievement?.idsAchievementExclusive || []) {
-			profile.infosPlayerAchievement$id[idAchievementExclusive] = Object.assign(
-				{},
-				profile.infosPlayerAchievement$id[idAchievementExclusive],
-				{
-					id: idAchievementExclusive,
-					status: toStatus == 0 ? 0 : toStatus == 1 ? 2 : 0,
-					timeModify: Day().unix(),
-				}
-			);
+		infoAchievementPlayer.id = achievement.id;
+	}
+
+	infoAchievementPlayer.status = status;
+	infoAchievementPlayer.timeFinished = timeFinished;
+
+	if(status == 0 && !infoAchievementPlayer.shelved) {
+		delete profile.infosAchievementPlayer$id[idAchievement];
+	}
+	else if(status == 1 && infoAchievementPlayer.shelved) {
+		infoAchievementPlayer.shelved = undefined;
+		infoAchievementPlayer.timeShelved = undefined;
+	}
+
+
+	for(const idAchievementExclusive of achievement?.idsAchievementExclusive ?? []) {
+		let infoAchievementPlayerExclusive = profile.infosAchievementPlayer$id[idAchievementExclusive];
+		if(!infoAchievementPlayerExclusive) {
+			profile.infosAchievementPlayer$id[idAchievementExclusive] = new PlayerAchievementInfo();
+			infoAchievementPlayerExclusive = profile.infosAchievementPlayer$id[idAchievementExclusive];
+
+			infoAchievementPlayerExclusive.id = achievement.id;
 		}
 
+		infoAchievementPlayerExclusive.status = status == 1 ? 2 : 0;
+		infoAchievementPlayerExclusive.timeFinished = timeFinished;
 
-		saveProfiles(profiles);
+		if(status == 0 && !infoAchievementPlayerExclusive.shelved) {
+			delete profile.infosAchievementPlayer$id[idAchievementExclusive];
+		}
+		else if(status == 1 && infoAchievementPlayer.shelved) {
+			infoAchievementPlayer.shelved = undefined;
+			infoAchievementPlayer.timeShelved = undefined;
+		}
+	}
 
-		query();
-	};
+
+	PA.save();
+};
+
+const modifyPlayerAchievementShelved = (idAchievement, toShelved) => {
+	const profile = $profile.value;
+	const achievement = M.achievements.find(achievement => achievement.id == idAchievement);
+
+	const shelved = toShelved ? true : undefined;
+	const timeShelved = toShelved ? Day().unix() : undefined;
+
+
+	let infoAchievementPlayer = profile.infosAchievementPlayer$id[idAchievement];
+	if(!infoAchievementPlayer) {
+		profile.infosAchievementPlayer$id[idAchievement] = new PlayerAchievementInfo();
+		infoAchievementPlayer = profile.infosAchievementPlayer$id[idAchievement];
+
+		infoAchievementPlayer.id = achievement.id;
+	}
+
+	infoAchievementPlayer.shelved = shelved;
+	infoAchievementPlayer.timeShelved = timeShelved;
+
+
+	for(const idAchievementExclusive of achievement?.idsAchievementExclusive ?? []) {
+		let infoAchievementPlayerExclusive = profile.infosAchievementPlayer$id[idAchievementExclusive];
+		if(!infoAchievementPlayerExclusive) {
+			profile.infosAchievementPlayer$id[idAchievementExclusive] = new PlayerAchievementInfo();
+			infoAchievementPlayerExclusive = profile.infosAchievementPlayer$id[idAchievementExclusive];
+
+			infoAchievementPlayerExclusive.id = achievement.id;
+		}
+
+		infoAchievementPlayerExclusive.shelved = shelved;
+		infoAchievementPlayerExclusive.timeShelved = timeShelved;
+	}
+
+
+	PA.save();
+};
 
 
 
-	const $doubledColumnMain = ref(true);
+const scrollTo = type => {
+	document.querySelector(`[anchor=${type}]`)
+		?.scrollIntoView({ behavior: 'auto', block: 'start' });
+
+	const html = document.documentElement;
+	if(html.scrollHeight - (html.scrollTop + html.clientHeight) > 1) {
+		html.scrollTop -= 36;
+	}
+};
 
 
-	const $tagsFilter = ref([]);
-	const setTagsAvailable = new Set(M.achievements.flatMap(achievement => achievement.tags));
+
+const $tagsFilter = ref([]);
+// const setTagsAvailable = new Set(M.achievements.flatMap(achievement => achievement.tags));
+
+
+// const $idsAchievementShelved = ref([]);
 </script>
 
 
 <style lang="sass" scoped>
-p-fixed-topbar
-	@apply block p-2 pb-0 leading-8 fixed h-[calc(var(--spc)*36)] z-50 shadow-mdd bg-[var(--cBack)] whitespace-nowrap
-	width: calc( 100% - var(--widthSidebar))
+p-fixed-sidebar
+	@apply block p-4 leading-8 fixed top-8 right-0 w-56 h-[calc(100%-var(--spc)*8)] z-50 shadow-mdd bg-[var(--cBackSideBar)] whitespace-nowrap
+
 	>[item]
-		@apply inblock w-auto mr-4 h-8 leading-8 mb-3
+		@apply block w-full mr-4 h-8 leading-8 mb-2 text-sm
+
+	p-split
+		@apply block w-full my-2 text-base text-[var(--cMain)]
+		@apply relative left-[calc(var(--spc)*-2)]
+	p-jump
+		@apply block w-full my-2 text-sm cursor-pointer select-none
+		&:hover
+			@apply text-[var(--cMain)] text-base
+
 	p-series
 		p-label
 			@apply inblock
 		>[option-button]
 			@apply inblock mx-1 px-4
-			@apply border-2 border-[var(--cMain)] h-8 lead-b1-8
+			@apply border-2 border-[var(--cGray)] h-8 lead-b1-8
 	p-tag-filter
 		p-label
 			@apply inblock
 		>[option-button]
 			@apply inblock mx-1 px-4
-			@apply border-2 border-[var(--cMain)] h-8 lead-b1-8
+			@apply border-2 border-[var(--cGray)] h-8 lead-b1-8
+
+p-fixed-topbar
+	@apply block px-2 leading-8 fixed top-0 w-full h-8 z-50 shadow-mdd bg-[var(--cBackSideBar)] whitespace-nowrap cursor-pointer
+	p-tab-button
+		@apply inblock px-2
+		&:hover, &[now]
+			@apply border-b-2 border-[var(--cMain)]
 
 p-main-box
-	@apply relative mx-auto p-4 w-full leading-8 top-[calc(var(--spc)*36)]
-	@apply grid grid-cols-1 auto-rows-min gap-2
-
-	&[doubled]
-		@apply grid-cols-2
-
-		p-box
-			>p-achievements
-				height: calc(100vh - var(--spc) * (36 + 8 + 8))
+	@apply grid grid-cols-1 gap-2
+	@apply relative p-4 leading-8 top-8
 
 	p-box
 		>p-title
-			@apply block h-8
+			@apply block h-8 leading-8 mb-2
 		p-achievements
-			@apply relative overflow-x-hidden overflow-y-scroll
-			@apply grid grid-cols-1 auto-rows-min gap-2
-
+			@apply relative overflow-x-hidden w-[1080px]
+			@apply grid grid-cols-1 auto-rows-min gap-0
+			@apply border-2 border-[var(--cGray)]
 
 			p-achievement
-				@apply p-2 mx-1 border rounded-sm shadow-mdd
+				@apply p-2 rounded-none shadow-sm bg-[var(--cBack)]
+				&:hover
+					@apply shadow-mdd brightness-95 dark:brightness-125
 				p-title
 					@apply block text-[var(--cMain)] font-bold w-fit
 				p-desc
@@ -332,7 +433,11 @@ p-main-box
 					p-exclusive
 						@apply block text-xs elli
 
-				[oper-button]
-					@apply float-right h-16 leading-[4rem] top-0
+				p-oper-box
+					@apply float-right top-0 block
+
+					[oper-button]
+						@apply block border border-[var(--cMain)]
+						@apply mb-1 h-8 leading-[calc(var(--spc)*8-2px)]
 
 </style>

@@ -98,7 +98,6 @@ const fetchLog = async (profile, willFetchFull = false, textProgressRef) => {
 						if(
 							logParsed.item != logRaw.item_id ||
 							logParsed.pool != logRaw.gacha_id ||
-							logParsed.type != logRaw.gacha_type ||
 							logParsed.time != Day(`${logRaw.time} ${hourToTimezone(timezone)}`, 'YYYY-MM-DD HH:mm:ss Z').unix()
 						) {
 							globalThis.console.warn(`抽卡记录ID[${logParsed.id}]相同，数据不相同`);

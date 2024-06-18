@@ -20,7 +20,6 @@ const parseRawLog = (logRaw, timezone) => {
 		id: logRaw.id,
 		item: logRaw.item_id,
 		pool: logRaw.gacha_id,
-		type: logRaw.gacha_type,
 		time: Day(`${logRaw.time} ${hourToTimezone(timezone)}`, 'YYYY-MM-DD HH:mm:ss Z').unix()
 	};
 };

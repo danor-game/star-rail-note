@@ -12,41 +12,40 @@
 </template>
 
 <script setup>
-	import { onMounted } from 'vue';
-	import { faBook, faStarOfDavid, faTrophy } from '@fortawesome/free-solid-svg-icons';
+import { onMounted } from 'vue';
+import { faBook, faStarOfDavid, faTrophy } from '@fortawesome/free-solid-svg-icons';
 
-	import CV from '@nuogz/css-var';
-	import { Sidebar, moduleNow, tabAdmin } from '@nuogz/vue-sidebar';
+import { Sidebar, moduleNow, tabAdmin } from '@nuogz/vue-sidebar';
 
-	import './index.pcss';
-	import './index.sass';
+import { PA } from './profile/admin.js';
 
-
-
-	document.title = 'DR跃迁笔记';
+import './index.pcss';
+import './index.sass';
 
 
-	CV.widthSidebar = '8rem';
-	CV.heightTopbar = '0rem';
-	CV.widthScroll = '0.5rem';
+
+document.title = 'DR星铁笔记';
 
 
-	onMounted(() => tabAdmin.add('profile-manager', { type: 'icon|title', title: '档案管理', icon: faBook }));
-	onMounted(() => {
-		const uidAnalysisLast = localStorage.getItem('last-analysis-uid') ?? '';
+onMounted(() => {
+	const idProfileLast = localStorage.getItem('last-profile-id');
 
-		if(uidAnalysisLast) {
-			tabAdmin.add('achievement-manager', { type: 'icon|title', title: '成就管理', icon: faTrophy }, uidAnalysisLast);
-			tabAdmin.add('gacha-analysis', { type: 'icon|title', title: '跃迁分析', icon: faStarOfDavid }, uidAnalysisLast);
-		}
-	});
+	tabAdmin.add('test-test', { type: 'icon|title', title: '测试', icon: faBook, delay: true });
+	tabAdmin.add('database-character-grid', { type: 'icon|title', title: '角色归属', icon: faBook, delay: true });
+	tabAdmin.add('profile-manager', { type: 'icon|title', title: '档案管理', icon: faBook, delay: Boolean(idProfileLast && PA.$profiles.value.length) });
+
+	for(const profile of PA.profiles) {
+		tabAdmin.add('achievement-manager', { type: 'icon|title', title: '成就管理', icon: faTrophy, delay: profile.id != idProfileLast, group: { id: profile.id, text: profile.nick ?? profile.name } }, profile.id);
+		tabAdmin.add('gacha-analysis', { type: 'icon|title', title: '跃迁分析', icon: faStarOfDavid, delay: profile.id != idProfileLast, group: { id: profile.id, text: profile.nick ?? profile.name } }, profile.id);
+	}
+});
 </script>
 
 <style lang="sass" scoped>
 p-main
-	margin-top: var(--heightTopbar)
-	margin-left: var(--widthSidebar)
-	width: calc(100% - var(--widthSidebar))
+	margin-top: var(--heightTopbar, 0rem)
+	margin-left: var(--widthSidebar, 8rem)
+	width: calc(100% - var(--widthSidebar, 8rem))
 	@apply block relative
 
 	module

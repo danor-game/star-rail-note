@@ -19,28 +19,27 @@
 		<p-header ref="domGachaItemHeader"><img :src="`./image/item/${props.log.item}.png`" /></p-header>
 		<p-name :rarity="rarityNow">{{ itemNow?.name }}</p-name>
 		<p-progress v-if="rarityNow == 5">
-			<p-progress-text v-if="props.log.countInvest && props.log.countInvestPrev">
-				<span count>{{ String(props.log.countInvest).padStart(2, '&nbsp;') }}</span>
-				<span count-sm class="ml-1">{{ props.log.countInvestPrev }}+{{ props.log.countInvest - props.log.countInvestPrev }}</span>
+			<p-progress-text v-if="props.a?.countsInvest$id[props.log.id] && props.a?.countsInvestPrev$id[props.log.id]">
+				<span count>{{ String(props.a?.countsInvest$id[props.log.id]).padStart(2, '&nbsp;') }}</span>
+				<span count-sm class="ml-1">{{ props.a?.countsInvestPrev$id[props.log.id] }}+{{ props.a?.countsInvest$id[props.log.id] - props.a?.countsInvestPrev$id[props.log.id] }}</span>
 			</p-progress-text>
-			<p-progress-text v-else-if="props.log.countInvest">
-				<span count>{{ String(props.log.countInvest).padStart(2, '&nbsp;') }}</span>
+			<p-progress-text v-else-if="props.a?.countsInvest$id[props.log.id]">
+				<span count>{{ String(props.a?.countsInvest$id[props.log.id]).padStart(2, '&nbsp;') }}</span>
 			</p-progress-text>
-			<p-missed-text v-if="props.log.missed">歪</p-missed-text>
-
+			<p-missed-text v-if="props.a?.misseds$id[props.log.id]">歪</p-missed-text>
 			<p-value-bar
-				:missed="brop(props.log.missed)"
+				:missed="brop(props.a?.misseds$id[props.log.id])"
 				:style="{
-					width: `${100 * (props.log.countInvest ?? 0) / (M.typesPoolGacha$id[props.log.type]?.minimum5 ?? 90)}%`,
-					backgroundColor: props.log.missed ? null : pickGradientColor(
+					width: `${100 * (props.a?.countsInvest$id[props.log.id] ?? 0) / (M.typesPoolGacha$id[M.poolsGacha$id[props.log.pool]?.type]?.minimum5 ?? 90)}%`,
+					backgroundColor: props.a?.misseds$id[props.log.id] ? null : pickGradientColor(
 						[250, 204, 21],
 						[52, 211, 153],
-						(props.log.countInvest ?? 0) / (M.typesPoolGacha$id[props.log.type]?.minimum5 ?? 90)
+						(props.a?.countsInvest$id[props.log.id] ?? 0) / (M.typesPoolGacha$id[M.poolsGacha$id[props.log.pool]?.type]?.minimum5 ?? 90)
 					)
 				}"
 			/>
-			<p-value-bar v-if="props.log.countInvestPrev" prev
-				:style="{ width: `${100 * (props.log.countInvestPrev ?? 0) / (M.typesPoolGacha$id[props.log.type]?.minimum5 ?? 90)}%` }"
+			<p-value-bar v-if="props.a?.countsInvestPrev$id[props.log.id]" prev
+				:style="{ width: `${100 * (props.a?.countsInvestPrev$id[props.log.id] ?? 0) / (M.typesPoolGacha$id[M.poolsGacha$id[props.log.pool]?.type]?.minimum5 ?? 90)}%` }"
 			/>
 		</p-progress>
 	</p-gacha-item>
@@ -52,74 +51,79 @@
 </template>
 
 <script setup>
-	import { computed, onMounted, onUnmounted, ref } from 'vue';
+import { computed, onMounted, onUnmounted, ref } from 'vue';
 
-	import Tippy from 'tippy.js';
-	import '@nuogz/vue-tip/src/index.css';
+import Tippy from 'tippy.js';
+import '@nuogz/vue-tip/src/index.css';
 
-	import M from '../../lib/meta.js';
-
-
-
-	const props = defineProps({
-		/** 显示类型 */
-		type: { type: String, default: 'log' },
-		/** 抽卡类型 */
-		typeGacha: { type: [String], default: '11' },
-		/**
-		 * 抽卡日志
-		 * @type {import('../../profile/fetch-log.js').ParsedLog}
-		 */
-		log: { type: Object, default: null },
-		/** 垫数 */
-		countInvest: { type: [String, Number], default: 0 },
-	});
+import M from '../../lib/meta.js';
 
 
-	const textInvest$type = {
-		'count-invest-next': '当期',
-		'count-invest-prev': '上期',
-	};
+
+const props = defineProps({
+	/** 显示类型 */
+	type: { type: String, default: 'log' },
+	/** 抽卡类型 */
+	typeGacha: { type: [String], default: '11' },
+	/**
+	 * 抽卡日志
+	 * @type {import('../../profile/fetch-log.js').ParsedLog}
+	 */
+	log: { type: Object, default: null },
+	/**
+	 * 分析结果
+	 * @type {import('../analyseGacha.js').Analysis}
+	 */
+	a: { type: Object, default: null },
+	/** 垫数 */
+	countInvest: { type: [String, Number], default: 0 },
+});
 
 
-	const itemNow = computed(() => M.items$id[props.log?.item]);
-	const rarityNow = computed(() => itemNow.value?.rarity);
+const textInvest$type = {
+	'count-invest-next': '当期',
+	'count-invest-prev': '上期',
+};
 
 
-	const domGachaItemHeader = ref(null);
-	const domTipsItem = ref(null);
-	/** @type {import('vue').Ref<import('tippy.js').Instance} */
-	const tippyTipsItem = ref(null);
-	onMounted(() => {
-		if(domGachaItemHeader.value) {
-			tippyTipsItem.value = Tippy(domGachaItemHeader.value, {
-				theme: 'nob',
-				placement: 'bottom-start',
-				content: domTipsItem.value,
-				allowHTML: true,
-				interactive: true,
-				animation: '',
-				duration: [0, 0],
-				offset: [0, 0],
-				appendTo: document.body,
-			});
-		}
-	});
-	onUnmounted(() => tippyTipsItem.value?.destroy());
+const itemNow = computed(() => M.items$id[props.log?.item]);
+const rarityNow = computed(() => itemNow.value?.rarity);
 
 
-	const pickGradientColor = (color1, color2, ratio) => {
-		const ratio1 = ratio;
-		const ratio2 = 1 - ratio1;
+const domGachaItemHeader = ref(null);
+const domTipsItem = ref(null);
+/** @type {import('vue').Ref<import('tippy.js').Instance} */
+const tippyTipsItem = ref(null);
+onMounted(() => {
+	if(domGachaItemHeader.value) {
+		tippyTipsItem.value = Tippy(domGachaItemHeader.value, {
+			theme: 'nob',
+			placement: 'bottom-start',
+			content: domTipsItem.value,
+			allowHTML: true,
+			interactive: true,
+			animation: '',
+			duration: [0, 0],
+			offset: [0, 0],
+			appendTo: document.body,
+		});
+	}
+});
+onUnmounted(() => tippyTipsItem.value?.destroy());
 
-		const rgb = [
-			Math.round(color1[0] * ratio1 + color2[0] * ratio2),
-			Math.round(color1[1] * ratio1 + color2[1] * ratio2),
-			Math.round(color1[2] * ratio1 + color2[2] * ratio2)
-		];
 
-		return `RGB(${rgb.join(',')})`;
-	};
+const pickGradientColor = (color1, color2, ratio) => {
+	const ratio1 = ratio;
+	const ratio2 = 1 - ratio1;
+
+	const rgb = [
+		Math.round(color1[0] * ratio1 + color2[0] * ratio2),
+		Math.round(color1[1] * ratio1 + color2[1] * ratio2),
+		Math.round(color1[2] * ratio1 + color2[2] * ratio2)
+	];
+
+	return `RGB(${rgb.join(',')})`;
+};
 </script>
 
 
@@ -147,7 +151,7 @@ p-gacha-item
 			@apply w-fit
 
 	p-progress
-		@apply relative top-1 block max-w-sm h-8 ml-2 rounded-sm overflow-hidden bg-[var(--cProgressBack)]
+		@apply relative top-1 block max-w-sm h-8 ml-2 rounded-sm overflow-hidden bg-[var(--cBackProgress)]
 		p-value-bar
 			@apply relative block w-full h-full
 			&[missed]
@@ -166,7 +170,7 @@ p-gacha-item
 			[missed]
 				@apply text-red-700
 		p-missed-text
-			@apply float-right relative top-0.5 right-2 w-7 h-7 border-2 border-red-700 border-transparent rounded-full
+			@apply float-right z-10 relative top-0.5 right-2 w-7 h-7 border-2 border-red-700 border-transparent rounded-full
 			@apply text-red-700 text-base leading-6 text-center align-middle
 
 p-tips-item

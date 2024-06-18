@@ -33,6 +33,13 @@ import M from '../lib/meta.js';
  * @typedef {Object} Analysis
  * @property {AnalysisByGachaType[]} typesPoolGacha
  * @property {AnalysisByGachaPool[]} pools
+ * @property {Object<string, number>} countsInvest$id
+ * @property {Object<string, number>} countsInvestPrev$id
+ * @property {Object<string, number>} misseds$id
+ * @property {number} countLightcone5
+ * @property {number} countCharacter5
+ * @property {number} countLightcone4
+ * @property {number} countCharacter4
  */
 
 
@@ -43,27 +50,38 @@ import M from '../lib/meta.js';
  */
 const analyseGacha = (logs, showCharacter4, showLightcone4) => {
 	/** @type {Analysis} */
-	const A = {};
+	const A = {
+		typesPoolGacha: [],
+		pools: [],
+		countsInvest$id: {},
+		countsInvestPrev$id: {},
+		misseds$id: {},
+		countLightcone5: logs.filter(log => M.lightcones$id[log.item]?.rarity == 5).length,
+		countCharacter5: logs.filter(log => M.characters$id[log.item]?.rarity == 5).length,
+		countLightcone4: logs.filter(log => M.lightcones$id[log.item]?.rarity == 4).length,
+		countCharacter4: logs.filter(log => M.characters$id[log.item]?.rarity == 4).length,
+	};
 
 
-	A.typesPoolGacha = [];
 	const countsInvestTypeGacha$typeGacha = M.typesPoolGacha.reduce((acc, cur) => (acc[cur.id] = 0, acc), {});
 
-	for(const typeGacha of M.typesPoolGacha.toReversed()) {
-		const logsTypeGacha = logs.filter(log => log.type == typeGacha.id).sort((a, b) => b.time - a.time);
+	for(const typeGacha of [{ id: '0', minimum5: 90, 'order': 0, name: '未知跃迁' }, ...M.typesPoolGacha.toReversed()]) {
+		const logsTypeGacha = logs.filter(log => {
+			if(typeGacha.id != '0') { return M.poolsGacha$id[log.pool]?.type == typeGacha.id; }
+
+			return log.pool in M.poolsGacha$id == false;
+		}).sort((a, b) => b.time - a.time);
+
+		if(typeGacha.id == 0 && !logsTypeGacha.length) { continue; }
+
 
 		const countInvestPrev = countsInvestTypeGacha$typeGacha[typeGacha.id];
-		let countInvestPrevNow = countsInvestTypeGacha$typeGacha[typeGacha.id];
 
 		for(const log of logsTypeGacha.toReversed()) {
 			countsInvestTypeGacha$typeGacha[typeGacha.id]++;
 
 			if(M.items$id[log.item]?.rarity == 5) {
-				log.countInvest = countsInvestTypeGacha$typeGacha[typeGacha.id];
 				countsInvestTypeGacha$typeGacha[typeGacha.id] = 0;
-
-
-				if(countInvestPrev) { log.countInvestPrev = countInvestPrevNow; countInvestPrevNow = 0; }
 			}
 		}
 
@@ -87,15 +105,14 @@ const analyseGacha = (logs, showCharacter4, showLightcone4) => {
 
 
 
-	A.pools = [];
 	const countsInvestPool$typeGacha = M.typesPoolGacha.reduce((acc, cur) => (acc[cur.id] = 0, acc), {});
 
 	for(const pool of M.poolsGacha.filter(pool => !pool.idLeader).toReversed()) {
 		const poolsMate = M.poolsGacha.filter(p => p.idLeader == pool.id);
 
 		const poolsAll = [pool, ...poolsMate];
-		const idsPoolAll = !pool.unknown ? poolsAll.map(pool => pool.id) : M.poolsGacha.map(pool => pool.id);
-		const itemsBoost5 = poolsAll.map(pool => pool.itemsBoost5 ?? []).flat();
+		const idsPoolAll = !pool.unknown ? poolsAll.map(poolAll => poolAll.id) : M.poolsGacha.map(poolGacha => poolGacha.id);
+		const itemsBoost5 = poolsAll.map(poolAll => poolAll.itemsBoost5 ?? []).flat();
 
 
 		const logsPoolAll = !pool.unknown
@@ -115,14 +132,16 @@ const analyseGacha = (logs, showCharacter4, showLightcone4) => {
 			countsInvestPool$typeGacha[pool.type]++;
 
 			if(M.items$id[log.item]?.rarity == 5) {
-				log.countInvest = countsInvestPool$typeGacha[pool.type];
+				A.countsInvest$id[log.id] = countsInvestPool$typeGacha[pool.type];
 				countsInvestPool$typeGacha[pool.type] = 0;
 
 
-				if(countInvestPrev) { log.countInvestPrev = countInvestPrevNow; countInvestPrevNow = 0; }
+				if(countInvestPrev) {
+					A.countsInvestPrev$id[log.id] = countInvestPrevNow; countInvestPrevNow = 0;
+				}
 
 				if(itemsBoost5.length && !itemsBoost5.includes(log.item)) {
-					log.missed = true;
+					A.misseds$id[log.id] = true;
 				}
 			}
 		}
@@ -130,7 +149,7 @@ const analyseGacha = (logs, showCharacter4, showLightcone4) => {
 		A.pools.unshift({
 			id: pool.id,
 			name: pool.name,
-			order: M.poolsGacha.findIndex(pool => pool.id == pool.id),
+			order: M.poolsGacha.findIndex(poolGacha => poolGacha.id == poolGacha.id),
 			pool,
 
 			logs: logsPoolAll,

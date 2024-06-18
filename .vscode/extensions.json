@@ -1,10 +1,10 @@
 {
 	"recommendations": [
-		"bradlc.vscode-tailwindcss",
-		"csstools.postcss",
 		"dbaeumer.vscode-eslint",
-		"phoenisx.cssvar",
+		"csstools.postcss",
 		"syler.sass-indented",
-		"vue.volar"
+		"bradlc.vscode-tailwindcss",
+		"vue.volar",
+		"phoenisx.cssvar"
 	]
 }

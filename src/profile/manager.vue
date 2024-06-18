@@ -10,7 +10,7 @@
 			<p-gm-xhr-result class="block mb-4">● GreaseMonkey XMLHttpRequest：{{ hasXHRGM ? '✔ 存在' : '✖ 不存在' }}</p-gm-xhr-result>
 
 			<p-profile v-for="(profile, indexProfile) of $profiles" :key="`profile-${profile.uid || indexProfile}`">
-				<p-info>档案{{ indexProfile + 1 }} &lt;{{ profile.nick }}&gt;</p-info>
+				<p-info>档案{{ indexProfile + 1 }} &lt;{{ profile.nick }}&gt; {{ profile.id }}</p-info>
 				<p-info>&nbsp;&nbsp;&nbsp;&nbsp;- {{ profile.name }}（{{ profile.uid }}）</p-info>
 				<p-info>&nbsp;&nbsp;&nbsp;&nbsp;- {{ profile.level }}级，均衡{{ profile.levelWorld }}</p-info>
 				<p-info>
@@ -89,304 +89,311 @@
 </template>
 
 <script setup>
-	import { ref } from 'vue';
-	import { faStarOfDavid, faTrophy } from '@fortawesome/free-solid-svg-icons';
+import { ref } from 'vue';
+import { faStarOfDavid, faTrophy } from '@fortawesome/free-solid-svg-icons';
+import { ulid } from 'ulidx';
 
-	import { tabAdmin } from '@nuogz/vue-sidebar';
-	import { Click, Texter, Textbox, FileDragger } from '@nuogz/vue-components';
-	import { $fail, $quest } from '@nuogz/vue-alert';
+import { tabAdmin } from '@nuogz/vue-sidebar';
+import { Click, Texter, Textbox, FileDragger } from '@nuogz/vue-components';
+import { $alert, $fail, $quest, $quest3 } from '@nuogz/vue-alert';
 
-	import Day from '../lib/day.pure.js';
+import Day from '../lib/day.pure.js';
 
-	import fetchLog from './fetch-log.js';
-	import loadProfiles from './load-profiles.js';
-	import saveProfiles from './save-profiles.js';
+import fetchLog from './fetch-log.js';
 
-
-
-	/* global PACKAGE_VERSION */
-	const version = PACKAGE_VERSION;
-
-	/** @type {typeof GM_xmlhttpRequest} */
-	const XMLHttpRequestGM = window['XMLHttpRequestGM'];
-
-	const hasXHRGM = typeof XMLHttpRequestGM == 'function';
-
-
-	const fetchText = async (url, method = 'GET', option, willReturnResponse = false) => new Promise((resolve, reject) =>
-		XMLHttpRequestGM(Object.assign({}, option, {
-			method,
-			url,
-
-			onload(response) { resolve(willReturnResponse ? response : response.responseText); },
-			onerror(error) { reject(error); }
-		})));
-
-
-	/** @type {import('vue').Ref<any[]>} */
-	const $profiles = ref(loadProfiles());
+import { PA } from './admin.js';
 
 
 
+/* global PACKAGE_VERSION */
+const version = PACKAGE_VERSION;
+
+/** @type {typeof GM_xmlhttpRequest} */
+const XMLHttpRequestGM = window['XMLHttpRequestGM'];
+
+const hasXHRGM = typeof XMLHttpRequestGM == 'function';
 
 
-	/** @type {import('vue').Ref<HTMLDialogElement>} */
-	const dialogLogsRaw = ref(null);
-	const uidLogsRaw = ref('');
-	const keysLogsRaw = ref([]);
-	const showRawLogs = profile => {
-		uidLogsRaw.value = profile.uid;
+const fetchText = async (url, method = 'GET', option, willReturnResponse = false) => new Promise((resolve, reject) =>
+	XMLHttpRequestGM(Object.assign({}, option, {
+		method,
+		url,
 
-		keysLogsRaw.value = Object.keys(localStorage).filter(key => key.startsWith(`logsRaw-${profile.uid}`)).map(key => ({
-			key,
-			selected: false
-		}));
+		onload(response) { resolve(willReturnResponse ? response : response.responseText); },
+		onerror(error) { reject(error); }
+	})));
 
 
-		dialogLogsRaw.value.showModal();
+const $profiles = PA.$profiles;
+
+
+
+
+
+/** @type {import('vue').Ref<HTMLDialogElement>} */
+const dialogLogsRaw = ref(null);
+const uidLogsRaw = ref('');
+const keysLogsRaw = ref([]);
+const showRawLogs = profile => {
+	uidLogsRaw.value = profile.uid;
+
+	keysLogsRaw.value = Object.keys(localStorage).filter(key => key.startsWith(`logsRaw-${profile.uid}`)).map(key => ({
+		key,
+		selected: false
+	}));
+
+
+	dialogLogsRaw.value.showModal();
+};
+
+
+
+/** @type {import('vue').Ref<HTMLDialogElement>} */
+const dialogProgress = ref(null);
+const textProgress = ref('');
+
+
+
+/** @type {import('vue').Ref<HTMLDialogElement>} */
+const dialogEditorProfile = ref(null);
+const $profileEditing = ref({});
+const modeProfileEditor = ref('');
+
+const creatingProfile = () => {
+	$profileEditing.value = {
+		nick: '',
+		urlLog: '',
 	};
 
+	modeProfileEditor.value = 'create';
+
+	dialogEditorProfile.value.showModal();
+};
+const modifingProfile = profile => {
+	$profileEditing.value = {
+		nick: profile.nick,
+		urlLog: '',
+		profile,
+	};
+
+	modeProfileEditor.value = 'modify';
+
+	dialogEditorProfile.value.showModal();
+};
+const deletingProfile = async profile => {
+	if(!await $quest(`确定要删除档案【${profile.name}】（${profile.uid}）\n这是不可恢复不可撤回的操作！`, '删除档案', { text: '删除档案！', value: true }, { text: '不了不了', value: false, reverse: true })) { return; }
+
+	const index = $profiles.value.indexOf(profile);
+
+	if(~index) {
+		$profiles.value.splice(index, 1);
+		PA.save();
+	}
+};
+
+const createProfile = async (profileRaw, willFetchLog) => {
+	try {
+		const urlLog = new URL(profileRaw.urlLog);
 
 
-	/** @type {import('vue').Ref<HTMLDialogElement>} */
-	const dialogProgress = ref(null);
-	const textProgress = ref('');
-
-
-
-	/** @type {import('vue').Ref<HTMLDialogElement>} */
-	const dialogEditorProfile = ref(null);
-	const $profileEditing = ref({});
-	const modeProfileEditor = ref('');
-
-	const creatingProfile = () => {
-		$profileEditing.value = {
-			nick: '',
-			urlLog: '',
+		const profile = {
+			id: ulid(),
+			nick: profileRaw.nick,
+			name: '',
+			uid: null,
+			keyAuth: urlLog.searchParams.get('authkey'),
+			versionKeyAuth: urlLog.searchParams.get('authkey_ver'),
+			logsParsed: [],
+			timeFetchFirst: null,
+			timeFetchLast: null,
 		};
 
-		modeProfileEditor.value = 'create';
-
-		dialogEditorProfile.value.showModal();
-	};
-	const modifingProfile = profile => {
-		$profileEditing.value = {
-			nick: profile.nick,
-			urlLog: '',
-			profile,
-		};
-
-		modeProfileEditor.value = 'modify';
-
-		dialogEditorProfile.value.showModal();
-	};
-	const deletingProfile = async profile => {
-		if(!await $quest(`确定要删除档案【${profile.name}】（${profile.uid}）\n这是不可恢复不可撤回的操作！`, '删除档案', { text: '删除档案！', value: true }, { text: '不了不了', value: false, reverse: true })) { return; }
-
-		const index = $profiles.value.indexOf(profile);
-
-		if(~index) {
-			$profiles.value.splice(index, 1);
-			saveProfiles($profiles.value);
-		}
-	};
-
-	const createProfile = async (profileRaw, willFetchLog) => {
-		try {
-			const urlLog = new URL(profileRaw.urlLog);
+		$profiles.value.push(profile);
+		PA.save();
 
 
-			const profile = {
-				nick: profileRaw.nick,
-				name: '',
-				uid: null,
-				keyAuth: urlLog.searchParams.get('authkey'),
-				versionKeyAuth: urlLog.searchParams.get('authkey_ver'),
-				logsParsed: [],
-				timeFetchFirst: null,
-				timeFetchLast: null,
-			};
+		if(willFetchLog) { await fetchProfileLogs(profile, true); }
+
+
+		dialogEditorProfile.value.close();
+	}
+	catch(error) {
+		$fail('创建档案', error);
+	}
+};
+const modifyProfile = async (profileRaw, willFetchLog) => {
+	try {
+		const urlLog = new URL(profileRaw.urlLog);
+
+
+		profileRaw.profile.keyAuth = urlLog.searchParams.get('authkey');
+		profileRaw.profile.versionKeyAuth = urlLog.searchParams.get('authkey_ver');
+
+
+		PA.save();
+
+
+		if(willFetchLog) { await fetchProfileLogs(profileRaw.profile, false); }
+
+
+		dialogEditorProfile.value.close();
+	}
+	catch(error) {
+		$fail('创建档案', error);
+	}
+};
+
+
+/** @type {import('vue').Ref<HTMLDialogElement>} */
+const dialogEditorProfileImport = ref(null);
+const $profileImporting = ref({ json: '', files: [] });
+
+const importingProfile = () => {
+	$profileImporting.value.json = '';
+
+
+	dialogEditorProfileImport.value.showModal();
+};
+
+const importProfile = async textJSON => {
+	try {
+		/** @type {import('./admin.js').Profile} */
+		const profile = JSON.parse(textJSON);
+
+		if(profile && typeof profile == 'object') {
+			if(~$profiles.value.findIndex(p => p.id == profile.id)) {
+				await $quest3('已有相同ID的档案，是否覆盖？');
+				return;
+			}
 
 			$profiles.value.push(profile);
-			saveProfiles($profiles.value);
 
-
-			if(willFetchLog) { await fetchProfileLogs(profile, true); }
-
-
-			dialogEditorProfile.value.close();
+			PA.save();
 		}
-		catch(error) {
-			$fail('创建档案', error);
+		else {
+			throw Error('导入档案的数据类型不是Object');
 		}
-	};
-	const modifyProfile = async (profileRaw, willFetchLog) => {
-		try {
-			const urlLog = new URL(profileRaw.urlLog);
+	}
+	catch(error) {
+		$fail('导入档案', error);
+	}
 
 
-			profileRaw.profile.keyAuth = urlLog.searchParams.get('authkey');
-			profileRaw.profile.versionKeyAuth = urlLog.searchParams.get('authkey_ver');
+	dialogEditorProfileImport.value.close();
+};
+
+const readProfileFile = () => {
+	/** @type {File} */
+	const file = $profileImporting.value.files[0];
 
 
-			saveProfiles($profiles.value);
+	const reader = new FileReader();
+	reader.addEventListener('load', event => $profileImporting.value.json = event.target.result);
+	reader.readAsText(file);
+};
+
+const readProfileFilePaste = $event => {
+	/** @type {File} */
+	const file = $event?.clipboardData?.files?.[0];
+
+	if(!file) { return; }
 
 
-			if(willFetchLog) { await fetchProfileLogs(profileRaw.profile, false); }
+	const reader = new FileReader();
+	reader.addEventListener('load', event => $profileImporting.value.json = event.target.result);
+	reader.readAsText(file);
+};
 
 
-			dialogEditorProfile.value.close();
-		}
-		catch(error) {
-			$fail('创建档案', error);
-		}
-	};
+
+const fetchProfileBase = async (profile, willFetchSolo = false) => {
+	textProgress.value = '正在获取基础信息...';
+
+	if(willFetchSolo) { dialogProgress.value.showModal(); }
 
 
-	/** @type {import('vue').Ref<HTMLDialogElement>} */
-	const dialogEditorProfileImport = ref(null);
-	const $profileImporting = ref({ json: '', files: [] });
+	try {
+		const { uid } = profile;
 
-	const importingProfile = () => {
-		$profileImporting.value.json = '';
+		const info = JSON.parse(await fetchText(`https://api.mihomo.me/sr_info_parsed/${uid}`));
 
 
-		dialogEditorProfileImport.value.showModal();
-	};
-
-	const importProfile = textJSON => {
-		try {
-			const profile = JSON.parse(textJSON);
-
-			if(profile && typeof profile == 'object') {
-				$profiles.value.push(profile);
-
-				saveProfiles($profiles.value);
-			}
-			else {
-				throw Error('导入的JSON数据类型不是Object');
-			}
-		}
-		catch(error) {
-			$fail('导入档案', error);
+		if(info?.player && info?.player?.uid == uid) {
+			profile.nick = profile.nick || info?.player?.nickname;
+			profile.name = info?.player?.nickname ?? profile.name;
+			profile.level = info?.player?.level ?? profile.level;
+			profile.levelWorld = info?.player?.world_level ?? profile.levelWorld;
+			profile.sizeCharacter = info?.player?.space_info?.avatar_count ?? profile.sizeCharacter;
+			profile.countAchievement = info?.player?.space_info?.achievement_count ?? profile.countAchievement;
 		}
 
 
-		dialogEditorProfileImport.value.close();
-	};
-
-	const readProfileFile = () => {
-		/** @type {File} */
-		const file = $profileImporting.value.files[0];
-
-
-		const reader = new FileReader();
-		reader.addEventListener('load', event => $profileImporting.value.json = event.target.result);
-		reader.readAsText(file);
-	};
-
-	const readProfileFilePaste = $event => {
-		/** @type {File} */
-		const file = $event?.clipboardData?.files?.[0];
-
-		if(!file) { return; }
-
-
-		const reader = new FileReader();
-		reader.addEventListener('load', event => $profileImporting.value.json = event.target.result);
-		reader.readAsText(file);
-	};
-
-
-
-	const fetchProfileBase = async (profile, willFetchSolo = false) => {
-		textProgress.value = '正在获取基础信息...';
-
-		if(willFetchSolo) { dialogProgress.value.showModal(); }
-
-
-		try {
-			const { uid } = profile;
-
-			const info = JSON.parse(await fetchText(`https://api.mihomo.me/sr_info_parsed/${uid}`));
-
-
-			if(info?.player && info?.player?.uid == uid) {
-				profile.nick = profile.nick || info?.player?.nickname;
-				profile.name = info?.player?.nickname ?? profile.name;
-				profile.level = info?.player?.level ?? profile.level;
-				profile.levelWorld = info?.player?.world_level ?? profile.levelWorld;
-				profile.sizeCharacter = info?.player?.space_info?.avatar_count ?? profile.sizeCharacter;
-				profile.countAchievement = info?.player?.space_info?.achievement_count ?? profile.countAchievement;
-			}
-
-
-			if(willFetchSolo) {
-				saveProfiles($profiles.value);
-
-				dialogProgress.value.close();
-			}
-		}
-		catch(error) {
-			textProgress.value = error?.message ?? error;
-		}
-	};
-	const fetchProfileLogs = async (profile, willFetchFull = false) => {
-		textProgress.value = '开始更新...';
-
-		dialogProgress.value.showModal();
-
-
-		try {
-			const { logsRaw } = await fetchLog(profile, willFetchFull, textProgress);
-
-
-			if(logsRaw[0]) {
-				profile.uid = logsRaw[0].uid;
-
-				await fetchProfileBase(profile);
-			}
-
-			localStorage.setItem(`logsRaw-${profile.uid}-${Day().format('YYMMDDHHmmss')}`, JSON.stringify(logsRaw));
-
-			saveProfiles($profiles.value);
-
+		if(willFetchSolo) {
+			PA.save();
 
 			dialogProgress.value.close();
 		}
-		catch(error) {
-			textProgress.value = error?.message ?? error;
+	}
+	catch(error) {
+		textProgress.value = error?.message ?? error;
+	}
+};
+const fetchProfileLogs = async (profile, willFetchFull = false) => {
+	textProgress.value = '开始更新...';
+
+	dialogProgress.value.showModal();
+
+
+	try {
+		const { logsRaw } = await fetchLog(profile, willFetchFull, textProgress);
+
+
+		if(logsRaw[0]) {
+			profile.uid = logsRaw[0].uid;
+
+			await fetchProfileBase(profile);
 		}
-	};
+
+		localStorage.setItem(`logsRaw-${profile.uid}-${Day().format('YYMMDDHHmmss')}`, JSON.stringify(logsRaw));
+
+		PA.save();
+
+
+		dialogProgress.value.close();
+	}
+	catch(error) {
+		textProgress.value = error?.message ?? error;
+	}
+};
 
 
 
-	const exportProfile = profile => {
-		const a = document.createElement('a');
-		a.download = `sr-note@${profile.uid}@${profile.nick != profile.name && profile.nick ? `${profile.name} (${profile.nick})` : profile.name}-${Day().format('YYMMDD HHmmss')}.json`;
-		a.href = URL.createObjectURL(new Blob([JSON.stringify(profile)]));
+const exportProfile = profile => {
+	const a = document.createElement('a');
+	a.download = `sr-note@${profile.uid}@${profile.nick != profile.name && profile.nick ? `${profile.name} (${profile.nick})` : profile.name}-${Day().format('YYMMDD HHmmss')}.json`;
+	a.href = URL.createObjectURL(new Blob([JSON.stringify(profile, 'null', '\t')]));
 
-		a.click();
-	};
-
-
-	const analyseProfile = profile => tabAdmin.add('gacha-analysis', { type: 'icon|title', title: '跃迁分析', icon: faStarOfDavid }, profile.uid);
-	const manageAchievement = profile => tabAdmin.add('achievement-manager', { type: 'icon|title', title: '成就管理', icon: faTrophy }, profile.uid);
+	a.click();
+};
 
 
-	const toggleTheme = () => {
-		const root = document.querySelector(':root');
-
-		root.setAttribute('color-scheme', root.getAttribute('color-scheme') == 'dark' ? 'light' : 'dark');
-	};
+const analyseProfile = profile => tabAdmin.changeOrAdd('gacha-analysis', { type: 'icon|title', title: '跃迁分析', icon: faStarOfDavid, reason: 'profile-manager-open' }, profile.id);
+const manageAchievement = profile => tabAdmin.changeOrAdd('achievement-manager', { type: 'icon|title', title: '成就管理', icon: faTrophy }, profile.id);
 
 
+const toggleTheme = () => {
+	const root = document.querySelector(':root');
 
-	const renderLocalAchievementCount = profile => {
-		const countAchievementFinishedLocal = Object.values(profile.infosPlayerAchievement$id).filter(a => a.status == 1).length;
+	root.setAttribute('color-scheme', root.getAttribute('color-scheme') == 'dark' ? 'light' : 'dark');
+};
 
-		return profile.countAchievement != countAchievementFinishedLocal && countAchievementFinishedLocal ? `(${countAchievementFinishedLocal}本地) ` : '';
-	};
+
+
+const renderLocalAchievementCount = profile => {
+	const countAchievementFinishedLocal = Object.values(profile.infosAchievementPlayer$id).filter(a => a.status == 1).length;
+
+	return profile.countAchievement != countAchievementFinishedLocal && countAchievementFinishedLocal ? `(${countAchievementFinishedLocal}本地) ` : '';
+};
 </script>
 
 
@@ -398,7 +405,7 @@ module
 
 p-fixed-topbar
 	@apply block p-4 leading-8 fixed h-16 z-50 shadow-mdd bg-[var(--cBack)] overflow-hidden
-	width: calc( 100% - var(--widthSidebar))
+	width: calc(100% - var(--widthSidebar, 8rem))
 	&:hover
 		@apply h-auto
 	>[item]
@@ -406,7 +413,8 @@ p-fixed-topbar
 
 
 p-main-box
-	@apply relative block p-4 leading-8 top-[var(--heightTopbar)]
+	@apply relative block p-4 leading-8
+	top: var(--heightTopbar, 0rem)
 
 
 dialog

@@ -34,7 +34,7 @@
 				<span _total>{{ props.analysis.logs.length }}</span>
 				<span _split> 抽 </span>
 				<span _rarity-5>{{ props.analysis.logs5.length }}</span>
-				<sup _missed>{{ props.analysis.logs5.filter(l => l.missed).length }}</sup>
+				<sup _missed>{{ props.analysis.logs5.filter(l => l.id in misseds$id).length }}</sup>
 				<span _split> 五星 </span>
 				<span v-if="shownCharacterRarity4 || shownLightconeRarity4" _rarity-4>{{ props.analysis.logs4.length }}</span>
 				<span v-if="shownCharacterRarity4 || shownLightconeRarity4" _split> 四星</span>
@@ -44,42 +44,46 @@
 </template>
 
 <script setup>
-	import { computed } from 'vue';
+import { computed } from 'vue';
 
-	import Day from '../../lib/day.pure.js';
-	import M from '../../lib/meta.js';
-
-
-
-	const props = defineProps({
-		/** 显示类型 */
-		display: { type: String, default: 'main' },
-		/**
-		 * 抽卡分析
-		 * @type {import('../analyseGacha.js').AnalysisByGachaPool}
-		 */
-		analysis: { type: Object, default: null },
-		/** 显示四星角色 */
-		shownCharacterRarity4: { type: Boolean, default: false },
-		/** 显示四星光锥 */
-		shownLightconeRarity4: { type: Boolean, default: false },
-	});
+import Day from '../../lib/day.pure.js';
+import M from '../../lib/meta.js';
 
 
-	const textRangeTimePool = computed(() =>
-		props.display == 'main' && props.analysis?.pool && props.analysis?.pool?.timeDead
-			? props.analysis.pool.timeBorn
-				? `${Day(props.analysis.pool.timeBorn, 'X').format('MM月DD HH时mm分')} ~ ${Day(props.analysis.pool.timeDead, 'X').format('MM月DD HH时mm分')}`
-				: `维护后 ~ ${Day(props.analysis.pool.timeDead, 'X').format('MM月DD HH时mm分')}`
-			: false
-	);
+
+const props = defineProps({
+	/** 显示类型 */
+	display: { type: String, default: 'main' },
+	/**
+	 * 抽卡分析
+	 * @type {import('../analyseGacha.js').AnalysisByGachaPool}
+	 */
+	analysis: { type: Object, default: null },
+	/** 显示四星角色 */
+	shownCharacterRarity4: { type: Boolean, default: false },
+	/** 显示四星光锥 */
+	shownLightconeRarity4: { type: Boolean, default: false },
+	/**
+	 * 歪五星记录
+	 */
+	misseds$id: { type: Object, default: () => { } },
+});
+
+
+const textRangeTimePool = computed(() =>
+	props.display == 'main' && props.analysis?.pool && props.analysis?.pool?.timeDead
+		? props.analysis.pool.timeBorn
+			? `${Day(props.analysis.pool.timeBorn, 'X').format('MM月DD HH时mm分')} ~ ${Day(props.analysis.pool.timeDead, 'X').format('MM月DD HH时mm分')}`
+			: `维护后 ~ ${Day(props.analysis.pool.timeDead, 'X').format('MM月DD HH时mm分')}`
+		: false
+);
 </script>
 
 
 <style lang="sass" scoped>
 p-pool-title
 	@apply block box-content p-4 h-12 text-lg whitespace-nowrap
-	background-color: color-mix(in srgb, var(--cBack) 90%, black)
+	background-color: color-mix(in srgb, var(--cBack) 95%, var(--cText))
 
 	p-header
 		@apply inblock w-12 h-12
