@@ -598,6 +598,19 @@
 		}
 	},
 	{
+		"id": "1310",
+		"element": "Fire",
+		"path": "Warrior",
+		"rarity": 5,
+		"versionAdded": "2.3",
+		"versionAvailable": "2.3",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "流萤"
+			}
+		}
+	},
+	{
 		"id": "1312",
 		"element": "Ice",
 		"path": "Warrior",
@@ -607,6 +620,19 @@
 		"$data$locale": {
 			"zh-cn": {
 				"name": "米沙"
+			}
+		}
+	},
+	{
+		"id": "1314",
+		"element": "Quantum",
+		"path": "Mage",
+		"rarity": 5,
+		"versionAdded": "2.3",
+		"versionAvailable": "2.3",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "翡翠"
 			}
 		}
 	},

@@ -37,8 +37,9 @@ export default defineConfig(({ mode }) => {
 		publicDir: resolve(dirPackage, 'src', 'public'),
 		clearScreen: false,
 		server: {
-			hmr: { port: 4513 },
-			port: 4713,
+			hmr: { port: 4500 },
+			port: 4700,
+			open: 'http://sr-note.dev.localhost/',
 			watch: {
 				ignored: [
 					'**/*.{api,lib,map}.js',

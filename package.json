@@ -1,6 +1,6 @@
 {
 	"name": "@danor-game/star-rail-gacha-note",
-	"version": "2.0.0.0528",
+	"version": "2.0.0.0618",
 	"description": "",
 	"author": "DanoR",
 	"license": "LGPL-3.0-or-later",
@@ -11,6 +11,7 @@
 	"private": true,
 	"type": "module",
 	"typesSource": [
+		"node",
 		"browser",
 		"vue",
 		"vite@node-config",
@@ -18,13 +19,13 @@
 		"tailwind@node-config"
 	],
 	"engines": {
-		"node": ">=14.18.1"
+		"node": ">=20"
 	},
 	"main": "./index.js",
 	"scripts": {
 		"develop": "vite --force --host",
 		"build": "vite build",
-		"preview": "http-server dist -a 127.0.0.1 -p 14713"
+		"preview": "http-server dist -a 127.0.0.1 -p 14700"
 	},
 	"dependencies": {
 		"fs-extra": "^11.2.0"

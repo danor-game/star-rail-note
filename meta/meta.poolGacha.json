@@ -1036,7 +1036,7 @@
 		"id": "2027",
 		"type": "11",
 		"timeBorn": 1713326400,
-		"timeDead": 1715065140,
+		"timeDead": 1715065200,
 		"typeItem": "character",
 		"itemsBoost5": [
 			"1304"
@@ -1057,7 +1057,7 @@
 		"id": "3027",
 		"type": "12",
 		"timeBorn": 1713326400,
-		"timeDead": 1715065140,
+		"timeDead": 1715065200,
 		"typeItem": "lightcone",
 		"itemsBoost5": [
 			"23023"
@@ -1078,7 +1078,7 @@
 		"id": "2028",
 		"type": "11",
 		"timeBorn": 1713326400,
-		"timeDead": 1715065140,
+		"timeDead": 1715065200,
 		"typeItem": "character",
 		"itemsBoost5": [
 			"1212"
@@ -1101,7 +1101,7 @@
 		"id": "3028",
 		"type": "12",
 		"timeBorn": 1713326400,
-		"timeDead": 1715065140,
+		"timeDead": 1715065200,
 		"typeItem": "lightcone",
 		"itemsBoost5": [
 			"23014"
@@ -1289,6 +1289,90 @@
 		"$data$locale": {
 			"zh-cn": {
 				"name": "她已闭上双眼"
+			}
+		}
+	},
+	{
+		"id": "2033",
+		"type": "11",
+		"timeDead": 1720583940,
+		"typeItem": "character",
+		"itemsBoost5": [
+			"1310"
+		],
+		"itemsBoost4": [
+			"1301",
+			"1312",
+			"1214"
+		],
+		"versionAdded": "2.3",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "盈茧炽盛"
+			}
+		}
+	},
+	{
+		"id": "3033",
+		"type": "12",
+		"timeDead": 1720583940,
+		"typeItem": "lightcone",
+		"itemsBoost5": [
+			"23025"
+		],
+		"itemsBoost4": [
+			"21004",
+			"21002",
+			"21008"
+		],
+		"versionAdded": "2.3",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "梦应归于何处"
+			}
+		}
+	},
+	{
+		"id": "2034",
+		"type": "11",
+		"timeDead": 1720583940,
+		"typeItem": "character",
+		"itemsBoost5": [
+			"1303"
+		],
+		"itemsBoost4": [
+			"1301",
+			"1312",
+			"1214"
+		],
+		"versionAdded": "2.3",
+		"rerun": 1,
+		"idLeader": "2033",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "疏影三迭"
+			}
+		}
+	},
+	{
+		"id": "3034",
+		"type": "12",
+		"timeDead": 1720583940,
+		"typeItem": "lightcone",
+		"itemsBoost5": [
+			"23019"
+		],
+		"itemsBoost4": [
+			"21004",
+			"21002",
+			"21008"
+		],
+		"versionAdded": "2.3",
+		"rerun": 1,
+		"idLeader": "3033",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "镜中故我"
 			}
 		}
 	},

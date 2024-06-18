@@ -40,7 +40,7 @@ const configs = [
 
 			stylistic$indent: [2, 'tab', { ignoredNodes: ['TemplateLiteral', 'CallExpression>ObjectExpression:not(:first-child)'], ignoreComments: true, SwitchCase: 1 }],
 			stylistic$linebreakStyle: [2, 'unix'],
-			stylistic$quotes: [2, 'single', { avoidEscape: true, allowTemplateLiterals: false }],
+			stylistic$quotes: [2, 'single', { avoidEscape: true, allowTemplateLiterals: true }],
 			stylistic$commaDangle: [2, 'only-multiline'],
 			semi: [2],
 			noUnusedVars: [2, { vars: 'all', args: 'none' }],

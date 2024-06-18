@@ -1026,6 +1026,96 @@
 		"difficulty": {}
 	},
 	{
+		"id": 4033301,
+		"title": "繁花将尽",
+		"desc": "为逝者干杯，敬苦涩的现实\\n<color=#8790abff>※ 调制特饮「长梦苦短」</color>",
+		"rarity": "Mid",
+		"series": 3,
+		"descHide": "为逝者干杯，敬苦涩的现实",
+		"priority": 965,
+		"idsAchievementExclusive": [4033302],
+		"tags": [
+			"版本:2.3",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4033302,
+		"title": "生活多美好",
+		"desc": "为逝者干杯，敬甜蜜的明天\\n<color=#8790abff>※ 调制特饮「溺甜」</color>",
+		"rarity": "Mid",
+		"series": 3,
+		"descHide": "为逝者干杯，敬甜蜜的明天",
+		"priority": 964,
+		"idsAchievementExclusive": [4033301],
+		"tags": [
+			"版本:2.3",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4033303,
+		"title": "与我同行",
+		"desc": "与星穹列车不期而遇\\n<color=#8790abff>※ 流萤视角下，在晖长石号上看到列车组</color>",
+		"rarity": "Mid",
+		"series": 3,
+		"descHide": "与星穹列车不期而遇",
+		"priority": 963,
+		"idsAchievementExclusive": [4033304],
+		"tags": [
+			"版本:2.3",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4033304,
+		"title": "在路上",
+		"desc": "与星穹列车擦肩而过\\n<color=#8790abff>※ 流萤视角下，在晖长石号上专注于寻找「慈玉典押」</color>",
+		"rarity": "Mid",
+		"series": 3,
+		"descHide": "与星穹列车擦肩而过",
+		"priority": 962,
+		"idsAchievementExclusive": [4033303],
+		"tags": [
+			"版本:2.3",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4033305,
+		"title": "愚人船",
+		"desc": "为你我的命运添上新的注脚\\n<color=#8790abff>※ 成功解决「炸弹」危机，观赏盛大的烟火</color>",
+		"rarity": "Mid",
+		"series": 3,
+		"descHide": "为你我的命运添上新的注脚",
+		"priority": 961,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:2.3",
+			"隐藏描述"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4033306,
+		"title": "请为我叙说，缪斯",
+		"desc": "决定匹诺康尼之旅的下一站\\n<color=#8790abff>※出发——「永恒之地」翁法罗斯！</color>",
+		"rarity": "Mid",
+		"series": 3,
+		"descHide": "决定匹诺康尼之旅的下一站",
+		"priority": 960,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:2.3",
+			"隐藏描述"
+		],
+		"difficulty": {}
+	},
+	{
 		"id": 4040101,
 		"title": "角色扮演游戏里合法",
 		"desc": "开启<unbreak>#1[i]</unbreak>次空间站「黑塔」战利品",
@@ -1540,7 +1630,7 @@
 	{
 		"id": 4042507,
 		"title": "财星临照",
-		"desc": "在仙舟「罗浮」开启<unbreak>#1[i]</unbreak>次战利品",
+		"desc": "开启<unbreak>#1[i]</unbreak>次仙舟「罗浮」战利品",
 		"rarity": "Mid",
 		"series": 4,
 		"paramsText": [
@@ -1812,7 +1902,7 @@
 	{
 		"id": 4043018,
 		"title": "让敌人高估你的缺点",
-		"desc": "在「小小哈努行动」中推下的重物没有砸到怪物",
+		"desc": "在《小小哈努行动》中推下的重物没有砸到怪物",
 		"rarity": "Low",
 		"series": 4,
 		"priority": 938,
@@ -1825,7 +1915,7 @@
 	{
 		"id": 4043019,
 		"title": "抵达逃逸速度",
-		"desc": "在「小小哈努行动」中的火箭传送时间超过#1秒",
+		"desc": "在《小小哈努行动》中的火箭传送时间超过#1秒",
 		"rarity": "Low",
 		"series": 4,
 		"paramsText": [
@@ -1841,7 +1931,7 @@
 	{
 		"id": 4043020,
 		"title": "警戒度<unbreak>100%</unbreak>",
-		"desc": "在「小小哈努行动」中死里逃生",
+		"desc": "在《小小哈努行动》中死里逃生",
 		"rarity": "Low",
 		"series": 4,
 		"priority": 936,
@@ -1869,7 +1959,7 @@
 	{
 		"id": 4043022,
 		"title": "小鬼当家",
-		"desc": "在一次小小哈努行动中一次性击败3个石头老板的爪牙",
+		"desc": "在一次《小小哈努行动》中一次性击败3个石头老板的爪牙",
 		"rarity": "Low",
 		"series": 4,
 		"priority": 934,
@@ -2022,7 +2112,7 @@
 	{
 		"id": 4043034,
 		"title": "火力全开",
-		"desc": "在小小哈努行动中「哈努飞弹」弹药达到上限",
+		"desc": "在《小小哈努行动》中「哈努飞弹」弹药达到上限",
 		"rarity": "Low",
 		"series": 4,
 		"priority": 922,
@@ -2362,6 +2452,33 @@
 		"priority": 894,
 		"tags": [
 			"版本:2.2"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4043301,
+		"title": "气球，向着明天——",
+		"desc": "打破{TEXTJOIN#87}中的特殊石头老板气球",
+		"rarity": "Low",
+		"series": 4,
+		"priority": 893,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:2.3",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4043302,
+		"title": "可惜不是吹奏部",
+		"desc": "拯救{TEXTJOIN#87}上的迷钟「老大」",
+		"rarity": "Low",
+		"series": 4,
+		"priority": 892,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:2.3"
 		],
 		"difficulty": {}
 	},
@@ -5970,6 +6087,20 @@
 		"difficulty": {}
 	},
 	{
+		"id": 4053205,
+		"title": "贴纸，好多贴纸",
+		"desc": "「梦境护照」全部页面完成度<unbreak>100%</unbreak>",
+		"rarity": "Mid",
+		"series": 5,
+		"priority": 717,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:2.3",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
 		"id": 4053206,
 		"title": "未完的筑梦诗",
 		"desc": "劝说奥尔拉从梦境中醒来",
@@ -6327,6 +6458,407 @@
 		"priority": 718,
 		"tags": [
 			"版本:2.2",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053301,
+		"title": "酒店内禁止执行任务",
+		"desc": "完成冒险任务「退房」",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 715,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:2.3"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053302,
+		"title": "蔷薇的葬列",
+		"desc": "完成冒险任务「终末鼻烟胶卷」",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 714,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:2.3"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053303,
+		"title": "我的船长我的船",
+		"desc": "完成冒险任务「云帆归心」",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 713,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:2.3"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053304,
+		"title": "未曾设想的合照",
+		"desc": "「折纸小鸟对对碰」活动中，拍摄大合照",
+		"rarity": "Mid",
+		"series": 5,
+		"priority": 712,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:2.3",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053305,
+		"title": "Omega Ruby",
+		"desc": "「折纸小鸟对对碰」活动中，将银狼小鸟、流萤小鸟与开拓小鸟摆放在同一侧街机上",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 711,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:2.3",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053306,
+		"title": "Alpha Sapphire",
+		"desc": "「折纸小鸟对对碰」活动中，将开拓小鸟与三月小鸟摆放在相邻街机上",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 710,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:2.3",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053307,
+		"title": "根本难不倒它",
+		"desc": "「折纸小鸟对对碰」活动中，单局对战内触发#1次小鸟技能",
+		"rarity": "Low",
+		"series": 5,
+		"paramsText": [
+			30
+		],
+		"priority": 709,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:2.3",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053308,
+		"title": "愤怒的折纸小鸟",
+		"desc": "「折纸小鸟对对碰」活动中，单局对战内手动触发#1次炸弹组合",
+		"rarity": "Low",
+		"series": 5,
+		"paramsText": [
+			15
+		],
+		"priority": 708,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:2.3",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053309,
+		"title": "鸟！鸟！鸟！",
+		"desc": "「折纸小鸟对对碰」活动中，单局对战内小鸟最高战斗力达到#1",
+		"rarity": "Low",
+		"series": 5,
+		"paramsText": [
+			300
+		],
+		"priority": 707,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:2.3",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053310,
+		"title": "折纸动物园",
+		"desc": "「折纸小鸟对对碰」活动中，在所有自由挑战中取得胜利",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 706,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:2.3",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053311,
+		"title": "一位明星的诞生",
+		"desc": "在{TEXTJOIN#87}的舞台上安排合适的表演人员",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 705,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:2.3",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053312,
+		"title": "极品飞车",
+		"desc": "在{TEXTJOIN#87}的专属车位停放车辆",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 704,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:2.3",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053313,
+		"title": "家庭影院",
+		"desc": "在{TEXTJOIN#87}上使用放映机，并邀请列车组成员前来观看",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 703,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:2.3",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053315,
+		"title": "王下十八桶",
+		"desc": "在{TEXTJOIN#87}上完成试炼之桶的全部挑战",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 701,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:2.3",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053316,
+		"title": "幸运特快",
+		"desc": "在{TEXTJOIN#87}上签收砂金送来的包裹",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 700,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:2.3",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053317,
+		"title": "星穹列车夜现场",
+		"desc": "使用黄金扭蛋币购买小小哈努兄弟电视机，并将其安装到列车车厢内",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 699,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:2.3",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053318,
+		"title": "看不见的客人",
+		"desc": "变身哈努兄弟闯入其他列车组成员的房间",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 698,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:2.3",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053319,
+		"title": "自费周边",
+		"desc": "获得{NICKNAME}的船长周边玩具",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 697,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:2.3",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053320,
+		"title": "影子船长",
+		"desc": "与{NICKNAME}船长的广告牌对话",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 696,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:2.3",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053321,
+		"title": "客随主便",
+		"desc": "在获得{TEXTJOIN#87}所有权之前，在泳池中冲刺玩水并遭到训斥",
+		"rarity": "Low",
+		"series": 8,
+		"paramsText": [
+			10
+		],
+		"priority": 923,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:2.3",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053322,
+		"title": "黑镜之下",
+		"desc": "在控制室内，激活监控，观察{TEXTJOIN#87}船体",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 694,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:2.3",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053323,
+		"title": "重返荣耀",
+		"desc": "为晖长石号更名并更换尾翼涂装",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 693,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:2.3",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053324,
+		"title": "看不见的城市",
+		"desc": "在{TEXTJOIN#87}上使用瞭望镜",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 692,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:2.3",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053325,
+		"title": "我心永恒",
+		"desc": "在{TEXTJOIN#87}的船头远望",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 691,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:2.3",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053326,
+		"title": "完整的恐怖故事",
+		"desc": "使用钟表把戏阅读贝拉的所有情绪",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 690,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:2.3",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053327,
+		"title": "恶灵附身",
+		"desc": "使用钟表把戏阅读塞提芬诺的欢欣情绪",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 689,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:2.3",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053328,
+		"title": "星星的金币",
+		"desc": "集齐匹诺康尼的所有黄金扭蛋币",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 688,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:2.3",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053329,
+		"title": "Captain! My Captain!",
+		"desc": "首次进入{TEXTJOIN#87}船长的专属空间",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 687,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:2.3",
 			"隐藏成就"
 		],
 		"difficulty": {}
@@ -8975,7 +9507,7 @@
 	{
 		"id": 4073201,
 		"title": "JACKPOT！",
-		"desc": "使「惊梦剧团的幸运贩售」摇出一次「出货了！」",
+		"desc": "使「惊梦剧团的幸运贩售」摇出一次「出货！」",
 		"rarity": "Low",
 		"series": 7,
 		"priority": 858,
@@ -9053,7 +9585,7 @@
 	{
 		"id": 4073207,
 		"title": "一首歌的时间",
-		"desc": "聆听知更鸟的歌声\\n<color=#8790abff>※战斗中，施放知更鸟的终结技「千音迭奏，群星赋格」后，在查看模式观看知更鸟#1秒以上</color>",
+		"desc": "聆听知更鸟的歌声\\n<color=#8790abff>※战斗中，施放知更鸟的终结技「千音迭奏，群星赋格」后，在战斗实况观看知更鸟#1秒以上</color>",
 		"rarity": "Low",
 		"series": 7,
 		"descHide": "聆听知更鸟的歌声",
@@ -9132,6 +9664,108 @@
 		"priority": 847,
 		"tags": [
 			"版本:2.2",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4073301,
+		"title": "盛会之星专项组",
+		"desc": "使用同时包含托帕&账账、真理医生、砂金、翡翠的队伍获得<unbreak>#1[i]</unbreak>场战斗的胜利",
+		"rarity": "Low",
+		"series": 7,
+		"paramsText": [
+			1
+		],
+		"priority": 846,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:2.3",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4073302,
+		"title": "《救猫咪》",
+		"desc": "使用同时包含银狼、刃、卡芙卡、流萤的队伍获得<unbreak>#1[i]</unbreak>场战斗的胜利",
+		"rarity": "Low",
+		"series": 7,
+		"paramsText": [
+			1
+		],
+		"priority": 845,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:2.3",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4073303,
+		"title": "致命契约",
+		"desc": "单场战斗中，当友方持有翡翠战技【收债人】效果时，将当前生命值消耗至#1",
+		"rarity": "Low",
+		"series": 7,
+		"paramsText": [
+			1
+		],
+		"priority": 844,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:2.3",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4073304,
+		"title": "去吧，阿…萨姆",
+		"desc": "使用我方角色流萤对战卡芙卡并陷入「支配」状态",
+		"rarity": "Low",
+		"series": 7,
+		"paramsText": [
+			1
+		],
+		"priority": 843,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:2.3",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4073305,
+		"title": "我将，点燃大海！",
+		"desc": "单场战斗中，使用装甲「萨姆」在「完全燃烧」状态结束前施放#1次【火萤Ⅳ型-死星过载】",
+		"rarity": "Low",
+		"series": 7,
+		"paramsText": [
+			4
+		],
+		"priority": 842,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:2.3",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4073306,
+		"title": "见过夏天",
+		"desc": "使用同时包含流萤、{NICKNAME}的队伍获得<unbreak>#1[i]</unbreak>场战斗的胜利",
+		"rarity": "Low",
+		"series": 7,
+		"paramsText": [
+			1
+		],
+		"priority": 841,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:2.3",
 			"隐藏成就"
 		],
 		"difficulty": {}
@@ -10068,6 +10702,23 @@
 		"priority": 924,
 		"tags": [
 			"版本:2.2",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4083301,
+		"title": "主随客便",
+		"desc": "在获得{TEXTJOIN#87}所有权后，在泳池中冲刺玩水",
+		"rarity": "Low",
+		"series": 8,
+		"paramsText": [
+			10
+		],
+		"priority": 922,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:2.3",
 			"隐藏成就"
 		],
 		"difficulty": {}

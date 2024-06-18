@@ -792,6 +792,18 @@
 		}
 	},
 	{
+		"id": "21045",
+		"path": "Mage",
+		"rarity": 4,
+		"versionAdded": "2.3",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "谐乐静默之后",
+				"nameEffect": "沉寂"
+			}
+		}
+	},
+	{
 		"id": "22000",
 		"path": "Warlock",
 		"rarity": 4,
@@ -1146,6 +1158,19 @@
 		}
 	},
 	{
+		"id": "23025",
+		"path": "Warrior",
+		"rarity": 5,
+		"characterBest": "1310",
+		"versionAdded": "2.3",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "梦应归于何处",
+				"nameEffect": "蜕变"
+			}
+		}
+	},
+	{
 		"id": "23026",
 		"path": "Shaman",
 		"rarity": 5,
@@ -1168,6 +1193,19 @@
 			"zh-cn": {
 				"name": "驶向第二次生命",
 				"nameEffect": "苦航"
+			}
+		}
+	},
+	{
+		"id": "23028",
+		"path": "Mage",
+		"rarity": 5,
+		"characterBest": "1314",
+		"versionAdded": "2.3",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "偏偏希望无价",
+				"nameEffect": "承诺"
 			}
 		}
 	},
@@ -1216,6 +1254,18 @@
 			"zh-cn": {
 				"name": "孤独的疗愈",
 				"nameEffect": "混沌灵药"
+			}
+		}
+	},
+	{
+		"id": "24004",
+		"path": "Mage",
+		"rarity": 5,
+		"versionAdded": "2.3",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "不息的演算",
+				"nameEffect": "无界之思"
 			}
 		}
 	}

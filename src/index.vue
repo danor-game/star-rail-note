@@ -30,7 +30,6 @@ document.title = 'DR星铁笔记';
 onMounted(() => {
 	const idProfileLast = localStorage.getItem('last-profile-id');
 
-	tabAdmin.add('test-test', { type: 'icon|title', title: '测试', icon: faBook, delay: true });
 	tabAdmin.add('database-character-grid', { type: 'icon|title', title: '角色归属', icon: faBook, delay: true });
 	tabAdmin.add('profile-manager', { type: 'icon|title', title: '档案管理', icon: faBook, delay: Boolean(idProfileLast && PA.$profiles.value.length) });
 

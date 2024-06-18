@@ -59,10 +59,10 @@
 						</p-tags>
 						<p-exclusives v-if="achievement.idsAchievementExclusive?.length">
 							<p-exclusive v-for="id of achievement.idsAchievementExclusive" :key="`achievement-${achievement.id}-exclusive-${id}`"
-								v-html="`【互斥成就】<span class='font-bold'>${M.achievements.find(achievement => achievement.id == id).title}</span> ${renderAchievementText(
+								v-html="`【互斥成就】<span class='font-bold mr-1'>${M.achievements.find(achievement => achievement.id == id).title}</span> ${renderAchievementText(
 									M.achievements.find(achievement => achievement.id == id).desc,
 									M.achievements.find(achievement => achievement.id == id).paramsText
-								).replaceAll('<br>', '')}`"
+								).replaceAll('<br>', `<span class='mr-4'></span>`)}`"
 							/>
 						</p-exclusives>
 					</p-achievement>
@@ -199,6 +199,7 @@ const renderAchievementText = (textRaw, params = []) => {
 		.replace(/<\/?u>/g, '')
 		.replace(/\\n/g, '<br>')
 		.replace('{TEXTJOIN#54}', `<span style="color:var(--cMain);">${$profile.value?.name ?? '开拓者'}的扑满以太灵</span>`)
+		.replace('{TEXTJOIN#87}', `<span style="color:var(--cMain);">${$profile.value?.name ?? '开拓者'}的游艇</span>`)
 		.replace('{NICKNAME}', `<span style="color:var(--cMain);">${$profile.value?.name ?? '开拓者'}</span>`);
 
 	if(params.length) {
