@@ -1,6 +1,6 @@
 {
 	"name": "@danor-game/star-rail-gacha-note",
-	"version": "2.0.0.0618",
+	"version": "2.0.1.0619",
 	"description": "",
 	"author": "DanoR",
 	"license": "LGPL-3.0-or-later",
@@ -44,8 +44,8 @@
 		"@nuogz/vue-sidebar": "^2.5.0",
 		"@nuogz/vue-tip": "^1.1.4",
 		"@nuogz/wock-client": "^3.2.0",
-		"@stylistic/eslint-plugin-js": "^2.2.1",
-		"@types/node": "^20.14.5",
+		"@stylistic/eslint-plugin-js": "^2.2.2",
+		"@types/node": "^20.14.7",
 		"@types/tampermonkey": "^4.20.4",
 		"@vitejs/plugin-vue": "^5.0.5",
 		"autoprefixer": "^10.4.19",

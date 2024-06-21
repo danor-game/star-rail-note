@@ -82,7 +82,7 @@ const textRangeTimePool = computed(() =>
 
 <style lang="sass" scoped>
 p-pool-title
-	@apply block box-content p-4 h-12 text-lg whitespace-nowrap
+	@apply block box-border p-4 h-20 text-lg whitespace-nowrap
 	background-color: color-mix(in srgb, var(--cBack) 95%, var(--cText))
 
 	p-header
@@ -114,7 +114,10 @@ p-pool-title
 				@apply text-red-600
 
 	&[sub]
-		@apply h-10 p-2
+		@apply inblock w-1/2 h-14 px-8 py-2 border-t-0
+		&:nth-child(2n+1)
+			@apply border-l
+
 		p-header
 			@apply w-10 h-10
 			img

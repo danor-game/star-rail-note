@@ -120,6 +120,7 @@ if(typesSource.has('vue')) {
 			stylistic$indent: [0],
 			vue$htmlIndent: [2, 'tab'],
 			vue$scriptIndent: [2, 'tab', { baseIndent: 0 }],
+			vue$htmlSelfClosing: [1, { html: { void: 'always' } }],
 			vue$maxAttributesPerLine: [0],
 			vue$mustacheInterpolationSpacing: [0],
 			vue$singlelineHtmlElementContentNewline: [0],

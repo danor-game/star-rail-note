@@ -1,10 +1,11 @@
 <template>
 	<p-fixed-sidebar>
-		<Combo v-model="$idProfile" item align="center" align-options="center" :options="optionsProfiles" @update:model-value="query" />
-		<Combo v-model="$optionShowRarity4" item align="center" align-options="left" label-width="4.25rem" label-align="right" label-split="&nbsp;" label="四星" :options="optionsShowRarity4" />
-		<Combo v-model="$optionShowDetail" item align="center" align-options="left" label-width="4.25rem" label-align="right" label-split="&nbsp;" label="详细" :options="optionsShownHidden" />
-		<Combo v-model="$optionShowMatePool" item align="center" align-options="left" label-width="4.25rem" label-align="right" label-split="&nbsp;" label="子活动" :options="optionsShownHidden" />
-		<Combo v-model="$optionShowNewbiePool" item align="center" align-options="left" label-width="4.25rem" label-align="right" label-split="&nbsp;" label="新手跃迁" :options="optionsShownHidden" />
+		<Combo v-model="$idProfile" item align="center" align-options="center" :options="$optionsProfiles" @update:model-value="query" />
+		<p-split>过滤</p-split>
+		<Combo v-model="$optionShowRarity4" item place="四星" :options="optionsShowRarity4" @click.right.exact.stop.prevent="$optionShowRarity4 = 'none'" />
+		<Combo v-model="$optionShowDetail" item place="详细" :options="optionsShowDetail" @click.right.exact.stop.prevent="$optionShowDetail = true" />
+		<Combo v-model="$optionShowMatePool" item place="子活动" :options="optionsShowMatePool" @click.right.exact.stop.prevent="$optionShowMatePool = true" />
+		<Combo v-model="$optionShowNewbiePool" item place="新手跃迁" :options="optionsShowNewbiePool" @click.right.exact.stop.prevent="$optionShowNewbiePool = true" />
 		<p-split>跳转</p-split>
 		<p-jump @click="scrollTo('gacha-summary')"><Icon :icon="faParagraph" /> 总览</p-jump>
 		<p-jump @click="scrollTo('gacha-type')"><Icon :icon="faParagraph" /> 按跃迁类型概览</p-jump>
@@ -120,18 +121,18 @@ tabAdmin.addTabHandle('gacha-analysis', $tab, tab => tab.params[0] ? query($idPr
 const $idProfile = ref('');
 /** @type {import('vue').Ref<import('../profile/admin.js').Profile>} */
 const $profile = ref(null);
-const optionsProfiles = computed(() => PA.$profiles.value.map(profile => ({ value: profile.id, text: profile.nick })));
+const $optionsProfiles = computed(() => PA.$profiles.value.map(profile => ({ value: profile.id, text: profile.nick })));
 
 
 
 const $optionShowRarity4 = ref('none');
-const $shownCharacterRarity4 = computed(() => $optionShowRarity4.value == 'all' || $optionShowRarity4.value == 'character');
-const $shownLightconeRarity4 = computed(() => $optionShowRarity4.value == 'all' || $optionShowRarity4.value == 'lightcone');
+const $shownCharacterRarity4 = computed(() => $optionShowRarity4.value == '-' || $optionShowRarity4.value == 'character');
+const $shownLightconeRarity4 = computed(() => $optionShowRarity4.value == '-' || $optionShowRarity4.value == 'lightcone');
 const optionsShowRarity4 = [
-	{ value: 'all', text: '全部' },
-	{ value: 'character', text: '角色' },
-	{ value: 'lightcone', text: '光锥' },
-	{ value: 'none', text: '隐藏' },
+	{ value: '-', text: '四星 => 全部' },
+	{ value: 'character', text: '四星 => 角色' },
+	{ value: 'lightcone', text: '四星 => 光锥' },
+	{ value: 'none', text: '四星 => 隐藏' },
 ];
 
 
@@ -142,7 +143,9 @@ const optionsShownHidden = [
 	{ value: true, text: '显示' },
 	{ value: false, text: '隐藏' },
 ];
-
+const optionsShowDetail = optionsShownHidden.map(({value,text})=> ({value,text:`详细 => ${text}`}));
+const optionsShowMatePool = optionsShownHidden.map(({value,text})=> ({value,text:`子活动 => ${text}`}));
+const optionsShowNewbiePool = optionsShownHidden.map(({value,text})=> ({value,text:`新手跃迁 => ${text}`}));
 
 const query = async () => {
 	const idProfile = $idProfile.value;
@@ -252,9 +255,6 @@ p-main-box
 				@apply bg-[var(--cBack)] overflow-hidden
 				&:not([main])
 					@apply col-span-2
-				p-pool-title
-					&[sub]
-						@apply pl-10
 				p-gachas
 					@apply block p-4
 					:deep(p-gacha-item)

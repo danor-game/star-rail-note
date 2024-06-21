@@ -1033,7 +1033,9 @@
 		"series": 3,
 		"descHide": "为逝者干杯，敬苦涩的现实",
 		"priority": 965,
-		"idsAchievementExclusive": [4033302],
+		"idsAchievementExclusive": [
+			4033302
+		],
 		"tags": [
 			"版本:2.3",
 			"隐藏成就"
@@ -1048,7 +1050,9 @@
 		"series": 3,
 		"descHide": "为逝者干杯，敬甜蜜的明天",
 		"priority": 964,
-		"idsAchievementExclusive": [4033301],
+		"idsAchievementExclusive": [
+			4033301
+		],
 		"tags": [
 			"版本:2.3",
 			"隐藏成就"
@@ -1063,7 +1067,9 @@
 		"series": 3,
 		"descHide": "与星穹列车不期而遇",
 		"priority": 963,
-		"idsAchievementExclusive": [4033304],
+		"idsAchievementExclusive": [
+			4033304
+		],
 		"tags": [
 			"版本:2.3",
 			"隐藏成就"
@@ -1078,7 +1084,9 @@
 		"series": 3,
 		"descHide": "与星穹列车擦肩而过",
 		"priority": 962,
-		"idsAchievementExclusive": [4033303],
+		"idsAchievementExclusive": [
+			4033303
+		],
 		"tags": [
 			"版本:2.3",
 			"隐藏成就"
@@ -6744,7 +6752,9 @@
 			10
 		],
 		"priority": 923,
-		"idsAchievementExclusive": [],
+		"idsAchievementExclusive": [
+			4083301
+		],
 		"tags": [
 			"版本:2.3",
 			"隐藏成就"
@@ -10716,7 +10726,9 @@
 			10
 		],
 		"priority": 922,
-		"idsAchievementExclusive": [],
+		"idsAchievementExclusive": [
+			4053321
+		],
 		"tags": [
 			"版本:2.3",
 			"隐藏成就"

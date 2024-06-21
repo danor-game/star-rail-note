@@ -2,24 +2,26 @@
 
 <template>
 	<p-fixed-sidebar>
-		<Combo v-model="$idProfile" item align="center" align-options="center" :options="optionsProfiles" @update:model-value="query" />
-		<Texter v-model="$word" item align="center" align-options="left" label-width="4.25rem" label-align="right" label-split="&nbsp;" label="搜索" />
-		<Combo v-model="$optionVersion" item align="center" align-options="left" label-width="4.25rem" label-align="right" label-split="&nbsp;" label="版本" :options="optionsVersion" />
+		<Combo v-model="$idProfile" item place="档案" :options="$optionsProfiles" @update:model-value="query" />
+		<p-split>过滤</p-split>
+		<Texter v-model="$word" item place="搜索" />
+		<Combo v-model="$optionVersion" item place="版本" :options="optionsVersion" @click.right.exact.stop.prevent="$optionVersion = '-'" />
+		<p-split>系列</p-split>
+		<p-series>
+			<Click v-for="series of M.seriesAchievement" :key="series.id"
+				option-button :text="series.name"
+				:white="!$setOptionSeries.has(series.id)"
+				@click.left.exact="switchSetOption($setOptionSeries, series.id)"
+				@click.right.exact.stop.prevent="switchSetOptionSingle($setOptionSeries, series.id, M.seriesAchievement.map(series => series.id))"
+				@click.ctrl="switchSetOptionSingle($setOptionSeries, series.id, M.seriesAchievement.map(series => series.id))"
+				@click.shift="switchSetOptionAll($setOptionSeries, M.seriesAchievement.map(series => series.id))"
+			/>
+		</p-series>
 
 		<!-- <Combo v-model="$optionVersion" item class="!w-36" lightcone4 label="活动" align="center" align-options="left" :options="optionsVersion" /> -->
 		<!-- <Combo v-model="$optionVersion" item class="!w-36" lightcone4 label="稀有" align="center" align-options="left" :options="optionsVersion" /> -->
 		<!-- <Combo v-model="$optionVersion" item class="!w-36" lightcone4 label="难度" align="center" align-options="left" :options="optionsVersion" /> -->
 
-		<!-- <p-series item>
-			<p-label>系列&nbsp;</p-label>
-			<Click v-for="series of M.seriesAchievement" :key="`option-series-${series.id}`"
-				option-button :text="series.name"
-				:white="!$setOptionSeries.has(series.id)"
-				@click.exact="switchSetOption($setOptionSeries, series.id)"
-				@click.ctrl="switchSetOptionSingle($setOptionSeries, series.id, M.seriesAchievement.map(series => series.id))"
-				@click.shift="switchSetOptionAll($setOptionSeries, M.seriesAchievement.map(series => series.id))"
-			/>
-		</p-series> -->
 		<!-- <p-tag-filter item>
 			<Combo v-model="$tagsFilter" class="inblock" style="width: calc(100vw - 10rem);" label="标签"
 				:options="[...setTagsAvailable].sort()" key-show="$$" key-value="$$"
@@ -28,7 +30,7 @@
 		</p-tag-filter> -->
 	</p-fixed-sidebar>
 	<p-fixed-topbar>
-		<p-tab-button :now="brop($tabNow == 'main')">概览</p-tab-button>
+		<!-- <p-tab-button :now="brop($tabNow == 'main')">概览</p-tab-button> -->
 		<p-tab-button
 			v-for="{ achievementsTabbedFiltered, achievementsTabbed, tab, textTab } of infosAchievementTabbed"
 			:key="tab"
@@ -41,7 +43,7 @@
 
 	<p-main-box>
 		<template v-for="{ achievementsTabbedFiltered, achievementsTabbed, toStatus, tab, textTab } of infosAchievementTabbed" :key="tab">
-			<p-box :anchor="tab">
+			<p-box v-if="$tabNow == tab" :anchor="tab">
 				<p-title>{{ textTab }} {{ achievementsTabbedFiltered.length }}/{{ achievementsTabbed.length }}</p-title>
 				<p-achievements>
 					<p-achievement v-for="achievement of achievementsTabbedFiltered" :key="`achievement-${achievement.id}`">
@@ -96,21 +98,21 @@ tabAdmin.addTabHandle('achievement-manager', $tab, tab => tab.params[0] ? query(
 const $idProfile = ref('');
 /** @type {import('vue').Ref<import('../profile/admin.js').Profile>} */
 const $profile = ref(null);
-const optionsProfiles = computed(() => PA.$profiles.value.map(profile => ({ value: profile.id, text: profile.nick })));
+const $optionsProfiles = computed(() => PA.$profiles.value.map(profile => ({ value: profile.id, text: profile.nick })));
 
 
 const $word = ref('');
 
 const optionsVersion = [
-	{ value: 'all', text: '全部' },
-	...M.versions.map(version => ({ value: version, text: version }))
+	{ value: '-', text: '版本 => 全部' },
+	...M.versions.map(version => ({ value: version, text: `版本 => ${version}` }))
 ];
-const $optionVersion = ref('all');
+const $optionVersion = ref('-');
 
 
-// const switchSetOption = (set, value) => set.has(value) ? set.delete(value) : set.add(value);
-// const switchSetOptionSingle = (set, value, values) => set.has(value) ? (values.forEach(value => set.add(value)), set.delete(value)) : (set.clear(), set.add(value));
-// const switchSetOptionAll = (set, values) => set.size ? set.clear() : values.forEach(value => set.add(value));
+const switchSetOption = (set, value) => set.has(value) ? set.delete(value) : set.add(value);
+const switchSetOptionSingle = (set, value, values) => set.has(value) && set.size == 1 ? (values.forEach(v => set.add(v)), set.delete(value)) : (set.clear(), set.add(value));
+const switchSetOptionAll = (set, values) => set.size ? set.clear() : values.forEach(value => set.add(value));
 // const optionsActivity = [
 // 	{ value: 'all', text: '全部' },
 // 	...M.versions.map(version => ({ value: version, text: version }))
@@ -168,7 +170,7 @@ const filterAchievement = achievement => {
 	return (achievement.title.includes($word.value) || achievement.desc.includes($word.value))
 		&& $setOptionSeries.value.has(achievement.series)
 		&& $tagsFilter.value.filter(tagFilter => achievement.tags.includes(tagFilter)).length == $tagsFilter.value.length
-		&& ($optionVersion.value == 'all' || achievement.tags.includes(`版本:${$optionVersion.value}`));
+		&& ($optionVersion.value == '-' || achievement.tags.includes(`版本:${$optionVersion.value}`));
 };
 
 const achievementsFilteredFinished = computed(() => achievementsFinished.value.filter(filterAchievement)
@@ -180,7 +182,7 @@ const achievementsFilteredShelved = computed(() => achievementsShelved.value.fil
 
 
 
-const $tabNow = ref('main');
+const $tabNow = ref('ongoing');
 const infosAchievementTabbed = computed(() => [
 	{ tab: 'ongoing', textTab: '未完成', achievementsTabbedFiltered: achievementsFilteredOngoing.value, achievementsTabbed: achievementsOngoing.value, toStatus: 1 },
 	{ tab: 'finished', textTab: '已完成', achievementsTabbedFiltered: achievementsFilteredFinished.value, achievementsTabbed: achievementsFinished.value, toStatus: 0 },
@@ -383,13 +385,12 @@ p-fixed-sidebar
 		@apply block w-full my-2 text-sm cursor-pointer select-none
 		&:hover
 			@apply text-[var(--cMain)] text-base
-
 	p-series
-		p-label
-			@apply inblock
+		@apply flex flex-wrap gap-0.5
 		>[option-button]
-			@apply inblock mx-1 px-4
-			@apply border-2 border-[var(--cGray)] h-8 lead-b1-8
+			@apply flex-1 min-w-max text-sm px-2
+			@apply border border-[var(--cMain)] h-8 lead-b1-8
+
 	p-tag-filter
 		p-label
 			@apply inblock
@@ -439,6 +440,6 @@ p-main-box
 
 					[oper-button]
 						@apply block border border-[var(--cMain)]
-						@apply mb-1 h-8 leading-[calc(var(--spc)*8-2px)]
+						@apply mb-1 h-8 lead-b1-8
 
 </style>
