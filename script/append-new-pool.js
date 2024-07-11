@@ -18,7 +18,7 @@ for(const pool of poolsNew) {
 	pool.timeDead = 0;
 	pool.itemsBoost5 = [''];
 	pool.itemsBoost4 = ['', '', ''];
-	pool.versionAdded = String((Number(pool.versionAdded) + 0.1).toFixed(1)) ?? process.argv[2] ?? '2.';
+	pool.versionAdded = String((Number(pool.versionAdded) + 0.1).toFixed(1)) ?? process.argv[2] ?? '2.x';
 	if('idLeader' in pool) { pool.idLeader = String(Number(pool.idLeader) + 4); }
 	pool.$data$locale = { 'zh-cn': { name: '' } };
 

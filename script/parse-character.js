@@ -22,8 +22,8 @@ for(const raw of Object.values(charactersRaw$id)) {
 		path: raw.AvatarBaseType,
 		rarity: { CombatPowerAvatarRarityType4: 4, CombatPowerAvatarRarityType5: 5 }[raw.Rarity],
 		gender: characters.find(meta => meta.id == raw.AvatarID)?.gender,
-		versionAdded: characters.find(meta => meta.id == raw.AvatarID)?.versionAdded ?? process.argv[2] ?? '2.',
-		versionAvailable: characters.find(meta => meta.id == raw.AvatarID)?.versionAvailable ?? process.argv[2] ?? '2.',
+		versionAdded: characters.find(meta => meta.id == raw.AvatarID)?.versionAdded ?? process.argv[2] ?? '2.x',
+		versionAvailable: characters.find(meta => meta.id == raw.AvatarID)?.versionAvailable ?? process.argv[2] ?? '2.x',
 		$data$locale: {
 			'zh-cn': {
 				name: texts$hash[raw.AvatarName?.Hash] == '{NICKNAME}' ? '开拓者' : texts$hash[raw.AvatarName?.Hash],

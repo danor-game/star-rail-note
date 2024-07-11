@@ -44,7 +44,7 @@ export default {
 					transform: 'translateZ(0)',
 				}),
 			},
-				{ values: theme('trans') },
+				{ values: theme('trans') }
 			);
 
 			// line height with border

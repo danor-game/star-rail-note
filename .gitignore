@@ -4,3 +4,5 @@
 /test/*.local.*
 
 /dist
+
+/script/config.local.json

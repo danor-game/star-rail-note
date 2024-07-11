@@ -1,12 +1,12 @@
 {
 	"name": "@danor-game/star-rail-gacha-note",
-	"version": "2.0.1.0619",
+	"version": "2.0.1+date.0619",
 	"description": "",
 	"author": "DanoR",
 	"license": "LGPL-3.0-or-later",
 	"repository": {
 		"type": "git",
-		"url": "github:danor-game/star-rail-gacha-note"
+		"url": "git+https://github.com/danor-game/star-rail-gacha-note.git"
 	},
 	"private": true,
 	"type": "module",
@@ -28,7 +28,8 @@
 		"preview": "http-server dist -a 127.0.0.1 -p 14700"
 	},
 	"dependencies": {
-		"fs-extra": "^11.2.0"
+		"fs-extra": "^11.2.0",
+		"fs-readdir-recursive": "^1.1.0"
 	},
 	"devDependencies": {
 		"@eslint/js": "^9.5.0",
