@@ -1377,6 +1377,94 @@
 		}
 	},
 	{
+		"id": "2035",
+		"type": "11",
+		"timeBorn": 1720584000,
+		"timeDead": 1722322800,
+		"typeItem": "character",
+		"itemsBoost5": [
+			"1314"
+		],
+		"itemsBoost4": [
+			"1103",
+			"1105",
+			"1009"
+		],
+		"versionAdded": "2.3",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "质生契运"
+			}
+		}
+	},
+	{
+		"id": "3035",
+		"type": "12",
+		"timeBorn": 1720584000,
+		"timeDead": 1722322800,
+		"typeItem": "lightcone",
+		"itemsBoost5": [
+			"23028"
+		],
+		"itemsBoost4": [
+			"21045",
+			"21007",
+			"21016"
+		],
+		"versionAdded": "2.3",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "偏偏希望无价"
+			}
+		}
+	},
+	{
+		"id": "2036",
+		"type": "11",
+		"timeBorn": 1720584000,
+		"timeDead": 1722322800,
+		"typeItem": "character",
+		"itemsBoost5": [
+			"1302"
+		],
+		"itemsBoost4": [
+			"1103",
+			"1105",
+			"1009"
+		],
+		"versionAdded": "2.3",
+		"rerun": 1,
+		"idLeader": "2035",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "荆冠芳勋"
+			}
+		}
+	},
+	{
+		"id": "3036",
+		"type": "12",
+		"timeBorn": 1720584000,
+		"timeDead": 1722322800,
+		"typeItem": "lightcone",
+		"itemsBoost5": [
+			"23018"
+		],
+		"itemsBoost4": [
+			"21045",
+			"21007",
+			"21016"
+		],
+		"versionAdded": "2.3",
+		"rerun": 1,
+		"idLeader": "3035",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "片刻，留在眼底"
+			}
+		}
+	},
+	{
 		"id": "2999",
 		"type": "11",
 		"typeItem": "character",
