@@ -1124,6 +1124,109 @@
 		"difficulty": {}
 	},
 	{
+		"id": 4033401,
+		"title": "以剑交心",
+		"desc": "当两柄剑相遇…\\n<color=#8790abff>※见证彦卿与云璃试图分出高下的一战</color>",
+		"rarity": "Mid",
+		"series": 3,
+		"descHide": "当两柄剑相遇…",
+		"priority": 959,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:2.4",
+			"隐藏描述"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4033402,
+		"title": "辩才无碍",
+		"desc": "唇枪舌剑才是外交的真正底色…\\n<color=#8790abff>※凭自己的口才说服公司专员</color>",
+		"rarity": "Mid",
+		"series": 3,
+		"priority": 958,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:2.4",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4033403,
+		"title": "以「力」服人",
+		"desc": "外交事务中偶尔你也得来些硬的…\\n<color=#8790abff>※凭物理手段「劝服」公司专员</color>",
+		"rarity": "Mid",
+		"series": 3,
+		"priority": 957,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:2.4",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4033404,
+		"title": "开棺定论",
+		"desc": "开启货箱，犹如开启一尊棺木…\\n<color=#8790abff>※击败公司的危险货物「咆哮灵柩」</color>",
+		"rarity": "Mid",
+		"series": 3,
+		"descHide": "开启货箱，犹如开启一尊棺木…",
+		"priority": 956,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:2.4",
+			"隐藏描述"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4033405,
+		"title": "剑花秋莲光出匣",
+		"desc": "接下师父们的礼物与殷切期待\\n<color=#8790abff>※三月七视角下，开始学习仙舟剑术</color>",
+		"rarity": "Mid",
+		"series": 3,
+		"descHide": "接下师父们的礼物与殷切期待",
+		"priority": 955,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:2.4",
+			"隐藏描述"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4033406,
+		"title": "破狱深牢",
+		"desc": "而今，最危险的囚犯挣脱了枷锁\\n<color=#8790abff>※椒丘视角下，完成对呼雷的探视</color>",
+		"rarity": "Mid",
+		"series": 3,
+		"descHide": "而今，最危险的囚犯挣脱了枷锁",
+		"priority": 954,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:2.4",
+			"隐藏描述"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4033407,
+		"title": "狩猎的时间",
+		"desc": "猎人与猎物的游戏尚未开始\\n<color=#8790abff>※将军们…行将出征</color>",
+		"rarity": "Mid",
+		"series": 3,
+		"descHide": "猎人与猎物的游戏尚未开始",
+		"priority": 953,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:2.4",
+			"隐藏描述"
+		],
+		"difficulty": {}
+	},
+	{
 		"id": 4040101,
 		"title": "角色扮演游戏里合法",
 		"desc": "开启<unbreak>#1[i]</unbreak>次空间站「黑塔」战利品",
@@ -2487,6 +2590,46 @@
 		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:2.3"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4043401,
+		"title": "青鸟探看",
+		"desc": "利用机巧鸟打开隐藏的地下通路",
+		"rarity": "Low",
+		"series": 4,
+		"priority": 891,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:2.4"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4043402,
+		"title": "隐秘的角落",
+		"desc": "利用机巧鸟进入隐藏房间",
+		"rarity": "Low",
+		"series": 4,
+		"priority": 890,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:2.4"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4043403,
+		"title": "还是门比较硬",
+		"desc": "被幽囚狱大门夹到脑袋",
+		"rarity": "Low",
+		"series": 8,
+		"priority": 921,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:2.4",
+			"隐藏成就"
 		],
 		"difficulty": {}
 	},
@@ -6874,6 +7017,281 @@
 		"difficulty": {}
 	},
 	{
+		"id": 4053401,
+		"title": "石中剑，云中人",
+		"desc": "完成同行任务「铸剑为犁」",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 686,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:2.4"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053402,
+		"title": "四时剑意",
+		"desc": "在「初花习剑录」中，领悟任意「得心应手」以上的剑法",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 685,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:2.4"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053403,
+		"title": "三尺之水，可堪截云",
+		"desc": "在「初花习剑录」中，剑术进境达到「剑心初成」",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 684,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:2.4"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053404,
+		"title": "奥卡姆剃刀没有出鞘",
+		"desc": "在「初花习剑录」中，收集完所有的结局",
+		"rarity": "Mid",
+		"series": 5,
+		"priority": 683,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:2.4"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053405,
+		"title": "明明超强却过分慎重",
+		"desc": "在「初花习剑录」中，三月七的#1项训练属性达到#2以上",
+		"rarity": "Low",
+		"series": 5,
+		"paramsText": [
+			4,
+			1000
+		],
+		"priority": 682,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:2.4"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053407,
+		"title": "飞越平台期",
+		"desc": "在「初花习剑录」中，单回合内提升训练属性达到#1点",
+		"rarity": "Low",
+		"series": 5,
+		"paramsText": [
+			300
+		],
+		"priority": 680,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:2.4"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053408,
+		"title": "初花旅游录",
+		"desc": "在「初花习剑录」中，练剑日程只有游历没有训练",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 679,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:2.4"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053409,
+		"title": "只学习不玩耍，聪明三月也变傻",
+		"desc": "在「初花习剑录」中，一直训练到三月七的心情为#1",
+		"rarity": "Low",
+		"series": 5,
+		"paramsText": [
+			0
+		],
+		"priority": 678,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:2.4"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053410,
+		"title": "真假开拓王",
+		"desc": "与变身成自己的「无相者」嘟嘟对峙，并证明自己才是{NICKNAME}",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 677,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:2.4",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053411,
+		"title": "绳网委托",
+		"desc": "帮助白鸟穿过漆黑的集装箱找到正确的通路",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 676,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:2.4",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053412,
+		"title": "仙舟导游",
+		"desc": "与皮皮西游客、智械游客在罗浮仙舟重逢",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 675,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:2.4",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053413,
+		"title": "人有五名，逃犯有三",
+		"desc": "将藏身于幽囚狱中的逃犯找出，并见证司狱的审判",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 674,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:2.4",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053414,
+		"title": "魔阴身考在哪里",
+		"desc": "找到失踪已久的《魔阴身考》，并尝试了解失踪的原因",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 673,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:2.4",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053415,
+		"title": "影卫信条",
+		"desc": "初次在幽囚狱上层俯瞰幽囚狱时，选择凝视深渊",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 672,
+		"idsAchievementExclusive": [
+			4053416
+		],
+		"tags": [
+			"版本:2.4",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053416,
+		"title": "影卫信条：叛变",
+		"desc": "初次在幽囚狱上层俯瞰幽囚狱时，选择暂时撤退",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 671,
+		"idsAchievementExclusive": [
+			4053415
+		],
+		"tags": [
+			"版本:2.4",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053417,
+		"title": "囚室巡访",
+		"desc": "启动机巧鸟，并以访客身份调查#1处高层的囚室",
+		"rarity": "Low",
+		"series": 5,
+		"paramsText": [
+			3
+		],
+		"priority": 670,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:2.4",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053418,
+		"title": "不存在的记忆",
+		"desc": "调查特殊的石门，回想起「人有五名，代价有三个…」的情景",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 669,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:2.4",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053420,
+		"title": "陵园购",
+		"desc": "在幽囚狱中与「阿合马铁窗集团」任意成员完成一次交易",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 667,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:2.4",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053421,
+		"title": "能和我转一辈子魔方吗",
+		"desc": "完成幽囚狱中全部的「枘凿六合•Remake」谜题",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 666,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:2.4",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
 		"id": 4060101,
 		"title": "影逝百度（一）",
 		"desc": "击败<unbreak>#1[i]</unbreak>次凝滞虚影",
@@ -9776,6 +10194,123 @@
 		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:2.3",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4073401,
+		"title": "寻剑",
+		"desc": "使用包含云璃的队伍获得#1场对王下一桶的战斗的胜利",
+		"rarity": "Low",
+		"series": 7,
+		"paramsText": [
+			1
+		],
+		"priority": 840,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:2.4",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4073402,
+		"title": "忽冷忽热",
+		"desc": "在同一场战斗中用一倍速度触发停云「普攻」语音与椒丘「普攻」语音",
+		"rarity": "Low",
+		"series": 7,
+		"priority": 839,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:2.4",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4073403,
+		"title": "对月无言",
+		"desc": "「月狂」倒计时结束前，场上所有敌人已提前解除「月狂」状态",
+		"rarity": "Low",
+		"series": 7,
+		"priority": 838,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:2.4"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4073404,
+		"title": "没什么好怕的",
+		"desc": "单场战斗中，我方角色受到的所有来自咆哮灵柩的「恐惧萦绕」状态都被成功解除",
+		"rarity": "Low",
+		"series": 7,
+		"priority": 837,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:2.4"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4073405,
+		"title": "科学怪狗",
+		"desc": "咆哮灵柩击败一名处于「恐惧」状态下的我方角色",
+		"rarity": "Low",
+		"series": 7,
+		"priority": 836,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:2.4"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4073406,
+		"title": "十万个冷知识",
+		"desc": "使用三月七•巡猎对#1个不同的角色施放战技「师父，请喝茶！」",
+		"rarity": "Low",
+		"series": 7,
+		"paramsText": [
+			20
+		],
+		"priority": 835,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:2.4",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4073407,
+		"title": "就是地道！",
+		"desc": "单场战斗中，使用三月七•巡猎施放战技「师父，请喝茶！」时，出现苏打豆汁儿",
+		"rarity": "Low",
+		"series": 7,
+		"priority": 834,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:2.4"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4073408,
+		"title": "蜜三刀",
+		"desc": "单场战斗中，使用云璃触发#1次「勘破·灭」",
+		"rarity": "Low",
+		"series": 7,
+		"paramsText": [
+			3
+		],
+		"priority": 833,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:2.4",
 			"隐藏成就"
 		],
 		"difficulty": {}

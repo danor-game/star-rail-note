@@ -1465,6 +1465,90 @@
 		}
 	},
 	{
+		"id": "2037",
+		"type": "11",
+		"timeDead": 1724212740,
+		"typeItem": "character",
+		"itemsBoost5": [
+			"1221"
+		],
+		"itemsBoost4": [
+			"1215",
+			"1207",
+			"1110"
+		],
+		"versionAdded": "2.4",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "掷山破云"
+			}
+		}
+	},
+	{
+		"id": "3037",
+		"type": "12",
+		"timeDead": 1724212740,
+		"typeItem": "lightcone",
+		"itemsBoost5": [
+			"23030"
+		],
+		"itemsBoost4": [
+			"21005",
+			"21014",
+			"21006"
+		],
+		"versionAdded": "2.4",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "落日时起舞"
+			}
+		}
+	},
+	{
+		"id": "2038",
+		"type": "11",
+		"timeDead": 1724212740,
+		"typeItem": "character",
+		"itemsBoost5": [
+			"1217"
+		],
+		"itemsBoost4": [
+			"1215",
+			"1207",
+			"1110"
+		],
+		"versionAdded": "2.4",
+		"rerun": 1,
+		"idLeader": "2037",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "令奉贞凶"
+			}
+		}
+	},
+	{
+		"id": "3038",
+		"type": "12",
+		"timeDead": 1724212740,
+		"typeItem": "lightcone",
+		"itemsBoost5": [
+			"23017"
+		],
+		"itemsBoost4": [
+			"21005",
+			"21014",
+			"21006"
+		],
+		"versionAdded": "2.4",
+		"rerun": 1,
+		"idLeader": "3037",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "惊魂夜"
+			}
+		}
+	},
+	{
 		"id": "2999",
 		"type": "11",
 		"typeItem": "character",

@@ -12,8 +12,8 @@ const { dirDataRaw } = readJSONSync(resolvePath(dir, './config.local.json'));
 const texts$hash = readJSONSync(resolvePath(dirDataRaw, 'TextMap/TextMapCHS.json'));
 texts$hash[371857150] = '';
 
-const textsInclination$id = readJSONSync(resolvePath(dirDataRaw, 'ExcelOutput/InclinationText.json'));
-const sentencesTalk$id = readJSONSync(resolvePath(dirDataRaw, 'ExcelOutput/TalkSentenceConfig.json'));
+const textsInclination = readJSONSync(resolvePath(dirDataRaw, 'ExcelOutput/InclinationText.json'));
+const sentencesTalk = readJSONSync(resolvePath(dirDataRaw, 'ExcelOutput/TalkSentenceConfig.json'));
 
 const typesInclination$type = {
 	1001: '热血',
@@ -48,18 +48,21 @@ const choices = [];
 const choices$id = {};
 
 for(const typeInclination in typesInclination$type) {
-	for(const textInclination of Object.values(textsInclination$id)) {
+	for(const textInclination of textsInclination) {
 		if(!textInclination.InclinationTypeList.includes(Number(typeInclination))) { continue; }
 
 
 		const idSentence = textInclination.TalkSentenceID;
-		const sentence = sentencesTalk$id[idSentence];
+		const sentence = sentencesTalk.find(sentence => sentence.TalkSentenceID == idSentence);
 		if(sentence.TalkSentenceID != idSentence) { throw Error(`Sentence的id不等于key: ${idSentence} != ${sentence.TalkSentenceID}`); }
 
 		const hashTextSentence = sentence.TalkSentenceText.Hash;
 
 
-		if(idSentence in choices$id) { choices$id[idSentence].typesInclination.push(Number(typeInclination)); }
+		if(idSentence in choices$id) {
+			choices$id[idSentence].typesInclination.push(Number(typeInclination));
+			choices$id[idSentence].typesInclination.sort();
+		}
 
 		choices.push(choices$id[idSentence] = {
 			id: idSentence,
@@ -73,6 +76,11 @@ for(const typeInclination in typesInclination$type) {
 
 writeJSONSync(
 	resolvePath(dir, '../meta/meta.inclinationSimple.json'),
-	choices.sort((a, b) => a.typeInclination - b.typeInclination).map(i => `${i.typesInclination.map(type=>`【${type} ${typesInclination$type[type]}】`).join('')} ${i.id} ==> ${i.text}`), { spaces: '\t', EOL: '\n' },
+	choices.sort((a, b) =>
+		a.typesInclination[0] - b.typesInclination[0] ||
+		(a.typesInclination[1] ?? 0) - (b.typesInclination[1] ?? 0) ||
+		(a.typesInclination[2] ?? 0) - (b.typesInclination[2] ?? 0) ||
+		a.id - b.id
+	).map(i => `${i.typesInclination.map(type => `【${type} ${typesInclination$type[type]}】`).join('')} ${i.id} ==> ${i.text}`), { spaces: '\t', EOL: '\n' },
 	{ EOL: '\n', spaces: '\t' }
 );

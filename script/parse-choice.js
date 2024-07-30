@@ -16,12 +16,12 @@ const choicesOld = readJSONSync(resolvePath(dir, '../meta/meta.inclination.json'
 const texts$hash = readJSONSync(resolvePath(dirDataRaw, 'TextMap/TextMapCHS.json'));
 texts$hash[371857150] = '';
 
-const textsInclination$id = readJSONSync(resolvePath(dirDataRaw, 'ExcelOutput/InclinationText.json'));
-const sentencesTalk$id = readJSONSync(resolvePath(dirDataRaw, 'ExcelOutput/TalkSentenceConfig.json'));
-const missionsMain$id = readJSONSync(resolvePath(dirDataRaw, 'ExcelOutput/MainMission.json'));
-const planesMaze$id = readJSONSync(resolvePath(dirDataRaw, 'ExcelOutput/MazePlane.json'));
-const floorsMaze$id = readJSONSync(resolvePath(dirDataRaw, 'ExcelOutput/MazeFloor.json'));
-const datasNPC$id = readJSONSync(resolvePath(dirDataRaw, 'ExcelOutput/NPCData.json'));
+const textsInclination = readJSONSync(resolvePath(dirDataRaw, 'ExcelOutput/InclinationText.json'));
+const sentencesTalk = readJSONSync(resolvePath(dirDataRaw, 'ExcelOutput/TalkSentenceConfig.json'));
+const missionsMain = readJSONSync(resolvePath(dirDataRaw, 'ExcelOutput/MainMission.json'));
+const planesMaze = readJSONSync(resolvePath(dirDataRaw, 'ExcelOutput/MazePlane.json'));
+const floorsMaze = readJSONSync(resolvePath(dirDataRaw, 'ExcelOutput/MazeFloor.json'));
+const datasNPC = readJSONSync(resolvePath(dirDataRaw, 'ExcelOutput/NPCData.json'));
 
 const performances = [
 	...Object.values(readJSONSync(resolvePath(dirDataRaw, 'ExcelOutput/PerformanceA.json'))),
@@ -56,12 +56,12 @@ const choices = [];
 const choices$id = {};
 
 for(const typeInclination in typesInclination$type) {
-	for(const textInclination of Object.values(textsInclination$id)) {
+	for(const textInclination of textsInclination) {
 		if(!textInclination.InclinationTypeList.includes(Number(typeInclination))) { continue; }
 
 
 		const idSentence = textInclination.TalkSentenceID;
-		const sentence = sentencesTalk$id[idSentence];
+		const sentence = sentencesTalk.find(sentence => sentence.TalkSentenceID == idSentence);
 		if(sentence.TalkSentenceID != idSentence) { throw Error(`Sentence的id不等于key: ${idSentence} != ${sentence.TalkSentenceID}`); }
 
 		const hashTextSentence = sentence.TalkSentenceText.Hash;
@@ -104,7 +104,7 @@ const checkTasks = (tasks, predicate, idMission, nameFile) => {
 
 				if(taskPrev?.$type == 'RPG.GameCore.PlayAndWaitSimpleTalk' || taskPrev?.$type == 'RPG.GameCore.PlaySimpleTalk') {
 					sentencesPrev.push(...taskPrev.SimpleTalkList.map(talk => {
-						const sentenceTalk = sentencesTalk$id[talk.TalkSentenceID];
+						const sentenceTalk = sentencesTalk.find(sentence => sentence.TalkSentenceID == talk.TalkSentenceID);
 						const hashName = sentenceTalk.TextmapTalkSentenceName.Hash;
 						const hashText = sentenceTalk.TalkSentenceText.Hash;
 						const who = hashName in texts$hash ? parseSentenceSlot(texts$hash[hashName]) || '（旁白）' : `（未知）`;
@@ -143,7 +143,7 @@ const checkTasks = (tasks, predicate, idMission, nameFile) => {
 
 				choice.optionsComrade = task.OptionList.map(option => ({
 					id: option.TalkSentenceID,
-					text: parseSentenceSlot(texts$hash[sentencesTalk$id[option.TalkSentenceID].TalkSentenceText.Hash])
+					text: parseSentenceSlot(texts$hash[sentencesTalk.find(sentence => sentence.TalkSentenceID == option.TalkSentenceID).TalkSentenceText.Hash])
 				}));
 
 				choice.predicate = predicate;
@@ -161,8 +161,8 @@ const checkTasks = (tasks, predicate, idMission, nameFile) => {
 						id: idPerformance,
 						idPlane,
 						idFloor,
-						namePlane: parseSentenceSlot(texts$hash[planesMaze$id[idPlane]?.PlaneName?.Hash] ?? null),
-						nameFloor: parseSentenceSlot(texts$hash[GetStableHash(floorsMaze$id[idFloor]?.FloorName)] ?? null),
+						namePlane: parseSentenceSlot(texts$hash[planesMaze.find(plane => plane.PlaneID == idPlane)?.PlaneName?.Hash] ?? null),
+						nameFloor: parseSentenceSlot(texts$hash[GetStableHash(floorsMaze.find(floor => floor.FloorID == idFloor)?.FloorName)] ?? null),
 					};
 
 
@@ -174,8 +174,8 @@ const checkTasks = (tasks, predicate, idMission, nameFile) => {
 								if(missionSub.ID == idPerformance) {
 									choice.performance.idPlane = missionSub.LevelPlaneID ?? null;
 									choice.performance.idFloor = missionSub.LevelFloorID ?? null;
-									choice.performance.namePlane = parseSentenceSlot(texts$hash[planesMaze$id[missionSub.LevelPlaneID]?.PlaneName?.Hash]) ?? null;
-									choice.performance.nameFloor = parseSentenceSlot(texts$hash[GetStableHash(floorsMaze$id[missionSub.LevelFloorID]?.FloorName)]) ?? null;
+									choice.performance.namePlane = parseSentenceSlot(texts$hash[planesMaze.find(plane => plane.PlaneID == missionSub.LevelPlaneID)?.PlaneName?.Hash]) ?? null;
+									choice.performance.nameFloor = parseSentenceSlot(texts$hash[GetStableHash(floorsMaze.find(floor => floor.FloorID == missionSub.LevelFloorID)?.FloorName)]) ?? null;
 
 									break;
 								}
@@ -190,7 +190,7 @@ const checkTasks = (tasks, predicate, idMission, nameFile) => {
 
 
 
-				const missionMain = missionsMain$id[idMission];
+				const missionMain = missionsMain.find(mission => mission.MainMissionID == idMission);
 				const mission = choice.mission = { id: idMission };
 				if(missionMain) {
 					mission.name = texts$hash[missionMain?.Name?.Hash] ?? null;
@@ -212,7 +212,7 @@ const checkTasks = (tasks, predicate, idMission, nameFile) => {
 									if(group.FirstDialogueGroupID == idMission || group.FirstDialogueGroupID == `${idMission}01`) {
 										mission.idNPC = group.NPCID;
 
-										const hashTextName = group.OverrideNPCName?.Hash ?? datasNPC$id[mission.idNPC]?.DefaultNPCName?.Hash;
+										const hashTextName = group.OverrideNPCName?.Hash ?? datasNPC.find(dataNPC => dataNPC.ID == mission.idNPC)?.DefaultNPCName?.Hash;
 										mission.name = hashTextName in texts$hash ? texts$hash[hashTextName] : '<!找不到NPC名称文本>';
 										mission.type = 'FirstDialogue';
 
@@ -243,12 +243,12 @@ const checkTasks = (tasks, predicate, idMission, nameFile) => {
 											if(idFloor) {
 												choice.performance.idPlane = Number(idPlane) ?? null;
 												choice.performance.idFloor = Number(idFloor) ?? null;
-												choice.performance.namePlane = parseSentenceSlot(texts$hash[planesMaze$id[idPlane]?.PlaneName?.Hash]) ?? null;
-												choice.performance.nameFloor = parseSentenceSlot(texts$hash[GetStableHash(floorsMaze$id[idFloor]?.FloorName)]) ?? null;
+												choice.performance.namePlane = parseSentenceSlot(texts$hash[planesMaze.push(plane => plane.PlaneID == idPlane)?.PlaneName?.Hash]) ?? null;
+												choice.performance.nameFloor = parseSentenceSlot(texts$hash[GetStableHash(floorsMaze.find(floor => floor.FloorID == idFloor)?.FloorName)]) ?? null;
 											}
 										}
 
-										const hashTextName = dial.OverrideNPCName?.Hash ?? datasNPC$id[mission.idNPC]?.DefaultNPCName?.Hash;
+										const hashTextName = dial.OverrideNPCName?.Hash ?? datasNPC.find(dataNPC => dataNPC.ID == mission.idNPC)?.DefaultNPCName?.Hash;
 										mission.name = hashTextName in texts$hash ? texts$hash[hashTextName] : '<!找不到NPC名称文本>';
 										mission.type = 'FirstDialogue-Heart';
 
@@ -327,6 +327,6 @@ for(const dirMission of [
 
 writeJSONSync(
 	resolvePath(dir, '../meta/meta.inclination.json'),
-	choices.sort((a, b) => b.typeInclination - a.typeInclination),
+	choices.sort((a, b) => b.typeInclination - a.typeInclination || a.id - b.id),
 	{ EOL: '\n', spaces: '\t' }
 );

@@ -10,7 +10,7 @@ const { dirDataRaw } = readJSONSync(resolvePath(dir, './config.local.json'));
 
 const achievements = readJSONSync(resolvePath(dir, '../meta/meta.achievement.json'));
 
-const achievementsRaw$id = readJSONSync(resolvePath(dirDataRaw, 'ExcelOutput/AchievementData.json'));
+const achievementsRaw = readJSONSync(resolvePath(dirDataRaw, 'ExcelOutput/AchievementData.json'));
 const texts$hash = readJSONSync(resolvePath(dirDataRaw, 'TextMap/TextMapCHS.json'));
 texts$hash[371857150] = '';
 
@@ -18,7 +18,7 @@ texts$hash[371857150] = '';
 const idsInclude = [];
 
 const result = [];
-for(const raw of Object.values(achievementsRaw$id)) {
+for(const raw of achievementsRaw) {
 	if(idsInclude.length && !idsInclude.includes(raw.AchievementID)) { continue; }
 
 	raw.AchievementTitle = texts$hash[raw.AchievementTitle.Hash] ?? raw.AchievementTitle;
@@ -71,4 +71,4 @@ for(const raw of Object.values(achievementsRaw$id)) {
 
 
 
-writeJSONSync(resolvePath(dir, '../meta/meta.achievement.json'), result, { EOL: '\n', spaces: '\t' });
+writeJSONSync(resolvePath(dir, '../meta/meta.achievement.json'), result.sort((a, b) => a.id - b.id), { EOL: '\n', spaces: '\t' });

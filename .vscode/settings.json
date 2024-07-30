@@ -20,5 +20,8 @@
 	"cssvar.ignore": [
 		"**/node_modules/**",
 		"./dist/**"
-	]
+	],
+	"[vue]": {
+		"editor.defaultFormatter": "Vue.volar"
+	},
 }

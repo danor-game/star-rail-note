@@ -481,6 +481,45 @@
 		}
 	},
 	{
+		"id": "1218",
+		"element": "Fire",
+		"path": "Warlock",
+		"rarity": 5,
+		"versionAdded": "2.4",
+		"versionAvailable": "2.4",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "椒丘"
+			}
+		}
+	},
+	{
+		"id": "1221",
+		"element": "Physical",
+		"path": "Warrior",
+		"rarity": 5,
+		"versionAdded": "2.4",
+		"versionAvailable": "2.4",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "云璃"
+			}
+		}
+	},
+	{
+		"id": "1224",
+		"element": "Imaginary",
+		"path": "Rogue",
+		"rarity": 4,
+		"versionAdded": "2.4",
+		"versionAvailable": "2.4",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "三月七"
+			}
+		}
+	},
+	{
 		"id": "1301",
 		"element": "Fire",
 		"path": "Priest",

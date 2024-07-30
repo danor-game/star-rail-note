@@ -11,7 +11,7 @@ const { dirDataRaw } = readJSONSync(resolvePath(dir, './config.local.json'));
 const lightcones = readJSONSync(resolvePath(dir, '../meta/meta.lightcone.json'));
 
 const lightconesRaw$id = readJSONSync(resolvePath(dirDataRaw, 'ExcelOutput/EquipmentConfig.json'));
-const skillsLightconeRaw$id = readJSONSync(resolvePath(dirDataRaw, 'ExcelOutput/EquipmentSkillConfig.json'));
+const skillsLightconeRaw = readJSONSync(resolvePath(dirDataRaw, 'ExcelOutput/EquipmentSkillConfig.json'));
 const texts$hash = readJSONSync(resolvePath(dirDataRaw, 'TextMap/TextMapCHS.json'));
 
 
@@ -26,7 +26,7 @@ for(const raw of lightconesRaw$id) {
 		$data$locale: {
 			'zh-cn': {
 				name: texts$hash[raw.EquipmentName?.Hash],
-				nameEffect: texts$hash[skillsLightconeRaw$id[raw.SkillID]?.[1]?.SkillName?.Hash],
+				nameEffect: texts$hash[skillsLightconeRaw.find(skill=>raw.SkillID==skill.SkillID)?.SkillName?.Hash],
 			}
 		}
 	};
