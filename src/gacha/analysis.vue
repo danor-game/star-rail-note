@@ -37,7 +37,7 @@
 				:col4="brop(!~A.typesPoolGacha.findIndex(a => a.id == 0))"
 				:col5="brop(~A.typesPoolGacha.findIndex(a => a.id == 0))"
 			>
-				<p-gather v-for="analysis of A.typesPoolGacha.filter(a => $optionShowNewbiePool ? true : a.id != 2)" :key="`gather-type-${analysis.id}`">
+				<p-gather v-for="analysis of A.typesPoolGacha.filter(a => $optionShowNewbiePool ? true : a.id != 2)" :key="analysis.id">
 					<p-title>{{ analysis.name }}</p-title>
 					<p-info><span value-highlight>{{ analysis.logs.length }}</span> 跃迁</p-info>
 					<p-info><span value-highlight>{{ String(analysis.logs5.length).padStart(2, '&nbsp;') }}</span> 五星</p-info>
@@ -49,7 +49,7 @@
 		<p-box gacha-type-detail>
 			<p-title>● 按<span value-highlight-xl>跃迁类型</span></p-title>
 			<p-gathers>
-				<p-gather v-for="analysis of A.typesPoolGacha.filter(a => $optionShowNewbiePool ? true : a.id != 2)" :id="`type-detail-${analysis.id}`" :key="`gather-type-detail-${analysis.id}`"
+				<p-gather v-for="analysis of A.typesPoolGacha.filter(a => $optionShowNewbiePool ? true : a.id != 2)" :id="`type-detail-${analysis.id}`" :key="analysis.id"
 					:main2="brop($optionShowNewbiePool && analysis.id > 10)"
 					:main3="brop($optionShowNewbiePool && analysis.id > 10 && ~A.typesPoolGacha.findIndex(a => a.id == 0))"
 				>
@@ -57,7 +57,7 @@
 
 					<p-gachas v-if="$optionShowDetail">
 						<GachaItem v-if="analysis.countInvestNext" type="count-invest-next" :type-gacha="analysis.id" :count-invest="analysis.countInvestNext" />
-						<GachaItem v-for="log of analysis.logsRare" :key="`gather-type-detail-${analysis.id}-${log.id}`" :a="A" :log="log" />
+						<GachaItem v-for="log of analysis.logsRare" :key="log.id" :a="A" :log="log" />
 					</p-gachas>
 				</p-gather>
 			</p-gathers>
@@ -66,13 +66,13 @@
 		<p-box gacha-pool-detail>
 			<p-title>● 按<span value-highlight-xl>跃迁活动</span></p-title>
 			<p-gathers>
-				<p-gather v-for="analysis of A.pools.filter(a => $optionShowNewbiePool ? true : a.pool.type != 2)" :id="`pool-detail-${analysis.id}`" :key="`gather-pool-detail-${analysis.id}`"
+				<p-gather v-for="analysis of A.pools.filter(a => $optionShowNewbiePool ? true : a.pool.type != 2)" :id="`pool-detail-${analysis.id}`" :key="analysis.id"
 					:main="brop(analysis.pool.type > 10)"
 				>
 					<PoolTitle :analysis="analysis" :shown-character-rarity4="$shownCharacterRarity4" :shown-lightcone-rarity4="$shownLightconeRarity4" :misseds$id="A.misseds$id" />
 
 					<template v-if="$optionShowMatePool && analysis.poolsSub.length > 1">
-						<PoolTitle v-for="analysisSub of analysis.poolsSub" :key="`gather-pool-sub-detail-${analysis.id}-${analysisSub.id}`"
+						<PoolTitle v-for="analysisSub of analysis.poolsSub" :key="analysisSub.id"
 							display="sub"
 							:analysis="analysisSub"
 							:shown-character-rarity4="$shownCharacterRarity4"
@@ -83,7 +83,7 @@
 
 					<p-gachas v-if="$optionShowDetail">
 						<GachaItem v-if="analysis.countInvestNext" type="count-invest-next" :type-gacha="analysis.pool.type" :count-invest="analysis.countInvestNext" />
-						<GachaItem v-for="log of analysis.logsRare" :key="`gather-pool-detail-${analysis.id}-${log.id}`" :log="log" :a="A" />
+						<GachaItem v-for="log of analysis.logsRare" :key="log.id" :log="log" :a="A" />
 						<GachaItem v-if="analysis.countInvestPrev" type="count-invest-prev" :type-gacha="analysis.pool.type" :count-invest="analysis.countInvestPrev" />
 					</p-gachas>
 				</p-gather>

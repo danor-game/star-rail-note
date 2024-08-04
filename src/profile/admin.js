@@ -71,7 +71,7 @@ export class PlayerAchievementInfo {
 }
 
 /** DR跃迁笔记玩家档案 */
-class Profile {
+export class Profile {
 	/**
 	 * 唯一标识
 	 * - 格式 `ULID`
@@ -170,7 +170,7 @@ class Profile {
 }
 
 
-class ProfileAdmin {
+export class ProfileAdmin {
 	/**
 	 *
 	 * @type {Profile[]}
@@ -286,8 +286,5 @@ class ProfileAdmin {
 }
 
 
-const PA = await new ProfileAdmin();
+export const PA = await new ProfileAdmin();
 window.PA = PA;
-
-
-export { ProfileAdmin, Profile, PA };

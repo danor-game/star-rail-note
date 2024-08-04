@@ -1,8 +1,6 @@
 <!-- eslint-disable vue/no-v-text-v-html-on-component -->
-
 <template>
 	<p-fixed-sidebar>
-		<Combo v-model="$idProfile" item place="档案" :options="$optionsProfiles" @update:model-value="query" />
 		<p-split>过滤</p-split>
 		<Texter v-model="$word" item place="搜索" />
 		<Combo v-model="$optionVersion" item place="版本" :options="optionsVersion" @click.right.exact.stop.prevent="$optionVersion = '-'" />
@@ -46,7 +44,7 @@
 			<p-box v-if="$tabNow == tab" :anchor="tab">
 				<p-title>{{ textTab }} {{ achievementsTabbedFiltered.length }}/{{ achievementsTabbed.length }}</p-title>
 				<p-achievements>
-					<p-achievement v-for="achievement of achievementsTabbedFiltered" :key="`achievement-${achievement.id}`">
+					<p-achievement v-for="achievement of achievementsTabbedFiltered" :key="achievement.id">
 						<p-oper-box>
 							<Click v-if="!$profile?.infosAchievementPlayer$id[achievement.id]?.status" oper-button text="完成" :icon="toStatus ? faCheck : faRotateLeft" @dblclick="modifyPlayerAchievementStatus(achievement.id, toStatus)" />
 							<Click v-if="$profile?.infosAchievementPlayer$id[achievement.id]?.status >= 1" oper-button white text="撤回" :icon="toStatus ? faCheck : faRotateLeft" @dblclick="modifyPlayerAchievementStatus(achievement.id, toStatus)" />
@@ -57,10 +55,10 @@
 						<p-title :title="achievement.id">● {{ renderAchievementText(achievement.title, achievement.paramsText) }}</p-title>
 						<p-desc v-html="renderAchievementText(achievement.desc, achievement.paramsText)" />
 						<p-tags>
-							<p-tag v-for="tag of achievement.tags" :key="`achievement-${achievement.id}-tag-${tag}`">{{ tag }}</p-tag>
+							<p-tag v-for="tag of [`系列:${M.seriesAchievement.find(s => s.id == achievement.series)?.name ?? achievement.series}`, ...achievement.tags]" :key="tag">{{ tag }}</p-tag>
 						</p-tags>
 						<p-exclusives v-if="achievement.idsAchievementExclusive?.length">
-							<p-exclusive v-for="id of achievement.idsAchievementExclusive" :key="`achievement-${achievement.id}-exclusive-${id}`"
+							<p-exclusive v-for="id of achievement.idsAchievementExclusive" :key="id"
 								v-html="`【互斥成就】<span class='font-bold mr-1'>${M.achievements.find(achievement => achievement.id == id).title}</span> ${renderAchievementText(
 									M.achievements.find(achievement => achievement.id == id).desc,
 									M.achievements.find(achievement => achievement.id == id).paramsText
@@ -75,7 +73,7 @@
 </template>
 
 <script setup>
-import { computed, onMounted, ref, watch } from 'vue';
+import { computed, onMounted, ref } from 'vue';
 import { faCheck, faRotateLeft, faEye, faEyeSlash } from '@fortawesome/free-solid-svg-icons';
 
 import { tabAdmin } from '@nuogz/vue-sidebar';
@@ -91,14 +89,12 @@ import M from '../lib/meta.js';
 
 const $tab = ref(null);
 onMounted(() => tabAdmin.emitChanged('mounted'));
-tabAdmin.addTabHandle('achievement-manager', $tab, tab => tab.params[0] ? query($idProfile.value = tab.params[0]) : void 0, tabAdmin.sUseHandleInit);
+tabAdmin.addTabHandle('achievement-manager', $tab, tab => tab.params[0] ? query(tab.params[0]) : void 0, tabAdmin.sUseHandleInit);
 
 
 
-const $idProfile = ref('');
 /** @type {import('vue').Ref<import('../profile/admin.js').Profile>} */
 const $profile = ref(null);
-const $optionsProfiles = computed(() => PA.$profiles.value.map(profile => ({ value: profile.id, text: profile.nick })));
 
 
 const $word = ref('');
@@ -121,9 +117,7 @@ const switchSetOptionAll = (set, values) => set.size ? set.clear() : values.forE
 
 
 
-const query = async () => {
-	const idProfile = $idProfile.value;
-
+const query = async idProfile => {
 	if($tab.value) { $tab.value.tipsTitle = `${$tab.value.title} ${idProfile}`; }
 
 	try {
@@ -140,7 +134,6 @@ const query = async () => {
 		$fail('获取成就记录', error);
 	}
 };
-watch($tab, tab => query($idProfile.value = tab.params?.[0] ?? $idProfile.value ?? ''));
 
 
 

@@ -9,7 +9,7 @@
 		<p-main-box>
 			<p-gm-xhr-result class="block mb-4">● GreaseMonkey XMLHttpRequest：{{ hasXHRGM ? '✔ 存在' : '✖ 不存在' }}</p-gm-xhr-result>
 
-			<p-profile v-for="(profile, indexProfile) of $profiles" :key="`profile-${profile.uid || indexProfile}`">
+			<p-profile v-for="(profile, indexProfile) of $profiles" :key="profile.id">
 				<p-info>档案{{ indexProfile + 1 }} &lt;{{ profile.nick }}&gt; {{ profile.id }}</p-info>
 				<p-info>&nbsp;&nbsp;&nbsp;&nbsp;- {{ profile.name }}（{{ profile.uid }}）</p-info>
 				<p-info>&nbsp;&nbsp;&nbsp;&nbsp;- {{ profile.level }}级，均衡{{ profile.levelWorld }}</p-info>
@@ -70,7 +70,7 @@
 			<div class="text-xs mb-4">- 理论上其他分析应用可以通过导入原始数据直接进行分析（如果它们提供导入的话）</div>
 
 			<p-raw-logs-option
-				v-for="key of keysLogsRaw" :key="`key-logs-raw-${key}`"
+				v-for="key of keysLogsRaw" :key="key"
 				:selected="brop(key.selected)"
 				@click="key.selected = !key.selected"
 			>
@@ -95,7 +95,7 @@ import { ulid } from 'ulidx';
 
 import { tabAdmin } from '@nuogz/vue-sidebar';
 import { Click, Texter, Textbox, FileDragger } from '@nuogz/vue-components';
-import { $alert, $fail, $quest, $quest3 } from '@nuogz/vue-alert';
+import { $fail, $quest, $quest3 } from '@nuogz/vue-alert';
 
 import Day from '../lib/day.pure.js';
 

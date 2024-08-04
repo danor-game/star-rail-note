@@ -3,7 +3,7 @@
 		<table>
 			<tr>
 				<td />
-				<td v-for="element of M.elements" element>
+				<td v-for="element of M.elements" :key="element.id" element>
 					<img :src="`./image/element/${element.id}.png`" />
 					<span>{{ element.name }}</span>
 				</td>
@@ -15,7 +15,7 @@
 						<span>{{ path.name }}</span>
 					</p-path>
 				</td>
-				<td v-for="element of M.elements">
+				<td v-for="element of M.elements" :key="element.id">
 					<template v-for="character of characters.filter(c => c.element == element.id && c.path == path.id)" :key="character.id">
 						<p-character :rarity="character.rarity">
 							<img :src="`./image/item/${character.id}.png`" />

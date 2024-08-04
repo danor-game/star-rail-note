@@ -1145,7 +1145,9 @@
 		"rarity": "Mid",
 		"series": 3,
 		"priority": 958,
-		"idsAchievementExclusive": [],
+		"idsAchievementExclusive": [
+			4033403
+		],
 		"tags": [
 			"版本:2.4",
 			"隐藏成就"
@@ -1159,7 +1161,9 @@
 		"rarity": "Mid",
 		"series": 3,
 		"priority": 957,
-		"idsAchievementExclusive": [],
+		"idsAchievementExclusive": [
+			4033402
+		],
 		"tags": [
 			"版本:2.4",
 			"隐藏成就"

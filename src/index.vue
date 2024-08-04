@@ -6,7 +6,7 @@
 	<!-- 主模块 -->
 	<p-main>
 		<keep-alive>
-			<component :is="moduleNow" :key="`module-${moduleNow}`" />
+			<component :is="moduleNow" :key="moduleNow" />
 		</keep-alive>
 	</p-main>
 </template>
