@@ -25,7 +25,7 @@ const init = async () => {
 
 	aegis.alert = $alert;
 
-	await installAlert(app, $alert);
+	await installAlert(app);
 	await installTip(app);
 	await installMenu(app);
 	// await installWocker(app);

@@ -13,31 +13,21 @@
 
 <script setup>
 import { onMounted } from 'vue';
-import { faBook, faStarOfDavid, faTrophy } from '@fortawesome/free-solid-svg-icons';
 
-import { Sidebar, moduleNow, tabAdmin } from '@nuogz/vue-sidebar';
 
-import { PA } from './profile/admin.js';
+import { Sidebar, moduleNow } from '@nuogz/vue-sidebar';
+
 
 import './index.pcss';
 import './index.sass';
+import updateSidebar from './lib/update-sidebar.js';
 
 
 
 document.title = 'DR星铁笔记';
 
 
-onMounted(() => {
-	const idProfileLast = localStorage.getItem('last-profile-id');
-
-	tabAdmin.add('database-character-grid', { type: 'icon|title', title: '角色归属', icon: faBook, delay: true });
-	tabAdmin.add('profile-manager', { type: 'icon|title', title: '档案管理', icon: faBook, delay: Boolean(idProfileLast && PA.$profiles.value.length) });
-
-	for(const profile of PA.profiles) {
-		tabAdmin.add('achievement-manager', { type: 'icon|title', title: '成就管理', icon: faTrophy, delay: profile.id != idProfileLast, group: { id: profile.id, text: profile.nick ?? profile.name } }, profile.id);
-		tabAdmin.add('gacha-analysis', { type: 'icon|title', title: '跃迁分析', icon: faStarOfDavid, delay: profile.id != idProfileLast, group: { id: profile.id, text: profile.nick ?? profile.name } }, profile.id);
-	}
-});
+onMounted(updateSidebar);
 </script>
 
 <style lang="sass" scoped>

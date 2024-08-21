@@ -56,7 +56,7 @@ const props = defineProps({
 	display: { type: String, default: 'main' },
 	/**
 	 * 抽卡分析
-	 * @type {import('../analyseGacha.js').AnalysisByGachaPool}
+	 * @type {import('../analyseGacha.js').GachaPoolAnalysis}
 	 */
 	analysis: { type: Object, default: null },
 	/** 显示四星角色 */

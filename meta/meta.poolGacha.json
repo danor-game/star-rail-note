@@ -1549,6 +1549,94 @@
 		}
 	},
 	{
+		"id": "2039",
+		"type": "11",
+		"timeBorn": 1724212800,
+		"timeDead": 1725865200,
+		"typeItem": "character",
+		"itemsBoost5": [
+			"1218"
+		],
+		"itemsBoost4": [
+			"1109",
+			"1210",
+			"1008"
+		],
+		"versionAdded": "2.4",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "鼎中捭阖"
+			}
+		}
+	},
+	{
+		"id": "3039",
+		"type": "12",
+		"timeBorn": 1724212800,
+		"timeDead": 1725865200,
+		"typeItem": "lightcone",
+		"itemsBoost5": [
+			"23029"
+		],
+		"itemsBoost4": [
+			"21046",
+			"21008",
+			"21012"
+		],
+		"versionAdded": "2.4",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "那无数个春天"
+			}
+		}
+	},
+	{
+		"id": "2040",
+		"type": "11",
+		"timeBorn": 1724212800,
+		"timeDead": 1725865200,
+		"typeItem": "character",
+		"itemsBoost5": [
+			"1306"
+		],
+		"itemsBoost4": [
+			"1109",
+			"1210",
+			"1008"
+		],
+		"versionAdded": "2.4",
+		"rerun": 1,
+		"idLeader": "2039",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "焰锦游鱼"
+			}
+		}
+	},
+	{
+		"id": "3040",
+		"type": "12",
+		"timeBorn": 1724212800,
+		"timeDead": 1725865200,
+		"typeItem": "lightcone",
+		"itemsBoost5": [
+			"23021"
+		],
+		"itemsBoost4": [
+			"21046",
+			"21008",
+			"21012"
+		],
+		"versionAdded": "2.4",
+		"rerun": 1,
+		"idLeader": "3039",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "游戏尘寰"
+			}
+		}
+	},
+	{
 		"id": "2999",
 		"type": "11",
 		"typeItem": "character",

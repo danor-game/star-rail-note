@@ -1,5 +1,17 @@
 <!-- eslint-disable vue/no-v-text-v-html-on-component -->
 <template>
+	<p-fixed-topbar>
+		<!-- <p-tab-button :now="brop($tabNow == 'main')">概览</p-tab-button> -->
+		<p-tab-button
+			v-for="{ achievementsTabbedFiltered, achievementsTabbed, tab, textTab } of infosAchievementTabbed"
+			:key="tab"
+			:now="brop($tabNow == tab)"
+			@click="$tabNow = tab, scrollTo(tab)"
+		>
+			<Icon :icon="faTrophy" style="color:var(--cMain)" /> {{ textTab }} {{ achievementsTabbedFiltered.length }}/{{ achievementsTabbed.length }}
+		</p-tab-button>
+	</p-fixed-topbar>
+
 	<p-fixed-sidebar>
 		<p-split>过滤</p-split>
 		<Texter v-model="$word" item place="搜索" />
@@ -27,17 +39,6 @@
 			/>
 		</p-tag-filter> -->
 	</p-fixed-sidebar>
-	<p-fixed-topbar>
-		<!-- <p-tab-button :now="brop($tabNow == 'main')">概览</p-tab-button> -->
-		<p-tab-button
-			v-for="{ achievementsTabbedFiltered, achievementsTabbed, tab, textTab } of infosAchievementTabbed"
-			:key="tab"
-			:now="brop($tabNow == tab)"
-			@click="$tabNow = tab, scrollTo(tab)"
-		>
-			{{ textTab }} {{ achievementsTabbedFiltered.length }}/{{ achievementsTabbed.length }}
-		</p-tab-button>
-	</p-fixed-topbar>
 
 	<p-main-box>
 		<template v-for="{ achievementsTabbedFiltered, achievementsTabbed, toStatus, tab, textTab } of infosAchievementTabbed" :key="tab">
@@ -74,7 +75,9 @@
 
 <script setup>
 import { computed, onMounted, ref } from 'vue';
-import { faCheck, faRotateLeft, faEye, faEyeSlash } from '@fortawesome/free-solid-svg-icons';
+
+import { FontAwesomeIcon as Icon } from '@fortawesome/vue-fontawesome';
+import { faCheck, faRotateLeft, faEye, faEyeSlash, faTrophy } from '@fortawesome/free-solid-svg-icons';
 
 import { tabAdmin } from '@nuogz/vue-sidebar';
 import { Click, Combo, Texter } from '@nuogz/vue-components';
@@ -82,8 +85,8 @@ import { $fail } from '@nuogz/vue-alert';
 
 import Day from '../lib/day.pure.js';
 
-import { PA, PlayerAchievementInfo } from '../profile/admin.js';
 import M from '../lib/meta.js';
+import { PA, PlayerAchievementInfo } from '../profile/admin.js';
 
 
 
@@ -118,7 +121,7 @@ const switchSetOptionAll = (set, values) => set.size ? set.clear() : values.forE
 
 
 const query = async idProfile => {
-	if($tab.value) { $tab.value.tipsTitle = `${$tab.value.title} ${idProfile}`; }
+	if($tab.value) { $tab.value.tipsTitle = `档案ID: ${idProfile}`; }
 
 	try {
 		const profile = PA.$profiles.value.find(profile => profile.id == idProfile);
@@ -126,7 +129,7 @@ const query = async idProfile => {
 
 		$profile.value = profile;
 
-		if($tab.value) { $tab.value.tipsTitle = `${$tab.value.title} ${profile.uid}`; }
+		if($tab.value) { $tab.value.tipsTitle = `UID: ${profile.uid}`; }
 
 		localStorage.setItem('last-profile-id', profile.id);
 	}
@@ -365,6 +368,13 @@ const $tagsFilter = ref([]);
 
 
 <style lang="sass" scoped>
+p-fixed-topbar
+	@apply block px-2 leading-8 fixed top-0 w-full h-8 z-50 shadow-mdd bg-[var(--cBackSideBar)] whitespace-nowrap cursor-pointer
+	p-tab-button
+		@apply inblock px-2
+		&:hover, &[now]
+			@apply border-b-2 border-[var(--cMain)]
+
 p-fixed-sidebar
 	@apply block p-4 leading-8 fixed top-8 right-0 w-56 h-[calc(100%-var(--spc)*8)] z-50 shadow-mdd bg-[var(--cBackSideBar)] whitespace-nowrap
 
@@ -380,10 +390,18 @@ p-fixed-sidebar
 			@apply text-[var(--cMain)] text-base
 	p-series
 		@apply flex flex-wrap gap-0.5
-		>[option-button]
+		[option-button]
 			@apply flex-1 min-w-max text-sm px-2
 			@apply border border-[var(--cMain)] h-8 lead-b1-8
-
+	p-options
+		@apply flex flex-wrap gap-0
+		[option-button]
+			@apply flex-1 min-w-max text-sm px-2 rounded-none
+			@apply border border-[var(--cMain)] h-8 lead-b1-8
+			&:first-child
+				@apply rounded-l-sm
+			&:last-child
+				@apply rounded-r-sm
 	p-tag-filter
 		p-label
 			@apply inblock
@@ -391,16 +409,9 @@ p-fixed-sidebar
 			@apply inblock mx-1 px-4
 			@apply border-2 border-[var(--cGray)] h-8 lead-b1-8
 
-p-fixed-topbar
-	@apply block px-2 leading-8 fixed top-0 w-full h-8 z-50 shadow-mdd bg-[var(--cBackSideBar)] whitespace-nowrap cursor-pointer
-	p-tab-button
-		@apply inblock px-2
-		&:hover, &[now]
-			@apply border-b-2 border-[var(--cMain)]
-
 p-main-box
-	@apply grid grid-cols-1 gap-2
 	@apply relative p-4 leading-8 top-8
+	@apply grid grid-cols-1 gap-4
 
 	p-box
 		>p-title

@@ -1,5 +1,5 @@
 /** @type {typeof GM_xmlhttpRequest} */
-export const XMLHttpRequestGM = window.XMLHttpRequestGM;
+export const XMLHttpRequestGM = window.GM_xmlhttpRequest;
 
 export const hasXHRGM = typeof XMLHttpRequestGM == 'function';
 

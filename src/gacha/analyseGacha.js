@@ -3,7 +3,7 @@ import M from '../lib/meta.js';
 
 
 /**
- * @typedef {Object} AnalysisByGachaType
+ * @typedef {Object} GachaTypeAnalysis
  * @property {string} id
  * @property {number} order
  * @property {string} name
@@ -16,11 +16,12 @@ import M from '../lib/meta.js';
  */
 
 /**
- * @typedef {Object} AnalysisByGachaPool
+ * @typedef {Object} GachaPoolAnalysis
  * @property {string} id
  * @property {number} order
  * @property {string} name
  * @property {import('../lib/meta.js').GachaPool} pool
+ * @property {string} typePool
  * @property {import('../profile/fetch-log.js').ParsedLog[]} logs
  * @property {import('../profile/fetch-log.js').ParsedLog[]} logs5
  * @property {import('../profile/fetch-log.js').ParsedLog[]} logs4
@@ -31,8 +32,8 @@ import M from '../lib/meta.js';
 
 /**
  * @typedef {Object} Analysis
- * @property {AnalysisByGachaType[]} typesPoolGacha
- * @property {AnalysisByGachaPool[]} pools
+ * @property {GachaTypeAnalysis[]} analysisesTypeGacha
+ * @property {GachaPoolAnalysis[]} pools
  * @property {Object<string, number>} countsInvest$id
  * @property {Object<string, number>} countsInvestPrev$id
  * @property {Object<string, number>} misseds$id
@@ -51,7 +52,7 @@ import M from '../lib/meta.js';
 const analyseGacha = (logs, showCharacter4, showLightcone4) => {
 	/** @type {Analysis} */
 	const A = {
-		typesPoolGacha: [],
+		analysisesTypeGacha: [],
 		pools: [],
 		countsInvest$id: {},
 		countsInvestPrev$id: {},
@@ -85,7 +86,7 @@ const analyseGacha = (logs, showCharacter4, showLightcone4) => {
 			}
 		}
 
-		A.typesPoolGacha.unshift({
+		A.analysisesTypeGacha.unshift({
 			id: typeGacha.id,
 			name: typeGacha.name,
 			order: typeGacha.order,
@@ -151,6 +152,7 @@ const analyseGacha = (logs, showCharacter4, showLightcone4) => {
 			name: pool.name,
 			order: M.poolsGacha.findIndex(poolGacha => poolGacha.id == poolGacha.id),
 			pool,
+			typePool: pool.type,
 
 			logs: logsPoolAll,
 			logs5: logsPoolAll.filter(log => M.items$id[log.item]?.rarity == 5),

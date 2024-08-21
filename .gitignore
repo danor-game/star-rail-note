@@ -1,8 +1,5 @@
 /node_modules
-
 /test/local
 /test/*.local.*
-
 /dist
-
 /script/config.local.json

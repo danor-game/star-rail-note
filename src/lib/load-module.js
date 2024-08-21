@@ -2,52 +2,52 @@ import { $alert } from '@nuogz/vue-alert';
 
 
 
+
 /** @param {import('vue').App} app */
 export async function install(app) {
-	/**
-	 * @param {import('vue').Ref<string>} moduleNow
-	 */
-	const loaderModule = moduleNow =>
-		/**
-		 * @param {string} slot
-		 * @returns {void}
-		 */
-		async slot => {
-			if(app.component(slot)) { return moduleNow.value = slot; }
+	const loadersModule$pathSlot = import.meta.glob(['../*/**/*.vue', '!../lib/**', '!../**/[A-Z]*.vue']);
+
+
+	const loadModule = moduleNow => async slot => {
+		if(app.component(slot)) { return moduleNow.value = slot; }
+
+		const path = String(slot).split('-').join('/');
+		try {
+			let module;
 
 			try {
-				const parts = String(slot).split('-');
+				const loader = loadersModule$pathSlot[`../${path}.vue`];
 
-				try {
-					if(parts.length == 2) { app.component(slot, (await import(`../${parts[0]}/${parts[1]}.vue`)).default); }
-					else if(parts.length == 3) { app.component(slot, (await import(`../${parts[0]}/${parts[1]}/${parts[2]}.vue`)).default); }
-					else if(parts.length == 4) { app.component(slot, (await import(`../${parts[0]}/${parts[1]}/${parts[2]}/${parts[3]}.vue`)).default); }
-					else if(parts.length == 5) { app.component(slot, (await import(`../${parts[0]}/${parts[1]}/${parts[2]}/${parts[3]}/${parts[4]}.vue`)).default); }
-					else { throw TypeError(`模块深度不为[2,3,4,5]: ${slot}`); }
-				}
-				catch(error) {
-					if(!error.message.startsWith('Unknown variable dynamic import')) {
-						$alert(`加载模块失败: ${slot}, ${error.message || error}`, '加载模块失败');
+				if(loader === undefined) { throw Error(`找不到模块`); }
+				else if(typeof loader == 'function') { module = (await loader()); }
+				else if(loader instanceof Promise) { module = (await Promise.resolve(loader)); }
+			}
+			catch(error) {
+				if(error.message != `找不到模块`) { throw error; }
 
-						throw error;
-					}
+				const loader = loadersModule$pathSlot[`../${path}/index.vue`];
+				if(loader === undefined) { throw Error(`找不到模块`); }
+				else if(typeof loader == 'function') { module = (await loader()); }
+				else { module = (await Promise.resolve(loader)); }
+			}
 
-					if(parts.length == 2) { app.component(slot, (await import(`../${parts[0]}/${parts[1]}/index.vue`)).default); }
-					else if(parts.length == 3) { app.component(slot, (await import(`../${parts[0]}/${parts[1]}/${parts[2]}/index.vue`)).default); }
-					else if(parts.length == 4) { app.component(slot, (await import(`../${parts[0]}/${parts[1]}/${parts[2]}/${parts[3]}/index.vue`)).default); }
-					else if(parts.length == 5) { app.component(slot, (await import(`../${parts[0]}/${parts[1]}/${parts[2]}/${parts[3]}/${parts[4]}/index.vue`)).default); }
-					else { throw TypeError(`模块深度不为[2,3,4,5]: ${slot}`); }
-				}
+
+			if(module && 'default' in module) {
+				app.component(slot, module.default);
 
 				moduleNow.value = slot;
 			}
-			catch(error) {
-				$alert(`加载模块失败: ${slot}, ${error.message || error}`, '加载模块失败');
-
-				throw error;
+			else {
+				throw Error('模块为空');
 			}
-		};
+		}
+		catch(error) {
+			$alert(`加载模块[${slot}]失败。原因：${error.message || error}`, '加载模块失败');
+
+			throw error;
+		}
+	};
 
 
-	app.provide('load-module', loaderModule);
+	app.provide('load-module', loadModule);
 }

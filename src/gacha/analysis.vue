@@ -1,16 +1,37 @@
 <template>
+	<p-fixed-topbar>
+		<p-tab-button @click="scrollTo('gacha-summary')"><Icon :icon="faStarOfDavid" style="color:var(--cMain)" /> 总览</p-tab-button>
+		<p-tab-button @click="scrollTo('gacha-type')"><Icon :icon="faStarOfDavid" style="color:var(--cMain)" /> 按跃迁类型概览</p-tab-button>
+		<p-tab-button @click="scrollTo('gacha-type-detail')"><Icon :icon="faStarOfDavid" style="color:var(--cMain)" /> 按跃迁类型</p-tab-button>
+		<p-tab-button @click="scrollTo('gacha-pool-detail')"><Icon :icon="faStarOfDavid" style="color:var(--cMain)" /> 按跃迁活动</p-tab-button>
+	</p-fixed-topbar>
+
 	<p-fixed-sidebar>
-		<Combo v-model="$idProfile" item align="center" align-options="center" :options="$optionsProfiles" @update:model-value="query" />
-		<p-split>过滤</p-split>
-		<Combo v-model="$optionShowRarity4" item place="四星" :options="optionsShowRarity4" @click.right.exact.stop.prevent="$optionShowRarity4 = 'none'" />
-		<Combo v-model="$optionShowDetail" item place="详细" :options="optionsShowDetail" @click.right.exact.stop.prevent="$optionShowDetail = true" />
-		<Combo v-model="$optionShowMatePool" item place="子活动" :options="optionsShowMatePool" @click.right.exact.stop.prevent="$optionShowMatePool = true" />
-		<Combo v-model="$optionShowNewbiePool" item place="新手跃迁" :options="optionsShowNewbiePool" @click.right.exact.stop.prevent="$optionShowNewbiePool = true" />
-		<p-split>跳转</p-split>
-		<p-jump @click="scrollTo('gacha-summary')"><Icon :icon="faParagraph" /> 总览</p-jump>
-		<p-jump @click="scrollTo('gacha-type')"><Icon :icon="faParagraph" /> 按跃迁类型概览</p-jump>
-		<p-jump @click="scrollTo('gacha-type-detail')"><Icon :icon="faParagraph" /> 按跃迁类型</p-jump>
-		<p-jump @click="scrollTo('gacha-pool-detail')"><Icon :icon="faParagraph" /> 按跃迁活动</p-jump>
+		<p-split>四星跃迁</p-split>
+		<p-options>
+			<Click v-for="option of optionsShowRarity4" :key="option.value" option-button
+				:text="option.text" :white="brop($optionShowRarity4 != option.value)" @click="$optionShowRarity4 = option.value" />
+		</p-options>
+		<p-split>跃迁详细</p-split>
+		<p-options>
+			<Click v-for="option of optionsShownHidden" :key="option.value" option-button
+				:text="option.text" :white="brop($optionShowDetail != option.value)" @click="$optionShowDetail = option.value" />
+		</p-options>
+		<p-split>子跃迁活动</p-split>
+		<p-options>
+			<Click v-for="option of optionsShownHidden" :key="option.value" option-button
+				:text="option.text" :white="brop($optionShowMatePool != option.value)" @click="$optionShowMatePool = option.value" />
+		</p-options>
+		<p-split>群星跃迁</p-split>
+		<p-options>
+			<Click v-for="option of optionsShownHidden" :key="option.value" option-button
+				:text="option.text" :white="brop($optionShowPermanentPool != option.value)" @click="$optionShowPermanentPool = option.value" />
+		</p-options>
+		<p-split>新手跃迁</p-split>
+		<p-options>
+			<Click v-for="option of optionsShownHidden" :key="option.value" option-button
+				:text="option.text" :white="brop($optionShowNewbiePool != option.value)" @click="$optionShowNewbiePool = option.value" />
+		</p-options>
 	</p-fixed-sidebar>
 
 	<p-main-box v-if="$profile">
@@ -18,7 +39,7 @@
 			<p-gather-info>
 				● <span value-highlight>{{ $profile.logsParsed.length }}</span> 次抽卡，
 				平均 <span value-highlight>{{
-					(($profile.logsParsed.length - Object.values(A.typesPoolGacha).map(p => p.countInvestNext).reduce((acc, cur) => acc + cur, 0)) / (A.countCharacter5 + A.countLightcone5)).toFixed(2)
+					(($profile.logsParsed.length - Object.values(A.analysisesTypeGacha).map(p => p.countInvestNext).reduce((acc, cur) => acc + cur, 0)) / (A.countCharacter5 + A.countLightcone5)).toFixed(2)
 				}}</span> 抽出金
 			</p-gather-info>
 			<p-gather-info>
@@ -33,11 +54,8 @@
 
 		<p-box gacha-type>
 			<p-title>● 按<span value-highlight-xl>跃迁类型</span>概览</p-title>
-			<p-gathers
-				:col4="brop(!~A.typesPoolGacha.findIndex(a => a.id == 0))"
-				:col5="brop(~A.typesPoolGacha.findIndex(a => a.id == 0))"
-			>
-				<p-gather v-for="analysis of A.typesPoolGacha.filter(a => $optionShowNewbiePool ? true : a.id != 2)" :key="analysis.id">
+			<p-gathers :class="classesGirdColunm[analysisesTypeGachaShown.length]">
+				<p-gather v-for="analysis of analysisesTypeGachaShown" :key="analysis.id">
 					<p-title>{{ analysis.name }}</p-title>
 					<p-info><span value-highlight>{{ analysis.logs.length }}</span> 跃迁</p-info>
 					<p-info><span value-highlight>{{ String(analysis.logs5.length).padStart(2, '&nbsp;') }}</span> 五星</p-info>
@@ -48,10 +66,9 @@
 
 		<p-box gacha-type-detail>
 			<p-title>● 按<span value-highlight-xl>跃迁类型</span></p-title>
-			<p-gathers>
-				<p-gather v-for="analysis of A.typesPoolGacha.filter(a => $optionShowNewbiePool ? true : a.id != 2)" :id="`type-detail-${analysis.id}`" :key="analysis.id"
-					:main2="brop($optionShowNewbiePool && analysis.id > 10)"
-					:main3="brop($optionShowNewbiePool && analysis.id > 10 && ~A.typesPoolGacha.findIndex(a => a.id == 0))"
+			<p-gathers :class="classesGirdColunm[analysisesTypeGachaShown.length > 2 ? 3 : analysisesTypeGachaShown.length]">
+				<p-gather v-for="analysis of analysisesTypeGachaShown" :id="`type-detail-${analysis.id}`" :key="analysis.id"
+					:class="isPoolGachaMain(analysis.id) ? classesRowSpan[analysisesTypeGachaBaseShown.length] : null"
 				>
 					<PoolTitle :analysis="analysis" :shown-character-rarity4="$shownCharacterRarity4" :shown-lightcone-rarity4="$shownLightconeRarity4" :misseds$id="A.misseds$id" />
 
@@ -66,9 +83,7 @@
 		<p-box gacha-pool-detail>
 			<p-title>● 按<span value-highlight-xl>跃迁活动</span></p-title>
 			<p-gathers>
-				<p-gather v-for="analysis of A.pools.filter(a => $optionShowNewbiePool ? true : a.pool.type != 2)" :id="`pool-detail-${analysis.id}`" :key="analysis.id"
-					:main="brop(analysis.pool.type > 10)"
-				>
+				<p-gather v-for="analysis of analysisesPoolGachaShown" :key="analysis.id" :main="brop(isPoolGachaMain(analysis.pool.type))">
 					<PoolTitle :analysis="analysis" :shown-character-rarity4="$shownCharacterRarity4" :shown-lightcone-rarity4="$shownLightconeRarity4" :misseds$id="A.misseds$id" />
 
 					<template v-if="$optionShowMatePool && analysis.poolsSub.length > 1">
@@ -96,60 +111,74 @@
 import { computed, onMounted, ref } from 'vue';
 
 import { FontAwesomeIcon as Icon } from '@fortawesome/vue-fontawesome';
-import { faParagraph } from '@fortawesome/free-solid-svg-icons';
+import { faStarOfDavid } from '@fortawesome/free-solid-svg-icons';
 
 import { tabAdmin } from '@nuogz/vue-sidebar';
-import { Combo } from '@nuogz/vue-components';
+import { Click } from '@nuogz/vue-components';
 import { $fail } from '@nuogz/vue-alert';
 
 import { PA } from '../profile/admin.js';
 
 import analyseGacha from './analyseGacha.js';
 
-import GachaItem from './comp/gacha-item.vue';
-import PoolTitle from './comp/pool-title.vue';
-
+import GachaItem from './comp/GachaItem.vue';
+import PoolTitle from './comp/PoolTitle.vue';
 
 
 
 const $tab = ref(null);
 onMounted(() => tabAdmin.emitChanged('mounted'));
-tabAdmin.addTabHandle('gacha-analysis', $tab, tab => tab.params[0] ? query($idProfile.value = tab.params[0]) : void 0, tabAdmin.sUseHandleInit);
+tabAdmin.addTabHandle('gacha-analysis', $tab, tab => tab.params[0] ? query(tab.params[0]) : void 0, tabAdmin.sUseHandleInit);
 
 
 
-const $idProfile = ref('');
 /** @type {import('vue').Ref<import('../profile/admin.js').Profile>} */
 const $profile = ref(null);
-const $optionsProfiles = computed(() => PA.$profiles.value.map(profile => ({ value: profile.id, text: profile.nick })));
-
 
 
 const $optionShowRarity4 = ref('none');
+const optionsShowRarity4 = [
+	{ value: '-', text: '全部' },
+	{ value: 'character', text: '角色' },
+	{ value: 'lightcone', text: '光锥' },
+	{ value: 'none', text: '隐藏' },
+];
 const $shownCharacterRarity4 = computed(() => $optionShowRarity4.value == '-' || $optionShowRarity4.value == 'character');
 const $shownLightconeRarity4 = computed(() => $optionShowRarity4.value == '-' || $optionShowRarity4.value == 'lightcone');
-const optionsShowRarity4 = [
-	{ value: '-', text: '四星 => 全部' },
-	{ value: 'character', text: '四星 => 角色' },
-	{ value: 'lightcone', text: '四星 => 光锥' },
-	{ value: 'none', text: '四星 => 隐藏' },
-];
 
 
 const $optionShowDetail = ref(true);
 const $optionShowMatePool = ref(true);
+
+
+const classesGirdColunm = [null, `grid-cols-1`, `grid-cols-2`, `grid-cols-3`, `grid-cols-4`, `grid-cols-5`];
+const classesRowSpan = [null, null, `row-span-2`, `row-span-3`];
+
 const $optionShowNewbiePool = ref(true);
+const $optionShowPermanentPool = ref(true);
 const optionsShownHidden = [
 	{ value: true, text: '显示' },
 	{ value: false, text: '隐藏' },
 ];
-const optionsShowDetail = optionsShownHidden.map(({value,text})=> ({value,text:`详细 => ${text}`}));
-const optionsShowMatePool = optionsShownHidden.map(({value,text})=> ({value,text:`子活动 => ${text}`}));
-const optionsShowNewbiePool = optionsShownHidden.map(({value,text})=> ({value,text:`新手跃迁 => ${text}`}));
 
-const query = async () => {
-	const idProfile = $idProfile.value;
 
+const filterPools$options = (array, key) => array.filter(pool => ($optionShowNewbiePool.value || pool[key] != 2) && ($optionShowPermanentPool.value || pool[key] != 1));
+const isPoolGachaMain = id => !['0', '1', '2'].includes(id);
+
+
+const A = computed(() => analyseGacha($profile.value?.logsParsed ?? [], $shownCharacterRarity4.value, $shownLightconeRarity4.value));
+
+/** @type {import('vue').ComputedRef<import('./analyseGacha.js').GachaTypeAnalysis[]>} */
+const analysisesTypeGachaShown = computed(() => filterPools$options(A.value.analysisesTypeGacha, 'id'));
+const analysisesTypeGachaBaseShown = computed(() => analysisesTypeGachaShown.value.filter(a => !isPoolGachaMain(a.id)));
+
+/** @type {import('vue').ComputedRef<import('./analyseGacha.js').GachaPoolAnalysis[]>} */
+const analysisesPoolGachaShown = computed(() => filterPools$options(A.value.pools, 'typePool'));
+
+
+
+const query = async idProfile => {
+	if($tab.value) { $tab.value.tipsTitle = `档案ID: ${idProfile}`; }
 
 	try {
 		const profile = PA.$profiles.value.find(profile => profile.id == idProfile);
@@ -157,7 +186,7 @@ const query = async () => {
 
 		$profile.value = profile;
 
-		if($tab.value) { $tab.value.tipsTitle = `${$tab.value.title} ${profile.uid}`; }
+		if($tab.value) { $tab.value.tipsTitle = `UID: ${profile.uid}`; }
 
 		localStorage.setItem('last-profile-id', profile.id);
 	}
@@ -165,11 +194,6 @@ const query = async () => {
 		$fail('获取抽卡记录', error);
 	}
 };
-
-
-
-const A = computed(() => analyseGacha($profile.value?.logsParsed ?? [], $shownCharacterRarity4.value, $shownLightconeRarity4.value));
-
 
 
 const scrollTo = type => {
@@ -184,8 +208,15 @@ const scrollTo = type => {
 
 
 <style lang="sass" scoped>
+p-fixed-topbar
+	@apply block px-2 leading-8 fixed top-0 w-full h-8 z-50 shadow-mdd bg-[var(--cBackSideBar)] whitespace-nowrap cursor-pointer
+	p-tab-button
+		@apply inblock px-2
+		&:hover, &[now]
+			@apply border-b-2 border-[var(--cMain)]
+
 p-fixed-sidebar
-	@apply block p-4 leading-8 fixed right-0 w-56 h-full z-50 shadow-sm shadow-[var(--cGray,GrayText)] bg-[var(--cBackSideBar)] whitespace-nowrap
+	@apply block p-4 leading-8 fixed top-8 right-0 w-56 h-[calc(100%-var(--spc)*8)] z-50 shadow-mdd bg-[var(--cBackSideBar)] whitespace-nowrap
 
 	>[item]
 		@apply block w-full mr-4 h-8 leading-8 mb-2 text-sm
@@ -197,10 +228,24 @@ p-fixed-sidebar
 		@apply block w-full my-2 text-sm cursor-pointer select-none
 		&:hover
 			@apply text-[var(--cMain)] text-base
+	p-series
+		@apply flex flex-wrap gap-0.5
+		[option-button]
+			@apply flex-1 min-w-max text-sm px-2
+			@apply border border-[var(--cMain)] h-8 lead-b1-8
+	p-options
+		@apply flex flex-wrap gap-0
+		[option-button]
+			@apply flex-1 min-w-max text-sm px-2 rounded-none
+			@apply border border-[var(--cMain)] h-8 lead-b1-8
+			&:first-child
+				@apply rounded-l-sm
+			&:last-child
+				@apply rounded-r-sm
 
 p-main-box
-	@apply grid grid-cols-2 gap-2
-	@apply relative mx-auto p-4 w-full leading-8
+	@apply relative p-4 leading-8 top-8
+	@apply grid grid-cols-1 gap-4
 
 	[value-highlight]
 		@apply font-bold text-2xl text-[var(--cMain)] align-super
@@ -208,20 +253,14 @@ p-main-box
 		@apply font-bold text-xl text-[var(--cMain)]
 
 	p-box[gacha-summary]
-		@apply col-span-full
 		p-gather-info
 			@apply block
 
 	p-box[gacha-type]
-		@apply col-span-2
 		p-title
-			@apply block mb-2
+			@apply block mb-1
 		p-gathers
 			@apply grid gap-[2px] border-2 border-[var(--cGray)] bg-[var(--cGray)] w-[1080px]
-			&[col4]
-				@apply grid-cols-4
-			&[col5]
-				@apply grid-cols-5
 			p-gather
 				@apply inblock p-4 min-w-[10rem] bg-[var(--cBack)] overflow-hidden
 				p-title
@@ -230,27 +269,26 @@ p-main-box
 					@apply block mb-0 mt-2 text-right
 
 	p-box[gacha-type-detail]
-		@apply grid grid-cols-1 gap-2 col-span-2
+		p-title
+			@apply block mb-1
 		p-gathers
-			@apply grid grid-cols-3 gap-[2px] border-2 border-[var(--cGray)] bg-[var(--cGray)] w-[1080px]
-			grid-template-rows: 1fr auto
+			@apply w-[1080px] grid gap-[2px] border-2 border-[var(--cGray)] bg-[var(--cGray)]
 			p-gather
 				@apply bg-[var(--cBack)] overflow-hidden
 				&[main2]
 					@apply row-span-2
 				&[main3]
 					@apply row-span-3
-				p-pool-title
-					@apply mb-1
 				p-gachas
 					@apply block p-4
 					:deep(p-gacha-item)
 						@apply mb-1
 
 	p-box[gacha-pool-detail]
-		@apply grid grid-cols-1 gap-[2px] col-span-2 w-[1080px]
+		p-title
+			@apply block mb-1
 		p-gathers
-			@apply grid grid-cols-2 gap-[2px] border-2 border-[var(--cGray)] bg-[var(--cGray)]
+			@apply w-[1080px] grid grid-cols-2 gap-[2px] border-2 border-[var(--cGray)] bg-[var(--cGray)]
 			p-gather
 				@apply bg-[var(--cBack)] overflow-hidden
 				&:not([main])
