@@ -494,6 +494,19 @@
 		}
 	},
 	{
+		"id": "1220",
+		"element": "Wind",
+		"path": "Rogue",
+		"rarity": 5,
+		"versionAdded": "2.5",
+		"versionAvailable": "2.5",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "飞霄"
+			}
+		}
+	},
+	{
 		"id": "1221",
 		"element": "Physical",
 		"path": "Warrior",
@@ -503,6 +516,32 @@
 		"$data$locale": {
 			"zh-cn": {
 				"name": "云璃"
+			}
+		}
+	},
+	{
+		"id": "1222",
+		"element": "Fire",
+		"path": "Priest",
+		"rarity": 5,
+		"versionAdded": "2.5",
+		"versionAvailable": "2.5",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "灵砂"
+			}
+		}
+	},
+	{
+		"id": "1223",
+		"element": "Thunder",
+		"path": "Rogue",
+		"rarity": 4,
+		"versionAdded": "2.5",
+		"versionAvailable": "2.5",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "貊泽"
 			}
 		}
 	},

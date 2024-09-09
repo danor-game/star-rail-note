@@ -1,29 +1,31 @@
 <template>
 	<module>
 		<table>
-			<tr>
-				<td />
-				<td v-for="element of M.elements" :key="element.id" element>
-					<img :src="`./image/element/${element.id}.png`" />
-					<span>{{ element.name }}</span>
-				</td>
-			</tr>
-			<tr v-for="path of M.paths" :key="path.id">
-				<td path>
-					<p-path>
-						<p-img-box><img :src="`./image/path-single/${path.id}.png`" /></p-img-box>
-						<span>{{ path.name }}</span>
-					</p-path>
-				</td>
-				<td v-for="element of M.elements" :key="element.id">
-					<template v-for="character of characters.filter(c => c.element == element.id && c.path == path.id)" :key="character.id">
-						<p-character :rarity="character.rarity">
-							<img :src="`./image/item/${character.id}.png`" />
-							<span>{{ character.name }}</span>
-						</p-character>
-					</template>
-				</td>
-			</tr>
+			<tbody>
+				<tr>
+					<td />
+					<td v-for="element of M.elements" :key="element.id" element>
+						<img :src="`./image/element/${element.id}.png`" />
+						<span>{{ element.name }}</span>
+					</td>
+				</tr>
+				<tr v-for="path of M.paths" :key="path.id">
+					<td path>
+						<p-path>
+							<p-img-box><img :src="`./image/path-single/${path.id}.png`" /></p-img-box>
+							<span>{{ path.name }}</span>
+						</p-path>
+					</td>
+					<td v-for="element of M.elements" :key="element.id">
+						<template v-for="character of characters.filter(c => c.element == element.id && c.path == path.id)" :key="character.id">
+							<p-character :rarity="character.rarity">
+								<img :src="`./image/item/${character.id}.png`" />
+								<span>{{ character.name }}</span>
+							</p-character>
+						</template>
+					</td>
+				</tr>
+			</tbody>
 		</table>
 	</module>
 </template>
@@ -47,7 +49,7 @@ table
 		@apply inblock h-10 drop-shadow-md
 	td
 		@apply p-2 border-2 border-[var(--cGray)]
-		width: 200px
+		width: 240px
 		&[element]
 			img
 				@apply h-10
@@ -66,7 +68,7 @@ p-path
 	span
 		@apply block w-10 mt-2 text-center text-nowrap leading-5
 p-character
-	@apply block
+	@apply inblock mr-2
 	&:not(:last-child)
 		@apply mb-2
 	&[rarity="5"]

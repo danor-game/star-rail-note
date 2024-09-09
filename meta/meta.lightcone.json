@@ -816,6 +816,18 @@
 		}
 	},
 	{
+		"id": "21047",
+		"path": "Rogue",
+		"rarity": 4,
+		"versionAdded": "2.5",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "黑夜如影随行",
+				"nameEffect": "隐匿"
+			}
+		}
+	},
+	{
 		"id": "22000",
 		"path": "Warlock",
 		"rarity": 4,
@@ -1244,6 +1256,30 @@
 			"zh-cn": {
 				"name": "落日时起舞",
 				"nameEffect": "沉酣"
+			}
+		}
+	},
+	{
+		"id": "23031",
+		"path": "Rogue",
+		"rarity": 5,
+		"versionAdded": "2.5",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "我将，巡征追猎",
+				"nameEffect": "震慑"
+			}
+		}
+	},
+	{
+		"id": "23032",
+		"path": "Priest",
+		"rarity": 5,
+		"versionAdded": "2.5",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "唯有香如故",
+				"nameEffect": "安心"
 			}
 		}
 	},

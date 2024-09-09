@@ -137,5 +137,4 @@ for(let choice of choices
 
 
 
-
 writeFileSync(resolvePath(dir, '../test/local/inclination-texts.txt'), texts.join('\n\n'));

@@ -16,6 +16,28 @@
 		<p-split>过滤</p-split>
 		<Texter v-model="$word" item place="搜索" />
 		<Combo v-model="$optionVersion" item place="版本" :options="optionsVersion" @click.right.exact.stop.prevent="$optionVersion = '-'" />
+		<p-series>
+			<Click
+				option-button :text="optionsVersion[1].value"
+				:white="optionsVersion[1].value != $optionVersion"
+				@click="$optionVersion = optionsVersion[1].value"
+			/>
+			<Click
+				option-button :text="optionsVersion[2].value"
+				:white="optionsVersion[2].value != $optionVersion"
+				@click="$optionVersion = optionsVersion[2].value"
+			/>
+			<Click
+				option-button :text="optionsVersion[3].value"
+				:white="optionsVersion[3].value != $optionVersion"
+				@click="$optionVersion = optionsVersion[3].value"
+			/>
+			<Click
+				option-button :text="optionsVersion[optionsVersion.length - 1].value"
+				:white="optionsVersion[optionsVersion.length - 1].value != $optionVersion"
+				@click="$optionVersion = optionsVersion[optionsVersion.length - 1].value"
+			/>
+		</p-series>
 		<p-split>系列</p-split>
 		<p-series>
 			<Click v-for="series of M.seriesAchievement" :key="series.id"
@@ -78,6 +100,7 @@ import { computed, onMounted, ref } from 'vue';
 
 import { FontAwesomeIcon as Icon } from '@fortawesome/vue-fontawesome';
 import { faCheck, faRotateLeft, faEye, faEyeSlash, faTrophy } from '@fortawesome/free-solid-svg-icons';
+import { match as matchPinyin } from 'pinyin-pro';
 
 import { tabAdmin } from '@nuogz/vue-sidebar';
 import { Click, Combo, Texter } from '@nuogz/vue-components';
@@ -163,7 +186,10 @@ const achievementsShelved = computed(() => M.achievements.filter(achievement => 
  * @param {typeof M.achievements[0]} achievement
  */
 const filterAchievement = achievement => {
-	return (achievement.title.includes($word.value) || achievement.desc.includes($word.value))
+	const word = $word.value?.trim();
+
+	return true
+		&& (!word || matchPinyin(achievement.title, word, { continuous: true }) || matchPinyin(achievement.desc, word, { continuous: true }))
 		&& $setOptionSeries.value.has(achievement.series)
 		&& $tagsFilter.value.filter(tagFilter => achievement.tags.includes(tagFilter)).length == $tagsFilter.value.length
 		&& ($optionVersion.value == '-' || achievement.tags.includes(`版本:${$optionVersion.value}`));

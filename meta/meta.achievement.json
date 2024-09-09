@@ -504,6 +504,22 @@
 		"difficulty": ""
 	},
 	{
+		"id": 4023501,
+		"title": "伴我同行",
+		"desc": "获得#1个随宠",
+		"rarity": "Mid",
+		"series": 2,
+		"paramsText": [
+			1
+		],
+		"priority": 987,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:2.5"
+		],
+		"difficulty": {}
+	},
+	{
 		"id": 4030101,
 		"title": "群星，我的归宿",
 		"desc": "开启浩瀚银河之旅\\n<color=#8790abff>※恭喜！你登上了星穹列车！</color>",
@@ -1226,6 +1242,66 @@
 		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:2.4",
+			"隐藏描述"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4033501,
+		"title": "碧羽飞黄射天狼",
+		"desc": "锋镝落定，狞兽敛爪，猎人收弓\\n<color=#8790abff>※ 平息「演武仪典」的风波</color>",
+		"rarity": "Mid",
+		"series": 3,
+		"descHide": "锋镝落定，狞兽敛爪，猎人收弓",
+		"priority": 952,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:2.5",
+			"隐藏描述"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4033502,
+		"title": "古海潮落",
+		"desc": "逆潮而行，兴风作浪，逃不过被浪涛吞没的时刻来临…\\n<color=#8790abff>※ 令龙师伏法</color>",
+		"rarity": "Mid",
+		"series": 3,
+		"descHide": "逆潮而行，兴风作浪，逃不过被浪涛吞没的时刻来临…",
+		"priority": 951,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:2.5",
+			"隐藏描述"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4033503,
+		"title": "猎人的归处",
+		"desc": "我的敌人，永远只有我自己\\n<color=#8790abff>※ 唤醒坠入狂怒的飞霄</color>",
+		"rarity": "Mid",
+		"series": 3,
+		"descHide": "我的敌人，永远只有我自己",
+		"priority": 950,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:2.5",
+			"隐藏描述"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4033504,
+		"title": "久砺霜锋须一试",
+		"desc": "七百年，能改变许多事情…\\n<color=#8790abff>※ 见证呼雷落败</color>",
+		"rarity": "Mid",
+		"series": 3,
+		"descHide": "七百年，能改变许多事情…",
+		"priority": 949,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:2.5",
 			"隐藏描述"
 		],
 		"difficulty": {}
@@ -2633,6 +2709,49 @@
 		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:2.4",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4043501,
+		"title": "云之彼端，约定之地",
+		"desc": "在竞锋舰上，首次完成「引航罗盘」",
+		"rarity": "Low",
+		"series": 4,
+		"priority": 889,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:2.5"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4043502,
+		"title": "神之一手",
+		"desc": "在竞锋舰，累计获得#1次「寻径指津」奖励",
+		"rarity": "Low",
+		"series": 4,
+		"paramsText": [
+			15
+		],
+		"priority": 888,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:2.5"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4043503,
+		"title": "舟摇星动紫罗中",
+		"desc": "在竞锋舰上，通过机巧鸟进入泊船区深处",
+		"rarity": "Low",
+		"series": 4,
+		"priority": 887,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:2.5",
 			"隐藏成就"
 		],
 		"difficulty": {}
@@ -6808,7 +6927,7 @@
 	{
 		"id": 4053315,
 		"title": "王下十八桶",
-		"desc": "在{TEXTJOIN#87}上完成试炼之桶的全部挑战",
+		"desc": "在匹诺康尼完成试炼之桶的全部挑战",
 		"rarity": "Low",
 		"series": 5,
 		"priority": 701,
@@ -7291,6 +7410,314 @@
 		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:2.4",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053501,
+		"title": "不要熄灭熏燃的火焰",
+		"desc": "即使喝彩停息，无声者的声音也不会消逝\\n<color=#8790abff>※ 协助卢卡走上竞锋守擂的舞台</color>",
+		"rarity": "Mid",
+		"series": 5,
+		"descHide": "即使喝彩停息，无声者的声音也不会消逝",
+		"priority": 665,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:2.5",
+			"隐藏描述"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053502,
+		"title": "边缘决胜者",
+		"desc": "协助卢卡赢得「星天演武仪典」的全部叩关赛",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 664,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:2.5"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053503,
+		"title": "拳愿非天",
+		"desc": "以往你总是亲自上阵战斗，也该试试做「幕后黑手」了\\n<color=#8790abff>※ 成为卢卡的教练</color>",
+		"rarity": "Low",
+		"series": 5,
+		"descHide": "以往你总是亲自上阵战斗，也该试试做「幕后黑手」了",
+		"priority": 663,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:2.5",
+			"隐藏描述"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053504,
+		"title": "目标是演武大师",
+		"desc": "在「星天演武仪典」中，掌握全部战术",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 662,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:2.5"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053505,
+		"title": "梦中的斗士与公牛",
+		"desc": "在「星天演武仪典」中，完成梦境训练的所有挑战",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 661,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:2.5"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053506,
+		"title": "骑士亦可败于徒手",
+		"desc": "使用我方角色卢卡在「星天演武仪典」中，对战银枝时获得胜利",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 660,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:2.5"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053507,
+		"title": "Lineal Champion",
+		"desc": "使用我方角色卢卡在「星天演武仪典」中，对战彦卿时获得胜利",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 659,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:2.5"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053508,
+		"title": "今日方知我是我",
+		"desc": "见证有情生命最伟大的力量——选择「善」的力量\\n<color=#8790abff>※ 在演武仪典遇到丹轮寺的僧侣</color>",
+		"rarity": "Low",
+		"series": 5,
+		"descHide": "见证有情生命最伟大的力量——选择「善」的力量",
+		"priority": 658,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:2.5",
+			"隐藏描述"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053509,
+		"title": "后真相时代",
+		"desc": "在演武仪典的擂台下，直面一场舆论风波\\n<color=#8790abff>※ 协助卢卡战胜铄金的「盘外招」</color>",
+		"rarity": "Low",
+		"series": 5,
+		"descHide": "在演武仪典的擂台下，直面一场舆论风波",
+		"priority": 657,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:2.5",
+			"隐藏描述"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053510,
+		"title": "终不似，少年游",
+		"desc": "在贝洛伯格历史博物馆，见证一段来自仙舟的旧忆\\n<color=#8790abff>※ 人生自古谁无死？留取丹心照汗青。</color>",
+		"rarity": "Low",
+		"series": 5,
+		"descHide": "在贝洛伯格历史博物馆，见证一段来自仙舟的旧忆",
+		"priority": 656,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:2.5",
+			"隐藏描述"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053511,
+		"title": "新闻女王",
+		"desc": "在「即使喝彩停息」中，每次赛后采访都选择卡美丽提问",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 655,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:2.5",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053512,
+		"title": "今日无闻",
+		"desc": "在「即使喝彩停息」中，有任意一次赛后采访没有选择卡美丽提问",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 654,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:2.5",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053513,
+		"title": "一根藤上七朵花",
+		"desc": "在竞锋舰上，见证7个身怀绝技的孙辈营救老者",
+		"rarity": "Low",
+		"series": 5,
+		"paramsText": [
+			7
+		],
+		"priority": 653,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:2.5",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053514,
+		"title": "演武仪典二十一响",
+		"desc": "在竞锋舰上，帮助老白与仁科完成心愿",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 652,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:2.5",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053515,
+		"title": "潜龙谍影",
+		"desc": "在竞锋舰上，将自己伪装成行李，并成功通过传送带",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 651,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:2.5",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053516,
+		"title": "只是一介路过的武术教练",
+		"desc": "在竞锋舰上，指导正在候场练习的武者完成训练",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 650,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:2.5",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053517,
+		"title": "行于黑暗，侍奉光明",
+		"desc": "在竞锋舰上，通过机巧鸟找到潜藏在阴影中的身影",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 649,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:2.5",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053518,
+		"title": "一壶浊酒尽余欢",
+		"desc": "在冒险任务「长亭外，古道边」中，为仙舟贵客送行，并迎接出差归来的符玄",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 648,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:2.5"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053519,
+		"title": "空中营救",
+		"desc": "在竞锋舰上，经历一次想象中的舰船遇难事件",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 647,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:2.5",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053520,
+		"title": "余料建造",
+		"desc": "在竞锋舰上，开发玩具飞剑的无穷潜力",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 646,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:2.5"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053521,
+		"title": "可供交易的崇高客体",
+		"desc": "用金钱换道德…这道德吗？",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 645,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:2.5"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053522,
+		"title": "抛开世事断愁怨",
+		"desc": "向北丐展示南帝的结局",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 644,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:2.5",
 			"隐藏成就"
 		],
 		"difficulty": {}
@@ -10320,6 +10747,166 @@
 		"difficulty": {}
 	},
 	{
+		"id": 4073501,
+		"title": "暴风雨停息之时…",
+		"desc": "在和「飞霄」之影的战斗中，蚀月心兽的所有部位均未释放过强化行动",
+		"rarity": "Low",
+		"series": 7,
+		"priority": 832,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:2.5"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4073502,
+		"title": "炸毛了嘛？",
+		"desc": "在和「飞霄」之影的战斗中，「飞霄」之影释放【风胄雷鞮】，并在【风胄雷鞮】蓄力期间将蚀月心兽所有部位的弱点击破",
+		"rarity": "Low",
+		"series": 7,
+		"priority": 831,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:2.5"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4073503,
+		"title": "演武仪典：百兵试",
+		"desc": "使用我方角色飞霄对战彦卿时完成制胜一击",
+		"rarity": "Low",
+		"series": 7,
+		"priority": 830,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:2.5",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4073504,
+		"title": "青丘行军",
+		"desc": "使用同时包含飞霄、椒丘、貊泽的队伍获得<unbreak>#1[i]</unbreak>场战斗的胜利",
+		"rarity": "Low",
+		"series": 7,
+		"paramsText": [
+			1
+		],
+		"priority": 829,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:2.5",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4073505,
+		"title": "针尖对麦芒",
+		"desc": "同一场战斗中触发椒丘「回合开始•二」语音和景元「回合待机」语音",
+		"rarity": "Low",
+		"series": 7,
+		"priority": 828,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:2.5",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4073506,
+		"title": "孤狼独啸",
+		"desc": "呼雷触发月狂状态时，场上没有任何其他狼卒敌人",
+		"rarity": "Low",
+		"series": 7,
+		"priority": 827,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:2.5"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4073507,
+		"title": "蔽月休华",
+		"desc": "月狂持续期间内，呼雷没有施放过【贪狼逐驰，血色临照】",
+		"rarity": "Low",
+		"series": 7,
+		"priority": 826,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:2.5"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4073508,
+		"title": "全兵戈狂潮！",
+		"desc": "单场战斗中，使用飞霄施放终结技，发动第#1次【闪裂刃舞】或【钺贯天冲】时，使目标生命值降低至0",
+		"rarity": "Low",
+		"series": 7,
+		"paramsText": [
+			6
+		],
+		"priority": 825,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:2.5",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4073509,
+		"title": "棉花糖兔子",
+		"desc": "使用灵砂在单场战斗中保持【浮元】在场直到战斗胜利",
+		"rarity": "Low",
+		"series": 7,
+		"priority": 824,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:2.5",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4073510,
+		"title": "兵不血刃",
+		"desc": "单场战斗中，在貊泽没有触发天赋追加攻击的情况下，获得战斗胜利",
+		"rarity": "Low",
+		"series": 7,
+		"priority": 823,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:2.5",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4073511,
+		"title": "我即风暴",
+		"desc": "使用飞霄秘技，连续吸引#1个以上的敌人超过#2秒以上",
+		"rarity": "Low",
+		"series": 7,
+		"paramsText": [
+			5,
+			30
+		],
+		"priority": 822,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:2.5",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
 		"id": 4080101,
 		"title": "地球周",
 		"desc": "连续登录<unbreak>#1[i]</unbreak>天",
@@ -11270,6 +11857,20 @@
 		],
 		"tags": [
 			"版本:2.3",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4083501,
+		"title": "帮帮我，大师兄！",
+		"desc": "三月七•巡猎使某个角色成为「师父」后，「师父」被史瓦罗的机械手控制",
+		"rarity": "Low",
+		"series": 8,
+		"priority": 920,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:2.5",
 			"隐藏成就"
 		],
 		"difficulty": {}
