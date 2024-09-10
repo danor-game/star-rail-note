@@ -16,9 +16,9 @@
 	</p-gacha-item>
 
 	<p-gacha-item v-if="props.type == 'log' && log">
-		<p-header ref="domGachaItemHeader"><img :src="`./image/item/${props.log.item}.png`" /></p-header>
-		<p-name :rarity="rarityNow">{{ itemNow?.name }}</p-name>
-		<p-progress v-if="rarityNow == 5">
+		<p-header ref="$domGachaItemHeader"><img :src="`./image/item/${props.log.item}.png`" /></p-header>
+		<p-name :rarity="$rarityNow">{{ $itemNow?.name }}</p-name>
+		<p-progress v-if="$rarityNow == 5">
 			<p-progress-text v-if="props.a?.countsInvest$id[props.log.id] && props.a?.countsInvestPrev$id[props.log.id]">
 				<span count>{{ String(props.a?.countsInvest$id[props.log.id]).padStart(2, '&nbsp;') }}</span>
 				<span count-sm class="ml-1">{{ props.a?.countsInvestPrev$id[props.log.id] }}+{{ props.a?.countsInvest$id[props.log.id] - props.a?.countsInvestPrev$id[props.log.id] }}</span>
@@ -44,17 +44,18 @@
 		</p-progress>
 	</p-gacha-item>
 
-	<p-tips-item v-if="props.type == 'log' && log" ref="domTipsItem">
-		<img :src="`./image/item/${itemNow.id}.png`" />
-		<p-info>{{ itemNow.name }} {{ M.paths$id[itemNow.path]?.name }} {{ M.elements$id[itemNow.element]?.name }}</p-info>
-	</p-tips-item>
+	<p-tips v-if="props.type == 'log' && log" ref="$domTips">
+		<img splash :src="`./image/item/${$itemNow.id}.png`" />
+		<p-info title> {{ $itemNow.name }}</p-info>
+		<p-info v-if="$itemNow.element" sub>○ 属性：{{ M.elements$id[$itemNow.element]?.name }}</p-info>
+		<p-info sub>○ 命途：{{ M.paths$id[$itemNow.path]?.name }}</p-info>
+	</p-tips>
 </template>
 
 <script setup>
 import { computed, onMounted, onUnmounted, ref } from 'vue';
 
 import Tippy from 'tippy.js';
-import '@nuogz/vue-tip/src/index.css';
 
 import M from '../../lib/meta.js';
 
@@ -86,20 +87,20 @@ const textInvest$type = {
 };
 
 
-const itemNow = computed(() => M.items$id[props.log?.item]);
-const rarityNow = computed(() => itemNow.value?.rarity);
+const $itemNow = computed(() => M.items$id[props.log?.item]);
+const $rarityNow = computed(() => $itemNow.value?.rarity);
 
 
-const domGachaItemHeader = ref(null);
-const domTipsItem = ref(null);
+const $domGachaItemHeader = ref(null);
+const $domTips = ref(null);
 /** @type {import('vue').Ref<import('tippy.js').Instance} */
 const tippyTipsItem = ref(null);
 onMounted(() => {
-	if(domGachaItemHeader.value) {
-		tippyTipsItem.value = Tippy(domGachaItemHeader.value, {
+	if($domGachaItemHeader.value) {
+		tippyTipsItem.value = Tippy($domGachaItemHeader.value, {
 			theme: 'nob',
 			placement: 'bottom-start',
-			content: domTipsItem.value,
+			content: $domTips.value,
 			allowHTML: true,
 			interactive: true,
 			animation: '',
@@ -137,7 +138,7 @@ p-gacha-item
 		@apply inblock relative w-10 h-10 float-left
 		&[_unknown]
 			@apply text-2xl leading-10 text-center
-			@apply rounded-full border-2 leading-9 border-[var(--TextBack)] border-transparent
+			@apply rounded-full border-2 leading-9 border-transparent
 		img
 			@apply w-auto h-10 m-auto
 
@@ -173,11 +174,15 @@ p-gacha-item
 			@apply float-right z-10 relative top-0.5 right-2 w-7 h-7 border-2 border-red-700 border-transparent rounded-full
 			@apply text-red-700 text-base leading-6 text-center align-middle
 
-p-tips-item
+p-tips
 	@apply block rounded-sm shadow-mdd px-4 py-2 bg-[var(--cMain)] border-4
 	border-color: color-mix(in srgb, var(--cMain) 90%, black)
-	img
-		@apply block w-[128px]
+	[splash]
+		@apply block w-[128px] mb-2
 	p-info
-		@apply block whitespace-nowrap text-[var(--cTextMain)]
+		@apply block leading-8 whitespace-nowrap text-[var(--cTextMain)]
+		&[title]
+			@apply font-bold
+		&[sub]
+			@apply ml-2
 </style>

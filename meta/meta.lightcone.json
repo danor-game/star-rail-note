@@ -1263,6 +1263,7 @@
 		"id": "23031",
 		"path": "Rogue",
 		"rarity": 5,
+		"characterBest": "1220",
 		"versionAdded": "2.5",
 		"$data$locale": {
 			"zh-cn": {
@@ -1275,6 +1276,7 @@
 		"id": "23032",
 		"path": "Priest",
 		"rarity": 5,
+		"characterBest": "1222",
 		"versionAdded": "2.5",
 		"$data$locale": {
 			"zh-cn": {

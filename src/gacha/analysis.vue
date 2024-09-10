@@ -84,16 +84,18 @@
 			<p-title>● 按<span value-highlight-xl>跃迁活动</span></p-title>
 			<p-gathers>
 				<p-gather v-for="analysis of analysisesPoolGachaShown" :key="analysis.id" :main="brop(isPoolGachaMain(analysis.pool.type))">
-					<PoolTitle :analysis="analysis" :shown-character-rarity4="$shownCharacterRarity4" :shown-lightcone-rarity4="$shownLightconeRarity4" :misseds$id="A.misseds$id" />
+					<PoolTitle :analysis="analysis"
+						:shown-character-rarity4="$shownCharacterRarity4"
+						:shown-lightcone-rarity4="$shownLightconeRarity4"
+						:misseds$id="A.misseds$id" />
 
 					<template v-if="$optionShowMatePool && analysis.poolsSub.length > 1">
-						<PoolTitle v-for="analysisSub of analysis.poolsSub" :key="analysisSub.id"
-							display="sub"
+						<PoolTitleSub v-for="analysisSub of analysis.poolsSub" :key="analysisSub.id"
 							:analysis="analysisSub"
+							:analysis-lead="analysis"
 							:shown-character-rarity4="$shownCharacterRarity4"
 							:shown-lightcone-rarity4="$shownLightconeRarity4"
-							:misseds$id="A.misseds$id"
-						/>
+							:misseds$id="A.misseds$id" />
 					</template>
 
 					<p-gachas v-if="$optionShowDetail">
@@ -123,6 +125,7 @@ import analyseGacha from './analyseGacha.js';
 
 import GachaItem from './comp/GachaItem.vue';
 import PoolTitle from './comp/PoolTitle.vue';
+import PoolTitleSub from './comp/PoolTitleSub.vue';
 
 
 
