@@ -82,9 +82,10 @@ const $shownRarity4Typed = computed(() => (props.shownCharacterRarity4 && $isCha
 
 const $itemsBoost5 = computed(() => $pool.value.itemsBoost5 ?? []);
 const $itemsBoost4 = computed(() => $shownRarity4Typed.value ? $pool.value.itemsBoost4 ?? [] : []);
-const $logs = computed(() => $pool.value.logs ?? []);
-const $logs5 = computed(() => $pool.value.logs5 ?? []);
-const $logs4 = computed(() => $shownRarity4Typed.value ? $pool.value.logs4 ?? [] : []);
+
+const $logs = computed(() => props.analysis.logs ?? []);
+const $logs5 = computed(() => props.analysis.logs5 ?? []);
+const $logs4 = computed(() => $shownRarity4Typed.value ? props.analysis.logs4 ?? [] : []);
 
 const $textRangeTimePool = computed(() =>
 	$pool.value.timeDead
