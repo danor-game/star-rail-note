@@ -1809,6 +1809,94 @@
 		}
 	},
 	{
+		"id": "2045",
+		"type": "11",
+		"timeBorn": 1727841600,
+		"timeDead": 1729580400,
+		"typeItem": "character",
+		"itemsBoost5": [
+			"1222"
+		],
+		"itemsBoost4": [
+			"1312",
+			"1105",
+			"1210"
+		],
+		"versionAdded": "2.6",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "卧香沉水"
+			}
+		}
+	},
+	{
+		"id": "3045",
+		"type": "12",
+		"timeBorn": 1727841600,
+		"timeDead": 1729580400,
+		"typeItem": "lightcone",
+		"itemsBoost5": [
+			"23032"
+		],
+		"itemsBoost4": [
+			"21047",
+			"21007",
+			"21011"
+		],
+		"versionAdded": "2.6",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "流光定影"
+			}
+		}
+	},
+	{
+		"id": "2046",
+		"type": "11",
+		"timeBorn": 1727841600,
+		"timeDead": 1729580400,
+		"typeItem": "character",
+		"itemsBoost5": [
+			"1112"
+		],
+		"itemsBoost4": [
+			"1312",
+			"1105",
+			"1210"
+		],
+		"versionAdded": "2.6",
+		"rerun": 2,
+		"idLeader": "2045",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "落日条款"
+			}
+		}
+	},
+	{
+		"id": "3046",
+		"type": "12",
+		"timeBorn": 1727841600,
+		"timeDead": 1729580400,
+		"typeItem": "lightcone",
+		"itemsBoost5": [
+			"23016"
+		],
+		"itemsBoost4": [
+			"21047",
+			"21007",
+			"21011"
+		],
+		"versionAdded": "2.6",
+		"rerun": 2,
+		"idLeader": "3045",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "溯回忆象"
+			}
+		}
+	},
+	{
 		"id": "2999",
 		"type": "11",
 		"typeItem": "character",

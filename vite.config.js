@@ -31,6 +31,13 @@ export default defineConfig(({ mode }) => {
 			chunkSizeWarningLimit: 1024,
 			minify: true
 		},
+		css: {
+			preprocessorOptions: {
+				sass: {
+					api: 'modern-compiler'
+				}
+			}
+		},
 		optimizeDeps: {
 			esbuildOptions: { target: 'esnext' }
 		},

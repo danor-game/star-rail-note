@@ -7561,7 +7561,9 @@
 		"rarity": "Low",
 		"series": 5,
 		"priority": 655,
-		"idsAchievementExclusive": [],
+		"idsAchievementExclusive": [
+			4053512
+		],
 		"tags": [
 			"版本:2.5",
 			"隐藏成就"
@@ -7575,7 +7577,9 @@
 		"rarity": "Low",
 		"series": 5,
 		"priority": 654,
-		"idsAchievementExclusive": [],
+		"idsAchievementExclusive": [
+			4053511
+		],
 		"tags": [
 			"版本:2.5",
 			"隐藏成就"

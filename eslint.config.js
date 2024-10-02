@@ -1,7 +1,7 @@
 /**
  * @file @nuogz/common-eslint-config
  * @author DanoR
- * @version 5.2.1 2024.08.13 14
+ * @version 5.2.2 2024.09.03 17
  * @requires globals
  * @requires @eslint/js
  * @requires @stylistic/eslint-plugin-js
