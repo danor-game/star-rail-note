@@ -1307,6 +1307,223 @@
 		"difficulty": {}
 	},
 	{
+		"id": 4033601,
+		"title": "壮绝•狩猎•终了",
+		"desc": "灭却末法•劫火，完成壮绝•狩猎，此事在《银河忍法帖》中亦有记载\\n※ 击败「奇想林中的蕉研组」",
+		"rarity": "Mid",
+		"series": 3,
+		"descHide": "灭却末法•劫火，完成壮绝•狩猎，此事在《银河忍法帖》中亦有记载",
+		"priority": 948,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:2.6",
+			"隐藏描述"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4033602,
+		"title": "蕉个朋友!",
+		"desc": "蕉？蕉蕉，蕉蕉蕉蕉！\\n※ 第一次见到「睡蕉小猴」",
+		"rarity": "Mid",
+		"series": 3,
+		"descHide": "蕉？蕉蕉，蕉蕉蕉蕉！",
+		"priority": 947,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:2.6",
+			"隐藏描述"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4033603,
+		"title": "建筑师之腹",
+		"desc": "这点苦都受不了，干别的肯定也不行\\n※成为筑梦学院的学生",
+		"rarity": "Mid",
+		"series": 3,
+		"descHide": "这点苦都受不了，干别的肯定也不行",
+		"priority": 946,
+		"idsAchievementExclusive": [
+			4033604,
+			4033605
+		],
+		"tags": [
+			"版本:2.6",
+			"隐藏描述"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4033604,
+		"title": "歌舞青春",
+		"desc": "跟组品尝十二梦境菜式盒饭，上镜收集斯坦威游隼碎片\\n※成为谐乐学院的学生",
+		"rarity": "Mid",
+		"series": 3,
+		"descHide": "跟组品尝十二梦境菜式盒饭，上镜收集斯坦威游隼碎片",
+		"priority": 945,
+		"idsAchievementExclusive": [
+			4033603,
+			4033605
+		],
+		"tags": [
+			"版本:2.6",
+			"隐藏描述"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4033605,
+		"title": "雅皮士之梦",
+		"desc": "上午做下SWOT，下午补个PEST，晚上启动吃瓜PPT\\n※成为财富学院的学生",
+		"rarity": "Mid",
+		"series": 3,
+		"descHide": "上午做下SWOT，下午补个PEST，晚上启动吃瓜PPT",
+		"priority": 944,
+		"idsAchievementExclusive": [
+			4033603,
+			4033604
+		],
+		"tags": [
+			"版本:2.6",
+			"隐藏描述"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4033606,
+		"title": "绳索与棍棒",
+		"desc": "世界上有两种人，一种不讲道理，一种喜欢放屁\\n※波提欧视角下，用抢来的证件加入睡蕉社",
+		"rarity": "Mid",
+		"series": 3,
+		"descHide": "世界上有两种人，一种不讲道理，一种喜欢放屁",
+		"priority": 943,
+		"idsAchievementExclusive": [
+			4033607
+		],
+		"tags": [
+			"版本:2.6",
+			"隐藏描述"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4033607,
+		"title": "没有「人」比我更懂睡蕉",
+		"desc": "世界上有两种枪手，一种知道怎么开枪，一种知道怎么不开枪\\n※波提欧视角下，通过测验加入睡蕉社",
+		"rarity": "Mid",
+		"series": 3,
+		"descHide": "世界上有两种枪手，一种知道怎么开枪，一种知道怎么不开枪",
+		"priority": 942,
+		"idsAchievementExclusive": [
+			4033606
+		],
+		"tags": [
+			"版本:2.6",
+			"隐藏描述"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4033608,
+		"title": "蕉学事故",
+		"desc": "哟，想让我尊重你，你得先学会尊重别人\\n※第一次击败学校中的「蕉师」",
+		"rarity": "Mid",
+		"series": 3,
+		"descHide": "哟，想让我尊重你，你得先学会尊重别人",
+		"priority": 941,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:2.6",
+			"隐藏描述"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4033609,
+		"title": "我的朋友波提欧",
+		"desc": "猿猴崇尚野蛮，也将以野蛮的方式死去\\n※波提欧视角下，击败扰乱流梦礁的「助蕉」",
+		"rarity": "Mid",
+		"series": 3,
+		"descHide": "猿猴崇尚野蛮，也将以野蛮的方式死去",
+		"priority": 940,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:2.6",
+			"隐藏描述"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4033610,
+		"title": "侠忍•前尘",
+		"desc": "窥探忍界•暗面的真实，扫却缭乱•忍侠旧忆上的落尘•蛛丝\\n※见证乱破的前尘•影事",
+		"rarity": "Mid",
+		"series": 3,
+		"descHide": "窥探忍界•暗面的真实，扫却缭乱•忍侠旧忆上的落尘•蛛丝",
+		"priority": 939,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:2.6",
+			"隐藏描述"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4033611,
+		"title": "邪祟•惊觉",
+		"desc": "实际慈悲，此战有如大药师神向病危的邪祟垂下易断的蛛丝，点到•为止\\n※在「睡蕉的时刻」中，击败少量「睡蕉小猴」",
+		"rarity": "Mid",
+		"series": 3,
+		"descHide": "实际慈悲，此战有如大药师神向病危的邪祟垂下易断的蛛丝，点到•为止",
+		"priority": 938,
+		"idsAchievementExclusive": [
+			4033612,
+			4033613
+		],
+		"tags": [
+			"版本:2.6",
+			"隐藏描述"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4033612,
+		"title": "邪祟•破除",
+		"desc": "实际无情，此战有如大拏怒苛神的怒目邪火般吞噬了诸般邪祟，风卷•残云\\n※在「睡蕉的时刻」中，击败许多「睡蕉小猴」",
+		"rarity": "Mid",
+		"series": 3,
+		"descHide": "实际无情，此战有如大拏怒苛神的怒目邪火般吞噬了诸般邪祟，风卷•残云",
+		"priority": 937,
+		"idsAchievementExclusive": [
+			4033611,
+			4033613
+		],
+		"tags": [
+			"版本:2.6",
+			"隐藏描述"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4033613,
+		"title": "邪祟•无踪",
+		"desc": "实际可怖，此战有如大岚神亲手向邪祟掷出了万亿忍•神•光矢，净除•殆尽\\n※在「睡蕉的时刻」中，击败大量「睡蕉小猴」",
+		"rarity": "Mid",
+		"series": 3,
+		"descHide": "实际可怖，此战有如大岚神亲手向邪祟掷出了万亿忍•神•光矢，净除•殆尽",
+		"priority": 936,
+		"idsAchievementExclusive": [
+			4033611,
+			4033612
+		],
+		"tags": [
+			"版本:2.6",
+			"隐藏描述"
+		],
+		"difficulty": {}
+	},
+	{
 		"id": 4040101,
 		"title": "角色扮演游戏里合法",
 		"desc": "开启<unbreak>#1[i]</unbreak>次空间站「黑塔」战利品",
@@ -2752,6 +2969,34 @@
 		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:2.5",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4043601,
+		"title": "气球永不落幕",
+		"desc": "打破折纸大学所有特殊石头老板气球",
+		"rarity": "Low",
+		"series": 4,
+		"priority": 886,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:2.6",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4043602,
+		"title": "再见，折纸鸟！",
+		"desc": "帮助全部折纸小鸟回到「大树」和「学堂」",
+		"rarity": "Mid",
+		"series": 4,
+		"priority": 885,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:2.6",
 			"隐藏成就"
 		],
 		"difficulty": {}
@@ -7727,6 +7972,373 @@
 		"difficulty": {}
 	},
 	{
+		"id": 4053601,
+		"title": "周日夜现场",
+		"desc": "找齐三位「不太一样」的梦境迷钟，并与它们共聚留念",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 643,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:2.6",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053602,
+		"title": "欢迎来到学术自由主义教室",
+		"desc": "在折纸大学旁听#1堂专业课",
+		"rarity": "Low",
+		"series": 5,
+		"paramsText": [
+			3
+		],
+		"priority": 642,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:2.6",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053603,
+		"title": "再见酒瓶",
+		"desc": "帮助电影部成员完成影片拍摄",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 641,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:2.6",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053604,
+		"title": "善恶终有报",
+		"desc": "再次遇见拍卖你签名照的皮皮西学生",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 640,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:2.6",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053605,
+		"title": "好大的气球",
+		"desc": "仰望中央舞台上方的大鸟气球",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 639,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:2.6",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053606,
+		"title": "已老实…？",
+		"desc": "与在走廊罚站的学生交谈",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 638,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:2.6",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053607,
+		"title": "折纸浩室",
+		"desc": "发现跟随舞台音乐唱歌的折纸小鸟",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 637,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:2.6",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053608,
+		"title": "毕业联络簿",
+		"desc": "帮助所有需要撰写年鉴的同学，并留下你的评语",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 636,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:2.6",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053610,
+		"title": "笔自己画画！",
+		"desc": "在涂鸦墙上再次留下属于你的涂鸦",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 635,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:2.6",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053611,
+		"title": "'<unbreak>39</unbreak>",
+		"desc": "使用钟表把戏阅读哈里森的所有情绪",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 634,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:2.6",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053612,
+		"title": "天佑折纸大学！",
+		"desc": "旁听两位热心学生的对话",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 633,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:2.6",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053613,
+		"title": "襁褓中的美梦",
+		"desc": "旁听猫头鹰老师与小鸟们的对话",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 632,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:2.6",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053614,
+		"title": "速度与家人",
+		"desc": "旁听赛车社成员的对话",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 631,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:2.6",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053615,
+		"title": "美梦多彩，理想自由",
+		"desc": "帮助折纸大学「真正」的校长",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 630,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:2.6",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053616,
+		"title": "火焰杯",
+		"desc": "使用钟表把戏阅读普蕾玛的所有情绪",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 629,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:2.6",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053617,
+		"title": "妄想学生社团",
+		"desc": "在想象中建立属于你的学生社团",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 628,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:2.6",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053618,
+		"title": "真的假的？",
+		"desc": "找到折纸大学吹奏部的社团摊位",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 627,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:2.6",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053621,
+		"title": "Factory Library",
+		"desc": "在「音律狩猎忍法帖」中，累计收集#1个作曲灵感",
+		"rarity": "Low",
+		"series": 5,
+		"paramsText": [
+			3
+		],
+		"priority": 624,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:2.6"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053623,
+		"title": "右右右右右右右",
+		"desc": "在「音律狩猎忍法帖」中，任意困难难度的音乐挑战里获得#1颗星",
+		"rarity": "Low",
+		"series": 5,
+		"paramsText": [
+			3
+		],
+		"priority": 622,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:2.6"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053624,
+		"title": "Remix <unbreak>10</unbreak>",
+		"desc": "在「音律狩猎忍法帖」中，解锁舞台的第四首乐曲",
+		"rarity": "Mid",
+		"series": 5,
+		"priority": 621,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:2.6",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053625,
+		"title": "心理测量者",
+		"desc": "帮助梦境里所有缺失情绪的人补全表盘",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 620,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:2.6",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053626,
+		"title": "乐队狂想曲",
+		"desc": "在「音律狩猎忍法帖」中，为你组建的乐队取名",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 619,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:2.6"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053627,
+		"title": "夏祭",
+		"desc": "在「音律狩猎忍法帖」中，和你的乐队完成音乐派对的首场演出",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 618,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:2.6"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053628,
+		"title": "天国与地狱",
+		"desc": "在「音律狩猎忍法帖」中，和你的乐队完成音乐派对的第二场演出",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 617,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:2.6"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053629,
+		"title": "Testify",
+		"desc": "在「音律狩猎忍法帖」中，和你的乐队完成音乐派对的闭幕演出",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 616,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:2.6"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053630,
+		"title": "怪诞故事集",
+		"desc": "使用钟表把戏阅读丽姬娅的所有情绪",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 615,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:2.6",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
 		"id": 4060101,
 		"title": "影逝百度（一）",
 		"desc": "击败<unbreak>#1[i]</unbreak>次凝滞虚影",
@@ -9939,7 +10551,7 @@
 	{
 		"id": 4072801,
 		"title": "全体集合！解散——",
-		"desc": "使用藿藿秘技「凶煞•劾压鬼物」，同时让<unbreak>#1[i]</unbreak>个以上目标逃跑",
+		"desc": "使用藿藿秘技「凶煞•劾压鬼物」，同时让<unbreak>#1[i]</unbreak>个及以上目标逃跑",
 		"rarity": "Low",
 		"series": 7,
 		"paramsText": [
@@ -10096,7 +10708,7 @@
 	{
 		"id": 4072906,
 		"title": "舌战群儒",
-		"desc": "使用真理医生的秘技「偶像塑造」一次性嘲讽<unbreak>#1[i]</unbreak>个以上的敌方目标",
+		"desc": "使用真理医生的秘技「偶像塑造」一次性嘲讽<unbreak>#1[i]</unbreak>个及以上的敌方目标",
 		"rarity": "Low",
 		"series": 7,
 		"paramsText": [
@@ -10465,7 +11077,7 @@
 	{
 		"id": 4073208,
 		"title": "哈梅尔的吹笛手",
-		"desc": "探索中使用知更鸟秘技「酣醉序曲」后，吸引#1个以上的敌方跟随",
+		"desc": "探索中使用知更鸟秘技「酣醉序曲」后，吸引#1个及以上的敌方跟随",
 		"rarity": "Low",
 		"series": 7,
 		"paramsText": [
@@ -10895,7 +11507,7 @@
 	{
 		"id": 4073511,
 		"title": "我即风暴",
-		"desc": "使用飞霄秘技，连续吸引#1个以上的敌人超过#2秒以上",
+		"desc": "使用飞霄秘技，连续吸引#1个及以上的敌人超过#2秒以上",
 		"rarity": "Low",
 		"series": 7,
 		"paramsText": [
@@ -10906,6 +11518,63 @@
 		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:2.5",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4073601,
+		"title": "「蕉」育高手",
+		"desc": "在和「奇想林中的蕉研组」的战斗中，使其一次都没有释放【致博士：蕉学成果汇演】",
+		"rarity": "Low",
+		"series": 7,
+		"priority": 821,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:2.6"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4073602,
+		"title": "不可「蕉」也",
+		"desc": "在和「奇想林中的蕉研组」的战斗中，使所有蕉研组成员同时处于被击破状态",
+		"rarity": "Low",
+		"series": 7,
+		"priority": 820,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:2.6"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4073603,
+		"title": "缭乱·忍法·破！",
+		"desc": "单场战斗中，使用乱破对敌人造成#1次弱点击破",
+		"rarity": "Low",
+		"series": 7,
+		"paramsText": [
+			10
+		],
+		"priority": 819,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:2.6",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4073604,
+		"title": "宛如厉鬼的步伐",
+		"desc": "使用乱破秘技「忍步•血义理」，在「涂鸦」的滑行状态下没有撞到任何障碍物",
+		"rarity": "Low",
+		"series": 7,
+		"priority": 818,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:2.6",
 			"隐藏成就"
 		],
 		"difficulty": {}
@@ -14057,5 +14726,224 @@
 			"活动:「模拟宇宙：黄金与机械」"
 		],
 		"difficulty": ""
+	},
+	{
+		"id": 4093601,
+		"title": "并无恶意",
+		"desc": "跟随黑塔，探明「权杖」系统背后的真相\\n※见证孤波算法难题的诞生",
+		"rarity": "Low",
+		"series": 9,
+		"descHide": "跟随黑塔，探明「权杖」系统背后的真相",
+		"priority": 861,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:2.6",
+			"隐藏描述"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4093602,
+		"title": "涟漪上的蝴蝶",
+		"desc": "协助天才们消除模拟宇宙中的不可知域\\n※打破波尔卡•卡卡目的全知域",
+		"rarity": "Low",
+		"series": 9,
+		"descHide": "协助天才们消除模拟宇宙中的不可知域",
+		"priority": 860,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:2.6",
+			"隐藏描述"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4093603,
+		"title": "最后的沉思",
+		"desc": "获得关于宇宙未来的「唯一解」",
+		"rarity": "Low",
+		"series": 9,
+		"priority": 859,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:2.6",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4093604,
+		"title": "神们自己",
+		"desc": "聆听一场不曾存在的对谈",
+		"rarity": "Low",
+		"series": 9,
+		"priority": 858,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:2.6",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4093605,
+		"title": "不完美学者",
+		"desc": "在「模拟宇宙：不可知域」中，通过「庸众集」的所有关卡",
+		"rarity": "Mid",
+		"series": 9,
+		"priority": 857,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:2.6",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4093608,
+		"title": "加入光荣的进化",
+		"desc": "通关「模拟宇宙：不可知域」时，权杖完成#1次及以上改装",
+		"rarity": "Low",
+		"series": 9,
+		"paramsText": [
+			5
+		],
+		"priority": 854,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:2.6",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4093609,
+		"title": "钢铁朝阳",
+		"desc": "通关「模拟宇宙：不可知域」时，拥有#1个以上组件",
+		"rarity": "Low",
+		"series": 9,
+		"paramsText": [
+			20
+		],
+		"priority": 853,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:2.6",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4093610,
+		"title": "学习成为「我」",
+		"desc": "通关「模拟宇宙：不可知域」时，完成#1次以上组件覆写",
+		"rarity": "Low",
+		"series": 9,
+		"paramsText": [
+			30
+		],
+		"priority": 852,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:2.6",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4093611,
+		"title": "帝国炼金师",
+		"desc": "通关「模拟宇宙：不可知域」时，在造物调试台中完成#1次以上组件合成",
+		"rarity": "Low",
+		"series": 9,
+		"paramsText": [
+			4
+		],
+		"priority": 851,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:2.6",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4093615,
+		"title": "冲出概率泥沼",
+		"desc": "在难题等级为#1的情况下，通关「模拟宇宙：不可知域」",
+		"rarity": "Low",
+		"series": 9,
+		"paramsText": [
+			6
+		],
+		"priority": 847,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:2.6",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4093616,
+		"title": "卡尔达肖夫-III",
+		"desc": "在「模拟宇宙：不可知域」中获取#1星组件",
+		"rarity": "Low",
+		"series": 9,
+		"paramsText": [
+			3
+		],
+		"priority": 846,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:2.6",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4093617,
+		"title": "超越认知",
+		"desc": "在「模拟宇宙：不可知域」中获取#1星权杖",
+		"rarity": "Low",
+		"series": 9,
+		"paramsText": [
+			3
+		],
+		"priority": 845,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:2.6",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4093618,
+		"title": "钟慢效应",
+		"desc": "在「模拟宇宙：不可知域」中，首次扣除额外轮次计数",
+		"rarity": "Low",
+		"series": 9,
+		"priority": 844,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:2.6",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4093621,
+		"title": "1：4：9",
+		"desc": "找到寂静领主留下的痕迹",
+		"rarity": "Low",
+		"series": 9,
+		"priority": 841,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:2.6",
+			"隐藏成就"
+		],
+		"difficulty": {}
 	}
 ]

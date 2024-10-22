@@ -828,6 +828,18 @@
 		}
 	},
 	{
+		"id": "21048",
+		"path": "Priest",
+		"rarity": 4,
+		"versionAdded": "2.6",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "梦的蒙太奇",
+				"nameEffect": "学院式剪接"
+			}
+		}
+	},
+	{
 		"id": "22000",
 		"path": "Warlock",
 		"rarity": 4,
@@ -860,6 +872,18 @@
 			"zh-cn": {
 				"name": "为了明日的旅途",
 				"nameEffect": "联结"
+			}
+		}
+	},
+	{
+		"id": "22003",
+		"path": "Warrior",
+		"rarity": 4,
+		"versionAdded": "2.6",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "忍事录•音律狩猎",
+				"nameEffect": "开演！"
 			}
 		}
 	},
@@ -1282,6 +1306,19 @@
 			"zh-cn": {
 				"name": "唯有香如故",
 				"nameEffect": "安心"
+			}
+		}
+	},
+	{
+		"id": "23033",
+		"path": "Mage",
+		"rarity": 5,
+		"characterBest": "1317",
+		"versionAdded": "2.6",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "忍法帖•缭乱破魔",
+				"nameEffect": "除邪"
 			}
 		}
 	},

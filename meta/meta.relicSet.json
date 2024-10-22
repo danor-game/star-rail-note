@@ -1,0 +1,2796 @@
+[
+	{
+		"id": "101",
+		"type": "Cavern",
+		"skills": {
+			"2": {
+				"countRequire": 2,
+				"params": [
+					{
+						"Value": 0.1
+					}
+				],
+				"$data$locale": {
+					"zh-cn": {
+						"desc": "治疗量提高<unbreak>#1[i]%</unbreak>。"
+					}
+				}
+			},
+			"4": {
+				"countRequire": 4,
+				"params": [],
+				"$data$locale": {
+					"zh-cn": {
+						"desc": "在战斗开始时，立即为我方恢复1个战技点。"
+					}
+				}
+			}
+		},
+		"idsRelic": [
+			{
+				"id": "61011",
+				"type": "HEAD",
+				"$data$locale": {
+					"zh-cn": {
+						"name": "过客的逢春木簪",
+						"descBG": "枯木曾作发簪，枝梢有花苞初绽。而今往事已矣，花苞鎏金嵌入簪中，用以纪念新生的开始。"
+					}
+				}
+			},
+			{
+				"id": "61012",
+				"type": "HAND",
+				"$data$locale": {
+					"zh-cn": {
+						"name": "过客的游龙臂鞲",
+						"descBG": "如水的珊瑚金与未知的兽革制成的腕甲，唯有龙脉一族的巧匠才能打造出这等非凡工艺。"
+					}
+				}
+			},
+			{
+				"id": "61013",
+				"type": "BODY",
+				"$data$locale": {
+					"zh-cn": {
+						"name": "过客的残绣风衣",
+						"descBG": "长摆残破的古旧风衣，绣纹被剑痕撕碎。肉体会快速愈合，但外衣却不能，正如人的痛苦。"
+					}
+				}
+			},
+			{
+				"id": "61014",
+				"type": "FOOT",
+				"$data$locale": {
+					"zh-cn": {
+						"name": "过客的冥途游履",
+						"descBG": "一双经久耐用的短靴，曾踏遍诸多世界，出入死生。"
+					}
+				}
+			}
+		],
+		"versionAdded": "1.0",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "云无留迹的过客"
+			}
+		}
+	},
+	{
+		"id": "102",
+		"type": "Cavern",
+		"skills": {
+			"2": {
+				"countRequire": 2,
+				"params": [
+					{
+						"Value": 0.12
+					}
+				],
+				"$data$locale": {
+					"zh-cn": {
+						"desc": "攻击力提高<unbreak>#1[i]%</unbreak>。"
+					}
+				}
+			},
+			"4": {
+				"countRequire": 4,
+				"params": [
+					{
+						"Value": 0.06
+					},
+					{
+						"Value": 0.1
+					}
+				],
+				"$data$locale": {
+					"zh-cn": {
+						"desc": "使装备者的速度提高<unbreak>#1[i]%</unbreak>，普攻造成的伤害提高<unbreak>#2[i]%</unbreak>。"
+					}
+				}
+			}
+		},
+		"idsRelic": [
+			{
+				"id": "61021",
+				"type": "HEAD",
+				"$data$locale": {
+					"zh-cn": {
+						"name": "快枪手的野穗毡帽",
+						"descBG": "一顶绑着野生麦穗的牛仔毡帽，传奇枪手奥克莱的标志。"
+					}
+				}
+			},
+			{
+				"id": "61022",
+				"type": "HAND",
+				"$data$locale": {
+					"zh-cn": {
+						"name": "快枪手的粗革手套",
+						"descBG": "表面已经部分开裂的皮革手套，握枪处磨损尤其严重。"
+					}
+				}
+			},
+			{
+				"id": "61023",
+				"type": "BODY",
+				"$data$locale": {
+					"zh-cn": {
+						"name": "快枪手的猎风披肩",
+						"descBG": "看上去是有民族风格的编制披肩，内衬部分编织了能够防弹的纤维。"
+					}
+				}
+			},
+			{
+				"id": "61024",
+				"type": "FOOT",
+				"$data$locale": {
+					"zh-cn": {
+						"name": "快枪手的铆钉马靴",
+						"descBG": "马靴有着V形剪裁的开口，看上去随性松弛，穿起来非常舒适。"
+					}
+				}
+			}
+		],
+		"versionAdded": "1.0",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "野穗伴行的快枪手"
+			}
+		}
+	},
+	{
+		"id": "103",
+		"type": "Cavern",
+		"skills": {
+			"2": {
+				"countRequire": 2,
+				"params": [
+					{
+						"Value": 0.15
+					}
+				],
+				"$data$locale": {
+					"zh-cn": {
+						"desc": "防御力提高<unbreak>#1[i]%</unbreak>。"
+					}
+				}
+			},
+			"4": {
+				"countRequire": 4,
+				"params": [
+					{
+						"Value": 0.2
+					}
+				],
+				"$data$locale": {
+					"zh-cn": {
+						"desc": "使装备者提供的护盾量提高<unbreak>#1[i]%</unbreak>。"
+					}
+				}
+			}
+		},
+		"idsRelic": [
+			{
+				"id": "61031",
+				"type": "HEAD",
+				"$data$locale": {
+					"zh-cn": {
+						"name": "圣骑的宽恕盔面",
+						"descBG": "如同宗教石雕宽恕女神的面具头盔，用以隐藏自己的相貌。"
+					}
+				}
+			},
+			{
+				"id": "61032",
+				"type": "HAND",
+				"$data$locale": {
+					"zh-cn": {
+						"name": "圣骑的沉默誓环",
+						"descBG": "装饰着教会纹样的银戒，镶嵌着看上去些许浑浊的宝石。"
+					}
+				}
+			},
+			{
+				"id": "61033",
+				"type": "BODY",
+				"$data$locale": {
+					"zh-cn": {
+						"name": "圣骑的肃穆胸甲",
+						"descBG": "厚重的胸甲装饰着净庭教会鲜明的符号，关节处也都密不透风。"
+					}
+				}
+			},
+			{
+				"id": "61034",
+				"type": "FOOT",
+				"$data$locale": {
+					"zh-cn": {
+						"name": "圣骑的秩序铁靴",
+						"descBG": "净庭教会骑士的标准骑士长靴，脚后跟上刻印着简短的单词：「秩序」。"
+					}
+				}
+			}
+		],
+		"versionAdded": "1.0",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "净庭教宗的圣骑士"
+			}
+		}
+	},
+	{
+		"id": "104",
+		"type": "Cavern",
+		"skills": {
+			"2": {
+				"countRequire": 2,
+				"params": [
+					{
+						"Value": 0.1
+					}
+				],
+				"$data$locale": {
+					"zh-cn": {
+						"desc": "冰属性伤害提高<unbreak>#1[i]%</unbreak>。"
+					}
+				}
+			},
+			"4": {
+				"countRequire": 4,
+				"params": [
+					{
+						"Value": 0.25
+					},
+					{
+						"Value": 2
+					}
+				],
+				"$data$locale": {
+					"zh-cn": {
+						"desc": "当装备者施放终结技时，暴击伤害提高<unbreak>#1[i]%</unbreak>，持续<unbreak>#2[i]</unbreak>回合。"
+					}
+				}
+			}
+		},
+		"idsRelic": [
+			{
+				"id": "61041",
+				"type": "HEAD",
+				"$data$locale": {
+					"zh-cn": {
+						"name": "雪猎的荒神兜帽",
+						"descBG": "巨大的雪原熊头部毛皮做成的兜帽。毛皮似乎寄宿鬼神，刀枪不入。"
+					}
+				}
+			},
+			{
+				"id": "61042",
+				"type": "HAND",
+				"$data$locale": {
+					"zh-cn": {
+						"name": "雪猎的巨蜥手套",
+						"descBG": "雪岩巨蜥的鳞爪与战术手套紧密缝合起来，可以在任何墙面上自由地攀爬悬挂。"
+					}
+				}
+			},
+			{
+				"id": "61043",
+				"type": "BODY",
+				"$data$locale": {
+					"zh-cn": {
+						"name": "雪猎的冰龙披风",
+						"descBG": "由冰龙细鳞制作的披风，在奇妙光学折射下，近乎隐形。"
+					}
+				}
+			},
+			{
+				"id": "61044",
+				"type": "FOOT",
+				"$data$locale": {
+					"zh-cn": {
+						"name": "雪猎的鹿皮软靴",
+						"descBG": "麋鹿柔软的毛皮包裹着增强动力靴，在雪原，猎户的鞋底只会留下浅浅的印记。"
+					}
+				}
+			}
+		],
+		"versionAdded": "1.0",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "密林卧雪的猎人"
+			}
+		}
+	},
+	{
+		"id": "105",
+		"type": "Cavern",
+		"skills": {
+			"2": {
+				"countRequire": 2,
+				"params": [
+					{
+						"Value": 0.1
+					}
+				],
+				"$data$locale": {
+					"zh-cn": {
+						"desc": "物理属性伤害提高<unbreak>#1[i]%</unbreak>。"
+					}
+				}
+			},
+			"4": {
+				"countRequire": 4,
+				"params": [
+					{
+						"Value": 0.05
+					},
+					{
+						"Value": 5
+					}
+				],
+				"$data$locale": {
+					"zh-cn": {
+						"desc": "当装备者施放攻击或受到攻击后，其在本场战斗中攻击力提高<unbreak>#1[i]%</unbreak>，最多叠加<unbreak>#2[i]</unbreak>层。"
+					}
+				}
+			}
+		},
+		"idsRelic": [
+			{
+				"id": "61051",
+				"type": "HEAD",
+				"$data$locale": {
+					"zh-cn": {
+						"name": "拳王的冠军护头",
+						"descBG": "防护效果极佳的拳击护头，与物件主人的脸型完美贴合。"
+					}
+				}
+			},
+			{
+				"id": "61052",
+				"type": "HAND",
+				"$data$locale": {
+					"zh-cn": {
+						"name": "拳王的重炮拳套",
+						"descBG": "保养得极好的拳击手套，细微的破损并不影响实际的使用。"
+					}
+				}
+			},
+			{
+				"id": "61053",
+				"type": "BODY",
+				"$data$locale": {
+					"zh-cn": {
+						"name": "拳王的贴身护胸",
+						"descBG": "拳击手的专业护胸，外罩和内衬垫相互组合，既保障了安全又不影响技术发挥。"
+					}
+				}
+			},
+			{
+				"id": "61054",
+				"type": "FOOT",
+				"$data$locale": {
+					"zh-cn": {
+						"name": "拳王的弧步战靴",
+						"descBG": "巧妙地将皮革和网结合，采用了厚鞋垫、薄鞋底的设计，保证了脚步灵活。"
+					}
+				}
+			}
+		],
+		"versionAdded": "1.0",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "街头出身的拳王"
+			}
+		}
+	},
+	{
+		"id": "106",
+		"type": "Cavern",
+		"skills": {
+			"2": {
+				"countRequire": 2,
+				"params": [
+					{
+						"Value": 0.08
+					}
+				],
+				"$data$locale": {
+					"zh-cn": {
+						"desc": "受到伤害降低<unbreak>#1[i]%</unbreak>。"
+					}
+				}
+			},
+			"4": {
+				"countRequire": 4,
+				"params": [
+					{
+						"Value": 0.5
+					},
+					{
+						"Value": 0.08
+					},
+					{
+						"Value": 5
+					}
+				],
+				"$data$locale": {
+					"zh-cn": {
+						"desc": "回合开始时，如果装备者当前生命值百分比小于等于<unbreak>#1[i]%</unbreak>，则回复等同于自身生命上限<unbreak>#2[i]%</unbreak>的生命值，并恢复<unbreak>#3[i]</unbreak>点能量。"
+					}
+				}
+			}
+		},
+		"idsRelic": [
+			{
+				"id": "61061",
+				"type": "HEAD",
+				"$data$locale": {
+					"zh-cn": {
+						"name": "铁卫的铸铁面盔",
+						"descBG": "经过统一改造过的覆面头盔，通过内部的填充物使头部保持温暖。"
+					}
+				}
+			},
+			{
+				"id": "61062",
+				"type": "HAND",
+				"$data$locale": {
+					"zh-cn": {
+						"name": "铁卫的银鳞手甲",
+						"descBG": "闪耀着银光的金属手甲，复合的机械结构深藏其中。"
+					}
+				}
+			},
+			{
+				"id": "61063",
+				"type": "BODY",
+				"$data$locale": {
+					"zh-cn": {
+						"name": "铁卫的旧制军服",
+						"descBG": "熨烫妥帖的银鬃铁卫旧制军服，结实的排扣将布料压出褶痕。"
+					}
+				}
+			},
+			{
+				"id": "61064",
+				"type": "FOOT",
+				"$data$locale": {
+					"zh-cn": {
+						"name": "铁卫的白银护胫",
+						"descBG": "坚硬的白银色金属护胫，注重防护的同时，足够轻巧又保暖。"
+					}
+				}
+			}
+		],
+		"versionAdded": "1.0",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "戍卫风雪的铁卫"
+			}
+		}
+	},
+	{
+		"id": "107",
+		"type": "Cavern",
+		"skills": {
+			"2": {
+				"countRequire": 2,
+				"params": [
+					{
+						"Value": 0.1
+					}
+				],
+				"$data$locale": {
+					"zh-cn": {
+						"desc": "火属性伤害提高<unbreak>#1[i]%</unbreak>。"
+					}
+				}
+			},
+			"4": {
+				"countRequire": 4,
+				"params": [
+					{
+						"Value": 0.12
+					},
+					{
+						"Value": 0.12
+					}
+				],
+				"$data$locale": {
+					"zh-cn": {
+						"desc": "使装备者战技造成的伤害提高<unbreak>#1[i]%</unbreak>，并使施放终结技后的下一次攻击造成的火属性伤害提高<unbreak>#2[i]%</unbreak>。"
+					}
+				}
+			}
+		},
+		"idsRelic": [
+			{
+				"id": "61071",
+				"type": "HEAD",
+				"$data$locale": {
+					"zh-cn": {
+						"name": "火匠的黑曜目镜",
+						"descBG": "以漆黑焰晶打造的防护目镜，在镜片之下，激烈的火星迸裂也只不过是斑驳残影。"
+					}
+				}
+			},
+			{
+				"id": "61072",
+				"type": "HAND",
+				"$data$locale": {
+					"zh-cn": {
+						"name": "火匠的御火戒指",
+						"descBG": "有着火焰标志的戒指，是火匠一族中最高荣誉的象征。"
+					}
+				}
+			},
+			{
+				"id": "61073",
+				"type": "BODY",
+				"$data$locale": {
+					"zh-cn": {
+						"name": "火匠的阻燃围裙",
+						"descBG": "铁匠围裙没有多余的装饰，只有皮革纹理与家族标识清晰可见。"
+					}
+				}
+			},
+			{
+				"id": "61074",
+				"type": "FOOT",
+				"$data$locale": {
+					"zh-cn": {
+						"name": "火匠的合金义肢",
+						"descBG": "金属材质的义肢，表面上缠绕着火焰的立体花纹。"
+					}
+				}
+			}
+		],
+		"versionAdded": "1.0",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "熔岩锻铸的火匠"
+			}
+		}
+	},
+	{
+		"id": "108",
+		"type": "Cavern",
+		"skills": {
+			"2": {
+				"countRequire": 2,
+				"params": [
+					{
+						"Value": 0.1
+					}
+				],
+				"$data$locale": {
+					"zh-cn": {
+						"desc": "量子属性伤害提高<unbreak>#1[i]%</unbreak>。"
+					}
+				}
+			},
+			"4": {
+				"countRequire": 4,
+				"params": [
+					{
+						"Value": 0.1
+					},
+					{
+						"Value": 0.1
+					}
+				],
+				"$data$locale": {
+					"zh-cn": {
+						"desc": "当装备者对敌方目标造成伤害时，无视其<unbreak>#1[i]%</unbreak>的防御力。若目标拥有量子属性弱点，额外无视其<unbreak>#2[i]%</unbreak>的防御力。"
+					}
+				}
+			}
+		},
+		"idsRelic": [
+			{
+				"id": "61081",
+				"type": "HEAD",
+				"$data$locale": {
+					"zh-cn": {
+						"name": "天才的超距遥感",
+						"descBG": "基于超距遥感技术制造出的通讯目镜，打破了传播介质与距离的束缚。"
+					}
+				}
+			},
+			{
+				"id": "61082",
+				"type": "HAND",
+				"$data$locale": {
+					"zh-cn": {
+						"name": "天才的频变捕手",
+						"descBG": "装有精密的频变捕捉器的手套，能够对客观的声光振动进行直观地操作。"
+					}
+				}
+			},
+			{
+				"id": "61083",
+				"type": "BODY",
+				"$data$locale": {
+					"zh-cn": {
+						"name": "天才的元域深潜",
+						"descBG": "启动后形似包裹全身的潜水服，将全身的神经信号实时传输至元域空间。"
+					}
+				}
+			},
+			{
+				"id": "61084",
+				"type": "FOOT",
+				"$data$locale": {
+					"zh-cn": {
+						"name": "天才的引力漫步",
+						"descBG": "穿戴式引力捕获装置，形似冰鞋，能在快速滑行时倒映出群星的光芒。"
+					}
+				}
+			}
+		],
+		"versionAdded": "1.0",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "繁星璀璨的天才"
+			}
+		}
+	},
+	{
+		"id": "109",
+		"type": "Cavern",
+		"skills": {
+			"2": {
+				"countRequire": 2,
+				"params": [
+					{
+						"Value": 0.1
+					}
+				],
+				"$data$locale": {
+					"zh-cn": {
+						"desc": "雷属性伤害提高<unbreak>#1[i]%</unbreak>。"
+					}
+				}
+			},
+			"4": {
+				"countRequire": 4,
+				"params": [
+					{
+						"Value": 0.2
+					},
+					{
+						"Value": 1
+					}
+				],
+				"$data$locale": {
+					"zh-cn": {
+						"desc": "当装备者施放战技时，使装备者的攻击力提高<unbreak>#1[i]%</unbreak>，持续<unbreak>#2[i]</unbreak>回合。"
+					}
+				}
+			}
+		},
+		"idsRelic": [
+			{
+				"id": "61091",
+				"type": "HEAD",
+				"$data$locale": {
+					"zh-cn": {
+						"name": "乐队的偏光墨镜",
+						"descBG": "主唱之一的詹尼斯所戴的经典款墨镜，镀铬镜片反射着蓝色的光芒。"
+					}
+				}
+			},
+			{
+				"id": "61092",
+				"type": "HAND",
+				"$data$locale": {
+					"zh-cn": {
+						"name": "乐队的巡演手绳",
+						"descBG": "贝斯手席德的手绳，由巡演时的丝带手环编织而成，上面写着几句歌词。"
+					}
+				}
+			},
+			{
+				"id": "61093",
+				"type": "BODY",
+				"$data$locale": {
+					"zh-cn": {
+						"name": "乐队的钉刺皮衣",
+						"descBG": "主唱之一的大卫在皮衣背面画上了白色的星星，它成为了乐队最后一张专辑的封面。"
+					}
+				}
+			},
+			{
+				"id": "61094",
+				"type": "FOOT",
+				"$data$locale": {
+					"zh-cn": {
+						"name": "乐队的铆钉短靴",
+						"descBG": "鼓手博纳姆的短靴，折射着舞台灯光的漆面上粘着铆钉尖刺。"
+					}
+				}
+			}
+		],
+		"versionAdded": "1.0",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "激奏雷电的乐队"
+			}
+		}
+	},
+	{
+		"id": "110",
+		"type": "Cavern",
+		"skills": {
+			"2": {
+				"countRequire": 2,
+				"params": [
+					{
+						"Value": 0.1
+					}
+				],
+				"$data$locale": {
+					"zh-cn": {
+						"desc": "风属性伤害提高<unbreak>#1[i]%</unbreak>。"
+					}
+				}
+			},
+			"4": {
+				"countRequire": 4,
+				"params": [
+					{
+						"Value": 0.25
+					}
+				],
+				"$data$locale": {
+					"zh-cn": {
+						"desc": "当装备者施放终结技后，使其行动提前<unbreak>#1[i]%</unbreak>。"
+					}
+				}
+			}
+		},
+		"idsRelic": [
+			{
+				"id": "61101",
+				"type": "HEAD",
+				"$data$locale": {
+					"zh-cn": {
+						"name": "翔鹰的长喙头盔",
+						"descBG": "高速飞行中使用的流体头盔，形似空渔鹰的鸟喙。"
+					}
+				}
+			},
+			{
+				"id": "61102",
+				"type": "HAND",
+				"$data$locale": {
+					"zh-cn": {
+						"name": "翔鹰的鹰击指环",
+						"descBG": "卓越空渔人大师所佩戴的指环，空渔鹰双翅纹样紧抱手指。"
+					}
+				}
+			},
+			{
+				"id": "61103",
+				"type": "BODY",
+				"$data$locale": {
+					"zh-cn": {
+						"name": "翔鹰的翼装束带",
+						"descBG": "连接扑翼装的腰带，金属支撑藏在粗麻束带中，柔软贴身。"
+					}
+				}
+			},
+			{
+				"id": "61104",
+				"type": "FOOT",
+				"$data$locale": {
+					"zh-cn": {
+						"name": "翔鹰的绒羽绑带",
+						"descBG": "飞行中确保腿部保暖的绑带，装饰着空渔鹰的翎羽。"
+					}
+				}
+			}
+		],
+		"versionAdded": "1.0",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "晨昏交界的翔鹰"
+			}
+		}
+	},
+	{
+		"id": "111",
+		"type": "Cavern",
+		"skills": {
+			"2": {
+				"countRequire": 2,
+				"params": [
+					{
+						"Value": 0.16
+					}
+				],
+				"$data$locale": {
+					"zh-cn": {
+						"desc": "击破特攻提高<unbreak>#1[i]%</unbreak>。"
+					}
+				}
+			},
+			"4": {
+				"countRequire": 4,
+				"params": [
+					{
+						"Value": 0.16
+					},
+					{
+						"Value": 3
+					}
+				],
+				"$data$locale": {
+					"zh-cn": {
+						"desc": "使装备者的击破特攻提高<unbreak>#1[i]%</unbreak>。当装备者击破敌方目标弱点后，恢复<unbreak>#2[i]</unbreak>点能量。"
+					}
+				}
+			}
+		},
+		"idsRelic": [
+			{
+				"id": "61111",
+				"type": "HEAD",
+				"$data$locale": {
+					"zh-cn": {
+						"name": "怪盗的千人假面",
+						"descBG": "用以改变面貌的面具，结合精湛的演技便能以假乱真。"
+					}
+				}
+			},
+			{
+				"id": "61112",
+				"type": "HAND",
+				"$data$locale": {
+					"zh-cn": {
+						"name": "怪盗的绘纹手套",
+						"descBG": "编入纳米材料的特殊手套，可即时编写手套表面纹样。"
+					}
+				}
+			},
+			{
+				"id": "61113",
+				"type": "BODY",
+				"$data$locale": {
+					"zh-cn": {
+						"name": "怪盗的纤钢爪钩",
+						"descBG": "伪装成编织腰带的钢索，腰带卡扣里隐藏着挂钩和滑轮。"
+					}
+				}
+			},
+			{
+				"id": "61114",
+				"type": "FOOT",
+				"$data$locale": {
+					"zh-cn": {
+						"name": "怪盗的流星快靴",
+						"descBG": "一双辅助增强人体机能的靴子，帮助怪盗在楼宇之间大步流星。"
+					}
+				}
+			}
+		],
+		"versionAdded": "1.0",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "流星追迹的怪盗"
+			}
+		}
+	},
+	{
+		"id": "112",
+		"type": "Cavern",
+		"skills": {
+			"2": {
+				"countRequire": 2,
+				"params": [
+					{
+						"Value": 0.1
+					}
+				],
+				"$data$locale": {
+					"zh-cn": {
+						"desc": "虚数属性伤害提高<unbreak>#1[i]%</unbreak>。"
+					}
+				}
+			},
+			"4": {
+				"countRequire": 4,
+				"params": [
+					{
+						"Value": 0.1
+					},
+					{
+						"Value": 0.2
+					}
+				],
+				"$data$locale": {
+					"zh-cn": {
+						"desc": "装备者对陷入负面效果的敌方目标造成伤害时暴击率提高<unbreak>#1[i]%</unbreak>，对陷入禁锢状态的敌方目标造成伤害时暴击伤害提高<unbreak>#2[i]%</unbreak>。"
+					}
+				}
+			}
+		},
+		"idsRelic": [
+			{
+				"id": "61121",
+				"type": "HEAD",
+				"$data$locale": {
+					"zh-cn": {
+						"name": "废土客的呼吸面罩",
+						"descBG": "能够过滤沙尘与辐射的面罩，像是由废弃呼吸器改造而来。"
+					}
+				}
+			},
+			{
+				"id": "61122",
+				"type": "HAND",
+				"$data$locale": {
+					"zh-cn": {
+						"name": "废土客的荒漠终端",
+						"descBG": "能检测电离辐射气体的多功能垃圾，会讲垃圾话。"
+					}
+				}
+			},
+			{
+				"id": "61123",
+				"type": "BODY",
+				"$data$locale": {
+					"zh-cn": {
+						"name": "废土客的修士长袍",
+						"descBG": "宽松的长袍，由传教士的款式改造而来。"
+					}
+				}
+			},
+			{
+				"id": "61124",
+				"type": "FOOT",
+				"$data$locale": {
+					"zh-cn": {
+						"name": "废土客的动力腿甲",
+						"descBG": "动力甲的腿部，废铁和旧电线制作的外骨骼。"
+					}
+				}
+			}
+		],
+		"versionAdded": "1.0",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "盗匪荒漠的废土客"
+			}
+		}
+	},
+	{
+		"id": "113",
+		"type": "Cavern",
+		"skills": {
+			"2": {
+				"countRequire": 2,
+				"params": [
+					{
+						"Value": 0.12
+					}
+				],
+				"$data$locale": {
+					"zh-cn": {
+						"desc": "生命上限提高<unbreak>#1[i]%</unbreak>。"
+					}
+				}
+			},
+			"4": {
+				"countRequire": 4,
+				"params": [
+					{
+						"Value": 0.08
+					},
+					{
+						"Value": 2
+					},
+					{
+						"Value": 2
+					}
+				],
+				"$data$locale": {
+					"zh-cn": {
+						"desc": "当装备者受到攻击或被我方目标消耗生命值后，暴击率提高<unbreak>#1[i]%</unbreak>，持续<unbreak>#2[i]</unbreak>回合，该效果最多叠加<unbreak>#3[i]</unbreak>层。"
+					}
+				}
+			}
+		},
+		"idsRelic": [
+			{
+				"id": "61131",
+				"type": "HEAD",
+				"$data$locale": {
+					"zh-cn": {
+						"name": "莳者的复明义眼",
+						"descBG": "曾属于某人的机巧义眼，如今它被逐出主人的身体，百无一用。"
+					}
+				}
+			},
+			{
+				"id": "61132",
+				"type": "HAND",
+				"$data$locale": {
+					"zh-cn": {
+						"name": "莳者的机巧木手",
+						"descBG": "专为长生种制造的机巧义肢，使用时无需侵入肉体。"
+					}
+				}
+			},
+			{
+				"id": "61133",
+				"type": "BODY",
+				"$data$locale": {
+					"zh-cn": {
+						"name": "莳者的承露羽衣",
+						"descBG": "据古籍记载纺织的羽衣，它属于万古的妖人，亦或万人的救主。"
+					}
+				}
+			},
+			{
+				"id": "61134",
+				"type": "FOOT",
+				"$data$locale": {
+					"zh-cn": {
+						"name": "莳者的天人丝履",
+						"descBG": "一双鞋底薄如蝉翼的丝履，它的主人一定长久不曾用双脚行走了。"
+					}
+				}
+			}
+		],
+		"versionAdded": "1.2",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "宝命长存的莳者"
+			}
+		}
+	},
+	{
+		"id": "114",
+		"type": "Cavern",
+		"skills": {
+			"2": {
+				"countRequire": 2,
+				"params": [
+					{
+						"Value": 0.06
+					}
+				],
+				"$data$locale": {
+					"zh-cn": {
+						"desc": "速度提高<unbreak>#1[i]%</unbreak>。"
+					}
+				}
+			},
+			"4": {
+				"countRequire": 4,
+				"params": [
+					{
+						"Value": 0.12
+					},
+					{
+						"Value": 1
+					}
+				],
+				"$data$locale": {
+					"zh-cn": {
+						"desc": "当装备者对我方目标施放终结技时，我方全体速度提高<unbreak>#1[i]%</unbreak>，持续<unbreak>#2[i]</unbreak>回合，该效果无法叠加。"
+					}
+				}
+			}
+		},
+		"idsRelic": [
+			{
+				"id": "61141",
+				"type": "HEAD",
+				"$data$locale": {
+					"zh-cn": {
+						"name": "信使的全息目镜",
+						"descBG": "外形酷似滑雪目镜，不仅能防眩光，还能看虚拟人直播。"
+					}
+				}
+			},
+			{
+				"id": "61142",
+				"type": "HAND",
+				"$data$locale": {
+					"zh-cn": {
+						"name": "信使的百变义手",
+						"descBG": "可随便拆卸的机械义手，能够将指节像子弹一样发射出去。"
+					}
+				}
+			},
+			{
+				"id": "61143",
+				"type": "BODY",
+				"$data$locale": {
+					"zh-cn": {
+						"name": "信使的密信挎包",
+						"descBG": "时尚的信使邮差包，添加了各种挂件，看上去有些可爱。"
+					}
+				}
+			},
+			{
+				"id": "61144",
+				"type": "FOOT",
+				"$data$locale": {
+					"zh-cn": {
+						"name": "信使的酷跑板鞋",
+						"descBG": "支持自由跑酷的滑板鞋，穿上去很舒服，仅此而已。"
+					}
+				}
+			}
+		],
+		"versionAdded": "1.2",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "骇域漫游的信使"
+			}
+		}
+	},
+	{
+		"id": "115",
+		"type": "Cavern",
+		"skills": {
+			"2": {
+				"countRequire": 2,
+				"params": [
+					{
+						"Value": 0.2
+					}
+				],
+				"$data$locale": {
+					"zh-cn": {
+						"desc": "追加攻击造成的伤害提高<unbreak>#1[i]%</unbreak>。"
+					}
+				}
+			},
+			"4": {
+				"countRequire": 4,
+				"params": [
+					{
+						"Value": 0.06
+					},
+					{
+						"Value": 8
+					},
+					{
+						"Value": 3
+					}
+				],
+				"$data$locale": {
+					"zh-cn": {
+						"desc": "装备者施放追加攻击时，根据追加攻击造成伤害的次数，每次造成伤害时使装备者的攻击力提高<unbreak>#1[i]%</unbreak>，最多叠加<unbreak>#2[i]</unbreak>次，持续<unbreak>#3[i]</unbreak>回合。该效果在装备者下一次施放追加攻击时移除。"
+					}
+				}
+			}
+		},
+		"idsRelic": [
+			{
+				"id": "61151",
+				"type": "HEAD",
+				"$data$locale": {
+					"zh-cn": {
+						"name": "大公的冥焰冠冕",
+						"descBG": "不停燃烧的火焰冠冕，熊熊野心是它的不尽燃料。"
+					}
+				}
+			},
+			{
+				"id": "61152",
+				"type": "HAND",
+				"$data$locale": {
+					"zh-cn": {
+						"name": "大公的绒火指套",
+						"descBG": "以火焰为绒毛的洁白手套，将暴戾藏于缎面之下。"
+					}
+				}
+			},
+			{
+				"id": "61153",
+				"type": "BODY",
+				"$data$locale": {
+					"zh-cn": {
+						"name": "大公的蒙恩长袍",
+						"descBG": "一袭华美的袍，彰显长袍主人的端庄风雅。"
+					}
+				}
+			},
+			{
+				"id": "61154",
+				"type": "FOOT",
+				"$data$locale": {
+					"zh-cn": {
+						"name": "大公的绅雅礼靴",
+						"descBG": "经典而舒适的靴子，保养完好，造型挺括，修饰脚型。"
+					}
+				}
+			}
+		],
+		"versionAdded": "1.5",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "毁烬焚骨的大公"
+			}
+		}
+	},
+	{
+		"id": "116",
+		"type": "Cavern",
+		"skills": {
+			"2": {
+				"countRequire": 2,
+				"params": [
+					{
+						"Value": 0.12
+					}
+				],
+				"$data$locale": {
+					"zh-cn": {
+						"desc": "攻击力提高<unbreak>#1[i]%</unbreak>。"
+					}
+				}
+			},
+			"4": {
+				"countRequire": 4,
+				"params": [
+					{
+						"Value": 0.06
+					},
+					{
+						"Value": 3
+					}
+				],
+				"$data$locale": {
+					"zh-cn": {
+						"desc": "敌方目标每承受1个持续伤害效果，装备者对其造成伤害时就无视其<unbreak>#1[i]%</unbreak>的防御力，最多计入<unbreak>#2[i]</unbreak>个持续伤害效果。"
+					}
+				}
+			}
+		},
+		"idsRelic": [
+			{
+				"id": "61161",
+				"type": "HEAD",
+				"$data$locale": {
+					"zh-cn": {
+						"name": "系囚的合啮拘笼",
+						"descBG": "紧扣兽面囚徒面部的犬嘴笼，严防末路恶逆露出獠牙伤人。"
+					}
+				}
+			},
+			{
+				"id": "61162",
+				"type": "HAND",
+				"$data$locale": {
+					"zh-cn": {
+						"name": "系囚的铅石梏铐",
+						"descBG": "紧缚魔手的沉重镣铐，钢针钉腕，钳制凶爪恶逆再造杀孽。"
+					}
+				}
+			},
+			{
+				"id": "61163",
+				"type": "BODY",
+				"$data$locale": {
+					"zh-cn": {
+						"name": "系囚的幽闭缚束",
+						"descBG": "捆缚危险重犯的拘束囚服，反扣关节，限制囚徒身体的变化能力。"
+					}
+				}
+			},
+			{
+				"id": "61164",
+				"type": "FOOT",
+				"$data$locale": {
+					"zh-cn": {
+						"name": "系囚的绝足锁桎",
+						"descBG": "桎缚兽足的金属脚镣，禁锢末路恶逆，以防脱逃酿祸。"
+					}
+				}
+			}
+		],
+		"versionAdded": "1.5",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "幽锁深牢的系囚"
+			}
+		}
+	},
+	{
+		"id": "117",
+		"type": "Cavern",
+		"skills": {
+			"2": {
+				"countRequire": 2,
+				"params": [
+					{
+						"Value": 0.12
+					}
+				],
+				"$data$locale": {
+					"zh-cn": {
+						"desc": "对受负面状态影响的敌人造成的伤害提高<unbreak>#1[i]%</unbreak>。"
+					}
+				}
+			},
+			"4": {
+				"countRequire": 4,
+				"params": [
+					{
+						"Value": 0.04
+					},
+					{
+						"Value": 0.08
+					},
+					{
+						"Value": 0.12
+					},
+					{
+						"Value": 2
+					},
+					{
+						"Value": 3
+					},
+					{
+						"Value": 1
+					}
+				],
+				"$data$locale": {
+					"zh-cn": {
+						"desc": "暴击率提高<unbreak>#1[i]%</unbreak>，装备者对陷入不少于<unbreak>#4[i]</unbreak>/<unbreak>#5[i]</unbreak>个负面效果的敌方目标造成的暴击伤害提高<unbreak>#2[i]%</unbreak>/<unbreak>#3[i]%</unbreak>。装备者对敌方目标施加负面效果后，上述效果提高<unbreak>100%</unbreak>，持续<unbreak>#6[i]</unbreak>回合。"
+					}
+				}
+			}
+		},
+		"idsRelic": [
+			{
+				"id": "61171",
+				"type": "HEAD",
+				"$data$locale": {
+					"zh-cn": {
+						"name": "先驱的绝热围壳",
+						"descBG": "俄尔刻龙常见款式的潜水重盔。透过小小的舷窗只能看到令人难以忍受的无边黑暗。"
+					}
+				}
+			},
+			{
+				"id": "61172",
+				"type": "HAND",
+				"$data$locale": {
+					"zh-cn": {
+						"name": "先驱的虚极罗盘",
+						"descBG": "一块腕表式指南针，磁针已被拆去，不再能指示任何方向。"
+					}
+				}
+			},
+			{
+				"id": "61173",
+				"type": "BODY",
+				"$data$locale": {
+					"zh-cn": {
+						"name": "先驱的密合铅衣",
+						"descBG": "废铁打造的重型潜水服，密不透风，使用者也常常调侃它更像是一具深水棺材。"
+					}
+				}
+			},
+			{
+				"id": "61174",
+				"type": "FOOT",
+				"$data$locale": {
+					"zh-cn": {
+						"name": "先驱的泊星桩锚",
+						"descBG": "重靴形似船锚，它的主人已经做好了永不返回水面的打算。"
+					}
+				}
+			}
+		],
+		"versionAdded": "2.0",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "死水深潜的先驱"
+			}
+		}
+	},
+	{
+		"id": "118",
+		"type": "Cavern",
+		"skills": {
+			"2": {
+				"countRequire": 2,
+				"params": [
+					{
+						"Value": 0.16
+					}
+				],
+				"$data$locale": {
+					"zh-cn": {
+						"desc": "击破特攻提高<unbreak>#1[i]%</unbreak>。"
+					}
+				}
+			},
+			"4": {
+				"countRequire": 4,
+				"params": [
+					{
+						"Value": 0.3
+					},
+					{
+						"Value": 2
+					}
+				],
+				"$data$locale": {
+					"zh-cn": {
+						"desc": "当装备者对我方目标施放终结技时，我方全体击破特攻提高<unbreak>#1[i]%</unbreak>，持续<unbreak>#2[i]</unbreak>回合，该效果无法叠加。"
+					}
+				}
+			}
+		},
+		"idsRelic": [
+			{
+				"id": "61181",
+				"type": "HEAD",
+				"$data$locale": {
+					"zh-cn": {
+						"name": "钟表匠的极目透镜",
+						"descBG": "一枚金雕目镜，镜片映照远方的纷繁奇象，助它的主人望穿迷梦。"
+					}
+				}
+			},
+			{
+				"id": "61182",
+				"type": "HAND",
+				"$data$locale": {
+					"zh-cn": {
+						"name": "钟表匠的交运腕表",
+						"descBG": "一块做工精美的手表，有着奇特的子盘与时针，据说是梦境中好运的象征。"
+					}
+				}
+			},
+			{
+				"id": "61183",
+				"type": "BODY",
+				"$data$locale": {
+					"zh-cn": {
+						"name": "钟表匠的空幻礼服",
+						"descBG": "一身富丽堂皇的皮领礼服，华美典雅，通常用于宴会等正式场合。"
+					}
+				}
+			},
+			{
+				"id": "61184",
+				"type": "FOOT",
+				"$data$locale": {
+					"zh-cn": {
+						"name": "钟表匠的隐梦革履",
+						"descBG": "一双款式优雅的皮靴，穿戴者曾以神秘的姿态踏梦潜行。"
+					}
+				}
+			}
+		],
+		"versionAdded": "2.0",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "机心戏梦的钟表匠"
+			}
+		}
+	},
+	{
+		"id": "119",
+		"type": "Cavern",
+		"skills": {
+			"2": {
+				"countRequire": 2,
+				"params": [
+					{
+						"Value": 0.16
+					}
+				],
+				"$data$locale": {
+					"zh-cn": {
+						"desc": "击破特攻提高<unbreak>#1[i]%</unbreak>。"
+					}
+				}
+			},
+			"4": {
+				"countRequire": 4,
+				"params": [
+					{
+						"Value": 1.5
+					},
+					{
+						"Value": 2.5
+					},
+					{
+						"Value": 0.1
+					},
+					{
+						"Value": 0.15
+					}
+				],
+				"$data$locale": {
+					"zh-cn": {
+						"desc": "当装备者的击破特攻大于等于<unbreak>#1[i]%</unbreak>时，对敌方目标造成的击破伤害无视其<unbreak>#3[i]%</unbreak>的防御力。当装备者的击破特攻大于等于<unbreak>#2[i]%</unbreak>时，对敌方目标造成的超击破伤害额外无视其<unbreak>#4[i]%</unbreak>的防御力。"
+					}
+				}
+			}
+		},
+		"idsRelic": [
+			{
+				"id": "61191",
+				"type": "HEAD",
+				"$data$locale": {
+					"zh-cn": {
+						"name": "铁骑的索敌战盔",
+						"descBG": "深度强化感官信号的钢铁战盔，将格拉默铁骑的意识与装甲融为一体。"
+					}
+				}
+			},
+			{
+				"id": "61192",
+				"type": "HAND",
+				"$data$locale": {
+					"zh-cn": {
+						"name": "铁骑的摧坚铁腕",
+						"descBG": "粉碎虫裔的强劲铁腕，尖锐而轻盈，坚硬又稳固。"
+					}
+				}
+			},
+			{
+				"id": "61193",
+				"type": "BODY",
+				"$data$locale": {
+					"zh-cn": {
+						"name": "铁骑的银影装甲",
+						"descBG": "迸发烈焰的推进装甲，给予格拉默铁骑足以点燃战场的烈焰。"
+					}
+				}
+			},
+			{
+				"id": "61194",
+				"type": "FOOT",
+				"$data$locale": {
+					"zh-cn": {
+						"name": "铁骑的行空护胫",
+						"descBG": "兼具破坏力与速度的机骑护胫，格拉默铁骑会高高跃起，将力量集中于一处踢向敌人。"
+					}
+				}
+			}
+		],
+		"versionAdded": "2.3",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "荡除蠹灾的铁骑"
+			}
+		}
+	},
+	{
+		"id": "120",
+		"type": "Cavern",
+		"skills": {
+			"2": {
+				"countRequire": 2,
+				"params": [
+					{
+						"Value": 0.12
+					}
+				],
+				"$data$locale": {
+					"zh-cn": {
+						"desc": "攻击力提高<unbreak>#1[i]%</unbreak>。"
+					}
+				}
+			},
+			"4": {
+				"countRequire": 4,
+				"params": [
+					{
+						"Value": 0.06
+					},
+					{
+						"Value": 0.36
+					},
+					{
+						"Value": 1
+					}
+				],
+				"$data$locale": {
+					"zh-cn": {
+						"desc": "使装备者的暴击率提高<unbreak>#1[i]%</unbreak>，装备者施放追加攻击时，使终结技造成的伤害提高<unbreak>#2[i]%</unbreak>，持续<unbreak>#3[i]</unbreak>回合。"
+					}
+				}
+			}
+		},
+		"idsRelic": [
+			{
+				"id": "61201",
+				"type": "HEAD",
+				"$data$locale": {
+					"zh-cn": {
+						"name": "勇烈的玄枵面甲",
+						"descBG": "以凶鸟「大风」为原型的面甲，两对辅眼曾目睹过神迹示现。"
+					}
+				}
+			},
+			{
+				"id": "61202",
+				"type": "HAND",
+				"$data$locale": {
+					"zh-cn": {
+						"name": "勇烈的钩爪腕甲",
+						"descBG": "嵌合肌体的仿生手甲。若想狩猎猛兽，就要有比猛兽更锐利的爪牙。"
+					}
+				}
+			},
+			{
+				"id": "61203",
+				"type": "BODY",
+				"$data$locale": {
+					"zh-cn": {
+						"name": "勇烈的飞翎瓷甲",
+						"descBG": "身如凛风，翱翔群狼仰首处，猎物与猎人终将易位而处。"
+					}
+				}
+			},
+			{
+				"id": "61204",
+				"type": "FOOT",
+				"$data$locale": {
+					"zh-cn": {
+						"name": "勇烈的逐猎腿甲",
+						"descBG": "禽爪制式的战靴，着装之人迅疾如风地奔袭战场，轻易踏行于荆棘坎坷。"
+					}
+				}
+			}
+		],
+		"versionAdded": "2.3",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "风举云飞的勇烈"
+			}
+		}
+	},
+	{
+		"id": "121",
+		"type": "Cavern",
+		"skills": {
+			"2": {
+				"countRequire": 2,
+				"params": [
+					{
+						"Value": 0.06
+					}
+				],
+				"$data$locale": {
+					"zh-cn": {
+						"desc": "速度提高<unbreak>#1[i]%</unbreak>。"
+					}
+				}
+			},
+			"4": {
+				"countRequire": 4,
+				"params": [
+					{
+						"Value": 0.18
+					},
+					{
+						"Value": 2
+					},
+					{
+						"Value": 2
+					}
+				],
+				"$data$locale": {
+					"zh-cn": {
+						"desc": "对我方单体目标施放战技或终结技时，使技能目标的暴击伤害提高<unbreak>#1[i]%</unbreak>，持续<unbreak>#2[i]</unbreak>回合，该效果最多叠加<unbreak>#3[i]</unbreak>次。"
+					}
+				}
+			}
+		},
+		"idsRelic": [
+			{
+				"id": "61211",
+				"type": "HEAD",
+				"$data$locale": {
+					"zh-cn": {
+						"name": "司铎的律音耳坠",
+						"descBG": "他常常坐在告解室内侧耳倾听。耳坠不断提醒着他，即便是最微末的细语也是有重量的。"
+					}
+				}
+			},
+			{
+				"id": "61212",
+				"type": "HAND",
+				"$data$locale": {
+					"zh-cn": {
+						"name": "司铎的授邀手套",
+						"descBG": "他常常站在公馆内接待访客，无数遍发出邀请的动作。洁净的手套提醒着他切记谦卑与礼数。"
+					}
+				}
+			},
+			{
+				"id": "61213",
+				"type": "BODY",
+				"$data$locale": {
+					"zh-cn": {
+						"name": "司铎的圣职礼服",
+						"descBG": "他常常站在试衣镜前，确认仪容衣装。在出门前就确保一切井然有序，绝不偏移。"
+					}
+				}
+			},
+			{
+				"id": "61214",
+				"type": "FOOT",
+				"$data$locale": {
+					"zh-cn": {
+						"name": "司铎的苦旅短靴",
+						"descBG": "他常常在旅行开始之前，挑选一双适脚的靴子。他摔倒过很多次，但他站起过同样多次。"
+					}
+				}
+			}
+		],
+		"versionAdded": "2.6",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "重循苦旅的司铎"
+			}
+		}
+	},
+	{
+		"id": "122",
+		"type": "Cavern",
+		"skills": {
+			"2": {
+				"countRequire": 2,
+				"params": [
+					{
+						"Value": 0.08
+					}
+				],
+				"$data$locale": {
+					"zh-cn": {
+						"desc": "暴击率提高<unbreak>#1[i]%</unbreak>。"
+					}
+				}
+			},
+			"4": {
+				"countRequire": 4,
+				"params": [
+					{
+						"Value": 0.2
+					},
+					{
+						"Value": 0.25
+					}
+				],
+				"$data$locale": {
+					"zh-cn": {
+						"desc": "战技和终结技造成的伤害提高<unbreak>#1[i]%</unbreak>，施放终结技后，下一次施放战技时造成的伤害额外提高<unbreak>#2[i]%</unbreak>。"
+					}
+				}
+			}
+		},
+		"idsRelic": [
+			{
+				"id": "61221",
+				"type": "HEAD",
+				"$data$locale": {
+					"zh-cn": {
+						"name": "学者的银边视镜",
+						"descBG": "一枚映照着巨厦的单片晶石眼镜，与手杖、表链、胸针一起衬托出主人的时髦与学识。"
+					}
+				}
+			},
+			{
+				"id": "61222",
+				"type": "HAND",
+				"$data$locale": {
+					"zh-cn": {
+						"name": "学者的辅助指节",
+						"descBG": "以合金制成、辅助手指活动的外骨骼，需要配合使用者手型订制，价值不菲。"
+					}
+				}
+			},
+			{
+				"id": "61223",
+				"type": "BODY",
+				"$data$locale": {
+					"zh-cn": {
+						"name": "学者的粗纺外套",
+						"descBG": "粗花呢外套和针织衫是学院中常见的搭配，耐用不易皱的面料对访问学者来说正合适。"
+					}
+				}
+			},
+			{
+				"id": "61224",
+				"type": "FOOT",
+				"$data$locale": {
+					"zh-cn": {
+						"name": "学者的绒皮雪靴",
+						"descBG": "松软舒适的女式短靴，搭配合适的小腿裤会有恰到好处的时尚感，已陪伴主人极地科考多年。"
+					}
+				}
+			}
+		],
+		"versionAdded": "2.6",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "识海迷坠的学者"
+			}
+		}
+	},
+	{
+		"id": "301",
+		"type": "Planar",
+		"skills": {
+			"2": {
+				"countRequire": 2,
+				"params": [
+					{
+						"Value": 0.12
+					},
+					{
+						"Value": 120
+					},
+					{
+						"Value": 0.12
+					}
+				],
+				"$data$locale": {
+					"zh-cn": {
+						"desc": "使装备者的攻击力提高<unbreak>#1[i]%</unbreak>。当装备者的速度大于等于<unbreak>#2[i]</unbreak>时，攻击力额外提高<unbreak>#3[i]%</unbreak>。"
+					}
+				}
+			}
+		},
+		"idsRelic": [
+			{
+				"id": "63015",
+				"type": "NECK",
+				"$data$locale": {
+					"zh-cn": {
+						"name": "「黑塔」的空间站点",
+						"descBG": "位面封装的是「黑塔」空间站，它停靠在湛蓝星上空，沿着既定轨道缓缓漂流，寂静的银河像是本书卷等待翻阅。"
+					}
+				}
+			},
+			{
+				"id": "63016",
+				"type": "OBJECT",
+				"$data$locale": {
+					"zh-cn": {
+						"name": "「黑塔」的漫历轨迹",
+						"descBG": "「黑塔」空间站建立起那一刻，黑塔女士便失去了兴致。它在湛蓝星上空保持着第一宇宙速度，在卫星轨道上留下环绕的轨迹。"
+					}
+				}
+			}
+		],
+		"versionAdded": "1.0",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "太空封印站"
+			}
+		}
+	},
+	{
+		"id": "302",
+		"type": "Planar",
+		"skills": {
+			"2": {
+				"countRequire": 2,
+				"params": [
+					{
+						"Value": 0.12
+					},
+					{
+						"Value": 120
+					},
+					{
+						"Value": 0.08
+					}
+				],
+				"$data$locale": {
+					"zh-cn": {
+						"desc": "使装备者的生命上限提高<unbreak>#1[i]%</unbreak>。当装备者的速度大于等于<unbreak>#2[i]</unbreak>时，我方全体攻击力提高<unbreak>#3[i]%</unbreak>。"
+					}
+				}
+			}
+		},
+		"idsRelic": [
+			{
+				"id": "63025",
+				"type": "NECK",
+				"$data$locale": {
+					"zh-cn": {
+						"name": "罗浮仙舟的天外楼船",
+						"descBG": "泛于星海的罗浮仙舟被收拢于球中，玉界门上浮槎去来，若星月之出入。无数人曾来此寻求长生之秘，却又失望而归。"
+					}
+				}
+			},
+			{
+				"id": "63026",
+				"type": "OBJECT",
+				"$data$locale": {
+					"zh-cn": {
+						"name": "罗浮仙舟的建木枝蔓",
+						"descBG": "曾经罗浮仙舟因建木生发，成为仙舟舰队之尊；后来罗浮仙舟因建木成祸，自食长寿恶果…建木枝蔓已经牢牢缠住罗浮命运，难以分离。"
+					}
+				}
+			}
+		],
+		"versionAdded": "1.0",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "不老者的仙舟"
+			}
+		}
+	},
+	{
+		"id": "303",
+		"type": "Planar",
+		"skills": {
+			"2": {
+				"countRequire": 2,
+				"params": [
+					{
+						"Value": 0.1
+					},
+					{
+						"Value": 0.25
+					},
+					{
+						"Value": 0.25
+					}
+				],
+				"$data$locale": {
+					"zh-cn": {
+						"desc": "使装备者的效果命中提高<unbreak>#1[i]%</unbreak>。同时提高装备者等同于当前效果命中<unbreak>#2[i]%</unbreak>的攻击力，最多提高<unbreak>#3[i]%</unbreak>。"
+					}
+				}
+			}
+		},
+		"idsRelic": [
+			{
+				"id": "63035",
+				"type": "NECK",
+				"$data$locale": {
+					"zh-cn": {
+						"name": "公司的巨构总部",
+						"descBG": "位于庇尔波因特的公司总部被封存在位面球中。在星际和平公司的商业宏图之中，没有一颗星球可以置身事外，他们前往深空，是为了将全宇宙的力量集合起来。"
+					}
+				}
+			},
+			{
+				"id": "63036",
+				"type": "OBJECT",
+				"$data$locale": {
+					"zh-cn": {
+						"name": "公司的贸易航道",
+						"descBG": "借助「信用点体系」的便利，跨越星际的商贸得以成立。星际和平公司用经济活动连缀繁星，拓展了贸易边界。"
+					}
+				}
+			}
+		],
+		"versionAdded": "1.0",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "泛银河商业公司"
+			}
+		}
+	},
+	{
+		"id": "304",
+		"type": "Planar",
+		"skills": {
+			"2": {
+				"countRequire": 2,
+				"params": [
+					{
+						"Value": 0.15
+					},
+					{
+						"Value": 0.5
+					},
+					{
+						"Value": 0.15
+					}
+				],
+				"$data$locale": {
+					"zh-cn": {
+						"desc": "使装备者的防御力提高<unbreak>#1[i]%</unbreak>。当装备者的效果命中大于等于<unbreak>#2[i]%</unbreak>时，防御力额外提高<unbreak>#3[i]%</unbreak>。"
+					}
+				}
+			}
+		},
+		"idsRelic": [
+			{
+				"id": "63045",
+				"type": "NECK",
+				"$data$locale": {
+					"zh-cn": {
+						"name": "贝洛伯格的存护堡垒",
+						"descBG": "位面封装的是贝洛伯格行政区最常见的风景：永冬铭碑。人们从这里路过，感受到来自遥远而温暖的目光守护着他们。"
+					}
+				}
+			},
+			{
+				"id": "63046",
+				"type": "OBJECT",
+				"$data$locale": {
+					"zh-cn": {
+						"name": "贝洛伯格的铁卫防线",
+						"descBG": "贝洛伯格的银鬃铁卫矗立在风雪之中，他们排成一线，等待着前来进犯的天外入侵者。铁卫的意志坚不可摧，铁卫的阵线也绝不后退。"
+					}
+				}
+			}
+		],
+		"versionAdded": "1.0",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "筑城者的贝洛伯格"
+			}
+		}
+	},
+	{
+		"id": "305",
+		"type": "Planar",
+		"skills": {
+			"2": {
+				"countRequire": 2,
+				"params": [
+					{
+						"Value": 0.16
+					},
+					{
+						"Value": 1.2
+					},
+					{
+						"Value": 0.6
+					}
+				],
+				"$data$locale": {
+					"zh-cn": {
+						"desc": "使装备者的暴击伤害提高<unbreak>#1[i]%</unbreak>。当装备者的暴击伤害大于等于<unbreak>#2[i]%</unbreak>时，进入战斗后装备者的暴击率提高<unbreak>#3[i]%</unbreak>，持续到施放首次攻击后结束。"
+					}
+				}
+			}
+		},
+		"idsRelic": [
+			{
+				"id": "63055",
+				"type": "NECK",
+				"$data$locale": {
+					"zh-cn": {
+						"name": "螺丝星的机械烈阳",
+						"descBG": "位面封装的是螺丝星的核心——行星被囚于由无数杠杆、活塞与齿轮构成的囚笼中，螺丝星的住民美其名曰「钢铁太阳」。"
+					}
+				}
+			},
+			{
+				"id": "63056",
+				"type": "OBJECT",
+				"$data$locale": {
+					"zh-cn": {
+						"name": "螺丝星的环星孔带",
+						"descBG": "行星环承载着螺丝星的一切——有多少人曾意识到密布的矩形孔隙阵列书写了行星系统的真相？"
+					}
+				}
+			}
+		],
+		"versionAdded": "1.0",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "星体差分机"
+			}
+		}
+	},
+	{
+		"id": "306",
+		"type": "Planar",
+		"skills": {
+			"2": {
+				"countRequire": 2,
+				"params": [
+					{
+						"Value": 0.08
+					},
+					{
+						"Value": 0.5
+					},
+					{
+						"Value": 0.15
+					}
+				],
+				"$data$locale": {
+					"zh-cn": {
+						"desc": "使装备者的暴击率提高<unbreak>#1[i]%</unbreak>。当装备者当前暴击率大于等于<unbreak>#2[i]%</unbreak>时，终结技和追加攻击造成的伤害提高<unbreak>#3[i]%</unbreak>。"
+					}
+				}
+			}
+		},
+		"idsRelic": [
+			{
+				"id": "63065",
+				"type": "NECK",
+				"$data$locale": {
+					"zh-cn": {
+						"name": "萨尔索图的移动城市",
+						"descBG": "位面封装的是萨尔索图星上仅剩的移动城市之一：风滚草。这座城市从未停下，才勉强做到不被黑夜或者极昼吞没。"
+					}
+				}
+			},
+			{
+				"id": "63066",
+				"type": "OBJECT",
+				"$data$locale": {
+					"zh-cn": {
+						"name": "萨尔索图的晨昏界线",
+						"descBG": "停止自转的萨尔索图星的日夜周期漫长无比，人们只有追逐着「晨昏交界线」不断迁徙，才能勉强维持住仅剩的生存空间。"
+					}
+				}
+			}
+		],
+		"versionAdded": "1.0",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "停转的萨尔索图"
+			}
+		}
+	},
+	{
+		"id": "307",
+		"type": "Planar",
+		"skills": {
+			"2": {
+				"countRequire": 2,
+				"params": [
+					{
+						"Value": 0.16
+					},
+					{
+						"Value": 145
+					},
+					{
+						"Value": 0.2
+					}
+				],
+				"$data$locale": {
+					"zh-cn": {
+						"desc": "使装备者的击破特攻提高<unbreak>#1[i]%</unbreak>。当装备者的速度大于等于<unbreak>#2[i]</unbreak>时，击破特攻额外提高<unbreak>#3[i]%</unbreak>。"
+					}
+				}
+			}
+		},
+		"idsRelic": [
+			{
+				"id": "63075",
+				"type": "NECK",
+				"$data$locale": {
+					"zh-cn": {
+						"name": "塔利亚的钉壳小镇",
+						"descBG": "位面封装的是塔利亚上无依无靠的破落小镇：「钉壳」。盗贼们在这个水源地建立破布、钢筋和木板的小镇，为了暂时的和平。"
+					}
+				}
+			},
+			{
+				"id": "63076",
+				"type": "OBJECT",
+				"$data$locale": {
+					"zh-cn": {
+						"name": "塔利亚的裸皮电线",
+						"descBG": "这是从废料场中收捡来电线，它的绝缘层部分脱落，部分残留，但仍然没有退役。在塔利亚的盗匪小镇上，从来就没有真正的废物。"
+					}
+				}
+			}
+		],
+		"versionAdded": "1.0",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "盗贼公国塔利亚"
+			}
+		}
+	},
+	{
+		"id": "308",
+		"type": "Planar",
+		"skills": {
+			"2": {
+				"countRequire": 2,
+				"params": [
+					{
+						"Value": 0.05
+					},
+					{
+						"Value": 120
+					},
+					{
+						"Value": 0.4
+					}
+				],
+				"$data$locale": {
+					"zh-cn": {
+						"desc": "使装备者的能量恢复效率提高<unbreak>#1[i]%</unbreak>。当装备者的速度大于等于<unbreak>#2[i]</unbreak>时，进入战斗时立刻使行动提前<unbreak>#3[i]%</unbreak>。"
+					}
+				}
+			}
+		},
+		"idsRelic": [
+			{
+				"id": "63085",
+				"type": "NECK",
+				"$data$locale": {
+					"zh-cn": {
+						"name": "翁瓦克的诞生之岛",
+						"descBG": "位面封装的翁瓦克星球上最著名的岛屿——瓦克岛。整座岛屿郁郁葱葱，在名为「西斯腾」的大树上，结满了各式动物的果实。"
+					}
+				}
+			},
+			{
+				"id": "63086",
+				"type": "OBJECT",
+				"$data$locale": {
+					"zh-cn": {
+						"name": "翁瓦克的环岛海岸",
+						"descBG": "瓦克岛的海岸线上，海面时高时低，浪潮时涨时落…千年不变的风景，见证了如同潮汐一般的兴衰。"
+					}
+				}
+			}
+		],
+		"versionAdded": "1.0",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "生命的翁瓦克"
+			}
+		}
+	},
+	{
+		"id": "309",
+		"type": "Planar",
+		"skills": {
+			"2": {
+				"countRequire": 2,
+				"params": [
+					{
+						"Value": 0.08
+					},
+					{
+						"Value": 0.7
+					},
+					{
+						"Value": 0.2
+					}
+				],
+				"$data$locale": {
+					"zh-cn": {
+						"desc": "使装备者的暴击率提高<unbreak>#1[i]%</unbreak>。当装备者的当前暴击率大于等于<unbreak>#2[i]%</unbreak>时，普攻和战技造成的伤害提高<unbreak>#3[i]%</unbreak>。"
+					}
+				}
+			}
+		},
+		"idsRelic": [
+			{
+				"id": "63095",
+				"type": "NECK",
+				"$data$locale": {
+					"zh-cn": {
+						"name": "泰科铵的镭射球场",
+						"descBG": "位面封装的泰科铵星规格最高的竞技场——泰科铵大球馆。球馆内外人声鼎沸，彩旗展动…激动人心的机动球竞技比赛将在万众瞩目中盛大开幕。"
+					}
+				}
+			},
+			{
+				"id": "63096",
+				"type": "OBJECT",
+				"$data$locale": {
+					"zh-cn": {
+						"name": "泰科铵的弧光赛道",
+						"descBG": "泰科铵大球馆的标准赛道通常为金属结构外覆光滑混凝土与原木地板。为了让场内观众清晰观赛，大量透明聚碳酸酯材料被投入球馆，战况一览无余。"
+					}
+				}
+			}
+		],
+		"versionAdded": "1.2",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "繁星竞技场"
+			}
+		}
+	},
+	{
+		"id": "310",
+		"type": "Planar",
+		"skills": {
+			"2": {
+				"countRequire": 2,
+				"params": [
+					{
+						"Value": 0.1
+					},
+					{
+						"Value": 0.3
+					},
+					{
+						"Value": 0.1
+					}
+				],
+				"$data$locale": {
+					"zh-cn": {
+						"desc": "使装备者的效果抵抗提高<unbreak>#1[i]%</unbreak>。当装备者的效果抵抗大于等于<unbreak>#2[i]%</unbreak>时，我方全体暴击伤害提高<unbreak>#3[i]%</unbreak>。"
+					}
+				}
+			}
+		},
+		"idsRelic": [
+			{
+				"id": "63105",
+				"type": "NECK",
+				"$data$locale": {
+					"zh-cn": {
+						"name": "伊须磨洲的残船鲸落",
+						"descBG": "位面封装的是塔拉萨的伊须磨洲自治区。仙舟「岱舆」断舰坠毁于此，启迪了伊须磨洲文明。"
+					}
+				}
+			},
+			{
+				"id": "63106",
+				"type": "OBJECT",
+				"$data$locale": {
+					"zh-cn": {
+						"name": "伊须磨洲的坼裂缆索",
+						"descBG": "坠落的仙舟「岱舆」断舰永远地碇泊在异乡，也许是时候解开缆索，让它返航了。"
+					}
+				}
+			}
+		],
+		"versionAdded": "1.2",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "折断的龙骨"
+			}
+		}
+	},
+	{
+		"id": "311",
+		"type": "Planar",
+		"skills": {
+			"2": {
+				"countRequire": 2,
+				"params": [
+					{
+						"Value": 0.12
+					},
+					{
+						"Value": 135
+					},
+					{
+						"Value": 160
+					},
+					{
+						"Value": 0.12
+					},
+					{
+						"Value": 0.18
+					}
+				],
+				"$data$locale": {
+					"zh-cn": {
+						"desc": "使装备者的攻击力提高<unbreak>#1[i]%</unbreak>。当装备者的速度大于等于<unbreak>#2[i]</unbreak>/<unbreak>#3[i]</unbreak>时，使装备者造成的伤害提高<unbreak>#4[i]%</unbreak>/<unbreak>#5[i]%</unbreak>。"
+					}
+				}
+			}
+		},
+		"idsRelic": [
+			{
+				"id": "63115",
+				"type": "NECK",
+				"$data$locale": {
+					"zh-cn": {
+						"name": "格拉默的铁骑兵团",
+						"descBG": "位面球中封装的是格拉默帝国盛名在外的铁骑变形鞘。无数白银机甲被装载进舰船，驶向星系外缘，抵御自深空而来的虫群恶蠹。"
+					}
+				}
+			},
+			{
+				"id": "63116",
+				"type": "OBJECT",
+				"$data$locale": {
+					"zh-cn": {
+						"name": "格拉默的寂静坟碑",
+						"descBG": "鼎盛的「帝国」格拉默化为了尘埃。没有任何东西能证明它往日的辉煌，唯有星尘、机甲、舰船与虫群的残骸飘荡在真空中绵延成河，维持着惨烈战线的原状，也成了它陨落的纪念碑。"
+					}
+				}
+			}
+		],
+		"versionAdded": "1.5",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "苍穹战线格拉默"
+			}
+		}
+	},
+	{
+		"id": "312",
+		"type": "Planar",
+		"skills": {
+			"2": {
+				"countRequire": 2,
+				"params": [
+					{
+						"Value": 0.05
+					},
+					{
+						"Value": 0.1
+					}
+				],
+				"$data$locale": {
+					"zh-cn": {
+						"desc": "使装备者的能量恢复效率提高<unbreak>#1[i]%</unbreak>。使队伍中与装备者属性相同的我方其他角色造成的伤害提高<unbreak>#2[i]%</unbreak>。"
+					}
+				}
+			}
+		},
+		"idsRelic": [
+			{
+				"id": "63125",
+				"type": "NECK",
+				"$data$locale": {
+					"zh-cn": {
+						"name": "匹诺康尼的堂皇酒店",
+						"descBG": "位面封装的是匹诺康尼的主体——「白日梦」酒店。在此下榻的宾客将去往美梦的世界，在无所不可的大都会中，享受纸醉金迷的盛宴。"
+					}
+				}
+			},
+			{
+				"id": "63126",
+				"type": "OBJECT",
+				"$data$locale": {
+					"zh-cn": {
+						"name": "匹诺康尼的逐梦轨道",
+						"descBG": "匹诺康尼的梦境都市里，复杂的轨道盘绕于楼宇之间，托起游客搭乘的球笼，将五色缤纷的梦连为一体。"
+					}
+				}
+			}
+		],
+		"versionAdded": "1.5",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "梦想之地匹诺康尼"
+			}
+		}
+	},
+	{
+		"id": "313",
+		"type": "Planar",
+		"skills": {
+			"2": {
+				"countRequire": 2,
+				"params": [
+					{
+						"Value": 0.04
+					},
+					{
+						"Value": 10
+					},
+					{
+						"Value": 0.04
+					}
+				],
+				"$data$locale": {
+					"zh-cn": {
+						"desc": "使装备者的暴击率提高<unbreak>#3[i]%</unbreak>。当敌方目标被消灭时，装备者暴击伤害提高<unbreak>#1[i]%</unbreak>，最多叠加<unbreak>#2[i]</unbreak>层。"
+					}
+				}
+			}
+		},
+		"idsRelic": [
+			{
+				"id": "63135",
+				"type": "NECK",
+				"$data$locale": {
+					"zh-cn": {
+						"name": "茨冈尼亚的母神卧榻",
+						"descBG": "位面封装的是茨冈尼亚-Ⅳ最宜居的地带——死寂荒漠「母神卧榻」。三重眼的地母神沉默而朴素，以其厚重的身躯无言地包罗茨冈尼亚的一切生者和死者。"
+					}
+				}
+			},
+			{
+				"id": "63136",
+				"type": "OBJECT",
+				"$data$locale": {
+					"zh-cn": {
+						"name": "茨冈尼亚的轮回纽结",
+						"descBG": "绿松陨石被埃维金人细细磋磨，又以金线翠缎穿之。他们说护身的纽结绝不应被黄沙埋没，而要璀璨得如同「卡卡瓦」之夜里自死亡中脱胎的神体。"
+					}
+				}
+			}
+		],
+		"versionAdded": "2.1",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "无主荒星茨冈尼亚"
+			}
+		}
+	},
+	{
+		"id": "314",
+		"type": "Planar",
+		"skills": {
+			"2": {
+				"countRequire": 2,
+				"params": [
+					{
+						"Value": 0.12
+					},
+					{
+						"Value": 0.12
+					}
+				],
+				"$data$locale": {
+					"zh-cn": {
+						"desc": "使装备者的攻击力提高<unbreak>#1[i]%</unbreak>。进入战斗时，若至少存在一名与装备者命途相同的队友，装备者的暴击率提高<unbreak>#2[i]%</unbreak>。"
+					}
+				}
+			}
+		},
+		"idsRelic": [
+			{
+				"id": "63145",
+				"type": "NECK",
+				"$data$locale": {
+					"zh-cn": {
+						"name": "出云的祸津众神",
+						"descBG": "位面封装的是被一刀斩开过去未来的出云。出云曾遍历不堪言状的生存战争，也曾有过饫甘餍肥的辉煌岁月…如今荒土业已无处可寻，唯余下埋葬往昔的剑冢。"
+					}
+				}
+			},
+			{
+				"id": "63146",
+				"type": "OBJECT",
+				"$data$locale": {
+					"zh-cn": {
+						"name": "出云的终始一刀",
+						"descBG": "出云人借由刀穗将利刃系于腰间。他们行走世间，以刀狩神，又以神骸锻刀…如此循环往复，出云走向繁荣、走向幻灭、走向空无。"
+					}
+				}
+			}
+		],
+		"versionAdded": "2.1",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "出云显世与高天神国"
+			}
+		}
+	},
+	{
+		"id": "315",
+		"type": "Planar",
+		"skills": {
+			"2": {
+				"countRequire": 2,
+				"params": [
+					{
+						"Value": 5
+					},
+					{
+						"Value": 0.05
+					},
+					{
+						"Value": 0.25
+					}
+				],
+				"$data$locale": {
+					"zh-cn": {
+						"desc": "我方角色施放追加攻击时，装备者获得一层【功勋】，最多叠加<unbreak>#1[i]</unbreak>层，每层【功勋】使装备者追加攻击造成的伤害提高<unbreak>#2[i]%</unbreak>，叠满<unbreak>#1[i]</unbreak>层时，额外使装备者的暴击伤害提高<unbreak>#3[i]%</unbreak>。"
+					}
+				}
+			}
+		},
+		"idsRelic": [
+			{
+				"id": "63155",
+				"type": "NECK",
+				"$data$locale": {
+					"zh-cn": {
+						"name": "都蓝的穹窿金帐",
+						"descBG": "位面封装的是青丘步离的穹窿金帐。与步离人留在银河中的蛮野名声不同，他们拥有非凡的生物技术。狼子们汇聚在伟大的巢父都蓝之侧，将天上众星视为牧畜，逐驰其间。"
+					}
+				}
+			},
+			{
+				"id": "63156",
+				"type": "OBJECT",
+				"$data$locale": {
+					"zh-cn": {
+						"name": "都蓝的器兽缰辔",
+						"descBG": "是缰绳、是锁镣，亦是皮鞭。高过战兽腿的步离青年被教会的第一个道理就是：永远要把缰绳握紧在手里，否则自己将成为被奴役的牲畜，甚至饲料。"
+					}
+				}
+			}
+		],
+		"versionAdded": "2.3",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "奔狼的都蓝王朝"
+			}
+		}
+	},
+	{
+		"id": "316",
+		"type": "Planar",
+		"skills": {
+			"2": {
+				"countRequire": 2,
+				"params": [
+					{
+						"Value": 0.06
+					},
+					{
+						"Value": 0.4
+					},
+					{
+						"Value": 1
+					}
+				],
+				"$data$locale": {
+					"zh-cn": {
+						"desc": "使装备者的速度提高<unbreak>#1[i]%</unbreak>。当装备者击中拥有火属性弱点的敌方目标时，击破特攻提高<unbreak>#2[i]%</unbreak>，持续<unbreak>#3[i]</unbreak>回合。"
+					}
+				}
+			}
+		},
+		"idsRelic": [
+			{
+				"id": "63165",
+				"type": "NECK",
+				"$data$locale": {
+					"zh-cn": {
+						"name": "铸炼宫的莲华灯芯",
+						"descBG": "位面封装的是朱明仙舟的工造司所在地——焰轮铸炼宫，朱明仙舟围绕着岁阳之祖「燧皇」构建的天体级球形结构。天才匠人们自其中汲取能量，将奇思异想打造成型。"
+					}
+				}
+			},
+			{
+				"id": "63166",
+				"type": "OBJECT",
+				"$data$locale": {
+					"zh-cn": {
+						"name": "铸炼宫的焰轮天绸",
+						"descBG": "伟如恒星般的岁阳始祖沉陷在无边梦境之中。在它的酣眠之中，周身的原子与分子碰撞激发，不断从焰轮铸炼的外壳结构中逸散出来，最终呈现为色彩纷呈的天绸光带。"
+					}
+				}
+			}
+		],
+		"versionAdded": "2.3",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "劫火莲灯铸炼宫"
+			}
+		}
+	},
+	{
+		"id": "317",
+		"type": "Planar",
+		"skills": {
+			"2": {
+				"countRequire": 2,
+				"params": [
+					{
+						"Value": 0.05
+					},
+					{
+						"Value": 0.12
+					}
+				],
+				"$data$locale": {
+					"zh-cn": {
+						"desc": "使装备者的能量恢复效率提高<unbreak>#1[i]%</unbreak>，如果装备者不是编队中的第一位角色，使编队中的第一位角色攻击力提高<unbreak>#2[i]%</unbreak>。"
+					}
+				}
+			}
+		},
+		"idsRelic": [
+			{
+				"id": "63175",
+				"type": "NECK",
+				"$data$locale": {
+					"zh-cn": {
+						"name": "露莎卡的水朽苍都",
+						"descBG": "位面封装的是海洋世界露莎卡一处被淹没的城市。海平线不断上升直到城市也被淹没，只有巨大的「船邦」载着船员们在海上前进，找寻下次远航的方向。"
+					}
+				}
+			},
+			{
+				"id": "63176",
+				"type": "OBJECT",
+				"$data$locale": {
+					"zh-cn": {
+						"name": "露莎卡的双生航道",
+						"descBG": "无垠的水平线内，即使只存浅痕，也足以打破这份沉寂。航线承载着船员的历史，水灵于水道追寻着希望。"
+					}
+				}
+			}
+		],
+		"versionAdded": "2.5",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "沉陆海域露莎卡"
+			}
+		}
+	},
+	{
+		"id": "318",
+		"type": "Planar",
+		"skills": {
+			"2": {
+				"countRequire": 2,
+				"params": [
+					{
+						"Value": 0.16
+					},
+					{
+						"Value": 0.32
+					}
+				],
+				"$data$locale": {
+					"zh-cn": {
+						"desc": "使装备者的暴击伤害提高<unbreak>#1[i]%</unbreak>，当存在装备者召唤的目标时，暴击伤害额外提高<unbreak>#2[i]%</unbreak>。"
+					}
+				}
+			}
+		},
+		"idsRelic": [
+			{
+				"id": "63185",
+				"type": "NECK",
+				"$data$locale": {
+					"zh-cn": {
+						"name": "蕉乐园的蕉芯广场",
+						"descBG": "位面球封装的是某个科研团体下设实验室之一，因为模因污染，信息的真实与虚假已经彻底混合，难以分清，现已被认知重塑为「蕉乐园」。"
+					}
+				}
+			},
+			{
+				"id": "63186",
+				"type": "OBJECT",
+				"$data$locale": {
+					"zh-cn": {
+						"name": "蕉乐园的模因线缆",
+						"descBG": "实验室中随处可见的光信号缆线，它被用于采集实验数据，以达成不可告人的秘密。对「香蕉们」而言，认知世界的方法就藏在其中。"
+					}
+				}
+			}
+		],
+		"versionAdded": "2.5",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "奇想蕉乐园"
+			}
+		}
+	}
+]

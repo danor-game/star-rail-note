@@ -1,7 +1,7 @@
 /**
- * @file @nuogz/common-eslint-config
+ * @file @nuogz/dynamic-eslint-config
  * @author DanoR
- * @version 5.2.2 2024.09.03 17
+ * @version 5.3.0 2024.10.10 16
  * @requires globals
  * @requires @eslint/js
  * @requires @stylistic/eslint-plugin-js
@@ -55,49 +55,90 @@ const configs = [
 
 
 
-if(typesSource.has('node') && typesSource.has('browser')) {
+if(typesSource.has('node')) {
 	configs.push({
-		name: 'globals-node-with-browser',
-		ignores: [
+		name: 'globals-node',
+		languageOptions: { globals: globals.nodeBuiltin },
+	});
+}
+
+if(typesSource.has('browser')) {
+	if(!typesSource.has('node')) {
+		configs.push({
+			name: 'globals-browser',
+			ignores: ['**/eslint.config.?(c|m)js'],
+			languageOptions: { globals: globals.browser },
+		});
+
+		configs.push({
+			name: 'globals-node-config',
+			files: ['**/eslint.config.?(c|m)js'],
+			languageOptions: { globals: globals.nodeBuiltin },
+		});
+	}
+	else {
+		const configGlobalsNode = configs.find(config => config.name == 'globals-node');
+
+		configGlobalsNode.ignores = configGlobalsNode.ignores ?? [];
+		configGlobalsNode.ignores.push(...[
 			'**/*.pure.?(c|m)js',
 			'src/**/*.?(c|m)js',
 			'!src/**/*.{api,lib,map}.?(c|m)js',
 			'!src/**/*.lib/**/*.?(c|m)js'
-		],
-		languageOptions: { globals: globals.node },
-	});
+		]);
 
-	configs.push({
-		name: 'globals-browser-with-node',
-		files: ['src/**/*.?(c|m)js'],
-		ignores: [
-			'eslint.config.?(c|m)js',
-			'**/*.pure.?(c|m)js',
-			'src/**/*.{api,lib,map}.?(c|m)js',
-			'src/**/*.lib/**/*.?(c|m)js'
-		],
-		languageOptions: { globals: globals.browser },
-	});
+		configs.push({
+			name: 'globals-browser',
+			files: ['src/**/*.?(c|m)js'],
+			ignores: [
+				'**/*.pure.?(c|m)js',
+				'src/**/*.{api,lib,map}.?(c|m)js',
+				'src/**/*.lib/**/*.?(c|m)js'
+			],
+			languageOptions: { globals: globals.browser },
+		});
+	}
 }
-else if(typesSource.has('node')) {
-	configs.push({
-		name: 'globals-node-only',
-		languageOptions: { globals: globals.node }
-	});
-}
-else if(typesSource.has('browser')) {
-	configs.push({
-		name: 'globals-browser-only',
-		ignores: ['eslint.config.?(c|m)js'],
-		languageOptions: { globals: globals.browser },
-	});
 
-	configs.push({
-		name: 'globals-node-config-patch',
-		files: ['eslint.config.?(c|m)js'],
-		languageOptions: { globals: globals.node },
-	});
+
+
+if(typesSource.has('extendscript-esnext')) {
+	let globalsExtendScript = {};
+	try {
+		globalsExtendScript = (await import('./globals/extendscript.mjs')).default;
+	}
+	catch { void 0; }
+
+
+	if(!typesSource.has('node')) {
+		configs.push({
+			name: 'globals-extendscript',
+			ignores: ['**/eslint.config.?(c|m)js'],
+			languageOptions: { globals: globalsExtendScript },
+		});
+
+		configs.push({
+			name: 'globals-node-config',
+			files: ['**/eslint.config.?(c|m)js'],
+			languageOptions: { globals: globals.nodeBuiltin },
+		});
+	}
+	else {
+		const configGlobalsNode = configs.find(config => config.name == 'globals-node');
+
+		configGlobalsNode.ignores = configGlobalsNode.ignores ?? [];
+		configGlobalsNode.ignores.push(...[
+			'src-extend/**/*.?(c|m)js',
+		]);
+
+		configs.push({
+			name: 'globals-extendscript',
+			files: ['src-extend/**/*.?(c|m)js'],
+			languageOptions: { globals: globalsExtendScript },
+		});
+	}
 }
+
 
 
 if(typesSource.has('vue')) {
@@ -133,27 +174,30 @@ if(typesSource.has('vue')) {
 }
 
 
+
 const typesNodeConfig = [...typesSource.values()].filter(typeSource => typeSource.endsWith('@node-config'));
 if(typesNodeConfig.length) {
-	const configBrowserOnly = configs.find(config => config.name == 'globals-browser-only');
-	const configBrowserWithNode = configs.find(config => config.name == 'globals-browser-with-node');
+	const configGlobalsBrowser = configs.find(config => config.name == 'globals-browser');
 
-	let configNodeConfig = configs.find(config => config.name == 'globals-node-config-patch');
-	if(!configNodeConfig) {
-		configs.push(configNodeConfig = {
-			name: 'globals-node-config-patch',
-			files: [],
-			languageOptions: { globals: globals.node },
+
+	let configGlobalsNodeConfig = configs.find(config => config.name == 'globals-node-config');
+	if(!configGlobalsNodeConfig) {
+		configs.push(configGlobalsNodeConfig = {
+			name: 'globals-node-config',
+			files: ['**/eslint.config.?(c|m)js'],
+			languageOptions: { globals: globals.nodeBuiltin },
 		});
 	}
+
+
+	if(configGlobalsBrowser) { configGlobalsBrowser.ignores = configGlobalsBrowser.ignores ?? []; }
 
 	for(const typeNodeConfig of typesNodeConfig) {
 		const [typePackage] = typeNodeConfig.split('@');
 
-		configNodeConfig.files.push(`**/${typePackage}.config.?(c|m)js`);
+		configGlobalsNodeConfig.files.push(`**/${typePackage}.config.?(c|m)js`);
 
-		configBrowserOnly?.ignores.push(`**/${typePackage}.config.?(c|m)js`);
-		configBrowserWithNode?.ignores.push(`**/${typePackage}.config.?(c|m)js`);
+		configGlobalsBrowser?.ignores.push(`**/${typePackage}.config.?(c|m)js`);
 	}
 }
 

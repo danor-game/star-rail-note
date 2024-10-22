@@ -728,6 +728,19 @@
 		}
 	},
 	{
+		"id": "1317",
+		"element": "Imaginary",
+		"path": "Mage",
+		"rarity": 5,
+		"versionAdded": "2.6",
+		"versionAvailable": "2.6",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "乱破"
+			}
+		}
+	},
+	{
 		"id": "8001",
 		"element": "Physical",
 		"path": "Warrior",
