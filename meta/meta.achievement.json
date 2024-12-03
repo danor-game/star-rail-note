@@ -513,7 +513,6 @@
 			1
 		],
 		"priority": 987,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:2.5"
 		],
@@ -1117,7 +1116,6 @@
 		"series": 3,
 		"descHide": "为你我的命运添上新的注脚",
 		"priority": 961,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:2.3",
 			"隐藏描述"
@@ -1132,7 +1130,6 @@
 		"series": 3,
 		"descHide": "决定匹诺康尼之旅的下一站",
 		"priority": 960,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:2.3",
 			"隐藏描述"
@@ -1147,7 +1144,6 @@
 		"series": 3,
 		"descHide": "当两柄剑相遇…",
 		"priority": 959,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:2.4",
 			"隐藏描述"
@@ -1194,7 +1190,6 @@
 		"series": 3,
 		"descHide": "开启货箱，犹如开启一尊棺木…",
 		"priority": 956,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:2.4",
 			"隐藏描述"
@@ -1209,7 +1204,6 @@
 		"series": 3,
 		"descHide": "接下师父们的礼物与殷切期待",
 		"priority": 955,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:2.4",
 			"隐藏描述"
@@ -1224,7 +1218,6 @@
 		"series": 3,
 		"descHide": "而今，最危险的囚犯挣脱了枷锁",
 		"priority": 954,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:2.4",
 			"隐藏描述"
@@ -1239,7 +1232,6 @@
 		"series": 3,
 		"descHide": "猎人与猎物的游戏尚未开始",
 		"priority": 953,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:2.4",
 			"隐藏描述"
@@ -1254,7 +1246,6 @@
 		"series": 3,
 		"descHide": "锋镝落定，狞兽敛爪，猎人收弓",
 		"priority": 952,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:2.5",
 			"隐藏描述"
@@ -1269,7 +1260,6 @@
 		"series": 3,
 		"descHide": "逆潮而行，兴风作浪，逃不过被浪涛吞没的时刻来临…",
 		"priority": 951,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:2.5",
 			"隐藏描述"
@@ -1284,7 +1274,6 @@
 		"series": 3,
 		"descHide": "我的敌人，永远只有我自己",
 		"priority": 950,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:2.5",
 			"隐藏描述"
@@ -1299,7 +1288,6 @@
 		"series": 3,
 		"descHide": "七百年，能改变许多事情…",
 		"priority": 949,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:2.5",
 			"隐藏描述"
@@ -1309,12 +1297,11 @@
 	{
 		"id": 4033601,
 		"title": "壮绝•狩猎•终了",
-		"desc": "灭却末法•劫火，完成壮绝•狩猎，此事在《银河忍法帖》中亦有记载\\n※ 击败「奇想林中的蕉研组」",
+		"desc": "灭却末法•劫火，完成壮绝•狩猎，此事在《银河忍法帖》中亦有记载\\n<color=#8790abff>※ 击败「奇想林中的蕉研组」</color>",
 		"rarity": "Mid",
 		"series": 3,
 		"descHide": "灭却末法•劫火，完成壮绝•狩猎，此事在《银河忍法帖》中亦有记载",
 		"priority": 948,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:2.6",
 			"隐藏描述"
@@ -1324,12 +1311,11 @@
 	{
 		"id": 4033602,
 		"title": "蕉个朋友!",
-		"desc": "蕉？蕉蕉，蕉蕉蕉蕉！\\n※ 第一次见到「睡蕉小猴」",
+		"desc": "蕉？蕉蕉，蕉蕉蕉蕉！\\n<color=#8790abff>※ 第一次见到「睡蕉小猴」</color>",
 		"rarity": "Mid",
 		"series": 3,
 		"descHide": "蕉？蕉蕉，蕉蕉蕉蕉！",
 		"priority": 947,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:2.6",
 			"隐藏描述"
@@ -1339,7 +1325,7 @@
 	{
 		"id": 4033603,
 		"title": "建筑师之腹",
-		"desc": "这点苦都受不了，干别的肯定也不行\\n※成为筑梦学院的学生",
+		"desc": "这点苦都受不了，干别的肯定也不行\\n<color=#8790abff>※成为筑梦学院的学生</color>",
 		"rarity": "Mid",
 		"series": 3,
 		"descHide": "这点苦都受不了，干别的肯定也不行",
@@ -1357,7 +1343,7 @@
 	{
 		"id": 4033604,
 		"title": "歌舞青春",
-		"desc": "跟组品尝十二梦境菜式盒饭，上镜收集斯坦威游隼碎片\\n※成为谐乐学院的学生",
+		"desc": "跟组品尝十二梦境菜式盒饭，上镜收集斯坦威游隼碎片\\n<color=#8790abff>※成为谐乐学院的学生</color>",
 		"rarity": "Mid",
 		"series": 3,
 		"descHide": "跟组品尝十二梦境菜式盒饭，上镜收集斯坦威游隼碎片",
@@ -1375,7 +1361,7 @@
 	{
 		"id": 4033605,
 		"title": "雅皮士之梦",
-		"desc": "上午做下SWOT，下午补个PEST，晚上启动吃瓜PPT\\n※成为财富学院的学生",
+		"desc": "上午做下SWOT，下午补个PEST，晚上启动吃瓜PPT\\n<color=#8790abff>※成为财富学院的学生</color>",
 		"rarity": "Mid",
 		"series": 3,
 		"descHide": "上午做下SWOT，下午补个PEST，晚上启动吃瓜PPT",
@@ -1393,7 +1379,7 @@
 	{
 		"id": 4033606,
 		"title": "绳索与棍棒",
-		"desc": "世界上有两种人，一种不讲道理，一种喜欢放屁\\n※波提欧视角下，用抢来的证件加入睡蕉社",
+		"desc": "世界上有两种人，一种不讲道理，一种喜欢放屁\\n<color=#8790abff>※波提欧视角下，用抢来的证件加入睡蕉社</color>",
 		"rarity": "Mid",
 		"series": 3,
 		"descHide": "世界上有两种人，一种不讲道理，一种喜欢放屁",
@@ -1410,7 +1396,7 @@
 	{
 		"id": 4033607,
 		"title": "没有「人」比我更懂睡蕉",
-		"desc": "世界上有两种枪手，一种知道怎么开枪，一种知道怎么不开枪\\n※波提欧视角下，通过测验加入睡蕉社",
+		"desc": "世界上有两种枪手，一种知道怎么开枪，一种知道怎么不开枪\\n<color=#8790abff>※波提欧视角下，通过测验加入睡蕉社</color>",
 		"rarity": "Mid",
 		"series": 3,
 		"descHide": "世界上有两种枪手，一种知道怎么开枪，一种知道怎么不开枪",
@@ -1427,12 +1413,11 @@
 	{
 		"id": 4033608,
 		"title": "蕉学事故",
-		"desc": "哟，想让我尊重你，你得先学会尊重别人\\n※第一次击败学校中的「蕉师」",
+		"desc": "哟，想让我尊重你，你得先学会尊重别人\\n<color=#8790abff>※第一次击败学校中的「蕉师」</color>",
 		"rarity": "Mid",
 		"series": 3,
 		"descHide": "哟，想让我尊重你，你得先学会尊重别人",
 		"priority": 941,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:2.6",
 			"隐藏描述"
@@ -1442,12 +1427,11 @@
 	{
 		"id": 4033609,
 		"title": "我的朋友波提欧",
-		"desc": "猿猴崇尚野蛮，也将以野蛮的方式死去\\n※波提欧视角下，击败扰乱流梦礁的「助蕉」",
+		"desc": "猿猴崇尚野蛮，也将以野蛮的方式死去\\n<color=#8790abff>※波提欧视角下，击败扰乱流梦礁的「助蕉」</color>",
 		"rarity": "Mid",
 		"series": 3,
 		"descHide": "猿猴崇尚野蛮，也将以野蛮的方式死去",
 		"priority": 940,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:2.6",
 			"隐藏描述"
@@ -1457,12 +1441,11 @@
 	{
 		"id": 4033610,
 		"title": "侠忍•前尘",
-		"desc": "窥探忍界•暗面的真实，扫却缭乱•忍侠旧忆上的落尘•蛛丝\\n※见证乱破的前尘•影事",
+		"desc": "窥探忍界•暗面的真实，扫却缭乱•忍侠旧忆上的落尘•蛛丝\\n<color=#8790abff>※见证乱破的前尘•影事</color>",
 		"rarity": "Mid",
 		"series": 3,
 		"descHide": "窥探忍界•暗面的真实，扫却缭乱•忍侠旧忆上的落尘•蛛丝",
 		"priority": 939,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:2.6",
 			"隐藏描述"
@@ -1472,7 +1455,7 @@
 	{
 		"id": 4033611,
 		"title": "邪祟•惊觉",
-		"desc": "实际慈悲，此战有如大药师神向病危的邪祟垂下易断的蛛丝，点到•为止\\n※在「睡蕉的时刻」中，击败少量「睡蕉小猴」",
+		"desc": "实际慈悲，此战有如大药师神向病危的邪祟垂下易断的蛛丝，点到•为止\\n<color=#8790abff>※在「睡蕉的时刻」中，击败少量「睡蕉小猴」</color>",
 		"rarity": "Mid",
 		"series": 3,
 		"descHide": "实际慈悲，此战有如大药师神向病危的邪祟垂下易断的蛛丝，点到•为止",
@@ -1490,7 +1473,7 @@
 	{
 		"id": 4033612,
 		"title": "邪祟•破除",
-		"desc": "实际无情，此战有如大拏怒苛神的怒目邪火般吞噬了诸般邪祟，风卷•残云\\n※在「睡蕉的时刻」中，击败许多「睡蕉小猴」",
+		"desc": "实际无情，此战有如大拏怒苛神的怒目邪火般吞噬了诸般邪祟，风卷•残云\\n<color=#8790abff>※在「睡蕉的时刻」中，击败许多「睡蕉小猴」</color>",
 		"rarity": "Mid",
 		"series": 3,
 		"descHide": "实际无情，此战有如大拏怒苛神的怒目邪火般吞噬了诸般邪祟，风卷•残云",
@@ -1508,7 +1491,7 @@
 	{
 		"id": 4033613,
 		"title": "邪祟•无踪",
-		"desc": "实际可怖，此战有如大岚神亲手向邪祟掷出了万亿忍•神•光矢，净除•殆尽\\n※在「睡蕉的时刻」中，击败大量「睡蕉小猴」",
+		"desc": "实际可怖，此战有如大岚神亲手向邪祟掷出了万亿忍•神•光矢，净除•殆尽\\n<color=#8790abff>※在「睡蕉的时刻」中，击败大量「睡蕉小猴」</color>",
 		"rarity": "Mid",
 		"series": 3,
 		"descHide": "实际可怖，此战有如大岚神亲手向邪祟掷出了万亿忍•神•光矢，净除•殆尽",
@@ -1519,6 +1502,90 @@
 		],
 		"tags": [
 			"版本:2.6",
+			"隐藏描述"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4033701,
+		"title": "在应许与遗忘之间",
+		"desc": "规则就是用来打破的——千万要守护好自己的格言，以免遭窃\\n<color=#8790abff>※星期日视角下，抚平艾迪恩公园的余音</color>",
+		"rarity": "Mid",
+		"series": 3,
+		"descHide": "规则就是用来打破的——千万要守护好自己的格言，以免遭窃",
+		"priority": 935,
+		"tags": [
+			"版本:2.7",
+			"隐藏描述"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4033702,
+		"title": "请别叫她大姐姐",
+		"desc": "是时候了，我们来合成大…\\n<color=#8790abff>※帮助停云恢复原状</color>",
+		"rarity": "Mid",
+		"series": 3,
+		"descHide": "是时候了，我们来合成大…",
+		"priority": 934,
+		"tags": [
+			"版本:2.7",
+			"隐藏描述"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4033703,
+		"title": "化城再来人",
+		"desc": "这还不是结局，在微笑中，请再度沉默一段时光\\n<color=#8790abff>※回答停云的临别一问</color>",
+		"rarity": "Mid",
+		"series": 3,
+		"descHide": "这还不是结局，在微笑中，请再度沉默一段时光",
+		"priority": 933,
+		"tags": [
+			"版本:2.7",
+			"隐藏描述"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4033704,
+		"title": "说吧，记忆",
+		"desc": "我离开是为了回去，回去会解释我的离开\\n<color=#8790abff>※面见仙舟使者</color>",
+		"rarity": "Mid",
+		"series": 3,
+		"descHide": "我离开是为了回去，回去会解释我的离开",
+		"priority": 932,
+		"tags": [
+			"版本:2.7",
+			"隐藏描述"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4033705,
+		"title": "片羽永恒，天空完整",
+		"desc": "不是因为她的亮光，只因我们知晓彼此，可以共渡黑暗\\n<color=#8790abff>※星期日视角下，与知更鸟分别</color>",
+		"rarity": "Mid",
+		"series": 3,
+		"descHide": "不是因为她的亮光，只因我们知晓彼此，可以共渡黑暗",
+		"priority": 931,
+		"tags": [
+			"版本:2.7",
+			"隐藏描述"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4033706,
+		"title": "在第八日启程",
+		"desc": "失去的乐园从未被抛在身后，它在前方\\n<color=#8790abff>※星期日视角下，完成最后的告别</color>",
+		"rarity": "Mid",
+		"series": 3,
+		"descHide": "失去的乐园从未被抛在身后，它在前方",
+		"priority": 930,
+		"tags": [
+			"版本:2.7",
 			"隐藏描述"
 		],
 		"difficulty": {}
@@ -2870,7 +2937,6 @@
 		"rarity": "Low",
 		"series": 4,
 		"priority": 893,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:2.3",
 			"隐藏成就"
@@ -2884,7 +2950,6 @@
 		"rarity": "Low",
 		"series": 4,
 		"priority": 892,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:2.3"
 		],
@@ -2897,7 +2962,6 @@
 		"rarity": "Low",
 		"series": 4,
 		"priority": 891,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:2.4"
 		],
@@ -2910,7 +2974,6 @@
 		"rarity": "Low",
 		"series": 4,
 		"priority": 890,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:2.4"
 		],
@@ -2923,7 +2986,6 @@
 		"rarity": "Low",
 		"series": 8,
 		"priority": 921,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:2.4",
 			"隐藏成就"
@@ -2937,7 +2999,6 @@
 		"rarity": "Low",
 		"series": 4,
 		"priority": 889,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:2.5"
 		],
@@ -2953,7 +3014,6 @@
 			15
 		],
 		"priority": 888,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:2.5"
 		],
@@ -2966,7 +3026,6 @@
 		"rarity": "Low",
 		"series": 4,
 		"priority": 887,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:2.5",
 			"隐藏成就"
@@ -2980,7 +3039,6 @@
 		"rarity": "Low",
 		"series": 4,
 		"priority": 886,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:2.6",
 			"隐藏成就"
@@ -2994,7 +3052,6 @@
 		"rarity": "Mid",
 		"series": 4,
 		"priority": 885,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:2.6",
 			"隐藏成就"
@@ -6612,7 +6669,6 @@
 		"rarity": "Mid",
 		"series": 5,
 		"priority": 717,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:2.3",
 			"隐藏成就"
@@ -6988,7 +7044,6 @@
 		"rarity": "Low",
 		"series": 5,
 		"priority": 715,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:2.3"
 		],
@@ -7001,7 +7056,6 @@
 		"rarity": "Low",
 		"series": 5,
 		"priority": 714,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:2.3"
 		],
@@ -7014,7 +7068,6 @@
 		"rarity": "Low",
 		"series": 5,
 		"priority": 713,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:2.3"
 		],
@@ -7027,7 +7080,6 @@
 		"rarity": "Mid",
 		"series": 5,
 		"priority": 712,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:2.3",
 			"隐藏成就"
@@ -7041,7 +7093,6 @@
 		"rarity": "Low",
 		"series": 5,
 		"priority": 711,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:2.3",
 			"隐藏成就"
@@ -7055,7 +7106,6 @@
 		"rarity": "Low",
 		"series": 5,
 		"priority": 710,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:2.3",
 			"隐藏成就"
@@ -7072,7 +7122,6 @@
 			30
 		],
 		"priority": 709,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:2.3",
 			"隐藏成就"
@@ -7089,7 +7138,6 @@
 			15
 		],
 		"priority": 708,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:2.3",
 			"隐藏成就"
@@ -7106,7 +7154,6 @@
 			300
 		],
 		"priority": 707,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:2.3",
 			"隐藏成就"
@@ -7120,7 +7167,6 @@
 		"rarity": "Low",
 		"series": 5,
 		"priority": 706,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:2.3",
 			"隐藏成就"
@@ -7134,7 +7180,6 @@
 		"rarity": "Low",
 		"series": 5,
 		"priority": 705,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:2.3",
 			"隐藏成就"
@@ -7148,7 +7193,6 @@
 		"rarity": "Low",
 		"series": 5,
 		"priority": 704,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:2.3",
 			"隐藏成就"
@@ -7162,7 +7206,6 @@
 		"rarity": "Low",
 		"series": 5,
 		"priority": 703,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:2.3",
 			"隐藏成就"
@@ -7176,7 +7219,6 @@
 		"rarity": "Low",
 		"series": 5,
 		"priority": 701,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:2.3",
 			"隐藏成就"
@@ -7190,7 +7232,6 @@
 		"rarity": "Low",
 		"series": 5,
 		"priority": 700,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:2.3",
 			"隐藏成就"
@@ -7204,7 +7245,6 @@
 		"rarity": "Low",
 		"series": 5,
 		"priority": 699,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:2.3",
 			"隐藏成就"
@@ -7218,7 +7258,6 @@
 		"rarity": "Low",
 		"series": 5,
 		"priority": 698,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:2.3",
 			"隐藏成就"
@@ -7232,7 +7271,6 @@
 		"rarity": "Low",
 		"series": 5,
 		"priority": 697,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:2.3",
 			"隐藏成就"
@@ -7246,7 +7284,6 @@
 		"rarity": "Low",
 		"series": 5,
 		"priority": 696,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:2.3",
 			"隐藏成就"
@@ -7279,7 +7316,6 @@
 		"rarity": "Low",
 		"series": 5,
 		"priority": 694,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:2.3",
 			"隐藏成就"
@@ -7293,7 +7329,6 @@
 		"rarity": "Low",
 		"series": 5,
 		"priority": 693,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:2.3",
 			"隐藏成就"
@@ -7307,7 +7342,6 @@
 		"rarity": "Low",
 		"series": 5,
 		"priority": 692,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:2.3",
 			"隐藏成就"
@@ -7321,7 +7355,6 @@
 		"rarity": "Low",
 		"series": 5,
 		"priority": 691,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:2.3",
 			"隐藏成就"
@@ -7335,7 +7368,6 @@
 		"rarity": "Low",
 		"series": 5,
 		"priority": 690,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:2.3",
 			"隐藏成就"
@@ -7349,7 +7381,6 @@
 		"rarity": "Low",
 		"series": 5,
 		"priority": 689,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:2.3",
 			"隐藏成就"
@@ -7363,7 +7394,6 @@
 		"rarity": "Low",
 		"series": 5,
 		"priority": 688,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:2.3",
 			"隐藏成就"
@@ -7377,7 +7407,6 @@
 		"rarity": "Low",
 		"series": 5,
 		"priority": 687,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:2.3",
 			"隐藏成就"
@@ -7391,7 +7420,6 @@
 		"rarity": "Low",
 		"series": 5,
 		"priority": 686,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:2.4"
 		],
@@ -7404,7 +7432,6 @@
 		"rarity": "Low",
 		"series": 5,
 		"priority": 685,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:2.4"
 		],
@@ -7417,7 +7444,6 @@
 		"rarity": "Low",
 		"series": 5,
 		"priority": 684,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:2.4"
 		],
@@ -7430,7 +7456,6 @@
 		"rarity": "Mid",
 		"series": 5,
 		"priority": 683,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:2.4"
 		],
@@ -7447,7 +7472,6 @@
 			1000
 		],
 		"priority": 682,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:2.4"
 		],
@@ -7463,7 +7487,6 @@
 			300
 		],
 		"priority": 680,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:2.4"
 		],
@@ -7476,7 +7499,6 @@
 		"rarity": "Low",
 		"series": 5,
 		"priority": 679,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:2.4"
 		],
@@ -7492,7 +7514,6 @@
 			0
 		],
 		"priority": 678,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:2.4"
 		],
@@ -7505,7 +7526,6 @@
 		"rarity": "Low",
 		"series": 5,
 		"priority": 677,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:2.4",
 			"隐藏成就"
@@ -7519,7 +7539,6 @@
 		"rarity": "Low",
 		"series": 5,
 		"priority": 676,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:2.4",
 			"隐藏成就"
@@ -7533,7 +7552,6 @@
 		"rarity": "Low",
 		"series": 5,
 		"priority": 675,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:2.4",
 			"隐藏成就"
@@ -7547,7 +7565,6 @@
 		"rarity": "Low",
 		"series": 5,
 		"priority": 674,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:2.4",
 			"隐藏成就"
@@ -7561,7 +7578,6 @@
 		"rarity": "Low",
 		"series": 5,
 		"priority": 673,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:2.4",
 			"隐藏成就"
@@ -7610,7 +7626,6 @@
 			3
 		],
 		"priority": 670,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:2.4",
 			"隐藏成就"
@@ -7624,7 +7639,6 @@
 		"rarity": "Low",
 		"series": 5,
 		"priority": 669,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:2.4",
 			"隐藏成就"
@@ -7638,7 +7652,6 @@
 		"rarity": "Low",
 		"series": 5,
 		"priority": 667,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:2.4",
 			"隐藏成就"
@@ -7652,7 +7665,6 @@
 		"rarity": "Low",
 		"series": 5,
 		"priority": 666,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:2.4",
 			"隐藏成就"
@@ -7667,7 +7679,6 @@
 		"series": 5,
 		"descHide": "即使喝彩停息，无声者的声音也不会消逝",
 		"priority": 665,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:2.5",
 			"隐藏描述"
@@ -7681,7 +7692,6 @@
 		"rarity": "Low",
 		"series": 5,
 		"priority": 664,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:2.5"
 		],
@@ -7695,7 +7705,6 @@
 		"series": 5,
 		"descHide": "以往你总是亲自上阵战斗，也该试试做「幕后黑手」了",
 		"priority": 663,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:2.5",
 			"隐藏描述"
@@ -7709,7 +7718,6 @@
 		"rarity": "Low",
 		"series": 5,
 		"priority": 662,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:2.5"
 		],
@@ -7722,7 +7730,6 @@
 		"rarity": "Low",
 		"series": 5,
 		"priority": 661,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:2.5"
 		],
@@ -7735,7 +7742,6 @@
 		"rarity": "Low",
 		"series": 5,
 		"priority": 660,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:2.5"
 		],
@@ -7748,7 +7754,6 @@
 		"rarity": "Low",
 		"series": 5,
 		"priority": 659,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:2.5"
 		],
@@ -7762,7 +7767,6 @@
 		"series": 5,
 		"descHide": "见证有情生命最伟大的力量——选择「善」的力量",
 		"priority": 658,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:2.5",
 			"隐藏描述"
@@ -7777,7 +7781,6 @@
 		"series": 5,
 		"descHide": "在演武仪典的擂台下，直面一场舆论风波",
 		"priority": 657,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:2.5",
 			"隐藏描述"
@@ -7792,7 +7795,6 @@
 		"series": 5,
 		"descHide": "在贝洛伯格历史博物馆，见证一段来自仙舟的旧忆",
 		"priority": 656,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:2.5",
 			"隐藏描述"
@@ -7841,7 +7843,6 @@
 			7
 		],
 		"priority": 653,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:2.5",
 			"隐藏成就"
@@ -7855,7 +7856,6 @@
 		"rarity": "Low",
 		"series": 5,
 		"priority": 652,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:2.5",
 			"隐藏成就"
@@ -7869,7 +7869,6 @@
 		"rarity": "Low",
 		"series": 5,
 		"priority": 651,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:2.5",
 			"隐藏成就"
@@ -7883,7 +7882,6 @@
 		"rarity": "Low",
 		"series": 5,
 		"priority": 650,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:2.5",
 			"隐藏成就"
@@ -7897,7 +7895,6 @@
 		"rarity": "Low",
 		"series": 5,
 		"priority": 649,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:2.5",
 			"隐藏成就"
@@ -7911,7 +7908,6 @@
 		"rarity": "Low",
 		"series": 5,
 		"priority": 648,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:2.5"
 		],
@@ -7924,7 +7920,6 @@
 		"rarity": "Low",
 		"series": 5,
 		"priority": 647,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:2.5",
 			"隐藏成就"
@@ -7938,7 +7933,6 @@
 		"rarity": "Low",
 		"series": 5,
 		"priority": 646,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:2.5"
 		],
@@ -7951,7 +7945,6 @@
 		"rarity": "Low",
 		"series": 5,
 		"priority": 645,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:2.5"
 		],
@@ -7964,7 +7957,6 @@
 		"rarity": "Low",
 		"series": 5,
 		"priority": 644,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:2.5",
 			"隐藏成就"
@@ -7978,7 +7970,6 @@
 		"rarity": "Low",
 		"series": 5,
 		"priority": 643,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:2.6",
 			"隐藏成就"
@@ -7995,7 +7986,6 @@
 			3
 		],
 		"priority": 642,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:2.6",
 			"隐藏成就"
@@ -8009,7 +7999,6 @@
 		"rarity": "Low",
 		"series": 5,
 		"priority": 641,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:2.6",
 			"隐藏成就"
@@ -8023,7 +8012,6 @@
 		"rarity": "Low",
 		"series": 5,
 		"priority": 640,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:2.6",
 			"隐藏成就"
@@ -8037,7 +8025,6 @@
 		"rarity": "Low",
 		"series": 5,
 		"priority": 639,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:2.6",
 			"隐藏成就"
@@ -8051,7 +8038,6 @@
 		"rarity": "Low",
 		"series": 5,
 		"priority": 638,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:2.6",
 			"隐藏成就"
@@ -8065,7 +8051,6 @@
 		"rarity": "Low",
 		"series": 5,
 		"priority": 637,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:2.6",
 			"隐藏成就"
@@ -8079,7 +8064,6 @@
 		"rarity": "Low",
 		"series": 5,
 		"priority": 636,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:2.6",
 			"隐藏成就"
@@ -8093,7 +8077,6 @@
 		"rarity": "Low",
 		"series": 5,
 		"priority": 635,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:2.6",
 			"隐藏成就"
@@ -8107,7 +8090,6 @@
 		"rarity": "Low",
 		"series": 5,
 		"priority": 634,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:2.6",
 			"隐藏成就"
@@ -8121,7 +8103,6 @@
 		"rarity": "Low",
 		"series": 5,
 		"priority": 633,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:2.6",
 			"隐藏成就"
@@ -8135,7 +8116,6 @@
 		"rarity": "Low",
 		"series": 5,
 		"priority": 632,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:2.6",
 			"隐藏成就"
@@ -8149,7 +8129,6 @@
 		"rarity": "Low",
 		"series": 5,
 		"priority": 631,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:2.6",
 			"隐藏成就"
@@ -8163,7 +8142,6 @@
 		"rarity": "Low",
 		"series": 5,
 		"priority": 630,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:2.6",
 			"隐藏成就"
@@ -8177,7 +8155,6 @@
 		"rarity": "Low",
 		"series": 5,
 		"priority": 629,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:2.6",
 			"隐藏成就"
@@ -8191,7 +8168,6 @@
 		"rarity": "Low",
 		"series": 5,
 		"priority": 628,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:2.6",
 			"隐藏成就"
@@ -8205,7 +8181,6 @@
 		"rarity": "Low",
 		"series": 5,
 		"priority": 627,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:2.6",
 			"隐藏成就"
@@ -8222,7 +8197,6 @@
 			3
 		],
 		"priority": 624,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:2.6"
 		],
@@ -8238,7 +8212,6 @@
 			3
 		],
 		"priority": 622,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:2.6"
 		],
@@ -8251,7 +8224,6 @@
 		"rarity": "Mid",
 		"series": 5,
 		"priority": 621,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:2.6",
 			"隐藏成就"
@@ -8265,7 +8237,6 @@
 		"rarity": "Low",
 		"series": 5,
 		"priority": 620,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:2.6",
 			"隐藏成就"
@@ -8279,7 +8250,6 @@
 		"rarity": "Low",
 		"series": 5,
 		"priority": 619,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:2.6"
 		],
@@ -8292,7 +8262,6 @@
 		"rarity": "Low",
 		"series": 5,
 		"priority": 618,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:2.6"
 		],
@@ -8305,7 +8274,6 @@
 		"rarity": "Low",
 		"series": 5,
 		"priority": 617,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:2.6"
 		],
@@ -8318,7 +8286,6 @@
 		"rarity": "Low",
 		"series": 5,
 		"priority": 616,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:2.6"
 		],
@@ -8331,9 +8298,246 @@
 		"rarity": "Low",
 		"series": 5,
 		"priority": 615,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:2.6",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053701,
+		"title": "进入黑夜的漫长旅程",
+		"desc": "在上床睡觉时选择关灯",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 614,
+		"tags": [
+			"版本:2.7",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053702,
+		"title": "洗个痛快澡！",
+		"desc": "初次使用浴缸泡澡",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 613,
+		"tags": [
+			"版本:2.7"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053703,
+		"title": "沐浴之王",
+		"desc": "在使用浴缸泡澡时，尝试过#1种入浴剂",
+		"rarity": "Low",
+		"series": 5,
+		"paramsText": [
+			3
+		],
+		"priority": 612,
+		"tags": [
+			"版本:2.7",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053704,
+		"title": "蓦然回首",
+		"desc": "在自己的房间中观赏所有藏品",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 611,
+		"tags": [
+			"版本:2.7",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053705,
+		"title": "渺无实物之夜",
+		"desc": "在小憩中沉眠至时间尽头",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 610,
+		"tags": [
+			"版本:2.7",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053706,
+		"title": "电灯难题",
+		"desc": "在自己的房间中多次开关电灯，直至灯泡短路",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 609,
+		"tags": [
+			"版本:2.7",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053707,
+		"title": "小糕当家",
+		"desc": "在自己的房间中偶遇「垃圾糕」",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 608,
+		"tags": [
+			"版本:2.7"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053708,
+		"title": "靠得住的老实电脑",
+		"desc": "完成「超智能病毒」的#1个遗愿",
+		"rarity": "Low",
+		"series": 5,
+		"paramsText": [
+			3
+		],
+		"priority": 607,
+		"tags": [
+			"版本:2.7",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053709,
+		"title": "冻结与融化之间",
+		"desc": "为冰箱的合理使用制定《冰箱使用新规》",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 606,
+		"tags": [
+			"版本:2.7",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053710,
+		"title": "今夜无事发生",
+		"desc": "在属于你的房间，度过悠然无事的夜晚\\n<color=#8790abff>※ 完成活动「宇宙家装指南」</color>",
+		"rarity": "Low",
+		"series": 5,
+		"descHide": "在属于你的房间，度过悠然无事的夜晚",
+		"priority": 605,
+		"tags": [
+			"版本:2.7",
+			"隐藏描述"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053711,
+		"title": "Mini绿野仙踪",
+		"desc": "你理解了吗？花导、炒饭机器人、猫糕、佩佩，恰好对应桃乐丝、铁皮人…不对，我为什么在解释笑话？\\n<color=#8790abff>※ 在活动「宇宙家装指南」中邂逅全部#1位值日帮手</color>",
+		"rarity": "Low",
+		"series": 5,
+		"descHide": "你理解了吗？花导、炒饭机器人、猫糕、佩佩，恰好对应桃乐丝、铁皮人…不对，我为什么在解释笑话？",
+		"paramsText": [
+			4
+		],
+		"priority": 604,
+		"tags": [
+			"版本:2.7",
+			"隐藏描述"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053712,
+		"title": "逝去时光的海洋",
+		"desc": "听杨叔讲讲过去的故事\\n<color=#8790abff>※ 成为无名客，意味着你要暂别熟悉的生活，前往未知的世界展开冒险</color>",
+		"rarity": "Low",
+		"series": 5,
+		"descHide": "听杨叔讲讲过去的故事",
+		"priority": 603,
+		"tags": [
+			"版本:2.7",
+			"隐藏描述"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053713,
+		"title": "冷钢锻造",
+		"desc": "您理解了吗？因为我的身体由钢铁制成，而钢铁冰冷坚硬，所以我的笑话很冷\\n<color=#8790abff>※ 听「闭嘴」讲冷笑话，令人忍俊不禁</color>",
+		"rarity": "Low",
+		"series": 5,
+		"descHide": "您理解了吗？因为我的身体由钢铁制成，而钢铁冰冷坚硬，所以我的笑话很冷",
+		"priority": 602,
+		"tags": [
+			"版本:2.7",
+			"隐藏描述"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053714,
+		"title": "我爱我家",
+		"desc": "在「宇宙家装指南」中，任意角色的工作贡献达到#1",
+		"rarity": "Low",
+		"series": 5,
+		"paramsText": [
+			99
+		],
+		"priority": 601,
+		"tags": [
+			"版本:2.7"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053715,
+		"title": "会议不能停",
+		"desc": "在「宇宙家装指南」中，单次会议的帕姆评分达到#1",
+		"rarity": "Low",
+		"series": 5,
+		"paramsText": [
+			30000
+		],
+		"priority": 600,
+		"tags": [
+			"版本:2.7"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053716,
+		"title": "梦想改造家",
+		"desc": "在「宇宙家装指南」中，完成所有区块的建设",
+		"rarity": "Mid",
+		"series": 5,
+		"priority": 599,
+		"tags": [
+			"版本:2.7"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4053717,
+		"title": "灾难始终快我一步",
+		"desc": "在「宇宙家装指南」中，累积进入#1次厄运格",
+		"rarity": "Low",
+		"series": 5,
+		"paramsText": [
+			3
+		],
+		"priority": 598,
+		"tags": [
+			"版本:2.7",
 			"隐藏成就"
 		],
 		"difficulty": {}
@@ -11153,7 +11357,6 @@
 			1
 		],
 		"priority": 846,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:2.3",
 			"隐藏成就"
@@ -11170,7 +11373,6 @@
 			1
 		],
 		"priority": 845,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:2.3",
 			"隐藏成就"
@@ -11187,7 +11389,6 @@
 			1
 		],
 		"priority": 844,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:2.3",
 			"隐藏成就"
@@ -11204,7 +11405,6 @@
 			1
 		],
 		"priority": 843,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:2.3",
 			"隐藏成就"
@@ -11221,7 +11421,6 @@
 			4
 		],
 		"priority": 842,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:2.3",
 			"隐藏成就"
@@ -11238,7 +11437,6 @@
 			1
 		],
 		"priority": 841,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:2.3",
 			"隐藏成就"
@@ -11255,7 +11453,6 @@
 			1
 		],
 		"priority": 840,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:2.4",
 			"隐藏成就"
@@ -11269,7 +11466,6 @@
 		"rarity": "Low",
 		"series": 7,
 		"priority": 839,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:2.4",
 			"隐藏成就"
@@ -11283,7 +11479,6 @@
 		"rarity": "Low",
 		"series": 7,
 		"priority": 838,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:2.4"
 		],
@@ -11296,7 +11491,6 @@
 		"rarity": "Low",
 		"series": 7,
 		"priority": 837,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:2.4"
 		],
@@ -11309,7 +11503,6 @@
 		"rarity": "Low",
 		"series": 7,
 		"priority": 836,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:2.4"
 		],
@@ -11325,7 +11518,6 @@
 			20
 		],
 		"priority": 835,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:2.4",
 			"隐藏成就"
@@ -11339,7 +11531,6 @@
 		"rarity": "Low",
 		"series": 7,
 		"priority": 834,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:2.4"
 		],
@@ -11355,7 +11546,6 @@
 			3
 		],
 		"priority": 833,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:2.4",
 			"隐藏成就"
@@ -11369,7 +11559,6 @@
 		"rarity": "Low",
 		"series": 7,
 		"priority": 832,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:2.5"
 		],
@@ -11382,7 +11571,6 @@
 		"rarity": "Low",
 		"series": 7,
 		"priority": 831,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:2.5"
 		],
@@ -11395,7 +11583,6 @@
 		"rarity": "Low",
 		"series": 7,
 		"priority": 830,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:2.5",
 			"隐藏成就"
@@ -11412,7 +11599,6 @@
 			1
 		],
 		"priority": 829,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:2.5",
 			"隐藏成就"
@@ -11426,7 +11612,6 @@
 		"rarity": "Low",
 		"series": 7,
 		"priority": 828,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:2.5",
 			"隐藏成就"
@@ -11440,7 +11625,6 @@
 		"rarity": "Low",
 		"series": 7,
 		"priority": 827,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:2.5"
 		],
@@ -11453,7 +11637,6 @@
 		"rarity": "Low",
 		"series": 7,
 		"priority": 826,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:2.5"
 		],
@@ -11469,7 +11652,6 @@
 			6
 		],
 		"priority": 825,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:2.5",
 			"隐藏成就"
@@ -11483,7 +11665,6 @@
 		"rarity": "Low",
 		"series": 7,
 		"priority": 824,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:2.5",
 			"隐藏成就"
@@ -11497,7 +11678,6 @@
 		"rarity": "Low",
 		"series": 7,
 		"priority": 823,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:2.5",
 			"隐藏成就"
@@ -11515,7 +11695,6 @@
 			30
 		],
 		"priority": 822,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:2.5",
 			"隐藏成就"
@@ -11529,7 +11708,6 @@
 		"rarity": "Low",
 		"series": 7,
 		"priority": 821,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:2.6"
 		],
@@ -11542,7 +11720,6 @@
 		"rarity": "Low",
 		"series": 7,
 		"priority": 820,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:2.6"
 		],
@@ -11558,7 +11735,6 @@
 			10
 		],
 		"priority": 819,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:2.6",
 			"隐藏成就"
@@ -11572,9 +11748,50 @@
 		"rarity": "Low",
 		"series": 7,
 		"priority": 818,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:2.6",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4073701,
+		"title": "别了，七休日",
+		"desc": "使用我方角色星期日对战神主日时完成制胜一击",
+		"rarity": "Low",
+		"series": 7,
+		"priority": 817,
+		"tags": [
+			"版本:2.7",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4073702,
+		"title": "是我杀了我？",
+		"desc": "使用我方角色忘归人对战幻胧时完成制胜一击",
+		"rarity": "Low",
+		"series": 7,
+		"priority": 816,
+		"tags": [
+			"版本:2.7",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4073703,
+		"title": "一起飞向天空",
+		"desc": "使用同时包含知更鸟、星期日的队伍获得<unbreak>#1[i]</unbreak>场战斗的胜利",
+		"rarity": "Low",
+		"series": 7,
+		"paramsText": [
+			1
+		],
+		"priority": 815,
+		"tags": [
+			"版本:2.7",
 			"隐藏成就"
 		],
 		"difficulty": {}
@@ -12541,7 +12758,6 @@
 		"rarity": "Low",
 		"series": 8,
 		"priority": 920,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:2.5",
 			"隐藏成就"
@@ -14730,12 +14946,11 @@
 	{
 		"id": 4093601,
 		"title": "并无恶意",
-		"desc": "跟随黑塔，探明「权杖」系统背后的真相\\n※见证孤波算法难题的诞生",
+		"desc": "跟随黑塔，探明「权杖」系统背后的真相\\n<color=#8790abff>※见证孤波算法难题的诞生</color>",
 		"rarity": "Low",
 		"series": 9,
 		"descHide": "跟随黑塔，探明「权杖」系统背后的真相",
 		"priority": 861,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:2.6",
 			"隐藏描述"
@@ -14745,12 +14960,11 @@
 	{
 		"id": 4093602,
 		"title": "涟漪上的蝴蝶",
-		"desc": "协助天才们消除模拟宇宙中的不可知域\\n※打破波尔卡•卡卡目的全知域",
+		"desc": "协助天才们消除模拟宇宙中的不可知域\\n<color=#8790abff>※打破波尔卡•卡卡目的全知域</color>",
 		"rarity": "Low",
 		"series": 9,
 		"descHide": "协助天才们消除模拟宇宙中的不可知域",
 		"priority": 860,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:2.6",
 			"隐藏描述"
@@ -14764,7 +14978,6 @@
 		"rarity": "Low",
 		"series": 9,
 		"priority": 859,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:2.6",
 			"隐藏成就"
@@ -14778,7 +14991,6 @@
 		"rarity": "Low",
 		"series": 9,
 		"priority": 858,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:2.6",
 			"隐藏成就"
@@ -14792,7 +15004,6 @@
 		"rarity": "Mid",
 		"series": 9,
 		"priority": 857,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:2.6",
 			"隐藏成就"
@@ -14809,7 +15020,6 @@
 			5
 		],
 		"priority": 854,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:2.6",
 			"隐藏成就"
@@ -14826,7 +15036,6 @@
 			20
 		],
 		"priority": 853,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:2.6",
 			"隐藏成就"
@@ -14843,7 +15052,6 @@
 			30
 		],
 		"priority": 852,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:2.6",
 			"隐藏成就"
@@ -14860,7 +15068,6 @@
 			4
 		],
 		"priority": 851,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:2.6",
 			"隐藏成就"
@@ -14877,7 +15084,6 @@
 			6
 		],
 		"priority": 847,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:2.6",
 			"隐藏成就"
@@ -14894,7 +15100,6 @@
 			3
 		],
 		"priority": 846,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:2.6",
 			"隐藏成就"
@@ -14911,7 +15116,6 @@
 			3
 		],
 		"priority": 845,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:2.6",
 			"隐藏成就"
@@ -14925,7 +15129,6 @@
 		"rarity": "Low",
 		"series": 9,
 		"priority": 844,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:2.6",
 			"隐藏成就"
@@ -14939,7 +15142,6 @@
 		"rarity": "Low",
 		"series": 9,
 		"priority": 841,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:2.6",
 			"隐藏成就"

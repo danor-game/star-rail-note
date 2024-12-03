@@ -559,6 +559,19 @@
 		}
 	},
 	{
+		"id": "1225",
+		"element": "Fire",
+		"path": "Warlock",
+		"rarity": 5,
+		"versionAdded": "2.7",
+		"versionAvailable": "2.7",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "忘归人"
+			}
+		}
+	},
+	{
 		"id": "1301",
 		"element": "Fire",
 		"path": "Priest",
@@ -698,6 +711,19 @@
 		"$data$locale": {
 			"zh-cn": {
 				"name": "米沙"
+			}
+		}
+	},
+	{
+		"id": "1313",
+		"element": "Imaginary",
+		"path": "Shaman",
+		"rarity": 5,
+		"versionAdded": "2.7",
+		"versionAvailable": "2.7",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "星期日"
 			}
 		}
 	},

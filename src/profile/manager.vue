@@ -307,21 +307,40 @@ const importingProfile = () => {
 
 const importProfile = async textJSON => {
 	try {
+		const profiles = $profiles.value;
+
 		/** @type {import('./admin.js').Profile} */
 		const profile = JSON.parse(textJSON);
+		if(typeof profile != 'object' || !profile) { throw Error('导入档案的数据类型不是Object'); }
 
-		if(profile && typeof profile == 'object') {
-			if(~$profiles.value.findIndex(p => p.id == profile.id)) {
-				await $quest3('已有相同ID的档案，是否覆盖？');
-				return;
+
+		let changedProfile = false;
+
+		const indexProfileSame = profiles.findIndex(p => p.id == profile.id);
+		if(~indexProfileSame) {
+			const result = await $quest3('发现相同ID的档案，如何处理？', '询问', { text: '覆盖', value: 'replace' }, { text: '追加（ID会变）', value: 'append' });
+			if(result == 'replace') {
+				profiles.splice(indexProfileSame, 1, profile);
+
+				changedProfile = true;
 			}
+			else if(result == 'append') {
+				profile.id = ulid();
+				profiles.push(profile);
 
-			$profiles.value.push(profile);
-			PA.save();
-			updateSidebar(false);
+				changedProfile = true;
+			}
 		}
 		else {
-			throw Error('导入档案的数据类型不是Object');
+			profiles.push(profile);
+
+			changedProfile = true;
+		}
+
+
+		if(changedProfile) {
+			PA.save();
+			updateSidebar(false);
 		}
 	}
 	catch(error) {

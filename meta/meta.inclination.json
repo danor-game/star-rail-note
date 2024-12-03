@@ -184,6 +184,13 @@
 		]
 	},
 	{
+		"id": 434044132,
+		"typeInclination": 3001,
+		"version": "2.x",
+		"text": "「时尚测验」好了。",
+		"matched": false
+	},
+	{
 		"id": 501023631,
 		"typeInclination": 3001,
 		"version": "1.0",
@@ -211,11 +218,9 @@
 			"nameFloor": "行政区"
 		},
 		"mission": {
-			"id": "5010236",
-			"idNPC": 11212,
-			"name": "莉拉",
-			"type": "FirstDialogue"
-		}
+			"id": "5010236"
+		},
+		"missedMission": true
 	},
 	{
 		"id": 814106723,
@@ -910,6 +915,13 @@
 		}
 	},
 	{
+		"id": 434044174,
+		"typeInclination": 2001,
+		"version": "2.x",
+		"text": "顺其自然…",
+		"matched": false
+	},
+	{
 		"id": 501028304,
 		"typeInclination": 2001,
 		"version": "1.0",
@@ -937,11 +949,9 @@
 			"nameFloor": "磐岩镇"
 		},
 		"mission": {
-			"id": "5010283",
-			"idNPC": 11105,
-			"name": "马克西姆",
-			"type": "FirstDialogue"
-		}
+			"id": "5010283"
+		},
+		"missedMission": true
 	},
 	{
 		"id": 503056043,
@@ -1888,6 +1898,13 @@
 		]
 	},
 	{
+		"id": 434044184,
+		"typeInclination": 1004,
+		"version": "2.x",
+		"text": "抵抗酸麻感。",
+		"matched": false
+	},
+	{
 		"id": 501024136,
 		"typeInclination": 1004,
 		"version": "1.0",
@@ -1915,11 +1932,9 @@
 			"nameFloor": "宾馆大堂"
 		},
 		"mission": {
-			"id": "5010241",
-			"idNPC": 11113,
-			"name": "雷金",
-			"type": "FirstDialogue"
-		}
+			"id": "5010241"
+		},
+		"missedMission": true
 	},
 	{
 		"id": 501026904,
@@ -1949,11 +1964,9 @@
 			"nameFloor": "行政区"
 		},
 		"mission": {
-			"id": "5010269",
-			"idNPC": 11207,
-			"name": "茉莉",
-			"type": "FirstDialogue"
-		}
+			"id": "5010269"
+		},
+		"missedMission": true
 	},
 	{
 		"id": 503078003,
@@ -2564,6 +2577,13 @@
 			"name": "",
 			"type": "Branch"
 		}
+	},
+	{
+		"id": 434044127,
+		"typeInclination": 1003,
+		"version": "2.x",
+		"text": "抱歉，走神了，题目是啥来着？",
+		"matched": false
 	},
 	{
 		"id": 100002628,
@@ -3463,6 +3483,13 @@
 				}
 			}
 		]
+	},
+	{
+		"id": 434044125,
+		"typeInclination": 1002,
+		"version": "2.x",
+		"text": "只剩半杯水了…",
+		"matched": false
 	},
 	{
 		"id": 100001119,
@@ -4866,5 +4893,12 @@
 				}
 			}
 		]
+	},
+	{
+		"id": 434044123,
+		"typeInclination": 1001,
+		"version": "2.x",
+		"text": "还有半杯水呢。",
+		"matched": false
 	}
 ]

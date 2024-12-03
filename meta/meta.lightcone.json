@@ -1323,6 +1323,32 @@
 		}
 	},
 	{
+		"id": "23034",
+		"path": "Shaman",
+		"rarity": 5,
+		"characterBest": "1313",
+		"versionAdded": "2.7",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "回到大地的飞行",
+				"nameEffect": "再启程"
+			}
+		}
+	},
+	{
+		"id": "23035",
+		"path": "Warlock",
+		"rarity": 5,
+		"characterBest": "1225",
+		"versionAdded": "2.7",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "长路终有归途",
+				"nameEffect": "新生"
+			}
+		}
+	},
+	{
 		"id": "24000",
 		"path": "Warrior",
 		"rarity": 5,
