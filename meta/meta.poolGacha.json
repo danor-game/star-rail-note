@@ -2155,6 +2155,94 @@
 		}
 	},
 	{
+		"id": "2053",
+		"type": "11",
+		"timeBorn": 1735099200,
+		"timeDead": 1705215600,
+		"typeItem": "character",
+		"itemsBoost5": [
+			"1225"
+		],
+		"itemsBoost4": [
+			"1301",
+			"1207",
+			"1312"
+		],
+		"versionAdded": "2.7",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "归路迢迢"
+			}
+		}
+	},
+	{
+		"id": "3053",
+		"type": "12",
+		"timeBorn": 1735099200,
+		"timeDead": 1705215600,
+		"typeItem": "lightcone",
+		"itemsBoost5": [
+			"23035"
+		],
+		"itemsBoost4": [
+			"21042",
+			"21015",
+			"21043"
+		],
+		"versionAdded": "2.7",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "流光定影"
+			}
+		}
+	},
+	{
+		"id": "2054",
+		"type": "11",
+		"timeBorn": 1735099200,
+		"timeDead": 1705215600,
+		"typeItem": "character",
+		"itemsBoost5": [
+			"1310"
+		],
+		"itemsBoost4": [
+			"1301",
+			"1207",
+			"1312"
+		],
+		"versionAdded": "2.7",
+		"rerun": 1,
+		"idLeader": "2053",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "盈茧炽盛"
+			}
+		}
+	},
+	{
+		"id": "3054",
+		"type": "12",
+		"timeBorn": 1735099200,
+		"timeDead": 1705215600,
+		"typeItem": "lightcone",
+		"itemsBoost5": [
+			"23025"
+		],
+		"itemsBoost4": [
+			"21042",
+			"21015",
+			"21043"
+		],
+		"versionAdded": "2.7",
+		"rerun": 1,
+		"idLeader": "3053",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "溯回忆象"
+			}
+		}
+	},
+	{
 		"id": "2999",
 		"type": "11",
 		"typeItem": "character",
