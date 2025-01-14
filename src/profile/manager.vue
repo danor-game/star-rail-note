@@ -114,12 +114,13 @@ import { tabAdmin } from '@nuogz/vue-sidebar';
 import { Click, Texter, Textbox, FileDragger } from '@nuogz/vue-components';
 import { $fail, $quest, $quest3 } from '@nuogz/vue-alert';
 
-import Day from '../lib/day.pure.js';
+import Day from '../lib/day.js';
 
 import fetchLog from './fetch-log.js';
 
 import { PA } from './admin.js';
 import updateSidebar from '../lib/update-sidebar.js';
+import fetchText from './fetch-text.js';
 
 
 
@@ -131,16 +132,6 @@ const XMLHttpRequestGM = window['GM_xmlhttpRequest'];
 
 const showedTipsXHRGM = ref(false);
 const hasXHRGM = typeof XMLHttpRequestGM == 'function';
-
-
-const fetchText = async (url, method = 'GET', option, willReturnResponse = false) => new Promise((resolve, reject) =>
-	XMLHttpRequestGM(Object.assign({}, option, {
-		method,
-		url,
-
-		onload(response) { resolve(willReturnResponse ? response : response.responseText); },
-		onerror(error) { reject(error); }
-	})));
 
 
 const $profiles = PA.$profiles;

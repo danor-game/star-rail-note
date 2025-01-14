@@ -1,4 +1,4 @@
-import Day from '../lib/day.pure.js';
+import Day from '../lib/day.js';
 import M from '../lib/meta.js';
 
 import fetchText from './fetch-text.js';

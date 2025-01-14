@@ -19,6 +19,6 @@
 	"exclude": [
 		"eslint.config.js",
 		"node_modules",
-		"test"
+		"dist"
 	]
 }

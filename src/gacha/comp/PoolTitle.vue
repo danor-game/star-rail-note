@@ -50,7 +50,7 @@ import { computed, ref } from 'vue';
 
 import Tippy from 'tippy.js';
 
-import Day from '../../lib/day.pure.js';
+import Day from '../../lib/day.js';
 import M from '../../lib/meta.js';
 
 

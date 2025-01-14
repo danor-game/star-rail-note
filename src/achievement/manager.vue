@@ -106,7 +106,7 @@ import { tabAdmin } from '@nuogz/vue-sidebar';
 import { Click, Combo, Texter } from '@nuogz/vue-components';
 import { $fail } from '@nuogz/vue-alert';
 
-import Day from '../lib/day.pure.js';
+import Day from '../lib/day.js';
 
 import M from '../lib/meta.js';
 import { PA, PlayerAchievementInfo } from '../profile/admin.js';
