@@ -252,6 +252,30 @@
 		}
 	},
 	{
+		"id": "20021",
+		"path": "Memory",
+		"rarity": 3,
+		"versionAdded": "3.0",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "焚影",
+				"nameEffect": "美化"
+			}
+		}
+	},
+	{
+		"id": "20022",
+		"path": "Memory",
+		"rarity": 3,
+		"versionAdded": "3.0",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "溯忆",
+				"nameEffect": "入寐"
+			}
+		}
+	},
+	{
 		"id": "21000",
 		"path": "Priest",
 		"rarity": 4,
@@ -840,6 +864,42 @@
 		}
 	},
 	{
+		"id": "21050",
+		"path": "Memory",
+		"rarity": 4,
+		"versionAdded": "3.0",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "胜利只在朝夕间",
+				"nameEffect": "最后一击"
+			}
+		}
+	},
+	{
+		"id": "21051",
+		"path": "Memory",
+		"rarity": 4,
+		"versionAdded": "3.0",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "天才们的问候",
+				"nameEffect": "恭喜"
+			}
+		}
+	},
+	{
+		"id": "21052",
+		"path": "Memory",
+		"rarity": 4,
+		"versionAdded": "3.0",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "多流汗，少流泪",
+				"nameEffect": "来练！"
+			}
+		}
+	},
+	{
 		"id": "22000",
 		"path": "Warlock",
 		"rarity": 4,
@@ -1345,6 +1405,30 @@
 			"zh-cn": {
 				"name": "长路终有归途",
 				"nameEffect": "新生"
+			}
+		}
+	},
+	{
+		"id": "23036",
+		"path": "Memory",
+		"rarity": 5,
+		"versionAdded": "3.0",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "将光阴织成黄金",
+				"nameEffect": "创设"
+			}
+		}
+	},
+	{
+		"id": "23037",
+		"path": "Mage",
+		"rarity": 5,
+		"versionAdded": "3.0",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "向着不可追问处",
+				"nameEffect": "思维游戏"
 			}
 		}
 	},

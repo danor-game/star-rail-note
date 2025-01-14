@@ -1,5 +1,5 @@
 import './index.env.js';
-import './lib/dayjs.js';
+import './lib/day.js';
 
 import { createApp } from 'vue';
 

@@ -22,7 +22,7 @@ for(const raw of lightconesRaw$id) {
 		path: raw.AvatarBaseType,
 		rarity: { CombatPowerLightconeRarity3: 3, CombatPowerLightconeRarity4: 4, CombatPowerLightconeRarity5: 5 }[raw.Rarity],
 		characterBest: lightcones.find(meta => meta.id == raw.EquipmentID)?.characterBest,
-		versionAdded: lightcones.find(meta => meta.id == raw.EquipmentID)?.versionAdded ?? process.argv[2] ?? '2.x',
+		versionAdded: lightcones.find(meta => meta.id == raw.EquipmentID)?.versionAdded ?? process.argv[2] ?? '3.x',
 		$data$locale: {
 			'zh-cn': {
 				name: texts$hash[raw.EquipmentName?.Hash],

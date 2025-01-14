@@ -11,6 +11,7 @@ const { dirDataRaw } = readJSONSync(resolvePath(dir, './config.local.json'));
 const characters = readJSONSync(resolvePath(dir, '../meta/meta.character.json'));
 
 const charactersRaw$id = readJSONSync(resolvePath(dirDataRaw, 'ExcelOutput/AvatarConfig.json'));
+const promotionsRaw = readJSONSync(resolvePath(dirDataRaw, 'ExcelOutput/AvatarPromotionConfig.json'));
 const texts$hash = readJSONSync(resolvePath(dirDataRaw, 'TextMap/TextMapCHS.json'));
 
 
@@ -22,8 +23,9 @@ for(const raw of Object.values(charactersRaw$id)) {
 		path: raw.AvatarBaseType,
 		rarity: { CombatPowerAvatarRarityType4: 4, CombatPowerAvatarRarityType5: 5 }[raw.Rarity],
 		gender: characters.find(meta => meta.id == raw.AvatarID)?.gender,
-		versionAdded: characters.find(meta => meta.id == raw.AvatarID)?.versionAdded ?? process.argv[2] ?? '2.x',
-		versionAvailable: characters.find(meta => meta.id == raw.AvatarID)?.versionAvailable ?? process.argv[2] ?? '2.x',
+		arggro: promotionsRaw.find(promotion => promotion.AvatarID == raw.AvatarID)?.BaseAggro?.Value ?? 0,
+		versionAdded: characters.find(meta => meta.id == raw.AvatarID)?.versionAdded ?? process.argv[2] ?? '3.x',
+		versionAvailable: characters.find(meta => meta.id == raw.AvatarID)?.versionAvailable ?? process.argv[2] ?? '3.x',
 		$data$locale: {
 			'zh-cn': {
 				name: texts$hash[raw.AvatarName?.Hash] == '{NICKNAME}' ? '开拓者' : texts$hash[raw.AvatarName?.Hash],

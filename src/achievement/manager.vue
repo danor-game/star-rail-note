@@ -75,7 +75,7 @@
 							<Click v-if="!$profile?.infosAchievementPlayer$id[achievement.id]?.status && $profile?.infosAchievementPlayer$id[achievement.id]?.shelved" oper-button white text="恢复" :icon="faEye" @dblclick="modifyPlayerAchievementShelved(achievement.id, false)" />
 						</p-oper-box>
 
-						<p-title :title="achievement.id">● {{ renderAchievementText(achievement.title, achievement.paramsText) }}</p-title>
+						<p-title :title="achievement.id" v-html="`● ${renderAchievementText(achievement.title, achievement.paramsText)}`" />
 						<p-desc v-html="renderAchievementText(achievement.desc, achievement.paramsText)" />
 						<p-tags>
 							<p-tag v-for="tag of [`系列:${M.seriesAchievement.find(s => s.id == achievement.series)?.name ?? achievement.series}`, ...achievement.tags]" :key="tag">{{ tag }}</p-tag>
