@@ -1652,6 +1652,9 @@
 		"rarity": "Mid",
 		"series": 3,
 		"priority": 926,
+		"idsAchievementExclusive": [
+			4034005
+		],
 		"tags": [
 			"版本:3.0",
 			"隐藏成就"
@@ -1665,6 +1668,9 @@
 		"rarity": "Mid",
 		"series": 3,
 		"priority": 925,
+		"idsAchievementExclusive": [
+			4034004
+		],
 		"tags": [
 			"版本:3.0",
 			"隐藏成就"
@@ -9414,6 +9420,9 @@
 		"rarity": "Low",
 		"series": 5,
 		"priority": 578,
+		"idsAchievementExclusive": [
+			4054021
+		],
 		"tags": [
 			"版本:3.0",
 			"隐藏成就"
@@ -9427,6 +9436,9 @@
 		"rarity": "Low",
 		"series": 5,
 		"priority": 577,
+		"idsAchievementExclusive": [
+			4054020
+		],
 		"tags": [
 			"版本:3.0",
 			"隐藏成就"
