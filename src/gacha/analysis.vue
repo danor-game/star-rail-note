@@ -157,8 +157,8 @@ const $optionShowMatePool = ref(true);
 const classesGirdColunm = [null, `grid-cols-1`, `grid-cols-2`, `grid-cols-3`, `grid-cols-4`, `grid-cols-5`];
 const classesRowSpan = [null, null, `row-span-2`, `row-span-3`];
 
-const $optionShowNewbiePool = ref(true);
-const $optionShowPermanentPool = ref(true);
+const $optionShowNewbiePool = ref(false);
+const $optionShowPermanentPool = ref(false);
 const optionsShownHidden = [
 	{ value: true, text: '显示' },
 	{ value: false, text: '隐藏' },

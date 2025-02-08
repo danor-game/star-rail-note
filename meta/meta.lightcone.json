@@ -1412,6 +1412,7 @@
 		"id": "23036",
 		"path": "Memory",
 		"rarity": 5,
+		"characterBest": "1402",
 		"versionAdded": "3.0",
 		"$data$locale": {
 			"zh-cn": {
@@ -1424,6 +1425,7 @@
 		"id": "23037",
 		"path": "Mage",
 		"rarity": 5,
+		"characterBest": "1401",
 		"versionAdded": "3.0",
 		"$data$locale": {
 			"zh-cn": {
