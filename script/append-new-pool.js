@@ -13,8 +13,8 @@ const poolsSample = poolsGacha.slice(poolsGacha.length - 4, poolsGacha.length - 
 
 const namesPoolPreset = {
 	2: {
-		11: ['', '', '流光定影'],
-		12: ['', '', '溯回忆象'],
+		11: ['', '', ''],
+		12: ['', '流光定影', '溯回忆象'],
 	},
 	4: {
 		11: ['', '', '铭心之萃', '铭心之萃', '铭心之萃'],

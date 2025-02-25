@@ -2679,6 +2679,94 @@
 		}
 	},
 	{
+		"id": "2065",
+		"type": "11",
+		"timeBorn": 1742356800,
+		"timeDead": 1744095600,
+		"typeItem": "character",
+		"itemsBoost5": [
+			"1404"
+		],
+		"itemsBoost4": [
+			"1008",
+			"1214",
+			"1105"
+		],
+		"versionAdded": "3.1",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "血炬狮心"
+			}
+		}
+	},
+	{
+		"id": "3065",
+		"type": "12",
+		"timeBorn": 1742356800,
+		"timeDead": 1744095600,
+		"typeItem": "lightcone",
+		"itemsBoost5": [
+			"23039"
+		],
+		"itemsBoost4": [
+			"21014",
+			"21012",
+			"21004"
+		],
+		"versionAdded": "3.1",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "流光定影"
+			}
+		}
+	},
+	{
+		"id": "2066",
+		"type": "11",
+		"timeBorn": 1742356800,
+		"timeDead": 1744095600,
+		"typeItem": "character",
+		"itemsBoost5": [
+			"1217"
+		],
+		"itemsBoost4": [
+			"1008",
+			"1214",
+			"1105"
+		],
+		"versionAdded": "3.1",
+		"rerun": 2,
+		"idLeader": "2065",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "令奉贞凶"
+			}
+		}
+	},
+	{
+		"id": "3066",
+		"type": "12",
+		"timeBorn": 1742356800,
+		"timeDead": 1744095600,
+		"typeItem": "lightcone",
+		"itemsBoost5": [
+			"23017"
+		],
+		"itemsBoost4": [
+			"21014",
+			"21012",
+			"21004"
+		],
+		"versionAdded": "3.1",
+		"rerun": 2,
+		"idLeader": "3065",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "溯回忆象"
+			}
+		}
+	},
+	{
 		"id": "2999",
 		"type": "11",
 		"typeItem": "character",
