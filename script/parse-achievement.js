@@ -1,18 +1,20 @@
+import { readFileSync } from 'fs';
 import { dirname, resolve as resolvePath } from 'path';
 import { fileURLToPath } from 'url';
 
-import { readJSONSync, writeJSONSync } from 'fs-extra/esm';
+import { writeJSONSync } from 'fs-extra/esm';
+
+import { parse as parseJSON } from '@nuogz/json-bigint';
 
 
 
 const dir = dirname(fileURLToPath(import.meta.url));
-const { dirDataRaw } = readJSONSync(resolvePath(dir, './config.local.json'));
+const { dirDataRaw } = parseJSON(readFileSync(resolvePath(dir, './config.local.json'), 'utf-8'));
 
-const achievements = readJSONSync(resolvePath(dir, '../meta/meta.achievement.json'));
+const achievements = parseJSON(readFileSync(resolvePath(dir, '../meta/meta.achievement.json'), 'utf-8'));
 
-const achievementsRaw = readJSONSync(resolvePath(dirDataRaw, 'ExcelOutput/AchievementData.json'));
-const texts$hash = readJSONSync(resolvePath(dirDataRaw, 'TextMap/TextMapCHS.json'));
-texts$hash[371857150] = '';
+const achievementsRaw = parseJSON(readFileSync(resolvePath(dirDataRaw, 'ExcelOutput/AchievementData.json'), 'utf-8'));
+const texts$hash = parseJSON(readFileSync(resolvePath(dirDataRaw, 'TextMap/TextMapCHS.json'), 'utf-8'));
 
 
 const idsInclude = [];
@@ -21,12 +23,12 @@ const result = [];
 for(const raw of achievementsRaw) {
 	if(idsInclude.length && !idsInclude.includes(raw.AchievementID)) { continue; }
 
-	raw.AchievementTitle = texts$hash[raw.AchievementTitle.Hash] ?? raw.AchievementTitle;
-	raw.AchievementDesc = texts$hash[raw.AchievementDesc.Hash] ?? raw.AchievementDesc;
-	raw.HideAchievementDesc = texts$hash[raw.HideAchievementDesc.Hash] ?? raw.HideAchievementDesc;
-	raw.AchievementDescPS = texts$hash[raw.AchievementDescPS.Hash] ?? raw.AchievementDescPS;
-	raw.RecordText = texts$hash[raw.RecordText.Hash] ?? raw.RecordText;
-	raw.AchievementTitlePS = texts$hash[raw.AchievementTitlePS.Hash] ?? raw.AchievementTitlePS;
+	raw.AchievementTitle = texts$hash[raw.AchievementTitle?.Hash] ?? raw.AchievementTitle;
+	raw.AchievementDesc = texts$hash[raw.AchievementDesc?.Hash] ?? raw.AchievementDesc;
+	raw.HideAchievementDesc = texts$hash[raw.HideAchievementDesc?.Hash] ?? raw.HideAchievementDesc;
+	raw.AchievementDescPS = texts$hash[raw.AchievementDescPS?.Hash] ?? raw.AchievementDescPS;
+	raw.RecordText = texts$hash[raw.RecordText?.Hash] ?? raw.RecordText;
+	raw.AchievementTitlePS = texts$hash[raw.AchievementTitlePS?.Hash] ?? raw.AchievementTitlePS;
 
 	delete raw.PSTrophyID;
 	delete raw.RecordText;

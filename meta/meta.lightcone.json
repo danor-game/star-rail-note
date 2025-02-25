@@ -1435,6 +1435,32 @@
 		}
 	},
 	{
+		"id": "23038",
+		"path": "Shaman",
+		"rarity": 5,
+		"characterBest": "1403",
+		"versionAdded": "3.1",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "如果时间是一朵花",
+				"nameEffect": "希冀"
+			}
+		}
+	},
+	{
+		"id": "23039",
+		"path": "Warrior",
+		"rarity": 5,
+		"characterBest": "1404",
+		"versionAdded": "3.1",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "血火啊，燃烧前路",
+				"nameEffect": "远望"
+			}
+		}
+	},
+	{
 		"id": "24000",
 		"path": "Warrior",
 		"rarity": 5,
@@ -1491,6 +1517,18 @@
 			"zh-cn": {
 				"name": "不息的演算",
 				"nameEffect": "无界之思"
+			}
+		}
+	},
+	{
+		"id": "24005",
+		"path": "Memory",
+		"rarity": 5,
+		"versionAdded": "3.x",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "记忆永不落幕",
+				"nameEffect": "收取"
 			}
 		}
 	}

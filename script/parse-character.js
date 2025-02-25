@@ -1,18 +1,21 @@
+import { readFileSync } from 'fs';
 import { dirname, resolve as resolvePath } from 'path';
 import { fileURLToPath } from 'url';
 
-import { readJSONSync, writeJSONSync } from 'fs-extra/esm';
+import { writeJSONSync } from 'fs-extra/esm';
+
+import { parse as parseJSON } from '@nuogz/json-bigint';
 
 
 
 const dir = dirname(fileURLToPath(import.meta.url));
-const { dirDataRaw } = readJSONSync(resolvePath(dir, './config.local.json'));
+const { dirDataRaw } = parseJSON(readFileSync(resolvePath(dir, './config.local.json'), 'utf-8'));
 
-const characters = readJSONSync(resolvePath(dir, '../meta/meta.character.json'));
+const characters = parseJSON(readFileSync(resolvePath(dir, '../meta/meta.character.json'), 'utf-8'));
 
-const charactersRaw$id = readJSONSync(resolvePath(dirDataRaw, 'ExcelOutput/AvatarConfig.json'));
-const promotionsRaw = readJSONSync(resolvePath(dirDataRaw, 'ExcelOutput/AvatarPromotionConfig.json'));
-const texts$hash = readJSONSync(resolvePath(dirDataRaw, 'TextMap/TextMapCHS.json'));
+const charactersRaw$id = parseJSON(readFileSync(resolvePath(dirDataRaw, 'ExcelOutput/AvatarConfig.json'), 'utf-8'));
+const promotionsRaw = parseJSON(readFileSync(resolvePath(dirDataRaw, 'ExcelOutput/AvatarPromotionConfig.json'), 'utf-8'));
+const texts$hash = parseJSON(readFileSync(resolvePath(dirDataRaw, 'TextMap/TextMapCHS.json'), 'utf-8'));
 
 
 const result = [];

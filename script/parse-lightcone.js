@@ -1,18 +1,21 @@
+import { readFileSync } from 'fs';
 import { dirname, resolve as resolvePath } from 'path';
 import { fileURLToPath } from 'url';
 
-import { readJSONSync, writeJSONSync } from 'fs-extra/esm';
+import { writeJSONSync } from 'fs-extra/esm';
+
+import { parse as parseJSON } from '@nuogz/json-bigint';
 
 
 
 const dir = dirname(fileURLToPath(import.meta.url));
-const { dirDataRaw } = readJSONSync(resolvePath(dir, './config.local.json'));
+const { dirDataRaw } = parseJSON(readFileSync(resolvePath(dir, './config.local.json'), 'utf-8'));
 
-const lightcones = readJSONSync(resolvePath(dir, '../meta/meta.lightcone.json'));
+const lightcones = parseJSON(readFileSync(resolvePath(dir, '../meta/meta.lightcone.json'), 'utf-8'));
 
-const lightconesRaw$id = readJSONSync(resolvePath(dirDataRaw, 'ExcelOutput/EquipmentConfig.json'));
-const skillsLightconeRaw = readJSONSync(resolvePath(dirDataRaw, 'ExcelOutput/EquipmentSkillConfig.json'));
-const texts$hash = readJSONSync(resolvePath(dirDataRaw, 'TextMap/TextMapCHS.json'));
+const lightconesRaw$id = parseJSON(readFileSync(resolvePath(dirDataRaw, 'ExcelOutput/EquipmentConfig.json'), 'utf-8'));
+const skillsLightconeRaw = parseJSON(readFileSync(resolvePath(dirDataRaw, 'ExcelOutput/EquipmentSkillConfig.json'), 'utf-8'));
+const texts$hash = parseJSON(readFileSync(resolvePath(dirDataRaw, 'TextMap/TextMapCHS.json'), 'utf-8'));
 
 
 const result = [];
@@ -26,7 +29,7 @@ for(const raw of lightconesRaw$id) {
 		$data$locale: {
 			'zh-cn': {
 				name: texts$hash[raw.EquipmentName?.Hash],
-				nameEffect: texts$hash[skillsLightconeRaw.find(skill=>raw.SkillID==skill.SkillID)?.SkillName?.Hash],
+				nameEffect: texts$hash[skillsLightconeRaw.find(skill => raw.SkillID == skill.SkillID)?.SkillName?.Hash],
 			}
 		}
 	};

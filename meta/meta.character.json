@@ -854,6 +854,34 @@
 		}
 	},
 	{
+		"id": "1403",
+		"element": "Quantum",
+		"path": "Shaman",
+		"rarity": 5,
+		"arggro": 100,
+		"versionAdded": "3.1",
+		"versionAvailable": "3.1",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "缇宝"
+			}
+		}
+	},
+	{
+		"id": "1404",
+		"element": "Imaginary",
+		"path": "Warrior",
+		"rarity": 5,
+		"arggro": 125,
+		"versionAdded": "3.1",
+		"versionAvailable": "3.1",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "万敌"
+			}
+		}
+	},
+	{
 		"id": "8001",
 		"element": "Physical",
 		"path": "Warrior",

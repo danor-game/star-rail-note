@@ -1734,6 +1734,104 @@
 		"difficulty": {}
 	},
 	{
+		"id": 4034101,
+		"title": "女神啊，歌唱他的愤怒",
+		"desc": "年轻的英雄终于从「纷争」中崛起…\\n<color=#8790abff>※…并没有，但他至少得救了</color>",
+		"rarity": "Mid",
+		"series": 3,
+		"descHide": "年轻的英雄终于从「纷争」中崛起…",
+		"priority": 920,
+		"tags": [
+			"版本:3.1",
+			"隐藏描述"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4034102,
+		"title": "无形之神乃最显之物",
+		"desc": "拾花为薪，理性的火种再度燎燃\\n<color=#8790abff>※与泰坦一同击退无名剑士</color>",
+		"rarity": "Mid",
+		"series": 3,
+		"descHide": "拾花为薪，理性的火种再度燎燃",
+		"priority": 919,
+		"tags": [
+			"版本:3.1",
+			"隐藏描述"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4034103,
+		"title": "置身不死的神明中",
+		"desc": "塞纳托斯呵，请恩赐她一夜安眠\\n<color=#8790abff>※在噩梦中尝试重拾缇宝的过去…</color>",
+		"rarity": "Mid",
+		"series": 3,
+		"descHide": "塞纳托斯呵，请恩赐她一夜安眠",
+		"priority": 918,
+		"tags": [
+			"版本:3.1",
+			"隐藏描述"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4034104,
+		"title": "战勇啊，何必质问其家世？",
+		"desc": "君王遗告身后：「朕的王朝，给最强者。」\\n<color=#8790abff>※与「纷争」新神一同在角争中胜出</color>",
+		"rarity": "Mid",
+		"series": 3,
+		"descHide": "君王遗告身后：「朕的王朝，给最强者。」",
+		"priority": 917,
+		"tags": [
+			"版本:3.1",
+			"隐藏描述"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4034105,
+		"title": "人世正如木叶枯荣",
+		"desc": "雄狮远离故土，抵达他流徙的终点\\n<color=#8790abff>※见证悬锋继业者归乡的末路</color>",
+		"rarity": "Mid",
+		"series": 3,
+		"descHide": "雄狮远离故土，抵达他流徙的终点",
+		"priority": 916,
+		"tags": [
+			"版本:3.1",
+			"隐藏描述"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4034106,
+		"title": "旧叶落地，然新木萌发",
+		"desc": "当黎明用玫瑰色的手指送来曙光\\n<color=#8790abff>※见证缇安展翅飞向注定的明天</color>",
+		"rarity": "Mid",
+		"series": 3,
+		"descHide": "当黎明用玫瑰色的手指送来曙光",
+		"priority": 915,
+		"tags": [
+			"版本:3.1",
+			"隐藏描述"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4034107,
+		"title": "人世正如此：一代出生，一代凋零",
+		"desc": "启封岁月自过去送向未来的信\\n<color=#8790abff>※见证缇里西庇俄丝与逐火的起点</color>",
+		"rarity": "Mid",
+		"series": 3,
+		"descHide": "启封岁月自过去送向未来的信",
+		"priority": 914,
+		"tags": [
+			"版本:3.1",
+			"隐藏描述"
+		],
+		"difficulty": {}
+	},
+	{
 		"id": 4040101,
 		"title": "角色扮演游戏里合法",
 		"desc": "开启<unbreak>#1[i]</unbreak>次空间站「黑塔」战利品",
@@ -3675,6 +3773,219 @@
 		"priority": 850,
 		"tags": [
 			"版本:3.0",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4044101,
+		"title": "教科书般的设计",
+		"desc": "为求学者敞开知识的大门",
+		"rarity": "Low",
+		"series": 4,
+		"priority": 849,
+		"tags": [
+			"版本:3.1",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4044102,
+		"title": "瑟希斯不完备定理",
+		"desc": "#1次阻止贼灵从瑟希斯眼皮底下偷走东西",
+		"rarity": "Low",
+		"series": 4,
+		"paramsText": [
+			2
+		],
+		"priority": 848,
+		"tags": [
+			"版本:3.1"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4044103,
+		"title": "学海拾遗",
+		"desc": "获得「呓语密林」神悟树庭中深埋水下的战利品",
+		"rarity": "Low",
+		"series": 4,
+		"priority": 847,
+		"tags": [
+			"版本:3.1"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4044104,
+		"title": "阿多尼斯电梯",
+		"desc": "在「呓语密林」神悟树庭探索时，第一次站到了识之花上面",
+		"rarity": "Low",
+		"series": 4,
+		"priority": 846,
+		"tags": [
+			"版本:3.1"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4044105,
+		"title": "捉蝇术",
+		"desc": "别以为躲到树上就安全了……\\n<color=#8790abff>※使用扎格列斯之手的冲拳动作，击败神悟树庭某棵树木上的敌人</color>",
+		"rarity": "Low",
+		"series": 4,
+		"descHide": "别以为躲到树上就安全了……",
+		"priority": 845,
+		"tags": [
+			"版本:3.1",
+			"隐藏描述"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4044107,
+		"title": "悸动的心",
+		"desc": "将深爱般的誓言献上\\n<color=#8790abff>※使聚露植心再次活化</color>",
+		"rarity": "Low",
+		"series": 4,
+		"descHide": "将深爱般的誓言献上",
+		"priority": 843,
+		"tags": [
+			"版本:3.1",
+			"隐藏描述"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4044108,
+		"title": "种子的信仰",
+		"desc": "在「呓语密林」神悟树庭的逐星天井中探索时，借助识之种砸碎底部的货箱",
+		"rarity": "Low",
+		"series": 4,
+		"priority": 842,
+		"tags": [
+			"版本:3.1"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4044109,
+		"title": "蝶恋花",
+		"desc": "金丝与树叶交织成一纸恋曲\\n<color=#8790abff>※通过神识之蝶的考验</color>",
+		"rarity": "Low",
+		"series": 4,
+		"descHide": "金丝与树叶交织成一纸恋曲",
+		"priority": 841,
+		"tags": [
+			"版本:3.1",
+			"隐藏描述"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4044110,
+		"title": "虫鸣秘闻：智慧绾结",
+		"desc": "几人的塑像丢失了面庞？\\n<color=#8790abff>※解开「呓语密林」神悟树庭的预言谜题</color>",
+		"rarity": "Low",
+		"series": 4,
+		"descHide": "几人的塑像丢失了面庞？",
+		"priority": 840,
+		"tags": [
+			"版本:3.1",
+			"隐藏描述"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4044111,
+		"title": "虫鸣秘闻：门径律法",
+		"desc": "她曾走过怎样的路？\\n<color=#8790abff>※解开「神谕圣地」雅努萨波利斯的预言谜题</color>",
+		"rarity": "Low",
+		"series": 4,
+		"descHide": "她曾走过怎样的路？",
+		"priority": 839,
+		"tags": [
+			"版本:3.1",
+			"隐藏描述"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4044112,
+		"title": "万径之起始",
+		"desc": "发现缇里西庇俄丝的逃生密道",
+		"rarity": "Low",
+		"series": 4,
+		"priority": 838,
+		"tags": [
+			"版本:3.1",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4044113,
+		"title": "彩虹的尽头",
+		"desc": "门径，请指引我\\n<color=#8790abff>※完成「雅努斯迷津」的简单、中等、困难难度谜题</color>",
+		"rarity": "Low",
+		"series": 4,
+		"descHide": "门径，请指引我",
+		"priority": 837,
+		"tags": [
+			"版本:3.1",
+			"隐藏描述"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4044114,
+		"title": "我们仍在路上",
+		"desc": "门径，请指引我们\\n<color=#8790abff>※完成「雅努斯迷津」的最高难度谜题</color>",
+		"rarity": "Low",
+		"series": 4,
+		"descHide": "门径，请指引我们",
+		"priority": 836,
+		"tags": [
+			"版本:3.1",
+			"隐藏描述"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4044115,
+		"title": "新手入门",
+		"desc": "操控扎格列斯之手，击打「神谕圣地」雅努萨波利斯的万径之门",
+		"rarity": "Low",
+		"series": 4,
+		"priority": 835,
+		"tags": [
+			"版本:3.1"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4044116,
+		"title": "所有命运已被标价",
+		"desc": "在「神谕圣地」雅努萨波利斯，借助命运泰坦的权能完成挑战，并获取战利品。",
+		"rarity": "Low",
+		"series": 4,
+		"priority": 834,
+		"tags": [
+			"版本:3.1",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4044117,
+		"title": "地下拳击手",
+		"desc": "使用扎格列斯之手的冲拳动作，击败藏在「神谕圣地」雅努萨波利斯大桥下方的敌人",
+		"rarity": "Low",
+		"series": 4,
+		"priority": 833,
+		"tags": [
+			"版本:3.1",
 			"隐藏成就"
 		],
 		"difficulty": {}
@@ -9708,7 +10019,7 @@
 	{
 		"id": 4054042,
 		"title": "漂浮曲与凝固音符",
-		"desc": "天外回音可绕梁\\n<color=#8790abff>※在帕西提亚出重温过往的天外之音</color>",
+		"desc": "天外回音可绕梁\\n<color=#8790abff>※在帕西提亚处重温过往的天外之音</color>",
 		"rarity": "Low",
 		"series": 5,
 		"descHide": "天外回音可绕梁",
@@ -10103,6 +10414,370 @@
 		"tags": [
 			"版本:3.0",
 			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4054101,
+		"title": "恶老板",
+		"desc": "在「嗷呜嗷呜事务所」中，加班模式达到<unbreak>#1[i]</unbreak>评价",
+		"rarity": "Mid",
+		"series": 5,
+		"paramsText": [
+			30
+		],
+		"priority": 529,
+		"tags": [
+			"版本:3.1"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4054102,
+		"title": "大企业",
+		"desc": "在「嗷呜嗷呜事务所」中，安排队伍中的奇美拉累计获得<unbreak>#1[i]</unbreak>块嗷呜饼干",
+		"rarity": "Low",
+		"series": 5,
+		"paramsText": [
+			60
+		],
+		"priority": 528,
+		"tags": [
+			"版本:3.1"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4054103,
+		"title": "四保一",
+		"desc": "在「嗷呜嗷呜事务所」中，单只奇美拉的效率达到#1",
+		"rarity": "Low",
+		"series": 5,
+		"paramsText": [
+			30
+		],
+		"priority": 527,
+		"tags": [
+			"版本:3.1"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4054104,
+		"title": "…你是对面的吧？",
+		"desc": "在「嗷呜嗷呜事务所」中，单只奇美拉的效率达到#1",
+		"rarity": "Low",
+		"series": 5,
+		"paramsText": [
+			-10
+		],
+		"priority": 526,
+		"tags": [
+			"版本:3.1"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4054105,
+		"title": "大亨游戏",
+		"desc": "在「嗷呜嗷呜事务所」中，将贵族打扮的男性的奇美拉招致麾下",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 525,
+		"tags": [
+			"版本:3.1"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4054106,
+		"title": "小公司大老板",
+		"desc": "在「嗷呜嗷呜事务所」中，拥有属于你的队伍名称",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 524,
+		"tags": [
+			"版本:3.1"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4054107,
+		"title": "独角兽企业",
+		"desc": "在「嗷呜嗷呜事务所」中，击败其余所有队伍，获得最终的冠军头衔",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 523,
+		"tags": [
+			"版本:3.1"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4054108,
+		"title": "凶手来自局外",
+		"desc": "协助珀里法斯查明朋友们的结局",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 522,
+		"tags": [
+			"版本:3.1",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4054111,
+		"title": "生者常怀安",
+		"desc": "探访树庭殉难者的亲属，并完成其心愿",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 519,
+		"tags": [
+			"版本:3.1",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4054112,
+		"title": "命运噤声的圣所",
+		"desc": "窥探「神谕圣地」雅努萨波利斯全部的追忆残像",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 518,
+		"tags": [
+			"版本:3.1",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4054113,
+		"title": "荫下微光",
+		"desc": "窥探「呓语密林」神悟树庭全部的追忆残像",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 517,
+		"tags": [
+			"版本:3.1",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4054114,
+		"title": "别的船只却安然过海",
+		"desc": "调查位于「神谕圣地」雅努萨波利斯的雅努斯之驹",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 516,
+		"tags": [
+			"版本:3.1",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4054115,
+		"title": "灵魂的肖像",
+		"desc": "调查位于「呓语密林」神悟树庭的雅努斯之驹",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 515,
+		"tags": [
+			"版本:3.1",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4054116,
+		"title": "翁法罗斯定位系统",
+		"desc": "在「神谕圣地」雅努萨波利斯完成「雅努斯迷津」的所有谜题",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 514,
+		"tags": [
+			"版本:3.1",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4054117,
+		"title": "给我变！",
+		"desc": "听懂私人浴场中的奇美拉的话语",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 513,
+		"tags": [
+			"版本:3.1",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4054118,
+		"title": "无尽的花与圣叶",
+		"desc": "获取声音记录《神性的回响：理性》",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 512,
+		"tags": [
+			"版本:3.1"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4054119,
+		"title": "爱夜的漫长游祭",
+		"desc": "获取声音记录《神性的回响：浪漫》",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 511,
+		"tags": [
+			"版本:3.1"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4054120,
+		"title": "显赫行止的道路",
+		"desc": "获取声音记录《神性的回响：门径》",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 510,
+		"tags": [
+			"版本:3.1"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4054121,
+		"title": "洞穴外的世界",
+		"desc": "在创世涡心整理思绪\\n<color=#8790abff>※开拓翁法罗斯的过程中，你确实经历了许多…</color>",
+		"rarity": "Low",
+		"series": 5,
+		"descHide": "在创世涡心整理思绪",
+		"priority": 509,
+		"tags": [
+			"版本:3.1",
+			"隐藏描述"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4054122,
+		"title": "天…天外先锋？！",
+		"desc": "使用缇宝调查圣女房间内的黑板",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 508,
+		"tags": [
+			"版本:3.1",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4054123,
+		"title": "遥望众神的宫殿",
+		"desc": "何人不曾听说？\\n<color=#8790abff>※在「神谕圣地」雅努萨波利斯，与所有和圣女相关的人们对话</color>",
+		"rarity": "Low",
+		"series": 5,
+		"descHide": "何人不曾听说？",
+		"priority": 507,
+		"tags": [
+			"版本:3.1",
+			"隐藏描述"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4054124,
+		"title": "我呼唤理性的奇迹",
+		"desc": "阅读「呓语密林」神悟树庭所有启目集",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 506,
+		"tags": [
+			"版本:3.1",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4054125,
+		"title": "我呼唤最后的破晓",
+		"desc": "阅读「神谕圣地」雅努萨波利斯所有启目集",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 505,
+		"tags": [
+			"版本:3.1",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4054126,
+		"title": "异乡人的颂歌",
+		"desc": "聆听诗人利波为你创作的第二首诗歌。",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 504,
+		"tags": [
+			"版本:3.1"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4054127,
+		"title": "母亲啊，我已还乡",
+		"desc": "阅读万敌之母，歌耳戈的命运之末",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 503,
+		"tags": [
+			"版本:3.1"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4054128,
+		"title": "我已建立自己的城",
+		"desc": "找到悬锋王朝最后的记录",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 502,
+		"tags": [
+			"版本:3.1"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4054129,
+		"title": "种太阳",
+		"desc": "在「呓语密林」神悟树庭中解决树庭学者的委托。",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 501,
+		"tags": [
+			"版本:3.1",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4054130,
+		"title": "林地君主",
+		"desc": "坐上「呓语密林」神悟树庭的王座",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 500,
+		"tags": [
+			"版本:3.1"
 		],
 		"difficulty": {}
 	},
@@ -13573,7 +14248,7 @@
 	{
 		"id": 4074019,
 		"title": "代理人战争",
-		"desc": "单场战斗中，场上同时存在<unbreak>#1[i]</unbreak>名及以上我方召唤物",
+		"desc": "单场战斗中，场上同时存在<unbreak>#1[i]</unbreak>名及以上我方忆灵",
 		"rarity": "Low",
 		"series": 7,
 		"paramsText": [
@@ -13615,6 +14290,140 @@
 		"priority": 796,
 		"tags": [
 			"版本:3.0",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4074101,
+		"title": "消逝的光芒",
+		"desc": "单场战斗中，通过消灭敌方目标消除#1个【艾格勒印记】",
+		"rarity": "Low",
+		"series": 7,
+		"paramsText": [
+			3
+		],
+		"priority": 795,
+		"tags": [
+			"版本:3.1"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4074102,
+		"title": "无月之夜",
+		"desc": "单场战斗中，通过释放终结技消除#1个【欧洛尼斯印记】",
+		"rarity": "Low",
+		"series": 7,
+		"paramsText": [
+			2
+		],
+		"priority": 794,
+		"tags": [
+			"版本:3.1"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4074103,
+		"title": "风暴戛然而止",
+		"desc": "使处于【风行】状态的敌人进入弱点击破状态",
+		"rarity": "Low",
+		"series": 7,
+		"priority": 793,
+		"tags": [
+			"版本:3.1"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4074104,
+		"title": "失去影子的人",
+		"desc": "使「至黑之剑，盗火行者」在一阶段连续#1次施放【幽冥的悼念】时，没有「残破容器」可以触发协同",
+		"rarity": "Low",
+		"series": 7,
+		"paramsText": [
+			2
+		],
+		"priority": 792,
+		"tags": [
+			"版本:3.1"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4074105,
+		"title": "没有影子的人",
+		"desc": "在「至黑之剑，盗火行者」施放【沉默的悲叹】期间，击败所有「残破容器」",
+		"rarity": "Low",
+		"series": 7,
+		"priority": 791,
+		"tags": [
+			"版本:3.1"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4074106,
+		"title": "火之门，无尽军势",
+		"desc": "单场战斗中，我方角色万敌在#1次【血仇】状态下，施放#2次【弑王成王】或【弑神登神】",
+		"rarity": "Low",
+		"series": 7,
+		"paramsText": [
+			1,
+			5
+		],
+		"priority": 790,
+		"tags": [
+			"版本:3.1",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4074107,
+		"title": "Tribbie kill",
+		"desc": "单场战斗中，我方角色缇宝使用单次「普攻」同时消灭#1个敌人",
+		"rarity": "Low",
+		"series": 7,
+		"paramsText": [
+			3
+		],
+		"priority": 789,
+		"tags": [
+			"版本:3.1",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4074108,
+		"title": "饱和火力覆盖",
+		"desc": "单场战斗中，使用我方角色缇宝累计触发<unbreak>#1[i]</unbreak>次天赋的追加攻击",
+		"rarity": "Low",
+		"series": 7,
+		"paramsText": [
+			10
+		],
+		"priority": 788,
+		"tags": [
+			"版本:3.1",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4074109,
+		"title": "以一人，敌万人",
+		"desc": "单场战斗中，在我方队伍仅存活万敌的情况下击败#1个精英敌人并获得战斗胜利",
+		"rarity": "Low",
+		"series": 7,
+		"paramsText": [
+			1
+		],
+		"priority": 787,
+		"tags": [
+			"版本:3.1",
 			"隐藏成就"
 		],
 		"difficulty": {}
@@ -14672,6 +15481,20 @@
 		"tags": [
 			"版本:3.0",
 			"隐藏描述"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4084102,
+		"title": "奥赫玛不相信眼泪",
+		"desc": "它不会攻击，但却能用另一种方式伤害你…\\n<color=#8790abff>※在翁法罗斯探索过程中，被人形塑像砸中</color>",
+		"rarity": "Low",
+		"series": 8,
+		"descHide": "它不会攻击，但却能用另一种方式伤害你…",
+		"priority": 911,
+		"tags": [
+			"版本:3.1",
+			"隐藏成就"
 		],
 		"difficulty": {}
 	},

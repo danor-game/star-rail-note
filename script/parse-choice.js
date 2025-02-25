@@ -14,7 +14,6 @@ const { dirDataRaw } = readJSONSync(resolvePath(dir, './config.local.json'));
 const choicesOld = readJSONSync(resolvePath(dir, '../meta/meta.inclination.json'));
 
 const texts$hash = readJSONSync(resolvePath(dirDataRaw, 'TextMap/TextMapCHS.json'));
-texts$hash[371857150] = '';
 
 const textsInclination = readJSONSync(resolvePath(dirDataRaw, 'ExcelOutput/InclinationText.json'));
 const sentencesTalk = readJSONSync(resolvePath(dirDataRaw, 'ExcelOutput/TalkSentenceConfig.json'));
