@@ -1,38 +1,38 @@
+import { readFileSync } from 'fs';
 import { dirname, resolve as resolvePath } from 'path';
 import { fileURLToPath } from 'url';
 
-import { readJSONSync, writeJSONSync } from 'fs-extra/esm';
-import { GetStableHash } from '../src/lib/get-stable-hash.pure.js';
+import { writeJSONSync } from 'fs-extra/esm';
+import XXHash from 'xxhashjs';
+
+import { parse as parseJSON } from '@nuogz/json-bigint';
 
 
 
 const dir = dirname(fileURLToPath(import.meta.url));
-const { dirDataRaw } = readJSONSync(resolvePath(dir, './config.local.json'));
+const { dirDataRaw } = parseJSON(readFileSync(resolvePath(dir, './config.local.json'), 'utf-8'));
 
-const setsRelic = readJSONSync(resolvePath(dir, '../meta/meta.relicSet.json'));
+const texts$hash = parseJSON(readFileSync(resolvePath(dirDataRaw, 'TextMap/TextMapCHS.json'), 'utf-8'));
 
-const R = {
-	texts$hash: readJSONSync(resolvePath(dirDataRaw, 'TextMap/TextMapCHS.json')),
+const setsRelicRaw = parseJSON(readFileSync(resolvePath(dirDataRaw, 'ExcelOutput/RelicSetConfig.json'), 'utf-8'));
+const skillsSetRelicRaw = parseJSON(readFileSync(resolvePath(dirDataRaw, 'ExcelOutput/RelicSetSkillConfig.json'), 'utf-8'));
+const relicesRaw = parseJSON(readFileSync(resolvePath(dirDataRaw, 'ExcelOutput/RelicConfig.json'), 'utf-8'));
+const itemsRelicRaw = parseJSON(readFileSync(resolvePath(dirDataRaw, 'ExcelOutput/ItemConfigRelic.json'), 'utf-8'));
 
-	setsRelic: readJSONSync(resolvePath(dirDataRaw, 'ExcelOutput/RelicSetConfig.json')),
-	skillsSetRelic: readJSONSync(resolvePath(dirDataRaw, 'ExcelOutput/RelicSetSkillConfig.json')),
-	relices: readJSONSync(resolvePath(dirDataRaw, 'ExcelOutput/RelicConfig.json')),
-	itemsRelic: readJSONSync(resolvePath(dirDataRaw, 'ExcelOutput/ItemConfigRelic.json')),
-};
-
+const relics = parseJSON(readFileSync(resolvePath(dir, '../meta/meta.relicSet.json'), 'utf-8'));
 
 
 const resultSetRelic = [];
-for(const setRelicRaw of R.setsRelic) {
+for(const setRelicRaw of setsRelicRaw) {
 	const setRelic = {
 		id: String(setRelicRaw.SetID),
 		type: setRelicRaw.IsPlanarSuit ? 'Planar' : 'Cavern',
 		skills: {},
 		idsRelic: [],
-		versionAdded: setsRelic.find(meta => meta.id == setRelicRaw.SetID)?.versionAdded ?? process.argv[2] ?? '3.x',
+		versionAdded: relics.find(meta => meta.id == setRelicRaw.SetID)?.versionAdded ?? process.argv[2] ?? '3.x',
 		$data$locale: {
 			'zh-cn': {
-				name: R.texts$hash[setRelicRaw.SetName?.Hash],
+				name: texts$hash[setRelicRaw.SetName?.Hash],
 			}
 		}
 	};
@@ -41,14 +41,14 @@ for(const setRelicRaw of R.setsRelic) {
 
 
 
-	const skillsSetRelicRaw = R.skillsSetRelic.filter(skill => skill.SetID == Number(setRelic.id));
-	for(const skillSetRelicRaw of skillsSetRelicRaw) {
+	const skillsSetRelicRawMatched = skillsSetRelicRaw.filter(skill => skill.SetID == Number(setRelic.id));
+	for(const skillSetRelicRaw of skillsSetRelicRawMatched) {
 		const skill = {
 			countRequire: skillSetRelicRaw.RequireNum,
 			params: skillSetRelicRaw.AbilityParamList,
 			$data$locale: {
 				'zh-cn': {
-					desc: R.texts$hash[GetStableHash(skillSetRelicRaw.SkillDesc)],
+					desc: texts$hash[XXHash.h64(skillSetRelicRaw.SkillDesc, 0).toString(10)],
 				}
 			}
 		};
@@ -57,20 +57,18 @@ for(const setRelicRaw of R.setsRelic) {
 	}
 
 
-
-	const relicesRaw = R.relices.filter(relic => relic.Rarity == 'CombatPowerRelicRarity5' && relic.SetID == Number(setRelic.id));
-
-	for(const relicRaw of relicesRaw) {
-		const itemRelicRaw = R.itemsRelic.find(item => item.ID == relicRaw.ID);
+	const relicesRawMatched = relicesRaw.filter(relic => relic.Rarity == 'CombatPowerRelicRarity5' && relic.SetID == Number(setRelic.id));
+	for(const relicRaw of relicesRawMatched) {
+		const itemRelicRaw = itemsRelicRaw.find(item => item.ID == relicRaw.ID);
 
 		const relic = {
 			id: String(relicRaw.ID),
 			type: String(relicRaw.Type),
 			$data$locale: {
 				'zh-cn': {
-					name: R.texts$hash[itemRelicRaw.ItemName?.Hash],
-					desc: R.texts$hash[itemRelicRaw.ItemDesc?.Hash],
-					descBG: R.texts$hash[itemRelicRaw.ItemBGDesc?.Hash],
+					name: texts$hash[itemRelicRaw.ItemName?.Hash],
+					desc: texts$hash[itemRelicRaw.ItemDesc?.Hash],
+					descBG: texts$hash[itemRelicRaw.ItemBGDesc?.Hash],
 				}
 			}
 		};

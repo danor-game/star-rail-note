@@ -11,10 +11,11 @@ import { parse as parseJSON } from '@nuogz/json-bigint';
 const dir = dirname(fileURLToPath(import.meta.url));
 const { dirDataRaw } = parseJSON(readFileSync(resolvePath(dir, './config.local.json'), 'utf-8'));
 
-const achievements = parseJSON(readFileSync(resolvePath(dir, '../meta/meta.achievement.json'), 'utf-8'));
+const texts$hash = parseJSON(readFileSync(resolvePath(dirDataRaw, 'TextMap/TextMapCHS.json'), 'utf-8'));
 
 const achievementsRaw = parseJSON(readFileSync(resolvePath(dirDataRaw, 'ExcelOutput/AchievementData.json'), 'utf-8'));
-const texts$hash = parseJSON(readFileSync(resolvePath(dirDataRaw, 'TextMap/TextMapCHS.json'), 'utf-8'));
+
+const achievements = parseJSON(readFileSync(resolvePath(dir, '../meta/meta.achievement.json'), 'utf-8'));
 
 
 const idsInclude = [];

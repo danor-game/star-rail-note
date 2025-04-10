@@ -948,6 +948,18 @@
 		}
 	},
 	{
+		"id": "22004",
+		"path": "Mage",
+		"rarity": 4,
+		"versionAdded": "3.2",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "宇宙大生意",
+				"nameEffect": "互惠"
+			}
+		}
+	},
+	{
 		"id": "23000",
 		"path": "Mage",
 		"rarity": 5,
@@ -1461,6 +1473,32 @@
 		}
 	},
 	{
+		"id": "23040",
+		"path": "Memory",
+		"rarity": 5,
+		"characterBest": "1407",
+		"versionAdded": "3.2",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "让告别，更美一些",
+				"nameEffect": "铭刻"
+			}
+		}
+	},
+	{
+		"id": "23041",
+		"path": "Mage",
+		"rarity": 5,
+		"characterBest": "1405",
+		"versionAdded": "3.2",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "生命当付之一炬",
+				"nameEffect": "熔炼"
+			}
+		}
+	},
+	{
 		"id": "24000",
 		"path": "Warrior",
 		"rarity": 5,
@@ -1524,7 +1562,7 @@
 		"id": "24005",
 		"path": "Memory",
 		"rarity": 5,
-		"versionAdded": "3.x",
+		"versionAdded": "3.1",
 		"$data$locale": {
 			"zh-cn": {
 				"name": "记忆永不落幕",

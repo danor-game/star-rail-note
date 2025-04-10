@@ -1,17 +1,21 @@
+import { readFileSync } from 'fs';
 import { dirname, resolve as resolvePath } from 'path';
 import { fileURLToPath } from 'url';
 
-import { readJSONSync, writeJSONSync } from 'fs-extra/esm';
+import { writeJSONSync } from 'fs-extra/esm';
+
+import { parse as parseJSON } from '@nuogz/json-bigint';
 
 
 
 const dir = dirname(fileURLToPath(import.meta.url));
-const { dirDataRaw } = readJSONSync(resolvePath(dir, './config.local.json'));
+const { dirDataRaw } = parseJSON(readFileSync(resolvePath(dir, './config.local.json'), 'utf-8'));
 
-const paths = readJSONSync(resolvePath(dir, '../meta/meta.path.json'));
+const texts$hash = parseJSON(readFileSync(resolvePath(dirDataRaw, 'TextMap/TextMapCHS.json'), 'utf-8'));
 
-const pathsRaw = readJSONSync(resolvePath(dirDataRaw, 'ExcelOutput/AvatarBaseType.json'));
-const texts$hash = readJSONSync(resolvePath(dirDataRaw, 'TextMap/TextMapCHS.json'));
+const pathsRaw = parseJSON(readFileSync(resolvePath(dirDataRaw, 'ExcelOutput/AvatarBaseType.json'), 'utf-8'));
+
+const paths = parseJSON(readFileSync(resolvePath(dir, '../meta/meta.path.json'), 'utf-8'));
 
 
 const result = [];

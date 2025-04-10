@@ -1846,6 +1846,187 @@
 		}
 	},
 	{
+		"id": "123",
+		"type": "Cavern",
+		"skills": {
+			"2": {
+				"countRequire": 2,
+				"params": [
+					{
+						"Value": 0.12
+					}
+				],
+				"$data$locale": {
+					"zh-cn": {
+						"desc": "攻击力提高<unbreak>#1[i]%</unbreak>。"
+					}
+				}
+			},
+			"4": {
+				"countRequire": 4,
+				"params": [
+					{
+						"Value": 0.06
+					},
+					{
+						"Value": 0.3
+					},
+					{
+						"Value": 2
+					}
+				],
+				"$data$locale": {
+					"zh-cn": {
+						"desc": "装备者的忆灵在场时，装备者的速度提高<unbreak>#1[i]%</unbreak>，装备者的忆灵攻击时，装备者和忆灵的暴击伤害提高<unbreak>#2[i]%</unbreak>，持续<unbreak>#3[i]</unbreak>回合。"
+					}
+				}
+			}
+		},
+		"idsRelic": [
+			{
+				"id": "61231",
+				"type": "HEAD",
+				"$data$locale": {
+					"zh-cn": {
+						"name": "英豪的冠军桂冠",
+						"descBG": "竞技场冠军所得的桂冠。每一片金色的桂叶都闪烁着勇气与荣耀。"
+					}
+				}
+			},
+			{
+				"id": "61232",
+				"type": "HAND",
+				"$data$locale": {
+					"zh-cn": {
+						"name": "英豪的鉴金腕铠",
+						"descBG": "一对精致的督战勇士护腕。紧贴着勇士的手腕，稳稳地支撑着胜利号角。"
+					}
+				}
+			},
+			{
+				"id": "61233",
+				"type": "BODY",
+				"$data$locale": {
+					"zh-cn": {
+						"name": "英豪的骁战金甲",
+						"descBG": "宛如天神的铠甲，完美贴合着雄健的身躯。"
+					}
+				}
+			},
+			{
+				"id": "61234",
+				"type": "FOOT",
+				"$data$locale": {
+					"zh-cn": {
+						"name": "英豪的赴火护胫",
+						"descBG": "紧密贴合战士腿部的护胫，曲线优雅而坚固，蕴藏着决不退缩的信念。"
+					}
+				}
+			}
+		],
+		"versionAdded": "3.0",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "凯歌祝捷的英豪"
+			}
+		}
+	},
+	{
+		"id": "124",
+		"type": "Cavern",
+		"skills": {
+			"2": {
+				"countRequire": 2,
+				"params": [
+					{
+						"Value": 0.1
+					}
+				],
+				"$data$locale": {
+					"zh-cn": {
+						"desc": "量子属性伤害提高<unbreak>#1[i]%</unbreak>。"
+					}
+				}
+			},
+			"4": {
+				"countRequire": 4,
+				"params": [
+					{
+						"Value": -0.08
+					},
+					{
+						"Value": 110
+					},
+					{
+						"Value": 95
+					},
+					{
+						"Value": 0.2
+					},
+					{
+						"Value": 0.32
+					},
+					{
+						"Value": 0.08
+					}
+				],
+				"$data$locale": {
+					"zh-cn": {
+						"desc": "使装备者的速度降低<unbreak>#6[i]%</unbreak>。进入战斗前，若装备者的速度小于<unbreak>#2[i]</unbreak>/<unbreak>#3[i]</unbreak>，使装备者的暴击率提高<unbreak>#4[i]%</unbreak>/<unbreak>#5[i]%</unbreak>。该效果同时对装备者的忆灵生效。"
+					}
+				}
+			}
+		},
+		"idsRelic": [
+			{
+				"id": "61241",
+				"type": "HEAD",
+				"$data$locale": {
+					"zh-cn": {
+						"name": "诗人的莳萝花冠",
+						"descBG": "春日黄昏神庙前，最出色的吟游诗人将得到墨涅塔赐福的莳萝花冠。"
+					}
+				}
+			},
+			{
+				"id": "61242",
+				"type": "HAND",
+				"$data$locale": {
+					"zh-cn": {
+						"name": "诗人的贵金手镯",
+						"descBG": "被人喜爱的金属打造的手镯，故事中的恶龙，也曾背负这样金属打造的枷锁。"
+					}
+				}
+			},
+			{
+				"id": "61243",
+				"type": "BODY",
+				"$data$locale": {
+					"zh-cn": {
+						"name": "诗人的缀星裙摆",
+						"descBG": "黎明是最温柔的时辰，她的裙摆也恰如黎明前的最后一缕晚星，那般颜色。"
+					}
+				}
+			},
+			{
+				"id": "61244",
+				"type": "FOOT",
+				"$data$locale": {
+					"zh-cn": {
+						"name": "诗人的钉银之履",
+						"descBG": "织履镶着银钉，行在沙地上印出字样的纹路，为了采撷旧日的诗篇她始终步履不停。"
+					}
+				}
+			}
+		],
+		"versionAdded": "3.0",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "哀歌覆国的诗人"
+			}
+		}
+	},
+	{
 		"id": "301",
 		"type": "Planar",
 		"skills": {
@@ -2790,6 +2971,118 @@
 		"$data$locale": {
 			"zh-cn": {
 				"name": "奇想蕉乐园"
+			}
+		}
+	},
+	{
+		"id": "319",
+		"type": "Planar",
+		"skills": {
+			"2": {
+				"countRequire": 2,
+				"params": [
+					{
+						"Value": 0.12
+					},
+					{
+						"Value": 5000
+					},
+					{
+						"Value": 0.28
+					}
+				],
+				"$data$locale": {
+					"zh-cn": {
+						"desc": "使装备者的生命上限提高<unbreak>#1[i]%</unbreak>。当装备者的生命上限大于等于<unbreak>#2[i]</unbreak>点时，使装备者及其忆灵的暴击伤害提高<unbreak>#3[i]%</unbreak>。"
+					}
+				}
+			}
+		},
+		"idsRelic": [
+			{
+				"id": "63195",
+				"type": "NECK",
+				"$data$locale": {
+					"zh-cn": {
+						"name": "哀地里亚的殁名祭碑",
+						"descBG": "位面球中封存着翁法罗斯的哀地里亚，信仰{RUBY_B#死亡之泰坦}塞纳托斯{RUBY_E#}的民众们在雪原上修筑起巨碑，敬奉为他们带来死亡祝福的圣女。"
+					}
+				}
+			},
+			{
+				"id": "63196",
+				"type": "OBJECT",
+				"$data$locale": {
+					"zh-cn": {
+						"name": "哀地里亚的入溟骨链",
+						"descBG": "兽骨、箭镞与铁蒺藜，将哀地里亚人与那亡者的世界相连。荒原上的苦行者只愿自己的灵魂能够渡过寒溟，不因其贫瘠与软弱而彷徨失落于面见尊神的路上。"
+					}
+				}
+			}
+		],
+		"versionAdded": "3.1",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "谧宁拾骨地"
+			}
+		}
+	},
+	{
+		"id": "320",
+		"type": "Planar",
+		"skills": {
+			"2": {
+				"countRequire": 2,
+				"params": [
+					{
+						"Value": 0.06
+					},
+					{
+						"Value": 135
+					},
+					{
+						"Value": 180
+					},
+					{
+						"Value": 0.12
+					},
+					{
+						"Value": 0.2
+					}
+				],
+				"$data$locale": {
+					"zh-cn": {
+						"desc": "使装备者的速度提高<unbreak>#1[i]%</unbreak>。当装备者的速度大于等于<unbreak>#2[i]</unbreak>/<unbreak>#3[i]</unbreak>时，使装备者及其忆灵的治疗量提高<unbreak>#4[i]%</unbreak>/<unbreak>#5[i]%</unbreak>。"
+					}
+				}
+			}
+		},
+		"idsRelic": [
+			{
+				"id": "63205",
+				"type": "NECK",
+				"$data$locale": {
+					"zh-cn": {
+						"name": "神悟树庭的沉思巨桹",
+						"descBG": "位面球封装的是翁法罗斯的神悟树庭，「裂分之枝」{RUBY_B#理性之泰坦}瑟希斯{RUBY_E#}的神躯在此沉思。「最初的学者」带领众人在林间建立起花园与庭院，分享学识，树庭由此初诞。"
+					}
+				}
+			},
+			{
+				"id": "63206",
+				"type": "OBJECT",
+				"$data$locale": {
+					"zh-cn": {
+						"name": "神悟树庭的联识叶路",
+						"descBG": "金丝与藤蔓串联起树庭识网，成为学派间共享成果的生命线。信息由根系传入，沿脉络游览、析构。直至化作一滴露珠，溶入友爱之馆的池中。"
+					}
+				}
+			}
+		],
+		"versionAdded": "3.1",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "渊思寂虑的巨树"
 			}
 		}
 	}

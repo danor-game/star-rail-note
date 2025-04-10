@@ -164,6 +164,7 @@ const query = async idProfile => {
 
 
 const $setOptionSeries = ref(new Set(M.seriesAchievement.map(series => series.id)));
+switchSetOption($setOptionSeries.value, 3);
 
 const sorts$seriesAchievement = M.seriesAchievement.reduce((acc, series, index) => (acc[series.id] = M.seriesAchievement.length - index, acc), {});
 

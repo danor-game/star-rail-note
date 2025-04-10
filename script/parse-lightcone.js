@@ -11,11 +11,12 @@ import { parse as parseJSON } from '@nuogz/json-bigint';
 const dir = dirname(fileURLToPath(import.meta.url));
 const { dirDataRaw } = parseJSON(readFileSync(resolvePath(dir, './config.local.json'), 'utf-8'));
 
-const lightcones = parseJSON(readFileSync(resolvePath(dir, '../meta/meta.lightcone.json'), 'utf-8'));
+const texts$hash = parseJSON(readFileSync(resolvePath(dirDataRaw, 'TextMap/TextMapCHS.json'), 'utf-8'));
 
 const lightconesRaw$id = parseJSON(readFileSync(resolvePath(dirDataRaw, 'ExcelOutput/EquipmentConfig.json'), 'utf-8'));
 const skillsLightconeRaw = parseJSON(readFileSync(resolvePath(dirDataRaw, 'ExcelOutput/EquipmentSkillConfig.json'), 'utf-8'));
-const texts$hash = parseJSON(readFileSync(resolvePath(dirDataRaw, 'TextMap/TextMapCHS.json'), 'utf-8'));
+
+const lightcones = parseJSON(readFileSync(resolvePath(dir, '../meta/meta.lightcone.json'), 'utf-8'));
 
 
 const result = [];

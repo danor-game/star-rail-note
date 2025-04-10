@@ -882,6 +882,34 @@
 		}
 	},
 	{
+		"id": "1405",
+		"element": "Wind",
+		"path": "Mage",
+		"rarity": 5,
+		"arggro": 75,
+		"versionAdded": "3.2",
+		"versionAvailable": "3.2",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "那刻夏"
+			}
+		}
+	},
+	{
+		"id": "1407",
+		"element": "Quantum",
+		"path": "Memory",
+		"rarity": 5,
+		"arggro": 100,
+		"versionAdded": "3.2",
+		"versionAvailable": "3.2",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "遐蝶"
+			}
+		}
+	},
+	{
 		"id": "8001",
 		"element": "Physical",
 		"path": "Warrior",

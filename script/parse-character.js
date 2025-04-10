@@ -11,11 +11,12 @@ import { parse as parseJSON } from '@nuogz/json-bigint';
 const dir = dirname(fileURLToPath(import.meta.url));
 const { dirDataRaw } = parseJSON(readFileSync(resolvePath(dir, './config.local.json'), 'utf-8'));
 
-const characters = parseJSON(readFileSync(resolvePath(dir, '../meta/meta.character.json'), 'utf-8'));
+const texts$hash = parseJSON(readFileSync(resolvePath(dirDataRaw, 'TextMap/TextMapCHS.json'), 'utf-8'));
 
 const charactersRaw$id = parseJSON(readFileSync(resolvePath(dirDataRaw, 'ExcelOutput/AvatarConfig.json'), 'utf-8'));
 const promotionsRaw = parseJSON(readFileSync(resolvePath(dirDataRaw, 'ExcelOutput/AvatarPromotionConfig.json'), 'utf-8'));
-const texts$hash = parseJSON(readFileSync(resolvePath(dirDataRaw, 'TextMap/TextMapCHS.json'), 'utf-8'));
+
+const characters = parseJSON(readFileSync(resolvePath(dir, '../meta/meta.character.json'), 'utf-8'));
 
 
 const result = [];

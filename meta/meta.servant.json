@@ -1,7 +1,7 @@
 [
 	{
 		"id": "11402",
-		"versionAdded": "3.x",
+		"versionAdded": "3.0",
 		"$data$locale": {
 			"zh-cn": {
 				"name": "衣匠"
@@ -9,8 +9,17 @@
 		}
 	},
 	{
+		"id": "11407",
+		"versionAdded": "3.2",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "死龙•玻吕刻斯"
+			}
+		}
+	},
+	{
 		"id": "18007",
-		"versionAdded": "3.x",
+		"versionAdded": "3.0",
 		"$data$locale": {
 			"zh-cn": {
 				"name": "迷迷"

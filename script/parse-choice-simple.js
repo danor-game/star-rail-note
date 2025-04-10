@@ -1,18 +1,20 @@
+import { readFileSync } from 'fs';
 import { dirname, resolve as resolvePath } from 'path';
 import { fileURLToPath } from 'url';
 
-import { readJSONSync, writeJSONSync } from 'fs-extra/esm';
+import { writeJSONSync } from 'fs-extra/esm';
+
+import { parse as parseJSON } from '@nuogz/json-bigint';
 
 
 
 const dir = dirname(fileURLToPath(import.meta.url));
-const { dirDataRaw } = readJSONSync(resolvePath(dir, './config.local.json'));
+const { dirDataRaw } = parseJSON(readFileSync(resolvePath(dir, './config.local.json'), 'utf-8'));
 
+const texts$hash = parseJSON(readFileSync(resolvePath(dirDataRaw, 'TextMap/TextMapCHS.json'), 'utf-8'));
 
-const texts$hash = readJSONSync(resolvePath(dirDataRaw, 'TextMap/TextMapCHS.json'));
-
-const textsInclination = readJSONSync(resolvePath(dirDataRaw, 'ExcelOutput/InclinationText.json'));
-const sentencesTalk = readJSONSync(resolvePath(dirDataRaw, 'ExcelOutput/TalkSentenceConfig.json'));
+const textsInclinationRaw = parseJSON(readFileSync(resolvePath(dirDataRaw, 'ExcelOutput/InclinationText.json'), 'utf-8'));
+const sentencesTalkRaw = parseJSON(readFileSync(resolvePath(dirDataRaw, 'ExcelOutput/TalkSentenceConfig.json'), 'utf-8'));
 
 const typesInclination$type = {
 	1001: '热血',
@@ -45,14 +47,13 @@ const parseSentenceSlot = string => !string ? string : string
 
 const choices = [];
 const choices$id = {};
-
 for(const typeInclination in typesInclination$type) {
-	for(const textInclination of textsInclination) {
+	for(const textInclination of textsInclinationRaw) {
 		if(!textInclination.InclinationTypeList.includes(Number(typeInclination))) { continue; }
 
 
 		const idSentence = textInclination.TalkSentenceID;
-		const sentence = sentencesTalk.find(sentence => sentence.TalkSentenceID == idSentence);
+		const sentence = sentencesTalkRaw.find(sentence => sentence.TalkSentenceID == idSentence);
 		if(sentence.TalkSentenceID != idSentence) { throw Error(`Sentence的id不等于key: ${idSentence} != ${sentence.TalkSentenceID}`); }
 
 		const hashTextSentence = sentence.TalkSentenceText.Hash;
