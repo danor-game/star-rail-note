@@ -2939,6 +2939,94 @@
 		}
 	},
 	{
+		"id": "2071",
+		"type": "11",
+		"timeBorn": 1745985600,
+		"timeDead": 1747724400,
+		"typeItem": "character",
+		"itemsBoost5": [
+			"1405"
+		],
+		"itemsBoost4": [
+			"1002",
+			"1103",
+			"1223"
+		],
+		"versionAdded": "3.2",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "胚中万物"
+			}
+		}
+	},
+	{
+		"id": "3071",
+		"type": "12",
+		"timeBorn": 1745985600,
+		"timeDead": 1747724400,
+		"typeItem": "lightcone",
+		"itemsBoost5": [
+			"23041"
+		],
+		"itemsBoost4": [
+			"21016",
+			"21045",
+			"21005"
+		],
+		"versionAdded": "3.2",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "流光定影"
+			}
+		}
+	},
+	{
+		"id": "2072",
+		"type": "11",
+		"timeBorn": 1745985600,
+		"timeDead": 1747724400,
+		"typeItem": "character",
+		"itemsBoost5": [
+			"1305"
+		],
+		"itemsBoost4": [
+			"1002",
+			"1103",
+			"1223"
+		],
+		"versionAdded": "3.2",
+		"rerun": 1,
+		"idLeader": "2071",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "万物皆流"
+			}
+		}
+	},
+	{
+		"id": "3072",
+		"type": "12",
+		"timeBorn": 1745985600,
+		"timeDead": 1747724400,
+		"typeItem": "lightcone",
+		"itemsBoost5": [
+			"23020"
+		],
+		"itemsBoost4": [
+			"21016",
+			"21045",
+			"21005"
+		],
+		"versionAdded": "3.2",
+		"rerun": 1,
+		"idLeader": "3071",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "溯回忆象"
+			}
+		}
+	},
+	{
 		"id": "2999",
 		"type": "11",
 		"typeItem": "character",
