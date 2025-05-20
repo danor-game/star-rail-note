@@ -3027,6 +3027,90 @@
 		}
 	},
 	{
+		"id": "2073",
+		"type": "11",
+		"timeDead": 1749614340,
+		"typeItem": "character",
+		"itemsBoost5": [
+			"1409"
+		],
+		"itemsBoost4": [
+			"1312",
+			"1103",
+			"1105"
+		],
+		"versionAdded": "3.3",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "虹隽晨昏"
+			}
+		}
+	},
+	{
+		"id": "3073",
+		"type": "12",
+		"timeDead": 1749614340,
+		"typeItem": "lightcone",
+		"itemsBoost5": [
+			"23042"
+		],
+		"itemsBoost4": [
+			"21013",
+			"21047",
+			"21002"
+		],
+		"versionAdded": "3.3",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "流光定影"
+			}
+		}
+	},
+	{
+		"id": "2074",
+		"type": "11",
+		"timeDead": 1749614340,
+		"typeItem": "character",
+		"itemsBoost5": [
+			"1401"
+		],
+		"itemsBoost4": [
+			"1312",
+			"1103",
+			"1105"
+		],
+		"versionAdded": "3.3",
+		"rerun": 1,
+		"idLeader": "2073",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "视界来信"
+			}
+		}
+	},
+	{
+		"id": "3074",
+		"type": "12",
+		"timeDead": 1749614340,
+		"typeItem": "lightcone",
+		"itemsBoost5": [
+			"23037"
+		],
+		"itemsBoost4": [
+			"21013",
+			"21047",
+			"21002"
+		],
+		"versionAdded": "3.3",
+		"rerun": 1,
+		"idLeader": "3073",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "溯回忆象"
+			}
+		}
+	},
+	{
 		"id": "2999",
 		"type": "11",
 		"typeItem": "character",

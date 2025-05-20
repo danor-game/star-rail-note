@@ -18,6 +18,15 @@
 		}
 	},
 	{
+		"id": "11409",
+		"versionAdded": "3.3",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "小伊卡"
+			}
+		}
+	},
+	{
 		"id": "18007",
 		"versionAdded": "3.0",
 		"$data$locale": {

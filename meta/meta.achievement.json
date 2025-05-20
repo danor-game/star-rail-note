@@ -1922,6 +1922,81 @@
 		"difficulty": {}
 	},
 	{
+		"id": 4034301,
+		"title": "黎明沉默无言",
+		"desc": "哀悼一位伟大凡人的陨落\\n<color=#8790abff>※聆听白厄的演讲</color>",
+		"rarity": "Mid",
+		"series": 3,
+		"descHide": "哀悼一位伟大凡人的陨落",
+		"priority": 907,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:3.3",
+			"隐藏描述"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4034302,
+		"title": "鎏金，铩羽",
+		"desc": "堕入那一池滚烫的黄金……\\n<color=#8790abff>※击败天空泰坦的化身</color>",
+		"rarity": "Mid",
+		"series": 3,
+		"descHide": "堕入那一池滚烫的黄金……",
+		"priority": 906,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:3.3",
+			"隐藏描述"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4034303,
+		"title": "我们的天空",
+		"desc": "以人的意志，为神明的时代画上句号\\n<color=#8790abff>※战胜塞涅俄丝的意志</color>",
+		"rarity": "Mid",
+		"series": 3,
+		"descHide": "以人的意志，为神明的时代画上句号",
+		"priority": 905,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:3.3",
+			"隐藏描述"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4034304,
+		"title": "出卖世界的女孩",
+		"desc": "见证一则谎言的落幕\\n<color=#8790abff>※见证千年之谎被揭穿的时刻</color>",
+		"rarity": "Mid",
+		"series": 3,
+		"descHide": "见证一则谎言的落幕",
+		"priority": 904,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:3.3",
+			"隐藏描述"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4034305,
+		"title": "一切终点的起点",
+		"desc": "世上从无两全其美\\n<color=#8790abff>※完成逐火之旅</color>",
+		"rarity": "Mid",
+		"series": 3,
+		"descHide": "世上从无两全其美",
+		"priority": 903,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:3.3",
+			"隐藏描述"
+		],
+		"difficulty": {}
+	},
+	{
 		"id": 4040101,
 		"title": "角色扮演游戏里合法",
 		"desc": "开启<unbreak>#1[i]</unbreak>次空间站「黑塔」战利品",
@@ -3631,7 +3706,7 @@
 	{
 		"id": 4044018,
 		"title": "时空悍将",
-		"desc": "将悬锋斗技场（夜）的所有战魂塑像全部回溯",
+		"desc": "将「纷争荒墟」悬锋城的所有战魂塑像全部回溯",
 		"rarity": "Low",
 		"series": 4,
 		"priority": 867,
@@ -4320,6 +4395,261 @@
 		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:3.2",
+			"隐藏描述"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4044301,
+		"title": "交通罚单，请收好",
+		"desc": "在「云端遗堡」晨昏之眼击碎超速运行的飞天坛递",
+		"rarity": "Low",
+		"series": 4,
+		"priority": 814,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:3.3",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4044302,
+		"title": "虫鸣秘闻：无形长阶",
+		"desc": "是什么遮蔽了燃火之路？\\n<color=#8790abff>※解开「无晖祈堂」黎明云崖的预言谜题</color>",
+		"rarity": "Low",
+		"series": 4,
+		"descHide": "是什么遮蔽了燃火之路？",
+		"priority": 813,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:3.3",
+			"隐藏描述"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4044303,
+		"title": "虫鸣秘闻：西风苦旅",
+		"desc": "捷足能否逃离厄运？\\n<color=#8790abff>※解开「沉沦暮城」奥赫玛的预言谜题</color>",
+		"rarity": "Low",
+		"series": 4,
+		"descHide": "捷足能否逃离厄运？",
+		"priority": 812,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:3.3",
+			"隐藏描述"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4044304,
+		"title": "虫鸣秘闻：神机之秘",
+		"desc": "如何驯服神机？\\n<color=#8790abff>※解开「穹顶关塞」晨昏之眼的预言谜题</color>",
+		"rarity": "Low",
+		"series": 4,
+		"descHide": "如何驯服神机？",
+		"priority": 811,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:3.3",
+			"隐藏描述"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4044305,
+		"title": "虫鸣秘闻：虹彩尽头",
+		"desc": "如何抵达彩虹的尽头？\\n<color=#8790abff>※解开「云端遗堡」晨昏之眼的预言谜题</color>",
+		"rarity": "Low",
+		"series": 4,
+		"descHide": "如何抵达彩虹的尽头？",
+		"priority": 810,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:3.3",
+			"隐藏描述"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4044306,
+		"title": "将黄金织作方舟",
+		"desc": "集齐全部#1块颂言石块后，与原型衣匠交流",
+		"rarity": "Low",
+		"series": 4,
+		"paramsText": [
+			16
+		],
+		"priority": 809,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:3.3",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4044307,
+		"title": "再见了，所有的飞天坛递",
+		"desc": "打碎超长彩虹道路上所有的飞天坛递",
+		"rarity": "Low",
+		"series": 4,
+		"priority": 808,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:3.3",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4044308,
+		"title": "最小生成树",
+		"desc": "使用不多于两次旋转操作来解开一个西风罗盘的谜题",
+		"rarity": "Low",
+		"series": 4,
+		"priority": 807,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:3.3",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4044309,
+		"title": "潮起潮落",
+		"desc": "解决晨昏之眼中所有西风罗盘的谜题，拿到属于它们的战利品。",
+		"rarity": "Low",
+		"series": 4,
+		"priority": 806,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:3.3"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4044310,
+		"title": "而知也无涯",
+		"desc": "找到「知道虫」",
+		"rarity": "Low",
+		"series": 4,
+		"priority": 805,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:3.3"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4044311,
+		"title": "巴特鲁斯玻色子",
+		"desc": "找到一只原地打转的贼灵",
+		"rarity": "Low",
+		"series": 4,
+		"priority": 804,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:3.3"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4044312,
+		"title": "巴特鲁斯什么也不知道",
+		"desc": "见证一只贼灵消灭宝箱旁的怪物",
+		"rarity": "Low",
+		"series": 4,
+		"priority": 803,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:3.3"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4044313,
+		"title": "天空的路标",
+		"desc": "借助西风罗盘，抵达「云端遗堡」晨昏之眼的某个特殊天象区块",
+		"rarity": "Low",
+		"series": 4,
+		"priority": 802,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:3.3"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4044314,
+		"title": "苍天之拳",
+		"desc": "别以为躲在天上就没事了…\\n<color=#8790abff>※使用扎格列斯之手的冲拳动作，击败「穹顶关塞」晨昏之眼中某个躲藏的敌人</color>",
+		"rarity": "Low",
+		"series": 4,
+		"descHide": "别以为躲在天上就没事了…",
+		"priority": 801,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:3.3",
+			"隐藏描述"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4044315,
+		"title": "光化学合成",
+		"desc": "真正的强者，可以踏空而行…\\n<color=#8790abff>※在「云端遗堡」晨昏之眼中，利用「奇迹宝珠」抵达平台另一侧</color>",
+		"rarity": "Low",
+		"series": 4,
+		"descHide": "真正的强者，可以踏空而行…",
+		"priority": 800,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:3.3",
+			"隐藏描述"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4044316,
+		"title": "芝麻，开门",
+		"desc": "解开谜题，获得「云端遗堡」晨昏之眼中存储区块的隐藏战利品",
+		"rarity": "Low",
+		"series": 4,
+		"priority": 799,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:3.3"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4044317,
+		"title": "杰克与豌豆",
+		"desc": "解开谜题，获得「云端遗堡」晨昏之眼中天象区块的隐藏战利品",
+		"rarity": "Low",
+		"series": 4,
+		"priority": 798,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:3.3"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4044318,
+		"title": "天气控制仪",
+		"desc": "在「穹顶关塞」晨昏之眼中，首次激活天象画壁…\\n<color=#8790abff>※你会发现，苍穹也能如手中黏土般随意摆弄</color>",
+		"rarity": "Low",
+		"series": 4,
+		"descHide": "在「穹顶关塞」晨昏之眼中，首次激活天象画壁…",
+		"priority": 797,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:3.3",
 			"隐藏描述"
 		],
 		"difficulty": {}
@@ -11508,6 +11838,319 @@
 		"difficulty": {}
 	},
 	{
+		"id": 4054301,
+		"title": "烈火朝生暮死",
+		"desc": "将伊来内换取的「余火」汇入火焰",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 468,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:3.3",
+			"隐藏描述"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4054302,
+		"title": "假如给我三天温暖",
+		"desc": "令「沉沦暮城」奥赫玛和「无晖祈堂」黎明云崖中所有熄灭的吉奥里亚活火复燃",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 467,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:3.3"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4054303,
+		"title": "狮子王",
+		"desc": "修复「沉沦暮城」奥赫玛和「无晖祈堂」黎明云崖中所有损坏的真言狮口",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 466,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:3.3"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4054304,
+		"title": "云计算恢复中",
+		"desc": "观测天才们研究翁法罗斯的会议记录",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 465,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:3.3"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4054305,
+		"title": "一日刻法勒",
+		"desc": "为了守护孩子们的笑容，假扮一次刻法勒",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 464,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:3.3"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4054306,
+		"title": "生物圈二号",
+		"desc": "在众人的协助下巩固一处新的避难所",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 463,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:3.3",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4054307,
+		"title": "我呼唤轻柔的晨曦",
+		"desc": "阅读「穹顶关塞」晨昏之眼所有启目集",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 462,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:3.3",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4054308,
+		"title": "我呼唤启程的新篇",
+		"desc": "夺取艾格勒火种后首次阅读启目集",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 461,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:3.3",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4054309,
+		"title": "废墟的遗赠",
+		"desc": "在「沉沦暮城」奥赫玛的雅努斯之驹处，购买所有已毁城邦特产的合成公式",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 460,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:3.3"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4054311,
+		"title": "西风志铭",
+		"desc": "见证一位奥赫玛居民的结局，记述下他们的故事",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 458,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:3.3"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4054312,
+		"title": "这是人类的落日",
+		"desc": "窥探「沉沦暮城」奥赫玛全部的追忆残像",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 457,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:3.3",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4054313,
+		"title": "活过一百万次的猫",
+		"desc": "窥探捷足的羁客最后的追忆残像",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 456,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:3.3",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4054314,
+		"title": "补天",
+		"desc": "窥探摇光的医师最后的追忆残像",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 455,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:3.3",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4054315,
+		"title": "无边的平原延伸",
+		"desc": "获取声音记录《神性的回响：大地》",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 454,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:3.3",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4054316,
+		"title": "言语有千般颜色",
+		"desc": "获取声音记录《神性的回响：诡计》",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 453,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:3.3"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4054317,
+		"title": "你在瞬息里巡行",
+		"desc": "获取声音记录《神性的回响：天空》",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 452,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:3.3"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4054318,
+		"title": "我只等待自己",
+		"desc": "调查过位于「穹顶关塞」晨昏之眼与「云端遗堡」晨昏之眼的两匹雅努斯之驹",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 451,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:3.3"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4054319,
+		"title": "球棒即正义！",
+		"desc": "在「银河球棒侠传说」活动中，合成最强球棒",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 450,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:3.3"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4054320,
+		"title": "Evil May Cry",
+		"desc": "在「银河球棒侠传说」活动中，战胜黑斗篷魔王",
+		"rarity": "Mid",
+		"series": 5,
+		"priority": 449,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:3.3"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4054321,
+		"title": "银河流星一击",
+		"desc": "在「银河球棒侠传说」活动中，合成至尊超武",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 448,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:3.3"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4054322,
+		"title": "阳光与黯影",
+		"desc": "在「银河球棒侠传说」活动中，合成双子超武",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 447,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:3.3"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4054323,
+		"title": "平砍连击带顺劈",
+		"desc": "在「银河球棒侠传说」活动中，使用「暴风雷霆之锤」打出#1连锤",
+		"rarity": "Low",
+		"series": 5,
+		"paramsText": [
+			16
+		],
+		"priority": 446,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:3.3"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4054324,
+		"title": "The Chosen One",
+		"desc": "在「银河球棒侠传说」活动中，一次「幸运轮盘」或「幸运儿的赌局」攻击中roll到#1个钻石",
+		"rarity": "Low",
+		"series": 5,
+		"paramsText": [
+			5
+		],
+		"priority": 445,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:3.3"
+		],
+		"difficulty": {}
+	},
+	{
 		"id": 4060101,
 		"title": "影逝百度（一）",
 		"desc": "击败<unbreak>#1[i]</unbreak>次凝滞虚影",
@@ -15293,6 +15936,142 @@
 		"difficulty": {}
 	},
 	{
+		"id": 4074301,
+		"title": "偷天换日",
+		"desc": "单场战斗中，我方角色赛飞儿天赋效果记录的伤害值超过<unbreak>#1[i]</unbreak>点",
+		"rarity": "Low",
+		"series": 7,
+		"paramsText": [
+			9999999
+		],
+		"priority": 777,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:3.3",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4074302,
+		"title": "满血就是斩杀线",
+		"desc": "单场战斗中，使用赛飞儿的终结技【猫咪怪盗，敬上！】对#1名生命值为#2%的敌人造成致命攻击",
+		"rarity": "Low",
+		"series": 7,
+		"paramsText": [
+			2,
+			100
+		],
+		"priority": 776,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:3.3",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4074303,
+		"title": "化作微风守护你",
+		"desc": "单场战斗中，使用我方角色风堇的小伊卡，通过治疗队友累计消耗<unbreak>#1[i]</unbreak>点生命值",
+		"rarity": "Low",
+		"series": 7,
+		"paramsText": [
+			10000
+		],
+		"priority": 775,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:3.3",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4074304,
+		"title": "奔腾年代",
+		"desc": "单场战斗中，使用我方角色风堇的小伊卡，对「兴风者」或「虚卒·践踏者」造成最后一击",
+		"rarity": "Low",
+		"series": 7,
+		"priority": 774,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:3.3",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4074305,
+		"title": "熄灭天火的忿怒",
+		"desc": "在与「至高，至阳，天空的化身」的战斗中，使【温度】降低#1",
+		"rarity": "Low",
+		"series": 7,
+		"paramsText": [
+			30
+		],
+		"priority": 773,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:3.3"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4074306,
+		"title": "争夺雷电的权柄",
+		"desc": "在与「至高，至阳，天空的化身」的战斗中，通过争夺所有【雷云】打断敌人的【霆，如山摇海倾】",
+		"rarity": "Low",
+		"series": 7,
+		"priority": 772,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:3.3"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4074307,
+		"title": "直面苍穹的神罚",
+		"desc": "在「绝灭者，阳雷的业果，晨昏之眼」的【黑潮同步率】达到最高时，承受【烬灰死寂•诸神屠灭】的攻击且没有我方角色陷入无法战斗状态",
+		"rarity": "Low",
+		"series": 7,
+		"priority": 771,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:3.3",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4074308,
+		"title": "衣角微脏",
+		"desc": "在与「黑日狮鹫」的战斗中，在未受到来自其召唤物伤害的条件下获得战斗胜利",
+		"rarity": "Low",
+		"series": 7,
+		"priority": 770,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:3.3"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4074309,
+		"title": "角斗士",
+		"desc": "通过对「黑潮斗将」造成弱点击破，在【决斗】机制中取胜",
+		"rarity": "Low",
+		"series": 7,
+		"priority": 769,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:3.3",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
 		"id": 4080101,
 		"title": "地球周",
 		"desc": "连续登录<unbreak>#1[i]</unbreak>天",
@@ -16359,6 +17138,24 @@
 		"tags": [
 			"版本:3.1",
 			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4084301,
+		"title": "真正的堂吉诃德",
+		"desc": "真是个好天气，让我们把风扇搞坏吧！\\n<color=#8790abff>※短时间内改变同一个风场装置的状态#1次</color>",
+		"rarity": "Low",
+		"series": 8,
+		"descHide": "真是个好天气，让我们把风扇搞坏吧！",
+		"paramsText": [
+			10
+		],
+		"priority": 908,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:3.3",
+			"隐藏描述"
 		],
 		"difficulty": {}
 	},

@@ -896,6 +896,20 @@
 		}
 	},
 	{
+		"id": "1406",
+		"element": "Quantum",
+		"path": "Warlock",
+		"rarity": 5,
+		"arggro": 100,
+		"versionAdded": "3.3",
+		"versionAvailable": "3.3",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "赛飞儿"
+			}
+		}
+	},
+	{
 		"id": "1407",
 		"element": "Quantum",
 		"path": "Memory",
@@ -906,6 +920,20 @@
 		"$data$locale": {
 			"zh-cn": {
 				"name": "遐蝶"
+			}
+		}
+	},
+	{
+		"id": "1409",
+		"element": "Wind",
+		"path": "Memory",
+		"rarity": 5,
+		"arggro": 100,
+		"versionAdded": "3.3",
+		"versionAvailable": "3.3",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "风堇"
 			}
 		}
 	},

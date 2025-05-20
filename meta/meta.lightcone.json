@@ -1499,6 +1499,32 @@
 		}
 	},
 	{
+		"id": "23042",
+		"path": "Memory",
+		"rarity": 5,
+		"versionAdded": "3.3",
+		"characterBest": "1409",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "愿虹光永驻天空",
+				"nameEffect": "包容"
+			}
+		}
+	},
+	{
+		"id": "23043",
+		"path": "Warlock",
+		"rarity": 5,
+		"versionAdded": "3.3",
+		"characterBest": "1406",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "谎言在风中飘扬",
+				"nameEffect": "欺瞒"
+			}
+		}
+	},
+	{
 		"id": "24000",
 		"path": "Warrior",
 		"rarity": 5,

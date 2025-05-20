@@ -6,12 +6,8 @@
 
 		<p-name-box>
 			<p-name>
-				<span>{{ props.analysis?.name }}</span>
-				<sup v-tip="$pool.rerun ? `第${$pool.rerun}次复刻` : false">{{ $pool.rerun ? $pool.rerun + 1 : '&nbsp;' }}</sup>
-				<span>&nbsp;</span>
-
 				<p-boost v-for="idItem of $itemsBoost5" :key="idItem" _rarity-5 @mouseenter="showTips(idItem, $event)">
-					{{ M.items$id[idItem]?.name || '未知' }}
+					{{ M.items$id[idItem]?.name || '未知' }}<sup v-tip="$pool.rerun ? `第${$pool.rerun}次复刻` : false" rerun>{{ $pool.rerun ? $pool.rerun + 1 : '&nbsp;' }}</sup>
 				</p-boost>
 			</p-name>
 
@@ -23,13 +19,13 @@
 
 			<p-count>
 				<span _total>{{ $logs.length }}</span>
-				<span _split> 抽 </span>
+				<span _split>抽 </span>
 				<span _rarity-5>{{ $logs5.length }}</span>
 				<sup _missed>{{ $logs5.filter(log => log.id in misseds$id).length }}</sup>
-				<span _split> 五星 </span>
+				<span _split>五星 </span>
 				<template v-if="$shownRarity4Typed">
 					<span _rarity-4>{{ $logs4.length }}</span>
-					<span _split> 四星</span>
+					<span _split>四星</span>
 				</template>
 			</p-count>
 		</p-name-box>
@@ -147,15 +143,15 @@ p-pool-title
 		p-boost
 			@apply inblock text-xs font-normal elli p-0.5 mr-2
 			&[_rarity-4]
-				@apply text-[var(--cRarity4)] border-b border-[var(--cRarity4)] max-w-12
+				@apply text-[var(--cRarity4)] max-w-12
 			&[_rarity-5]
-				@apply text-[var(--cRarity5)] border-b border-[var(--cRarity5)]
+				@apply text-[var(--cRarity5)]
 		p-name
 			@apply block h-5 text-[var(--cMain)] text-sm font-normal
 		p-boosts
 			@apply block h-5
 		p-count
-			@apply block h-5 text-sm font-normal
+			@apply block h-5 pl-2 text-sm font-normal
 			[_split]
 				@apply text-[var(--cText)] text-xs font-normal
 			[_total]

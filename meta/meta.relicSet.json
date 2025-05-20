@@ -2027,6 +2027,178 @@
 		}
 	},
 	{
+		"id": "125",
+		"type": "Cavern",
+		"skills": {
+			"2": {
+				"countRequire": 2,
+				"params": [
+					{
+						"Value": 0.06
+					}
+				],
+				"$data$locale": {
+					"zh-cn": {
+						"desc": "速度提高<unbreak>#1[i]%</unbreak>。"
+					}
+				}
+			},
+			"4": {
+				"countRequire": 4,
+				"params": [
+					{
+						"Value": 0.06
+					},
+					{
+						"Value": 0.15
+					},
+					{
+						"Value": 2
+					}
+				],
+				"$data$locale": {
+					"zh-cn": {
+						"desc": "当装备者及其忆灵为装备者及其忆灵以外的我方目标提供治疗后，使装备者获得【甘霖】，每回合最多触发1次，持续<unbreak>#3[i]</unbreak>回合。装备者持有【甘霖】时，速度提高<unbreak>#1[i]%</unbreak>，我方全体暴击伤害提高<unbreak>#2[i]%</unbreak>，该效果无法叠加。"
+					}
+				}
+			}
+		},
+		"idsRelic": [
+			{
+				"id": "61251",
+				"type": "HEAD",
+				"$data$locale": {
+					"zh-cn": {
+						"name": "女武神的翱翔翼盔",
+						"descBG": "这顶翼盔曾见证了阳雷骑士挑落天神，它也见证了天空阖眼。"
+					}
+				}
+			},
+			{
+				"id": "61252",
+				"type": "HAND",
+				"$data$locale": {
+					"zh-cn": {
+						"name": "女武神的骑枪手铠",
+						"descBG": "这对护手陪伴骑士赢下了所有的战斗。它能够让人紧握最致命的武器，忍受最痛苦的背叛。"
+					}
+				}
+			},
+			{
+				"id": "61253",
+				"type": "BODY",
+				"$data$locale": {
+					"zh-cn": {
+						"name": "女武神的启程披风",
+						"descBG": "这袭披风为阳雷骑士遮雨避尘，陪伴她经历所有的冒险——留下那天空中最醒目的背影。"
+					}
+				}
+			},
+			{
+				"id": "61254",
+				"type": "FOOT",
+				"$data$locale": {
+					"zh-cn": {
+						"name": "女武神的勋礼马刺",
+						"descBG": "这对马刺来自阳雷骑士两只翼兽伙伴的馈赠——走在追求真实的道路之上，这是必要的疼痛。"
+					}
+				}
+			}
+		],
+		"versionAdded": "3.3",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "烈阳惊雷的女武神"
+			}
+		}
+	},
+	{
+		"id": "126",
+		"type": "Cavern",
+		"skills": {
+			"2": {
+				"countRequire": 2,
+				"params": [
+					{
+						"Value": 0.16
+					}
+				],
+				"$data$locale": {
+					"zh-cn": {
+						"desc": "暴击伤害提高<unbreak>#1[i]%</unbreak>。"
+					}
+				}
+			},
+			"4": {
+				"countRequire": 4,
+				"params": [
+					{
+						"Value": 2
+					},
+					{
+						"Value": 0.48
+					},
+					{
+						"Value": 1
+					}
+				],
+				"$data$locale": {
+					"zh-cn": {
+						"desc": "装备者成为其他我方目标的技能目标时，获得1层【助力】，最多叠加<unbreak>#1[i]</unbreak>层。施放终结技时，若持有<unbreak>#1[i]</unbreak>层【助力】，消耗所有【助力】，使装备者攻击力提高<unbreak>#2[i]%</unbreak>，持续<unbreak>#3[i]</unbreak>回合。"
+					}
+				}
+			}
+		},
+		"idsRelic": [
+			{
+				"id": "61261",
+				"type": "HEAD",
+				"$data$locale": {
+					"zh-cn": {
+						"name": "船长的领航笠帽",
+						"descBG": "泛着珍珠光泽的宽边太阳帽。海上驰骋的船员们，借此抵挡艾格勒的烈日。"
+					}
+				}
+			},
+			{
+				"id": "61262",
+				"type": "HAND",
+				"$data$locale": {
+					"zh-cn": {
+						"name": "船长的捕光星盘",
+						"descBG": "捕获星光指引方向的航海罗盘。即使身处昏黑无边的大海中，也会有星光指出前进方向。"
+					}
+				}
+			},
+			{
+				"id": "61263",
+				"type": "BODY",
+				"$data$locale": {
+					"zh-cn": {
+						"name": "船长的驭风斗篷",
+						"descBG": "航海斗篷如同巨帆般飞舞。若长风不助我，我便化为长风。"
+					}
+				}
+			},
+			{
+				"id": "61264",
+				"type": "FOOT",
+				"$data$locale": {
+					"zh-cn": {
+						"name": "船长的踏浪游靴",
+						"descBG": "破碎的浪花在船长靴下绽放。即便他一去不返，海潮也会带回他的祝福。"
+					}
+				}
+			}
+		],
+		"versionAdded": "3.3",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "恶海逐波的船长"
+			}
+		}
+	},
+	{
 		"id": "301",
 		"type": "Planar",
 		"skills": {
