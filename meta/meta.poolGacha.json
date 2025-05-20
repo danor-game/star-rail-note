@@ -3111,6 +3111,94 @@
 		}
 	},
 	{
+		"id": "2075",
+		"type": "11",
+		"timeBorn": 1749614400,
+		"timeDead": 1751353200,
+		"typeItem": "character",
+		"itemsBoost5": [
+			"1406"
+		],
+		"itemsBoost4": [
+			"1201",
+			"1214",
+			"1206"
+		],
+		"versionAdded": "3.3",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "捷足盗天"
+			}
+		}
+	},
+	{
+		"id": "3075",
+		"type": "12",
+		"timeBorn": 1749614400,
+		"timeDead": 1751353200,
+		"typeItem": "lightcone",
+		"itemsBoost5": [
+			"23043"
+		],
+		"itemsBoost4": [
+			"21020",
+			"21008",
+			"21007"
+		],
+		"versionAdded": "3.3",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "流光定影"
+			}
+		}
+	},
+	{
+		"id": "2076",
+		"type": "11",
+		"timeBorn": 1749614400,
+		"timeDead": 1751353200,
+		"typeItem": "character",
+		"itemsBoost5": [
+			"1402"
+		],
+		"itemsBoost4": [
+			"1201",
+			"1214",
+			"1206"
+		],
+		"versionAdded": "3.3",
+		"rerun": 1,
+		"idLeader": "2075",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "裁酌天命"
+			}
+		}
+	},
+	{
+		"id": "3076",
+		"type": "12",
+		"timeBorn": 1749614400,
+		"timeDead": 1751353200,
+		"typeItem": "lightcone",
+		"itemsBoost5": [
+			"23036"
+		],
+		"itemsBoost4": [
+			"21020",
+			"21008",
+			"21007"
+		],
+		"versionAdded": "3.3",
+		"rerun": 1,
+		"idLeader": "3075",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "溯回忆象"
+			}
+		}
+	},
+	{
 		"id": "2999",
 		"type": "11",
 		"typeItem": "character",
