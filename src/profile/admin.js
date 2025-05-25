@@ -74,7 +74,7 @@ export class PlayerAchievementInfo {
 export class Profile {
 	/**
 	 * 唯一标识
-	 * - 格式 `ULID`
+	 * - 格式 `UUIDv7`
 	 * @type {string}
 	 */
 	id;

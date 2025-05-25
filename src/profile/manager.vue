@@ -108,7 +108,7 @@
 <script setup>
 import { ref } from 'vue';
 import { faStarOfDavid, faTrophy } from '@fortawesome/free-solid-svg-icons';
-import { ulid } from 'ulidx';
+import { v7 as uuid } from 'uuid';
 
 import { tabAdmin } from '@nuogz/vue-sidebar';
 import { Click, Texter, Textbox, FileDragger } from '@nuogz/vue-components';
@@ -171,7 +171,7 @@ const $modeProfileEditor = ref('');
 
 const creatingProfile = () => {
 	$profileEditing.value = {
-		id: ulid(),
+		id: uuid(),
 		nick: '',
 		urlLog: '',
 	};
@@ -316,7 +316,7 @@ const importProfile = async textJSON => {
 				changedProfile = true;
 			}
 			else if(result == 'append') {
-				profile.id = ulid();
+				profile.id = uuid();
 				profiles.push(profile);
 
 				changedProfile = true;
