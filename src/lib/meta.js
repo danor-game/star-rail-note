@@ -137,9 +137,12 @@ const M = {
 
 	/** @type {GachaPool[]} */
 	poolsGacha: parseMetaLang(metasPoolGacha).sort((a, b) => {
+		if(a.type < 10 && b.type < 10) { return b.type - a.type; }
 		if(a.type < 10 || b.type < 10) { return a.type - b.type; }
 
-		return Number(String(b.id).slice(1, 4)) - Number(String(a.id).slice(1, 4));
+		if(Math.abs(a.id - b.id) == 1000) { return b.typeItem.localeCompare(a.typeItem); }
+
+		return 0;
 	}),
 	/** @type {Object<string, GachaPool>} */
 	poolsGacha$id: toIDMapObject(metasPoolGacha),

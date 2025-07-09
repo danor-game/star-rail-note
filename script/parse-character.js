@@ -13,14 +13,21 @@ const { dirDataRaw } = parseJSON(readFileSync(resolvePath(dir, './config.local.j
 
 const texts$hash = parseJSON(readFileSync(resolvePath(dirDataRaw, 'TextMap/TextMapCHS.json'), 'utf-8'));
 
-const charactersRaw$id = parseJSON(readFileSync(resolvePath(dirDataRaw, 'ExcelOutput/AvatarConfig.json'), 'utf-8'));
-const promotionsRaw = parseJSON(readFileSync(resolvePath(dirDataRaw, 'ExcelOutput/AvatarPromotionConfig.json'), 'utf-8'));
+const charactersRaw = [
+	...parseJSON(readFileSync(resolvePath(dirDataRaw, 'ExcelOutput/AvatarConfig.json'), 'utf-8')),
+	...parseJSON(readFileSync(resolvePath(dirDataRaw, 'ExcelOutput/AvatarConfigLD.json'), 'utf-8')),
+];
+const promotionsRaw = [
+	...parseJSON(readFileSync(resolvePath(dirDataRaw, 'ExcelOutput/AvatarPromotionConfig.json'), 'utf-8')),
+	...parseJSON(readFileSync(resolvePath(dirDataRaw, 'ExcelOutput/AvatarPromotionConfigLD.json'), 'utf-8')),
+];
 
 const characters = parseJSON(readFileSync(resolvePath(dir, '../meta/meta.character.json'), 'utf-8'));
 
 
+
 const result = [];
-for(const raw of Object.values(charactersRaw$id)) {
+for(const raw of charactersRaw) {
 	const character = {
 		id: String(raw.AvatarID),
 		element: raw.DamageType,

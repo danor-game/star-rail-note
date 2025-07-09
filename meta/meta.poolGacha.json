@@ -6,7 +6,7 @@
 		"versionAdded": "1.0",
 		"$data$locale": {
 			"zh-cn": {
-				"name": "新手跃迁"
+				"name": "始发跃迁"
 			}
 		}
 	},
@@ -640,7 +640,7 @@
 		"versionAdded": "1.6",
 		"$data$locale": {
 			"zh-cn": {
-				"name": "溯回忆象"
+				"name": "流光定影"
 			}
 		}
 	},
@@ -772,7 +772,7 @@
 		"idLeader": "3019",
 		"$data$locale": {
 			"zh-cn": {
-				"name": "流光定影"
+				"name": "溯回忆象"
 			}
 		}
 	},
@@ -3364,6 +3364,206 @@
 		"versionAdded": "3.4",
 		"rerun": 2,
 		"idLeader": "3077",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "真意之汇"
+			}
+		}
+	},
+	{
+		"id": "5001",
+		"type": "13",
+		"timeBorn": 1752206400,
+		"typeItem": "character",
+		"itemsBoost5": [
+			"1014"
+		],
+		"itemsBoost4": [],
+		"versionAdded": "3.4",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "圣剑辉烈之誓"
+			}
+		}
+	},
+	{
+		"id": "6001",
+		"type": "14",
+		"timeBorn": 1752206400,
+		"typeItem": "lightcone",
+		"itemsBoost5": [
+			"23045"
+		],
+		"itemsBoost4": [],
+		"versionAdded": "3.4",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "王的诞生"
+			}
+		}
+	},
+	{
+		"id": "5002",
+		"type": "13",
+		"timeBorn": 1752206400,
+		"typeItem": "character",
+		"itemsBoost5": [
+			"1015"
+		],
+		"itemsBoost4": [],
+		"versionAdded": "3.4",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "此身剑所天成"
+			}
+		}
+	},
+	{
+		"id": "6002",
+		"type": "14",
+		"timeBorn": 1752206400,
+		"typeItem": "lightcone",
+		"itemsBoost5": [
+			"23046"
+		],
+		"itemsBoost4": [],
+		"versionAdded": "3.4",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "冬木赤影"
+			}
+		}
+	},
+	{
+		"id": "2081",
+		"type": "11",
+		"timeBorn": 1753243200,
+		"timeDead": 1754981940,
+		"typeItem": "character",
+		"itemsBoost5": [
+			"1310"
+		],
+		"itemsBoost4": [
+			"1215",
+			"1110",
+			"1111"
+		],
+		"versionAdded": "3.4",
+		"rerun": 2,
+		"$data$locale": {
+			"zh-cn": {
+				"name": "铭心之萃"
+			}
+		}
+	},
+	{
+		"id": "3081",
+		"type": "12",
+		"timeBorn": 1753243200,
+		"timeDead": 1754981940,
+		"typeItem": "lightcone",
+		"itemsBoost5": [
+			"23025"
+		],
+		"itemsBoost4": [
+			"21012",
+			"21017",
+			"21015"
+		],
+		"versionAdded": "3.4",
+		"rerun": 2,
+		"$data$locale": {
+			"zh-cn": {
+				"name": "真意之汇"
+			}
+		}
+	},
+	{
+		"id": "2082",
+		"type": "11",
+		"timeBorn": 1753243200,
+		"timeDead": 1754981940,
+		"typeItem": "character",
+		"itemsBoost5": [
+			"1212"
+		],
+		"itemsBoost4": [
+			"1215",
+			"1110",
+			"1111"
+		],
+		"versionAdded": "3.4",
+		"rerun": 2,
+		"idLeader": 2081,
+		"$data$locale": {
+			"zh-cn": {
+				"name": "铭心之萃"
+			}
+		}
+	},
+	{
+		"id": "3082",
+		"type": "12",
+		"timeBorn": 1753243200,
+		"timeDead": 1754981940,
+		"typeItem": "lightcone",
+		"itemsBoost5": [
+			"23014"
+		],
+		"itemsBoost4": [
+			"21012",
+			"21017",
+			"21015"
+		],
+		"versionAdded": "3.4",
+		"rerun": 2,
+		"idLeader": 3081,
+		"$data$locale": {
+			"zh-cn": {
+				"name": "真意之汇"
+			}
+		}
+	},
+	{
+		"id": "2083",
+		"type": "11",
+		"timeBorn": 1753243200,
+		"timeDead": 1754981940,
+		"typeItem": "character",
+		"itemsBoost5": [
+			"1205"
+		],
+		"itemsBoost4": [
+			"1215",
+			"1110",
+			"1111"
+		],
+		"versionAdded": "3.4",
+		"rerun": 2,
+		"idLeader": 2081,
+		"$data$locale": {
+			"zh-cn": {
+				"name": "铭心之萃"
+			}
+		}
+	},
+	{
+		"id": "3083",
+		"type": "12",
+		"timeBorn": 1753243200,
+		"timeDead": 1754981940,
+		"typeItem": "lightcone",
+		"itemsBoost5": [
+			"23009"
+		],
+		"itemsBoost4": [
+			"21012",
+			"21017",
+			"21015"
+		],
+		"versionAdded": "3.4",
+		"rerun": 2,
+		"idLeader": 3081,
 		"$data$locale": {
 			"zh-cn": {
 				"name": "真意之汇"

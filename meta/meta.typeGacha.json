@@ -1,6 +1,7 @@
 [
 	{
 		"id": "11",
+		"idType": "AvatarUp",
 		"minimum5": 90,
 		"order": 1,
 		"$data$locale": {
@@ -11,6 +12,7 @@
 	},
 	{
 		"id": "12",
+		"idType": "WeaponUp",
 		"minimum5": 90,
 		"order": 2,
 		"$data$locale": {
@@ -20,9 +22,32 @@
 		}
 	},
 	{
-		"id": "1",
+		"id": "13",
+		"idType": "CollaborationAvatarUp",
 		"minimum5": 90,
 		"order": 3,
+		"$data$locale": {
+			"zh-cn": {
+				"name": "角色联动跃迁"
+			}
+		}
+	},
+	{
+		"id": "14",
+		"idType": "CollaborationWeaponUp",
+		"minimum5": 90,
+		"order": 4,
+		"$data$locale": {
+			"zh-cn": {
+				"name": "光锥联动跃迁"
+			}
+		}
+	},
+	{
+		"id": "1",
+		"idType": "Normal",
+		"minimum5": 90,
+		"order": 5,
 		"$data$locale": {
 			"zh-cn": {
 				"name": "群星跃迁"
@@ -31,7 +56,8 @@
 	},
 	{
 		"id": "2",
-		"order": 4,
+		"idType": "Newbie",
+		"order": 6,
 		"minimum5": 50,
 		"newbie": true,
 		"$data$locale": {

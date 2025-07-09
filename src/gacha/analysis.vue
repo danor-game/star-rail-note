@@ -54,7 +54,7 @@
 
 		<p-box gacha-type>
 			<p-title>● 按<span value-highlight-xl>跃迁类型</span>概览</p-title>
-			<p-gathers :class="classesGirdColunm[analysisesTypeGachaShown.length]">
+			<p-gathers>
 				<p-gather v-for="analysis of analysisesTypeGachaShown" :key="analysis.id">
 					<p-title>{{ analysis.name }}</p-title>
 					<p-info><span value-highlight>{{ analysis.logs.length }}</span> 跃迁</p-info>
@@ -66,7 +66,7 @@
 
 		<p-box gacha-type-detail>
 			<p-title>● 按<span value-highlight-xl>跃迁类型</span></p-title>
-			<p-gathers :class="classesGirdColunm[analysisesTypeGachaShown.length > 2 ? 3 : analysisesTypeGachaShown.length]">
+			<p-gathers :class="classesGirdColunm[analysisesTypeGachaShown.length >= 2 ? 2 : analysisesTypeGachaShown.length]">
 				<p-gather v-for="analysis of analysisesTypeGachaShown" :id="`type-detail-${analysis.id}`" :key="analysis.id"
 					:class="isPoolGachaMain(analysis.id) ? classesRowSpan[analysisesTypeGachaBaseShown.length] : null"
 				>
@@ -177,6 +177,7 @@ const analysisesTypeGachaBaseShown = computed(() => analysisesTypeGachaShown.val
 
 /** @type {import('vue').ComputedRef<import('./analyseGacha.js').GachaPoolAnalysis[]>} */
 const analysisesPoolGachaShown = computed(() => filterPools$options(A.value.pools, 'typePool'));
+	// .sort((a, b) => b.pool.versionAdded - a.pool.versionAdded));
 
 
 
@@ -263,7 +264,7 @@ p-main-box
 		p-title
 			@apply block mb-1
 		p-gathers
-			@apply grid gap-[2px] border-2 border-[var(--cGray)] bg-[var(--cGray)] w-[1080px]
+			@apply grid grid-flow-col gap-[2px] border-2 border-[var(--cGray)] bg-[var(--cGray)] w-[1080px]
 			p-gather
 				@apply inblock p-4 min-w-[10rem] bg-[var(--cBack)] overflow-hidden
 				p-title

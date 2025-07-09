@@ -108,7 +108,7 @@ const analyseGacha = (logs, showCharacter4, showLightcone4) => {
 
 	const countsInvestPool$typeGacha = M.typesPoolGacha.reduce((acc, cur) => (acc[cur.id] = 0, acc), {});
 
-	for(const pool of M.poolsGacha.filter(pool => !pool.idLeader).toReversed()) {
+	for(const pool of M.poolsGacha.filter(pool => !pool.idLeader)) {
 		const poolsMate = M.poolsGacha.filter(p => p.idLeader == pool.id);
 
 		const poolsAll = [pool, ...poolsMate];

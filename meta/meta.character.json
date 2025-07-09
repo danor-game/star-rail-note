@@ -126,6 +126,34 @@
 		}
 	},
 	{
+		"id": "1014",
+		"element": "Wind",
+		"path": "Warrior",
+		"rarity": 5,
+		"arggro": 125,
+		"versionAdded": "3.4",
+		"versionAvailable": "3.4",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "Saber"
+			}
+		}
+	},
+	{
+		"id": "1015",
+		"element": "Quantum",
+		"path": "Rogue",
+		"rarity": 5,
+		"arggro": 75,
+		"versionAdded": "3.4",
+		"versionAvailable": "3.4",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "Archer"
+			}
+		}
+	},
+	{
 		"id": "1101",
 		"element": "Wind",
 		"path": "Shaman",
