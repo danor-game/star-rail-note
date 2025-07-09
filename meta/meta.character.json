@@ -924,6 +924,20 @@
 		}
 	},
 	{
+		"id": "1408",
+		"element": "Physical",
+		"path": "Warrior",
+		"rarity": 5,
+		"arggro": 125,
+		"versionAdded": "3.4",
+		"versionAvailable": "3.4",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "白厄"
+			}
+		}
+	},
+	{
 		"id": "1409",
 		"element": "Wind",
 		"path": "Memory",

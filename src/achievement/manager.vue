@@ -76,14 +76,14 @@
 						</p-oper-box>
 
 						<p-title :title="achievement.id" v-html="`● ${renderAchievementText(achievement.title, achievement.paramsText)}`" />
-						<p-desc v-html="renderAchievementText(achievement.desc, achievement.paramsText)" />
+						<p-desc v-html="renderAchievementText(achievement.desc.startsWith('未知描述<') ? achievement.descHide : achievement.desc, achievement.paramsText)" />
 						<p-tags>
 							<p-tag v-for="tag of [`系列:${M.seriesAchievement.find(s => s.id == achievement.series)?.name ?? achievement.series}`, ...achievement.tags]" :key="tag">{{ tag }}</p-tag>
 						</p-tags>
 						<p-exclusives v-if="achievement.idsAchievementExclusive?.length">
 							<p-exclusive v-for="id of achievement.idsAchievementExclusive" :key="id"
 								v-html="`【互斥成就】<span class='font-bold mr-1'>${M.achievements.find(achievement => achievement.id == id).title}</span> ${renderAchievementText(
-									M.achievements.find(achievement => achievement.id == id).desc,
+									M.achievements.find(achievement => achievement.id == id).desc.startsWith('未知描述<') ? M.achievements.find(achievement => achievement.id == id).descHide : M.achievements.find(achievement => achievement.id == id).desc,
 									M.achievements.find(achievement => achievement.id == id).paramsText
 								).replaceAll('<br>', `<span class='mr-4'></span>`)}`"
 							/>
@@ -190,7 +190,7 @@ const filterAchievement = achievement => {
 	const word = $word.value?.trim();
 
 	return true
-		&& (!word || matchPinyin(achievement.title, word, { continuous: true }) || matchPinyin(achievement.desc, word, { continuous: true }))
+		&& (!word || matchPinyin(achievement.title, word, { continuous: true }) || matchPinyin(achievement.desc.startsWith('未知描述<') ? achievement.descHide : achievement.desc, word, { continuous: true }))
 		&& $setOptionSeries.value.has(achievement.series)
 		&& $tagsFilter.value.filter(tagFilter => achievement.tags.includes(tagFilter)).length == $tagsFilter.value.length
 		&& ($optionVersion.value == '-' || achievement.tags.includes(`版本:${$optionVersion.value}`));

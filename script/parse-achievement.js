@@ -24,21 +24,20 @@ const result = [];
 for(const raw of achievementsRaw) {
 	if(idsInclude.length && !idsInclude.includes(raw.AchievementID)) { continue; }
 
-	raw.AchievementTitle = texts$hash[raw.AchievementTitle?.Hash] ?? raw.AchievementTitle;
-	raw.AchievementDesc = texts$hash[raw.AchievementDesc?.Hash] ?? raw.AchievementDesc;
-	raw.HideAchievementDesc = texts$hash[raw.HideAchievementDesc?.Hash] ?? raw.HideAchievementDesc;
-	raw.AchievementDescPS = texts$hash[raw.AchievementDescPS?.Hash] ?? raw.AchievementDescPS;
-	raw.RecordText = texts$hash[raw.RecordText?.Hash] ?? raw.RecordText;
-	raw.AchievementTitlePS = texts$hash[raw.AchievementTitlePS?.Hash] ?? raw.AchievementTitlePS;
+	raw.AchievementTitle = texts$hash[raw.AchievementTitle?.Hash] ?? (raw.AchievementTitle?.Hash ? `未知标题<${raw.AchievementTitle?.Hash}>` : raw.AchievementTitle?.Hash) ?? raw.AchievementTitle?.Hash;
+	raw.AchievementDesc = texts$hash[raw.AchievementDesc?.Hash] ?? (raw.AchievementDesc?.Hash ? `未知描述<${raw.AchievementDesc?.Hash}>` : raw.AchievementDesc?.Hash) ?? raw.AchievementDesc?.Hash;
+	raw.HideAchievementDesc = texts$hash[raw.HideAchievementDesc?.Hash] ?? (raw.HideAchievementDesc?.Hash ? `未知隐藏描述<${raw.HideAchievementDesc?.Hash}>` : raw.HideAchievementDesc?.Hash) ?? raw.HideAchievementDesc?.Hash;
+	// raw.AchievementDescPS = texts$hash[raw.AchievementDescPS?.Hash] ?? (raw.AchievementDescPS?.Hash ? `未知PS隐藏描述<${raw.AchievementDescPS?.Hash}>` : raw.AchievementDescPS?.Hash) ?? raw.AchievementDescPS?.Hash;
+	// raw.RecordText = texts$hash[raw.RecordText?.Hash] ?? (raw.RecordText?.Hash ? `未知记录文本<${raw.RecordText?.Hash}>` : raw.RecordText?.Hash) ?? raw.RecordText?.Hash;
+	// raw.AchievementTitlePS = texts$hash[raw.AchievementTitlePS?.Hash] ?? (raw.AchievementTitlePS?.Hash ? `未知PS标题<${raw.AchievementTitlePS?.Hash}>` : raw.AchievementTitlePS?.Hash) ?? raw.AchievementTitlePS?.Hash;
 
-	delete raw.PSTrophyID;
-	delete raw.RecordText;
-	delete raw.AchievementTitlePS;
-	delete raw.AchievementDescPS;
+	// delete raw.PSTrophyID;
+	// delete raw.RecordText;
+	// delete raw.AchievementTitlePS;
+	// delete raw.AchievementDescPS;
 
-
-	delete raw.QuestID;
-	delete raw.LinearQuestID;
+	// delete raw.QuestID;
+	// delete raw.LinearQuestID;
 
 
 	const achievementOld = achievements.find(a => a.id == raw.AchievementID);
@@ -74,4 +73,5 @@ for(const raw of achievementsRaw) {
 
 
 
+// writeFileSync(resolvePath(dir, '../meta/meta.achievement.json'), stringifyJSON(result.sort((a, b) => a.id - b.id), null, '\t'));
 writeJSONSync(resolvePath(dir, '../meta/meta.achievement.json'), result.sort((a, b) => a.id - b.id), { EOL: '\n', spaces: '\t' });

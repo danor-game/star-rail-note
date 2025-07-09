@@ -3257,5 +3257,120 @@
 				"name": "渊思寂虑的巨树"
 			}
 		}
+	},
+	{
+		"id": "321",
+		"type": "Planar",
+		"skills": {
+			"2": {
+				"countRequire": 2,
+				"params": [
+					{
+						"Value": 0.09
+					},
+					{
+						"Value": 0.12
+					},
+					{
+						"Value": 4
+					},
+					{
+						"Value": 3
+					}
+				],
+				"$data$locale": {
+					"zh-cn": {
+						"desc": "队伍中当前在场的我方目标数量不等于4时，每多/少1名我方目标，使装备者及其忆灵造成的伤害提高<unbreak>#1[i]%</unbreak>/<unbreak>#2[i]%</unbreak>，最多叠加<unbreak>#3[i]</unbreak>/<unbreak>#4[i]</unbreak>层。"
+					}
+				}
+			}
+		},
+		"idsRelic": [
+			{
+				"id": "63215",
+				"type": "NECK",
+				"$data$locale": {
+					"zh-cn": {
+						"name": "迷路迷境的恬梦树屋",
+						"descBG": "位面球中封装着哀丽秘榭的「迷路迷境」，拨开金色的麦草，掉进一片深深、深深的树洞，咦？好多小妖精，「一二三四五六七？」，错啦！是「哆徕咪发嗦啦嘻！」"
+					}
+				}
+			},
+			{
+				"id": "63216",
+				"type": "OBJECT",
+				"$data$locale": {
+					"zh-cn": {
+						"name": "迷路迷境的祈愿笛哨",
+						"descBG": "陶土捏制的笛哨，代表着小妖精们和两个小孩子的约定。当小男孩和小女孩吹起笛哨的时候，「迷？」的一声，妖精们就会打开通往迷境的树洞，欢迎他们来做客！"
+					}
+				}
+			}
+		],
+		"versionAdded": "3.4",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "妖精织梦的乐园"
+			}
+		}
+	},
+	{
+		"id": "322",
+		"type": "Planar",
+		"skills": {
+			"2": {
+				"countRequire": 2,
+				"params": [
+					{
+						"Value": 0.12
+					},
+					{
+						"Value": 2400
+					},
+					{
+						"Value": 3600
+					},
+					{
+						"Value": 0.12
+					},
+					{
+						"Value": 0.24
+					}
+				],
+				"$data$locale": {
+					"zh-cn": {
+						"desc": "使装备者的攻击力提高<unbreak>#1[i]%</unbreak>。当装备者的攻击力大于等于<unbreak>#2[i]</unbreak>/<unbreak>#3[i]</unbreak>时，使造成的持续伤害额外提高<unbreak>#4[i]%</unbreak>/<unbreak>#5[i]%</unbreak>。"
+					}
+				}
+			}
+		},
+		"idsRelic": [
+			{
+				"id": "63225",
+				"type": "NECK",
+				"$data$locale": {
+					"zh-cn": {
+						"name": "酣歌海垠的礁屿灯塔",
+						"descBG": "位面球中封装着沉浸在永世欢乐中的斯缇科西亚。长明的灯塔矗立海滨，演奏着不息的乐曲。循着欢歌的航船越过迷雾而来，旋即触礁沉没，空留残骸被浪涛吞吃。"
+					}
+				}
+			},
+			{
+				"id": "63226",
+				"type": "OBJECT",
+				"$data$locale": {
+					"zh-cn": {
+						"name": "酣歌海垠的歌咏步道",
+						"descBG": "斯缇科西亚人深信海妖如传说中一样以血肉守护此处安乐，而她们终有一日将循着灯塔不竭的歌咏赴约而来，得到永不止息的宴会作为犒赏。"
+					}
+				}
+			}
+		],
+		"versionAdded": "3.4",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "沉欢醉饮的海隅"
+			}
+		}
 	}
 ]

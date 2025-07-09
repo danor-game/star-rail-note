@@ -900,6 +900,114 @@
 		}
 	},
 	{
+		"id": "21053",
+		"path": "Knight",
+		"rarity": 4,
+		"versionAdded": "3.4",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "愿旅途永远坦然",
+				"nameEffect": "甜梦"
+			}
+		}
+	},
+	{
+		"id": "21054",
+		"path": "Memory",
+		"rarity": 4,
+		"versionAdded": "3.4",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "故事的下一页",
+				"nameEffect": "书写"
+			}
+		}
+	},
+	{
+		"id": "21055",
+		"path": "Priest",
+		"rarity": 4,
+		"versionAdded": "3.4",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "直到明天的明天",
+				"nameEffect": "离别"
+			}
+		}
+	},
+	{
+		"id": "21056",
+		"path": "Shaman",
+		"rarity": 4,
+		"versionAdded": "3.4",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "追逐风的时候",
+				"nameEffect": "慌张"
+			}
+		}
+	},
+	{
+		"id": "21057",
+		"path": "Memory",
+		"rarity": 4,
+		"versionAdded": "3.4",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "花儿不会忘记",
+				"nameEffect": "相依为命"
+			}
+		}
+	},
+	{
+		"id": "21058",
+		"path": "Warrior",
+		"rarity": 4,
+		"versionAdded": "3.4",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "一行往日的血",
+				"nameEffect": "厮杀"
+			}
+		}
+	},
+	{
+		"id": "21060",
+		"path": "Mage",
+		"rarity": 4,
+		"versionAdded": "3.4",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "氤氲麦香的梦",
+				"nameEffect": "憧憬"
+			}
+		}
+	},
+	{
+		"id": "21061",
+		"path": "Warlock",
+		"rarity": 4,
+		"versionAdded": "3.4",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "假日浴场大冒险",
+				"nameEffect": "冷静一下"
+			}
+		}
+	},
+	{
+		"id": "21062",
+		"path": "Rogue",
+		"rarity": 4,
+		"versionAdded": "3.4",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "于那终点再见",
+				"nameEffect": "执着"
+			}
+		}
+	},
+	{
 		"id": "22000",
 		"path": "Warlock",
 		"rarity": 4,
@@ -1502,8 +1610,8 @@
 		"id": "23042",
 		"path": "Memory",
 		"rarity": 5,
-		"versionAdded": "3.3",
 		"characterBest": "1409",
+		"versionAdded": "3.3",
 		"$data$locale": {
 			"zh-cn": {
 				"name": "愿虹光永驻天空",
@@ -1515,12 +1623,49 @@
 		"id": "23043",
 		"path": "Warlock",
 		"rarity": 5,
-		"versionAdded": "3.3",
 		"characterBest": "1406",
+		"versionAdded": "3.3",
 		"$data$locale": {
 			"zh-cn": {
 				"name": "谎言在风中飘扬",
 				"nameEffect": "欺瞒"
+			}
+		}
+	},
+	{
+		"id": "23044",
+		"path": "Warrior",
+		"rarity": 5,
+		"characterBest": "1408",
+		"versionAdded": "3.4",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "黎明恰如此燃烧",
+				"nameEffect": "失却"
+			}
+		}
+	},
+	{
+		"id": "23045",
+		"path": "Warrior",
+		"rarity": 5,
+		"versionAdded": "3.4",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "没有回报的加冕",
+				"nameEffect": "骑士之王"
+			}
+		}
+	},
+	{
+		"id": "23046",
+		"path": "Rogue",
+		"rarity": 5,
+		"versionAdded": "3.4",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "理想燃烧的地狱",
+				"nameEffect": "赤原猎兵"
 			}
 		}
 	},

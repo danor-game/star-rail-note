@@ -3199,6 +3199,178 @@
 		}
 	},
 	{
+		"id": "2077",
+		"type": "11",
+		"timeDead": 1753243140,
+		"typeItem": "character",
+		"itemsBoost5": [
+			"1408"
+		],
+		"itemsBoost4": [
+			"1202",
+			"1224",
+			"1207"
+		],
+		"versionAdded": "3.4",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "永劫燔阳"
+			}
+		}
+	},
+	{
+		"id": "3077",
+		"type": "12",
+		"timeDead": 1753243140,
+		"typeItem": "lightcone",
+		"itemsBoost5": [
+			"23044"
+		],
+		"itemsBoost4": [
+			"21054",
+			"21011",
+			"21019"
+		],
+		"versionAdded": "3.4",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "流光定影"
+			}
+		}
+	},
+	{
+		"id": "2078",
+		"type": "11",
+		"timeDead": 1753243140,
+		"typeItem": "character",
+		"itemsBoost5": [
+			"1403"
+		],
+		"itemsBoost4": [
+			"1202",
+			"1224",
+			"1207"
+		],
+		"versionAdded": "3.4",
+		"rerun": 1,
+		"idLeader": "2077",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "铭心之萃"
+			}
+		}
+	},
+	{
+		"id": "3078",
+		"type": "12",
+		"timeDead": 1753243140,
+		"typeItem": "lightcone",
+		"itemsBoost5": [
+			"23038"
+		],
+		"itemsBoost4": [
+			"21054",
+			"21011",
+			"21019"
+		],
+		"versionAdded": "3.4",
+		"rerun": 1,
+		"idLeader": "3077",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "真意之汇"
+			}
+		}
+	},
+	{
+		"id": "2079",
+		"type": "11",
+		"timeDead": 1753243140,
+		"typeItem": "character",
+		"itemsBoost5": [
+			"1313"
+		],
+		"itemsBoost4": [
+			"1202",
+			"1224",
+			"1207"
+		],
+		"versionAdded": "3.4",
+		"rerun": 1,
+		"idLeader": "2077",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "铭心之萃"
+			}
+		}
+	},
+	{
+		"id": "3079",
+		"type": "12",
+		"timeDead": 1753243140,
+		"typeItem": "lightcone",
+		"itemsBoost5": [
+			"23034"
+		],
+		"itemsBoost4": [
+			"21054",
+			"21011",
+			"21019"
+		],
+		"versionAdded": "3.4",
+		"rerun": 1,
+		"idLeader": "3077",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "真意之汇"
+			}
+		}
+	},
+	{
+		"id": "2080",
+		"type": "11",
+		"timeDead": 1753243140,
+		"typeItem": "character",
+		"itemsBoost5": [
+			"1306"
+		],
+		"itemsBoost4": [
+			"1202",
+			"1224",
+			"1207"
+		],
+		"versionAdded": "3.4",
+		"rerun": 2,
+		"idLeader": "2077",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "铭心之萃"
+			}
+		}
+	},
+	{
+		"id": "3080",
+		"type": "12",
+		"timeDead": 1753243140,
+		"typeItem": "lightcone",
+		"itemsBoost5": [
+			"23021"
+		],
+		"itemsBoost4": [
+			"21054",
+			"21011",
+			"21019"
+		],
+		"versionAdded": "3.4",
+		"rerun": 2,
+		"idLeader": "3077",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "真意之汇"
+			}
+		}
+	},
+	{
 		"id": "2999",
 		"type": "11",
 		"typeItem": "character",

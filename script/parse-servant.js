@@ -15,7 +15,7 @@ const texts$hash = parseJSON(readFileSync(resolvePath(dirDataRaw, 'TextMap/TextM
 
 const servantsRaw = parseJSON(readFileSync(resolvePath(dirDataRaw, 'ExcelOutput/AvatarServantConfig.json'), 'utf-8'));
 
-const servants = parseJSON(readFileSync(resolvePath(dir, '../meta/meta.path.json'), 'utf-8'));
+const servants = parseJSON(readFileSync(resolvePath(dir, '../meta/meta.servant.json'), 'utf-8'));
 
 
 const result = [];
