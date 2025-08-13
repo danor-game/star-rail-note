@@ -3573,6 +3573,178 @@
 		}
 	},
 	{
+		"id": "2084",
+		"type": "11",
+		"timeDead": 1756785540,
+		"typeItem": "character",
+		"itemsBoost5": [
+			"1410"
+		],
+		"itemsBoost4": [
+			"1009",
+			"1008",
+			"1109"
+		],
+		"versionAdded": "3.5",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "绀碧绝音"
+			}
+		}
+	},
+	{
+		"id": "3084",
+		"type": "12",
+		"timeDead": 1756785540,
+		"typeItem": "lightcone",
+		"itemsBoost5": [
+			"23047"
+		],
+		"itemsBoost4": [
+			"21008",
+			"21046",
+			"21042"
+		],
+		"versionAdded": "3.5",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "流光定影"
+			}
+		}
+	},
+	{
+		"id": "2085",
+		"type": "11",
+		"timeDead": 1756785540,
+		"typeItem": "character",
+		"itemsBoost5": [
+			"1005"
+		],
+		"itemsBoost4": [
+			"1009",
+			"1008",
+			"1109"
+		],
+		"versionAdded": "3.5",
+		"rerun": 2,
+		"idLeader": 2084,
+		"$data$locale": {
+			"zh-cn": {
+				"name": "夜将不眠"
+			}
+		}
+	},
+	{
+		"id": "3085",
+		"type": "12",
+		"timeDead": 1756785540,
+		"typeItem": "lightcone",
+		"itemsBoost5": [
+			"23006"
+		],
+		"itemsBoost4": [
+			"21008",
+			"21046",
+			"21042"
+		],
+		"versionAdded": "3.5",
+		"rerun": 2,
+		"idLeader": 3084,
+		"$data$locale": {
+			"zh-cn": {
+				"name": "溯回忆象"
+			}
+		}
+	},
+	{
+		"id": "2086",
+		"type": "11",
+		"timeBorn": 1756785600,
+		"timeDead": 1758610800,
+		"typeItem": "character",
+		"itemsBoost5": [
+			"1412"
+		],
+		"itemsBoost4": [
+			"1108",
+			"1201",
+			"1213"
+		],
+		"versionAdded": "3.5",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "弄潮铁血"
+			}
+		}
+	},
+	{
+		"id": "3086",
+		"type": "12",
+		"timeBorn": 1756785600,
+		"timeDead": 1758610800,
+		"typeItem": "lightcone",
+		"itemsBoost5": [
+			"23048"
+		],
+		"itemsBoost4": [
+			"21006",
+			"21010",
+			"21001"
+		],
+		"versionAdded": "3.5",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "流光定影"
+			}
+		}
+	},
+	{
+		"id": "2087",
+		"type": "11",
+		"timeBorn": 1756785600,
+		"timeDead": 1758610800,
+		"typeItem": "character",
+		"itemsBoost5": [
+			"1006"
+		],
+		"itemsBoost4": [
+			"1108",
+			"1201",
+			"1213"
+		],
+		"versionAdded": "3.5",
+		"rerun": 2,
+		"idLeader": 2086,
+		"$data$locale": {
+			"zh-cn": {
+				"name": "零号协议"
+			}
+		}
+	},
+	{
+		"id": "3087",
+		"type": "12",
+		"timeBorn": 1756785600,
+		"timeDead": 1758610800,
+		"typeItem": "lightcone",
+		"itemsBoost5": [
+			"23007"
+		],
+		"itemsBoost4": [
+			"21006",
+			"21010",
+			"21001"
+		],
+		"versionAdded": "3.5",
+		"rerun": 2,
+		"idLeader": 3086,
+		"$data$locale": {
+			"zh-cn": {
+				"name": "溯回忆象"
+			}
+		}
+	},
+	{
 		"id": "2999",
 		"type": "11",
 		"typeItem": "character",

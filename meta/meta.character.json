@@ -980,6 +980,34 @@
 		}
 	},
 	{
+		"id": "1410",
+		"element": "Physical",
+		"path": "Warlock",
+		"rarity": 5,
+		"arggro": 100,
+		"versionAdded": "3.5",
+		"versionAvailable": "3.5",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "海瑟音"
+			}
+		}
+	},
+	{
+		"id": "1412",
+		"element": "Wind",
+		"path": "Shaman",
+		"rarity": 5,
+		"arggro": 100,
+		"versionAdded": "3.5",
+		"versionAvailable": "3.5",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "刻律德菈"
+			}
+		}
+	},
+	{
 		"id": "8001",
 		"element": "Physical",
 		"path": "Warrior",

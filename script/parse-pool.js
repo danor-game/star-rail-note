@@ -36,11 +36,11 @@ for(const raw of poolsRaw) {
 	poolNew.timeBorn = isNew ? 0 : poolOld.timeBorn;
 	poolNew.timeDead = isNew ? 0 : poolOld.timeDead;
 	poolNew.typeItem = typePool.idType.toLowerCase().includes('avatar') ? 'character' : typePool.idType.toLowerCase().includes('weapon') ? 'lightcone' : undefined;
-	poolNew.itemsBoost5 = isNew ? [] : poolOld.itemsBoost5;
-	poolNew.itemsBoost4 = isNew ? [] : poolOld.itemsBoost4;
+	poolNew.itemsBoost5 = isNew ? [''] : poolOld.itemsBoost5;
+	poolNew.itemsBoost4 = isNew ? ['', '', ''] : poolOld.itemsBoost4;
 	poolNew.versionAdded = isNew ? process.argv[2] ?? '3.x' : poolOld.versionAdded;
 	poolNew.rerun = isNew ? 0 : poolOld.rerun;
-	poolNew.idLeader = isNew ? 0 : String(poolOld.idLeader);
+	poolNew.idLeader = isNew ? 0 : poolOld.idLeader ? String(poolOld.idLeader) : undefined;
 	poolNew.$data$locale = {
 		'zh-cn': {
 			name: texts$hash[raw.PoolName?.Hash]?.split('•')[0].trim() ?? poolOld?.$data$locale?.['zh-cn']?.name ?? `未知标题<${raw.PoolName?.Hash}>`,

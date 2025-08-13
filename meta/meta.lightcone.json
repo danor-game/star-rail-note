@@ -1068,6 +1068,18 @@
 		}
 	},
 	{
+		"id": "22005",
+		"path": "Shaman",
+		"rarity": 4,
+		"versionAdded": "3.5",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "永远的迷境饭",
+				"nameEffect": "真香"
+			}
+		}
+	},
+	{
 		"id": "23000",
 		"path": "Mage",
 		"rarity": 5,
@@ -1668,6 +1680,32 @@
 			"zh-cn": {
 				"name": "理想燃烧的地狱",
 				"nameEffect": "赤原猎兵"
+			}
+		}
+	},
+	{
+		"id": "23047",
+		"path": "Warlock",
+		"rarity": 5,
+		"characterBest": "1410",
+		"versionAdded": "3.5",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "海洋为何而歌",
+				"nameEffect": "独奏"
+			}
+		}
+	},
+	{
+		"id": "23048",
+		"path": "Shaman",
+		"rarity": 5,
+		"characterBest": "1412",
+		"versionAdded": "3.5",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "金血铭刻的时代",
+				"nameEffect": "征服"
 			}
 		}
 	},
