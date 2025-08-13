@@ -3372,7 +3372,7 @@
 	},
 	{
 		"id": "5001",
-		"type": "13",
+		"type": "21",
 		"timeBorn": 1752206400,
 		"typeItem": "character",
 		"itemsBoost5": [
@@ -3388,7 +3388,7 @@
 	},
 	{
 		"id": "6001",
-		"type": "14",
+		"type": "22",
 		"timeBorn": 1752206400,
 		"typeItem": "lightcone",
 		"itemsBoost5": [
@@ -3404,7 +3404,7 @@
 	},
 	{
 		"id": "5002",
-		"type": "13",
+		"type": "21",
 		"timeBorn": 1752206400,
 		"typeItem": "character",
 		"itemsBoost5": [
@@ -3412,6 +3412,7 @@
 		],
 		"itemsBoost4": [],
 		"versionAdded": "3.4",
+		"idLeader": "5001",
 		"$data$locale": {
 			"zh-cn": {
 				"name": "此身剑所天成"
@@ -3420,7 +3421,7 @@
 	},
 	{
 		"id": "6002",
-		"type": "14",
+		"type": "22",
 		"timeBorn": 1752206400,
 		"typeItem": "lightcone",
 		"itemsBoost5": [
@@ -3428,6 +3429,7 @@
 		],
 		"itemsBoost4": [],
 		"versionAdded": "3.4",
+		"idLeader": "6001",
 		"$data$locale": {
 			"zh-cn": {
 				"name": "冬木赤影"
@@ -3494,7 +3496,7 @@
 		],
 		"versionAdded": "3.4",
 		"rerun": 2,
-		"idLeader": 2081,
+		"idLeader": "2081",
 		"$data$locale": {
 			"zh-cn": {
 				"name": "铭心之萃"
@@ -3517,7 +3519,7 @@
 		],
 		"versionAdded": "3.4",
 		"rerun": 2,
-		"idLeader": 3081,
+		"idLeader": "3081",
 		"$data$locale": {
 			"zh-cn": {
 				"name": "真意之汇"
@@ -3540,7 +3542,7 @@
 		],
 		"versionAdded": "3.4",
 		"rerun": 2,
-		"idLeader": 2081,
+		"idLeader": "2081",
 		"$data$locale": {
 			"zh-cn": {
 				"name": "铭心之萃"
@@ -3563,7 +3565,7 @@
 		],
 		"versionAdded": "3.4",
 		"rerun": 2,
-		"idLeader": 3081,
+		"idLeader": "3081",
 		"$data$locale": {
 			"zh-cn": {
 				"name": "真意之汇"

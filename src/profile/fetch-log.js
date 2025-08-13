@@ -40,6 +40,13 @@ const fetchLog = async (profile, willFetchFull = false, textProgressRef) => {
 	urlBase.searchParams.set('game_biz', profile.bizGame ?? M.api.bizGame);
 	urlBase.searchParams.set('size', 20);
 
+	const urlBaseCo = new URL(M.api.urlGachaLogCo);
+
+	urlBaseCo.searchParams.set('authkey_ver', profile.versionKeyAuth);
+	urlBaseCo.searchParams.set('authkey', decodeURIComponent(profile.keyAuth));
+	urlBaseCo.searchParams.set('lang', profile.lang ?? M.api.lang);
+	urlBaseCo.searchParams.set('game_biz', profile.bizGame ?? M.api.bizGame);
+	urlBaseCo.searchParams.set('size', 20);
 
 
 	/** @type {ParsedLog[]} */
@@ -55,7 +62,7 @@ const fetchLog = async (profile, willFetchFull = false, textProgressRef) => {
 
 		let idEnd = '0';
 		for(let page = 0; ; page++) {
-			const url = new URL(urlBase);
+			const url = new URL(typeGacha < 20 ? urlBase : urlBaseCo);
 
 			url.searchParams.set('gacha_type', typeGacha);
 			url.searchParams.set('end_id', idEnd);

@@ -1,5 +1,6 @@
 {
 	"urlGachaLog": "https://public-operation-hkrpg.mihoyo.com/common/gacha_record/api/getGachaLog",
+	"urlGachaLogCo": "https://public-operation-hkrpg.mihoyo.com/common/gacha_record/api/getLdGachaLog",
 	"urlGachaLog_old": "https://api-takumi.mihoyo.com/common/gacha_record/api/getGachaLog",
 	"lang": "zh-cn",
 	"bizGame": "hkrpg_cn"

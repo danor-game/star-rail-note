@@ -22,7 +22,7 @@
 		}
 	},
 	{
-		"id": "13",
+		"id": "21",
 		"idType": "CollaborationAvatarUp",
 		"minimum5": 90,
 		"order": 3,
@@ -33,7 +33,7 @@
 		}
 	},
 	{
-		"id": "14",
+		"id": "22",
 		"idType": "CollaborationWeaponUp",
 		"minimum5": 90,
 		"order": 4,
