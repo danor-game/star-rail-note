@@ -1710,6 +1710,32 @@
 		}
 	},
 	{
+		"id": "23049",
+		"path": "Memory",
+		"rarity": 5,
+		"characterBest": "1413",
+		"versionAdded": "3.6",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "致长夜的星光",
+				"nameEffect": "未眠"
+			}
+		}
+	},
+	{
+		"id": "23051",
+		"path": "Knight",
+		"rarity": 5,
+		"characterBest": "1414",
+		"versionAdded": "3.6",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "纵然山河万程",
+				"nameEffect": "新鳞"
+			}
+		}
+	},
+	{
 		"id": "24000",
 		"path": "Warrior",
 		"rarity": 5,

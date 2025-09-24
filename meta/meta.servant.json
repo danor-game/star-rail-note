@@ -27,6 +27,15 @@
 		}
 	},
 	{
+		"id": "11413",
+		"versionAdded": "3.6",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "长夜"
+			}
+		}
+	},
+	{
 		"id": "18007",
 		"versionAdded": "3.0",
 		"$data$locale": {

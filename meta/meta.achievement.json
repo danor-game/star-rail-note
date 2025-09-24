@@ -2161,7 +2161,6 @@
 		"series": 3,
 		"descHide": "愿黎明带来捷报，正如俗语所言，黎明是夜的孩子",
 		"priority": 890,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:3.5",
 			"隐藏描述"
@@ -2176,7 +2175,6 @@
 		"series": 3,
 		"descHide": "我把盲目的希望放在他们心里。此外，我把火也给了他们",
 		"priority": 889,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:3.5",
 			"隐藏描述"
@@ -2191,7 +2189,6 @@
 		"series": 3,
 		"descHide": "我们应向报仇神送上刺耳的颂歌，为冥王送上烦心的凯歌",
 		"priority": 888,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:3.5",
 			"隐藏描述"
@@ -2206,7 +2203,6 @@
 		"series": 3,
 		"descHide": "听啊，你这大地下的极乐力量——回应召唤，送来助襄。庇佑孩子，赐他们以胜利和希望",
 		"priority": 887,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:3.5",
 			"隐藏描述"
@@ -2221,7 +2217,6 @@
 		"series": 3,
 		"descHide": "他这样把一生的幸福撞毁在正义的礁石上，没有人流泪，没有人观看",
 		"priority": 886,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:3.5",
 			"隐藏描述"
@@ -2236,9 +2231,128 @@
 		"series": 3,
 		"descHide": "倾听遥远而忧伤的歌，它唱着存在之母的名字：幻觉、意志、痛苦",
 		"priority": 885,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:3.5",
+			"隐藏描述"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4034601,
+		"title": "聆听我，甜蜜的黑暗",
+		"desc": "既然这扇门背后就是翁法罗斯……\\n<color=#8790abff>※见证长夜月登上舞台</color>",
+		"rarity": "Mid",
+		"series": 3,
+		"descHide": "既然这扇门背后就是翁法罗斯……",
+		"priority": 884,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:3.6",
+			"隐藏描述"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4034602,
+		"title": "于是，金色的血流淌而出",
+		"desc": "总有些「记忆」是被焚烧的代价\\n<color=#8790abff>※击退金血忆灵，与长夜月直接对话</color>",
+		"rarity": "Mid",
+		"series": 3,
+		"descHide": "总有些「记忆」是被焚烧的代价",
+		"priority": 883,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:3.6",
+			"隐藏描述"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4034603,
+		"title": "你永远不会独行",
+		"desc": "探索、了解、建立、连结——然后，我们会一起回家\\n<color=#8790abff>※与三月七汇合</color>",
+		"rarity": "Mid",
+		"series": 3,
+		"descHide": "探索、了解、建立、连结——然后，我们会一起回家",
+		"priority": 882,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:3.6",
+			"隐藏描述"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4034604,
+		"title": "命运啼哭之前",
+		"desc": "听我说，记住这段话，然后忘掉它\\n<color=#8790abff>※再次唤醒「不存在的记忆」</color>",
+		"rarity": "Mid",
+		"series": 3,
+		"descHide": "听我说，记住这段话，然后忘掉它",
+		"priority": 881,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:3.6",
+			"隐藏描述"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4034605,
+		"title": "我站立于此，为万物担责",
+		"desc": "向「大地」昭告新神的名字\\n<color=#8790abff>※丹恒得到「大地」的火种</color>",
+		"rarity": "Mid",
+		"series": 3,
+		"descHide": "向「大地」昭告新神的名字",
+		"priority": 880,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:3.6",
+			"隐藏描述"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4034606,
+		"title": "灵魂凭追忆辨认彼此",
+		"desc": "以天地为横轴，以时光为纵轴，带你回家\\n<color=#8790abff>※丹恒在忆潮中找到了你</color>",
+		"rarity": "Mid",
+		"series": 3,
+		"descHide": "以天地为横轴，以时光为纵轴，带你回家",
+		"priority": 879,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:3.6",
+			"隐藏描述"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4034607,
+		"title": "记忆碎片",
+		"desc": "相机记忆卡已经存满的元凶……\\n<color=#8790abff>※昔涟找到了真正的三月七</color>",
+		"rarity": "Mid",
+		"series": 3,
+		"descHide": "相机记忆卡已经存满的元凶……",
+		"priority": 878,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:3.6",
+			"隐藏描述"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4034608,
+		"title": "翁法罗斯英雄纪",
+		"desc": "与我一同，成为英雄吧\\n<color=#8790abff>※完成最后的「再创世」</color>",
+		"rarity": "Mid",
+		"series": 3,
+		"descHide": "与我一同，成为英雄吧",
+		"priority": 877,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:3.6",
 			"隐藏描述"
 		],
 		"difficulty": {}
@@ -4905,7 +5019,6 @@
 		"series": 4,
 		"descHide": "当牧羊人穿梭于时空…",
 		"priority": 794,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:3.5",
 			"隐藏描述"
@@ -4920,7 +5033,6 @@
 		"series": 4,
 		"descHide": "给我滚烫的手，给我心灵的炭盆，给我这最孤寂者冰，呵！七倍的冰",
 		"priority": 793,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:3.5",
 			"隐藏描述"
@@ -4935,7 +5047,6 @@
 		"series": 4,
 		"descHide": "法吉娜的祭司常说，不要在冥河水里游泳…",
 		"priority": 792,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:3.5",
 			"隐藏描述"
@@ -4950,7 +5061,6 @@
 		"series": 4,
 		"descHide": "法吉娜的祭司常说，要小心高空坠物…",
 		"priority": 791,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:3.5",
 			"隐藏描述"
@@ -4964,7 +5074,6 @@
 		"rarity": "Low",
 		"series": 4,
 		"priority": 790,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:3.5"
 		],
@@ -4977,7 +5086,6 @@
 		"rarity": "Low",
 		"series": 4,
 		"priority": 789,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:3.5"
 		],
@@ -4990,7 +5098,6 @@
 		"rarity": "Low",
 		"series": 4,
 		"priority": 788,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:3.5"
 		],
@@ -5003,7 +5110,6 @@
 		"rarity": "Low",
 		"series": 4,
 		"priority": 787,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:3.5"
 		],
@@ -5017,7 +5123,6 @@
 		"series": 4,
 		"descHide": "此刻，白昼厌倦了白昼，小溪又开始淙淙吟唱",
 		"priority": 786,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:3.5",
 			"隐藏描述"
@@ -5032,7 +5137,6 @@
 		"series": 4,
 		"descHide": "是一切高度的下坠，是一切深度的泄漏，是一切醉者的沉醉",
 		"priority": 785,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:3.5",
 			"隐藏描述"
@@ -5047,7 +5151,6 @@
 		"series": 4,
 		"descHide": "万物闪着常新的光华，在空间和时间上面午睡沉沉…",
 		"priority": 784,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:3.5",
 			"隐藏描述"
@@ -5061,7 +5164,6 @@
 		"rarity": "Low",
 		"series": 4,
 		"priority": 783,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:3.5"
 		],
@@ -5075,7 +5177,6 @@
 		"series": 4,
 		"descHide": "推石上山的若虫经历了多少次失败？",
 		"priority": 782,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:3.5",
 			"隐藏描述"
@@ -5089,7 +5190,6 @@
 		"rarity": "Low",
 		"series": 4,
 		"priority": 781,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:3.5"
 		],
@@ -5102,9 +5202,225 @@
 		"rarity": "Low",
 		"series": 4,
 		"priority": 780,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:3.5"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4044601,
+		"title": "微光城市",
+		"desc": "褪去权杖δ-me<unbreak>13</unbreak>的神话色彩，初入无名泰坦大墓",
+		"rarity": "Low",
+		"series": 4,
+		"priority": 779,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:3.6"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4044602,
+		"title": "行向至深",
+		"desc": "登上大墓中央区渡台，前往世界最深处",
+		"rarity": "Low",
+		"series": 4,
+		"priority": 778,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:3.6"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4044603,
+		"title": "尤里卡！",
+		"desc": "完成「全世矩阵」无名泰坦大墓的终极谜题",
+		"rarity": "Low",
+		"series": 4,
+		"priority": 777,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:3.6"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4044604,
+		"title": "散热不良",
+		"desc": "使用「暂停时间」的方法停住房间内的所有排气扇",
+		"rarity": "Low",
+		"series": 4,
+		"priority": 776,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:3.6"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4044605,
+		"title": "没料到这手吧",
+		"desc": "未使用「暂停时间」的方法通过排气扇并且成功",
+		"rarity": "Low",
+		"series": 4,
+		"priority": 775,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:3.6"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4044606,
+		"title": "这不是旋转门",
+		"desc": "未使用「暂停时间」的方法通过排气扇并且失败",
+		"rarity": "Low",
+		"series": 4,
+		"priority": 774,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:3.6"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4044607,
+		"title": "食物泡与溶酶体",
+		"desc": "使用巴特鲁斯的视角，吞掉一只宝箱",
+		"rarity": "Low",
+		"series": 4,
+		"priority": 773,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:3.6"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4044608,
+		"title": "扎格列斯的神威",
+		"desc": "使用巴特鲁斯的视角，通过攻击消灭一只怪物",
+		"rarity": "Low",
+		"series": 4,
+		"priority": 772,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:3.6"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4044609,
+		"title": "被偷走的流体力学",
+		"desc": "使用巴特鲁斯的视角，在水中游泳#1秒以上",
+		"rarity": "Low",
+		"series": 4,
+		"paramsText": [
+			5
+		],
+		"priority": 771,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:3.6"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4044610,
+		"title": "存钱罐的自我修养",
+		"desc": "使用巴特鲁斯的视角，完成隐藏的终极挑战",
+		"rarity": "Low",
+		"series": 4,
+		"priority": 770,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:3.6"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4044611,
+		"title": "我在树庭修文物",
+		"desc": "使用「欧洛尼斯祷言」恢复被震碎的小雕像",
+		"rarity": "Low",
+		"series": 4,
+		"priority": 769,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:3.6"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4044612,
+		"title": "下勾拳",
+		"desc": "别以为躲在外侧扇区就没事了…\\n<color=#8790abff>※使用扎格列斯之手的冲拳动作，击败「全世矩阵」无名泰坦大墓角落处的敌人</color>",
+		"rarity": "Low",
+		"series": 4,
+		"descHide": "别以为躲在外侧扇区就没事了…",
+		"priority": 768,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:3.6",
+			"隐藏描述"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4044613,
+		"title": "记忆分类回收",
+		"desc": "在「全世矩阵」无名泰坦大墓，发现一只似曾相识的桶",
+		"rarity": "Low",
+		"series": 4,
+		"priority": 767,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:3.6"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4044614,
+		"title": "猪！猪！猪！",
+		"desc": "在「全世矩阵」无名泰坦大墓，发现一个似曾相识的画框",
+		"rarity": "Low",
+		"series": 4,
+		"priority": 766,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:3.6"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4044615,
+		"title": "虫鸣秘闻：四者之系",
+		"desc": "正确的四者是哪四者？\\n<color=#8790abff>※解开「全世矩阵」无名泰坦大墓的预言谜题</color>",
+		"rarity": "Low",
+		"series": 4,
+		"descHide": "正确的四者是哪四者？",
+		"priority": 765,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:3.6",
+			"隐藏描述"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4044616,
+		"title": "虫鸣秘闻：囹圄之悟",
+		"desc": "如何供奉无限？\\n<color=#8790abff>※解开「辉痕圣林」神悟树庭的预言谜题</color>",
+		"rarity": "Low",
+		"series": 4,
+		"descHide": "如何供奉无限？",
+		"priority": 764,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:3.6",
+			"隐藏描述"
 		],
 		"difficulty": {}
 	},
@@ -12718,7 +13034,7 @@
 	{
 		"id": 4054414,
 		"title": "绿一色",
-		"desc": "使用青雀小鸟，并在同一局对战中，累计使用道具#1次",
+		"desc": "在「折纸小鸟对对碰」活动中使用青雀小鸟，并在同一局对战中，累计使用道具#1次",
 		"rarity": "Low",
 		"series": 5,
 		"paramsText": [
@@ -12733,7 +13049,7 @@
 	{
 		"id": 4054415,
 		"title": "还是我的回合",
-		"desc": "双人对战中，同一回合内，己方连续行动步数达到#1",
+		"desc": "在「折纸小鸟对对碰」活动的双人对战中，同一回合内，己方连续行动步数达到#1",
 		"rarity": "Low",
 		"series": 5,
 		"paramsText": [
@@ -12748,7 +13064,7 @@
 	{
 		"id": 4054416,
 		"title": "波音小鸟<unbreak>777</unbreak>",
-		"desc": "双人对战中，己方小鸟最高战力达到#1",
+		"desc": "在「折纸小鸟对对碰」活动的双人对战中，己方小鸟最高战力达到#1",
 		"rarity": "Low",
 		"series": 5,
 		"paramsText": [
@@ -12763,7 +13079,7 @@
 	{
 		"id": 4054417,
 		"title": "三好学啾",
-		"desc": "将所有道具全部强化至#1星",
+		"desc": "在「折纸小鸟对对碰」活动中，将所有道具全部强化至#1星",
 		"rarity": "Low",
 		"series": 5,
 		"paramsText": [
@@ -12778,7 +13094,7 @@
 	{
 		"id": 4054418,
 		"title": "今天开始做老板",
-		"desc": "获得街机店经营权",
+		"desc": "在「折纸小鸟对对碰」活动中，获得街机店经营权",
 		"rarity": "Low",
 		"series": 5,
 		"priority": 427,
@@ -12790,7 +13106,7 @@
 	{
 		"id": 4054419,
 		"title": "双鸟成行",
-		"desc": "目睹波提欧和青雀双双变作折纸小鸟",
+		"desc": "在「折纸小鸟对对碰」活动中，目睹波提欧和青雀双双变作折纸小鸟",
 		"rarity": "Low",
 		"series": 5,
 		"priority": 426,
@@ -12802,7 +13118,7 @@
 	{
 		"id": 4054420,
 		"title": "你醒啦，起来打工吧！",
-		"desc": "招募幽灵小鸟作为街机店员工",
+		"desc": "在「折纸小鸟对对碰」活动中，招募幽灵小鸟作为街机店员工",
 		"rarity": "Mid",
 		"series": 5,
 		"priority": 425,
@@ -12818,7 +13134,6 @@
 		"rarity": "Low",
 		"series": 5,
 		"priority": 424,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:3.5",
 			"隐藏成就"
@@ -12832,7 +13147,6 @@
 		"rarity": "Low",
 		"series": 5,
 		"priority": 423,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:3.5",
 			"隐藏成就"
@@ -12846,7 +13160,6 @@
 		"rarity": "Low",
 		"series": 5,
 		"priority": 422,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:3.5",
 			"隐藏成就"
@@ -12860,7 +13173,6 @@
 		"rarity": "Low",
 		"series": 5,
 		"priority": 421,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:3.5",
 			"隐藏成就"
@@ -12874,7 +13186,6 @@
 		"rarity": "Low",
 		"series": 5,
 		"priority": 420,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:3.5",
 			"隐藏成就"
@@ -12888,7 +13199,6 @@
 		"rarity": "Low",
 		"series": 5,
 		"priority": 419,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:3.5",
 			"隐藏成就"
@@ -12902,7 +13212,6 @@
 		"rarity": "Low",
 		"series": 5,
 		"priority": 417,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:3.5"
 		],
@@ -12915,7 +13224,6 @@
 		"rarity": "Mid",
 		"series": 5,
 		"priority": 416,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:3.5"
 		],
@@ -12928,7 +13236,6 @@
 		"rarity": "Low",
 		"series": 5,
 		"priority": 415,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:3.5"
 		],
@@ -12944,7 +13251,6 @@
 			40000
 		],
 		"priority": 414,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:3.5"
 		],
@@ -12957,7 +13263,6 @@
 		"rarity": "Low",
 		"series": 5,
 		"priority": 413,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:3.5"
 		],
@@ -12973,7 +13278,6 @@
 			3
 		],
 		"priority": 412,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:3.5"
 		],
@@ -12986,9 +13290,216 @@
 		"rarity": "Low",
 		"series": 5,
 		"priority": 411,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:3.5"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4054601,
+		"title": "今已亭亭如盖",
+		"desc": "大地的旧神与新神啊，是否还会追怀昔日的友人？\\n<color=#8790abff>※窥探「辉痕圣林」神悟树庭全部的追忆残像</color>",
+		"rarity": "Low",
+		"series": 5,
+		"descHide": "大地的旧神与新神啊，是否还会追怀昔日的友人？",
+		"priority": 410,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:3.6",
+			"隐藏描述"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4054602,
+		"title": "无我所忆",
+		"desc": "完成与神秘少女的最后一次交谈…真的是最后一次吗？",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 409,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:3.6",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4054603,
+		"title": "如何能静止我的心跳？",
+		"desc": "在「辉痕圣林」神悟树庭，哀悼一颗被焚毁的心脏",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 408,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:3.6",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4054604,
+		"title": "善恶的彼岸",
+		"desc": "在「辉痕圣林」神悟树庭，长久凝视那无言的空洞",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 407,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:3.6",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4054605,
+		"title": "人性的，太人性的",
+		"desc": "在「全世矩阵」无名泰坦大墓的深处，与同伴们下定再次出发的决心",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 406,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:3.6",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4054606,
+		"title": "庞大，渺小，及人类意识",
+		"desc": "在「辉痕圣林」神悟树庭，去往封印地室更深处，见证矩阵光点的变化",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 405,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:3.6",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4054607,
+		"title": "超时空大地兽",
+		"desc": "在「天气真好，养它！」中，发现这只小大地兽的特殊性",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 404,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:3.6"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4054608,
+		"title": "大地兽一家",
+		"desc": "在「天气真好，养它！」中，陪伴小大地兽顺利成长",
+		"rarity": "Mid",
+		"series": 5,
+		"priority": 403,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:3.6"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4054609,
+		"title": "雷达图，拜拜",
+		"desc": "在「天气真好，养它！」中，让小大地兽的三个属性均成长至最高水平",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 402,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:3.6"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4054610,
+		"title": "早期教育",
+		"desc": "在「天气真好，养它！」中，小大地兽共计获得了#1条独特的特质",
+		"rarity": "Low",
+		"series": 5,
+		"paramsText": [
+			25
+		],
+		"priority": 401,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:3.6"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4054611,
+		"title": "小兽当家",
+		"desc": "在「天气真好，养它！」中，由小大地兽自己独立完成一次锻炼活动",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 400,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:3.6"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4054612,
+		"title": "这不是躲避球",
+		"desc": "在「天气真好，养它！」中，和小大地兽嬉戏时不小心用球打到它",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 399,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:3.6"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4054613,
+		"title": "你不吃我吃",
+		"desc": "在「天气真好，养它！」中，被小大地兽抱怨过饭菜的口味问题",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 398,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:3.6"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4054614,
+		"title": "红土小当家",
+		"desc": "在「天气真好，养它！」中，从来没有让小大地兽抱怨过饭菜口味",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 397,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:3.6"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4054615,
+		"title": "一日为师…",
+		"desc": "在「天气真好，养它！」中，收到#1封来自小大地兽的感谢",
+		"rarity": "Low",
+		"series": 5,
+		"paramsText": [
+			9
+		],
+		"priority": 396,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:3.6"
 		],
 		"difficulty": {}
 	},
@@ -17068,7 +17579,6 @@
 			5
 		],
 		"priority": 763,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:3.5",
 			"隐藏成就"
@@ -17085,7 +17595,6 @@
 			40
 		],
 		"priority": 762,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:3.5",
 			"隐藏成就"
@@ -17102,7 +17611,6 @@
 			3
 		],
 		"priority": 761,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:3.5",
 			"隐藏成就"
@@ -17119,7 +17627,6 @@
 			5
 		],
 		"priority": 760,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:3.5",
 			"隐藏成就"
@@ -17136,7 +17643,9 @@
 			1
 		],
 		"priority": 759,
-		"idsAchievementExclusive": [],
+		"idsAchievementExclusive": [
+			4074506
+		],
 		"tags": [
 			"版本:3.5",
 			"隐藏成就"
@@ -17153,7 +17662,9 @@
 			1
 		],
 		"priority": 758,
-		"idsAchievementExclusive": [],
+		"idsAchievementExclusive": [
+			4074505
+		],
 		"tags": [
 			"版本:3.5",
 			"隐藏成就"
@@ -17170,7 +17681,6 @@
 			4
 		],
 		"priority": 757,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:3.5"
 		],
@@ -17186,7 +17696,6 @@
 			3
 		],
 		"priority": 756,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:3.5"
 		],
@@ -17199,7 +17708,6 @@
 		"rarity": "Low",
 		"series": 7,
 		"priority": 755,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:3.5"
 		],
@@ -17212,9 +17720,115 @@
 		"rarity": "Low",
 		"series": 7,
 		"priority": 754,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:3.5"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4074601,
+		"title": "梦渡往昔，露载浮生",
+		"desc": "使用我方角色长夜月的长夜，累计施放<unbreak>#1[i]</unbreak>次【迷梦，流失，如露】",
+		"rarity": "Low",
+		"series": 7,
+		"paramsText": [
+			10
+		],
+		"priority": 753,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:3.6",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4074602,
+		"title": "特别的祝福",
+		"desc": "使用三月七•存护对长夜月施放战技【可爱即是正义】",
+		"rarity": "Low",
+		"series": 7,
+		"priority": 752,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:3.6",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4074603,
+		"title": "你可以完全信任丹恒",
+		"desc": "单场战斗中，使用我方角色丹恒•腾荒累计提供<unbreak>#1[i]</unbreak>点护盾",
+		"rarity": "Low",
+		"series": 7,
+		"paramsText": [
+			100000
+		],
+		"priority": 751,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:3.6",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4074604,
+		"title": "有龙则灵",
+		"desc": "【龙灵】依附在有召唤物的角色身上累计行动<unbreak>#1[i]</unbreak>次",
+		"rarity": "Low",
+		"series": 7,
+		"paramsText": [
+			5
+		],
+		"priority": 750,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:3.6",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4074605,
+		"title": "盾之强者成名记",
+		"desc": "【金血忆灵•裁定忘却之形】对锁定目标施放的#1次单体攻击全部击中护盾",
+		"rarity": "Low",
+		"series": 7,
+		"paramsText": [
+			3
+		],
+		"priority": 749,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:3.6"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4074606,
+		"title": "因信称义",
+		"desc": "被【指名祸首】选中的我方角色在承受【金血忆灵•裁定忘却之形】的【罪血枭首】攻击后，当前生命值等于生命上限",
+		"rarity": "Low",
+		"series": 7,
+		"priority": 748,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:3.6"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4074607,
+		"title": "角动量守恒",
+		"desc": "在【金血忆灵•翼蛇形】进入蓄力状态后，触发多次【扭矩反打】直至解除其蓄力状态",
+		"rarity": "Low",
+		"series": 7,
+		"priority": 747,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:3.6"
 		],
 		"difficulty": {}
 	},

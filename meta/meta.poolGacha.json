@@ -3627,7 +3627,7 @@
 		],
 		"versionAdded": "3.5",
 		"rerun": 2,
-		"idLeader": 2084,
+		"idLeader": "2084",
 		"$data$locale": {
 			"zh-cn": {
 				"name": "夜将不眠"
@@ -3649,7 +3649,7 @@
 		],
 		"versionAdded": "3.5",
 		"rerun": 2,
-		"idLeader": 3084,
+		"idLeader": "3084",
 		"$data$locale": {
 			"zh-cn": {
 				"name": "溯回忆象"
@@ -3714,7 +3714,7 @@
 		],
 		"versionAdded": "3.5",
 		"rerun": 2,
-		"idLeader": 2086,
+		"idLeader": "2086",
 		"$data$locale": {
 			"zh-cn": {
 				"name": "零号协议"
@@ -3737,7 +3737,179 @@
 		],
 		"versionAdded": "3.5",
 		"rerun": 2,
-		"idLeader": 3086,
+		"idLeader": "3086",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "溯回忆象"
+			}
+		}
+	},
+	{
+		"id": "2088",
+		"type": "11",
+		"timeDead": 1760500740,
+		"typeItem": "character",
+		"itemsBoost5": [
+			"1413"
+		],
+		"itemsBoost4": [
+			"1312",
+			"1210",
+			"1214"
+		],
+		"versionAdded": "3.6",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "无我所忆"
+			}
+		}
+	},
+	{
+		"id": "3088",
+		"type": "12",
+		"timeDead": 1760500740,
+		"typeItem": "lightcone",
+		"itemsBoost5": [
+			"23049"
+		],
+		"itemsBoost4": [
+			"21048",
+			"21045",
+			"21018"
+		],
+		"versionAdded": "3.6",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "流光定影"
+			}
+		}
+	},
+	{
+		"id": "2089",
+		"type": "11",
+		"timeDead": 1760500740,
+		"typeItem": "character",
+		"itemsBoost5": [
+			"1401"
+		],
+		"itemsBoost4": [
+			"1312",
+			"1210",
+			"1214"
+		],
+		"versionAdded": "3.6",
+		"rerun": 2,
+		"idLeader": "2088",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "视界来信"
+			}
+		}
+	},
+	{
+		"id": "3089",
+		"type": "12",
+		"timeDead": 1760500740,
+		"typeItem": "lightcone",
+		"itemsBoost5": [
+			"23037"
+		],
+		"itemsBoost4": [
+			"21048",
+			"21045",
+			"21018"
+		],
+		"versionAdded": "3.6",
+		"rerun": 2,
+		"idLeader": "3088",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "溯回忆象"
+			}
+		}
+	},
+	{
+		"id": "2090",
+		"type": "11",
+		"timeBorn": 1760500800,
+		"timeDead": 1762239600,
+		"typeItem": "character",
+		"itemsBoost5": [
+			"1414"
+		],
+		"itemsBoost4": [
+			"1206",
+			"1215",
+			"1103"
+		],
+		"versionAdded": "3.6",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "八荒诛邪"
+			}
+		}
+	},
+	{
+		"id": "3090",
+		"type": "12",
+		"timeBorn": 1760500800,
+		"timeDead": 1762239600,
+		"typeItem": "lightcone",
+		"itemsBoost5": [
+			"23051"
+		],
+		"itemsBoost4": [
+			"21009",
+			"21003",
+			"21014"
+		],
+		"versionAdded": "3.6",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "流光定影"
+			}
+		}
+	},
+	{
+		"id": "2091",
+		"type": "11",
+		"timeBorn": 1760500800,
+		"timeDead": 1762239600,
+		"typeItem": "character",
+		"itemsBoost5": [
+			"1405"
+		],
+		"itemsBoost4": [
+			"1206",
+			"1215",
+			"1103"
+		],
+		"versionAdded": "3.6",
+		"rerun": 1,
+		"idLeader": "2090",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "胚中万物"
+			}
+		}
+	},
+	{
+		"id": "3091",
+		"type": "12",
+		"timeBorn": 1760500800,
+		"timeDead": 1762239600,
+		"typeItem": "lightcone",
+		"itemsBoost5": [
+			"23041"
+		],
+		"itemsBoost4": [
+			"21009",
+			"21003",
+			"21014"
+		],
+		"versionAdded": "3.6",
+		"rerun": 1,
+		"idLeader": "3090",
 		"$data$locale": {
 			"zh-cn": {
 				"name": "溯回忆象"

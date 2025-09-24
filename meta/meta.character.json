@@ -1008,6 +1008,34 @@
 		}
 	},
 	{
+		"id": "1413",
+		"element": "Ice",
+		"path": "Memory",
+		"rarity": 5,
+		"arggro": 100,
+		"versionAdded": "3.6",
+		"versionAvailable": "3.6",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "长夜月"
+			}
+		}
+	},
+	{
+		"id": "1414",
+		"element": "Physical",
+		"path": "Knight",
+		"rarity": 5,
+		"arggro": 150,
+		"versionAdded": "3.6",
+		"versionAvailable": "3.6",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "丹恒•腾荒"
+			}
+		}
+	},
+	{
 		"id": "8001",
 		"element": "Physical",
 		"path": "Warrior",
