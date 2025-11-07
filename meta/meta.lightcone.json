@@ -1080,6 +1080,18 @@
 		}
 	},
 	{
+		"id": "22006",
+		"path": "Memory",
+		"rarity": 4,
+		"versionAdded": "3.7",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "飞向粉色的明天",
+				"nameEffect": "凝望"
+			}
+		}
+	},
+	{
 		"id": "23000",
 		"path": "Mage",
 		"rarity": 5,
@@ -1732,6 +1744,19 @@
 			"zh-cn": {
 				"name": "纵然山河万程",
 				"nameEffect": "新鳞"
+			}
+		}
+	},
+	{
+		"id": "23052",
+		"path": "Memory",
+		"rarity": 5,
+		"characterBest": "1415",
+		"versionAdded": "3.7",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "爱如此刻永恒",
+				"nameEffect": "约定"
 			}
 		}
 	},

@@ -1036,6 +1036,20 @@
 		}
 	},
 	{
+		"id": "1415",
+		"element": "Ice",
+		"path": "Memory",
+		"rarity": 5,
+		"arggro": 100,
+		"versionAdded": "3.7",
+		"versionAvailable": "3.7",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "昔涟"
+			}
+		}
+	},
+	{
 		"id": "8001",
 		"element": "Physical",
 		"path": "Warrior",

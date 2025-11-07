@@ -36,6 +36,15 @@
 		}
 	},
 	{
+		"id": "11415",
+		"versionAdded": "3.7",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "德谬歌"
+			}
+		}
+	},
+	{
 		"id": "18007",
 		"versionAdded": "3.0",
 		"$data$locale": {

@@ -2358,6 +2358,126 @@
 		"difficulty": {}
 	},
 	{
+		"id": 4034701,
+		"title": "光线的终点",
+		"desc": "看哪，战车所向，是曙光和胜利\\n<color=#8790abff>※目睹化身列车的开拓者穿行天际</color>",
+		"rarity": "Mid",
+		"series": 3,
+		"descHide": "看哪，战车所向，是曙光和胜利",
+		"priority": 876,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:3.7",
+			"隐藏描述"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4034702,
+		"title": "月盈，在盛开的樱花下",
+		"desc": "故事之外，有谁还在？\\n<color=#8790abff>※告别翁法罗斯，窥见下一站的线索</color>",
+		"rarity": "Low",
+		"series": 5,
+		"descHide": "故事之外，有谁还在？",
+		"priority": 869,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:3.7",
+			"隐藏描述"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4034703,
+		"title": "终焉，亦是原初的混沌",
+		"desc": "为神的证明写下一行注释\\n<color=#8790abff>※向博识尊证明，或不证明</color>",
+		"rarity": "Mid",
+		"series": 3,
+		"descHide": "为神的证明写下一行注释",
+		"priority": 872,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:3.7",
+			"隐藏描述"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4034704,
+		"title": "爱，桃子，水晶花",
+		"desc": "一颗心能否在岁月的浸润下绽放？\\n<color=#8790abff>※揭示PhiLia<unbreak>093</unbreak>与德谬歌的秘密</color>",
+		"rarity": "Mid",
+		"series": 3,
+		"descHide": "一颗心能否在岁月的浸润下绽放？",
+		"priority": 875,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:3.7",
+			"隐藏描述"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4034705,
+		"title": "最后的伟大征程",
+		"desc": "囚徒笑问傀儡，谁比谁更荒唐\\n<color=#8790abff>※抵达时光归墟</color>",
+		"rarity": "Mid",
+		"series": 3,
+		"descHide": "囚徒笑问傀儡，谁比谁更荒唐",
+		"priority": 874,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:3.7",
+			"隐藏描述"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4034706,
+		"title": "末日及其四行尾注",
+		"desc": "等号右侧，「智识」归于沉寂\\n<color=#8790abff>※亲历「毁灭」降临的瞬间</color>",
+		"rarity": "Mid",
+		"series": 3,
+		"descHide": "等号右侧，「智识」归于沉寂",
+		"priority": 873,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:3.7",
+			"隐藏描述"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4034707,
+		"title": "彼之灵魂即全宇宙",
+		"desc": "群星将看见翁法罗斯的答案\\n<color=#8790abff>※「你好，世界」</color>",
+		"rarity": "Mid",
+		"series": 3,
+		"descHide": "群星将看见翁法罗斯的答案",
+		"priority": 871,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:3.7",
+			"隐藏描述"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4034708,
+		"title": "缪斯，请为我叙说",
+		"desc": "光锥之内，皆是命运\\n<color=#8790abff>※为史诗写下最后的句点</color>",
+		"rarity": "High",
+		"series": 3,
+		"descHide": "光锥之内，皆是命运",
+		"priority": 870,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:3.7",
+			"隐藏描述"
+		],
+		"difficulty": {}
+	},
+	{
 		"id": 4040101,
 		"title": "角色扮演游戏里合法",
 		"desc": "开启<unbreak>#1[i]</unbreak>次空间站「黑塔」战利品",
@@ -5044,9 +5164,9 @@
 		"title": "未来水世界",
 		"desc": "法吉娜的祭司常说，不要在冥河水里游泳…\\n<color=#8790abff>※在翁法罗斯探索过程中，被卷入水体的变动</color>",
 		"rarity": "Low",
-		"series": 4,
+		"series": 8,
 		"descHide": "法吉娜的祭司常说，不要在冥河水里游泳…",
-		"priority": 792,
+		"priority": 907,
 		"tags": [
 			"版本:3.5",
 			"隐藏描述"
@@ -5058,9 +5178,9 @@
 		"title": "埃斯库罗斯之死",
 		"desc": "法吉娜的祭司常说，要小心高空坠物…\\n<color=#8790abff>※在翁法罗斯探索过程中，被倒塌的吊灯天顶砸中</color>",
 		"rarity": "Low",
-		"series": 4,
+		"series": 8,
 		"descHide": "法吉娜的祭司常说，要小心高空坠物…",
-		"priority": 791,
+		"priority": 906,
 		"tags": [
 			"版本:3.5",
 			"隐藏描述"
@@ -5277,8 +5397,8 @@
 		"title": "这不是旋转门",
 		"desc": "未使用「暂停时间」的方法通过排气扇并且失败",
 		"rarity": "Low",
-		"series": 4,
-		"priority": 774,
+		"series": 8,
+		"priority": 905,
 		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:3.6"
@@ -5421,6 +5541,258 @@
 		"tags": [
 			"版本:3.6",
 			"隐藏描述"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4044701,
+		"title": "翁法罗斯掌管宝箱的真神",
+		"desc": "开启<unbreak>#1[i]</unbreak>次翁法罗斯战利品",
+		"rarity": "Mid",
+		"series": 4,
+		"paramsText": [
+			650
+		],
+		"priority": 763,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:3.7"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4044702,
+		"title": "虫鸣秘闻：岁月之吻",
+		"desc": "那座桥梁是何形状？\\n<color=#8790abff>※解开「灾梦余温」无名泰坦大墓的预言谜题</color>",
+		"rarity": "Low",
+		"series": 4,
+		"descHide": "那座桥梁是何形状？",
+		"priority": 762,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:3.7",
+			"隐藏描述"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4044703,
+		"title": "虫鸣秘闻：洞穴寓言",
+		"desc": "是什么隐藏在神话之外？\\n<color=#8790abff>※解开「葬忆彼岸」时光归墟的预言谜题</color>",
+		"rarity": "Low",
+		"series": 4,
+		"descHide": "是什么隐藏在神话之外？",
+		"priority": 761,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:3.7",
+			"隐藏描述"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4044704,
+		"title": "奥赫玛的点金手",
+		"desc": "为织者们建立一座永恒乐园\\n<color=#8790abff>※搜集#1只创生若虫的赐福</color>",
+		"rarity": "Mid",
+		"series": 4,
+		"descHide": "为织者们建立一座永恒乐园",
+		"paramsText": [
+			260
+		],
+		"priority": 760,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:3.7",
+			"隐藏描述"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4044705,
+		"title": "于是万物之工已毕",
+		"desc": "搜集所有创生若虫的赐福，解开所有预言谜题",
+		"rarity": "Low",
+		"series": 4,
+		"priority": 759,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:3.7",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4044706,
+		"title": "灰黯之手，常伴此身",
+		"desc": "体验翁法罗斯每一种物件所引发的意外事故",
+		"rarity": "Low",
+		"series": 8,
+		"priority": 904,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:3.7",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4044707,
+		"title": "火之墓志铭",
+		"desc": "完成时光归墟特殊的黄金替罪羊",
+		"rarity": "Low",
+		"series": 4,
+		"priority": 758,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:3.7",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4044708,
+		"title": "门径构形理论",
+		"desc": "操纵「灾梦余温」无名泰坦大墓中的密径驱动机构，改变翁法罗斯所有「雅努斯密径」的逻辑",
+		"rarity": "Low",
+		"series": 4,
+		"priority": 757,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:3.7",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4044709,
+		"title": "诡计、时光和种子",
+		"desc": "在时光归墟召唤贼灵",
+		"rarity": "Low",
+		"series": 4,
+		"priority": 756,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:3.7"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4044710,
+		"title": "风儿驻足的宫殿",
+		"desc": "找到贼灵的藏身处",
+		"rarity": "Low",
+		"series": 4,
+		"priority": 755,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:3.7"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4044711,
+		"title": "晨昏的三次心跳",
+		"desc": "发现时光归墟内所有的启目集",
+		"rarity": "Low",
+		"series": 4,
+		"priority": 754,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:3.7"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4044712,
+		"title": "记忆的被褥",
+		"desc": "得到三月七的协助，暂时增强欧洛尼斯祷言的能力",
+		"rarity": "Low",
+		"series": 4,
+		"priority": 753,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:3.7"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4044713,
+		"title": "刻法勒永志不忘",
+		"desc": "通过「负世」的试炼，见证往日的希望与绝望",
+		"rarity": "Low",
+		"series": 4,
+		"priority": 752,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:3.7"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4044714,
+		"title": "众神的黄昏",
+		"desc": "初次启动木马程序「槲寄生」号",
+		"rarity": "Low",
+		"series": 4,
+		"priority": 751,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:3.7"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4044715,
+		"title": "不必复飞",
+		"desc": "手动驾驶「槲寄生」号在任意航点降落",
+		"rarity": "Low",
+		"series": 4,
+		"priority": 750,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:3.7"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4044716,
+		"title": "木马纪",
+		"desc": "完成「翻飞挑战」",
+		"rarity": "Low",
+		"series": 4,
+		"priority": 749,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:3.7"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4044717,
+		"title": "最古老的寓言",
+		"desc": "发现「神话之外」的秘密",
+		"rarity": "Low",
+		"series": 4,
+		"priority": 748,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:3.7",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4044718,
+		"title": "带上他们的心脏",
+		"desc": "获取来自翁法罗斯的所有家居装饰",
+		"rarity": "Low",
+		"series": 4,
+		"priority": 747,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:3.7",
+			"隐藏成就"
 		],
 		"difficulty": {}
 	},
@@ -10698,7 +11070,7 @@
 	{
 		"id": 4053703,
 		"title": "沐浴之王",
-		"desc": "在使用浴缸泡澡时，尝试过#1种入浴剂",
+		"desc": "在使用浴缸泡澡时，尝试过巴门尼德、玫瑰芬芳、热辣红油#1种入浴剂",
 		"rarity": "Low",
 		"series": 5,
 		"paramsText": [
@@ -13500,6 +13872,174 @@
 		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:3.6"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4054701,
+		"title": "沐浴黄金血",
+		"desc": "在使用浴缸泡澡时，尝试「黄金精神入浴剂」",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 395,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:3.7",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4054702,
+		"title": "永恒或一页",
+		"desc": "在一页永恒中，与所有黄金裔英雄对话",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 394,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:3.7"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4054703,
+		"title": "寒风与烈火",
+		"desc": "善意如同火炬，传递下去才烧得更旺\\n<color=#8790abff>※与翁法罗斯告别后，重回雅利洛-Ⅵ行政区</color>",
+		"rarity": "Low",
+		"series": 5,
+		"descHide": "善意如同火炬，传递下去才烧得更旺",
+		"priority": 393,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:3.7",
+			"隐藏描述"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4054704,
+		"title": "长生与创生",
+		"desc": "英雄一词，在民众心中本就有分量\\n<color=#8790abff>※与翁法罗斯告别后，重回仙舟「罗浮」星槎海中枢</color>",
+		"rarity": "Low",
+		"series": 5,
+		"descHide": "英雄一词，在民众心中本就有分量",
+		"priority": 392,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:3.7",
+			"隐藏描述"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4054705,
+		"title": "糖浆与蜜酿",
+		"desc": "逐火的征程，会是茶余饭后的谈资吗？\\n<color=#8790abff>※与翁法罗斯告别后，重回匹诺康尼黄金的时刻</color>",
+		"rarity": "Low",
+		"series": 5,
+		"descHide": "逐火的征程，会是茶余饭后的谈资吗？",
+		"priority": 391,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:3.7",
+			"隐藏描述"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4054706,
+		"title": "昨日与明天",
+		"desc": "「开拓」一向如此：做好准备，也心怀希望\\n<color=#8790abff>※与翁法罗斯告别后，重回空间站「黑塔」主控舱段</color>",
+		"rarity": "Low",
+		"series": 5,
+		"descHide": "「开拓」一向如此：做好准备，也心怀希望",
+		"priority": 390,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:3.7",
+			"隐藏描述"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4054707,
+		"title": "只如初见的涟漪",
+		"desc": "与昔涟留在哀丽秘榭的记忆重逢。",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 389,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:3.7"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4054708,
+		"title": "群星静默如谜",
+		"desc": "观看银河各势力在战后与列车组的联络记录。",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 388,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:3.7"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4054709,
+		"title": "连中三元",
+		"desc": "在「点心糕饼向前冲」的单场比赛中，#1次应援的选手均取得第一名",
+		"rarity": "Low",
+		"series": 5,
+		"paramsText": [
+			3
+		],
+		"priority": 387,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:3.7"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4054710,
+		"title": "我们是冠军",
+		"desc": "在「点心糕饼向前冲」中，应援的选手取得赛段第一名",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 386,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:3.7"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4054711,
+		"title": "我可以吃奇巧零食",
+		"desc": "在「点心糕饼向前冲」中，兑换完全部的奇巧零食",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 385,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:3.7"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4054712,
+		"title": "区域-「奖励」",
+		"desc": "在「点心糕饼向前冲」中，收到来自阮•梅的信息",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 384,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:3.7"
 		],
 		"difficulty": {}
 	},
@@ -17728,7 +18268,7 @@
 	{
 		"id": 4074601,
 		"title": "梦渡往昔，露载浮生",
-		"desc": "使用我方角色长夜月的长夜，累计施放<unbreak>#1[i]</unbreak>次【迷梦，流失，如露】",
+		"desc": "单场战斗中，使用我方角色长夜月的长夜，累计施放<unbreak>#1[i]</unbreak>次【迷梦，流失，如露】",
 		"rarity": "Low",
 		"series": 7,
 		"paramsText": [
@@ -17776,7 +18316,7 @@
 	{
 		"id": 4074604,
 		"title": "有龙则灵",
-		"desc": "【龙灵】依附在有召唤物的角色身上累计行动<unbreak>#1[i]</unbreak>次",
+		"desc": "单场战斗中，【龙灵】依附在有召唤物的角色身上累计行动<unbreak>#1[i]</unbreak>次",
 		"rarity": "Low",
 		"series": 7,
 		"paramsText": [
@@ -17829,6 +18369,119 @@
 		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:3.6"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4074701,
+		"title": "无，无限，无限光",
+		"desc": "单场战斗中，我方#1名队友同时拥有昔涟献予的诗",
+		"rarity": "Low",
+		"series": 7,
+		"paramsText": [
+			3
+		],
+		"priority": 746,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:3.7",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4074702,
+		"title": "然后记忆化作涟漪",
+		"desc": "单场战斗中，记忆命途开拓者施放强化普攻后，昔涟自动施放【花与箭的舞曲】达到<unbreak>#1[i]</unbreak>次",
+		"rarity": "Low",
+		"series": 7,
+		"paramsText": [
+			2
+		],
+		"priority": 745,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:3.7",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4074703,
+		"title": "一如死生，并蒂双花",
+		"desc": "使用我方角色遐蝶在【新蕊】达到#1%时施放终结技【亡喉怒哮，苏生之颂铃】",
+		"rarity": "Low",
+		"series": 7,
+		"paramsText": [
+			200
+		],
+		"priority": 744,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:3.7",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4074704,
+		"title": "致翁法罗斯",
+		"desc": "在与「反造物主，流溢之恨」的战斗中，使用【昔涟的声援♪】累计触发#1种不同的声援语音",
+		"rarity": "Low",
+		"series": 7,
+		"paramsText": [
+			5
+		],
+		"priority": 743,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:3.7",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4074705,
+		"title": "莫让仇恨遮蔽星空",
+		"desc": "在与「反造物主，流溢之恨」的战斗中，在【翁法罗斯的「恨」】不超过#1%的情况下获得战斗胜利",
+		"rarity": "Low",
+		"series": 7,
+		"paramsText": [
+			66
+		],
+		"priority": 742,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:3.7"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4074706,
+		"title": "二元崩塌",
+		"desc": "在与「反造物主，流溢之恨」的战斗中，使「被囚禁的秘所思」或「被操弄的逻各斯」陷入【重创】状态#1次",
+		"rarity": "Low",
+		"series": 7,
+		"paramsText": [
+			1
+		],
+		"priority": 741,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:3.7"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4074707,
+		"title": "随风而逝，如露如电",
+		"desc": "在「飓风大母」进入【孵育狂潮】状态后，使其行动提前时无法孵化【泡影稚子】",
+		"rarity": "Low",
+		"series": 7,
+		"priority": 740,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:3.7"
 		],
 		"difficulty": {}
 	},
