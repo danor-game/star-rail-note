@@ -854,6 +854,20 @@
 		}
 	},
 	{
+		"id": "1321",
+		"element": "Fire",
+		"path": "Warlock",
+		"rarity": 5,
+		"arggro": 100,
+		"versionAdded": "3.8",
+		"versionAvailable": "3.8",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "大丽花"
+			}
+		}
+	},
+	{
 		"id": "1401",
 		"element": "Ice",
 		"path": "Mage",

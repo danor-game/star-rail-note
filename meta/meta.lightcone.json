@@ -1735,6 +1735,19 @@
 		}
 	},
 	{
+		"id": "23050",
+		"path": "Warlock",
+		"rarity": 5,
+		"characterBest": "1321",
+		"versionAdded": "3.8",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "勿忘她的火焰",
+				"nameEffect": "焚身"
+			}
+		}
+	},
+	{
 		"id": "23051",
 		"path": "Knight",
 		"rarity": 5,

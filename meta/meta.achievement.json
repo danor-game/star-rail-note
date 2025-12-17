@@ -2245,7 +2245,6 @@
 		"series": 3,
 		"descHide": "既然这扇门背后就是翁法罗斯……",
 		"priority": 884,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:3.6",
 			"隐藏描述"
@@ -2260,7 +2259,6 @@
 		"series": 3,
 		"descHide": "总有些「记忆」是被焚烧的代价",
 		"priority": 883,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:3.6",
 			"隐藏描述"
@@ -2275,7 +2273,6 @@
 		"series": 3,
 		"descHide": "探索、了解、建立、连结——然后，我们会一起回家",
 		"priority": 882,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:3.6",
 			"隐藏描述"
@@ -2290,7 +2287,6 @@
 		"series": 3,
 		"descHide": "听我说，记住这段话，然后忘掉它",
 		"priority": 881,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:3.6",
 			"隐藏描述"
@@ -2305,7 +2301,6 @@
 		"series": 3,
 		"descHide": "向「大地」昭告新神的名字",
 		"priority": 880,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:3.6",
 			"隐藏描述"
@@ -2320,7 +2315,6 @@
 		"series": 3,
 		"descHide": "以天地为横轴，以时光为纵轴，带你回家",
 		"priority": 879,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:3.6",
 			"隐藏描述"
@@ -2335,7 +2329,6 @@
 		"series": 3,
 		"descHide": "相机记忆卡已经存满的元凶……",
 		"priority": 878,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:3.6",
 			"隐藏描述"
@@ -2350,7 +2343,6 @@
 		"series": 3,
 		"descHide": "与我一同，成为英雄吧",
 		"priority": 877,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:3.6",
 			"隐藏描述"
@@ -2365,7 +2357,6 @@
 		"series": 3,
 		"descHide": "看哪，战车所向，是曙光和胜利",
 		"priority": 876,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:3.7",
 			"隐藏描述"
@@ -2379,8 +2370,7 @@
 		"rarity": "Low",
 		"series": 5,
 		"descHide": "故事之外，有谁还在？",
-		"priority": 869,
-		"idsAchievementExclusive": [],
+		"priority": 377,
 		"tags": [
 			"版本:3.7",
 			"隐藏描述"
@@ -2395,7 +2385,6 @@
 		"series": 3,
 		"descHide": "为神的证明写下一行注释",
 		"priority": 872,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:3.7",
 			"隐藏描述"
@@ -2410,7 +2399,6 @@
 		"series": 3,
 		"descHide": "一颗心能否在岁月的浸润下绽放？",
 		"priority": 875,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:3.7",
 			"隐藏描述"
@@ -2425,7 +2413,6 @@
 		"series": 3,
 		"descHide": "囚徒笑问傀儡，谁比谁更荒唐",
 		"priority": 874,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:3.7",
 			"隐藏描述"
@@ -2440,7 +2427,6 @@
 		"series": 3,
 		"descHide": "等号右侧，「智识」归于沉寂",
 		"priority": 873,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:3.7",
 			"隐藏描述"
@@ -2455,7 +2441,6 @@
 		"series": 3,
 		"descHide": "群星将看见翁法罗斯的答案",
 		"priority": 871,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:3.7",
 			"隐藏描述"
@@ -2470,10 +2455,97 @@
 		"series": 3,
 		"descHide": "光锥之内，皆是命运",
 		"priority": 870,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:3.7",
 			"隐藏描述"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4034801,
+		"title": "高尚者的墓志铭",
+		"desc": "坚持信念的代价，总是迷失返回的路\\n<color=#8790abff>※流萤视角下，与AR<unbreak>-214</unbreak>重逢</color>",
+		"rarity": "Mid",
+		"series": 3,
+		"descHide": "坚持信念的代价，总是迷失返回的路",
+		"priority": 869,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:3.8",
+			"隐藏描述"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4034802,
+		"title": "过去是未来的倒影",
+		"desc": "时间在刀尖上舞蹈，只有光能刺向未来\\n<color=#8790abff>※见证「终末」与「开拓」的交汇</color>",
+		"rarity": "Mid",
+		"series": 3,
+		"descHide": "时间在刀尖上舞蹈，只有光能刺向未来",
+		"priority": 868,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:3.8",
+			"隐藏描述"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4034803,
+		"title": "飞翔无需理由",
+		"desc": "哪怕一切为时已晚，我们还是能去唱，自己能唱的歌\\n<color=#8790abff>※见证逐梦者的谐乐大典</color>",
+		"rarity": "Mid",
+		"series": 3,
+		"descHide": "哪怕一切为时已晚，我们还是能去唱，自己能唱的歌",
+		"priority": 867,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:3.8",
+			"隐藏描述"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4034804,
+		"title": "生是与死擦肩而过",
+		"desc": "焚烧众生者是时间，时间又使其熄灭\\n<color=#8790abff>※揭晓关于末王的真相</color>",
+		"rarity": "Mid",
+		"series": 3,
+		"descHide": "焚烧众生者是时间，时间又使其熄灭",
+		"priority": 866,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:3.8",
+			"隐藏描述"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4034805,
+		"title": "记忆是梦的开场白",
+		"desc": "一个人就能独自上演死亡，而美好需要回应\\n<color=#8790abff>※履行与流萤的约定</color>",
+		"rarity": "Mid",
+		"series": 3,
+		"priority": 865,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:3.8",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4034806,
+		"title": "忘却是梦的谢幕礼",
+		"desc": "凡生命皆开启神秘，凡神秘皆蒙着黑暗，凡黑暗皆承载希望，凡希望皆服从生命\\n<color=#8790abff>※找到大丽花留给你的一簇记忆</color>",
+		"rarity": "Mid",
+		"series": 3,
+		"priority": 864,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:3.8",
+			"隐藏成就"
 		],
 		"difficulty": {}
 	},
@@ -5334,7 +5406,6 @@
 		"rarity": "Low",
 		"series": 4,
 		"priority": 779,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:3.6"
 		],
@@ -5347,7 +5418,6 @@
 		"rarity": "Low",
 		"series": 4,
 		"priority": 778,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:3.6"
 		],
@@ -5360,7 +5430,6 @@
 		"rarity": "Low",
 		"series": 4,
 		"priority": 777,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:3.6"
 		],
@@ -5373,7 +5442,6 @@
 		"rarity": "Low",
 		"series": 4,
 		"priority": 776,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:3.6"
 		],
@@ -5386,7 +5454,6 @@
 		"rarity": "Low",
 		"series": 4,
 		"priority": 775,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:3.6"
 		],
@@ -5399,7 +5466,6 @@
 		"rarity": "Low",
 		"series": 8,
 		"priority": 905,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:3.6"
 		],
@@ -5412,7 +5478,6 @@
 		"rarity": "Low",
 		"series": 4,
 		"priority": 773,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:3.6"
 		],
@@ -5425,7 +5490,6 @@
 		"rarity": "Low",
 		"series": 4,
 		"priority": 772,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:3.6"
 		],
@@ -5441,7 +5505,6 @@
 			5
 		],
 		"priority": 771,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:3.6"
 		],
@@ -5454,7 +5517,6 @@
 		"rarity": "Low",
 		"series": 4,
 		"priority": 770,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:3.6"
 		],
@@ -5467,7 +5529,6 @@
 		"rarity": "Low",
 		"series": 4,
 		"priority": 769,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:3.6"
 		],
@@ -5481,7 +5542,6 @@
 		"series": 4,
 		"descHide": "别以为躲在外侧扇区就没事了…",
 		"priority": 768,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:3.6",
 			"隐藏描述"
@@ -5495,7 +5555,6 @@
 		"rarity": "Low",
 		"series": 4,
 		"priority": 767,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:3.6"
 		],
@@ -5508,7 +5567,6 @@
 		"rarity": "Low",
 		"series": 4,
 		"priority": 766,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:3.6"
 		],
@@ -5522,7 +5580,6 @@
 		"series": 4,
 		"descHide": "正确的四者是哪四者？",
 		"priority": 765,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:3.6",
 			"隐藏描述"
@@ -5537,7 +5594,6 @@
 		"series": 4,
 		"descHide": "如何供奉无限？",
 		"priority": 764,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:3.6",
 			"隐藏描述"
@@ -5554,7 +5610,6 @@
 			650
 		],
 		"priority": 763,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:3.7"
 		],
@@ -5568,7 +5623,6 @@
 		"series": 4,
 		"descHide": "那座桥梁是何形状？",
 		"priority": 762,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:3.7",
 			"隐藏描述"
@@ -5583,7 +5637,6 @@
 		"series": 4,
 		"descHide": "是什么隐藏在神话之外？",
 		"priority": 761,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:3.7",
 			"隐藏描述"
@@ -5601,7 +5654,6 @@
 			260
 		],
 		"priority": 760,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:3.7",
 			"隐藏描述"
@@ -5615,7 +5667,6 @@
 		"rarity": "Low",
 		"series": 4,
 		"priority": 759,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:3.7",
 			"隐藏成就"
@@ -5629,7 +5680,6 @@
 		"rarity": "Low",
 		"series": 8,
 		"priority": 904,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:3.7",
 			"隐藏成就"
@@ -5643,7 +5693,6 @@
 		"rarity": "Low",
 		"series": 4,
 		"priority": 758,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:3.7",
 			"隐藏成就"
@@ -5657,7 +5706,6 @@
 		"rarity": "Low",
 		"series": 4,
 		"priority": 757,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:3.7",
 			"隐藏成就"
@@ -5671,7 +5719,6 @@
 		"rarity": "Low",
 		"series": 4,
 		"priority": 756,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:3.7"
 		],
@@ -5684,7 +5731,6 @@
 		"rarity": "Low",
 		"series": 4,
 		"priority": 755,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:3.7"
 		],
@@ -5697,7 +5743,6 @@
 		"rarity": "Low",
 		"series": 4,
 		"priority": 754,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:3.7"
 		],
@@ -5710,7 +5755,6 @@
 		"rarity": "Low",
 		"series": 4,
 		"priority": 753,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:3.7"
 		],
@@ -5723,7 +5767,6 @@
 		"rarity": "Low",
 		"series": 4,
 		"priority": 752,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:3.7"
 		],
@@ -5736,7 +5779,6 @@
 		"rarity": "Low",
 		"series": 4,
 		"priority": 751,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:3.7"
 		],
@@ -5749,7 +5791,6 @@
 		"rarity": "Low",
 		"series": 4,
 		"priority": 750,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:3.7"
 		],
@@ -5762,7 +5803,6 @@
 		"rarity": "Low",
 		"series": 4,
 		"priority": 749,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:3.7"
 		],
@@ -5775,7 +5815,6 @@
 		"rarity": "Low",
 		"series": 4,
 		"priority": 748,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:3.7",
 			"隐藏成就"
@@ -5789,10 +5828,48 @@
 		"rarity": "Low",
 		"series": 4,
 		"priority": 747,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:3.7",
 			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4044801,
+		"title": "钟末视界",
+		"desc": "修复「橡木鸣蛀之梦」中所有坏掉的梦境迷钟",
+		"rarity": "Low",
+		"series": 4,
+		"priority": 746,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:3.8"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4044802,
+		"title": "我罪常在我前",
+		"desc": "在「橡木鸣蛀之梦」的未走之路中，得到梦主的信件",
+		"rarity": "Low",
+		"series": 4,
+		"priority": 745,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:3.8"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4044803,
+		"title": "歧路唯余倒影",
+		"desc": "在「橡木鸣蛀之梦」的未走之路中，沿着另一条道路前进",
+		"rarity": "Low",
+		"series": 4,
+		"priority": 744,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:3.8"
 		],
 		"difficulty": {}
 	},
@@ -13675,7 +13752,6 @@
 		"series": 5,
 		"descHide": "大地的旧神与新神啊，是否还会追怀昔日的友人？",
 		"priority": 410,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:3.6",
 			"隐藏描述"
@@ -13689,7 +13765,6 @@
 		"rarity": "Low",
 		"series": 5,
 		"priority": 409,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:3.6",
 			"隐藏成就"
@@ -13703,7 +13778,6 @@
 		"rarity": "Low",
 		"series": 5,
 		"priority": 408,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:3.6",
 			"隐藏成就"
@@ -13717,7 +13791,6 @@
 		"rarity": "Low",
 		"series": 5,
 		"priority": 407,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:3.6",
 			"隐藏成就"
@@ -13731,7 +13804,6 @@
 		"rarity": "Low",
 		"series": 5,
 		"priority": 406,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:3.6",
 			"隐藏成就"
@@ -13745,7 +13817,6 @@
 		"rarity": "Low",
 		"series": 5,
 		"priority": 405,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:3.6",
 			"隐藏成就"
@@ -13759,7 +13830,6 @@
 		"rarity": "Low",
 		"series": 5,
 		"priority": 404,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:3.6"
 		],
@@ -13772,7 +13842,6 @@
 		"rarity": "Mid",
 		"series": 5,
 		"priority": 403,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:3.6"
 		],
@@ -13785,7 +13854,6 @@
 		"rarity": "Low",
 		"series": 5,
 		"priority": 402,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:3.6"
 		],
@@ -13801,7 +13869,6 @@
 			25
 		],
 		"priority": 401,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:3.6"
 		],
@@ -13814,7 +13881,6 @@
 		"rarity": "Low",
 		"series": 5,
 		"priority": 400,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:3.6"
 		],
@@ -13827,7 +13893,6 @@
 		"rarity": "Low",
 		"series": 5,
 		"priority": 399,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:3.6"
 		],
@@ -13840,7 +13905,9 @@
 		"rarity": "Low",
 		"series": 5,
 		"priority": 398,
-		"idsAchievementExclusive": [],
+		"idsAchievementExclusive": [
+			4054614
+		],
 		"tags": [
 			"版本:3.6"
 		],
@@ -13853,7 +13920,9 @@
 		"rarity": "Low",
 		"series": 5,
 		"priority": 397,
-		"idsAchievementExclusive": [],
+		"idsAchievementExclusive": [
+			4054613
+		],
 		"tags": [
 			"版本:3.6"
 		],
@@ -13869,7 +13938,6 @@
 			9
 		],
 		"priority": 396,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:3.6"
 		],
@@ -13882,7 +13950,6 @@
 		"rarity": "Low",
 		"series": 5,
 		"priority": 395,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:3.7",
 			"隐藏成就"
@@ -13896,7 +13963,6 @@
 		"rarity": "Low",
 		"series": 5,
 		"priority": 394,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:3.7"
 		],
@@ -13910,7 +13976,6 @@
 		"series": 5,
 		"descHide": "善意如同火炬，传递下去才烧得更旺",
 		"priority": 393,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:3.7",
 			"隐藏描述"
@@ -13925,7 +13990,6 @@
 		"series": 5,
 		"descHide": "英雄一词，在民众心中本就有分量",
 		"priority": 392,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:3.7",
 			"隐藏描述"
@@ -13940,7 +14004,6 @@
 		"series": 5,
 		"descHide": "逐火的征程，会是茶余饭后的谈资吗？",
 		"priority": 391,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:3.7",
 			"隐藏描述"
@@ -13955,7 +14018,6 @@
 		"series": 5,
 		"descHide": "「开拓」一向如此：做好准备，也心怀希望",
 		"priority": 390,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:3.7",
 			"隐藏描述"
@@ -13969,7 +14031,6 @@
 		"rarity": "Low",
 		"series": 5,
 		"priority": 389,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:3.7"
 		],
@@ -13982,7 +14043,6 @@
 		"rarity": "Low",
 		"series": 5,
 		"priority": 388,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:3.7"
 		],
@@ -13998,7 +14058,6 @@
 			3
 		],
 		"priority": 387,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:3.7"
 		],
@@ -14011,7 +14070,6 @@
 		"rarity": "Low",
 		"series": 5,
 		"priority": 386,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:3.7"
 		],
@@ -14024,7 +14082,6 @@
 		"rarity": "Low",
 		"series": 5,
 		"priority": 385,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:3.7"
 		],
@@ -14037,9 +14094,168 @@
 		"rarity": "Low",
 		"series": 5,
 		"priority": 384,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:3.7"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4054801,
+		"title": "长眠之梦的呓语",
+		"desc": "在「橡木鸣蛀之梦」中，重温昔日旧梦",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 383,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:3.8"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4054802,
+		"title": "大满贯",
+		"desc": "在「黄金嗷呜大师赛」中，单场赛事累计获得#1次胜利",
+		"rarity": "Low",
+		"series": 5,
+		"paramsText": [
+			8
+		],
+		"priority": 382,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:3.8"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4054803,
+		"title": "奇美拉大师",
+		"desc": "在「黄金嗷呜大师赛」中，赛事段位达到黄金",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 381,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:3.8"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4054804,
+		"title": "赢在起跑线",
+		"desc": "在「黄金嗷呜大师赛」中，完成奇美拉世界锦标赛的定级赛",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 380,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:3.8"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4054805,
+		"title": "传奇挑战者",
+		"desc": "在「黄金嗷呜大师赛」中，与玩家对战获得#1场全胜",
+		"rarity": "Low",
+		"series": 5,
+		"paramsText": [
+			8
+		],
+		"priority": 379,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:3.8",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4054806,
+		"title": "奥赫玛地区冠军",
+		"desc": "在「黄金嗷呜大师赛」中，击败黄金对决模式中的所有奇美拉训练家",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 378,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:3.8",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4054807,
+		"title": "逆卡巴拉计数器",
+		"desc": "在与「巨剑守护」任意难度的战斗中，我方角色累计回复#1次【生命计数】",
+		"rarity": "Low",
+		"series": 7,
+		"paramsText": [
+			12
+		],
+		"priority": 736,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:3.8"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4054808,
+		"title": "超越射击",
+		"desc": "在与「狮震八方」任意难度的战斗中，我方目标累计消灭#1个【后排目标】",
+		"rarity": "Low",
+		"series": 7,
+		"paramsText": [
+			15
+		],
+		"priority": 735,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:3.8"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4054809,
+		"title": "疯狂钻石",
+		"desc": "在与「蚀心影魔」噩梦难度的战斗中，我方全体角色【负载生命值】均不超过#1并通关",
+		"rarity": "Low",
+		"series": 7,
+		"paramsText": [
+			8000
+		],
+		"priority": 734,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:3.8"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4054810,
+		"title": "无暇赴死",
+		"desc": "在与「戮力双雄」任意难度的战斗中，触发一次敌方首领的【戮力同心】",
+		"rarity": "Low",
+		"series": 7,
+		"priority": 733,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:3.8"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4054811,
+		"title": "塞壬之泪",
+		"desc": "在与「哀歌塞壬」任意难度的战斗中，我方「致幻人鱼」受到一次致命伤害",
+		"rarity": "Low",
+		"series": 7,
+		"priority": 732,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:3.8"
 		],
 		"difficulty": {}
 	},
@@ -18275,7 +18491,6 @@
 			10
 		],
 		"priority": 753,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:3.6",
 			"隐藏成就"
@@ -18289,7 +18504,6 @@
 		"rarity": "Low",
 		"series": 7,
 		"priority": 752,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:3.6",
 			"隐藏成就"
@@ -18306,7 +18520,6 @@
 			100000
 		],
 		"priority": 751,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:3.6",
 			"隐藏成就"
@@ -18323,7 +18536,6 @@
 			5
 		],
 		"priority": 750,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:3.6",
 			"隐藏成就"
@@ -18340,7 +18552,6 @@
 			3
 		],
 		"priority": 749,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:3.6"
 		],
@@ -18353,7 +18564,6 @@
 		"rarity": "Low",
 		"series": 7,
 		"priority": 748,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:3.6"
 		],
@@ -18366,7 +18576,6 @@
 		"rarity": "Low",
 		"series": 7,
 		"priority": 747,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:3.6"
 		],
@@ -18382,7 +18591,6 @@
 			3
 		],
 		"priority": 746,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:3.7",
 			"隐藏成就"
@@ -18399,7 +18607,6 @@
 			2
 		],
 		"priority": 745,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:3.7",
 			"隐藏成就"
@@ -18416,7 +18623,6 @@
 			200
 		],
 		"priority": 744,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:3.7",
 			"隐藏成就"
@@ -18433,7 +18639,6 @@
 			5
 		],
 		"priority": 743,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:3.7",
 			"隐藏成就"
@@ -18450,7 +18655,6 @@
 			66
 		],
 		"priority": 742,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:3.7"
 		],
@@ -18466,7 +18670,6 @@
 			1
 		],
 		"priority": 741,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:3.7"
 		],
@@ -18479,9 +18682,77 @@
 		"rarity": "Low",
 		"series": 7,
 		"priority": 740,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:3.7"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4074801,
+		"title": "弃旧，恋新",
+		"desc": "战斗胜利时，大丽花的【共舞者】队友与战斗开始时不为同一人",
+		"rarity": "Low",
+		"series": 7,
+		"priority": 739,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:3.8",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4074802,
+		"title": "你和你的掩体一样可笑",
+		"desc": "在敌方目标处于韧性保护状态时，使用超击破伤害将其消灭",
+		"rarity": "Low",
+		"series": 7,
+		"priority": 738,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:3.8"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4074803,
+		"title": "舞！舞！舞！",
+		"desc": "单场战斗中，「同谐」命途开拓者、忘归人和大丽花全部施放过终结技",
+		"rarity": "Low",
+		"series": 7,
+		"priority": 737,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:3.8",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4074804,
+		"title": "乌合之虫",
+		"desc": "在与「示死祸源：深魇蝗灾」的战斗中，通过消灭所有「幼蛰虫」使其退出【基因复制】状态",
+		"rarity": "Low",
+		"series": 7,
+		"priority": 731,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:3.8",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4074805,
+		"title": "擒虫先擒蝗",
+		"desc": "在与「示死祸源：深魇蝗灾」的战斗中，在尚未消灭所有「幼蛰虫」时击破「示死祸源：深魇蝗灾」，且在未退出【基因复制】状态时恢复韧性",
+		"rarity": "Low",
+		"series": 7,
+		"priority": 730,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:3.8",
+			"隐藏成就"
 		],
 		"difficulty": {}
 	},
