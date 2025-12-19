@@ -2469,7 +2469,6 @@
 		"series": 3,
 		"descHide": "坚持信念的代价，总是迷失返回的路",
 		"priority": 869,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:3.8",
 			"隐藏描述"
@@ -2484,7 +2483,6 @@
 		"series": 3,
 		"descHide": "时间在刀尖上舞蹈，只有光能刺向未来",
 		"priority": 868,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:3.8",
 			"隐藏描述"
@@ -2499,7 +2497,6 @@
 		"series": 3,
 		"descHide": "哪怕一切为时已晚，我们还是能去唱，自己能唱的歌",
 		"priority": 867,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:3.8",
 			"隐藏描述"
@@ -2514,7 +2511,6 @@
 		"series": 3,
 		"descHide": "焚烧众生者是时间，时间又使其熄灭",
 		"priority": 866,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:3.8",
 			"隐藏描述"
@@ -2528,7 +2524,9 @@
 		"rarity": "Mid",
 		"series": 3,
 		"priority": 865,
-		"idsAchievementExclusive": [],
+		"idsAchievementExclusive": [
+			4034806
+		],
 		"tags": [
 			"版本:3.8",
 			"隐藏成就"
@@ -2542,7 +2540,9 @@
 		"rarity": "Mid",
 		"series": 3,
 		"priority": 864,
-		"idsAchievementExclusive": [],
+		"idsAchievementExclusive": [
+			4034805
+		],
 		"tags": [
 			"版本:3.8",
 			"隐藏成就"
@@ -5841,7 +5841,6 @@
 		"rarity": "Low",
 		"series": 4,
 		"priority": 746,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:3.8"
 		],
@@ -5854,7 +5853,6 @@
 		"rarity": "Low",
 		"series": 4,
 		"priority": 745,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:3.8"
 		],
@@ -5867,7 +5865,6 @@
 		"rarity": "Low",
 		"series": 4,
 		"priority": 744,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:3.8"
 		],
@@ -14106,7 +14103,6 @@
 		"rarity": "Low",
 		"series": 5,
 		"priority": 383,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:3.8"
 		],
@@ -14122,7 +14118,6 @@
 			8
 		],
 		"priority": 382,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:3.8"
 		],
@@ -14135,7 +14130,6 @@
 		"rarity": "Low",
 		"series": 5,
 		"priority": 381,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:3.8"
 		],
@@ -14148,7 +14142,6 @@
 		"rarity": "Low",
 		"series": 5,
 		"priority": 380,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:3.8"
 		],
@@ -14164,7 +14157,6 @@
 			8
 		],
 		"priority": 379,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:3.8",
 			"隐藏成就"
@@ -14178,7 +14170,6 @@
 		"rarity": "Low",
 		"series": 5,
 		"priority": 378,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:3.8",
 			"隐藏成就"
@@ -14195,7 +14186,6 @@
 			12
 		],
 		"priority": 736,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:3.8"
 		],
@@ -14211,7 +14201,6 @@
 			15
 		],
 		"priority": 735,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:3.8"
 		],
@@ -14227,7 +14216,6 @@
 			8000
 		],
 		"priority": 734,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:3.8"
 		],
@@ -14240,7 +14228,6 @@
 		"rarity": "Low",
 		"series": 7,
 		"priority": 733,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:3.8"
 		],
@@ -14253,7 +14240,6 @@
 		"rarity": "Low",
 		"series": 7,
 		"priority": 732,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:3.8"
 		],
@@ -18694,7 +18680,6 @@
 		"rarity": "Low",
 		"series": 7,
 		"priority": 739,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:3.8",
 			"隐藏成就"
@@ -18708,7 +18693,6 @@
 		"rarity": "Low",
 		"series": 7,
 		"priority": 738,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:3.8"
 		],
@@ -18721,7 +18705,6 @@
 		"rarity": "Low",
 		"series": 7,
 		"priority": 737,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:3.8",
 			"隐藏成就"
@@ -18735,7 +18718,6 @@
 		"rarity": "Low",
 		"series": 7,
 		"priority": 731,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:3.8",
 			"隐藏成就"
@@ -18749,7 +18731,6 @@
 		"rarity": "Low",
 		"series": 7,
 		"priority": 730,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:3.8",
 			"隐藏成就"
