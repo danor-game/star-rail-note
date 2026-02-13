@@ -29,7 +29,7 @@ for(const setRelicRaw of setsRelicRaw) {
 		type: setRelicRaw.IsPlanarSuit ? 'Planar' : 'Cavern',
 		skills: {},
 		idsRelic: [],
-		versionAdded: relics.find(meta => meta.id == setRelicRaw.SetID)?.versionAdded ?? process.argv[2] ?? '3.x',
+		versionAdded: relics.find(meta => meta.id == setRelicRaw.SetID)?.versionAdded ?? process.argv[2] ?? '4.x',
 		$data$locale: {
 			'zh-cn': {
 				name: texts$hash[setRelicRaw.SetName?.Hash],

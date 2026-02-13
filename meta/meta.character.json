@@ -1064,6 +1064,34 @@
 		}
 	},
 	{
+		"id": "1501",
+		"element": "Fire",
+		"path": "Elation",
+		"rarity": 5,
+		"arggro": 100,
+		"versionAdded": "4.0",
+		"versionAvailable": "4.0",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "火花"
+			}
+		}
+	},
+	{
+		"id": "1502",
+		"element": "Physical",
+		"path": "Elation",
+		"rarity": 5,
+		"arggro": 100,
+		"versionAdded": "4.0",
+		"versionAvailable": "4.0",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "爻光"
+			}
+		}
+	},
+	{
 		"id": "8001",
 		"element": "Physical",
 		"path": "Warrior",

@@ -24,7 +24,7 @@ for(const raw of servantsRaw) {
 
 	const servant = {
 		id: String(raw.ServantID),
-		versionAdded: servants.find(meta => meta.id == raw.ServantID)?.versionAdded ?? process.argv[2] ?? '3.x',
+		versionAdded: servants.find(meta => meta.id == raw.ServantID)?.versionAdded ?? process.argv[2] ?? '4.x',
 		$data$locale: {
 			'zh-cn': {
 				name: texts$hash[raw.ServantName?.Hash],

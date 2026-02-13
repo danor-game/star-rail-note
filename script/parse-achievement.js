@@ -62,7 +62,7 @@ for(const raw of achievementsRaw) {
 	if(achievementOld !== achievementNew) {
 
 		achievementNew.idsAchievementExclusive = [];
-		achievementNew.tags = [`版本:${process.argv[2] ?? '3.x'}`];
+		achievementNew.tags = [`版本:${process.argv[2] ?? '4.x'}`];
 		achievementNew.difficulty = {};
 
 		if(raw.ShowType == 'ShowAfterFinish') { achievementNew.tags.push('隐藏成就'); }

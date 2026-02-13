@@ -38,7 +38,7 @@ for(const raw of poolsRaw) {
 	poolNew.typeItem = typePool.idType.toLowerCase().includes('avatar') ? 'character' : typePool.idType.toLowerCase().includes('weapon') ? 'lightcone' : undefined;
 	poolNew.itemsBoost5 = isNew ? [''] : poolOld.itemsBoost5;
 	poolNew.itemsBoost4 = isNew ? ['', '', ''] : poolOld.itemsBoost4;
-	poolNew.versionAdded = isNew ? process.argv[2] ?? '3.x' : poolOld.versionAdded;
+	poolNew.versionAdded = isNew ? process.argv[2] ?? '4.x' : poolOld.versionAdded;
 	poolNew.rerun = isNew ? 0 : poolOld.rerun;
 	poolNew.idLeader = isNew ? 0 : poolOld.idLeader ? String(poolOld.idLeader) : undefined;
 	poolNew.$data$locale = {

@@ -2365,6 +2365,187 @@
 		}
 	},
 	{
+		"id": "129",
+		"type": "Cavern",
+		"skills": {
+			"2": {
+				"countRequire": 2,
+				"params": [
+					{
+						"Value": 0.16
+					}
+				],
+				"$data$locale": {
+					"zh-cn": {
+						"desc": "暴击伤害提高<unbreak>#1[i]%</unbreak>。"
+					}
+				}
+			},
+			"4": {
+				"countRequire": 4,
+				"params": [
+					{
+						"Value": 0.1
+					},
+					{
+						"Value": 5
+					},
+					{
+						"Value": 0.01
+					},
+					{
+						"Value": 10
+					}
+				],
+				"$data$locale": {
+					"zh-cn": {
+						"desc": "装备者及其忆灵造成的欢愉伤害无视目标<unbreak>#1[i]%</unbreak>的防御力，我方每累计获得<unbreak>#2[i]</unbreak>点笑点，造成的欢愉伤害额外无视目标<unbreak>#3[i]%</unbreak>的防御力，最多叠加<unbreak>#4[i]</unbreak>层。"
+					}
+				}
+			}
+		},
+		"idsRelic": [
+			{
+				"id": "61291",
+				"type": "HEAD",
+				"$data$locale": {
+					"zh-cn": {
+						"name": "魔法少女的闪耀勋章",
+						"descBG": "魔法少女糖果色的蝴蝶结发卡，犹如一枚闪闪发光的勋章。"
+					}
+				}
+			},
+			{
+				"id": "61292",
+				"type": "HAND",
+				"$data$locale": {
+					"zh-cn": {
+						"name": "魔法少女的守护手套",
+						"descBG": "魔法少女的多功能手套，集娱乐和战斗功能于一体。纯白的双手，呵护着众人的愿。"
+					}
+				}
+			},
+			{
+				"id": "61293",
+				"type": "BODY",
+				"$data$locale": {
+					"zh-cn": {
+						"name": "魔法少女的永舞战裙",
+						"descBG": "定制的多用型作战服，也是能用作打歌服的偶像短裙。舒适、轻便，且不易污浊。"
+					}
+				}
+			},
+			{
+				"id": "61294",
+				"type": "FOOT",
+				"$data$locale": {
+					"zh-cn": {
+						"name": "魔法少女的缔约长靴",
+						"descBG": "抗磨损一流的长靴，真正的约定超越言语，需在行迹中践履。"
+					}
+				}
+			}
+		],
+		"versionAdded": "4.0",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "闪耀功勋的魔法少女"
+			}
+		}
+	},
+	{
+		"id": "130",
+		"type": "Cavern",
+		"skills": {
+			"2": {
+				"countRequire": 2,
+				"params": [
+					{
+						"Value": 0.06
+					}
+				],
+				"$data$locale": {
+					"zh-cn": {
+						"desc": "速度提高<unbreak>#1[i]%</unbreak>。"
+					}
+				}
+			},
+			"4": {
+				"countRequire": 4,
+				"params": [
+					{
+						"Value": 120
+					},
+					{
+						"Value": 160
+					},
+					{
+						"Value": 0.1
+					},
+					{
+						"Value": 0.18
+					},
+					{
+						"Value": 0.1
+					}
+				],
+				"$data$locale": {
+					"zh-cn": {
+						"desc": "进入战斗前，若装备者的速度大于等于<unbreak>#1[i]</unbreak>/<unbreak>#2[i]</unbreak>，使装备者的暴击率提高<unbreak>#3[i]%</unbreak>/<unbreak>#4[i]%</unbreak>。装备者每场战斗首次施放欢愉技时，使我方全体欢愉度提高<unbreak>#5[i]%</unbreak>，该效果无法叠加。"
+					}
+				}
+			}
+		},
+		"idsRelic": [
+			{
+				"id": "61301",
+				"type": "HEAD",
+				"$data$locale": {
+					"zh-cn": {
+						"name": "卜者的演算玉兆",
+						"descBG": "竟天佩戴的外置玉兆。深感人力难穷天命，他以此不休地占望未来。"
+					}
+				}
+			},
+			{
+				"id": "61302",
+				"type": "HAND",
+				"$data$locale": {
+					"zh-cn": {
+						"name": "卜者的机巧义手",
+						"descBG": "于塔拉萨的战场失去一条手臂后，竟天为自己打造的义手——冰冷、精确，一如他的卜算。"
+					}
+				}
+			},
+			{
+				"id": "61303",
+				"type": "BODY",
+				"$data$locale": {
+					"zh-cn": {
+						"name": "卜者的观天星袍",
+						"descBG": "玉阙太卜司的制式道袍，一般适用于隆重的场合。因很少穿着，看起来依然如同全新的一般。"
+					}
+				}
+			},
+			{
+				"id": "61304",
+				"type": "FOOT",
+				"$data$locale": {
+					"zh-cn": {
+						"name": "卜者的飞腾云履",
+						"descBG": "竟天制作的云靴，能助他飞临战场，搜集信息。如今陈列玉阙太卜司中，以示后人。"
+					}
+				}
+			}
+		],
+		"versionAdded": "4.0",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "应天涉远的卜者"
+			}
+		}
+	},
+	{
 		"id": "301",
 		"type": "Planar",
 		"skills": {

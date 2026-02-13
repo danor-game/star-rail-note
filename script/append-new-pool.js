@@ -37,7 +37,7 @@ for(let countPairPool = 1; countPairPool <= countPairPoolMax; countPairPool++) {
 
 		pool.itemsBoost5 = [''];
 		pool.itemsBoost4 = ['', '', ''];
-		pool.versionAdded = String((Number(poolSample.versionAdded) + 0.1).toFixed(1)) ?? process.argv[2] ?? '3.x';
+		pool.versionAdded = String((Number(poolSample.versionAdded) + 0.1).toFixed(1)) ?? process.argv[2] ?? '4.x';
 
 		if(countPairPool > 1) {
 			pool.rerun = 1;

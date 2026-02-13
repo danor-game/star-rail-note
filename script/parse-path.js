@@ -24,7 +24,7 @@ for(const raw of pathsRaw) {
 
 	const path = {
 		id: String(raw.ID),
-		versionAdded: paths.find(meta => meta.id == raw.ID)?.versionAdded ?? process.argv[2] ?? '3.x',
+		versionAdded: paths.find(meta => meta.id == raw.ID)?.versionAdded ?? process.argv[2] ?? '4.x',
 		$data$locale: {
 			'zh-cn': {
 				name: texts$hash[raw.BaseTypeText?.Hash],

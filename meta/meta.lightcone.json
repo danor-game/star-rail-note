@@ -276,6 +276,30 @@
 		}
 	},
 	{
+		"id": "20023",
+		"path": "Elation",
+		"rarity": 3,
+		"versionAdded": "4.0",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "嗤笑",
+				"nameEffect": "纵欢"
+			}
+		}
+	},
+	{
+		"id": "20024",
+		"path": "Elation",
+		"rarity": 3,
+		"versionAdded": "4.0",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "残泪",
+				"nameEffect": "悼念"
+			}
+		}
+	},
+	{
 		"id": "21000",
 		"path": "Priest",
 		"rarity": 4,
@@ -1004,6 +1028,30 @@
 			"zh-cn": {
 				"name": "于那终点再见",
 				"nameEffect": "执着"
+			}
+		}
+	},
+	{
+		"id": "21064",
+		"path": "Elation",
+		"rarity": 4,
+		"versionAdded": "4.0",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "菇菇嘎嘎历险记",
+				"nameEffect": "乱斗"
+			}
+		}
+	},
+	{
+		"id": "21065",
+		"path": "Elation",
+		"rarity": 4,
+		"versionAdded": "4.0",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "今日好手气",
+				"nameEffect": "抉择"
 			}
 		}
 	},
@@ -1770,6 +1818,32 @@
 			"zh-cn": {
 				"name": "爱如此刻永恒",
 				"nameEffect": "约定"
+			}
+		}
+	},
+	{
+		"id": "23053",
+		"path": "Elation",
+		"rarity": 5,
+		"characterBest": "1501",
+		"versionAdded": "4.0",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "花花世界迷人眼",
+				"nameEffect": "瞩目"
+			}
+		}
+	},
+	{
+		"id": "23054",
+		"path": "Elation",
+		"rarity": 5,
+		"characterBest": "1502",
+		"versionAdded": "4.0",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "当她决定看见",
+				"nameEffect": "破局"
 			}
 		}
 	},

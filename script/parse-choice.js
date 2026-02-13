@@ -71,7 +71,7 @@ for(const typeInclination in typesInclination$type) {
 		choices.push(choices$id[idSentence] = {
 			id: idSentence,
 			typeInclination: Number(typeInclination),
-			version: choicesOld.find(choice => choice.id == idSentence)?.version ?? process.argv[2] ?? '3.x',
+			version: choicesOld.find(choice => choice.id == idSentence)?.version ?? process.argv[2] ?? '4.x',
 			text: hashTextSentence in texts$hash ? parseSentenceSlot(texts$hash[hashTextSentence]) : '<!找不到句子文本>',
 			matched: false,
 		});

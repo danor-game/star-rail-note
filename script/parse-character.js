@@ -35,8 +35,8 @@ for(const raw of charactersRaw) {
 		rarity: { CombatPowerAvatarRarityType4: 4, CombatPowerAvatarRarityType5: 5 }[raw.Rarity],
 		gender: characters.find(meta => meta.id == raw.AvatarID)?.gender,
 		arggro: promotionsRaw.find(promotion => promotion.AvatarID == raw.AvatarID)?.BaseAggro?.Value ?? 0,
-		versionAdded: characters.find(meta => meta.id == raw.AvatarID)?.versionAdded ?? process.argv[2] ?? '3.x',
-		versionAvailable: characters.find(meta => meta.id == raw.AvatarID)?.versionAvailable ?? process.argv[2] ?? '3.x',
+		versionAdded: characters.find(meta => meta.id == raw.AvatarID)?.versionAdded ?? process.argv[2] ?? '4.x',
+		versionAvailable: characters.find(meta => meta.id == raw.AvatarID)?.versionAvailable ?? process.argv[2] ?? '4.x',
 		$data$locale: {
 			'zh-cn': {
 				name: texts$hash[raw.AvatarName?.Hash] == '{NICKNAME}' ? '开拓者' : texts$hash[raw.AvatarName?.Hash],
