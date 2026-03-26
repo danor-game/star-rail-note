@@ -1092,6 +1092,20 @@
 		}
 	},
 	{
+		"id": "1504",
+		"element": "Thunder",
+		"path": "Rogue",
+		"rarity": 5,
+		"arggro": 75,
+		"versionAdded": "4.x1",
+		"versionAvailable": "4.1",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "不死途"
+			}
+		}
+	},
+	{
 		"id": "8001",
 		"element": "Physical",
 		"path": "Warrior",

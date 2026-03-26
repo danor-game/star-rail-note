@@ -1848,6 +1848,19 @@
 		}
 	},
 	{
+		"id": "23056",
+		"path": "Rogue",
+		"rarity": 5,
+		"characterBest": "1504",
+		"versionAdded": "4.1",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "一场谎言的终幕",
+				"nameEffect": "吞没"
+			}
+		}
+	},
+	{
 		"id": "24000",
 		"path": "Warrior",
 		"rarity": 5,
@@ -1916,6 +1929,18 @@
 			"zh-cn": {
 				"name": "记忆永不落幕",
 				"nameEffect": "收取"
+			}
+		}
+	},
+	{
+		"id": "24006",
+		"path": "Elation",
+		"rarity": 5,
+		"versionAdded": "4.1",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "欢愉满溢祝福",
+				"nameEffect": "开场"
 			}
 		}
 	}

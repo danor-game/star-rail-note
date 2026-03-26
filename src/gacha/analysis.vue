@@ -177,7 +177,7 @@ const analysisesTypeGachaBaseShown = computed(() => analysisesTypeGachaShown.val
 
 /** @type {import('vue').ComputedRef<import('./analyseGacha.js').GachaPoolAnalysis[]>} */
 const analysisesPoolGachaShown = computed(() => filterPools$options(A.value.pools, 'typePool'));
-	// .sort((a, b) => b.pool.versionAdded - a.pool.versionAdded));
+// .sort((a, b) => b.pool.versionAdded - a.pool.versionAdded));
 
 
 

@@ -3825,5 +3825,117 @@
 				"name": "天国@直播间"
 			}
 		}
+	},
+	{
+		"id": "325",
+		"type": "Planar",
+		"skills": {
+			"2": {
+				"countRequire": 2,
+				"params": [
+					{
+						"Value": 0.08
+					},
+					{
+						"Value": 0.4
+					},
+					{
+						"Value": 0.8
+					},
+					{
+						"Value": 0.2
+					},
+					{
+						"Value": 0.32
+					}
+				],
+				"$data$locale": {
+					"zh-cn": {
+						"desc": "使装备者的欢愉度提高<unbreak>#1[i]%</unbreak>。战斗中欢愉度首次达到<unbreak>#2[i]%</unbreak>/<unbreak>#3[i]%</unbreak>时，使装备者暴击伤害提高<unbreak>#4[i]%</unbreak>/<unbreak>#5[i]%</unbreak>。"
+					}
+				}
+			}
+		},
+		"idsRelic": [
+			{
+				"id": "63255",
+				"type": "NECK",
+				"$data$locale": {
+					"zh-cn": {
+						"name": "朋克洛德的虹霓都市",
+						"descBG": "位面球中封装着朋克洛德的虹霓都市。昼与夜没有分别，虚幻和现实没有边界，生命有如一段闪烁的字节。"
+					}
+				}
+			},
+			{
+				"id": "63256",
+				"type": "OBJECT",
+				"$data$locale": {
+					"zh-cn": {
+						"name": "朋克洛德的数据洪流",
+						"descBG": "信息川流的网络，将骇客们的卡带彼此相连。奔腾的不只有数据，还有骇客的生命。"
+					}
+				}
+			}
+		],
+		"versionAdded": "4.1",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "零号关卡朋克洛德"
+			}
+		}
+	},
+	{
+		"id": "326",
+		"type": "Planar",
+		"skills": {
+			"2": {
+				"countRequire": 2,
+				"params": [
+					{
+						"Value": 0.24
+					},
+					{
+						"Value": 2
+					},
+					{
+						"Value": 0.12
+					}
+				],
+				"$data$locale": {
+					"zh-cn": {
+						"desc": "装备者施放追加攻击时，攻击力提高<unbreak>#1[i]%</unbreak>，持续<unbreak>#2[i]</unbreak>回合。当敌方目标被消灭时，我方全体在本场战斗中暴击伤害提高<unbreak>#3[i]%</unbreak>，该效果无法叠加。"
+					}
+				}
+			}
+		},
+		"idsRelic": [
+			{
+				"id": "63265",
+				"type": "NECK",
+				"$data$locale": {
+					"zh-cn": {
+						"name": "千星城的传媒总部",
+						"descBG": "位面球中封装着「星际和平娱乐」的巨构总部——千星城。这座打造过无数巨星的传媒之都，以极高的工业化水准向寰宇放送各类娱乐产品。"
+					}
+				}
+			},
+			{
+				"id": "63266",
+				"type": "OBJECT",
+				"$data$locale": {
+					"zh-cn": {
+						"name": "千星城的雇员凭证",
+						"descBG": "千星城员工的凭证，标有职级与人员信息。云顶之上与云顶之下，这或许为数不多共享的事物。"
+					}
+				}
+			}
+		],
+		"versionAdded": "4.1",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "千星荟萃之城"
+			}
+		}
 	}
 ]

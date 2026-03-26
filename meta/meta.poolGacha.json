@@ -4839,6 +4839,136 @@
 		}
 	},
 	{
+		"id": "2113",
+		"type": "11",
+		"timeDead": 1776754800,
+		"typeItem": "character",
+		"itemsBoost5": [
+			"1504"
+		],
+		"itemsBoost4": [
+			"1009",
+			"1223",
+			"1312"
+		],
+		"versionAdded": "4.1",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "长夜狩影"
+			}
+		}
+	},
+	{
+		"id": "3113",
+		"type": "12",
+		"timeDead": 1776754800,
+		"typeItem": "lightcone",
+		"itemsBoost5": [
+			"23056"
+		],
+		"itemsBoost4": [
+			"21013",
+			"21047",
+			"21048"
+		],
+		"versionAdded": "4.1",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "流光定影"
+			}
+		}
+	},
+	{
+		"id": "2114",
+		"type": "11",
+		"timeDead": 1775620740,
+		"typeItem": "character",
+		"itemsBoost5": [
+			"1409"
+		],
+		"itemsBoost4": [
+			"1009",
+			"1223",
+			"1312"
+		],
+		"versionAdded": "4.1",
+		"rerun": 2,
+		"idLeader": "2113",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "虹隽晨昏"
+			}
+		}
+	},
+	{
+		"id": "3114",
+		"type": "12",
+		"timeDead": 1775620740,
+		"typeItem": "lightcone",
+		"itemsBoost5": [
+			"23042"
+		],
+		"itemsBoost4": [
+			"21013",
+			"21047",
+			"21048"
+		],
+		"versionAdded": "4.1",
+		"rerun": 2,
+		"idLeader": "3113",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "溯回忆象"
+			}
+		}
+	},
+	{
+		"id": "2115",
+		"type": "11",
+		"timeBorn": 1775620800,
+		"timeDead": 1776754800,
+		"typeItem": "character",
+		"itemsBoost5": [
+			"1315"
+		],
+		"itemsBoost4": [
+			"1009",
+			"1223",
+			"1312"
+		],
+		"versionAdded": "4.1",
+		"rerun": 2,
+		"idLeader": "2113",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "扬尘孤星"
+			}
+		}
+	},
+	{
+		"id": "3115",
+		"type": "12",
+		"timeBorn": 1775620800,
+		"timeDead": 1776754800,
+		"typeItem": "lightcone",
+		"itemsBoost5": [
+			"23027"
+		],
+		"itemsBoost4": [
+			"21013",
+			"21047",
+			"21048"
+		],
+		"versionAdded": "4.1",
+		"rerun": 2,
+		"idLeader": "3113",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "溯回忆象"
+			}
+		}
+	},
+	{
 		"id": "2999",
 		"type": "11",
 		"typeItem": "character",
