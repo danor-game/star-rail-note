@@ -1097,11 +1097,39 @@
 		"path": "Rogue",
 		"rarity": 5,
 		"arggro": 75,
-		"versionAdded": "4.x1",
+		"versionAdded": "4.1",
 		"versionAvailable": "4.1",
 		"$data$locale": {
 			"zh-cn": {
 				"name": "不死途"
+			}
+		}
+	},
+	{
+		"id": "1505",
+		"element": "Physical",
+		"path": "Elation",
+		"rarity": 5,
+		"arggro": 100,
+		"versionAdded": "4.2",
+		"versionAvailable": "4.2",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "绯英"
+			}
+		}
+	},
+	{
+		"id": "1506",
+		"element": "Imaginary",
+		"path": "Elation",
+		"rarity": 5,
+		"arggro": 100,
+		"versionAdded": "4.2",
+		"versionAvailable": "4.2",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "银狼LV.999"
 			}
 		}
 	},
@@ -1219,6 +1247,34 @@
 		"arggro": 100,
 		"versionAdded": "3.0",
 		"versionAvailable": "3.0",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "开拓者"
+			}
+		}
+	},
+	{
+		"id": "8009",
+		"element": "Thunder",
+		"path": "Elation",
+		"rarity": 5,
+		"arggro": 100,
+		"versionAdded": "4.2",
+		"versionAvailable": "4.2",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "开拓者"
+			}
+		}
+	},
+	{
+		"id": "8010",
+		"element": "Thunder",
+		"path": "Elation",
+		"rarity": 5,
+		"arggro": 100,
+		"versionAdded": "4.2",
+		"versionAvailable": "4.2",
 		"$data$locale": {
 			"zh-cn": {
 				"name": "开拓者"

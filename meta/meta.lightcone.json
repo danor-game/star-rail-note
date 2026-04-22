@@ -1140,6 +1140,18 @@
 		}
 	},
 	{
+		"id": "22007",
+		"path": "Elation",
+		"rarity": 4,
+		"versionAdded": "4.2",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "未来，有我们一起",
+				"nameEffect": "同行"
+			}
+		}
+	},
+	{
 		"id": "23000",
 		"path": "Mage",
 		"rarity": 5,
@@ -1857,6 +1869,32 @@
 			"zh-cn": {
 				"name": "一场谎言的终幕",
 				"nameEffect": "吞没"
+			}
+		}
+	},
+	{
+		"id": "23057",
+		"path": "Elation",
+		"rarity": 5,
+		"characterBest": "1506",
+		"versionAdded": "4.2",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "欢迎来到银河城",
+				"nameEffect": "稳赢"
+			}
+		}
+	},
+	{
+		"id": "23058",
+		"path": "Elation",
+		"rarity": 5,
+		"characterBest": "1505",
+		"versionAdded": "4.2",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "邂逅于下一个花季",
+				"nameEffect": "遐想"
 			}
 		}
 	},

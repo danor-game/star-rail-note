@@ -290,6 +290,20 @@
 		"difficulty": {}
 	},
 	{
+		"id": 4015201,
+		"title": "于是，要有笑声",
+		"desc": "开拓者踏上「欢愉」命途",
+		"rarity": "High",
+		"series": 1,
+		"priority": 976,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:4.2",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
 		"id": 4020201,
 		"title": "银河系搭车客指南",
 		"desc": "获得<unbreak>#1[i]</unbreak>名角色",
@@ -2811,6 +2825,111 @@
 		"priority": 845,
 		"tags": [
 			"版本:4.1",
+			"隐藏描述"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4035201,
+		"title": "通勤旅行",
+		"desc": "就没有什么特别的移动方式吗？\\n<color=#8790abff>※搭乘电车去拯救世界</color>",
+		"rarity": "Mid",
+		"series": 3,
+		"descHide": "就没有什么特别的移动方式吗？",
+		"priority": 844,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:4.2",
+			"隐藏描述"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4035202,
+		"title": "裁决者的判词",
+		"desc": "裁决者身份的象征\\n<color=#8790abff>※绯英取回了她的尺刀</color>",
+		"rarity": "Mid",
+		"series": 3,
+		"descHide": "裁决者身份的象征",
+		"priority": 843,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:4.2",
+			"隐藏描述"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4035203,
+		"title": "乐园精神病人",
+		"desc": "没人关心你想什么，直到你决定摧毁世界\\n<color=#8790abff>※踏入满愿心中的「裂缝」。</color>",
+		"rarity": "Mid",
+		"series": 3,
+		"descHide": "没人关心你想什么，直到你决定摧毁世界",
+		"priority": 842,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:4.2",
+			"隐藏描述"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4035204,
+		"title": "娱乐至死",
+		"desc": "要么欢笑，要么去死\\n<color=#8790abff>※目睹幻造瘟疫「乐变化天人」爆发</color>",
+		"rarity": "Mid",
+		"series": 3,
+		"descHide": "要么欢笑，要么去死",
+		"priority": 841,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:4.2",
+			"隐藏描述"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4035205,
+		"title": "银河头号玩家",
+		"desc": "与其被混球夸赞，不如战死在它手中\\n<color=#8790abff>※其实，也没人想战死在混球手里</color>",
+		"rarity": "Mid",
+		"series": 3,
+		"descHide": "与其被混球夸赞，不如战死在它手中",
+		"priority": 840,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:4.2",
+			"隐藏描述"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4035206,
+		"title": "告死魔之死",
+		"desc": "宣告死亡者，死亡亦宣告其名\\n<color=#8790abff>※击败新「告死魔」</color>",
+		"rarity": "Mid",
+		"series": 3,
+		"descHide": "宣告死亡者，死亡亦宣告其名",
+		"priority": 839,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:4.2",
+			"隐藏描述"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4035207,
+		"title": "花信风过",
+		"desc": "她如风花飘然而过\\n<color=#8790abff>※接下绯英的嘱托</color>",
+		"rarity": "Mid",
+		"series": 3,
+		"descHide": "她如风花飘然而过",
+		"priority": 838,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:4.2",
 			"隐藏描述"
 		],
 		"difficulty": {}
@@ -6621,7 +6740,7 @@
 	{
 		"id": 4045038,
 		"title": "乒乓",
-		"desc": "在泊地站「二次元JUMP！」的「Jump时刻」中反复改变重力，让尘灵来回跳动",
+		"desc": "在泊地站的「二次元JUMP！」中反复改变重力，让尘灵来回跳动",
 		"rarity": "Low",
 		"series": 4,
 		"priority": 706,
@@ -7029,6 +7148,233 @@
 		"tags": [
 			"版本:4.1",
 			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4045201,
+		"title": "余生皆假期",
+		"desc": "累计收集#1个「星轨之兔」的无名尘灵",
+		"rarity": "Low",
+		"series": 4,
+		"paramsText": [
+			120
+		],
+		"priority": 672,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:4.2"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4045202,
+		"title": "伽利略的铁球",
+		"desc": "完成电视台顶的「Jump时刻」，从顶层跳至采访大厅",
+		"rarity": "Low",
+		"series": 4,
+		"priority": 671,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:4.2"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4045203,
+		"title": "塔上钢琴师",
+		"desc": "在电视台顶的「Jump时刻」中，拿到所有音符",
+		"rarity": "Low",
+		"series": 4,
+		"priority": 670,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:4.2"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4045204,
+		"title": "并非刺客，不是信条",
+		"desc": "抵达海原电视塔的最高处",
+		"rarity": "Low",
+		"series": 4,
+		"priority": 669,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:4.2"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4045205,
+		"title": "被重力束缚的灵魂",
+		"desc": "在「二次元JUMP！」保持不落地的状态并连续触碰<unbreak>#1[i]</unbreak>次重力线",
+		"rarity": "Low",
+		"series": 4,
+		"paramsText": [
+			10
+		],
+		"priority": 668,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:4.2"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4045206,
+		"title": "保龄球大师",
+		"desc": "在「二次元JUMP！」用机械小帮手撞飞刺猬灵或者飘浮灵",
+		"rarity": "Low",
+		"series": 4,
+		"priority": 667,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:4.2"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4045207,
+		"title": "为你的眼眸干杯",
+		"desc": "在海原电视塔的「二次元JUMP！」中完成调饮关卡",
+		"rarity": "Low",
+		"series": 4,
+		"priority": 666,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:4.2"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4045208,
+		"title": "海的那边是邻居",
+		"desc": "在「二次元JUMP！」中抵达海对岸的居民区",
+		"rarity": "Low",
+		"series": 4,
+		"priority": 665,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:4.2"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4045209,
+		"title": "奥菲斯的弦歌",
+		"desc": "在「二次元JUMP！」中吹奏乐曲，驱散神秘小岛上的迷雾",
+		"rarity": "Low",
+		"series": 4,
+		"priority": 664,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:4.2"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4045210,
+		"title": "划水就是上班",
+		"desc": "在「二次元JUMP！」中搭乘机械小帮手滑行水面",
+		"rarity": "Low",
+		"series": 4,
+		"priority": 663,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:4.2"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4045211,
+		"title": "不可承受之重",
+		"desc": "在「二次元JUMP！」中被汪墩墩或皮皮豚挤压导致游戏失败",
+		"rarity": "Low",
+		"series": 4,
+		"priority": 662,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:4.2"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4045212,
+		"title": "夺岛奇兵",
+		"desc": "在海原市「二次元JUMP！」的影子竞速赛中最先登顶神秘小岛",
+		"rarity": "Low",
+		"series": 4,
+		"priority": 661,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:4.2"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4045213,
+		"title": "回旋镖",
+		"desc": "在「二次元JUMP！」射出弓箭，命中自己",
+		"rarity": "Low",
+		"series": 4,
+		"priority": 660,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:4.2"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4045214,
+		"title": "终极驾驶机器",
+		"desc": "在「二次元JUMP！」搭乘小帮手通过刺状障碍物",
+		"rarity": "Low",
+		"series": 4,
+		"priority": 659,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:4.2"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4045215,
+		"title": "小帮手，进化！",
+		"desc": "在「二次元JUMP！」解锁机械小帮手专属能力",
+		"rarity": "Low",
+		"series": 4,
+		"priority": 658,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:4.2"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4045216,
+		"title": "乐园变奏：圆球公主",
+		"desc": "演奏奇异乐章，找到藏在海原电视塔的迷之生物",
+		"rarity": "Low",
+		"series": 4,
+		"priority": 657,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:4.2"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4045217,
+		"title": "乐园变奏：水豚之歌",
+		"desc": "演奏奇异乐章，找到藏在海原市的迷之生物",
+		"rarity": "Low",
+		"series": 4,
+		"priority": 656,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:4.2"
 		],
 		"difficulty": {}
 	},
@@ -12322,7 +12668,7 @@
 	{
 		"id": 4053704,
 		"title": "蓦然回首",
-		"desc": "在自己的房间中观赏所有藏品",
+		"desc": "在收藏展柜的「纪念手办」区布设#1个纪念品",
 		"rarity": "Low",
 		"series": 5,
 		"priority": 611,
@@ -12330,7 +12676,10 @@
 			"版本:2.7",
 			"隐藏成就"
 		],
-		"difficulty": {}
+		"difficulty": {},
+		"paramsText": [
+			5
+		]
 	},
 	{
 		"id": 4053705,
@@ -16097,7 +16446,7 @@
 	{
 		"id": 4055109,
 		"title": "三军听令！",
-		"desc": "在「整军强化」中解锁了所有能力",
+		"desc": "在「整备强化」中解锁了所有能力",
 		"rarity": "Low",
 		"series": 5,
 		"priority": 320,
@@ -16115,6 +16464,314 @@
 		"priority": 319,
 		"tags": [
 			"版本:4.1"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4055201,
+		"title": "虽远必诛",
+		"desc": "将杀害斯科特的凶手交给仙舟联盟\\n<color=#8790abff>※希望她能习惯幽囚狱的伙食</color>",
+		"rarity": "Low",
+		"series": 5,
+		"descHide": "将杀害斯科特的凶手交给仙舟联盟",
+		"priority": 318,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:4.2",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4055202,
+		"title": "属地原则",
+		"desc": "将杀害斯科特的凶手交给战略投资部\\n<color=#8790abff>※就像什么都没发生过一样</color>",
+		"rarity": "Low",
+		"series": 5,
+		"descHide": "将杀害斯科特的凶手交给战略投资部",
+		"priority": 317,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:4.2",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4055203,
+		"title": "江湖恩怨",
+		"desc": "将杀害斯科特的凶手交给公义\\n<color=#8790abff>※「她要是不体面，你就帮她体面。」</color>",
+		"rarity": "Low",
+		"series": 5,
+		"descHide": "将杀害斯科特的凶手交给公义",
+		"priority": 316,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:4.2",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4055204,
+		"title": "未知记忆",
+		"desc": "完成水上列车站台的调查",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 315,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:4.2",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4055205,
+		"title": "逆模因部不存在",
+		"desc": "调查电视台仓库里的电脑",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 314,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:4.2",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4055206,
+		"title": "何为英雄",
+		"desc": "在电视台与灰烬战士重逢",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 313,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:4.2",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4055207,
+		"title": "演员的自我修养",
+		"desc": "完成噗噜一家的初见对话",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 312,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:4.2",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4055208,
+		"title": "所以爱会消失对吗",
+		"desc": "聆听路人为逃避见家长而编造的借口",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 311,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:4.2",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4055212,
+		"title": "九子夺嫡时代",
+		"desc": "咱们真是越来越狸丁兴旺了哩！\\n<color=#8790abff>※《狸狸周刊》正式拥有了#1名常驻狸猫记者</color>",
+		"rarity": "Low",
+		"series": 5,
+		"paramsText": [
+			9
+		],
+		"priority": 307,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:4.2"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4055213,
+		"title": "世界中的另一个我",
+		"desc": "在联机派对车厢中，与其他开拓者相遇",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 306,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:4.2"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4055214,
+		"title": "开拓车友会",
+		"desc": "拜访#1位其他开拓者的联机派对车厢",
+		"rarity": "Low",
+		"series": 5,
+		"paramsText": [
+			5
+		],
+		"priority": 305,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:4.2"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4055215,
+		"title": "喵喵咪咪「开拓」令使",
+		"desc": "获得「阿基喵利」的馈赠",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 304,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:4.2"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4055216,
+		"title": "派对猎手",
+		"desc": "从派对车厢里的每处躲藏点都抓到过造物",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 303,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:4.2"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4055217,
+		"title": "最后的晚餐",
+		"desc": "在造物布设区摆放#1只相同造物",
+		"rarity": "Low",
+		"series": 5,
+		"paramsText": [
+			13
+		],
+		"priority": 302,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:4.2"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4055218,
+		"title": "博物学家",
+		"desc": "集齐「造物观察记录」中的#1只造物",
+		"rarity": "Low",
+		"series": 5,
+		"paramsText": [
+			27
+		],
+		"priority": 301,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:4.2"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4055220,
+		"title": "好彩骰！好彩头！",
+		"desc": "在银河战力党玩法中，累计收集「扩展包•2」中的#1个曜彩骰",
+		"rarity": "Low",
+		"series": 5,
+		"paramsText": [
+			6
+		],
+		"priority": 299,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:4.2"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4055221,
+		"title": "你的骰子很想来我家",
+		"desc": "在「又上骰了！战力党！」中，累计交换骰子#1次",
+		"rarity": "Low",
+		"series": 5,
+		"paramsText": [
+			42
+		],
+		"priority": 298,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:4.2"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4055222,
+		"title": "一键三连",
+		"desc": "在「又上骰了！战力党！」中，一回合内连续使用#1张战术卡",
+		"rarity": "Low",
+		"series": 5,
+		"paramsText": [
+			3
+		],
+		"priority": 297,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:4.2"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4055223,
+		"title": "伤害超大杯",
+		"desc": "在「又上骰了！战力党！」中，一回合内造成#1点伤害",
+		"rarity": "Low",
+		"series": 5,
+		"paramsText": [
+			30
+		],
+		"priority": 296,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:4.2"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4055224,
+		"title": "《狸狸周刊》向前冲",
+		"desc": "在「又上骰了！战力党！」中，代表《狸狸周刊》击败海原市商业街排行榜前五名：「海原五杰」",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 295,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:4.2"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4055225,
+		"title": "银河第一骰",
+		"desc": "在「又上骰了！战力党！」中，完成与银狼LV.<unbreak>999</unbreak>的最终对决",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 294,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:4.2"
 		],
 		"difficulty": {}
 	},
@@ -20803,6 +21460,23 @@
 		"difficulty": {}
 	},
 	{
+		"id": 4075015,
+		"title": "喜人奇妙日",
+		"desc": "在上场#1名欢愉命途角色的情况下获得战斗胜利",
+		"rarity": "Low",
+		"series": 7,
+		"paramsText": [
+			4
+		],
+		"priority": 700,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:4.2",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
 		"id": 4075101,
 		"title": "三个火枪手",
 		"desc": "使用同时包含不死途、乱破、波提欧的队伍获得<unbreak>#1[i]</unbreak>场战斗的胜利",
@@ -20901,6 +21575,164 @@
 		"priority": 708,
 		"tags": [
 			"版本:4.1"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4075201,
+		"title": "谁都别板着脸",
+		"desc": "单场战斗中，使用「欢愉」命途开拓者累计对#1名不同队友各施放过一次终结技",
+		"rarity": "Low",
+		"series": 7,
+		"paramsText": [
+			4
+		],
+		"priority": 707,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:4.2",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4075202,
+		"title": "感谢打赏",
+		"desc": "单次战斗中，使用「欢愉」命途开拓者对火花累计施放#1次终结技",
+		"rarity": "Low",
+		"series": 7,
+		"paramsText": [
+			5
+		],
+		"priority": 706,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:4.2",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4075203,
+		"title": "众筹五百强",
+		"desc": "单场战斗中，绯英通过天赋【青春•韶华无限】从其他队友身上获得【好活当赏】的总数超过#1",
+		"rarity": "Low",
+		"series": 7,
+		"paramsText": [
+			500
+		],
+		"priority": 705,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:4.2",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4075204,
+		"title": "好活不怕多",
+		"desc": "使用我方角色绯英在【好活当赏】数量达到#1的情况下施放终结技",
+		"rarity": "Low",
+		"series": 7,
+		"paramsText": [
+			999
+		],
+		"priority": 704,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:4.2",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4075205,
+		"title": "别闹了，卡芙卡女士",
+		"desc": "触发银狼LV.<unbreak>999</unbreak>的【<unbreak>999</unbreak>安全卫士】，解除「星核猎手•卡芙卡」施加的【支配】状态",
+		"rarity": "Low",
+		"series": 7,
+		"priority": 703,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:4.2",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4075206,
+		"title": "装备列表",
+		"desc": "单个回合中，队友触发了银狼LV.<unbreak>999</unbreak>的#1种不同的【头号补给盲盒】",
+		"rarity": "Low",
+		"series": 7,
+		"paramsText": [
+			3
+		],
+		"priority": 702,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:4.2",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4075207,
+		"title": "金融街之狼",
+		"desc": "使用银狼LV.<unbreak>999</unbreak>的秘技【朋友，这才是T0级秘技】一次性吃到#1枚金币",
+		"rarity": "Low",
+		"series": 7,
+		"paramsText": [
+			8
+		],
+		"priority": 701,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:4.2",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4075208,
+		"title": "生化危机",
+		"desc": "在与「极乐颠倒·邪愿莲华主」的战斗中，我方角色被转化为【幸福傀儡】后造成【会心一击】击败了任意目标",
+		"rarity": "Low",
+		"series": 7,
+		"priority": 699,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:4.2"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4075209,
+		"title": "SAN值全满",
+		"desc": "在与「极乐颠倒·邪愿莲华主」的战斗中，没有角色因为触发【幸福】被转化为【幸福傀儡】",
+		"rarity": "Low",
+		"series": 7,
+		"priority": 698,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:4.2"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4075210,
+		"title": "乐子的终结",
+		"desc": "在与「乐变化天人」的战斗中，单次攻击同时消灭#1个及以上的「乐变化天人•终」",
+		"rarity": "Low",
+		"series": 7,
+		"paramsText": [
+			4
+		],
+		"priority": 697,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:4.2"
 		],
 		"difficulty": {}
 	},

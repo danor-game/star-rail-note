@@ -38,9 +38,6 @@ export default defineConfig(({ mode }) => {
 				}
 			}
 		},
-		optimizeDeps: {
-			esbuildOptions: { target: 'esnext' }
-		},
 		publicDir: resolve(dirPackage, 'src', 'public'),
 		clearScreen: false,
 		server: {
