@@ -296,7 +296,6 @@
 		"rarity": "High",
 		"series": 1,
 		"priority": 976,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:4.2",
 			"隐藏成就"
@@ -2837,7 +2836,6 @@
 		"series": 3,
 		"descHide": "就没有什么特别的移动方式吗？",
 		"priority": 844,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:4.2",
 			"隐藏描述"
@@ -2852,7 +2850,6 @@
 		"series": 3,
 		"descHide": "裁决者身份的象征",
 		"priority": 843,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:4.2",
 			"隐藏描述"
@@ -2867,7 +2864,6 @@
 		"series": 3,
 		"descHide": "没人关心你想什么，直到你决定摧毁世界",
 		"priority": 842,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:4.2",
 			"隐藏描述"
@@ -2882,7 +2878,6 @@
 		"series": 3,
 		"descHide": "要么欢笑，要么去死",
 		"priority": 841,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:4.2",
 			"隐藏描述"
@@ -2897,7 +2892,6 @@
 		"series": 3,
 		"descHide": "与其被混球夸赞，不如战死在它手中",
 		"priority": 840,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:4.2",
 			"隐藏描述"
@@ -2912,7 +2906,6 @@
 		"series": 3,
 		"descHide": "宣告死亡者，死亡亦宣告其名",
 		"priority": 839,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:4.2",
 			"隐藏描述"
@@ -2927,7 +2920,6 @@
 		"series": 3,
 		"descHide": "她如风花飘然而过",
 		"priority": 838,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:4.2",
 			"隐藏描述"
@@ -7161,7 +7153,6 @@
 			120
 		],
 		"priority": 672,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:4.2"
 		],
@@ -7174,7 +7165,6 @@
 		"rarity": "Low",
 		"series": 4,
 		"priority": 671,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:4.2"
 		],
@@ -7187,7 +7177,6 @@
 		"rarity": "Low",
 		"series": 4,
 		"priority": 670,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:4.2"
 		],
@@ -7200,7 +7189,6 @@
 		"rarity": "Low",
 		"series": 4,
 		"priority": 669,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:4.2"
 		],
@@ -7216,7 +7204,6 @@
 			10
 		],
 		"priority": 668,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:4.2"
 		],
@@ -7229,7 +7216,6 @@
 		"rarity": "Low",
 		"series": 4,
 		"priority": 667,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:4.2"
 		],
@@ -7242,7 +7228,6 @@
 		"rarity": "Low",
 		"series": 4,
 		"priority": 666,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:4.2"
 		],
@@ -7255,7 +7240,6 @@
 		"rarity": "Low",
 		"series": 4,
 		"priority": 665,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:4.2"
 		],
@@ -7268,7 +7252,6 @@
 		"rarity": "Low",
 		"series": 4,
 		"priority": 664,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:4.2"
 		],
@@ -7281,7 +7264,6 @@
 		"rarity": "Low",
 		"series": 4,
 		"priority": 663,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:4.2"
 		],
@@ -7294,7 +7276,6 @@
 		"rarity": "Low",
 		"series": 4,
 		"priority": 662,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:4.2"
 		],
@@ -7307,7 +7288,6 @@
 		"rarity": "Low",
 		"series": 4,
 		"priority": 661,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:4.2"
 		],
@@ -7320,7 +7300,6 @@
 		"rarity": "Low",
 		"series": 4,
 		"priority": 660,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:4.2"
 		],
@@ -7333,7 +7312,6 @@
 		"rarity": "Low",
 		"series": 4,
 		"priority": 659,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:4.2"
 		],
@@ -7346,7 +7324,6 @@
 		"rarity": "Low",
 		"series": 4,
 		"priority": 658,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:4.2"
 		],
@@ -7359,7 +7336,6 @@
 		"rarity": "Low",
 		"series": 4,
 		"priority": 657,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:4.2"
 		],
@@ -7372,7 +7348,6 @@
 		"rarity": "Low",
 		"series": 4,
 		"priority": 656,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:4.2"
 		],
@@ -16475,7 +16450,10 @@
 		"series": 5,
 		"descHide": "将杀害斯科特的凶手交给仙舟联盟",
 		"priority": 318,
-		"idsAchievementExclusive": [],
+		"idsAchievementExclusive": [
+			4055202,
+			4055203
+		],
 		"tags": [
 			"版本:4.2",
 			"隐藏成就"
@@ -16490,7 +16468,10 @@
 		"series": 5,
 		"descHide": "将杀害斯科特的凶手交给战略投资部",
 		"priority": 317,
-		"idsAchievementExclusive": [],
+		"idsAchievementExclusive": [
+			4055201,
+			4055203
+		],
 		"tags": [
 			"版本:4.2",
 			"隐藏成就"
@@ -16505,7 +16486,10 @@
 		"series": 5,
 		"descHide": "将杀害斯科特的凶手交给公义",
 		"priority": 316,
-		"idsAchievementExclusive": [],
+		"idsAchievementExclusive": [
+			4055201,
+			4055202
+		],
 		"tags": [
 			"版本:4.2",
 			"隐藏成就"
@@ -16519,7 +16503,6 @@
 		"rarity": "Low",
 		"series": 5,
 		"priority": 315,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:4.2",
 			"隐藏成就"
@@ -16533,7 +16516,6 @@
 		"rarity": "Low",
 		"series": 5,
 		"priority": 314,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:4.2",
 			"隐藏成就"
@@ -16547,7 +16529,6 @@
 		"rarity": "Low",
 		"series": 5,
 		"priority": 313,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:4.2",
 			"隐藏成就"
@@ -16561,7 +16542,6 @@
 		"rarity": "Low",
 		"series": 5,
 		"priority": 312,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:4.2",
 			"隐藏成就"
@@ -16575,7 +16555,6 @@
 		"rarity": "Low",
 		"series": 5,
 		"priority": 311,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:4.2",
 			"隐藏成就"
@@ -16592,7 +16571,6 @@
 			9
 		],
 		"priority": 307,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:4.2"
 		],
@@ -16605,7 +16583,6 @@
 		"rarity": "Low",
 		"series": 5,
 		"priority": 306,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:4.2"
 		],
@@ -16621,7 +16598,6 @@
 			5
 		],
 		"priority": 305,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:4.2"
 		],
@@ -16634,7 +16610,6 @@
 		"rarity": "Low",
 		"series": 5,
 		"priority": 304,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:4.2"
 		],
@@ -16647,7 +16622,6 @@
 		"rarity": "Low",
 		"series": 5,
 		"priority": 303,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:4.2"
 		],
@@ -16663,7 +16637,6 @@
 			13
 		],
 		"priority": 302,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:4.2"
 		],
@@ -16679,7 +16652,6 @@
 			27
 		],
 		"priority": 301,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:4.2"
 		],
@@ -16695,7 +16667,6 @@
 			6
 		],
 		"priority": 299,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:4.2"
 		],
@@ -16711,7 +16682,6 @@
 			42
 		],
 		"priority": 298,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:4.2"
 		],
@@ -16727,7 +16697,6 @@
 			3
 		],
 		"priority": 297,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:4.2"
 		],
@@ -16743,7 +16712,6 @@
 			30
 		],
 		"priority": 296,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:4.2"
 		],
@@ -16756,7 +16724,6 @@
 		"rarity": "Low",
 		"series": 5,
 		"priority": 295,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:4.2"
 		],
@@ -16769,7 +16736,6 @@
 		"rarity": "Low",
 		"series": 5,
 		"priority": 294,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:4.2"
 		],
@@ -21469,7 +21435,6 @@
 			4
 		],
 		"priority": 700,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:4.2",
 			"隐藏成就"
@@ -21588,7 +21553,6 @@
 			4
 		],
 		"priority": 707,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:4.2",
 			"隐藏成就"
@@ -21605,7 +21569,6 @@
 			5
 		],
 		"priority": 706,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:4.2",
 			"隐藏成就"
@@ -21622,7 +21585,6 @@
 			500
 		],
 		"priority": 705,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:4.2",
 			"隐藏成就"
@@ -21639,7 +21601,6 @@
 			999
 		],
 		"priority": 704,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:4.2",
 			"隐藏成就"
@@ -21653,7 +21614,6 @@
 		"rarity": "Low",
 		"series": 7,
 		"priority": 703,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:4.2",
 			"隐藏成就"
@@ -21670,7 +21630,6 @@
 			3
 		],
 		"priority": 702,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:4.2",
 			"隐藏成就"
@@ -21687,7 +21646,6 @@
 			8
 		],
 		"priority": 701,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:4.2",
 			"隐藏成就"
@@ -21701,7 +21659,6 @@
 		"rarity": "Low",
 		"series": 7,
 		"priority": 699,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:4.2"
 		],
@@ -21714,7 +21671,6 @@
 		"rarity": "Low",
 		"series": 7,
 		"priority": 698,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:4.2"
 		],
@@ -21730,7 +21686,6 @@
 			4
 		],
 		"priority": 697,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:4.2"
 		],
