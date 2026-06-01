@@ -5321,6 +5321,180 @@
 		}
 	},
 	{
+		"id": "2124",
+		"type": "11",
+		"timeDead": 1782273540,
+		"typeItem": "character",
+		"itemsBoost5": [
+			"1507"
+		],
+		"itemsBoost4": [
+			"1108",
+			"1111",
+			"1202"
+		],
+		"versionAdded": "4.3",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "我身即刃"
+			}
+		}
+	},
+	{
+		"id": "3124",
+		"type": "12",
+		"timeDead": 1782273540,
+		"typeItem": "lightcone",
+		"itemsBoost5": [
+			"23059"
+		],
+		"itemsBoost4": [
+			"21001",
+			"21002",
+			"21005"
+		],
+		"versionAdded": "4.3",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "流光定影"
+			}
+		}
+	},
+	{
+		"id": "2125",
+		"type": "11",
+		"timeDead": 1782273540,
+		"typeItem": "character",
+		"itemsBoost5": [
+			"1502"
+		],
+		"itemsBoost4": [
+			"1108",
+			"1111",
+			"1202"
+		],
+		"versionAdded": "4.3",
+		"rerun": 1,
+		"idLeader": "2124",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "光映千翎"
+			}
+		}
+	},
+	{
+		"id": "3125",
+		"type": "12",
+		"timeDead": 1782273540,
+		"typeItem": "lightcone",
+		"itemsBoost5": [
+			"23054"
+		],
+		"itemsBoost4": [
+			"21001",
+			"21002",
+			"21005"
+		],
+		"versionAdded": "4.3",
+		"rerun": 1,
+		"idLeader": "3124",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "溯回忆象"
+			}
+		}
+	},
+	{
+		"id": "2126",
+		"type": "11",
+		"timeBorn": 1782273600,
+		"timeDead": 1784012400,
+		"typeItem": "character",
+		"itemsBoost5": [
+			"1415"
+		],
+		"itemsBoost4": [
+			"1001",
+			"1008",
+			"1207"
+		],
+		"versionAdded": "4.3",
+		"rerun": 1,
+		"$data$locale": {
+			"zh-cn": {
+				"name": "涟漪回环"
+			}
+		}
+	},
+	{
+		"id": "3126",
+		"type": "12",
+		"timeBorn": 1782273600,
+		"timeDead": 1784012400,
+		"typeItem": "lightcone",
+		"itemsBoost5": [
+			"23052"
+		],
+		"itemsBoost4": [
+			"21012",
+			"21017",
+			"21018"
+		],
+		"versionAdded": "4.3",
+		"rerun": 1,
+		"$data$locale": {
+			"zh-cn": {
+				"name": "溯回忆象"
+			}
+		}
+	},
+	{
+		"id": "2127",
+		"type": "11",
+		"timeBorn": 1782273600,
+		"timeDead": 1784012400,
+		"typeItem": "character",
+		"itemsBoost5": [
+			"1408"
+		],
+		"itemsBoost4": [
+			"1001",
+			"1008",
+			"1207"
+		],
+		"versionAdded": "4.3",
+		"rerun": 1,
+		"idLeader": "2126",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "永劫燔阳"
+			}
+		}
+	},
+	{
+		"id": "3127",
+		"type": "12",
+		"timeBorn": 1782273600,
+		"timeDead": 1784012400,
+		"typeItem": "lightcone",
+		"itemsBoost5": [
+			"23044"
+		],
+		"itemsBoost4": [
+			"21012",
+			"21017",
+			"21018"
+		],
+		"versionAdded": "4.3",
+		"rerun": 1,
+		"idLeader": "3126",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "溯回忆象"
+			}
+		}
+	},
+	{
 		"id": "2999",
 		"type": "11",
 		"typeItem": "character",

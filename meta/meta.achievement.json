@@ -2927,6 +2927,81 @@
 		"difficulty": {}
 	},
 	{
+		"id": 4035301,
+		"title": "禁忌推理",
+		"desc": "推理要在碰杯之后\\n<color=#8790abff>※前往「酒馆」调查关于归寂存在的线索</color>",
+		"rarity": "Mid",
+		"series": 3,
+		"descHide": "推理要在碰杯之后",
+		"priority": 837,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:4.3",
+			"隐藏描述"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4035302,
+		"title": "点亮旧日的灯火",
+		"desc": "出来打雪仗哟！\\n<color=#8790abff>※以过去的约定方式唤来绘世</color>",
+		"rarity": "Mid",
+		"series": 3,
+		"descHide": "出来打雪仗哟！",
+		"priority": 836,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:4.3",
+			"隐藏描述"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4035303,
+		"title": "驻足彼岸一刻",
+		"desc": "跳下去吧，融化在那片蓝洞里\\n<color=#8790abff>※目睹刃前往画中世界的尽头</color>",
+		"rarity": "Mid",
+		"series": 3,
+		"descHide": "跳下去吧，融化在那片蓝洞里",
+		"priority": 835,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:4.3",
+			"隐藏描述"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4035304,
+		"title": "刃之为物",
+		"desc": "何物为刃？何物消磨自身，撕碎敌雠？\\n<color=#8790abff>※刃得到了他的答案</color>",
+		"rarity": "Mid",
+		"series": 3,
+		"descHide": "何物为刃？何物消磨自身，撕碎敌雠？",
+		"priority": 834,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:4.3",
+			"隐藏描述"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4035305,
+		"title": "归于空寂的玩笑",
+		"desc": "解释笑话，是最恶劣的行为\\n<color=#8790abff>※目睹归寂揭晓自己的真面目</color>",
+		"rarity": "Mid",
+		"series": 3,
+		"descHide": "解释笑话，是最恶劣的行为",
+		"priority": 833,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:4.3",
+			"隐藏描述"
+		],
+		"difficulty": {}
+	},
+	{
 		"id": 4040101,
 		"title": "角色扮演游戏里合法",
 		"desc": "开启<unbreak>#1[i]</unbreak>次空间站「黑塔」战利品",
@@ -6475,7 +6550,7 @@
 	{
 		"id": 4045018,
 		"title": "好朋友的秘密基地",
-		"desc": "进去玩具琴中的秘密空间",
+		"desc": "进入玩具琴中的秘密空间",
 		"rarity": "Low",
 		"series": 4,
 		"priority": 726,
@@ -7150,7 +7225,7 @@
 		"rarity": "Low",
 		"series": 4,
 		"paramsText": [
-			120
+			110
 		],
 		"priority": 672,
 		"tags": [
@@ -7350,6 +7425,97 @@
 		"priority": 656,
 		"tags": [
 			"版本:4.2"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4045301,
+		"title": "孤高之人",
+		"desc": "完成渡画泉隐的「Jump时刻」",
+		"rarity": "Low",
+		"series": 4,
+		"priority": 655,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:4.3"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4045302,
+		"title": "躲避刺客",
+		"desc": "在不被刺猬灵碰到的情况下通关渡画泉隐的「Jump时刻」",
+		"rarity": "Low",
+		"series": 4,
+		"priority": 654,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:4.3"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4045303,
+		"title": "最后的冰霜巨人",
+		"desc": "击晕卡斯佩",
+		"rarity": "Low",
+		"series": 4,
+		"priority": 653,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:4.3"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4045304,
+		"title": "雪国",
+		"desc": "在「二次元JUMP！」和卡斯佩打雪仗时，找到城堡中的隐藏宝箱",
+		"rarity": "Low",
+		"series": 4,
+		"priority": 652,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:4.3"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4045305,
+		"title": "欢迎来到蒸汽平台",
+		"desc": "在渡画泉隐的雪地温泉里泡澡",
+		"rarity": "Low",
+		"series": 4,
+		"priority": 651,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:4.3"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4045306,
+		"title": "无头骑士逸闻录",
+		"desc": "踢飞渡画泉隐所有「平平无奇的雪人」的头",
+		"rarity": "Low",
+		"series": 4,
+		"priority": 650,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:4.3"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4045307,
+		"title": "乐园变奏：雪孩子",
+		"desc": "演奏奇异乐章，找到藏在渡画泉隐的迷之生物",
+		"rarity": "Low",
+		"series": 4,
+		"priority": 649,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:4.3"
 		],
 		"difficulty": {}
 	},
@@ -9327,7 +9493,7 @@
 	{
 		"id": 4052803,
 		"title": "你好，新世界！",
-		"desc": "在「罗浮杂俎」网站上收获#1[m]粉丝",
+		"desc": "在「罗浮杂俎」网站上收获<unbreak>#1[m]</unbreak>粉丝",
 		"rarity": "Mid",
 		"series": 5,
 		"paramsText": [
@@ -16742,6 +16908,171 @@
 		"difficulty": {}
 	},
 	{
+		"id": 4055301,
+		"title": "出发！星穹巴士！",
+		"desc": "向虚照了解《幻月新游戏》的故事",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 293,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:4.3",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4055302,
+		"title": "无尽传说",
+		"desc": "支持《星轨之兔》继续研发",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 292,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:4.3",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4055303,
+		"title": "从此，它幸福直到永远…",
+		"desc": "反对《星轨之兔》继续研发",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 291,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:4.3",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4055304,
+		"title": "画界的守护者",
+		"desc": "在渡画泉隐的法阵中召唤出「绘世」",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 290,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:4.3",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4055305,
+		"title": "高精力人士",
+		"desc": "在鸽川区和渡画泉隐两度遇见暗布雷拉，并与其对话",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 289,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:4.3",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4055306,
+		"title": "银杏树之恋",
+		"desc": "在车站前见证两位路人依依惜别",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 288,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:4.3",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4055307,
+		"title": "最终决战兵器",
+		"desc": "在「像素飞机大乱斗」中，首次将一个核心装备升到三星",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 287,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:4.3"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4055308,
+		"title": "续火花之歌",
+		"desc": "在「像素飞机大乱斗」中，使用「赛道魔术」击败火花",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 286,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:4.3"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4055309,
+		"title": "蓝天之下的约定",
+		"desc": "在「像素飞机大乱斗」中，解锁全部像素飞机",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 285,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:4.3"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4055310,
+		"title": "王牌空战",
+		"desc": "在「像素飞机大乱斗」中，在没有生命损失的情况下赢得巅峰对决",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 284,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:4.3"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4055311,
+		"title": "毕业套",
+		"desc": "在「像素飞机大乱斗」中，在单局内同时拥有#1个三星级装备",
+		"rarity": "Low",
+		"series": 5,
+		"paramsText": [
+			7
+		],
+		"priority": 283,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:4.3"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4055312,
+		"title": "全机型制霸",
+		"desc": "在「像素飞机大乱斗」中，使用每一架飞机赢得过比赛",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 282,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:4.3"
+		],
+		"difficulty": {}
+	},
+	{
 		"id": 4060101,
 		"title": "影逝百度（一）",
 		"desc": "击败<unbreak>#1[i]</unbreak>次凝滞虚影",
@@ -21546,7 +21877,7 @@
 	{
 		"id": 4075201,
 		"title": "谁都别板着脸",
-		"desc": "单场战斗中，使用「欢愉」命途开拓者累计对#1名不同队友各施放过一次终结技",
+		"desc": "单场战斗中，使用「欢愉」命途开拓者累计对#1名不同角色各施放过一次终结技",
 		"rarity": "Low",
 		"series": 7,
 		"paramsText": [
@@ -21562,7 +21893,7 @@
 	{
 		"id": 4075202,
 		"title": "感谢打赏",
-		"desc": "单次战斗中，使用「欢愉」命途开拓者对火花累计施放#1次终结技",
+		"desc": "单场战斗中，使用「欢愉」命途开拓者对火花累计施放#1次终结技",
 		"rarity": "Low",
 		"series": 7,
 		"paramsText": [
@@ -21688,6 +22019,83 @@
 		"priority": 697,
 		"tags": [
 			"版本:4.2"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4075301,
+		"title": "炉火不熄，百炼成兵",
+		"desc": "战斗胜利时，千冶•刃的剩余生命值为#1",
+		"rarity": "Low",
+		"series": 7,
+		"paramsText": [
+			1
+		],
+		"priority": 696,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:4.3",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4075302,
+		"title": "刀声剑声打铁声，声声入耳",
+		"desc": "单个回合中，使用我方角色千冶•刃施放#1次【刃下，归葬】",
+		"rarity": "Low",
+		"series": 7,
+		"paramsText": [
+			4
+		],
+		"priority": 695,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:4.3",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4075303,
+		"title": "炎炎消防队长",
+		"desc": "在与「始作画者，无量塔绘世」的战斗中，在自身生命值较低且灭火成功率最低的情况下选择【扑灭火焰】，并成功解除【怨火灼身】状态",
+		"rarity": "Low",
+		"series": 7,
+		"priority": 693,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:4.3"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4075304,
+		"title": "肠胃清道夫",
+		"desc": "在与「吞神子嗣」的战斗中，使用我方攻击力最高的角色解除【吞噬】状态并获得额外攻击力加成",
+		"rarity": "Low",
+		"series": 7,
+		"priority": 692,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:4.3"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4075305,
+		"title": "万劫不复",
+		"desc": "使用我方角色千冶•刃，在单次【无量忿怒】持续期间施放#1次【千冶铸一，万劫烬灭】",
+		"rarity": "Low",
+		"series": 7,
+		"paramsText": [
+			6
+		],
+		"priority": 694,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:4.3",
+			"隐藏成就"
 		],
 		"difficulty": {}
 	},
@@ -22788,6 +23196,19 @@
 		"tags": [
 			"版本:4.0",
 			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4085301,
+		"title": "你想堆雪人吗",
+		"desc": "在「二次元JUMP！」中，被冻进冰块里",
+		"rarity": "Low",
+		"series": 8,
+		"priority": 900,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:4.3"
 		],
 		"difficulty": {}
 	},

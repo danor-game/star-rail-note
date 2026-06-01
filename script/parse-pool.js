@@ -40,7 +40,7 @@ for(const raw of poolsRaw) {
 	poolNew.itemsBoost4 = isNew ? ['', '', ''] : poolOld.itemsBoost4;
 	poolNew.versionAdded = isNew ? process.argv[2] ?? '4.x' : poolOld.versionAdded;
 	poolNew.rerun = isNew ? 0 : poolOld.rerun;
-	poolNew.idLeader = isNew ? 0 : poolOld.idLeader ? String(poolOld.idLeader) : undefined;
+	poolNew.idLeader = isNew ? '' : poolOld.idLeader ? String(poolOld.idLeader) : undefined;
 	poolNew.$data$locale = {
 		'zh-cn': {
 			name: texts$hash[raw.PoolName?.Hash]?.split('•')[0].trim() ?? poolOld?.$data$locale?.['zh-cn']?.name ?? `未知标题<${raw.PoolName?.Hash}>`,

@@ -1134,6 +1134,20 @@
 		}
 	},
 	{
+		"id": "1507",
+		"element": "Fire",
+		"path": "Warlock",
+		"rarity": 5,
+		"arggro": 100,
+		"versionAdded": "4.3",
+		"versionAvailable": "4.3",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "千冶•刃"
+			}
+		}
+	},
+	{
 		"id": "8001",
 		"element": "Physical",
 		"path": "Warrior",

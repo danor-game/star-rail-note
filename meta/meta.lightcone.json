@@ -1899,6 +1899,19 @@
 		}
 	},
 	{
+		"id": "23059",
+		"path": "Warlock",
+		"rarity": 5,
+		"characterBest": "1507",
+		"versionAdded": "4.3",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "灼尽炼狱的新骸",
+				"nameEffect": "淬炼"
+			}
+		}
+	},
+	{
 		"id": "24000",
 		"path": "Warrior",
 		"rarity": 5,

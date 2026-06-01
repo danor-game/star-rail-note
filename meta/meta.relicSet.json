@@ -2546,6 +2546,178 @@
 		}
 	},
 	{
+		"id": "131",
+		"type": "Cavern",
+		"skills": {
+			"2": {
+				"countRequire": 2,
+				"params": [
+					{
+						"Value": 0.12
+					}
+				],
+				"$data$locale": {
+					"zh-cn": {
+						"desc": "攻击力提高<unbreak>#1[i]%</unbreak>。"
+					}
+				}
+			},
+			"4": {
+				"countRequire": 4,
+				"params": [
+					{
+						"Value": 0.18
+					},
+					{
+						"Value": 3
+					},
+					{
+						"Value": 1
+					}
+				],
+				"$data$locale": {
+					"zh-cn": {
+						"desc": "装备者进入战斗时/施放战技时，使战技和终结技造成的伤害提高<unbreak>#1[i]%</unbreak>，最多叠加<unbreak>#2[i]</unbreak>层，装备者回合开始时/施放终结技后，移除<unbreak>#3[i]</unbreak>层该效果。"
+					}
+				}
+			}
+		},
+		"idsRelic": [
+			{
+				"id": "61311",
+				"type": "HEAD",
+				"$data$locale": {
+					"zh-cn": {
+						"name": "领航员的深空之镜",
+						"descBG": "领航员精心打造的望远镜，他见证过生命诞生于荒芜的星尘，也目睹了毁灭自彼方升起。"
+					}
+				}
+			},
+			{
+				"id": "61312",
+				"type": "HAND",
+				"$data$locale": {
+					"zh-cn": {
+						"name": "领航员的游戏之骰",
+						"descBG": "领航员的骰子戒指，每一次转动都会给出有趣的谜题。他似乎和很多人玩过游戏，有些人赢了，有些人则就此不知所踪。"
+					}
+				}
+			},
+			{
+				"id": "61313",
+				"type": "BODY",
+				"$data$locale": {
+					"zh-cn": {
+						"name": "领航员的星图制服",
+						"descBG": "领航员制服的暗纹里，细密地绣着星穹列车曾驶过的浩瀚星图。每一条金线的延伸，都代表着一段航程。"
+					}
+				}
+			},
+			{
+				"id": "61314",
+				"type": "FOOT",
+				"$data$locale": {
+					"zh-cn": {
+						"name": "领航员的永行魔靴",
+						"descBG": "领航员的特制皮靴，据传拥有特殊的魔力，会把人带往所有不欢迎他的地方。"
+					}
+				}
+			}
+		],
+		"versionAdded": "4.3",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "星如我见的领航员"
+			}
+		}
+	},
+	{
+		"id": "132",
+		"type": "Cavern",
+		"skills": {
+			"2": {
+				"countRequire": 2,
+				"params": [
+					{
+						"Value": 0.12
+					}
+				],
+				"$data$locale": {
+					"zh-cn": {
+						"desc": "生命上限提高<unbreak>#1[i]%</unbreak>。"
+					}
+				}
+			},
+			"4": {
+				"countRequire": 4,
+				"params": [
+					{
+						"Value": 0.28
+					},
+					{
+						"Value": 2
+					},
+					{
+						"Value": 0.15
+					}
+				],
+				"$data$locale": {
+					"zh-cn": {
+						"desc": "装备者对防御力降低状态的敌方目标造成的暴击伤害提高<unbreak>#1[i]%</unbreak>。装备者对敌方目标施加防御力降低状态后，使我方全体获得【助燃】，持续<unbreak>#2[i]</unbreak>回合，该效果无法叠加，持有【助燃】的我方目标造成的伤害提高<unbreak>#3[i]%</unbreak>。该效果在装备者施放攻击后可再次触发。"
+					}
+				}
+			}
+		},
+		"idsRelic": [
+			{
+				"id": "61321",
+				"type": "HEAD",
+				"$data$locale": {
+					"zh-cn": {
+						"name": "名冶的火兽面罩",
+						"descBG": "朱明匠人锻器的面罩，以火兽的形象设计而成。额处嵌有火晶，可保护工匠免受炽气和幻象侵灼。"
+					}
+				}
+			},
+			{
+				"id": "61322",
+				"type": "HAND",
+				"$data$locale": {
+					"zh-cn": {
+						"name": "名冶的镔铁护手",
+						"descBG": "朱明匠人的多功能护手，可在锻打时辅助发力。冷铁与焰纹相融，既取刚坚不摧之质，亦含驯火成锋之意。"
+					}
+				}
+			},
+			{
+				"id": "61323",
+				"type": "BODY",
+				"$data$locale": {
+					"zh-cn": {
+						"name": "名冶的辟火匠衫",
+						"descBG": "以火浣锦织就的匠衫，穿着者即使伫立洪炉畔，周身犹可存寸尺清凉。"
+					}
+				}
+			},
+			{
+				"id": "61324",
+				"type": "FOOT",
+				"$data$locale": {
+					"zh-cn": {
+						"name": "名冶的无拘重靴",
+						"descBG": "为对抗朱明核心的超大重力场，匠人们打造出带有反冲悬浮装置的重靴，藉此自如行动。"
+					}
+				}
+			}
+		],
+		"versionAdded": "4.3",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "叩问天工的名冶"
+			}
+		}
+	},
+	{
 		"id": "301",
 		"type": "Planar",
 		"skills": {
@@ -3926,7 +4098,7 @@
 				"$data$locale": {
 					"zh-cn": {
 						"name": "千星城的雇员凭证",
-						"descBG": "千星城员工的凭证，标有职级与人员信息。云顶之上与云顶之下，这或许为数不多共享的事物。"
+						"descBG": "千星城员工的凭证，标有职级与人员信息。云顶之上与云顶之下，这或许是为数不多共享的事物。"
 					}
 				}
 			}
