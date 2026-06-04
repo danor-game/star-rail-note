@@ -2934,7 +2934,6 @@
 		"series": 3,
 		"descHide": "推理要在碰杯之后",
 		"priority": 837,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:4.3",
 			"隐藏描述"
@@ -2949,7 +2948,6 @@
 		"series": 3,
 		"descHide": "出来打雪仗哟！",
 		"priority": 836,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:4.3",
 			"隐藏描述"
@@ -2964,7 +2962,6 @@
 		"series": 3,
 		"descHide": "跳下去吧，融化在那片蓝洞里",
 		"priority": 835,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:4.3",
 			"隐藏描述"
@@ -2979,7 +2976,6 @@
 		"series": 3,
 		"descHide": "何物为刃？何物消磨自身，撕碎敌雠？",
 		"priority": 834,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:4.3",
 			"隐藏描述"
@@ -2994,7 +2990,6 @@
 		"series": 3,
 		"descHide": "解释笑话，是最恶劣的行为",
 		"priority": 833,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:4.3",
 			"隐藏描述"
@@ -7435,7 +7430,6 @@
 		"rarity": "Low",
 		"series": 4,
 		"priority": 655,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:4.3"
 		],
@@ -7448,7 +7442,6 @@
 		"rarity": "Low",
 		"series": 4,
 		"priority": 654,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:4.3"
 		],
@@ -7461,7 +7454,6 @@
 		"rarity": "Low",
 		"series": 4,
 		"priority": 653,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:4.3"
 		],
@@ -7474,7 +7466,6 @@
 		"rarity": "Low",
 		"series": 4,
 		"priority": 652,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:4.3"
 		],
@@ -7487,7 +7478,6 @@
 		"rarity": "Low",
 		"series": 4,
 		"priority": 651,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:4.3"
 		],
@@ -7500,7 +7490,6 @@
 		"rarity": "Low",
 		"series": 4,
 		"priority": 650,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:4.3"
 		],
@@ -7513,7 +7502,6 @@
 		"rarity": "Low",
 		"series": 4,
 		"priority": 649,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:4.3"
 		],
@@ -16914,7 +16902,6 @@
 		"rarity": "Low",
 		"series": 5,
 		"priority": 293,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:4.3",
 			"隐藏成就"
@@ -16928,7 +16915,9 @@
 		"rarity": "Low",
 		"series": 5,
 		"priority": 292,
-		"idsAchievementExclusive": [],
+		"idsAchievementExclusive": [
+			4055303
+		],
 		"tags": [
 			"版本:4.3",
 			"隐藏成就"
@@ -16942,7 +16931,9 @@
 		"rarity": "Low",
 		"series": 5,
 		"priority": 291,
-		"idsAchievementExclusive": [],
+		"idsAchievementExclusive": [
+			4055302
+		],
 		"tags": [
 			"版本:4.3",
 			"隐藏成就"
@@ -16956,7 +16947,6 @@
 		"rarity": "Low",
 		"series": 5,
 		"priority": 290,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:4.3",
 			"隐藏成就"
@@ -16970,7 +16960,6 @@
 		"rarity": "Low",
 		"series": 5,
 		"priority": 289,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:4.3",
 			"隐藏成就"
@@ -16984,7 +16973,6 @@
 		"rarity": "Low",
 		"series": 5,
 		"priority": 288,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:4.3",
 			"隐藏成就"
@@ -16998,7 +16986,6 @@
 		"rarity": "Low",
 		"series": 5,
 		"priority": 287,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:4.3"
 		],
@@ -17011,7 +16998,6 @@
 		"rarity": "Low",
 		"series": 5,
 		"priority": 286,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:4.3"
 		],
@@ -17024,7 +17010,6 @@
 		"rarity": "Low",
 		"series": 5,
 		"priority": 285,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:4.3"
 		],
@@ -17037,7 +17022,6 @@
 		"rarity": "Low",
 		"series": 5,
 		"priority": 284,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:4.3"
 		],
@@ -17053,7 +17037,6 @@
 			7
 		],
 		"priority": 283,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:4.3"
 		],
@@ -17066,7 +17049,6 @@
 		"rarity": "Low",
 		"series": 5,
 		"priority": 282,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:4.3"
 		],
@@ -22032,7 +22014,6 @@
 			1
 		],
 		"priority": 696,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:4.3",
 			"隐藏成就"
@@ -22049,7 +22030,6 @@
 			4
 		],
 		"priority": 695,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:4.3",
 			"隐藏成就"
@@ -22063,7 +22043,6 @@
 		"rarity": "Low",
 		"series": 7,
 		"priority": 693,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:4.3"
 		],
@@ -22076,7 +22055,6 @@
 		"rarity": "Low",
 		"series": 7,
 		"priority": 692,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:4.3"
 		],
@@ -22092,7 +22070,6 @@
 			6
 		],
 		"priority": 694,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:4.3",
 			"隐藏成就"
@@ -23206,7 +23183,6 @@
 		"rarity": "Low",
 		"series": 8,
 		"priority": 900,
-		"idsAchievementExclusive": [],
 		"tags": [
 			"版本:4.3"
 		],
