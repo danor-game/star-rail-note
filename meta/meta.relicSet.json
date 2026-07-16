@@ -4109,5 +4109,108 @@
 				"name": "千星荟萃之城"
 			}
 		}
+	},
+	{
+		"id": "327",
+		"type": "Planar",
+		"skills": {
+			"2": {
+				"countRequire": 2,
+				"params": [
+					{
+						"Value": 0.08
+					},
+					{
+						"Value": 0.32
+					}
+				],
+				"$data$locale": {
+					"zh-cn": {
+						"desc": "使装备者的暴击率提高<unbreak>#1[i]%</unbreak>。进入战斗时，若装备者与另一名队友均为开拓同行角色，使装备者的暴击伤害提高<unbreak>#2[i]%</unbreak>。"
+					}
+				}
+			}
+		},
+		"idsRelic": [
+			{
+				"id": "63275",
+				"type": "NECK",
+				"$data$locale": {
+					"zh-cn": {
+						"name": "启航地的搁浅列车",
+						"descBG": "位面球中封装着曾坠落在此的星穹列车。沉默的星空，冷寂的引擎，一段战火交织的开拓之旅。"
+					}
+				}
+			},
+			{
+				"id": "63276",
+				"type": "OBJECT",
+				"$data$locale": {
+					"zh-cn": {
+						"name": "启航地的梦想银轨",
+						"descBG": "少女仰望星空，绘出梦想中的银河星轨，希冀有朝一日自己也能去往无垠的未来。"
+					}
+				}
+			}
+		],
+		"versionAdded": "4.4",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "坠星启航地"
+			}
+		}
+	},
+	{
+		"id": "328",
+		"type": "Planar",
+		"skills": {
+			"2": {
+				"countRequire": 2,
+				"params": [
+					{
+						"Value": 200
+					},
+					{
+						"Value": 0.0019999999
+					},
+					{
+						"Value": 0.32
+					}
+				],
+				"$data$locale": {
+					"zh-cn": {
+						"desc": "进入战斗时，若装备者能量上限大于等于<unbreak>#1[i]</unbreak>点，每超过1点使装备者造成的伤害提高<unbreak>#2[f1]%</unbreak>，最多提高<unbreak>#3[i]%</unbreak>。"
+					}
+				}
+			}
+		},
+		"idsRelic": [
+			{
+				"id": "63285",
+				"type": "NECK",
+				"$data$locale": {
+					"zh-cn": {
+						"name": "生研院的中心突触",
+						"descBG": "位面球中封装着生命科学研究院的核心区域，研究员如同神经网络中的节点，不断在工业化流程中产出灵感与回馈。"
+					}
+				}
+			},
+			{
+				"id": "63286",
+				"type": "OBJECT",
+				"$data$locale": {
+					"zh-cn": {
+						"name": "生研院的外周管线",
+						"descBG": "批量生产人造生命的管线，流水线履带轻轻摇晃，总有造物将它误认作母亲与摇篮。"
+					}
+				}
+			}
+		],
+		"versionAdded": "4.4",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "寰宇生研院"
+			}
+		}
 	}
 ]

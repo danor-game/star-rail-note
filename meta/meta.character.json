@@ -1148,6 +1148,48 @@
 		}
 	},
 	{
+		"id": "1508",
+		"element": "Quantum",
+		"path": "Mage",
+		"rarity": 5,
+		"arggro": 75,
+		"versionAdded": "4.4",
+		"versionAvailable": "4.4",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "远坂凛"
+			}
+		}
+	},
+	{
+		"id": "1509",
+		"element": "Thunder",
+		"path": "Warrior",
+		"rarity": 5,
+		"arggro": 125,
+		"versionAdded": "4.4",
+		"versionAvailable": "4.4",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "吉尔伽美什"
+			}
+		}
+	},
+	{
+		"id": "1510",
+		"element": "Fire",
+		"path": "Mage",
+		"rarity": 5,
+		"arggro": 75,
+		"versionAdded": "4.4",
+		"versionAvailable": "4.4",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "姬子•启行"
+			}
+		}
+	},
+	{
 		"id": "8001",
 		"element": "Physical",
 		"path": "Warrior",

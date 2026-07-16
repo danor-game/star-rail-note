@@ -1912,6 +1912,45 @@
 		}
 	},
 	{
+		"id": "23060",
+		"path": "Mage",
+		"rarity": 5,
+		"characterBest": "1510",
+		"versionAdded": "4.4",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "当一颗星照亮夜空",
+				"nameEffect": "初愿"
+			}
+		}
+	},
+	{
+		"id": "23061",
+		"path": "Mage",
+		"rarity": 5,
+		"characterBest": "1508",
+		"versionAdded": "4.4",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "星火悄然闪耀",
+				"nameEffect": "萌芽"
+			}
+		}
+	},
+	{
+		"id": "23062",
+		"path": "Warrior",
+		"rarity": 5,
+		"characterBest": "1509",
+		"versionAdded": "4.4",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "所见即我",
+				"nameEffect": "随心"
+			}
+		}
+	},
+	{
 		"id": "24000",
 		"path": "Warrior",
 		"rarity": 5,
