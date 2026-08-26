@@ -45,6 +45,15 @@
 		}
 	},
 	{
+		"id": "11512",
+		"versionAdded": "4.5",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "晴空乐手"
+			}
+		}
+	},
+	{
 		"id": "18007",
 		"versionAdded": "3.0",
 		"$data$locale": {

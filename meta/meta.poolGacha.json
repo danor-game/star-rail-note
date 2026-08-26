@@ -5869,6 +5869,178 @@
 		}
 	},
 	{
+		"id": "2135",
+		"type": "11",
+		"timeDead": 1789185540,
+		"typeItem": "character",
+		"itemsBoost5": [
+			"1512"
+		],
+		"itemsBoost4": [
+			"1002",
+			"1201",
+			"1301"
+		],
+		"versionAdded": "4.5",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "晴音和鸣"
+			}
+		}
+	},
+	{
+		"id": "3135",
+		"type": "12",
+		"timeDead": 1789185540,
+		"typeItem": "lightcone",
+		"itemsBoost5": [
+			"23063"
+		],
+		"itemsBoost4": [
+			"21048",
+			"21051",
+			"21066"
+		],
+		"versionAdded": "4.5",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "流光定影"
+			}
+		}
+	},
+	{
+		"id": "2136",
+		"type": "11",
+		"timeDead": 1789185540,
+		"typeItem": "character",
+		"itemsBoost5": [
+			"1409"
+		],
+		"itemsBoost4": [
+			"1002",
+			"1201",
+			"1301"
+		],
+		"versionAdded": "4.5",
+		"rerun": 3,
+		"idLeader": "2135",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "虹隽晨昏"
+			}
+		}
+	},
+	{
+		"id": "3136",
+		"type": "12",
+		"timeDead": 1789185540,
+		"typeItem": "lightcone",
+		"itemsBoost5": [
+			"23042"
+		],
+		"itemsBoost4": [
+			"21048",
+			"21051",
+			"21066"
+		],
+		"versionAdded": "4.5",
+		"rerun": 3,
+		"idLeader": "3135",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "溯回忆象"
+			}
+		}
+	},
+	{
+		"id": "2137",
+		"type": "11",
+		"timeBorn": 1789185600,
+		"timeDead": 1790539140,
+		"typeItem": "character",
+		"itemsBoost5": [
+			"1513"
+		],
+		"itemsBoost4": [
+			"1108",
+			"1109",
+			"1210"
+		],
+		"versionAdded": "4.5",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "激浪跃金"
+			}
+		}
+	},
+	{
+		"id": "3137",
+		"type": "12",
+		"timeBorn": 1789185600,
+		"timeDead": 1790539140,
+		"typeItem": "lightcone",
+		"itemsBoost5": [
+			"23064"
+		],
+		"itemsBoost4": [
+			"21003",
+			"21014",
+			"21054"
+		],
+		"versionAdded": "4.5",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "流光定影"
+			}
+		}
+	},
+	{
+		"id": "2138",
+		"type": "11",
+		"timeBorn": 1789185600,
+		"timeDead": 1790539140,
+		"typeItem": "character",
+		"itemsBoost5": [
+			"1504"
+		],
+		"itemsBoost4": [
+			"1108",
+			"1109",
+			"1210"
+		],
+		"versionAdded": "4.5",
+		"rerun": 1,
+		"idLeader": "2137",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "长夜狩影"
+			}
+		}
+	},
+	{
+		"id": "3138",
+		"type": "12",
+		"timeBorn": 1789185600,
+		"timeDead": 1790539140,
+		"typeItem": "lightcone",
+		"itemsBoost5": [
+			"23056"
+		],
+		"itemsBoost4": [
+			"21003",
+			"21014",
+			"21054"
+		],
+		"versionAdded": "4.5",
+		"rerun": 1,
+		"idLeader": "3137",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "溯回忆象"
+			}
+		}
+	},
+	{
 		"id": "2999",
 		"type": "11",
 		"typeItem": "character",

@@ -3175,6 +3175,141 @@
 		"difficulty": {}
 	},
 	{
+		"id": 4035501,
+		"title": "千星城首富",
+		"desc": "先完成一个小目标\\n<color=#8790abff>※人可以在极端愤怒的情况下，一天花掉<unbreak>88</unbreak>亿信用点</color>",
+		"rarity": "Low",
+		"series": 3,
+		"descHide": "先完成一个小目标",
+		"priority": 8259,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:4.5",
+			"隐藏描述"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4035502,
+		"title": "后室",
+		"desc": "假如你不小心在错误的地方从现实中切出…\\n<color=#8790abff>※坠入审片室——不剪完片子就不许离开的房间</color>",
+		"rarity": "Low",
+		"series": 3,
+		"descHide": "假如你不小心在错误的地方从现实中切出…",
+		"priority": 8258,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:4.5",
+			"隐藏描述"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4035503,
+		"title": "1 VS <unbreak>20</unbreak>亿",
+		"desc": "最后的大逆转机会！\\n<color=#8790abff>※知更鸟接受了挑战，她的对手将是大禽<unbreak>20</unbreak>亿粉丝</color>",
+		"rarity": "Low",
+		"series": 3,
+		"descHide": "最后的大逆转机会！",
+		"priority": 8257,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:4.5",
+			"隐藏描述"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4035504,
+		"title": "悠长假期",
+		"desc": "所有人都是冠军，或者所有人都不是冠军\\n<color=#8790abff>※你们赢下了挑战，还给星穹列车买下了天价车险</color>",
+		"rarity": "Low",
+		"series": 3,
+		"descHide": "所有人都是冠军，或者所有人都不是冠军",
+		"priority": 8256,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:4.5",
+			"隐藏描述"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4035505,
+		"title": "跃向千星",
+		"desc": "星穹列车，启动！\\n<color=#8790abff>※跃迁去往千星城</color>",
+		"rarity": "Low",
+		"series": 3,
+		"descHide": "星穹列车，启动！",
+		"priority": 8255,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:4.5",
+			"隐藏描述"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4035506,
+		"title": "重版出来！",
+		"desc": "在哪儿都别忘了，搞个最佳头条！\\n<color=#8790abff>※于千星城建立《狸狸周刊》分部</color>",
+		"rarity": "Low",
+		"series": 3,
+		"descHide": "在哪儿都别忘了，搞个最佳头条！",
+		"priority": 8254,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:4.5",
+			"隐藏描述"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4035507,
+		"title": "开拓者不掷骰子",
+		"desc": "你们所有人都应该庆幸，代理领航员不掷骰子\\n<color=#8790abff>※向所有人展示归寂的骰子，然后仁慈地收起它</color>",
+		"rarity": "Low",
+		"series": 3,
+		"descHide": "你们所有人都应该庆幸，代理领航员不掷骰子",
+		"priority": 8253,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:4.5",
+			"隐藏描述"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4035508,
+		"title": "第二次入画",
+		"desc": "琥珀垂眸，画界重现\\n<color=#8790abff>※时隔千年，二相乐园再度被封存</color>",
+		"rarity": "Low",
+		"series": 3,
+		"descHide": "琥珀垂眸，画界重现",
+		"priority": 8252,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:4.5",
+			"隐藏描述"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4035509,
+		"title": "啊哈！阿哈？",
+		"desc": "所以你这家伙到底是谁啊！\\n<color=#8790abff>※本来想用普通人的身份和你们相处…现在，我摊牌了</color>",
+		"rarity": "Low",
+		"series": 3,
+		"descHide": "所以你这家伙到底是谁啊！",
+		"priority": 8251,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:4.5",
+			"隐藏描述"
+		],
+		"difficulty": {}
+	},
+	{
 		"id": 4040101,
 		"title": "角色扮演游戏里合法",
 		"desc": "开启<unbreak>#1[i]</unbreak>次空间站「黑塔」战利品",
@@ -7847,6 +7982,294 @@
 		"priority": 6440,
 		"tags": [
 			"版本:4.4"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4045501,
+		"title": "星际特工：千星之城",
+		"desc": "开启#1次千星城战利品",
+		"rarity": "Low",
+		"series": 4,
+		"paramsText": [
+			70
+		],
+		"priority": 6395,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:4.5"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4045502,
+		"title": "琥珀中的足迹",
+		"desc": "你见证了自己被收藏在时空连续体中的足迹",
+		"rarity": "Low",
+		"series": 4,
+		"priority": 6394,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:4.5"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4045503,
+		"title": "出门在外，学会做菜",
+		"desc": "你进入了在田先生仿制的幻造书中，并拿到隐藏的书页",
+		"rarity": "Low",
+		"series": 4,
+		"priority": 6393,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:4.5"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4045504,
+		"title": "夏日友晴歌",
+		"desc": "完成千星城的「Jump时刻」",
+		"rarity": "Low",
+		"series": 4,
+		"priority": 6392,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:4.5"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4045505,
+		"title": "节奏的天国与地牢",
+		"desc": "在千星城的「Jump时刻」拿到所有的音符",
+		"rarity": "Low",
+		"series": 4,
+		"priority": 6391,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:4.5"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4045506,
+		"title": "乐园变奏：云朵工厂",
+		"desc": "演奏奇异乐章，找到藏在千星城中心城区的迷之生物",
+		"rarity": "Low",
+		"series": 4,
+		"priority": 6390,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:4.5"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4045507,
+		"title": "乐园变奏：狐狸与葡萄",
+		"desc": "演奏奇异乐章，找到藏在指针塔的迷之生物",
+		"rarity": "Low",
+		"series": 4,
+		"priority": 6389,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:4.5"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4045508,
+		"title": "阳光侠客，倒转千星",
+		"desc": "在二相乐园和千星城累计收集#1个金色尘灵",
+		"rarity": "Low",
+		"series": 4,
+		"paramsText": [
+			180
+		],
+		"priority": 6388,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:4.5"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4045509,
+		"title": "放…放生了？",
+		"desc": "将沙滩排球踢到海里，再也拿不回来",
+		"rarity": "Low",
+		"series": 4,
+		"priority": 6387,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:4.5"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4045510,
+		"title": "跳帮作战",
+		"desc": "在「二次元JUMP！」中连续触碰#1个及以上的冲刺球",
+		"rarity": "Low",
+		"series": 4,
+		"paramsText": [
+			6
+		],
+		"priority": 6386,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:4.5"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4045511,
+		"title": "火箭飞拳",
+		"desc": "在「二次元JUMP！」中使用升级后的冲刺能力撞飞怪物",
+		"rarity": "Low",
+		"series": 4,
+		"priority": 6385,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:4.5"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4045512,
+		"title": "星空清理者",
+		"desc": "在「二次元JUMP！」中使用冲刺能力撞碎易碎模块",
+		"rarity": "Low",
+		"series": 4,
+		"priority": 6384,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:4.5"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4045513,
+		"title": "循此苦旅，直抵工位",
+		"desc": "初次搭乘接驳车，从千星城抵达指针塔",
+		"rarity": "Low",
+		"series": 4,
+		"priority": 6383,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:4.5"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4045514,
+		"title": "切入",
+		"desc": "通过环形工位的秘密通道，抵达神秘的后室",
+		"rarity": "Low",
+		"series": 4,
+		"priority": 6382,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:4.5"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4045515,
+		"title": "此心安处",
+		"desc": "在后室中见证一位受困者的末路",
+		"rarity": "Low",
+		"series": 4,
+		"priority": 6381,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:4.5"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4045516,
+		"title": "劲道Q弹的我",
+		"desc": "在「二次元JUMP！」中，于两个冲刺球间来回弹跳#1秒以上",
+		"rarity": "Low",
+		"series": 4,
+		"paramsText": [
+			6
+		],
+		"priority": 6380,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:4.5"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4045517,
+		"title": "太空军校生",
+		"desc": "在「二次元JUMP！」中，使用冲刺击飞#1个及以上的刺猬和飘浮灵，且中途没有落地",
+		"rarity": "Low",
+		"series": 4,
+		"paramsText": [
+			5
+		],
+		"priority": 6379,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:4.5"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4045518,
+		"title": "今天又不用██梦打赢了…",
+		"desc": "不使用长按冲刺，完成「二次元JUMP！」的冲刺训练",
+		"rarity": "Low",
+		"series": 4,
+		"priority": 6378,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:4.5"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4045519,
+		"title": "闪避刺客",
+		"desc": "在「二次元JUMP！」中，使用冲刺技能打断冲刺球的冲刺，并回到原本的冲刺球",
+		"rarity": "Low",
+		"series": 4,
+		"priority": 6377,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:4.5"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4045520,
+		"title": "超越时间之影",
+		"desc": "在千星城「二次元JUMP！」的影子竞速赛中取得第一名",
+		"rarity": "Low",
+		"series": 4,
+		"priority": 6376,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:4.5"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4045521,
+		"title": "飞行冠军",
+		"desc": "在「二次元JUMP！」中完成「千星城特技飞行大奖赛」",
+		"rarity": "Low",
+		"series": 4,
+		"priority": 6375,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:4.5"
 		],
 		"difficulty": {}
 	},
@@ -17635,6 +18058,244 @@
 		"difficulty": {}
 	},
 	{
+		"id": 4055501,
+		"title": "You and I, We Like Durians",
+		"desc": "旁观千星城海滩上的「另类」带货直播",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 2727,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:4.5"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4055502,
+		"title": "莫愁前路无知己",
+		"desc": "在千星城与四位故人重逢\\n<color=#8790abff>※维利特、明曦、塔米拉、波波特…你还记得这些人吗？</color>",
+		"rarity": "Low",
+		"series": 5,
+		"descHide": "在千星城与四位故人重逢",
+		"priority": 2726,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:4.5",
+			"隐藏描述"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4055503,
+		"title": "天下谁人不识君",
+		"desc": "与叽米和卡美丽聊聊天吧",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 2725,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:4.5"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4055504,
+		"title": "成名要趁早",
+		"desc": "如果有一个成为巨星的机会，你愿意为此付出多少？\\n<color=#8790abff>※见证一位银幕新星的诞生</color>",
+		"rarity": "Low",
+		"series": 5,
+		"descHide": "如果有一个成为巨星的机会，你愿意为此付出多少？",
+		"priority": 2724,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:4.5",
+			"隐藏描述"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4055505,
+		"title": "欢迎来到活死人的世界",
+		"desc": "工作，死亡，然后，继续工作\\n<color=#8790abff>※见证斯科特与老友的爱恨情仇</color>",
+		"rarity": "Low",
+		"series": 5,
+		"descHide": "工作，死亡，然后，继续工作",
+		"priority": 2723,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:4.5",
+			"隐藏描述"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4055506,
+		"title": "只是一名侦探",
+		"desc": "泥土能捏塑偶像，虚伪亦成就公义\\n<color=#8790abff>※解开鲍勃十五世的失踪之谜</color>",
+		"rarity": "Low",
+		"series": 5,
+		"descHide": "泥土能捏塑偶像，虚伪亦成就公义",
+		"priority": 2722,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:4.5",
+			"隐藏描述"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4055507,
+		"title": "致循环往复的美好日子",
+		"desc": "放任幽灵与侦探的故事自然发展",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 2721,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:4.5",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4055508,
+		"title": "爱爱爱不完",
+		"desc": "推选爱死王成为新一任的鸡窝头侦探",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 2720,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:4.5",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4055509,
+		"title": "滚滚银河东逝水",
+		"desc": "报复幽灵们的背叛，令幽灵界天下三分",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 2719,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:4.5",
+			"隐藏成就"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4055510,
+		"title": "沙雕英雄传",
+		"desc": "打碎任意一个沙雕城堡",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 2718,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:4.5"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4055511,
+		"title": "日常生活中的自我呈现",
+		"desc": "阅读任何一块「人设工牌」",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 2717,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:4.5"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4055512,
+		"title": "还真有",
+		"desc": "你瞧？叽米我没唬你吧？哈哈，哈…话说，参观也参观完了，这钱…能还给我了不？…没这系统？",
+		"rarity": "Mid",
+		"series": 5,
+		"priority": 2716,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:4.5"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4055513,
+		"title": "终于知道谁在买了",
+		"desc": "获得任意一个千星城特产文创纪念品",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 2715,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:4.5"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4055514,
+		"title": "银河杯：狂飙飞车",
+		"desc": "在「超限：狂飙大奖赛」中获得银河杯冠军",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 2714,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:4.5"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4055515,
+		"title": "左前胎、左后胎、右前胎、右后胎和千斤顶",
+		"desc": "在「超限：狂飙大奖赛」中进行#1次研发行动",
+		"rarity": "Low",
+		"series": 5,
+		"paramsText": [
+			9
+		],
+		"priority": 2713,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:4.5"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4055516,
+		"title": "车祸模拟器",
+		"desc": "在「超限：狂飙大奖赛」中累计击飞#1辆对手车辆",
+		"rarity": "Low",
+		"series": 5,
+		"paramsText": [
+			20
+		],
+		"priority": 2712,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:4.5"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4055517,
+		"title": "千星城车神",
+		"desc": "在「超限：狂飙大奖赛」中任意圈速挑战中，成功打破赛道记录",
+		"rarity": "Low",
+		"series": 5,
+		"priority": 2711,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:4.5"
+		],
+		"difficulty": {}
+	},
+	{
 		"id": 4060101,
 		"title": "影逝百度（一）",
 		"desc": "击败<unbreak>#1[i]</unbreak>次凝滞虚影",
@@ -22822,6 +23483,71 @@
 		"priority": 6440,
 		"tags": [
 			"版本:4.4"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4075501,
+		"title": "你不当讲！",
+		"desc": "在与「灯塔」的战斗中，通过攻击解除其【除恶】状态",
+		"rarity": "Low",
+		"series": 7,
+		"priority": 6433,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:4.5"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4075502,
+		"title": "POV：一起去KTV但你哥坚决不唱",
+		"desc": "单场战斗中，使用我方角色知更鸟•晴歌的晴空乐手，对「齐响诗班」神主日造成最后一击",
+		"rarity": "Low",
+		"series": 7,
+		"priority": 6432,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:4.5"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4075503,
+		"title": "THIS IS IT",
+		"desc": "单场战斗中，知更鸟•晴歌拥有的气氛值达到上限",
+		"rarity": "Low",
+		"series": 7,
+		"priority": 6431,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:4.5"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4075504,
+		"title": "不可战胜的夏天",
+		"desc": "单场战斗中，砂金•戏浪在热意达到上限的状态下施放【Allin！敬炽烈一夏】",
+		"rarity": "Low",
+		"series": 7,
+		"priority": 6430,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:4.5"
+		],
+		"difficulty": {}
+	},
+	{
+		"id": 4075505,
+		"title": "POV：派对遇到了对手但不想翻脸",
+		"desc": "单场战斗中，砂金•戏浪施放【举杯！敬炽烈一夏】或【Allin！敬炽烈一夏】对「惊梦剧团的气泡锂犬」造成最后一击",
+		"rarity": "Low",
+		"series": 7,
+		"priority": 6429,
+		"idsAchievementExclusive": [],
+		"tags": [
+			"版本:4.5"
 		],
 		"difficulty": {}
 	},

@@ -1190,6 +1190,34 @@
 		}
 	},
 	{
+		"id": "1512",
+		"element": "Wind",
+		"path": "Memory",
+		"rarity": 5,
+		"arggro": 100,
+		"versionAdded": "4.5",
+		"versionAvailable": "4.5",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "知更鸟•晴歌"
+			}
+		}
+	},
+	{
+		"id": "1513",
+		"element": "Quantum",
+		"path": "Elation",
+		"rarity": 5,
+		"arggro": 100,
+		"versionAdded": "4.5",
+		"versionAvailable": "4.5",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "砂金•戏浪"
+			}
+		}
+	},
+	{
 		"id": "8001",
 		"element": "Physical",
 		"path": "Warrior",
