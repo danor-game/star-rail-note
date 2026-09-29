@@ -1,9 +1,9 @@
 <template>
 	<p-fixed-topbar>
 		<p-tab-button @click="scrollTo('gacha-summary')"><Icon :icon="faStarOfDavid" style="color:var(--cMain)" /> 总览</p-tab-button>
+		<p-tab-button @click="scrollTo('gacha-pool-detail')"><Icon :icon="faStarOfDavid" style="color:var(--cMain)" /> 按跃迁活动</p-tab-button>
 		<p-tab-button @click="scrollTo('gacha-type')"><Icon :icon="faStarOfDavid" style="color:var(--cMain)" /> 按跃迁类型概览</p-tab-button>
 		<p-tab-button @click="scrollTo('gacha-type-detail')"><Icon :icon="faStarOfDavid" style="color:var(--cMain)" /> 按跃迁类型</p-tab-button>
-		<p-tab-button @click="scrollTo('gacha-pool-detail')"><Icon :icon="faStarOfDavid" style="color:var(--cMain)" /> 按跃迁活动</p-tab-button>
 	</p-fixed-topbar>
 
 	<p-fixed-sidebar>
@@ -52,6 +52,33 @@
 			</p-gather-info>
 		</p-box>
 
+		<p-box gacha-pool-detail>
+			<p-title>● 按<span value-highlight-xl>跃迁活动</span></p-title>
+			<p-gathers>
+				<p-gather v-for="analysis of analysisesPoolGachaShown" :key="analysis.id" :main="brop(isPoolGachaMain(analysis.pool.type))">
+					<PoolTitle :analysis="analysis"
+						:shown-character-rarity4="$shownCharacterRarity4"
+						:shown-lightcone-rarity4="$shownLightconeRarity4"
+						:misseds$id="A.misseds$id" />
+
+					<template v-if="$optionShowMatePool && analysis.poolsSub.length > 1">
+						<PoolTitleSub v-for="analysisSub of analysis.poolsSub" :key="analysisSub.id"
+							:analysis="analysisSub"
+							:analysis-lead="analysis"
+							:shown-character-rarity4="$shownCharacterRarity4"
+							:shown-lightcone-rarity4="$shownLightconeRarity4"
+							:misseds$id="A.misseds$id" />
+					</template>
+
+					<p-gachas v-if="$optionShowDetail">
+						<GachaItem v-if="analysis.countInvestNext" type="count-invest-next" :type-gacha="analysis.pool.type" :count-invest="analysis.countInvestNext" />
+						<GachaItem v-for="log of analysis.logsRare" :key="log.id" :log="log" :a="A" />
+						<GachaItem v-if="analysis.countInvestPrev" type="count-invest-prev" :type-gacha="analysis.pool.type" :count-invest="analysis.countInvestPrev" />
+					</p-gachas>
+				</p-gather>
+			</p-gathers>
+		</p-box>
+
 		<p-box gacha-type>
 			<p-title>● 按<span value-highlight-xl>跃迁类型</span>概览</p-title>
 			<p-gathers>
@@ -75,33 +102,6 @@
 					<p-gachas v-if="$optionShowDetail">
 						<GachaItem v-if="analysis.countInvestNext" type="count-invest-next" :type-gacha="analysis.id" :count-invest="analysis.countInvestNext" />
 						<GachaItem v-for="log of analysis.logsRare" :key="log.id" :a="A" :log="log" />
-					</p-gachas>
-				</p-gather>
-			</p-gathers>
-		</p-box>
-
-		<p-box gacha-pool-detail>
-			<p-title>● 按<span value-highlight-xl>跃迁活动</span></p-title>
-			<p-gathers>
-				<p-gather v-for="analysis of analysisesPoolGachaShown" :key="analysis.id" :main="brop(isPoolGachaMain(analysis.pool.type))">
-					<PoolTitle :analysis="analysis"
-						:shown-character-rarity4="$shownCharacterRarity4"
-						:shown-lightcone-rarity4="$shownLightconeRarity4"
-						:misseds$id="A.misseds$id" />
-
-					<template v-if="$optionShowMatePool && analysis.poolsSub.length > 1">
-						<PoolTitleSub v-for="analysisSub of analysis.poolsSub" :key="analysisSub.id"
-							:analysis="analysisSub"
-							:analysis-lead="analysis"
-							:shown-character-rarity4="$shownCharacterRarity4"
-							:shown-lightcone-rarity4="$shownLightconeRarity4"
-							:misseds$id="A.misseds$id" />
-					</template>
-
-					<p-gachas v-if="$optionShowDetail">
-						<GachaItem v-if="analysis.countInvestNext" type="count-invest-next" :type-gacha="analysis.pool.type" :count-invest="analysis.countInvestNext" />
-						<GachaItem v-for="log of analysis.logsRare" :key="log.id" :log="log" :a="A" />
-						<GachaItem v-if="analysis.countInvestPrev" type="count-invest-prev" :type-gacha="analysis.pool.type" :count-invest="analysis.countInvestPrev" />
 					</p-gachas>
 				</p-gather>
 			</p-gathers>

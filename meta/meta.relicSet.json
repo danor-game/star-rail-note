@@ -2718,6 +2718,184 @@
 		}
 	},
 	{
+		"id": "133",
+		"type": "Cavern",
+		"skills": {
+			"2": {
+				"countRequire": 2,
+				"params": [
+					{
+						"Value": 0.06
+					}
+				],
+				"$data$locale": {
+					"zh-cn": {
+						"desc": "速度提高<unbreak>#1[i]%</unbreak>。"
+					}
+				}
+			},
+			"4": {
+				"countRequire": 4,
+				"params": [
+					{
+						"Value": 0.16
+					},
+					{
+						"Value": 3
+					},
+					{
+						"Value": 10
+					},
+					{
+						"Value": 0.12
+					},
+					{
+						"Value": 3
+					}
+				],
+				"$data$locale": {
+					"zh-cn": {
+						"desc": "当装备者对我方其他单体目标施放战技或终结技时，使技能目标的欢愉度提高<unbreak>#1[i]%</unbreak>，持续<unbreak>#2[i]</unbreak>回合，若装备者持有的好活当赏大于等于<unbreak>#3[i]</unbreak>点，则额外使我方全体目标的暴击伤害提高<unbreak>#4[i]%</unbreak>，持续<unbreak>#5[i]</unbreak>回合。"
+					}
+				}
+			}
+		},
+		"idsRelic": [
+			{
+				"id": "61331",
+				"type": "HEAD",
+				"$data$locale": {
+					"zh-cn": {
+						"name": "伶人的悲泣假面",
+						"descBG": "伶人们表演时佩戴的面具，掩住了颤抖的哀容，却留下那双哭泣的眼睛。"
+					}
+				}
+			},
+			{
+				"id": "61332",
+				"type": "HAND",
+				"$data$locale": {
+					"zh-cn": {
+						"name": "伶人的斑斓折扇",
+						"descBG": "伶人们随身携带的折扇，在舞台上可变幻成诸多道具。"
+					}
+				}
+			},
+			{
+				"id": "61333",
+				"type": "BODY",
+				"$data$locale": {
+					"zh-cn": {
+						"name": "伶人的滑稽戏服",
+						"descBG": "装点着华贵装饰的束腰戏服。伶人演出种种剧目，观众的眼泪是最好的报答。"
+					}
+				}
+			},
+			{
+				"id": "61334",
+				"type": "FOOT",
+				"$data$locale": {
+					"zh-cn": {
+						"name": "伶人的弯月舞靴",
+						"descBG": "造型奇异的戏靴。有人说它的形象来自某处的月亮，有人说那其实是阿哈弯起的嘴角。"
+					}
+				}
+			}
+		],
+		"versionAdded": "4.6",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "戏梦点星的伶人"
+			}
+		}
+	},
+	{
+		"id": "134",
+		"type": "Cavern",
+		"skills": {
+			"2": {
+				"countRequire": 2,
+				"params": [
+					{
+						"Value": 0.16
+					}
+				],
+				"$data$locale": {
+					"zh-cn": {
+						"desc": "暴击伤害提高<unbreak>#1[i]%</unbreak>。"
+					}
+				}
+			},
+			"4": {
+				"countRequire": 4,
+				"params": [
+					{
+						"Value": 0.36
+					},
+					{
+						"Value": 0.2
+					},
+					{
+						"Value": 2
+					}
+				],
+				"$data$locale": {
+					"zh-cn": {
+						"desc": "使装备者普攻造成的伤害提高<unbreak>#1[i]%</unbreak>。当装备者施放普攻时，使装备者的攻击力提高<unbreak>#2[i]%</unbreak>，持续<unbreak>#3[i]</unbreak>回合。"
+					}
+				}
+			}
+		},
+		"idsRelic": [
+			{
+				"id": "61341",
+				"type": "HEAD",
+				"$data$locale": {
+					"zh-cn": {
+						"name": "异端的颅脑仪器",
+						"descBG": "研究员对大脑进行手术的仪器，历经灼烧与重塑，她的神经足以承载最黑暗的秘密。"
+					}
+				}
+			},
+			{
+				"id": "61342",
+				"type": "HAND",
+				"$data$locale": {
+					"zh-cn": {
+						"name": "异端的注射手套",
+						"descBG": "研究员配备注射器的实验手套，远古的嘶吼自那腥甜的液体中升起。"
+					}
+				}
+			},
+			{
+				"id": "61343",
+				"type": "BODY",
+				"$data$locale": {
+					"zh-cn": {
+						"name": "异端的理性束衣",
+						"descBG": "研究员的工作服布满拘束，可她深知：无形的生命又怎会被拘束于有形的骸体。"
+					}
+				}
+			},
+			{
+				"id": "61344",
+				"type": "FOOT",
+				"$data$locale": {
+					"zh-cn": {
+						"name": "异端的饥饿短靴",
+						"descBG": "研究员的皮靴在意外中生出了唇齿，拥有了永不满足的欲望，也意味着饱受折磨的饥饿。"
+					}
+				}
+			}
+		],
+		"versionAdded": "4.6",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "贪噬禁果的异端"
+			}
+		}
+	},
+	{
 		"id": "301",
 		"type": "Planar",
 		"skills": {

@@ -1092,6 +1092,20 @@
 		}
 	},
 	{
+		"id": "1503",
+		"element": "Ice",
+		"path": "Elation",
+		"rarity": 5,
+		"arggro": 100,
+		"versionAdded": "4.6",
+		"versionAvailable": "4.6",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "真珠"
+			}
+		}
+	},
+	{
 		"id": "1504",
 		"element": "Thunder",
 		"path": "Rogue",

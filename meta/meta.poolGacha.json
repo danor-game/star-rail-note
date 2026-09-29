@@ -6041,6 +6041,135 @@
 		}
 	},
 	{
+		"id": "2139",
+		"type": "11",
+		"timeDead": 1794294000,
+		"typeItem": "character",
+		"itemsBoost5": [
+			"1503"
+		],
+		"itemsBoost4": [
+			"1201",
+			"1214",
+			"1312"
+		],
+		"versionAdded": "4.6",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "沧海萃珠"
+			}
+		}
+	},
+	{
+		"id": "3139",
+		"type": "12",
+		"timeDead": 1794294000,
+		"typeItem": "lightcone",
+		"itemsBoost5": [
+			"23055"
+		],
+		"itemsBoost4": [
+			"21000",
+			"21011",
+			"21044"
+		],
+		"versionAdded": "4.6",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "流光定影"
+			}
+		}
+	},
+	{
+		"id": "2140",
+		"type": "11",
+		"timeDead": 1794294000,
+		"typeItem": "character",
+		"itemsBoost5": [
+			"1505"
+		],
+		"itemsBoost4": [
+			"1201",
+			"1214",
+			"1312"
+		],
+		"versionAdded": "4.6",
+		"rerun": 1,
+		"idLeader": "2139",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "韶艾裁英"
+			}
+		}
+	},
+	{
+		"id": "3140",
+		"type": "12",
+		"timeDead": 1794294000,
+		"typeItem": "lightcone",
+		"itemsBoost5": [
+			"23058"
+		],
+		"itemsBoost4": [
+			"21000",
+			"21011",
+			"21044"
+		],
+		"versionAdded": "4.6",
+		"rerun": 1,
+		"idLeader": "3139",
+		"$data$locale": {
+			"zh-cn": {
+				"name": "溯回忆象"
+			}
+		}
+	},
+
+	{
+		"id": "2141",
+		"type": "11",
+		"timeBorn": 1792555200,
+		"timeDead": 1794294000,
+		"typeItem": "character",
+		"itemsBoost5": [
+			"1507"
+		],
+		"itemsBoost4": [
+			"1201",
+			"1214",
+			"1312"
+		],
+		"versionAdded": "4.6",
+		"rerun": 1,
+		"$data$locale": {
+			"zh-cn": {
+				"name": "我身即刃"
+			}
+		}
+	},
+	{
+		"id": "3141",
+		"type": "12",
+		"timeBorn": 1792555200,
+		"timeDead": 1794294000,
+		"typeItem": "lightcone",
+		"itemsBoost5": [
+			"23059"
+		],
+		"itemsBoost4": [
+			"21000",
+			"21011",
+			"21044"
+		],
+		"versionAdded": "4.6",
+		"rerun": 1,
+		"$data$locale": {
+			"zh-cn": {
+				"name": "溯回忆象"
+			}
+		}
+	},
+	{
 		"id": "2999",
 		"type": "11",
 		"typeItem": "character",
